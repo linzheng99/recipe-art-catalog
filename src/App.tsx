@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { ArrowUp, ArrowUpRight, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Hero } from "@/components/hero";
+import { PromptSection } from "@/components/prompt-section";
 import { CatalogSection } from "@/components/catalog-section";
 import { SiteInfo } from "@/components/site-info";
 import { useCatalogStore } from "@/stores/catalog-store";
@@ -37,7 +38,10 @@ export function App() {
         </a>
         <nav aria-label="主导航">
           <a href="#catalog">插画图鉴</a>
-          <a href="#connect">数据接入</a>
+          <a href="#prompt">生成 Prompt</a>
+          <a className="nav-secondary" href="#connect">
+            数据接入
+          </a>
           <a href="#source">
             开源来源
             <ArrowUpRight aria-hidden="true" />
@@ -47,6 +51,7 @@ export function App() {
       <main>
         <Hero />
         <CatalogSection />
+        <PromptSection />
         <SiteInfo />
       </main>
       <footer className="site-footer wrap">

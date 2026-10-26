@@ -15,6 +15,27 @@ beforeEach(() => {
 });
 
 describe("公开目录兼容性", () => {
+  it("兼容未附正文的旧来源记录，拒绝损坏的菜谱分节", () => {
+    const legacy = structuredClone(fixture);
+    legacy.artworks.forEach(
+      (item: { reference_recipes: Record<string, unknown>[] }) =>
+        item.reference_recipes.forEach((recipe) => delete recipe.details),
+    );
+    expect(parseCatalog(legacy).schema_version).toBe(1);
+    const invalid = structuredClone(fixture);
+    invalid.artworks[0].reference_recipes[0].details.sections = [null];
+    expect(() => parseCatalog(invalid)).toThrow(/recipe content/);
+  });
+  it("兼容没有 prompt 的旧目录，并拒绝无法显示的 prompt 字段", () => {
+    const legacy = structuredClone(fixture);
+    legacy.artworks.forEach(
+      (item: Record<string, unknown>) => delete item.generation,
+    );
+    expect(parseCatalog(legacy).schema_version).toBe(1);
+    const invalid = structuredClone(fixture);
+    invalid.artworks[0].generation = { prompt: 123 };
+    expect(() => parseCatalog(invalid)).toThrow(/generation prompt/);
+  });
   it("按别称搜索，保留仓库子目录和旧图片摘要地址", () => {
     const catalog = parseCatalog(fixture);
     const tomato = catalog.artworks.find((item) => item.key === "tomato-egg")!;

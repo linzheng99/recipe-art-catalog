@@ -20,7 +20,7 @@ Q 版插画由 AI 独立生成，以菜谱文字作为外观参考；插画不�
 
 ## 前端第三方代码与字体
 
-网站使用 React / React DOM、Zustand、Motion、Radix UI、shadcn/ui Nova、Lucide、class-variance-authority、cn 等开源前端代码，并通过 Tailwind CSS 构建样式。确切版本及依赖关系保存在 package-lock.json；它们各自的许可不改变本项目独立插画或新增代码的许可范围。
+网站使用 React / React DOM、Zustand、Motion、Radix UI、shadcn/ui Nova、Lucide、class-variance-authority、cn、react-markdown、remark-gfm 等开源前端代码，并通过 Tailwind CSS 构建样式。确切版本及依赖关系保存在 package-lock.json；它们各自的许可不改变本项目独立插画或新增代码的许可范围。
 
 `src/components/ui/` 的基础组件来源于 shadcn/ui 的 radix-nova 注册表，按 MIT 许可使用；弹窗文案与 Motion 动画在本地适配。Geist 字体通过 @fontsource-variable/geist 本地打包，按 SIL Open Font License 1.1 使用，不请求远程字体服务。
 

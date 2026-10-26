@@ -18,13 +18,33 @@ export interface Variant {
   sha256: string;
 }
 
+export interface RecipeContent {
+  introduction: string;
+  difficulty: string | null;
+  sections: { heading: string; markdown: string }[];
+}
+
+export interface ReferenceRecipe {
+  id: string;
+  name: string;
+  url: string;
+  details?: RecipeContent | null;
+}
+
 export interface Artwork {
   key: string;
   name: string;
   aliases: string[];
   category: string;
+  generation?: {
+    prompt: string;
+    correction: { prompt: string; reason: string } | null;
+    tool: string;
+    style_reference: string;
+    source_file: string;
+  } | null;
   variants: Record<"256" | "512", Variant>;
-  reference_recipes: { id: string; name: string; url: string }[];
+  reference_recipes: ReferenceRecipe[];
   nutrition: {
     status: "unknown" | "reference";
     basis: "per_100g" | null;
@@ -142,6 +162,24 @@ export function parseCatalog(value: unknown): Catalog {
       throw new Error("Invalid artwork");
     }
     keys.add(item.key);
+    const generation = item.generation;
+    // 兼容尚未包含新增字段的 schema=1 目录；有记录时须保证可显示和复制。
+    if (generation !== undefined && generation !== null) {
+      if (
+        !record(generation) ||
+        typeof generation.prompt !== "string" ||
+        !generation.prompt.trim() ||
+        typeof generation.tool !== "string" ||
+        typeof generation.style_reference !== "string" ||
+        typeof generation.source_file !== "string" ||
+        (generation.correction !== null &&
+          (!record(generation.correction) ||
+            typeof generation.correction.prompt !== "string" ||
+            !generation.correction.prompt.trim() ||
+            typeof generation.correction.reason !== "string"))
+      )
+        throw new Error("Invalid generation prompt");
+    }
     for (const size of ["256", "512"] as const) {
       const variant = item.variants[size];
       if (
@@ -167,6 +205,25 @@ export function parseCatalog(value: unknown): Catalog {
       )
     )
       throw new Error("Invalid source");
+    for (const recipe of item.reference_recipes) {
+      const details = recipe.details;
+      if (
+        details !== undefined &&
+        details !== null &&
+        (!record(details) ||
+          typeof details.introduction !== "string" ||
+          (details.difficulty !== null &&
+            typeof details.difficulty !== "string") ||
+          !Array.isArray(details.sections) ||
+          !details.sections.every(
+            (section) =>
+              record(section) &&
+              typeof section.heading === "string" &&
+              typeof section.markdown === "string",
+          ))
+      )
+        throw new Error("Invalid recipe content");
+    }
     const nutrition = item.nutrition;
     if (
       !record(nutrition) ||

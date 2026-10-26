@@ -3,6 +3,8 @@ import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { writeFrontendNotices } from "./frontend-notices.mjs";
+import { loadGenerationPrompts } from "./generation-prompts.mjs";
+import { loadRecipeContents } from "./recipe-content.mjs";
 
 export const root = fileURLToPath(new URL("../", import.meta.url));
 const readJSON = async (filename) =>
@@ -13,7 +15,14 @@ const assert = (condition, message) => {
   if (!condition) throw new Error(message);
 };
 
-export function assemble(source, config, variants, nutrition) {
+export function assemble(
+  source,
+  config,
+  variants,
+  nutrition,
+  prompts = new Map(),
+  recipeContents = new Map(),
+) {
   const recipes = new Map(source.recipes.map((recipe) => [recipe.id, recipe]));
   const images = new Map(variants.artworks.map((image) => [image.key, image]));
   const keys = new Set(),
@@ -95,9 +104,11 @@ export function assemble(source, config, variants, nutrition) {
           category,
           url: source_url,
           blob_sha,
+          details: recipeContents.get(id) ?? null,
         }),
       ),
       nutrition: reference,
+      generation: prompts.get(artwork.key) ?? null,
       variants: image.variants,
     };
   });
@@ -152,7 +163,16 @@ export async function build({ check = false } = {}) {
       "catalog/nutrition.json",
     ].map(readJSON),
   );
-  const manifest = assemble(source, config, variants, nutrition);
+  const prompts = await loadGenerationPrompts(root);
+  const recipeContents = await loadRecipeContents(root, source, config);
+  const manifest = assemble(
+    source,
+    config,
+    variants,
+    nutrition,
+    prompts,
+    recipeContents,
+  );
   // Git checkout只需要压缩成品；不依赖未提交的PNG原稿、Python或其他应用仓库。
   for (const artwork of manifest.artworks) {
     for (const size of [256, 512]) {
