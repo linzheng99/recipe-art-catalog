@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.webp binary
+*.png binary
+*.jpg binary
+
+# 来源、提示词和许可是原始证据；保留字节及 Markdown 双空格换行。
+sources/references/** -text whitespace=-blank-at-eol
+sources/prompts/** -text
+catalog/HOWTOCOOK-LICENSE -text
+licenses/** -text whitespace=cr-at-eol
+public/licenses/** -text whitespace=cr-at-eol

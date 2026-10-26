@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "entries": {
+    "dish-853f4dcc16af": {
+      "status": "reference",
+      "basis": "per_100g",
+      "serving_g": null,
+      "scope": "按水煮黄色甜玉米粒参考，不含玉米芯；糯玉米不匹配",
+      "per_100g": {
+        "energy_kcal": 96.0,
+        "protein_g": 3.41,
+        "carbohydrate_g": 20.98,
+        "fat_g": 1.5
+      },
+      "source": {
+        "name": "USDA FoodData Central · SR Legacy",
+        "url": "https://fdc.nal.usda.gov/food-details/169999/nutrients",
+        "version": "SR Legacy 2019-04-01 / retrieved 2026-10-23",
+        "food_id": "169999"
+      }
+    }
+  }
+}

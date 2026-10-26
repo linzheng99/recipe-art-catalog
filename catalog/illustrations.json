@@ -1,0 +1,1780 @@
+{
+  "schema_version": 1,
+  "artworks": [
+    {
+      "key": "tomato-egg",
+      "name": "西红柿炒鸡蛋",
+      "aliases": [
+        "番茄炒蛋",
+        "番茄炒鸡蛋",
+        "西红柿炒蛋"
+      ],
+      "recipe_ids": [
+        "howtocook-2130948c0fd2"
+      ],
+      "source_file": "sources/artwork/originals/tomato-egg.png"
+    },
+    {
+      "key": "mapo-tofu",
+      "name": "麻婆豆腐",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c68aaa42a6ac"
+      ],
+      "source_file": "sources/artwork/originals/mapo-tofu.png"
+    },
+    {
+      "key": "kung-pao-chicken",
+      "name": "宫保鸡丁",
+      "aliases": [
+        "宫爆鸡丁"
+      ],
+      "recipe_ids": [
+        "howtocook-f727a804d318"
+      ],
+      "source_file": "sources/artwork/originals/kung-pao-chicken.png"
+    },
+    {
+      "key": "braised-pork",
+      "name": "简易红烧肉",
+      "aliases": [
+        "红烧肉"
+      ],
+      "recipe_ids": [
+        "howtocook-0eb9f4426ab5"
+      ],
+      "source_file": "sources/artwork/originals/braised-pork.png"
+    },
+    {
+      "key": "shredded-potato",
+      "name": "酸辣土豆丝",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9190d44233e7"
+      ],
+      "source_file": "sources/artwork/originals/shredded-potato.png"
+    },
+    {
+      "key": "cucumber-salad",
+      "name": "凉拌黄瓜",
+      "aliases": [
+        "拍黄瓜",
+        "凉拌拍黄瓜"
+      ],
+      "recipe_ids": [
+        "howtocook-f5e44764c054"
+      ],
+      "source_file": "sources/artwork/originals/cucumber-salad.png"
+    },
+    {
+      "key": "egg-fried-rice",
+      "name": "蛋炒饭",
+      "aliases": [
+        "鸡蛋炒饭"
+      ],
+      "recipe_ids": [
+        "howtocook-0e9866e5643e"
+      ],
+      "source_file": "sources/artwork/originals/egg-fried-rice.png"
+    },
+    {
+      "key": "steamed-egg",
+      "name": "蒸水蛋",
+      "aliases": [
+        "水蒸蛋",
+        "蒸蛋",
+        "鸡蛋羹"
+      ],
+      "recipe_ids": [
+        "howtocook-b13f782654bf",
+        "howtocook-afbed0895578"
+      ],
+      "source_file": "sources/artwork/originals/steamed-egg.png"
+    },
+    {
+      "key": "fish-fragrant-pork",
+      "name": "鱼香肉丝",
+      "aliases": [
+        "鱼香炒肉丝"
+      ],
+      "recipe_ids": [
+        "howtocook-5f3a3719b0e0"
+      ],
+      "source_file": "sources/artwork/originals/fish-fragrant-pork.png"
+    },
+    {
+      "key": "sweet-sour-pork",
+      "name": "糖醋里脊",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-788feaed2146"
+      ],
+      "source_file": "sources/artwork/originals/sweet-sour-pork.png"
+    },
+    {
+      "key": "cola-wings",
+      "name": "可乐鸡翅",
+      "aliases": [
+        "可乐烧鸡翅"
+      ],
+      "recipe_ids": [
+        "howtocook-3a892c884d6f"
+      ],
+      "source_file": "sources/artwork/originals/cola-wings.png"
+    },
+    {
+      "key": "twice-cooked-pork",
+      "name": "回锅肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-dacc0e7e690a"
+      ],
+      "source_file": "sources/artwork/originals/twice-cooked-pork.png"
+    },
+    {
+      "key": "sichuan-boiled-pork",
+      "name": "水煮肉片",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b898ff51880d"
+      ],
+      "source_file": "sources/artwork/originals/sichuan-boiled-pork.png"
+    },
+    {
+      "key": "sweet-sour-ribs",
+      "name": "糖醋排骨",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-39425dec3866"
+      ],
+      "source_file": "sources/artwork/originals/sweet-sour-ribs.png"
+    },
+    {
+      "key": "steamed-bass",
+      "name": "清蒸鲈鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-547705f2774c"
+      ],
+      "source_file": "sources/artwork/originals/steamed-bass.png"
+    },
+    {
+      "key": "garlic-shrimp",
+      "name": "蒜蓉虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4a879c3b12a8"
+      ],
+      "source_file": "sources/artwork/originals/garlic-shrimp.png"
+    },
+    {
+      "key": "di-san-xian",
+      "name": "地三鲜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0250e6ee464f"
+      ],
+      "source_file": "sources/artwork/originals/di-san-xian.png"
+    },
+    {
+      "key": "torn-cabbage",
+      "name": "手撕包菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-cf8cf91d51ff"
+      ],
+      "source_file": "sources/artwork/originals/torn-cabbage.png"
+    },
+    {
+      "key": "garlic-water-spinach",
+      "name": "蒜蓉空心菜",
+      "aliases": [
+        "蒜泥空心菜"
+      ],
+      "recipe_ids": [
+        "howtocook-a1b0c1fdfc06"
+      ],
+      "source_file": "sources/artwork/originals/garlic-water-spinach.png"
+    },
+    {
+      "key": "mushroom-chicken",
+      "name": "香菇滑鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4f1a2679eb84"
+      ],
+      "source_file": "sources/artwork/originals/mushroom-chicken.png"
+    },
+    {
+      "key": "dish-b69537e9b0c4",
+      "name": "咖喱炒蟹",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b69537e9b0c4"
+      ],
+      "source_file": "sources/artwork/originals/dish-b69537e9b0c4.png"
+    },
+    {
+      "key": "dish-b9a1d9770073",
+      "name": "响油鳝丝",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b9a1d9770073"
+      ],
+      "source_file": "sources/artwork/originals/dish-b9a1d9770073.png"
+    },
+    {
+      "key": "dish-e2a148eb6cf1",
+      "name": "小龙虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e2a148eb6cf1"
+      ],
+      "source_file": "sources/artwork/originals/dish-e2a148eb6cf1.png"
+    },
+    {
+      "key": "dish-6417780c575c",
+      "name": "干煎阿根廷红虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6417780c575c"
+      ],
+      "source_file": "sources/artwork/originals/dish-6417780c575c.png"
+    },
+    {
+      "key": "dish-cc2c4f786f63",
+      "name": "微波葱姜黑鳕鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-cc2c4f786f63"
+      ],
+      "source_file": "sources/artwork/originals/dish-cc2c4f786f63.png"
+    },
+    {
+      "key": "dish-eb849be42cbb",
+      "name": "水煮鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-eb849be42cbb"
+      ],
+      "source_file": "sources/artwork/originals/dish-eb849be42cbb.png"
+    },
+    {
+      "key": "dish-4dbabae17621",
+      "name": "油焖大虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4dbabae17621"
+      ],
+      "source_file": "sources/artwork/originals/dish-4dbabae17621.png"
+    },
+    {
+      "key": "dish-711ab5d8b4ee",
+      "name": "烤鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-711ab5d8b4ee"
+      ],
+      "source_file": "sources/artwork/originals/dish-711ab5d8b4ee.png"
+    },
+    {
+      "key": "dish-651c621bb138",
+      "name": "清蒸生蚝",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-651c621bb138"
+      ],
+      "source_file": "sources/artwork/originals/dish-651c621bb138.png"
+    },
+    {
+      "key": "dish-61ffbcb05ceb",
+      "name": "白灼虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-61ffbcb05ceb"
+      ],
+      "source_file": "sources/artwork/originals/dish-61ffbcb05ceb.png"
+    },
+    {
+      "key": "dish-95caf6ad1a8c",
+      "name": "糖醋鲤鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-95caf6ad1a8c"
+      ],
+      "source_file": "sources/artwork/originals/dish-95caf6ad1a8c.png"
+    },
+    {
+      "key": "dish-a5ad40355b76",
+      "name": "红烧鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a5ad40355b76"
+      ],
+      "source_file": "sources/artwork/originals/dish-a5ad40355b76.png"
+    },
+    {
+      "key": "dish-961ae3ea5f72",
+      "name": "红烧鱼头",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-961ae3ea5f72"
+      ],
+      "source_file": "sources/artwork/originals/dish-961ae3ea5f72.png"
+    },
+    {
+      "key": "dish-2e80c786dc11",
+      "name": "红烧鲤鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2e80c786dc11"
+      ],
+      "source_file": "sources/artwork/originals/dish-2e80c786dc11.png"
+    },
+    {
+      "key": "dish-0ed628aba05a",
+      "name": "肉蟹煲",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0ed628aba05a"
+      ],
+      "source_file": "sources/artwork/originals/dish-0ed628aba05a.png"
+    },
+    {
+      "key": "dish-93eb7c244089",
+      "name": "芥末黄油罗氏虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-93eb7c244089"
+      ],
+      "source_file": "sources/artwork/originals/dish-93eb7c244089.png"
+    },
+    {
+      "key": "dish-d22fb95d6bed",
+      "name": "葱油桂鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d22fb95d6bed"
+      ],
+      "source_file": "sources/artwork/originals/dish-d22fb95d6bed.png"
+    },
+    {
+      "key": "dish-2ce6f52e5526",
+      "name": "葱烧海参",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2ce6f52e5526"
+      ],
+      "source_file": "sources/artwork/originals/dish-2ce6f52e5526.png"
+    },
+    {
+      "key": "dish-65787a402898",
+      "name": "蒜香黄油虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-65787a402898"
+      ],
+      "source_file": "sources/artwork/originals/dish-65787a402898.png"
+    },
+    {
+      "key": "dish-9c598d5ae097",
+      "name": "蛏抱蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9c598d5ae097"
+      ],
+      "source_file": "sources/artwork/originals/dish-9c598d5ae097.png"
+    },
+    {
+      "key": "dish-d3570dbb127b",
+      "name": "酱炖蟹",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d3570dbb127b"
+      ],
+      "source_file": "sources/artwork/originals/dish-d3570dbb127b.png"
+    },
+    {
+      "key": "dish-bd0928f82e92",
+      "name": "阳朔啤酒鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bd0928f82e92"
+      ],
+      "source_file": "sources/artwork/originals/dish-bd0928f82e92.png"
+    },
+    {
+      "key": "dish-c9b72f0464b3",
+      "name": "香煎翘嘴鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c9b72f0464b3"
+      ],
+      "source_file": "sources/artwork/originals/dish-c9b72f0464b3.png"
+    },
+    {
+      "key": "dish-f8c41af7879a",
+      "name": "鲤鱼炖白菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f8c41af7879a"
+      ],
+      "source_file": "sources/artwork/originals/dish-f8c41af7879a.png"
+    },
+    {
+      "key": "dish-4211c36ff61d",
+      "name": "鳊鱼炖豆腐",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4211c36ff61d"
+      ],
+      "source_file": "sources/artwork/originals/dish-4211c36ff61d.png"
+    },
+    {
+      "key": "dish-2aba0e13c9d6",
+      "name": "黄油煎虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2aba0e13c9d6"
+      ],
+      "source_file": "sources/artwork/originals/dish-2aba0e13c9d6.png"
+    },
+    {
+      "key": "dish-a1ba8de42384",
+      "name": "吐司果酱",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a1ba8de42384"
+      ],
+      "source_file": "sources/artwork/originals/dish-a1ba8de42384.png"
+    },
+    {
+      "key": "dish-09402d43ecdf",
+      "name": "太阳蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-09402d43ecdf"
+      ],
+      "source_file": "sources/artwork/originals/dish-09402d43ecdf.png"
+    },
+    {
+      "key": "dish-2a9c58483b71",
+      "name": "完美水煮蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2a9c58483b71"
+      ],
+      "source_file": "sources/artwork/originals/dish-2a9c58483b71.png"
+    },
+    {
+      "key": "dish-e0ef10c6e905",
+      "name": "微波炉荷包蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e0ef10c6e905"
+      ],
+      "source_file": "sources/artwork/originals/dish-e0ef10c6e905.png"
+    },
+    {
+      "key": "dish-4b816847856f",
+      "name": "微波炉蒸蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4b816847856f"
+      ],
+      "source_file": "sources/artwork/originals/dish-4b816847856f.png"
+    },
+    {
+      "key": "dish-17cc9ae41d9f",
+      "name": "微波炉蛋糕",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-17cc9ae41d9f"
+      ],
+      "source_file": "sources/artwork/originals/dish-17cc9ae41d9f.png"
+    },
+    {
+      "key": "dish-e9b179096587",
+      "name": "意式香肠北非蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e9b179096587"
+      ],
+      "source_file": "sources/artwork/originals/dish-e9b179096587.png"
+    },
+    {
+      "key": "dish-6bb8f801a8b8",
+      "name": "手抓饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6bb8f801a8b8"
+      ],
+      "source_file": "sources/artwork/originals/dish-6bb8f801a8b8.png"
+    },
+    {
+      "key": "dish-5ab770d28136",
+      "name": "桂圆红枣粥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5ab770d28136"
+      ],
+      "source_file": "sources/artwork/originals/dish-5ab770d28136.png"
+    },
+    {
+      "key": "dish-853f4dcc16af",
+      "name": "水煮玉米",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-853f4dcc16af"
+      ],
+      "source_file": "sources/artwork/originals/dish-853f4dcc16af.png"
+    },
+    {
+      "key": "dish-0d12168d06e9",
+      "name": "温泉蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0d12168d06e9"
+      ],
+      "source_file": "sources/artwork/originals/dish-0d12168d06e9.png"
+    },
+    {
+      "key": "dish-7a681fba9fd0",
+      "name": "溏心蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-7a681fba9fd0"
+      ],
+      "source_file": "sources/artwork/originals/dish-7a681fba9fd0.png"
+    },
+    {
+      "key": "dish-49e499d0553b",
+      "name": "煎饺",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-49e499d0553b"
+      ],
+      "source_file": "sources/artwork/originals/dish-49e499d0553b.png"
+    },
+    {
+      "key": "dish-515e68668fde",
+      "name": "燕麦鸡蛋饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-515e68668fde"
+      ],
+      "source_file": "sources/artwork/originals/dish-515e68668fde.png"
+    },
+    {
+      "key": "dish-0f850528c984",
+      "name": "牛奶燕麦",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0f850528c984"
+      ],
+      "source_file": "sources/artwork/originals/dish-0f850528c984.png"
+    },
+    {
+      "key": "dish-daeebaa77c3a",
+      "name": "空气炸锅面包片",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-daeebaa77c3a"
+      ],
+      "source_file": "sources/artwork/originals/dish-daeebaa77c3a.png"
+    },
+    {
+      "key": "dish-a27c91703f1a",
+      "name": "美式炒蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a27c91703f1a"
+      ],
+      "source_file": "sources/artwork/originals/dish-a27c91703f1a.png"
+    },
+    {
+      "key": "dish-aef1ffb7e9d0",
+      "name": "苏格兰蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-aef1ffb7e9d0"
+      ],
+      "source_file": "sources/artwork/originals/dish-aef1ffb7e9d0.png"
+    },
+    {
+      "key": "dish-c75ae014f76e",
+      "name": "茶叶蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c75ae014f76e"
+      ],
+      "source_file": "sources/artwork/originals/dish-c75ae014f76e.png"
+    },
+    {
+      "key": "dish-35820a0555d3",
+      "name": "蒸花卷",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-35820a0555d3"
+      ],
+      "source_file": "sources/artwork/originals/dish-35820a0555d3.png"
+    },
+    {
+      "key": "dish-61c1012b42f1",
+      "name": "蛋煎糍粑",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-61c1012b42f1"
+      ],
+      "source_file": "sources/artwork/originals/dish-61c1012b42f1.png"
+    },
+    {
+      "key": "dish-f3b656b5a03f",
+      "name": "金枪鱼酱三明治",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f3b656b5a03f"
+      ],
+      "source_file": "sources/artwork/originals/dish-f3b656b5a03f.png"
+    },
+    {
+      "key": "dish-fb61ba750320",
+      "name": "韩国麻药鸡蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-fb61ba750320"
+      ],
+      "source_file": "sources/artwork/originals/dish-fb61ba750320.png"
+    },
+    {
+      "key": "dish-40b2e9e97868",
+      "name": "鸡蛋三明治",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-40b2e9e97868"
+      ],
+      "source_file": "sources/artwork/originals/dish-40b2e9e97868.png"
+    },
+    {
+      "key": "dish-c1d599a83ce0",
+      "name": "油泼辣子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c1d599a83ce0"
+      ],
+      "source_file": "sources/artwork/originals/dish-c1d599a83ce0.png"
+    },
+    {
+      "key": "dish-bebbb3caba34",
+      "name": "油酥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bebbb3caba34"
+      ],
+      "source_file": "sources/artwork/originals/dish-bebbb3caba34.png"
+    },
+    {
+      "key": "dish-12863092d2c6",
+      "name": "炸串酱料",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-12863092d2c6"
+      ],
+      "source_file": "sources/artwork/originals/dish-12863092d2c6.png"
+    },
+    {
+      "key": "dish-b0ca418ed646",
+      "name": "简易版炒糖色",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b0ca418ed646"
+      ],
+      "source_file": "sources/artwork/originals/dish-b0ca418ed646.png"
+    },
+    {
+      "key": "dish-f26c5646a21a",
+      "name": "糖醋汁",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f26c5646a21a"
+      ],
+      "source_file": "sources/artwork/originals/dish-f26c5646a21a.png"
+    },
+    {
+      "key": "dish-6674e52ce5ac",
+      "name": "草莓酱",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6674e52ce5ac"
+      ],
+      "source_file": "sources/artwork/originals/dish-6674e52ce5ac.png"
+    },
+    {
+      "key": "dish-53fc0a69484a",
+      "name": "葱油",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-53fc0a69484a"
+      ],
+      "source_file": "sources/artwork/originals/dish-53fc0a69484a.png"
+    },
+    {
+      "key": "dish-fc61a88b7e00",
+      "name": "蒜香酱油",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-fc61a88b7e00"
+      ],
+      "source_file": "sources/artwork/originals/dish-fc61a88b7e00.png"
+    },
+    {
+      "key": "dish-e1c93933b3fd",
+      "name": "蔗糖糖浆",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e1c93933b3fd"
+      ],
+      "source_file": "sources/artwork/originals/dish-e1c93933b3fd.png"
+    },
+    {
+      "key": "dish-e53cc385a1a0",
+      "name": "反沙芋头",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e53cc385a1a0"
+      ],
+      "source_file": "sources/artwork/originals/dish-e53cc385a1a0.png"
+    },
+    {
+      "key": "dish-0f2b773be2e0",
+      "name": "咖啡椰奶冻",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0f2b773be2e0"
+      ],
+      "source_file": "sources/artwork/originals/dish-0f2b773be2e0.png"
+    },
+    {
+      "key": "dish-12a0f2535a3d",
+      "name": "奥利奥冰淇淋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-12a0f2535a3d"
+      ],
+      "source_file": "sources/artwork/originals/dish-12a0f2535a3d.png"
+    },
+    {
+      "key": "dish-73b34579ff0e",
+      "name": "戚风蛋糕",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-73b34579ff0e"
+      ],
+      "source_file": "sources/artwork/originals/dish-73b34579ff0e.png"
+    },
+    {
+      "key": "dish-8c3af213e85c",
+      "name": "提拉米苏",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-8c3af213e85c"
+      ],
+      "source_file": "sources/artwork/originals/dish-8c3af213e85c.png"
+    },
+    {
+      "key": "dish-dd9b76b4698c",
+      "name": "无厨师机蜂蜜面包",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-dd9b76b4698c"
+      ],
+      "source_file": "sources/artwork/originals/dish-dd9b76b4698c.png"
+    },
+    {
+      "key": "dish-85c01e8fd94f",
+      "name": "炸鲜奶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-85c01e8fd94f"
+      ],
+      "source_file": "sources/artwork/originals/dish-85c01e8fd94f.png"
+    },
+    {
+      "key": "dish-5112cfeefccc",
+      "name": "烤箱版巴斯克芝士蛋糕",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5112cfeefccc"
+      ],
+      "source_file": "sources/artwork/originals/dish-5112cfeefccc.png"
+    },
+    {
+      "key": "dish-ebf90ccaf451",
+      "name": "烤蛋挞",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ebf90ccaf451"
+      ],
+      "source_file": "sources/artwork/originals/dish-ebf90ccaf451.png"
+    },
+    {
+      "key": "dish-0fdf09819203",
+      "name": "玛格丽特饼干",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0fdf09819203"
+      ],
+      "source_file": "sources/artwork/originals/dish-0fdf09819203.png"
+    },
+    {
+      "key": "dish-6cda991d90ce",
+      "name": "红柚蛋糕",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6cda991d90ce"
+      ],
+      "source_file": "sources/artwork/originals/dish-6cda991d90ce.png"
+    },
+    {
+      "key": "dish-d23cfa9525fb",
+      "name": "胡萝卜甜糕",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d23cfa9525fb"
+      ],
+      "source_file": "sources/artwork/originals/dish-d23cfa9525fb.png"
+    },
+    {
+      "key": "dish-bc33bad07d07",
+      "name": "芋泥雪媚娘",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bc33bad07d07"
+      ],
+      "source_file": "sources/artwork/originals/dish-bc33bad07d07.png"
+    },
+    {
+      "key": "dish-91bc15e9352d",
+      "name": "英式司康",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-91bc15e9352d"
+      ],
+      "source_file": "sources/artwork/originals/dish-91bc15e9352d.png"
+    },
+    {
+      "key": "dish-7047e23423f0",
+      "name": "草莓冰淇淋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-7047e23423f0"
+      ],
+      "source_file": "sources/artwork/originals/dish-7047e23423f0.png"
+    },
+    {
+      "key": "dish-545e3a3e64c9",
+      "name": "酸奶意式奶冻",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-545e3a3e64c9"
+      ],
+      "source_file": "sources/artwork/originals/dish-545e3a3e64c9.png"
+    },
+    {
+      "key": "dish-0175adf06f5f",
+      "name": "雪花酥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0175adf06f5f"
+      ],
+      "source_file": "sources/artwork/originals/dish-0175adf06f5f.png"
+    },
+    {
+      "key": "dish-1282bbd3a9c9",
+      "name": "魔芋蛋糕",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1282bbd3a9c9"
+      ],
+      "source_file": "sources/artwork/originals/dish-1282bbd3a9c9.png"
+    },
+    {
+      "key": "dish-43027c68c000",
+      "name": "龟苓膏",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-43027c68c000"
+      ],
+      "source_file": "sources/artwork/originals/dish-43027c68c000.png"
+    },
+    {
+      "key": "dish-989ccdcae7af",
+      "name": "B52轰炸机",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-989ccdcae7af"
+      ],
+      "source_file": "sources/artwork/originals/dish-989ccdcae7af.png"
+    },
+    {
+      "key": "dish-b8b6c7d1722e",
+      "name": "Mojito莫吉托",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b8b6c7d1722e"
+      ],
+      "source_file": "sources/artwork/originals/dish-b8b6c7d1722e.png"
+    },
+    {
+      "key": "dish-678acb8ed4c0",
+      "name": "冬瓜茶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-678acb8ed4c0"
+      ],
+      "source_file": "sources/artwork/originals/dish-678acb8ed4c0.png"
+    },
+    {
+      "key": "dish-460b515020de",
+      "name": "冰粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-460b515020de"
+      ],
+      "source_file": "sources/artwork/originals/dish-460b515020de.png"
+    },
+    {
+      "key": "dish-b48ca1e354ea",
+      "name": "印度奶茶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b48ca1e354ea"
+      ],
+      "source_file": "sources/artwork/originals/dish-b48ca1e354ea.png"
+    },
+    {
+      "key": "dish-ffc03aba56ce",
+      "name": "可乐桶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ffc03aba56ce"
+      ],
+      "source_file": "sources/artwork/originals/dish-ffc03aba56ce.png"
+    },
+    {
+      "key": "dish-d18a2e859415",
+      "name": "奇异果菠菜特调",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d18a2e859415"
+      ],
+      "source_file": "sources/artwork/originals/dish-d18a2e859415.png"
+    },
+    {
+      "key": "dish-ed29771026e7",
+      "name": "奶茶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ed29771026e7"
+      ],
+      "source_file": "sources/artwork/originals/dish-ed29771026e7.png"
+    },
+    {
+      "key": "dish-e403ba22275a",
+      "name": "杨枝甘露",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e403ba22275a"
+      ],
+      "source_file": "sources/artwork/originals/dish-e403ba22275a.png"
+    },
+    {
+      "key": "dish-378f9d2c3a56",
+      "name": "柠檬水",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-378f9d2c3a56"
+      ],
+      "source_file": "sources/artwork/originals/dish-378f9d2c3a56.png"
+    },
+    {
+      "key": "dish-91c84c269928",
+      "name": "泰国手标红茶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-91c84c269928"
+      ],
+      "source_file": "sources/artwork/originals/dish-91c84c269928.png"
+    },
+    {
+      "key": "dish-b261aa97c4ab",
+      "name": "海边落日",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b261aa97c4ab"
+      ],
+      "source_file": "sources/artwork/originals/dish-b261aa97c4ab.png"
+    },
+    {
+      "key": "dish-3a181639cf91",
+      "name": "牛油果拉西",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-3a181639cf91"
+      ],
+      "source_file": "sources/artwork/originals/dish-3a181639cf91.png"
+    },
+    {
+      "key": "dish-30eafb2f0a66",
+      "name": "百香果橙子特调",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-30eafb2f0a66"
+      ],
+      "source_file": "sources/artwork/originals/dish-30eafb2f0a66.png"
+    },
+    {
+      "key": "dish-677f373658d2",
+      "name": "砂糖椰子冰沙",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-677f373658d2"
+      ],
+      "source_file": "sources/artwork/originals/dish-677f373658d2.png"
+    },
+    {
+      "key": "dish-11368a20c31b",
+      "name": "耙耙柑茶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-11368a20c31b"
+      ],
+      "source_file": "sources/artwork/originals/dish-11368a20c31b.png"
+    },
+    {
+      "key": "dish-cb3741f4d29d",
+      "name": "菠萝咖啡特调",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-cb3741f4d29d"
+      ],
+      "source_file": "sources/artwork/originals/dish-cb3741f4d29d.png"
+    },
+    {
+      "key": "dish-4633664c062d",
+      "name": "酒酿醪糟",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4633664c062d"
+      ],
+      "source_file": "sources/artwork/originals/dish-4633664c062d.png"
+    },
+    {
+      "key": "dish-d20888ebc3bf",
+      "name": "酸梅汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d20888ebc3bf"
+      ],
+      "source_file": "sources/artwork/originals/dish-d20888ebc3bf.png"
+    },
+    {
+      "key": "dish-342d514cbf79",
+      "name": "酸梅汤（半成品加工）",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-342d514cbf79"
+      ],
+      "source_file": "sources/artwork/originals/dish-342d514cbf79.png"
+    },
+    {
+      "key": "dish-4f64350b4de5",
+      "name": "金汤力",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4f64350b4de5"
+      ],
+      "source_file": "sources/artwork/originals/dish-4f64350b4de5.png"
+    },
+    {
+      "key": "dish-efd96f40d1be",
+      "name": "金菲士",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-efd96f40d1be"
+      ],
+      "source_file": "sources/artwork/originals/dish-efd96f40d1be.png"
+    },
+    {
+      "key": "dish-45ad36b6133c",
+      "name": "长岛冰茶",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-45ad36b6133c"
+      ],
+      "source_file": "sources/artwork/originals/dish-45ad36b6133c.png"
+    },
+    {
+      "key": "dish-e2015e2e0cc1",
+      "name": "乡村啤酒鸭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e2015e2e0cc1"
+      ],
+      "source_file": "sources/artwork/originals/dish-e2015e2e0cc1.png"
+    },
+    {
+      "key": "dish-cd64270612fa",
+      "name": "农家一碗香",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-cd64270612fa"
+      ],
+      "source_file": "sources/artwork/originals/dish-cd64270612fa.png"
+    },
+    {
+      "key": "dish-75dec5080931",
+      "name": "冬瓜桑拿鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-75dec5080931"
+      ],
+      "source_file": "sources/artwork/originals/dish-75dec5080931.png"
+    },
+    {
+      "key": "dish-40e28313bc71",
+      "name": "冬瓜酿肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-40e28313bc71"
+      ],
+      "source_file": "sources/artwork/originals/dish-40e28313bc71.png"
+    },
+    {
+      "key": "dish-50cf74d8dc74",
+      "name": "冷吃兔",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-50cf74d8dc74"
+      ],
+      "source_file": "sources/artwork/originals/dish-50cf74d8dc74.png"
+    },
+    {
+      "key": "dish-d9904098db67",
+      "name": "凉拌鸡丝",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d9904098db67"
+      ],
+      "source_file": "sources/artwork/originals/dish-d9904098db67.png"
+    },
+    {
+      "key": "dish-ad28ce802c92",
+      "name": "卤菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ad28ce802c92"
+      ],
+      "source_file": "sources/artwork/originals/dish-ad28ce802c92.png"
+    },
+    {
+      "key": "dish-dc93ff485c88",
+      "name": "口水鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-dc93ff485c88"
+      ],
+      "source_file": "sources/artwork/originals/dish-dc93ff485c88.png"
+    },
+    {
+      "key": "dish-5a753afd111f",
+      "name": "台式卤肉饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5a753afd111f"
+      ],
+      "source_file": "sources/artwork/originals/dish-5a753afd111f.png"
+    },
+    {
+      "key": "dish-288b3f0b016a",
+      "name": "咕噜肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-288b3f0b016a"
+      ],
+      "source_file": "sources/artwork/originals/dish-288b3f0b016a.png"
+    },
+    {
+      "key": "dish-e21f5bfb5fe6",
+      "name": "咖喱肥牛",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e21f5bfb5fe6"
+      ],
+      "source_file": "sources/artwork/originals/dish-e21f5bfb5fe6.png"
+    },
+    {
+      "key": "dish-f82a5ad59d69",
+      "name": "商芝肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f82a5ad59d69"
+      ],
+      "source_file": "sources/artwork/originals/dish-f82a5ad59d69.png"
+    },
+    {
+      "key": "dish-fce469feac21",
+      "name": "啤酒鸭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-fce469feac21"
+      ],
+      "source_file": "sources/artwork/originals/dish-fce469feac21.png"
+    },
+    {
+      "key": "dish-3edbafd077f7",
+      "name": "土豆炖排骨",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-3edbafd077f7"
+      ],
+      "source_file": "sources/artwork/originals/dish-3edbafd077f7.png"
+    },
+    {
+      "key": "dish-1f6cfac235de",
+      "name": "奥尔良风味烤鸡腿",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1f6cfac235de"
+      ],
+      "source_file": "sources/artwork/originals/dish-1f6cfac235de.png"
+    },
+    {
+      "key": "dish-c9c1689e47ff",
+      "name": "奶酪培根通心粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c9c1689e47ff"
+      ],
+      "source_file": "sources/artwork/originals/dish-c9c1689e47ff.png"
+    },
+    {
+      "key": "dish-0a5faf76b239",
+      "name": "姜炒鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0a5faf76b239"
+      ],
+      "source_file": "sources/artwork/originals/dish-0a5faf76b239.png"
+    },
+    {
+      "key": "dish-95eb9c00a57f",
+      "name": "姜葱捞鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-95eb9c00a57f"
+      ],
+      "source_file": "sources/artwork/originals/dish-95eb9c00a57f.png"
+    },
+    {
+      "key": "dish-127edac8e578",
+      "name": "孜然牛肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-127edac8e578"
+      ],
+      "source_file": "sources/artwork/originals/dish-127edac8e578.png"
+    },
+    {
+      "key": "dish-d15091497996",
+      "name": "小炒肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d15091497996"
+      ],
+      "source_file": "sources/artwork/originals/dish-d15091497996.png"
+    },
+    {
+      "key": "dish-3eaf0a451185",
+      "name": "小炒鸡肝",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-3eaf0a451185"
+      ],
+      "source_file": "sources/artwork/originals/dish-3eaf0a451185.png"
+    },
+    {
+      "key": "dish-824114aa00bd",
+      "name": "小炒黄牛肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-824114aa00bd"
+      ],
+      "source_file": "sources/artwork/originals/dish-824114aa00bd.png"
+    },
+    {
+      "key": "dish-27b738de814e",
+      "name": "小米辣炒肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-27b738de814e"
+      ],
+      "source_file": "sources/artwork/originals/dish-27b738de814e.png"
+    },
+    {
+      "key": "dish-2ed6cf0478f1",
+      "name": "小酥肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2ed6cf0478f1"
+      ],
+      "source_file": "sources/artwork/originals/dish-2ed6cf0478f1.png"
+    },
+    {
+      "key": "dish-801600c707bb",
+      "name": "尖叫牛蛙",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-801600c707bb"
+      ],
+      "source_file": "sources/artwork/originals/dish-801600c707bb.png"
+    },
+    {
+      "key": "dish-aa59c235ffc2",
+      "name": "尖椒炒牛肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-aa59c235ffc2"
+      ],
+      "source_file": "sources/artwork/originals/dish-aa59c235ffc2.png"
+    },
+    {
+      "key": "dish-16663c525e6b",
+      "name": "山西过油肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-16663c525e6b"
+      ],
+      "source_file": "sources/artwork/originals/dish-16663c525e6b.png"
+    },
+    {
+      "key": "dish-c8feda2006c4",
+      "name": "巴基斯坦牛肉咖喱",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c8feda2006c4"
+      ],
+      "source_file": "sources/artwork/originals/dish-c8feda2006c4.png"
+    },
+    {
+      "key": "dish-2bde2d31169c",
+      "name": "带把肘子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2bde2d31169c"
+      ],
+      "source_file": "sources/artwork/originals/dish-2bde2d31169c.png"
+    },
+    {
+      "key": "dish-ec5179fc88ee",
+      "name": "干煸仔鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ec5179fc88ee"
+      ],
+      "source_file": "sources/artwork/originals/dish-ec5179fc88ee.png"
+    },
+    {
+      "key": "dish-e4f312a87ba6",
+      "name": "广式萝卜牛腩",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e4f312a87ba6"
+      ],
+      "source_file": "sources/artwork/originals/dish-e4f312a87ba6.png"
+    },
+    {
+      "key": "dish-ca670c5a113e",
+      "name": "徽派红烧肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ca670c5a113e"
+      ],
+      "source_file": "sources/artwork/originals/dish-ca670c5a113e.png"
+    },
+    {
+      "key": "dish-36c6b1b2610c",
+      "name": "意式烤鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-36c6b1b2610c"
+      ],
+      "source_file": "sources/artwork/originals/dish-36c6b1b2610c.png"
+    },
+    {
+      "key": "dish-96dd22806c80",
+      "name": "新疆大盘鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-96dd22806c80"
+      ],
+      "source_file": "sources/artwork/originals/dish-96dd22806c80.png"
+    },
+    {
+      "key": "dish-2616a5a03457",
+      "name": "无骨鸡爪",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2616a5a03457"
+      ],
+      "source_file": "sources/artwork/originals/dish-2616a5a03457.png"
+    },
+    {
+      "key": "dish-c5fddf9813b2",
+      "name": "杀猪菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c5fddf9813b2"
+      ],
+      "source_file": "sources/artwork/originals/dish-c5fddf9813b2.png"
+    },
+    {
+      "key": "dish-abbf66d7a0c1",
+      "name": "枝竹羊腩煲",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-abbf66d7a0c1"
+      ],
+      "source_file": "sources/artwork/originals/dish-abbf66d7a0c1.png"
+    },
+    {
+      "key": "dish-1473dff6924a",
+      "name": "柱候牛腩",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1473dff6924a"
+      ],
+      "source_file": "sources/artwork/originals/dish-1473dff6924a.png"
+    },
+    {
+      "key": "dish-b14f5054692b",
+      "name": "桂林十八酿",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b14f5054692b"
+      ],
+      "source_file": "sources/artwork/originals/dish-b14f5054692b.png"
+    },
+    {
+      "key": "dish-4217ebd7f1e5",
+      "name": "梅菜扣肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4217ebd7f1e5"
+      ],
+      "source_file": "sources/artwork/originals/dish-4217ebd7f1e5.png"
+    },
+    {
+      "key": "dish-f43c7cdf6c27",
+      "name": "椒盐排条",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f43c7cdf6c27"
+      ],
+      "source_file": "sources/artwork/originals/dish-f43c7cdf6c27.png"
+    },
+    {
+      "key": "dish-0d138afee099",
+      "name": "水煮牛肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0d138afee099"
+      ],
+      "source_file": "sources/artwork/originals/dish-0d138afee099.png"
+    },
+    {
+      "key": "dish-401011c58362",
+      "name": "洋葱炒猪肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-401011c58362"
+      ],
+      "source_file": "sources/artwork/originals/dish-401011c58362.png"
+    },
+    {
+      "key": "dish-abe023d49637",
+      "name": "淄博烧烤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-abe023d49637"
+      ],
+      "source_file": "sources/artwork/originals/dish-abe023d49637.png"
+    },
+    {
+      "key": "dish-575da7e2ff66",
+      "name": "清蒸鳜鱼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-575da7e2ff66"
+      ],
+      "source_file": "sources/artwork/originals/dish-575da7e2ff66.png"
+    },
+    {
+      "key": "dish-c57bcc7e9419",
+      "name": "湖南家常红烧肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c57bcc7e9419"
+      ],
+      "source_file": "sources/artwork/originals/dish-c57bcc7e9419.png"
+    },
+    {
+      "key": "dish-6a4a7145b136",
+      "name": "湘祁米夫鸭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6a4a7145b136"
+      ],
+      "source_file": "sources/artwork/originals/dish-6a4a7145b136.png"
+    },
+    {
+      "key": "dish-bb86c640c665",
+      "name": "澳门湿版免治牛肉饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bb86c640c665"
+      ],
+      "source_file": "sources/artwork/originals/dish-bb86c640c665.png"
+    },
+    {
+      "key": "dish-f13ea0db41d8",
+      "name": "烤鸡翅",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f13ea0db41d8"
+      ],
+      "source_file": "sources/artwork/originals/dish-f13ea0db41d8.png"
+    },
+    {
+      "key": "dish-91b68386ebf3",
+      "name": "煎烤羊排",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-91b68386ebf3"
+      ],
+      "source_file": "sources/artwork/originals/dish-91b68386ebf3.png"
+    },
+    {
+      "key": "dish-6401f4adb586",
+      "name": "牛排",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6401f4adb586"
+      ],
+      "source_file": "sources/artwork/originals/dish-6401f4adb586.png"
+    },
+    {
+      "key": "dish-ddc763f709d2",
+      "name": "猪皮冻",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ddc763f709d2"
+      ],
+      "source_file": "sources/artwork/originals/dish-ddc763f709d2.png"
+    },
+    {
+      "key": "dish-b43bc0d5b054",
+      "name": "猪肉烩酸菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b43bc0d5b054"
+      ],
+      "source_file": "sources/artwork/originals/dish-b43bc0d5b054.png"
+    },
+    {
+      "key": "dish-f37f90893dda",
+      "name": "甜辣烤全翅",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f37f90893dda"
+      ],
+      "source_file": "sources/artwork/originals/dish-f37f90893dda.png"
+    },
+    {
+      "key": "dish-dccabcb0d4a4",
+      "name": "田螺酿",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-dccabcb0d4a4"
+      ],
+      "source_file": "sources/artwork/originals/dish-dccabcb0d4a4.png"
+    },
+    {
+      "key": "dish-e708c271324a",
+      "name": "番茄红酱",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e708c271324a"
+      ],
+      "source_file": "sources/artwork/originals/dish-e708c271324a.png"
+    },
+    {
+      "key": "dish-6e1381b6647e",
+      "name": "瘦肉土豆片",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6e1381b6647e"
+      ],
+      "source_file": "sources/artwork/originals/dish-6e1381b6647e.png"
+    },
+    {
+      "key": "dish-3a4b1f2e6d2d",
+      "name": "白菜猪肉炖粉条",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-3a4b1f2e6d2d"
+      ],
+      "source_file": "sources/artwork/originals/dish-3a4b1f2e6d2d.png"
+    },
+    {
+      "key": "dish-77665869d6f5",
+      "name": "空气炸锅脆皮现腌炸鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-77665869d6f5"
+      ],
+      "source_file": "sources/artwork/originals/dish-77665869d6f5.png"
+    },
+    {
+      "key": "dish-eaaaaa89ddc3",
+      "name": "粉蒸肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-eaaaaa89ddc3"
+      ],
+      "source_file": "sources/artwork/originals/dish-eaaaaa89ddc3.png"
+    },
+    {
+      "key": "dish-18f5ac325209",
+      "name": "红烧猪蹄",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-18f5ac325209"
+      ],
+      "source_file": "sources/artwork/originals/dish-18f5ac325209.png"
+    },
+    {
+      "key": "dish-373d56f2f32a",
+      "name": "南派红烧肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-373d56f2f32a"
+      ],
+      "source_file": "sources/artwork/originals/dish-373d56f2f32a.png"
+    },
+    {
+      "key": "dish-0d42f08d156d",
+      "name": "红烧鸡翅",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0d42f08d156d"
+      ],
+      "source_file": "sources/artwork/originals/dish-0d42f08d156d.png"
+    },
+    {
+      "key": "dish-dba23a8f0c47",
+      "name": "羊排焖面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-dba23a8f0c47"
+      ],
+      "source_file": "sources/artwork/originals/dish-dba23a8f0c47.png"
+    },
+    {
+      "key": "dish-c40321c42378",
+      "name": "老式锅包肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c40321c42378"
+      ],
+      "source_file": "sources/artwork/originals/dish-c40321c42378.png"
+    },
+    {
+      "key": "dish-1e8e59b9e765",
+      "name": "肉饼炖蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1e8e59b9e765"
+      ],
+      "source_file": "sources/artwork/originals/dish-1e8e59b9e765.png"
+    },
+    {
+      "key": "dish-68c7a9333f5e",
+      "name": "腐乳肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-68c7a9333f5e"
+      ],
+      "source_file": "sources/artwork/originals/dish-68c7a9333f5e.png"
+    },
+    {
+      "key": "dish-c61aa113077b",
+      "name": "芥末罗氏虾",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c61aa113077b"
+      ],
+      "source_file": "sources/artwork/originals/dish-c61aa113077b.png"
+    },
+    {
+      "key": "dish-77632e4f909d",
+      "name": "茭白炒肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-77632e4f909d"
+      ],
+      "source_file": "sources/artwork/originals/dish-77632e4f909d.png"
+    },
+    {
+      "key": "dish-1157639fe340",
+      "name": "荔枝肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1157639fe340"
+      ],
+      "source_file": "sources/artwork/originals/dish-1157639fe340.png"
+    },
+    {
+      "key": "dish-48dd3251882e",
+      "name": "荷兰豆炒腊肠",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-48dd3251882e"
+      ],
+      "source_file": "sources/artwork/originals/dish-48dd3251882e.png"
+    },
+    {
+      "key": "dish-5b50c173e66f",
+      "name": "萝卜炖羊排",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5b50c173e66f"
+      ],
+      "source_file": "sources/artwork/originals/dish-5b50c173e66f.png"
+    },
+    {
+      "key": "dish-ba3ce0d2e767",
+      "name": "豉汁排骨",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ba3ce0d2e767"
+      ],
+      "source_file": "sources/artwork/originals/dish-ba3ce0d2e767.png"
+    }
+  ],
+  "batches": [
+    "howtocook-001",
+    "howtocook-002",
+    "howtocook-remainder"
+  ]
+}

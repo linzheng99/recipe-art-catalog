@@ -1,0 +1,18 @@
+node_modules/
+playwright-report/
+test-results/
+coverage/
+.cache/
+*.tsbuildinfo
+npm-debug.log*
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+# 制作原稿和审核大图保存在本机；需要另行备份，不随公开站点发布。
+/sources/artwork/
+/sources/fallbacks/
