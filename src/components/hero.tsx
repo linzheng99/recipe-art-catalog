@@ -36,7 +36,7 @@ export function Hero() {
           {[
             ["独立插画", catalog?.coverage.artworks],
             ["已配图菜谱", catalog?.coverage.recipes],
-            ["继续绘制中", catalog?.coverage.pending],
+            ["待配图菜谱", catalog?.coverage.pending],
           ].map(([label, count]) => (
             <div key={label}>
               <dt>{label}</dt>

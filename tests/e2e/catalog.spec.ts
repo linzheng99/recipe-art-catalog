@@ -13,7 +13,9 @@ test("搜索、分类、键盘详情、下载和主题在仓库子路径可用",
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto("./");
   await expect(
-    page.getByRole("status").filter({ hasText: "194 道菜品" }),
+    page.getByRole("status").filter({
+      hasText: `${fixture.artworks.length} 道菜品`,
+    }),
   ).toBeVisible();
   const cards = page.getByRole("button", { name: /^查看.+插画详情$/ });
   await expect(cards).toHaveCount(24);

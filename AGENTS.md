@@ -14,7 +14,7 @@
 
 ## 素材、来源与营养
 
-- 当前194张独立插画覆盖195篇菜谱，177篇待生成，1篇模板不生成；以 catalog/COVERAGE.md 和 sources/prompts/HOWTOCOOK_FOOD_REMAINDER.json 为准，不将pending算作完成。
+- 当前371张独立插画覆盖372篇菜谱，0篇待生成，1篇模板不生成；以 catalog/COVERAGE.md 和 sources/prompts/HOWTOCOOK_FOOD_REMAINDER.json 为准，不将pending算作完成。
 - HowToCook固定提交与上游Unlicense必须保留，更新目录前审阅差异；不得下载网站照片冒充独立插画。
 - 原始生成提示词、审核记录与摘要属于历史证据，不因为项目更名而篡改。新提示词用通用菜谱图鉴语境。
 - 统一深蓝轮廓、圆润Q版食材、浅蓝边餐具和真实透明背景；逐菜独立生成，不裁切整页图。查看原稿/44px预览后显式审核，再压图发布。

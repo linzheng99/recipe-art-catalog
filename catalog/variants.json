@@ -4874,6 +4874,4431 @@
         }
       },
       "original_sha256": "07f9856a1a26cf81e8443979cf37106c478a1ce5ea3324a01bb630d37f911569"
+    },
+    {
+      "key": "dish-a086e2764c0a",
+      "name": "老妈蹄花",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a086e2764c0a"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a086e2764c0a.6d1db82436e7c972.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 17984,
+          "sha256": "6d1db82436e7c97265462a7c8f8471b766bd882494e340c5e8934e564d0123b5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a086e2764c0a.75892b8d23dceaa0.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 49726,
+          "sha256": "75892b8d23dceaa07a2ce8bc017b61b2241abdec3242cc4a9b66fcecac79d056"
+        }
+      },
+      "original_sha256": "7753db8c5630f97e53895ef3060e7deb00da1aa97b9016576cbd37fbb662ab7a"
+    },
+    {
+      "key": "dish-aed436213776",
+      "name": "葱烧鸡腿",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-aed436213776"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-aed436213776.cf52b56499551605.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23490,
+          "sha256": "cf52b564995516056dee62e44d39aaa6a56ff4e27290b781ae6c04424b16785d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-aed436213776.732acdd5f3c8dcd9.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61520,
+          "sha256": "732acdd5f3c8dcd936a4c8bb41b5566ca902707e242ec46c082549e702110278"
+        }
+      },
+      "original_sha256": "2f83672cf8a3a44b581c5d50c0be3411ca73d340103abf1c6e5cabbec60ff6b1"
+    },
+    {
+      "key": "dish-c76a2b7f954a",
+      "name": "蒜苔炒肉末",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c76a2b7f954a"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-c76a2b7f954a.cdd3cf27e1f3f550.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22984,
+          "sha256": "cdd3cf27e1f3f55034a35721e1d6facf06e1996385d2298177a4d6b249e0e751"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-c76a2b7f954a.5afd2f0534dcb388.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62990,
+          "sha256": "5afd2f0534dcb3881403b81382f2b05f2d9b5e5c4cbb194dff66ac2ab1d55e11"
+        }
+      },
+      "original_sha256": "84dd6949144c49fa89aa81bbcfcd5989bab62f31c774e415e312e799e7469ede"
+    },
+    {
+      "key": "dish-4541e6c817a9",
+      "name": "虎皮肘子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4541e6c817a9"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-4541e6c817a9.65450fb6896592ca.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22986,
+          "sha256": "65450fb6896592ca64c5fe8db485ea1ea490e850e722ba7e8c96aa613c0b3dd9"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-4541e6c817a9.44e5e55c2dd46fc3.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64872,
+          "sha256": "44e5e55c2dd46fc36bcd50724e8240b3e6f9f0f5dd8c9ff81cd8bb0b6dd06a59"
+        }
+      },
+      "original_sha256": "91d6a5b4559f96af25e8d98399395b3111cb2e737a958000acf3d774f5fbdd23"
+    },
+    {
+      "key": "dish-fba50d40b080",
+      "name": "蚂蚁上树",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-fba50d40b080"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-fba50d40b080.156fd075fe98889d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23418,
+          "sha256": "156fd075fe98889d78d6a8ccf090bdd63f280bdf01927b53e8c7174efe432580"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-fba50d40b080.d6b0016175cfde08.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61656,
+          "sha256": "d6b0016175cfde08de1927aaef66a47974d4bab3f5c4f501ed88948eb8c81977"
+        }
+      },
+      "original_sha256": "1a0c18a9bec71aee9fc373e988ac42c65c58e7a78aafc368909d9b910cf74ac9"
+    },
+    {
+      "key": "dish-a7f8fdd45ba3",
+      "name": "血浆鸭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a7f8fdd45ba3"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a7f8fdd45ba3.d265775bab747783.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24548,
+          "sha256": "d265775bab747783d99487e8b18d92da0fa68bc255b578feb2a58b1734dc816b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a7f8fdd45ba3.099e6265f348e5be.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59494,
+          "sha256": "099e6265f348e5be415a79b4fbf7113eb777a3e1ad802acf4d1deb63d14d54ba"
+        }
+      },
+      "original_sha256": "746b260e2e2a6df3e0178964587af6d68168f4b71bb881e7cee5e205a699eb3a"
+    },
+    {
+      "key": "dish-90f04c224709",
+      "name": "西红柿土豆炖牛肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-90f04c224709"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-90f04c224709.76f60832c860e528.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22218,
+          "sha256": "76f60832c860e5287ee67e5e746902b082946366bc67e38d1862f13d9f88bb25"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-90f04c224709.a3e3b866a37cfb96.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63716,
+          "sha256": "a3e3b866a37cfb963e034e09b56aff4548b440036bc237a5c6a4e251a525d6f9"
+        }
+      },
+      "original_sha256": "9f21fd30f9ee72fd4bd20f1a967031db282abce4d0f5bd74726fd2c118285c00"
+    },
+    {
+      "key": "dish-24562260b0e1",
+      "name": "西红柿牛腩",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-24562260b0e1"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-24562260b0e1.d968eb604a267427.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23160,
+          "sha256": "d968eb604a26742769a1499561a84d3da9abbcf070d6fca1a8216b1a0e49d698"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-24562260b0e1.811803ca1d200ce9.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61082,
+          "sha256": "811803ca1d200ce96704903a2e82b359f697bde76330abd4dfcc5f9b4fb8b965"
+        }
+      },
+      "original_sha256": "0bc9035ecba4412e7d16683d096465d9bc8f361af7a9f91892288c60aa84652f"
+    },
+    {
+      "key": "dish-6f41690d80c8",
+      "name": "豆豉鲮鱼油麦菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6f41690d80c8"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-6f41690d80c8.3a8c8ced98f96526.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23884,
+          "sha256": "3a8c8ced98f9652624fa10475aa07dcd488a150323afada50aa5af1d5824b632"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-6f41690d80c8.27dcc909dc9c54a3.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64258,
+          "sha256": "27dcc909dc9c54a3dd06e2670dd8c6d5272048c777dc64d8270a6cff5224ea0b"
+        }
+      },
+      "original_sha256": "534a1b378da1d08240fe0a54738d96308a946d6b5f5c5f4f79685fbcd9d2eb64"
+    },
+    {
+      "key": "dish-945e60912113",
+      "name": "豉汁蒸白鱔",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-945e60912113"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-945e60912113.64aec82adc1d9551.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23288,
+          "sha256": "64aec82adc1d9551d27b0a46b3a66c892bb803cae13185779f5e43b5c4d114f5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-945e60912113.4ba74e8ea3f76e90.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60424,
+          "sha256": "4ba74e8ea3f76e90d994d5fc5258a0c1dfe12ce010032c6629b51504216259c4"
+        }
+      },
+      "original_sha256": "81f1ba33b8677593f71dec13e60e803f5c0f8fb5a70746002c8240baa356f64d"
+    },
+    {
+      "key": "dish-280e1f88f772",
+      "name": "贵州辣子鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-280e1f88f772"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-280e1f88f772.d8c633f636a33fc0.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23106,
+          "sha256": "d8c633f636a33fc00171b1bd0e4b1426c2bcca35d6d9459380ca245ab9ec59b9"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-280e1f88f772.e9daa2ffb2a07245.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63578,
+          "sha256": "e9daa2ffb2a07245efbfc98b5807183e0ca87f0d9f08cd89f47132b56fb986d2"
+        }
+      },
+      "original_sha256": "3ffd37b9f00080e462355a19de972a003ce81fc47b087e9ae7e6a2a3f99e8a48"
+    },
+    {
+      "key": "dish-41754f839cbf",
+      "name": "辣椒炒肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-41754f839cbf"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-41754f839cbf.c99b86fc8af22ebb.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24402,
+          "sha256": "c99b86fc8af22ebbd9432bdc1d8e833903c4f4ca720f6d24375157d7e6adf501"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-41754f839cbf.e9b84ae295a99a9b.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65178,
+          "sha256": "e9b84ae295a99a9b80d527d179b23d88561edd5e665f415ba3058c63450740cd"
+        }
+      },
+      "original_sha256": "dc5d28f50ddb6428e483ec8028b7d1e56d76b53bd994b6610e00a88d791668c1"
+    },
+    {
+      "key": "dish-34fadc2fa767",
+      "name": "酱排骨",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-34fadc2fa767"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-34fadc2fa767.b6ba06ff8ba19ab5.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23692,
+          "sha256": "b6ba06ff8ba19ab5ce8df0ca8a8b2497c02cf1fd765739d9ec75b8213684c518"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-34fadc2fa767.c7b5ac74d00443c5.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60610,
+          "sha256": "c7b5ac74d00443c5b947a6752e465679385f02183e25ba2fd61f092ad31b1931"
+        }
+      },
+      "original_sha256": "1a979653d6ec3a0ad36df9d8807044d68411f0677d4b474421263abeacd2b5dc"
+    },
+    {
+      "key": "dish-aaa0f1f21191",
+      "name": "酱牛肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-aaa0f1f21191"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-aaa0f1f21191.06d07901b890ed3a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23360,
+          "sha256": "06d07901b890ed3ac31d9bc2a99b4d0dbfb80371943518571c4a00e8341375c4"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-aaa0f1f21191.a64c4ba3cf0c4ed7.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64388,
+          "sha256": "a64c4ba3cf0c4ed78c584481f45434c0718e7e7ba8ef390d72fbae9274607275"
+        }
+      },
+      "original_sha256": "7483c2e055674dea8d6477a9792a8873dec20dd33cdca42e7f7e59f34e67dda9"
+    },
+    {
+      "key": "dish-249efab791e1",
+      "name": "醉排骨",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-249efab791e1"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-249efab791e1.536fd4d9f57347c9.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23966,
+          "sha256": "536fd4d9f57347c9994252a05c37308f63ebf04ff45cc5d2cc030edfbc10354c"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-249efab791e1.8d4d16651f811041.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61324,
+          "sha256": "8d4d16651f81104186fcdd690bd7defe729d9cbc9b4e388ae6802abbd3ce3913"
+        }
+      },
+      "original_sha256": "35ad302e60dc103d04fb4f0059887e7940c417a30d34dcba267661724e503b64"
+    },
+    {
+      "key": "dish-bcbc233bc07c",
+      "name": "青椒土豆炒肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bcbc233bc07c"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-bcbc233bc07c.28c1b5a8ebe9f9fe.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22440,
+          "sha256": "28c1b5a8ebe9f9fe0fbea10851f47e3588e431570ac97fab7b6d5df527328666"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-bcbc233bc07c.c092207e0bcc1c45.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64046,
+          "sha256": "c092207e0bcc1c453b60ec548a99ffdf0e2e3a8b8697a0abf6522e3977f47a27"
+        }
+      },
+      "original_sha256": "07baac1e80f667113a4efae190028851c78b85570b52e8b5f86783e460fa2bd1"
+    },
+    {
+      "key": "dish-f3bcbbe6cbfb",
+      "name": "青椒酿",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f3bcbbe6cbfb"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-f3bcbbe6cbfb.df8967efce61bc4c.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22850,
+          "sha256": "df8967efce61bc4ccca64ae3bd67d62e7a8673adaf7de8b7dfdbbb0348900e1b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-f3bcbbe6cbfb.bd1be56d266c8a3f.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61528,
+          "sha256": "bd1be56d266c8a3f9e3b0efdb38890d45f0e4a294cd2de98c4de6f1d6ea99913"
+        }
+      },
+      "original_sha256": "395ae9e96b355a49fc148a7c0b6d3308ac048e862ab13851e58dd44a810b1031"
+    },
+    {
+      "key": "dish-e1297263237b",
+      "name": "香干肉丝",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e1297263237b"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-e1297263237b.d726581e46be53dd.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22902,
+          "sha256": "d726581e46be53dd7412f4161792ec65de57aca7a872e13a44d0a0d3021b80a9"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-e1297263237b.78db570b11936efe.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61084,
+          "sha256": "78db570b11936efecb69c692045d3c924a26086f425bc9c7c0ba10cb580de232"
+        }
+      },
+      "original_sha256": "feaee06cfbc664bcc1ad90b6d19d3561e60b8612ab542945fe1cf0ec4ee01a0f"
+    },
+    {
+      "key": "dish-a2902089367e",
+      "name": "香干芹菜炒肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a2902089367e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a2902089367e.c5b02ced59a22ff0.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23316,
+          "sha256": "c5b02ced59a22ff04f08bebfdec729d291ed8210ee630b2f214a772579e3e282"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a2902089367e.c84a41a108f41fb8.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59132,
+          "sha256": "c84a41a108f41fb809047c0f537de1880cf72a11e7eb2cde4b0d87db0b4c1e09"
+        }
+      },
+      "original_sha256": "6eda6a3883b61c499a6e578ca749aa3e92ad5e267a03a2ec982c3b6c5b54f333"
+    },
+    {
+      "key": "dish-683225505a87",
+      "name": "香煎五花肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-683225505a87"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-683225505a87.2154946fd26b62bf.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23430,
+          "sha256": "2154946fd26b62bf032f3848dca5ee8647f7da4e6735bcb870100aa46d4f77ea"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-683225505a87.3efc18e3d7692f07.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64430,
+          "sha256": "3efc18e3d7692f07282f98a54247bd1a293e3edd347dfc863bc234c7e52c5b6f"
+        }
+      },
+      "original_sha256": "2e4725e0ee435a6d44ccaf903034101fb8546664a5bffae0b39cdef390499976"
+    },
+    {
+      "key": "dish-36958538b5b1",
+      "name": "香辣鸡爪煲",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-36958538b5b1"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-36958538b5b1.44276fb1bba28ed8.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22110,
+          "sha256": "44276fb1bba28ed8449f950d218b1f90ce43141a8671f500efd87f1c13c21019"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-36958538b5b1.34fd4a4cf02ab81b.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64408,
+          "sha256": "34fd4a4cf02ab81be34a597d53723271a96eefecbede7316930324185cc0e3fa"
+        }
+      },
+      "original_sha256": "e8a3542ba4d14400a90acf0f8bd40914fbfeb8eec9b464f9793e546933d80796"
+    },
+    {
+      "key": "dish-bfaaef2163dd",
+      "name": "鱼香茄子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bfaaef2163dd"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-bfaaef2163dd.2fa6eae7befa0962.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23060,
+          "sha256": "2fa6eae7befa09620d152d6ef95f3ec98b31594c7a043274adfd9dff9b5912f3"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-bfaaef2163dd.4993ce9bb0b81762.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65252,
+          "sha256": "4993ce9bb0b81762889b5cf395c8d74340118bf008c3767df5e74ebbcb271c6d"
+        }
+      },
+      "original_sha256": "45b92b141dea855bc6bf2b12e811b220172050d5e9ebb66d00a68e4a9294ee5f"
+    },
+    {
+      "key": "dish-1a8b110f53c6",
+      "name": "麻辣香锅",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1a8b110f53c6"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1a8b110f53c6.5a4f5b7c9ae7fb09.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23920,
+          "sha256": "5a4f5b7c9ae7fb099c88c973b453e40c48ca8bf096dc4a994ae8c42c020eebd3"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1a8b110f53c6.50f57ebacbbfee9a.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65492,
+          "sha256": "50f57ebacbbfee9aed479a750977cd61705ca472ab4158e225c88572c5162ff7"
+        }
+      },
+      "original_sha256": "853c6962f72bba5b606fa28d243f8c11aa0ae8a812401fd5cf1bb950bf95266f"
+    },
+    {
+      "key": "dish-636808171f3d",
+      "name": "黄油鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-636808171f3d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-636808171f3d.676302c7cd06de9d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22228,
+          "sha256": "676302c7cd06de9d3376d5ed83065db5fd80938ec631f0d96c11f10248b34f90"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-636808171f3d.e8e545927a567144.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61086,
+          "sha256": "e8e545927a567144ad4137a85663033fe6828f4d4bd3e722313cd76906abf8da"
+        }
+      },
+      "original_sha256": "a44d2e4dbb9298340c1560bcdcf066401696c428cd9079c1da44244246663dd5"
+    },
+    {
+      "key": "dish-832e8ac5e9aa",
+      "name": "黄焖鸡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-832e8ac5e9aa"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-832e8ac5e9aa.e8e082acb8463010.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23400,
+          "sha256": "e8e082acb8463010eb5ebc93d7b430673f5c7ddf99bc87e3eefc6fc2a4be3dd9"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-832e8ac5e9aa.ff372627b5a78963.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60772,
+          "sha256": "ff372627b5a78963bc5d79214dd76fd86128f70cd987e1f4f074fbccbfa62d81"
+        }
+      },
+      "original_sha256": "68924c8806c10785e9921ca4a9b20eea907303db608020f6e6947a8bbd2d255c"
+    },
+    {
+      "key": "dish-292d0a9d95d8",
+      "name": "黄瓜炒肉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-292d0a9d95d8"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-292d0a9d95d8.1a45e217ca0c8043.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23416,
+          "sha256": "1a45e217ca0c804345304db26956e2cdd5f57aa18d33f85fce3016ec4b64946e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-292d0a9d95d8.b848f1401c2ee362.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59340,
+          "sha256": "b848f1401c2ee362878c6d569127ac92ceca20232c68e732133833fa0d9363ce"
+        }
+      },
+      "original_sha256": "042215de078ac0351684cf32197a8c74a117084da00cb3d627884de537ab11d9"
+    },
+    {
+      "key": "dish-e38c861fa4b7",
+      "name": "黑椒牛柳",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e38c861fa4b7"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-e38c861fa4b7.9c85b42f7e1ea72d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23204,
+          "sha256": "9c85b42f7e1ea72df0022f873ef9f839d31533c0c6c807cab7d1e29adeaf2470"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-e38c861fa4b7.6a2e314aa2c88fbd.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60714,
+          "sha256": "6a2e314aa2c88fbd406210a5310ccbadbb3dea59c4eeb3feeabb4a47faa45e1a"
+        }
+      },
+      "original_sha256": "b238e94fdfa67bb7015965a903d74cc31e29f513aa87c7961a9ef1b7daae8d76"
+    },
+    {
+      "key": "dish-f20a63e1bd7e",
+      "name": "黔式腊肠娃娃菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f20a63e1bd7e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-f20a63e1bd7e.af075e9c8803d585.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21674,
+          "sha256": "af075e9c8803d5853bff1fdd35e75387c74e2a5673275615d7f9d21a76de2d87"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-f20a63e1bd7e.ba8a4080622bddf5.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60782,
+          "sha256": "ba8a4080622bddf550c0a4770cb7ec4d708798074b82a153d9d2ccb49ef0a10c"
+        }
+      },
+      "original_sha256": "b1ef74082432790d8c86808549dd28b2bd0d7f84714a5e873a6e96c26a568375"
+    },
+    {
+      "key": "dish-617f7ae9488e",
+      "name": "凉皮",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-617f7ae9488e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-617f7ae9488e.58350e810f469905.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24162,
+          "sha256": "58350e810f4699053bffe2f0143a9eeff292f99de46ddde2797f414fa26df97f"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-617f7ae9488e.c94691bccac1c751.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59348,
+          "sha256": "c94691bccac1c7519c9b91add9b583586778b209691e0450f69898641423197f"
+        }
+      },
+      "original_sha256": "428249ec9631e8ff0a286679ec50ef78389de3c67c80f5a3347951aaa7b00f37"
+    },
+    {
+      "key": "dish-72605b6e5df1",
+      "name": "半成品意面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-72605b6e5df1"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-72605b6e5df1.72a52a7c24fca018.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21684,
+          "sha256": "72a52a7c24fca018cfa45c2ee62f18cc010a9925c4c46a754dcb2182b77bd5f4"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-72605b6e5df1.a37561cf20464bd1.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58748,
+          "sha256": "a37561cf20464bd17b57f8b54d70c43e5161a52d264914a4f629e165e3826486"
+        }
+      },
+      "original_sha256": "65bd414f79e07298e846003c49b80f61884cfed64de72f64f3a6439430bb119d"
+    },
+    {
+      "key": "dish-e960ac6812f3",
+      "name": "懒人蛋挞",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e960ac6812f3"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-e960ac6812f3.ca8d0ca6caa7f992.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21642,
+          "sha256": "ca8d0ca6caa7f992ddf6f9c26e1bb6f0fb06f5b45df91600a8c90e15765d864c"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-e960ac6812f3.60c4a016df40dd0d.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58314,
+          "sha256": "60c4a016df40dd0d5848e2edb12966c0a5198a4dc0dc2f3b8bac162339b467c8"
+        }
+      },
+      "original_sha256": "323b78eadb5c58ecf286fcd5b639cf6f763e250f5d0e97af574feacb10914212"
+    },
+    {
+      "key": "dish-f3e472bcc3e6",
+      "name": "炸薯条",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f3e472bcc3e6"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-f3e472bcc3e6.d989f54f98c2b2eb.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20590,
+          "sha256": "d989f54f98c2b2eb6c6417a6a23ab6cda0e27edf207aeb998f0b130519bbe5fc"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-f3e472bcc3e6.f061f3610b9c6125.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 54574,
+          "sha256": "f061f3610b9c61253718d66425fa44e897a9b1db9e6250bb67291c4e216cc52b"
+        }
+      },
+      "original_sha256": "b9873c86c23ce48ae46ca397154e6556c2ead3b1d0c969eed9378a3603fae7d6"
+    },
+    {
+      "key": "dish-1bc98124aec5",
+      "name": "牛油火锅底料",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1bc98124aec5"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1bc98124aec5.0f88ed84504c61d2.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23570,
+          "sha256": "0f88ed84504c61d284002b1c4b34c7258bf3844dd237f8dc7e90a0cb0e3df691"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1bc98124aec5.2bcee28297235671.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63424,
+          "sha256": "2bcee2829723567116394af97ec0287c69f547bec69dcc47fc95e8edb843700d"
+        }
+      },
+      "original_sha256": "f78c624c296a61430e33acb42d79b6942b6d662b4f616f7400f977d1c0488ed1"
+    },
+    {
+      "key": "dish-ad951394e7a9",
+      "name": "空气炸锅羊排",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ad951394e7a9"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-ad951394e7a9.2f266a811d8c7647.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22810,
+          "sha256": "2f266a811d8c7647d722a643be8affbae718ec3824bdaaa3574d2cbd50920766"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-ad951394e7a9.afeeea31a2a3dcf1.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64218,
+          "sha256": "afeeea31a2a3dcf143f576cd8cc7d7c0a0a9ac9eab7f71e03fd9643bbd2b5c2f"
+        }
+      },
+      "original_sha256": "5ddff46f3d3bbfd5bb5660796e68ba70788e17c6f156c5af0b3ec57ddbbdf8af"
+    },
+    {
+      "key": "dish-01b1d98676a5",
+      "name": "空气炸锅鸡翅中",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-01b1d98676a5"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-01b1d98676a5.a54ebb51c1806773.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23010,
+          "sha256": "a54ebb51c1806773da74b337ee8ed94644dd0acd41fac5e329175d9f572fa5a5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-01b1d98676a5.1c9be0c8c6a54719.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61712,
+          "sha256": "1c9be0c8c6a54719a874270ed3714943a53c432eacd8ad9dad2cb57a48a2d845"
+        }
+      },
+      "original_sha256": "b441c86fa65dfefdf80c6237f48a9471d839536fa4f56bdfbc7fbdde073200fa"
+    },
+    {
+      "key": "dish-6c8fa75dcb07",
+      "name": "速冻水饺",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6c8fa75dcb07"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-6c8fa75dcb07.40bfca22f1549ad6.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19334,
+          "sha256": "40bfca22f1549ad674d2bf6f5552e6f3c0cd6be75748c1ce4a166af06ed23da0"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-6c8fa75dcb07.b10288be79a99aaf.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 50584,
+          "sha256": "b10288be79a99aaffcba9743867376daed30769b20b69d6043221ca6a375d1a0"
+        }
+      },
+      "original_sha256": "eb1db67a10049066f31312214057c13df61b0b5115c16491fc6d9439ea3bca7f"
+    },
+    {
+      "key": "dish-68ca6633c10d",
+      "name": "速冻汤圆",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-68ca6633c10d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-68ca6633c10d.f3e3ac957c58d3c9.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 15196,
+          "sha256": "f3e3ac957c58d3c99e9c0ba2519dc44dd258d87a9f4b3f2458d24175a4cac938"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-68ca6633c10d.70370fd1d5cedbac.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 37586,
+          "sha256": "70370fd1d5cedbaca7af4815caac9e2879e8b78b764a53598058d66a004a2fb7"
+        }
+      },
+      "original_sha256": "0bb436271c375b82ed4ea1ef230935b2c783a217b1e8b9d4d5f51abc682a38e9"
+    },
+    {
+      "key": "dish-2e33e0141c78",
+      "name": "速冻馄饨",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2e33e0141c78"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-2e33e0141c78.6d7b181725d0a6f6.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20112,
+          "sha256": "6d7b181725d0a6f6ca406cbd0b90d27b3bd3689be67d3be7a4aa704535358233"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-2e33e0141c78.2e9bfc15ad083c8b.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 53976,
+          "sha256": "2e9bfc15ad083c8b0cd8b928db56d29b8078a700ae67f2cdfc08c79864ed1a27"
+        }
+      },
+      "original_sha256": "4eb693611a4c6a7a991152372baccb61018a9fca5e8c5296d222a121d16481f3"
+    },
+    {
+      "key": "dish-3c05ffd63abd",
+      "name": "勾芡香菇汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-3c05ffd63abd"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-3c05ffd63abd.4394dd2e6d503515.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20956,
+          "sha256": "4394dd2e6d5035153ddbc484b28ac2c1b64bbae4835547d94d3ebb25d5264a9e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-3c05ffd63abd.129bd0a7f8ade43a.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 57404,
+          "sha256": "129bd0a7f8ade43a496cb10fcad5f6454ed857d7a9cdff3d8a397a41126a4d45"
+        }
+      },
+      "original_sha256": "9f225b1489a291409ef952bd96d165882051d0dac63b73cd5443293734315400"
+    },
+    {
+      "key": "dish-95d7b404d04e",
+      "name": "奶油蘑菇汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-95d7b404d04e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-95d7b404d04e.c8d6ed1a326ac70f.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19346,
+          "sha256": "c8d6ed1a326ac70fa29cd971a0271ecc5d78a92bf5a8d909de3c717c0f7fdba4"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-95d7b404d04e.f04e8a23863a1e63.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 51390,
+          "sha256": "f04e8a23863a1e63cf91a0a56c85831821c87ce3376033d22efe11059afa9ed8"
+        }
+      },
+      "original_sha256": "4400b910c0751ea218c921b3630319d8e993e0c48cb14b39ccd45d7f0c4edc98"
+    },
+    {
+      "key": "dish-8ad51751e8b6",
+      "name": "小米粥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-8ad51751e8b6"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-8ad51751e8b6.6b6736b74c292d19.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 18134,
+          "sha256": "6b6736b74c292d1933d61acafe78362048fb644416402bfdb8dc955ff4ad3c1b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-8ad51751e8b6.8292ab0d0b26d002.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 45994,
+          "sha256": "8292ab0d0b26d00210d0cba9479f47555c35696e611a94f03a06829ea504a007"
+        }
+      },
+      "original_sha256": "eb57757c19b7197f82180cc8614c91a6c2ced64375014c4e526cd18d958b70f7"
+    },
+    {
+      "key": "dish-4c944fb35c21",
+      "name": "山药南瓜炖鸡汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4c944fb35c21"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-4c944fb35c21.e854eaf71df11ed4.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21332,
+          "sha256": "e854eaf71df11ed49cb59327982877e3e4477f1d3ebde874738927fb6fbb3da2"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-4c944fb35c21.e40fd2c1413d28f6.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58234,
+          "sha256": "e40fd2c1413d28f67b42c5cbce967cbbbceb987dbdec567a39223dc24dc50a30"
+        }
+      },
+      "original_sha256": "2b16c9db5c626c29a526160d2bc705650f05af1c618f4257e1c5e1607e559c9e"
+    },
+    {
+      "key": "dish-1afcd350dd6d",
+      "name": "排骨山药玉米汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1afcd350dd6d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1afcd350dd6d.745f40883767d240.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20984,
+          "sha256": "745f40883767d240125e10f00e416403e6e3ae50542ce84245f0d8e9b5b445da"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1afcd350dd6d.14db14e1510da692.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60304,
+          "sha256": "14db14e1510da692adb4d26fabc227562b720da56568f2a9e91137311d8f5f31"
+        }
+      },
+      "original_sha256": "3ff645ee59ec3fc158b2d7cbea192fc4d92311320361a9cb879c2dde0929f68e"
+    },
+    {
+      "key": "dish-558559ec84a0",
+      "name": "排骨苦瓜汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-558559ec84a0"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-558559ec84a0.b1d9e4fa98cfb6d1.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22524,
+          "sha256": "b1d9e4fa98cfb6d18ff3126bfdd7be525d2b5282f9cf7cf1561b0405ad3a17f9"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-558559ec84a0.b34839b501fef872.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63374,
+          "sha256": "b34839b501fef8722b2d485840c20a51befd7e0de49e98bccd18e99d7fde9d8c"
+        }
+      },
+      "original_sha256": "08a7d235a0fa9c68fe64aa785c734ef73a29d49e64b3a0ebc8ccf6ba5978d7b3"
+    },
+    {
+      "key": "dish-e511d3a4430a",
+      "name": "昂刺鱼豆腐汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e511d3a4430a"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-e511d3a4430a.51389622c857b1e2.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20564,
+          "sha256": "51389622c857b1e25cef514fb09c2a7e91f0e6d4b1da1b7c6d31fa80e658cc4c"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-e511d3a4430a.634792098b9955cd.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58584,
+          "sha256": "634792098b9955cda69ef30b6c812559e4a69e9ba36d5bf208d5ea2ec6bc7d20"
+        }
+      },
+      "original_sha256": "10a2874a4ce315fd52427911901dc285578f61c325a2fd930715ae4132462b0f"
+    },
+    {
+      "key": "dish-bb2673fc51ec",
+      "name": "朱雀汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bb2673fc51ec"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-bb2673fc51ec.a575a846c77dc942.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19712,
+          "sha256": "a575a846c77dc94248a196a287772bbe442291f1fad3d14d80cfc1b7a1badd48"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-bb2673fc51ec.86f0379089da79f1.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 51346,
+          "sha256": "86f0379089da79f16f151596129932ecc1c1b6e908092861f4bafa779eaa34e2"
+        }
+      },
+      "original_sha256": "47918673eccaf94d5240ded4c30630b714efa795f4ab7de2ecb1d11c89d01176"
+    },
+    {
+      "key": "dish-38f5fbfaae40",
+      "name": "玉米排骨汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-38f5fbfaae40"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-38f5fbfaae40.d07cf733bca6be61.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22606,
+          "sha256": "d07cf733bca6be612c45e07a3a08c4930c9fe5c84819bd03bf2a8a9d6293945b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-38f5fbfaae40.a63f172c08a8079e.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64968,
+          "sha256": "a63f172c08a8079e79a4795308aee525633565d1155a52558258755476592b44"
+        }
+      },
+      "original_sha256": "df621e1b63589f07d3e1a4f907ff11742ca176406fb72a07fa1b7c0c95bccf69"
+    },
+    {
+      "key": "dish-0840396cb272",
+      "name": "生汆丸子汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0840396cb272"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-0840396cb272.1d1f99d64758b9e8.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22436,
+          "sha256": "1d1f99d64758b9e80063200fb5bc5cd81c5ea54b6059ddf6c3f9f89099293740"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-0840396cb272.3344383e9109b5b6.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63912,
+          "sha256": "3344383e9109b5b6347320e79b57f65d0835e781b5d2a4e701afa93453f248e6"
+        }
+      },
+      "original_sha256": "8db50d8951ab7215b9a6111926b08686dfdf8a4f4c5dd91158c4be4a995f54cc"
+    },
+    {
+      "key": "dish-28a9b2f06a8d",
+      "name": "番茄牛肉蛋花汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-28a9b2f06a8d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-28a9b2f06a8d.c40b006bf5bfc136.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22696,
+          "sha256": "c40b006bf5bfc13618739b6f1ff3571b626fbbf548c79a9533f57af341113e50"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-28a9b2f06a8d.f4c41f3fd96d2d52.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62042,
+          "sha256": "f4c41f3fd96d2d52feeaf9d2ce4b77395feb5b4ee41de98879b99d1ebcb6e7ff"
+        }
+      },
+      "original_sha256": "4d24a0249b7b67a16eaa0e8d9eb4d68ad85c659959ec28761566e6bfdcfae21f"
+    },
+    {
+      "key": "dish-648523905ae1",
+      "name": "皮蛋瘦肉粥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-648523905ae1"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-648523905ae1.78d8003a4a914716.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21200,
+          "sha256": "78d8003a4a914716d2238c815dc62e39c8dd132768e33700b281c351f03fca24"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-648523905ae1.24faa2cf9bd085b1.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59398,
+          "sha256": "24faa2cf9bd085b13cfa443186c9473696f58a224272b1579d2445d79860ceed"
+        }
+      },
+      "original_sha256": "6adb5a148df5317dc7181fc5085b7f7013ca89252894e92bcc410b6279fab388"
+    },
+    {
+      "key": "dish-196eab378a75",
+      "name": "米粥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-196eab378a75"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-196eab378a75.acd6f90c247c8ce5.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 16692,
+          "sha256": "acd6f90c247c8ce5a71e88bf31b3b48231d7fd7f615fd79554773edf0e8e19a0"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-196eab378a75.e24b72470fe68d3e.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 42798,
+          "sha256": "e24b72470fe68d3ed2ace198cfc6cea475d5ed7681cf608c06c48af292df536a"
+        }
+      },
+      "original_sha256": "342ae5baf5aa40ac49b1f516ac824d1f880ac8a6fdb3c0cd008927d0a9a4297b"
+    },
+    {
+      "key": "dish-b435c11c8067",
+      "name": "紫菜蛋花汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b435c11c8067"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-b435c11c8067.8e038d026d55e8af.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23064,
+          "sha256": "8e038d026d55e8afe6b02b8a511d4307d65105a1851cbadf379026566df0a7eb"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-b435c11c8067.decbfbbbcb8813d2.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64314,
+          "sha256": "decbfbbbcb8813d2c2303b93dd14ab55a7b6e163fbfd38b324ee00d25b4207e2"
+        }
+      },
+      "original_sha256": "74455fdb4eae1d1cb5cc28f98dd8c4c879ad506689dcec691d0c649b9b447b1c"
+    },
+    {
+      "key": "dish-419a5e174596",
+      "name": "罗宋汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-419a5e174596"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-419a5e174596.c0612d773b6bdd7e.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22352,
+          "sha256": "c0612d773b6bdd7e0868741e4729d8249beb2b122f876378444cd798bc02896a"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-419a5e174596.8b4d8f056f3b8c0d.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63356,
+          "sha256": "8b4d8f056f3b8c0d0e609fc3191b0a1ffcb37d6f43486faa5913983153a17d85"
+        }
+      },
+      "original_sha256": "e1fc812cd22953087b989597598389fe4dc76c843479d0ce6732189247b989ce"
+    },
+    {
+      "key": "dish-949bd05cd61f",
+      "name": "羊肉汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-949bd05cd61f"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-949bd05cd61f.0f2199a0c59450b9.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22632,
+          "sha256": "0f2199a0c59450b94b9ff79bfa853fe3ccb82cfda6c6ba50a8f4910563c45e54"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-949bd05cd61f.de1cafe0a63e6f17.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65054,
+          "sha256": "de1cafe0a63e6f1737bb8657bd10a3c5ea6212330ff23c4e6cf1e0a019509352"
+        }
+      },
+      "original_sha256": "96252b920df19a73e39298059922de4d703fd2f0c989237e9a7f4545da822ec0"
+    },
+    {
+      "key": "dish-46c174a49499",
+      "name": "腊八粥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-46c174a49499"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-46c174a49499.4dbf76e029ea8e17.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22816,
+          "sha256": "4dbf76e029ea8e171c8cbd9a08657247f88b5a0b062af7422b598aa8175d4b13"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-46c174a49499.d82a36393bea6cad.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62488,
+          "sha256": "d82a36393bea6cad46b497f448f9b3e387ea6189f1a5f2681781adda2c6d4f8a"
+        }
+      },
+      "original_sha256": "7b5beac7da45517d86413b67cf27708046631be3b44e5e71bb5c8e1f37d7ead9"
+    },
+    {
+      "key": "dish-12b1c244a100",
+      "name": "菌菇炖乳鸽",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-12b1c244a100"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-12b1c244a100.91fe6846a7ce0a31.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19774,
+          "sha256": "91fe6846a7ce0a315c5329e622d4964a4ac0480f50d0726b7361ee2157c19047"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-12b1c244a100.c966b12d8d8c57d0.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 55386,
+          "sha256": "c966b12d8d8c57d0e8b87bfe99bf226a63ec16e52560e2ff87d9e994596df553"
+        }
+      },
+      "original_sha256": "3619bbb61e1c7eddc6e73289111ee8ab0d2f87c313dfa13c9121e0f5fd2b9a82"
+    },
+    {
+      "key": "dish-414f79bd9c04",
+      "name": "西红柿鸡蛋汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-414f79bd9c04"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-414f79bd9c04.2c33a50c4b619e22.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22102,
+          "sha256": "2c33a50c4b619e22717278353daed8db12c2d3bdfee931ed9f473ada11da8798"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-414f79bd9c04.c60aeff0f97e9972.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58094,
+          "sha256": "c60aeff0f97e997274dcaf1d99459b2e0ed0556a0ad03099c4695acef199f7ae"
+        }
+      },
+      "original_sha256": "2b5d47c2b4249c481cfde075b19d662809aa873502188befb7ded2041f28e759"
+    },
+    {
+      "key": "dish-238c08c29ddb",
+      "name": "金针菇汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-238c08c29ddb"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-238c08c29ddb.38e7601f7914907c.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20068,
+          "sha256": "38e7601f7914907c4a0c72f0bf03f8b30b27af31bcaf02ec398e77a4314dbe4a"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-238c08c29ddb.38ce5ce61a2fa996.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 52396,
+          "sha256": "38ce5ce61a2fa9967ebbe560cd3a6ef196aebd44a0357aac1fb3835373b1d799"
+        }
+      },
+      "original_sha256": "4fed431ec88c107628b62f7f44d46dc3d88d48bec423216a5a83da7a8219a05f"
+    },
+    {
+      "key": "dish-38acd3af9efb",
+      "name": "银耳莲子粥",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-38acd3af9efb"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-38acd3af9efb.ea4de4191ff2b1bf.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20536,
+          "sha256": "ea4de4191ff2b1bfdddd2959c574370ae46be6e83ce1eba0229e3c1d61dec2ec"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-38acd3af9efb.3686982d70f3b730.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 55620,
+          "sha256": "3686982d70f3b7308bb04d2ea929ae65d6c35781b7cbf42a2c3334f8397d0e0b"
+        }
+      },
+      "original_sha256": "ae611ac3ab552892a49141d31bd1a69f9301710a3e48247c92d72b716ae96272"
+    },
+    {
+      "key": "dish-814045db7352",
+      "name": "陈皮排骨汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-814045db7352"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-814045db7352.1bfe5cacee08c96d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21980,
+          "sha256": "1bfe5cacee08c96d56a5a71b123d514948ba9321eceea8baf4721d3d750b5349"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-814045db7352.fa4a1ffde0e4d4ee.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64696,
+          "sha256": "fa4a1ffde0e4d4ee2a857728e3f149f14a8312e90ac3059575786d69ba484122"
+        }
+      },
+      "original_sha256": "64395233ef424097c50300321d257de269171ff73730b57bc921c0e5633ba114"
+    },
+    {
+      "key": "dish-502a2a1b61c0",
+      "name": "黄瓜皮蛋汤",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-502a2a1b61c0"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-502a2a1b61c0.3094d37cfc7f18b0.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21870,
+          "sha256": "3094d37cfc7f18b0349857e83deddfb3088339000a9d449fa4e4030e72a2cbbe"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-502a2a1b61c0.6b46f84048630736.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61768,
+          "sha256": "6b46f84048630736b3c56f33b52ead00de2c6cbbc3860fefd2371826ccb92a9a"
+        }
+      },
+      "original_sha256": "8804ac5fad13c32a54e0bb4fa44b6106d31155449330ad1d7b0e98e0026b989f"
+    },
+    {
+      "key": "dish-ceb4b4a04f90",
+      "name": "中式馅饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ceb4b4a04f90"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-ceb4b4a04f90.e3207ee4d07b0588.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22332,
+          "sha256": "e3207ee4d07b0588faaa41dad9d64b4be417b72c58f7bc494d7f9508fb1a7e9a"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-ceb4b4a04f90.15a524ca504042a2.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61414,
+          "sha256": "15a524ca504042a24c82b4704d608674691535556d973a8f5cd643710d3eebb8"
+        }
+      },
+      "original_sha256": "56c971937dc0e200308ab83d3affa2eb2146676b5364542105ff8f7b975d7249"
+    },
+    {
+      "key": "dish-83c2759e7cb2",
+      "name": "凉粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-83c2759e7cb2"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-83c2759e7cb2.dd5bbe04407ee4c4.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24222,
+          "sha256": "dd5bbe04407ee4c426f9a9769275fdad0f5c9afec7ba4b9463a7aaf6ff959527"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-83c2759e7cb2.6d41bf3f66b46a61.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61100,
+          "sha256": "6d41bf3f66b46a61000a66e229e35cc9611ff530e159be12111eca1b0dce13f1"
+        }
+      },
+      "original_sha256": "739ba28843564bdda14c3daf4abff1ef7edab4108b6cfe6d6868def5ce8b432a"
+    },
+    {
+      "key": "dish-1bda94c2a479",
+      "name": "利提巧卡",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1bda94c2a479"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1bda94c2a479.9795061ae89794e2.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22734,
+          "sha256": "9795061ae89794e220c72720763a2973b955260193c7008b42a361555181057c"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1bda94c2a479.eca334ce05cd10d7.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62350,
+          "sha256": "eca334ce05cd10d7f68751e279237ed386c77f9d61cfc16126b60ec883c274a2"
+        }
+      },
+      "original_sha256": "dd860dc5290bca7576cb15dff3554721328c6bf6fc247cb1a48c3bcced30c740"
+    },
+    {
+      "key": "dish-c5aa148342a3",
+      "name": "印度烤饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c5aa148342a3"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-c5aa148342a3.e76b9bd99a74bb7d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22926,
+          "sha256": "e76b9bd99a74bb7d9729f714377c72c7bdbf81840f3f172309947d0ba9904286"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-c5aa148342a3.2361db13596ba5de.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65322,
+          "sha256": "2361db13596ba5de9913882c034003914c448621fa63884676471a6adb6ec4a5"
+        }
+      },
+      "original_sha256": "26176979fed5d3472c4d66ad39a9e2adf78f203f1429aae602c208b7e537b980"
+    },
+    {
+      "key": "dish-2a46b4b88f72",
+      "name": "印度焖饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2a46b4b88f72"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-2a46b4b88f72.1dbab2bae5e2d7cc.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23432,
+          "sha256": "1dbab2bae5e2d7cc401692f05460e68dcb8847de75271a67643a4d43ef1a6b41"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-2a46b4b88f72.5fb0359f6586c912.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61908,
+          "sha256": "5fb0359f6586c9129b7a4d99af97efef33bbcd19abaed1f06189a472b9672c36"
+        }
+      },
+      "original_sha256": "5b4e576a5a0cd4f27a1362a6664913fbd0858228e317ee2ec43260c315be0354"
+    },
+    {
+      "key": "dish-1d96b8fc5bde",
+      "name": "可乐炒饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1d96b8fc5bde"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1d96b8fc5bde.8ff8f274d407766d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22420,
+          "sha256": "8ff8f274d407766db40ea46b5a4f76f480156468f7df41a3e7512113a7a4a77f"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1d96b8fc5bde.a119c7d2b37e3faf.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61126,
+          "sha256": "a119c7d2b37e3faf90996d81b3425f9154c71007047d9e7fa9c5ad06d7292568"
+        }
+      },
+      "original_sha256": "26610acae9dfdfd948c48cf02512ab23c07c80f141aba8aaf7177a19dc053e8e"
+    },
+    {
+      "key": "dish-22a66ee1b189",
+      "name": "咸肉菜饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-22a66ee1b189"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-22a66ee1b189.273ec521d39768a3.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22592,
+          "sha256": "273ec521d39768a386779962a6d2bd1b84204bc6691be9fc449d297bbd220f69"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-22a66ee1b189.b8fcbc1ec5b7fdc7.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62410,
+          "sha256": "b8fcbc1ec5b7fdc7589f6cbc98722bc4993420ef65b45611d8a5854e8129f80b"
+        }
+      },
+      "original_sha256": "1674d93f21d96239836ae3eb9d953ee8c50616a5aa4ebcd923511ab5ae6fa43d"
+    },
+    {
+      "key": "dish-ec9f0780bddb",
+      "name": "基础牛奶面包",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ec9f0780bddb"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-ec9f0780bddb.7b19e03811a65bb6.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19538,
+          "sha256": "7b19e03811a65bb668784f54a3ab99082ebe568611ff40ec9b38350e5258381d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-ec9f0780bddb.32aaa714ceafcf95.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 56008,
+          "sha256": "32aaa714ceafcf95955619c5d4d9a856e200795e58a800ef49f72baf9cc0e174"
+        }
+      },
+      "original_sha256": "60b5c2be0459debcfc2d79aca078bceed638e519c7966d1dc79656f479a09500"
+    },
+    {
+      "key": "dish-1d64ef29c97b",
+      "name": "微波炉腊肠煲仔饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1d64ef29c97b"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1d64ef29c97b.4ac1c30d8a1753ae.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23930,
+          "sha256": "4ac1c30d8a1753ae434c0b1d3152f06069121ec9db2b8ae68b38d10da02c022e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1d64ef29c97b.a3c6da5d5f5198b8.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60134,
+          "sha256": "a3c6da5d5f5198b8e8a1d5ed7e14e66b4b1903af8871c8846e930957cc1ee208"
+        }
+      },
+      "original_sha256": "985579cff40c303f6d16e86424f4aed740f14c0d35e0670a5bfc2107a5bd1493"
+    },
+    {
+      "key": "dish-1a5309d32c90",
+      "name": "意式肉酱面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1a5309d32c90"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1a5309d32c90.5f9abe6c94c0ff43.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21850,
+          "sha256": "5f9abe6c94c0ff4309f25f7fe024c7ce6562d352c88bff0a88804e97a8f7673b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1a5309d32c90.cb3381455ae21803.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62832,
+          "sha256": "cb3381455ae2180355efadc26a1f52edc4d321b6be42b6834b9bfc4c443e91cc"
+        }
+      },
+      "original_sha256": "eb5c644ff72432872d59b7b44a7e5e39ee74493c621cb1601a3f5e61bd7849a3"
+    },
+    {
+      "key": "dish-c52f0bf257da",
+      "name": "手工水饺",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c52f0bf257da"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-c52f0bf257da.c655a5cc38f7461e.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 18610,
+          "sha256": "c655a5cc38f7461e26ea854a36c58bd3b5e3457437559a6a3398fce9bea97d55"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-c52f0bf257da.5702cbbc31a8df73.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 47828,
+          "sha256": "5702cbbc31a8df73eb6ae528063ffca91305184f9e088181216b22ed5ee03974"
+        }
+      },
+      "original_sha256": "82e8de636fa1a242f1c3bbe9f6c1b6edff5d7b8a2eb6ce13b70a053418371b84"
+    },
+    {
+      "key": "dish-b80fc917b705",
+      "name": "扬州炒饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b80fc917b705"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-b80fc917b705.a3fd8352932094f8.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21820,
+          "sha256": "a3fd8352932094f86ed4b6b537891b174faa32be94ae49adbc4f68e457d532b5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-b80fc917b705.68332ad7f3737c15.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 57504,
+          "sha256": "68332ad7f3737c15fd86d5c7dcfd8de7f54ad7d2f1dda8ef671bd30fd0f561a6"
+        }
+      },
+      "original_sha256": "4d4a85372cab565cecd08e199adf224bc649adcca85fc02068573270e8fb318a"
+    },
+    {
+      "key": "dish-2eb4a45a2e3d",
+      "name": "披萨饼皮",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2eb4a45a2e3d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-2eb4a45a2e3d.6628699d64b2fc43.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19210,
+          "sha256": "6628699d64b2fc438dbcef37143387aeca7bfc27a2d2da04778f26dc492c8571"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-2eb4a45a2e3d.6708e3a14e9bf304.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 53604,
+          "sha256": "6708e3a14e9bf3041b67b7348e48f5086625d07cd971c39ddadad40ac731abbe"
+        }
+      },
+      "original_sha256": "1f71512df2236743ea8dadfd9a7536cac7937fc55bcce82c391166b65e3f2004"
+    },
+    {
+      "key": "dish-571da379bc04",
+      "name": "日式咖喱饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-571da379bc04"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-571da379bc04.6f5b335e197d707d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19248,
+          "sha256": "6f5b335e197d707d92597e56911abe99ee533f55815937b77d4db63a5bff9177"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-571da379bc04.867e74fa675367c7.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 51518,
+          "sha256": "867e74fa675367c70ecc2482fd4cc1e32438436c05df650cf7b2c944de1aa0a2"
+        }
+      },
+      "original_sha256": "167fd6fa9f9e6f9ed0d58806cdb342e70abdca1259e4ad1855aaa13737896585"
+    },
+    {
+      "key": "dish-632366b21003",
+      "name": "日式肥牛丼饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-632366b21003"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-632366b21003.da439e2674d1986a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22526,
+          "sha256": "da439e2674d1986aa95008432ccf74186119e4673557cd18ef65a558570ffc32"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-632366b21003.b24fcbf12c8eb2ae.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61638,
+          "sha256": "b24fcbf12c8eb2ae358f21cf565b9ba51b0a3f8a524c544ff2b4fddbb8391d6d"
+        }
+      },
+      "original_sha256": "7660118b9ef57ee0fbd037b6eceb52a81982bd8b267f2badc14cb1eeacc96042"
+    },
+    {
+      "key": "dish-920d017802b3",
+      "name": "汤面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-920d017802b3"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-920d017802b3.f0d1e1e3d4f4794a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22846,
+          "sha256": "f0d1e1e3d4f4794a4dc921d4e71820c0eaaf4703276dd4b143bcaaec9c129d5b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-920d017802b3.f54634c7bf9354dd.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62238,
+          "sha256": "f54634c7bf9354dd54861180064f367855ef37c8daffdcd9c2ec1774dea8f24a"
+        }
+      },
+      "original_sha256": "066c777a800a58f96ae03f9c4ab3cf2748c62d55a5140cc05c77a81f161ba092"
+    },
+    {
+      "key": "dish-f64edf0ff466",
+      "name": "河南蒸面条",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f64edf0ff466"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-f64edf0ff466.5007057f273306ba.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23704,
+          "sha256": "5007057f273306ba00d1971112140c47eeac1a9eb709b11661771ea990b15aa8"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-f64edf0ff466.d9a669d8d94166fe.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59890,
+          "sha256": "d9a669d8d94166fef7af37a85efa24890393c2d8187946ef122fa69a90bcb05f"
+        }
+      },
+      "original_sha256": "01945c3d1088b8e78cbe51a6d3c37c3868b93902c7e7ac328e38a1fca60dd883"
+    },
+    {
+      "key": "dish-1d22844abab0",
+      "name": "滕州菜煎饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1d22844abab0"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1d22844abab0.79cf1dd983b096e3.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22436,
+          "sha256": "79cf1dd983b096e3d89d0af0b7c98f8421e970fead3b1b9b27f0029347d8af63"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1d22844abab0.ef21d3eafabc3c33.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62936,
+          "sha256": "ef21d3eafabc3c33533c3628f96b895e109c4399533f710f437ab086cae2edde"
+        }
+      },
+      "original_sha256": "6d795051bd7780709745cbd6878fe55b52f8398694e1b62e461870425211c111"
+    },
+    {
+      "key": "dish-bfc763083371",
+      "name": "火腿饭团",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bfc763083371"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-bfc763083371.e89eee6609147e74.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22588,
+          "sha256": "e89eee6609147e74792f3b9177abad7f0e91698aadf0edea7167d4997d477b3a"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-bfc763083371.413c7a021f87058f.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60500,
+          "sha256": "413c7a021f87058f6ea366c64d031bce24bfecc5c7fbfb57a4b13e1c2f18b58e"
+        }
+      },
+      "original_sha256": "88d9a1721974ef6155e30f20c3ff64b714f564b22a9c94062a7a3af02e539af2"
+    },
+    {
+      "key": "dish-414dff648871",
+      "name": "炒凉粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-414dff648871"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-414dff648871.fc7b5b77773c2bff.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22726,
+          "sha256": "fc7b5b77773c2bff2c9dd7fcac9cea4fa76c687f8b3e74ab358dcd24378c458f"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-414dff648871.15adf48ace42e347.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59450,
+          "sha256": "15adf48ace42e3477140d4adeab64977a60b0727050b7856c17757bcd5c706c0"
+        }
+      },
+      "original_sha256": "ea8fedfd37175ae6b9bb5f040be9e7129121be530f1111bef31c80e60cf341ff"
+    },
+    {
+      "key": "dish-9a222b1883ca",
+      "name": "炒年糕",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9a222b1883ca"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9a222b1883ca.f7b4cee57bafac58.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22224,
+          "sha256": "f7b4cee57bafac5856ffc5326a572da5886253d2813bea11389827a3dbc3054e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9a222b1883ca.d3c6cfe372bf6414.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60936,
+          "sha256": "d3c6cfe372bf64142467eb56a53b8dc98c139b562cc2cd4a1b7d2483ef44281c"
+        }
+      },
+      "original_sha256": "092df39735b5b0114972fb8051b7c2d2447f527b87e3f77a03f77df5d3349873"
+    },
+    {
+      "key": "dish-392047faad04",
+      "name": "炒意大利面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-392047faad04"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-392047faad04.c4afdc9b6d626a95.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21684,
+          "sha256": "c4afdc9b6d626a95317d9c6c8febec8ee72641d5b09a36653916febaa298b6ed"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-392047faad04.332a192efdb290f6.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59020,
+          "sha256": "332a192efdb290f6e01d482587bf54c1e3bdd28784cdacba3c72b6ebe901a13a"
+        }
+      },
+      "original_sha256": "557ab61636c4200bdde26cbaceb0d14a76cb2da9d00c0b46bbd59ad6cbb8d5f6"
+    },
+    {
+      "key": "dish-a994a8dc42ec",
+      "name": "炒方便面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a994a8dc42ec"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a994a8dc42ec.386b8600ddc12603.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23026,
+          "sha256": "386b8600ddc1260366a0eb2487bfcaa55eeec2874f8f0c1c13a7ac0ef8d12b1d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a994a8dc42ec.a941bcf77b03ea59.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60680,
+          "sha256": "a941bcf77b03ea597732912c5f9c0cedb6bd4e9869b188ca57a354f573c09d15"
+        }
+      },
+      "original_sha256": "9114d5796ee1f48fe3d7aa5a0aabed33ac81c88d7d79ca621e689fbfe82e37e9"
+    },
+    {
+      "key": "dish-581d80efc12c",
+      "name": "炒河粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-581d80efc12c"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-581d80efc12c.269ee7023fe6ab21.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21906,
+          "sha256": "269ee7023fe6ab2194c6321acc2e1d3722a59697ea1aee582327b99f49088b84"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-581d80efc12c.924ffa350d177f4d.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60068,
+          "sha256": "924ffa350d177f4d41fe2d22b34a88c28f4118899e313d789c9a3d7608228ae3"
+        }
+      },
+      "original_sha256": "6e1c3fbfc4aa9e610cab9bfa379c85af40fafc45e940aa931c0654bbcfaf6a6b"
+    },
+    {
+      "key": "dish-50b2a23c6648",
+      "name": "炒馍",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-50b2a23c6648"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-50b2a23c6648.6e708ece7751d217.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22870,
+          "sha256": "6e708ece7751d217fb122fdcc4f80bd64ff08bca11241c611a99c44495341690"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-50b2a23c6648.9661e8452d360a32.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64008,
+          "sha256": "9661e8452d360a32abf2723649d4c9dc49ea6bb67507710e43bd769d45e858d6"
+        }
+      },
+      "original_sha256": "9e42bc9ee5803a80e90288bffaa37ee949740cfa1f6a3a13560fa21737539908"
+    },
+    {
+      "key": "dish-d916492c172d",
+      "name": "炸酱面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d916492c172d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-d916492c172d.82f09ed2eb4380d8.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23606,
+          "sha256": "82f09ed2eb4380d8fe6060d5abfcd75e30ad22e2e545c45869f83312de7f45fb"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-d916492c172d.b259a4f4287265d6.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59392,
+          "sha256": "b259a4f4287265d65611c9cbe3872c52dbb99ced5a826c7a516d995b7754994f"
+        }
+      },
+      "original_sha256": "a9e7a726b865a1906792b55fe83293889a765c14029153948e2cfcef6d0eae3d"
+    },
+    {
+      "key": "dish-f5276d1d6821",
+      "name": "烙饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-f5276d1d6821"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-f5276d1d6821.be1958ebf7f24016.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21920,
+          "sha256": "be1958ebf7f240163b39e066e8bf731eae7de787aa3ab33b0e7dea60b202f610"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-f5276d1d6821.01ee8beb4fce528b.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60944,
+          "sha256": "01ee8beb4fce528bc96b7e6743549c213036b08a9a36ed49d2c98231a73642d8"
+        }
+      },
+      "original_sha256": "ea91a54553c9e5f7001070fe4b4247945b5a4e02a17fd5eea78a860d0ec00da0"
+    },
+    {
+      "key": "dish-44c3bb871eba",
+      "name": "芝麻烧饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-44c3bb871eba"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-44c3bb871eba.da2ebb3991293ec0.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22014,
+          "sha256": "da2ebb3991293ec0343f5a2f9a639efed3630480c616d079216b48dc49de9d87"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-44c3bb871eba.fa1a1b6a356dee0f.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59834,
+          "sha256": "fa1a1b6a356dee0fe14681ee3e5a4b9fab1da5b27d42d3cbf9e8654e0cf14142"
+        }
+      },
+      "original_sha256": "e4669e82f1ec04706731a27f8592ac3ec2107a4c029e0531ed776ce915d45c4b"
+    },
+    {
+      "key": "dish-d97323116a82",
+      "name": "热干面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d97323116a82"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-d97323116a82.c5d50b7f04ae7721.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24332,
+          "sha256": "c5d50b7f04ae77210977075070e3f3be202635d0086caf4e40f7278bc320def5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-d97323116a82.0e6344d394ac22d9.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60850,
+          "sha256": "0e6344d394ac22d9093433b53aee575e36ad3b1d1f31c31739747bdc78936d95"
+        }
+      },
+      "original_sha256": "96456c94b6895abb19132f58890d71d2f57c8387e1a84cbb9d3683bcad9fb0cb"
+    },
+    {
+      "key": "dish-73a12a8bea38",
+      "name": "照烧鸡腿饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-73a12a8bea38"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-73a12a8bea38.fe1fea78b151b7d9.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23790,
+          "sha256": "fe1fea78b151b7d98c4740bfc88acedcdc2c4cfdf6bdbaa9a9e48c088ec90cee"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-73a12a8bea38.121c50f379b3df37.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64660,
+          "sha256": "121c50f379b3df37fee370e85182f766b4b7263945c737042d89b21a5beb1fde"
+        }
+      },
+      "original_sha256": "f2493d89795b90b2017c8d57e44bdd3deb52e3c833a52098f61e4653020de33d"
+    },
+    {
+      "key": "dish-103a45a25456",
+      "name": "煮泡面加蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-103a45a25456"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-103a45a25456.cf3cbf49164b0c0f.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21256,
+          "sha256": "cf3cbf49164b0c0f598de93099477b2505c1500ff8c5189a0d60c5de3ede88bf"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-103a45a25456.39f0f967439b4ce8.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 55556,
+          "sha256": "39f0f967439b4ce8c29b49484a2241090291b1c0f6a64b3d80d5e0f2d5c5f1aa"
+        }
+      },
+      "original_sha256": "31a047a01131f3d33ac2f8df7ce634db7ee2ada58a9cb970012c3ee3bcf6f8d0"
+    },
+    {
+      "key": "dish-40e20d1b3575",
+      "name": "猪油拌饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-40e20d1b3575"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-40e20d1b3575.6b2601c42b37ad9a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24442,
+          "sha256": "6b2601c42b37ad9ae04b1f6a64f39b42761a7e226b921c6df090203588cc9485"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-40e20d1b3575.9893ada3ac45a132.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61590,
+          "sha256": "9893ada3ac45a132a777d07b21e784a58f01ac49b9fb6aaa3920b1afa550fd8d"
+        }
+      },
+      "original_sha256": "639ac87bc75fa36efaf6e01dce91e81388d194fab20a1c22f1a875e24c192c0a"
+    },
+    {
+      "key": "dish-9e09ccc87f3f",
+      "name": "电饭煲三文鱼炊饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9e09ccc87f3f"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9e09ccc87f3f.7862a082ed16e062.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23738,
+          "sha256": "7862a082ed16e062b64df5bd873174cb5201af6cdf253b03a98af553b83f78b5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9e09ccc87f3f.1fc78760d74ed57e.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62712,
+          "sha256": "1fc78760d74ed57ea9b88174f44cca96a60e75a2b9c1de7085776a7d9864b74f"
+        }
+      },
+      "original_sha256": "801a7e6e81e4b1d09db7dc84a412e871239c90586a07ce4d16c2c3f321a00eac"
+    },
+    {
+      "key": "dish-0492c4583aa9",
+      "name": "空气炸锅照烧鸡饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-0492c4583aa9"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-0492c4583aa9.4c02a01a4e665cdc.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24346,
+          "sha256": "4c02a01a4e665cdc077d7dc7c208dc80dcaee78234c9586a36b4093a1b2f78aa"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-0492c4583aa9.04d0f4442d1ef187.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63632,
+          "sha256": "04d0f4442d1ef187a01cd8969ed730a1b1325cf9c7c2ba629b6cb2930e0cda29"
+        }
+      },
+      "original_sha256": "0c2b40ccc12a8f8c80f2e42940e5d2b09c311bf34c0c6cc019a7ec205c1472d4"
+    },
+    {
+      "key": "dish-65d4c06a5b48",
+      "name": "煮锅蒸米饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-65d4c06a5b48"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-65d4c06a5b48.bd565ade034ba20f.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 16126,
+          "sha256": "bd565ade034ba20fa0f9293451dfa172011873553e8798a90e9b0de2b0102fac"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-65d4c06a5b48.8f4654ca377330d5.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 39988,
+          "sha256": "8f4654ca377330d58a2b72a75e6baa712a0281ffcb68247df0666bda59b7d496"
+        }
+      },
+      "original_sha256": "629b8c96d745b8cecd3782c4d48e76127548737651cae71247a3f06a17ab1eb1"
+    },
+    {
+      "key": "dish-cf3dabc066de",
+      "name": "电饭煲蒸米饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-cf3dabc066de"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-cf3dabc066de.dbf7915c07b958ed.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 16318,
+          "sha256": "dbf7915c07b958ed0a2ea3c4525220c5634e657cc4d862ccbd2fd3c79989da0d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-cf3dabc066de.bfc75319d189446c.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 41020,
+          "sha256": "bfc75319d189446c6d54677d8f6823b413e75c652c3fa861807a72af6a615dfe"
+        }
+      },
+      "original_sha256": "4d514a5be5ad1db520399c9906581e6cf76bf0526d10b95e9dd284fa57c0075d"
+    },
+    {
+      "key": "dish-874ab7d67d2e",
+      "name": "红芸豆拌饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-874ab7d67d2e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-874ab7d67d2e.18403ed43305c392.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20986,
+          "sha256": "18403ed43305c3927d7f99ec45d2455dadd7ef7b4be16310a2505f57026397ca"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-874ab7d67d2e.90f108279580a8b4.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59202,
+          "sha256": "90f108279580a8b46c66d0852da522fbba94081310cb6af28afd88b1d74db06e"
+        }
+      },
+      "original_sha256": "2830769a1534772434ecb4fd88549dfe04e0a97a215997bdc0be54cd8f2b2dae"
+    },
+    {
+      "key": "dish-00350cbfad20",
+      "name": "老友猪肉粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-00350cbfad20"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-00350cbfad20.3d20ba0af09bc167.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24564,
+          "sha256": "3d20ba0af09bc167d0783f2b902b4a7e3e1037087bf19cb245657b8a9b563ef8"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-00350cbfad20.b894720e921b872e.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60832,
+          "sha256": "b894720e921b872e9f8249cdbd1c314643b316fa4ebbbe0b6a0ac2d52f555f6a"
+        }
+      },
+      "original_sha256": "20927099ddb9cf3714a9fa427acd550c64b9b6e30c1b35709cfb97bfa4e6393b"
+    },
+    {
+      "key": "dish-617957ecce2f",
+      "name": "老干妈拌面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-617957ecce2f"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-617957ecce2f.073b6697a982dee3.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22948,
+          "sha256": "073b6697a982dee33bd3f30749c2cf544a1ebd3a5d8b9f800c0940f0cf8cc429"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-617957ecce2f.130ba163b0fb5384.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62600,
+          "sha256": "130ba163b0fb5384f2302d387afe1d6bebff61273f5db91a2c8333a26ae3a30a"
+        }
+      },
+      "original_sha256": "459c4a4fb581568f02c99f0a7d5cef758429ba24182ee460f75d95d842d1f60b"
+    },
+    {
+      "key": "dish-580927b6ab1e",
+      "name": "肉蛋盖饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-580927b6ab1e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-580927b6ab1e.277054288dea2e51.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23658,
+          "sha256": "277054288dea2e513ce0bef1cc221e92f7d46969ebb141ae6523521f7dd8db70"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-580927b6ab1e.b3aae41b2daa1461.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59056,
+          "sha256": "b3aae41b2daa14616ff4db29fc6efe8fa405a92d8cb2b5a8435ae357e747c6d8"
+        }
+      },
+      "original_sha256": "e3e691d457a671905f6748d97e2c48ace275d9c29e92acaf8981b3bbce28c428"
+    },
+    {
+      "key": "dish-e9ddad293a47",
+      "name": "茄子肉煎饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e9ddad293a47"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-e9ddad293a47.79307821f70c519d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22988,
+          "sha256": "79307821f70c519d5be821ac0571179a29e10ef50b5996de625f0510a4ef996a"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-e9ddad293a47.0076aec221536f6e.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61132,
+          "sha256": "0076aec221536f6e5bbede87985b1d94bb9a46b1e796d3e1b0d50fa8c94bfff4"
+        }
+      },
+      "original_sha256": "bb0208dbbbc28e382a4e37263bef2d848fbe295e7a4a8e075ab82837f56fa04e"
+    },
+    {
+      "key": "dish-6aa1fa07f6c9",
+      "name": "葱油拌面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6aa1fa07f6c9"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-6aa1fa07f6c9.7ef9756d6de3281f.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22910,
+          "sha256": "7ef9756d6de3281fa6da189521108c72533067d099eb10d960424852312d2ca3"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-6aa1fa07f6c9.744ac5cadf9a8de8.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63782,
+          "sha256": "744ac5cadf9a8de8d118aeec353bddc0a37831242ec40a4b9cc1e1546c8be6f8"
+        }
+      },
+      "original_sha256": "c0e1752245a727558aa8653c5359433146198b5d8760c31ce041685b2d4614d0"
+    },
+    {
+      "key": "dish-06a218a8627c",
+      "name": "蒸卤面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-06a218a8627c"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-06a218a8627c.e30d122460ffc468.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22922,
+          "sha256": "e30d122460ffc468db013669ba617f51346fdac1bad27b191f352e9ee888583c"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-06a218a8627c.c130eee94039a10c.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62890,
+          "sha256": "c130eee94039a10c1583992996e4d3c98b4bbf8a09174b1afda31598297c4268"
+        }
+      },
+      "original_sha256": "88d145b07eeb0a66ed0d5d6ebd6b116fd4acca46fbd32584bf8bb9a1997e61bb"
+    },
+    {
+      "key": "dish-d36c1927c74c",
+      "name": "蛋包饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d36c1927c74c"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-d36c1927c74c.3ff578430ebb6391.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20232,
+          "sha256": "3ff578430ebb6391b9c3c1234e057ba0a499086682a42cf90f83e7c2761eadd1"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-d36c1927c74c.d058648aff634c47.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 53270,
+          "sha256": "d058648aff634c477506cb5259b32e83940d9c0cbede873595a54c47cee10e36"
+        }
+      },
+      "original_sha256": "0651a5a198a52c36f8bf43a0979d6e93f5f7b15ec918a669eb1b5a44097f0ed1"
+    },
+    {
+      "key": "dish-031354976c67",
+      "name": "螺蛳粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-031354976c67"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-031354976c67.16f5f2e4f7fa4281.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22844,
+          "sha256": "16f5f2e4f7fa4281ed3f0e13c8a2ea9b63d34abdad028e09c7334e0842b08e3d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-031354976c67.aebf1e5de4b5f6e7.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63550,
+          "sha256": "aebf1e5de4b5f6e79c65fa68969e2547f27ffac4743e8d079253b2b64c3cd59c"
+        }
+      },
+      "original_sha256": "644bee1c61da406d583ab2d394198e6030efa488288eebc03c1a7cbe562e6996"
+    },
+    {
+      "key": "dish-49e4e1e85bbf",
+      "name": "西红柿鸡蛋挂面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-49e4e1e85bbf"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-49e4e1e85bbf.0dff85842ce303aa.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23094,
+          "sha256": "0dff85842ce303aa329bffd0ba7fefdac014ecaa27e748d5b6223562b2590336"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-49e4e1e85bbf.7d13313db68047f6.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61554,
+          "sha256": "7d13313db68047f6e803e0027edd5c1e665bea4e89fdb22d459f830786fcb51d"
+        }
+      },
+      "original_sha256": "b8bc7a67c5049bc76bc8d56dca6c42b20a1c51ab471b1d7805cc8405be0ff91a"
+    },
+    {
+      "key": "dish-ff9dea4298f0",
+      "name": "豆角焖面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ff9dea4298f0"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-ff9dea4298f0.6a6103437803aa5a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23538,
+          "sha256": "6a6103437803aa5a4be563c899de342f7505ce3aebf36aca08fc4c79e852cb03"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-ff9dea4298f0.c9df4e01105fd327.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64958,
+          "sha256": "c9df4e01105fd32790ddce4af8561b59f5a44d0f921aa704765c7854904d3cb3"
+        }
+      },
+      "original_sha256": "a357fc4efffc52bf17119efe811c4b10fc20784d76559d86a51039679d028b8f"
+    },
+    {
+      "key": "dish-c638d9f85df8",
+      "name": "酱拌荞麦面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c638d9f85df8"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-c638d9f85df8.e7bfa52c69727498.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23414,
+          "sha256": "e7bfa52c69727498f151d6ac10e1f4f2411359de8475c79abfbf388b8da596ed"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-c638d9f85df8.bbe20d498ab6db11.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59244,
+          "sha256": "bbe20d498ab6db11dd590cc2fd9db3cc8853350f72a1fe55c338106e3b3359ce"
+        }
+      },
+      "original_sha256": "aff5aa95f84a27bd5a27c4050a47f9dc7c5412e90ac26c94c738177e74ff2c73"
+    },
+    {
+      "key": "dish-ecbf1bf555cf",
+      "name": "酸辣蕨根粉",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ecbf1bf555cf"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-ecbf1bf555cf.681221d93c5382c2.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24542,
+          "sha256": "681221d93c5382c201446a676f825684bcf97d8da6d041220dec8c02065a4817"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-ecbf1bf555cf.8b2b89e2fd438711.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61994,
+          "sha256": "8b2b89e2fd438711eddcb3712d4961c62ff3535293f5735ad68dba992648954b"
+        }
+      },
+      "original_sha256": "dda37804ad7f4680e5c3a683e64b5866a542ea7ed4ac05466ff6d7797ded2189"
+    },
+    {
+      "key": "dish-4de3928e6efa",
+      "name": "醪糟小汤圆",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4de3928e6efa"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-4de3928e6efa.631d7ab1046b0db1.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 18568,
+          "sha256": "631d7ab1046b0db186c1152d7fc95d72e08a738fdf21caee2e092b5b97e2b9e2"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-4de3928e6efa.33f5b1ea9d9223bf.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 47850,
+          "sha256": "33f5b1ea9d9223bfeeb2797ac4b92941999a7e3c1eed1f73731aec4b63b2351b"
+        }
+      },
+      "original_sha256": "e5c822fbb1ec3e08a4fd9026f14c585829b2df9c72b5b3391cc4bbe39bfbc6f4"
+    },
+    {
+      "key": "dish-9835d25396e1",
+      "name": "陕西油泼面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9835d25396e1"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9835d25396e1.546ff3e73409f888.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23974,
+          "sha256": "546ff3e73409f888cb50b0e546d659cfa1e2d76f2af38f47668d33e8a8f44637"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9835d25396e1.a80b95ee5a82731b.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62200,
+          "sha256": "a80b95ee5a82731b2b19375f5187822fc036b7b667075aa21a46d8ba11be984a"
+        }
+      },
+      "original_sha256": "66550d0d5f7ccae0203afd0aab22317c3d94ed272252626f084580fdfbb88191"
+    },
+    {
+      "key": "dish-c5e2191c72cc",
+      "name": "韩式拌饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c5e2191c72cc"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-c5e2191c72cc.f8ae26319675f281.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24494,
+          "sha256": "f8ae26319675f281aed4229856b2c76c5a762315eca9f04e51cf9469ceb12e64"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-c5e2191c72cc.b737ee6c7e0e9b36.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61442,
+          "sha256": "b737ee6c7e0e9b36f1fa062fb96cf3ee944a90040bf2d96a0afa6ad59ba22e68"
+        }
+      },
+      "original_sha256": "17ebd94bc5a2d5f9a3fac59cd9482dba6ddb16beb377192de3fc1f0a1d4c51f7"
+    },
+    {
+      "key": "dish-b8edc500b99e",
+      "name": "韭菜盒子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b8edc500b99e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-b8edc500b99e.206c060160935208.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23848,
+          "sha256": "206c0601609352080579673d2d158713fef066245f453fdaaeb26b3f179691e2"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-b8edc500b99e.f20918e24688aa49.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61844,
+          "sha256": "f20918e24688aa4978446c92356089eb5927462334b4971aca170b5a718b0df0"
+        }
+      },
+      "original_sha256": "09ab598c3fce2eaaa25da3cdededd2ff92bb73bb8408edfcc909c29e639fc697"
+    },
+    {
+      "key": "dish-8deffad10bd6",
+      "name": "鲜肉烧卖",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-8deffad10bd6"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-8deffad10bd6.ad35bc0b918fed20.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22088,
+          "sha256": "ad35bc0b918fed2056e36995f6dd4dc2a4b2f0596099360aab72016b49892924"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-8deffad10bd6.c94aae1ea0c7045b.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59932,
+          "sha256": "c94aae1ea0c7045bb386735f0d0663da32f26646956fc82069beb07b9b61d591"
+        }
+      },
+      "original_sha256": "76f1bad4480dd14aef8866f3614d1f4fec361d2cc30d9a6cdadaa9f8f09b730c"
+    },
+    {
+      "key": "dish-c3250cf8bae4",
+      "name": "鲣鱼海苔玉米饭",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c3250cf8bae4"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-c3250cf8bae4.11badc39615b6e8a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23756,
+          "sha256": "11badc39615b6e8afbd48a8f94fbd0782d82418aea92ee8ab4654d3c6d371a4d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-c3250cf8bae4.2b61a9a072183778.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59930,
+          "sha256": "2b61a9a0721837786b07776a879a236ab383cac1c1133d3ab549b747cc788113"
+        }
+      },
+      "original_sha256": "09c74f5fa604477f34d1b1ddf3bf4f796e24f226f0e70090464407d87e3ba5c9"
+    },
+    {
+      "key": "dish-343910aaf767",
+      "name": "鹰嘴豆炸饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-343910aaf767"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-343910aaf767.24130d9423fe0a9d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21944,
+          "sha256": "24130d9423fe0a9d3b37d97b1f8106c2a575efcc51336eff331c802def3b4cf2"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-343910aaf767.ad5cf3efe9669581.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60786,
+          "sha256": "ad5cf3efe9669581dc32301c7791cda8822bee6195e3fa4f87a64d4df62771bf"
+        }
+      },
+      "original_sha256": "61648a92be0d4aea156297e83384d14f6c2724d0fb804a5f7fb753586c13c200"
+    },
+    {
+      "key": "dish-e5f0719e2271",
+      "name": "麻油拌面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e5f0719e2271"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-e5f0719e2271.b8b5932e5f2e1dea.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23652,
+          "sha256": "b8b5932e5f2e1dea0672bf75999a7fdce6de10ff9542227eeab83b2b954e8018"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-e5f0719e2271.3a0242e4fef052b3.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65092,
+          "sha256": "3a0242e4fef052b35f313d2bcaa3ac6641266025e5781912fe719e918960c122"
+        }
+      },
+      "original_sha256": "9acf2730fcb75339155e3cdd57fd2ccced484b8723d87ce3bfdcf41ae61b1589"
+    },
+    {
+      "key": "dish-163edd1cb5ff",
+      "name": "麻辣减脂荞麦面",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-163edd1cb5ff"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-163edd1cb5ff.3ad717ae247ce332.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22612,
+          "sha256": "3ad717ae247ce3324e1da993ecf830b0f662dc968289adbbb72f184ac32ca6ee"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-163edd1cb5ff.d4b83df10ba933a1.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64072,
+          "sha256": "d4b83df10ba933a1fbf7ec1a51700f5b834d46db7dfd822d6a3641187e3bfc13"
+        }
+      },
+      "original_sha256": "08d91fff58f9be09ba41c1dff86f38d091105f0347b1fc8c3cb34ecc5d43f046"
+    },
+    {
+      "key": "dish-a05b627440bb",
+      "name": "上汤娃娃菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a05b627440bb"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a05b627440bb.961bc6f5588ffa9e.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21054,
+          "sha256": "961bc6f5588ffa9e6c6d6105157bd42a663a0ac878f58c7117d48e16ece957aa"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a05b627440bb.f285aded9c604070.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 56490,
+          "sha256": "f285aded9c604070bf54dd22a585b020c9f12d638b50d187827d1c9657bb0a80"
+        }
+      },
+      "original_sha256": "2bc9361591767ba988106ebad202e8604de92888da45569ef3460f6379b71008"
+    },
+    {
+      "key": "dish-e9b1f03369e3",
+      "name": "乾隆白菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-e9b1f03369e3"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-e9b1f03369e3.2a4c03191504306d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21104,
+          "sha256": "2a4c03191504306d37f7e70843bf1a027948f9125cc90dcd0407c2fab1189bbb"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-e9b1f03369e3.798b0b04a5bebc77.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 54926,
+          "sha256": "798b0b04a5bebc77b17b44f7886f793d31d132b90e3c6fe89483fa71d2e56c45"
+        }
+      },
+      "original_sha256": "2ae2e5c937e9d496edd1e8cfb4d9e49f3edc9138e2d3b6c0990125735f8bead3"
+    },
+    {
+      "key": "dish-9d5b2964d96a",
+      "name": "凉拌木耳",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9d5b2964d96a"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9d5b2964d96a.b62b525f08625d8b.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24434,
+          "sha256": "b62b525f08625d8b0d42c17e1d12d0ff81cf7e55db66f02a2821f0039bf7b8d5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9d5b2964d96a.ad7911c6c03c6c6e.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59082,
+          "sha256": "ad7911c6c03c6c6ef564ec312e15f9cff3d8d18b218448d476a17b68864cc171"
+        }
+      },
+      "original_sha256": "f863241f06099ad2ce6d2598e1eac860456db84828be0dbfafe4a0dc43483f2d"
+    },
+    {
+      "key": "dish-9fa6e6906317",
+      "name": "凉拌油麦菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9fa6e6906317"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9fa6e6906317.eff72804a2c3d819.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23612,
+          "sha256": "eff72804a2c3d819454c8e228159f701aead1ed8749722442b271336d7436863"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9fa6e6906317.f8fcb5b1e9f82e7a.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59318,
+          "sha256": "f8fcb5b1e9f82e7ae6675494ddf35a7e59fea9290cecbd9b9a5df60d468f652d"
+        }
+      },
+      "original_sha256": "24943570d10740665f0ff835edde514d77a6f5684aafbec3e28c3447aa094537"
+    },
+    {
+      "key": "dish-fc120554b9fc",
+      "name": "凉拌莴笋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-fc120554b9fc"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-fc120554b9fc.6a6f899bb7311c4a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20400,
+          "sha256": "6a6f899bb7311c4a2936d060c4f17b944301a9cbe2cf78d220e22686d3fe9cc2"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-fc120554b9fc.24a71ca76d832d05.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 55240,
+          "sha256": "24a71ca76d832d05df7bd602543311aeea21dbdf1bdece778038fc6aadee8fad"
+        }
+      },
+      "original_sha256": "d09608afec6a8d6866588a1d2295aa9d681291eb9384b0da3358528d2422aba1"
+    },
+    {
+      "key": "dish-8d02690da719",
+      "name": "凉拌豆腐",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-8d02690da719"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-8d02690da719.bca06d5fd1637188.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22818,
+          "sha256": "bca06d5fd163718884e970acd67919698dac1c219a86a86c15efb3f3b33a05f0"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-8d02690da719.a2f92a5386ac5c67.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61822,
+          "sha256": "a2f92a5386ac5c67c7f7a72358978c25ee28446b18cad822701cecda8edaa080"
+        }
+      },
+      "original_sha256": "ca7231ec58048422ab00e3359a4e1db05aa57ad9691dedf7d39c3f805d61f505"
+    },
+    {
+      "key": "dish-a4fb0751e170",
+      "name": "凉拌金针菇",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a4fb0751e170"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a4fb0751e170.62b9334bdb34f065.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24114,
+          "sha256": "62b9334bdb34f065ddfa4e2e7af8856c3d062b3379ec677af8373976ed2e1580"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a4fb0751e170.a4b9448780b31a21.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64614,
+          "sha256": "a4b9448780b31a21edd0d18d2a01aceef82c2d3efe841e222ffefbeeef543430"
+        }
+      },
+      "original_sha256": "d6bf9dde714ec13bfb41b5300ca9f07cee89ecdd113bdaad15a133a92595494e"
+    },
+    {
+      "key": "dish-1a65efb5c3b6",
+      "name": "包菜炒鸡蛋粉丝",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1a65efb5c3b6"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1a65efb5c3b6.4e38caa66b0aff82.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23944,
+          "sha256": "4e38caa66b0aff82a5c1ef1130ca08780e6744c5374a7674f64117196705bad5"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1a65efb5c3b6.7768b4815d046929.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59050,
+          "sha256": "7768b4815d046929dc821d3ae5189e5213ca432268883521ddb8ade4c6344775"
+        }
+      },
+      "original_sha256": "0d5c65bf27a0ebf9c5b415c9ea2af60fd923c435c01134044ec1bf22727f9c80"
+    },
+    {
+      "key": "dish-02e515d6befb",
+      "name": "印度土豆花菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-02e515d6befb"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-02e515d6befb.4b51962df19e0a44.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22918,
+          "sha256": "4b51962df19e0a44b69c78988d97b915c3c96623fd9e8dea6f911320d0bc91c6"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-02e515d6befb.216cda8c60936728.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65308,
+          "sha256": "216cda8c60936728e6dca8f0883369d01168d8658d39b78411a2db22809f6234"
+        }
+      },
+      "original_sha256": "e06ec0612fa19ba9c971014d46701ef289aa42b775cdc1acf207a7e4799c41ff"
+    },
+    {
+      "key": "dish-1e38411f7136",
+      "name": "印度葫芦丸子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-1e38411f7136"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-1e38411f7136.a2d6fae2d8f9f680.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22308,
+          "sha256": "a2d6fae2d8f9f680775f704a47b1a587177e92b9d40cb8be283419dbc8fda0cb"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-1e38411f7136.e941779faea29155.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61362,
+          "sha256": "e941779faea291551cb8d10396af51e5766fb1b5ae3027b6589573f8e78ab89b"
+        }
+      },
+      "original_sha256": "aed2fa4bf1a85e0a9ac50b979a3090a5cd71b28f22a595783893849a5a148c99"
+    },
+    {
+      "key": "dish-5097e0e1af4e",
+      "name": "家常日本豆腐",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5097e0e1af4e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-5097e0e1af4e.f9a0ce781c7c304a.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21342,
+          "sha256": "f9a0ce781c7c304af7fbb7edc94033dbaa19e58b92aabb4d91e0f46cacbccdd4"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-5097e0e1af4e.7cc93c13e950125a.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61056,
+          "sha256": "7cc93c13e950125a4122745e49874c8d431bcf81df02d7ab4fd87cec33d5087b"
+        }
+      },
+      "original_sha256": "69e65883a53f5c27b726e371b43d013881e7d72109bcdb50161f3bb1bb31db27"
+    },
+    {
+      "key": "dish-a5e465c95847",
+      "name": "小炒藕丁",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a5e465c95847"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a5e465c95847.c68ddd081d59b58e.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21516,
+          "sha256": "c68ddd081d59b58e3676cc788d6d67faf8356cfad971d722ef97571d7198475d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a5e465c95847.ffc4bead68bb4252.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59274,
+          "sha256": "ffc4bead68bb4252ea4814dd686c2a7b84c7f127792e448a0df83071e129cc60"
+        }
+      },
+      "original_sha256": "5302d81f50e803a9a618fa153a28371d470b4b6d74497d8d9fd30175e779304c"
+    },
+    {
+      "key": "dish-9a9db7b85927",
+      "name": "干锅花菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9a9db7b85927"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9a9db7b85927.979c2854fa2eedb9.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22414,
+          "sha256": "979c2854fa2eedb96150c37b54440627ed99e889de796ef2c52e89e8dee641f2"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9a9db7b85927.334f81bd60561ea5.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63424,
+          "sha256": "334f81bd60561ea52c75efd11fc9f59d36f6ff66fa8be7d84a44ad3edb9ccbcd"
+        }
+      },
+      "original_sha256": "0b055adad85d0bdfa4ac5b09d8b2fd40822655fb4955213ea26c52994d534e03"
+    },
+    {
+      "key": "dish-4378c05c5f7b",
+      "name": "拔丝土豆",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4378c05c5f7b"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-4378c05c5f7b.5a18968d8443400c.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21300,
+          "sha256": "5a18968d8443400ca293d38faf9e19d6cc2729c51e9498fa2d9481da989c3852"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-4378c05c5f7b.659673f0f4e511de.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59328,
+          "sha256": "659673f0f4e511de299850886e1f761ec7b4eb40d8360bb0021ea937f49d8918"
+        }
+      },
+      "original_sha256": "ed8b59b366c01ef6bd8f1f195e054eb9ec641deeb4b495612dcf8ec706c60c81"
+    },
+    {
+      "key": "dish-b9ce9dd13400",
+      "name": "松仁玉米",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-b9ce9dd13400"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-b9ce9dd13400.27bd7bc8471c81ef.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21716,
+          "sha256": "27bd7bc8471c81ef3fdca0bc9e3043e7b316f067e4e30e461e6acb11982d972c"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-b9ce9dd13400.5cdd9530887b6cf5.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 55978,
+          "sha256": "5cdd9530887b6cf55bd82939b1a687a155fa3ef7315a557af92eb85854324b06"
+        }
+      },
+      "original_sha256": "2364273d64191c9d9fbbea92e146ba611acc93e54509130325ddaed04fab75fc"
+    },
+    {
+      "key": "dish-dea3a1be2e77",
+      "name": "椒盐玉米",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-dea3a1be2e77"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-dea3a1be2e77.9eac96d15bfb3e40.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23356,
+          "sha256": "9eac96d15bfb3e40707842eb1f73141c30ca02b097b3a5d329f2f6015ed4e93e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-dea3a1be2e77.7d99ee59d6a963c8.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60072,
+          "sha256": "7d99ee59d6a963c8253787204dbad15aa74de700a36ff44fec29de9aa70e9c16"
+        }
+      },
+      "original_sha256": "0f4c478d6d063fbd214bc00c13b22fd13cae770369e92a66dd4ebcf5e99b1190"
+    },
+    {
+      "key": "dish-902ce562e226",
+      "name": "榄菜肉末四季豆",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-902ce562e226"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-902ce562e226.3e2d3f27f8aaf692.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24476,
+          "sha256": "3e2d3f27f8aaf69247da0b6ddeb0c0008dd02ac7c4308e15722af3b3b81a50bf"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-902ce562e226.dcde6976ecf7a6be.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65194,
+          "sha256": "dcde6976ecf7a6beb120c0e080d4c56f7d14efe03dc285b3eff8ca9edb863b46"
+        }
+      },
+      "original_sha256": "44c4de2a2d10cb0521097f9ba555251a39471615d723e80a78382e882b7540cb"
+    },
+    {
+      "key": "dish-946a3f88bdec",
+      "name": "水油焖蔬菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-946a3f88bdec"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-946a3f88bdec.d7358eb1fa5ff878.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22044,
+          "sha256": "d7358eb1fa5ff8788cd7696559ef18998b31d23ca9e20dd883c7560e01c553ad"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-946a3f88bdec.f38f9f58e493d18c.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62264,
+          "sha256": "f38f9f58e493d18c373e5d94773fd6897c154884cdbe3157a4cb9757f4cc6047"
+        }
+      },
+      "original_sha256": "e013ef67b5ed2a72e68fc012cd2ac7d9a9b8fa0b261c5756d5ac7e0c25649223"
+    },
+    {
+      "key": "dish-bf3ccf273f05",
+      "name": "油醋爆蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-bf3ccf273f05"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-bf3ccf273f05.7d037dd3afb02eb0.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24428,
+          "sha256": "7d037dd3afb02eb0817cbd6cce3298dc32a6b82b229810f5cfdc463431a28305"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-bf3ccf273f05.c101cd1424ed69db.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62418,
+          "sha256": "c101cd1424ed69dbd0478104e12a491be8b8757b854590adc6a2f8f653422a6e"
+        }
+      },
+      "original_sha256": "3839b180455e1af3f308a3a65c0f993dca0b2584eea405d4f050c928e28dc13f"
+    },
+    {
+      "key": "dish-11b4b5d7abe0",
+      "name": "洋葱炒鸡蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-11b4b5d7abe0"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-11b4b5d7abe0.82635181bb85dbe0.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21576,
+          "sha256": "82635181bb85dbe0fc498ca65388e35df6e5447c4ab86ed51c82d7153c24debe"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-11b4b5d7abe0.ed9cd8142028b731.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58066,
+          "sha256": "ed9cd8142028b731d80ffac2d76c433356342fe8d1f4e49ba521e50caee95b88"
+        }
+      },
+      "original_sha256": "9f936420b4f4406e9d776d9e07849f414cf3560b77a0489b67509deb1e157b72"
+    },
+    {
+      "key": "dish-5a5cd50a4aad",
+      "name": "清炒花菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5a5cd50a4aad"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-5a5cd50a4aad.1c162fd0c39b3fec.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22232,
+          "sha256": "1c162fd0c39b3fec1e86d4cb43b3b4d08ff989a0ef33e82abcd2ec7966aa3fca"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-5a5cd50a4aad.5afd34a199ee6a44.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59778,
+          "sha256": "5afd34a199ee6a44dd3f7a2ef5caecf00004c44b6b7c9e55b660013c637696a4"
+        }
+      },
+      "original_sha256": "097fb1228784c0b31960fd5dbd86b3a6366c7c3e90dbb0ac44ece34ccc763b50"
+    },
+    {
+      "key": "dish-d1ede91e3649",
+      "name": "清蒸南瓜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d1ede91e3649"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-d1ede91e3649.42f71b3e68cb9246.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 18362,
+          "sha256": "42f71b3e68cb9246517e15eb746952298ca2b9bc67eb064d08316fee759c2c50"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-d1ede91e3649.c0a57e3b1a021478.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 53426,
+          "sha256": "c0a57e3b1a02147810878d098e0fd5868e4c1dfc4552c4bc87a34668620d62b5"
+        }
+      },
+      "original_sha256": "43d277c4478fb07bf189971946ba57778b71109974681eb250423b957e635857"
+    },
+    {
+      "key": "dish-822fa695f8af",
+      "name": "炒土豆和胡萝卜蒸菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-822fa695f8af"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-822fa695f8af.06a071061b8ef7e3.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21628,
+          "sha256": "06a071061b8ef7e3056973973688fb7e11b73278f020ec6e39c2a4668b609fde"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-822fa695f8af.a88e1c4e953a7f53.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58986,
+          "sha256": "a88e1c4e953a7f53b86fb6f8eb212642d27776c4486fa1d4bb94626f2529b98e"
+        }
+      },
+      "original_sha256": "294031095fe0eb5cca929d3d0d8b915de0a5a465bb6473fb25896e2913535758"
+    },
+    {
+      "key": "dish-adad77ab51fa",
+      "name": "炒滑蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-adad77ab51fa"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-adad77ab51fa.17b72832fc1d586e.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19414,
+          "sha256": "17b72832fc1d586e079347f1ec120399b7a084c6168a5d7029fc51af741c15b1"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-adad77ab51fa.2528089777f98e57.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 49408,
+          "sha256": "2528089777f98e5742da2fd7a8c084bad158b2ff15eb3e0d9016bcc76b48629e"
+        }
+      },
+      "original_sha256": "7e0c9f24ef8fb82d4ed18608e1c4726f472e2e9dd9d77808ce0de7e6c1d46fad"
+    },
+    {
+      "key": "dish-51a4793a1e08",
+      "name": "炒茄子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-51a4793a1e08"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-51a4793a1e08.c297110a74e20735.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24382,
+          "sha256": "c297110a74e207356364d18bddd930008a1fbce0c38382f517ce62a079f79563"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-51a4793a1e08.9e80439f9a515292.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61808,
+          "sha256": "9e80439f9a515292c3b4829ea79289caa05725410ba313a1d40da8ec5ef3ca15"
+        }
+      },
+      "original_sha256": "246a79e5c407bec18e4dee17773e21f5f7bfe6787ccdcdd08acf4952bd4aba34"
+    },
+    {
+      "key": "dish-8b9856cd2047",
+      "name": "炒青菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-8b9856cd2047"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-8b9856cd2047.0bb94e8010a95030.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22732,
+          "sha256": "0bb94e8010a95030dff778c6e30e3b903df2a6d7b70247bc5778a0112ee49320"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-8b9856cd2047.6bc21805353d004f.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64330,
+          "sha256": "6bc21805353d004fe428d0665f928be1bca12700393f17cb5b224d347e317e17"
+        }
+      },
+      "original_sha256": "13b8a924623cd9abb8e80d988b79275f1a036250de3405d30c5d6dcb97814315"
+    },
+    {
+      "key": "dish-4feef09f05b2",
+      "name": "炸洋葱花",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4feef09f05b2"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-4feef09f05b2.a45747f3e0964d5d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22852,
+          "sha256": "a45747f3e0964d5de1f89da3cdaf1449a84225c6ae6f330edb07106218e1a97d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-4feef09f05b2.dad4cc6bafa31bd1.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65426,
+          "sha256": "dad4cc6bafa31bd16fc854b149db3ce9737f89625e36de4d95befc6a1a47730c"
+        }
+      },
+      "original_sha256": "ee8069a40e267aef3be2e16c5fafc522093aab4d287feeb70d072326f7253ae2"
+    },
+    {
+      "key": "dish-6573f2eb3d7f",
+      "name": "烤茄子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-6573f2eb3d7f"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-6573f2eb3d7f.86b105ca3a9968f0.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23200,
+          "sha256": "86b105ca3a9968f027669d8ed7d649d38ec5039dd547427aaf2210f4552b7048"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-6573f2eb3d7f.be8d4a656f71398f.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62694,
+          "sha256": "be8d4a656f71398f9567fe2f1b0519a5a2621544e0158bef7f7fdab6547a42c0"
+        }
+      },
+      "original_sha256": "30dbf628861a44e3fb6d2fd2af81e511a3f4392cb7aa349b98803edd40b0781a"
+    },
+    {
+      "key": "dish-c8756846df80",
+      "name": "白灼菜心",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-c8756846df80"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-c8756846df80.e1205281c6689428.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24470,
+          "sha256": "e1205281c66894282a5b415845d14f9dac911116d5f8e38dd249fa860f6c5656"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-c8756846df80.9de3d07fddd87b1d.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60740,
+          "sha256": "9de3d07fddd87b1db5340901625c2dda5e669e4a0ccf86e3ebfa6e2aec0b71a8"
+        }
+      },
+      "original_sha256": "bd55b6a5ef930de2a5b99ce52e97d75272f6453d2171b9cb2bc38d973208716f"
+    },
+    {
+      "key": "dish-26f2457ef559",
+      "name": "皮蛋豆腐",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-26f2457ef559"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-26f2457ef559.4a8a1487b2f8b60c.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23606,
+          "sha256": "4a8a1487b2f8b60c639162c725e60f51fe47bff0aebf1dbe2cc69ca6e7d7a6ab"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-26f2457ef559.2d8c34706aa7bc88.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65506,
+          "sha256": "2d8c34706aa7bc889de05864183bbb93d9756516c6b0c300a515e5628615c694"
+        }
+      },
+      "original_sha256": "aa5baf7bedc2923e72e3378afc267cd074f3e8e989a83e1fdd557c9b9c6e3585"
+    },
+    {
+      "key": "dish-d051be3bc11e",
+      "name": "糖拌西红柿",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d051be3bc11e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-d051be3bc11e.47976d0a93ad40f3.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21710,
+          "sha256": "47976d0a93ad40f398c28daea6cb24c1834a8577b2670b57f30b8ce7719d75cc"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-d051be3bc11e.b4cff6edc6758c5d.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61354,
+          "sha256": "b4cff6edc6758c5d186ba2a8702bd2a60bbe519fbb18c62a000d49e06e8fd84e"
+        }
+      },
+      "original_sha256": "6f5f2adbb6036323f8cb5bc0fc62ac608a6161b06cd122b84b84d2f3ca354fdb"
+    },
+    {
+      "key": "dish-d3e98d659448",
+      "name": "素炒豆角",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d3e98d659448"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-d3e98d659448.6841cc179f7d7ffd.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22714,
+          "sha256": "6841cc179f7d7ffdbe8e69774f5358b523a0229704f6affb77411ae7d8d4c04e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-d3e98d659448.db267bba8910fafc.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62436,
+          "sha256": "db267bba8910fafc2158489fce710dd7a8e2694e6c227e9cf7dbc256591c9cda"
+        }
+      },
+      "original_sha256": "9a18cf6153f3549c78b7f8297c94a8203595398df849146df0f384e74eee32b9"
+    },
+    {
+      "key": "dish-afde2c6a3418",
+      "name": "红烧冬瓜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-afde2c6a3418"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-afde2c6a3418.7940abbdba66bbb8.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22486,
+          "sha256": "7940abbdba66bbb8d0fcea1441479887b0d744802bba683186786dc9d708ba12"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-afde2c6a3418.334c044480b8e69b.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62184,
+          "sha256": "334c044480b8e69ba95abeabfd69d578f722d881aa41e79b0b00cc435469222e"
+        }
+      },
+      "original_sha256": "184a0ef69da317bcdfccdbb640fe478db7ae9f698da081784960d20f3863f1bd"
+    },
+    {
+      "key": "dish-5fa782ab3b20",
+      "name": "红烧茄子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5fa782ab3b20"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-5fa782ab3b20.b3321259cf254fe3.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23766,
+          "sha256": "b3321259cf254fe35ac86a0c8f024b8995f42607b40a9aa4c1fd691d5dc53d0a"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-5fa782ab3b20.3dcc339cb72d83d4.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60998,
+          "sha256": "3dcc339cb72d83d4fd73df5740b7ab7a4ecdfa3b6eed858e84e2151d1e6370d6"
+        }
+      },
+      "original_sha256": "28a18d0d22628c140b30f08d797d043ed544e89c5e7e54f956142560fa3f9ff3"
+    },
+    {
+      "key": "dish-9990afe9babe",
+      "name": "脆皮豆腐",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9990afe9babe"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9990afe9babe.7fb11a45d574f27b.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22932,
+          "sha256": "7fb11a45d574f27b46a144df6e86a7ac9418e80852925e8d294678718b569d0f"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9990afe9babe.578a5692d592bb2c.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63178,
+          "sha256": "578a5692d592bb2c67c245d8e385ee27a12d5a064ebab2d8a1cdb1e989226cff"
+        }
+      },
+      "original_sha256": "6e5563b53419bd389702190f5320e1d8d1925399384d31fec30fa8b6e02fc4cb"
+    },
+    {
+      "key": "dish-47b0d27fb06b",
+      "name": "芹菜拌茶树菇",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-47b0d27fb06b"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-47b0d27fb06b.554a9ec6d9a70716.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22766,
+          "sha256": "554a9ec6d9a70716673d1d7a2dede2dbc6db4b0be3906ab137c8040c82e40cd1"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-47b0d27fb06b.66215eb50f13e7d7.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62740,
+          "sha256": "66215eb50f13e7d706c51c3916940c15e0891f00f16bfe7890f29856c8d30115"
+        }
+      },
+      "original_sha256": "097fe11423091757d3752e2fea28424df28c3be3cdd6668e07af8f55440b282a"
+    },
+    {
+      "key": "dish-150f56720d90",
+      "name": "茄子炖土豆",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-150f56720d90"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-150f56720d90.de32cc27dd80c4ce.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22146,
+          "sha256": "de32cc27dd80c4ceb552bc35b4359ad8614518e07aa861b29ec2e5f304f272db"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-150f56720d90.48d9b210f4a91994.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63772,
+          "sha256": "48d9b210f4a91994bff745d99884135784e8ade48cd6bb0250323d5457940c05"
+        }
+      },
+      "original_sha256": "0d4d387706c9a0800b7a03e3217df56605ad13799d740b1cfa768a94341c6757"
+    },
+    {
+      "key": "dish-a294a849e9a5",
+      "name": "莴笋叶煎饼",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a294a849e9a5"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a294a849e9a5.decfd7e122c2006d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22796,
+          "sha256": "decfd7e122c2006d501bbc4b20534e55c88e671a6c332a1e1711161a6ec2d637"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a294a849e9a5.1ff9731a0912a19d.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62776,
+          "sha256": "1ff9731a0912a19d00cb111b54ba50bbc92906edaff02c49fadcc09226207d46"
+        }
+      },
+      "original_sha256": "cc92286eb5a2905113505fe2a07c2f64fd7f4ba8d798255edef0367a1dc842ce"
+    },
+    {
+      "key": "dish-20f6144a04ec",
+      "name": "菠菜炒鸡蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-20f6144a04ec"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-20f6144a04ec.74d739af63e9310f.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23552,
+          "sha256": "74d739af63e9310ffe12ebf81ce8554c640b436b23d0c54e4f48e1f745b76b66"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-20f6144a04ec.dfd72542eaaa1522.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64782,
+          "sha256": "dfd72542eaaa1522c32ce39c5c6bbb5b10d9056509a42a6320b88ec8efd25f62"
+        }
+      },
+      "original_sha256": "025b67df8ece841610e01237c6b285c85e619a699c60c98995ab5733c9e482da"
+    },
+    {
+      "key": "dish-54b72d4f7cf8",
+      "name": "葱煎豆腐",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-54b72d4f7cf8"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-54b72d4f7cf8.7cd67fb851f7162c.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23138,
+          "sha256": "7cd67fb851f7162c9fe0ba3f9a8fe32341f676378d665e650375d7a18132ed0d"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-54b72d4f7cf8.8f3fa2c8362d08bc.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59782,
+          "sha256": "8f3fa2c8362d08bcbfc0960008fc98d19911f7bbd4d6fc499849714dcf2344a5"
+        }
+      },
+      "original_sha256": "295b0c0aae10129f827b634fe595b3d1acc55f9701bec911f9541adb9e2547e7"
+    },
+    {
+      "key": "dish-35b2e221aa1e",
+      "name": "蒜蓉炒芹菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-35b2e221aa1e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-35b2e221aa1e.24793f4b4cefeeab.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21720,
+          "sha256": "24793f4b4cefeeabc661d2f538e8045cbf456c7972aeee70cb966d63eb7c9aeb"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-35b2e221aa1e.1feb98f37def13ee.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60700,
+          "sha256": "1feb98f37def13eec1bc689388381fa40c7d054c366b4fac9a14abb8cd848f12"
+        }
+      },
+      "original_sha256": "ed883ceb786500546c2fbafb5eb7a687c21cc6b726470bb65d54fe0e0b22a516"
+    },
+    {
+      "key": "dish-92f286f58f84",
+      "name": "蒜蓉西兰花",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-92f286f58f84"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-92f286f58f84.7a31ab27c9a27645.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23718,
+          "sha256": "7a31ab27c9a27645c5b514317b59bcadd345eee222f9f602bd93bbb1e4a8e8aa"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-92f286f58f84.e8756a0a1dd6a9d6.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61218,
+          "sha256": "e8756a0a1dd6a9d638483f510cbc6a9c21597a9e05c35e23c4cc58a1a7528e1f"
+        }
+      },
+      "original_sha256": "f219e6eb9f0144143e4fd58b14862eae4bbb32935bf4a3d2190a9b2170e14d79"
+    },
+    {
+      "key": "dish-5086f352be3e",
+      "name": "蒲烧茄子",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-5086f352be3e"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-5086f352be3e.5f1fe15157731a89.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 23882,
+          "sha256": "5f1fe15157731a89ee72e1f3ba102e3f01837c369dfc778c91843b5f2bce7b84"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-5086f352be3e.4d1501bac0b3d9b9.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61184,
+          "sha256": "4d1501bac0b3d9b91b7e4b5bcec7f408c51feee63fbf54606824d4100f895d4f"
+        }
+      },
+      "original_sha256": "c35b2c3f6f5d595845aa5f1ed1d089b37c52cfb8129828fa189da6faaf62c8ec"
+    },
+    {
+      "key": "dish-322c053e9c0d",
+      "name": "虎皮青椒",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-322c053e9c0d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-322c053e9c0d.8768e7d9969cc7be.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24034,
+          "sha256": "8768e7d9969cc7be8c31c1548da5c675f49db8971d6a78650b77affb468c62b0"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-322c053e9c0d.1928cdc17e3544ed.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 63246,
+          "sha256": "1928cdc17e3544ed82c564bc2a11025fe08ca36758349b5a6bd7bb03eb3f7957"
+        }
+      },
+      "original_sha256": "be739ff47fc9220ccd9a857d1d0e8be32aa133e7e4b5c429d4930bfec4ea66d0"
+    },
+    {
+      "key": "dish-a4b59bbb9852",
+      "name": "蚝油三鲜菇",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a4b59bbb9852"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a4b59bbb9852.7d589cbee9e21a18.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22814,
+          "sha256": "7d589cbee9e21a18915e37a21c6a3850cd116885b3294cfee37e607663124456"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a4b59bbb9852.571b162a260b2565.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 62876,
+          "sha256": "571b162a260b25654d0de3d34921ed329400a8d3d990b8673f11b9c6597ef2b4"
+        }
+      },
+      "original_sha256": "3c1b8ff5c982bf3353c371aefc5a17a909cb78c7ba03cc5446c1c90bdb979857"
+    },
+    {
+      "key": "dish-9aafc1145d54",
+      "name": "蚝油生菜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9aafc1145d54"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9aafc1145d54.b77324a689d12654.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 24308,
+          "sha256": "b77324a689d126546bd7efe46ea9397c7d1e73062fad4c60e61310feb163165f"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9aafc1145d54.80bbf40f6346c936.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 59790,
+          "sha256": "80bbf40f6346c9365a4b75a238b24292c43f1b608cf0cebaf8382905e0382c6e"
+        }
+      },
+      "original_sha256": "52af909aa684df1f43e7b95f1136491d20af3174a186b0d00df328f6f490e828"
+    },
+    {
+      "key": "dish-2a19546cdca8",
+      "name": "西红柿豆腐汤羹",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2a19546cdca8"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-2a19546cdca8.d7deb09a8a975c2d.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22282,
+          "sha256": "d7deb09a8a975c2d2277e4b598c263ab7db390c1448f943de8043fb5f7b55ccc"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-2a19546cdca8.2ac70ac1b79f95b2.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58694,
+          "sha256": "2ac70ac1b79f95b2bc491e2a636a195869353a08535d2ceddb38846df9165731"
+        }
+      },
+      "original_sha256": "517b3ae6a7a17790befeb090bda87b3024733bad651031e5f457b5a2a4676c94"
+    },
+    {
+      "key": "dish-4d2ca8f35f3b",
+      "name": "西葫芦炒鸡蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-4d2ca8f35f3b"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-4d2ca8f35f3b.86e770f980a354db.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21726,
+          "sha256": "86e770f980a354db16338b954f7e0ef3f13f2bf96064699c81e008aefa547ffd"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-4d2ca8f35f3b.5089d5847e276980.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 58346,
+          "sha256": "5089d5847e276980687832d3881fe4c0073316b27ac68682d2f06be77be6e3fe"
+        }
+      },
+      "original_sha256": "9c292e00d883f0fd6d7df2c33b384b34167b12b4bdb3095d4340bb51cf30104c"
+    },
+    {
+      "key": "dish-d50d59c1ca77",
+      "name": "话梅煮毛豆",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-d50d59c1ca77"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-d50d59c1ca77.cee279066f5819e2.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20800,
+          "sha256": "cee279066f5819e2aca77174bd1fddcfaa92a28bd1e1b6f0e6bf3f387f21891e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-d50d59c1ca77.897332ceaf044363.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 57516,
+          "sha256": "897332ceaf044363c8deec70ef7826eadc37676c4a659a6df0251dbc9f35125c"
+        }
+      },
+      "original_sha256": "b8da8e307254a4ef721fd106535efe1da91eade38067774e77a5a62be7cb42d2"
+    },
+    {
+      "key": "dish-2e8d27218fc6",
+      "name": "金针菇日本豆腐煲",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-2e8d27218fc6"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-2e8d27218fc6.e6b6f30b3accf91b.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20892,
+          "sha256": "e6b6f30b3accf91b8aadc4bb2b6fd5552458ea12a83cc7cad02a9416abe23a79"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-2e8d27218fc6.a39529a23ac6cbcc.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 57618,
+          "sha256": "a39529a23ac6cbcc3190b9a657be9a0dd55e9a5aa9198a6a147d77ee55421b3a"
+        }
+      },
+      "original_sha256": "1500af6c647c4af535afe23ee8eefbc290bbe7ddad33fcc9553a6dc618bdf25f"
+    },
+    {
+      "key": "dish-29dc63b5178d",
+      "name": "金钱蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-29dc63b5178d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-29dc63b5178d.e43b7b3d51376408.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22434,
+          "sha256": "e43b7b3d513764081dbdc76de267573bb4e0e0ac7a454c2ec859e79d4e3236da"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-29dc63b5178d.16f2a1988bee71d6.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 65530,
+          "sha256": "16f2a1988bee71d62bb723a83460d4fb2885e63a4ce2c744d2eb0c7eaaa2651c"
+        }
+      },
+      "original_sha256": "f65b6b275b0f487a4189d8517301db05fc9d6121777d5192c8e9e01396b20276"
+    },
+    {
+      "key": "dish-7ddb62ef1001",
+      "name": "陕北熬豆角",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-7ddb62ef1001"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-7ddb62ef1001.e2313fe44b18d218.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 21966,
+          "sha256": "e2313fe44b18d2188b628b2f61b671b3c891603d9497ae8a2c32a3af769409ae"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-7ddb62ef1001.699429ca9e692897.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 61348,
+          "sha256": "699429ca9e692897a4bf9246cffcc30f292f88e58ed28a49f2e1fbb365c0b68d"
+        }
+      },
+      "original_sha256": "0957e8ae7fc9a3dcf8142085c8db40b5e1464955b18ad7c789fb860b9e609f0d"
+    },
+    {
+      "key": "dish-598880791fad",
+      "name": "雷椒皮蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-598880791fad"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-598880791fad.0693e0d6a1e23c5e.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22512,
+          "sha256": "0693e0d6a1e23c5e5e5b54af44f5e6b507461cdc31f42e41bb355ab795e79d29"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-598880791fad.db797dff60c72a72.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 64058,
+          "sha256": "db797dff60c72a7299e2d6caa87a9cb82c3705996d6bf2d43587849989958fb1"
+        }
+      },
+      "original_sha256": "60ce2648c4617f7bd0da9275428c8ba053792546d556d89a35c91bd7caa3494a"
+    },
+    {
+      "key": "dish-cf76d9b00d1d",
+      "name": "韭菜炒蛋",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-cf76d9b00d1d"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-cf76d9b00d1d.853bf360297bff15.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22418,
+          "sha256": "853bf360297bff15e86911f2065311d4bf71f3e49d18de8a80a6115bb7cc0c8b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-cf76d9b00d1d.d78ad0f3655bf665.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60418,
+          "sha256": "d78ad0f3655bf66520cce56ad9e684238fcd6168ad0a1482fa92c3b5a561ce60"
+        }
+      },
+      "original_sha256": "da25dc4d71886f882434ca20f1e9c152731001b9f17eb2a8be8e15861576d52b"
+    },
+    {
+      "key": "dish-708eac43f729",
+      "name": "鸡蛋火腿炒黄瓜",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-708eac43f729"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-708eac43f729.8a8e6dd69fef81f3.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 22582,
+          "sha256": "8a8e6dd69fef81f3194b131580515828658a2da91d4219c20908a5222a975105"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-708eac43f729.a9e6686bc7f5acca.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 60638,
+          "sha256": "a9e6686bc7f5accac770ccf2d89d6402d153143c9f3290a7f1c892c0f5a6313d"
+        }
+      },
+      "original_sha256": "e942d5b343d2e1456e9d285e7b4a4399492cd2faaac1a836342e0bfb4485560d"
+    },
+    {
+      "key": "dish-ecae5220671c",
+      "name": "微波炉鸡蛋羹",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-ecae5220671c"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-ecae5220671c.5f509581be940e8c.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 20734,
+          "sha256": "5f509581be940e8c328108bc24df61de245547dfc9db541fa656c8fbec13665b"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-ecae5220671c.fe179ea42efcf7d9.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 55150,
+          "sha256": "fe179ea42efcf7d9568c07d6820fb91d5cf7df6798ab93c5ddd6ae02d4c9d6dc"
+        }
+      },
+      "original_sha256": "c5a53697f53867e0b9b32d74241b299df0cdf6caccff00edb1b50f3bca975000"
+    },
+    {
+      "key": "dish-9dff14f76013",
+      "name": "蒸箱鸡蛋羹",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-9dff14f76013"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-9dff14f76013.6b2d4befddfaaec6.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 18834,
+          "sha256": "6b2d4befddfaaec655b801dc6f4032ed4cba278b88708fed946924e6ab719506"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-9dff14f76013.948e601f380a3961.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 48080,
+          "sha256": "948e601f380a39613f387751ca70ad292ea1aa33fc99ec3cee6440db74c67d6c"
+        }
+      },
+      "original_sha256": "6d0aef0d20bca6a9fb775c7dd987f0c7c2020d963ab4a720d87ef3383ae17b12"
+    },
+    {
+      "key": "dish-a1b5c702a812",
+      "name": "鸡蛋花",
+      "aliases": [],
+      "recipe_ids": [
+        "howtocook-a1b5c702a812"
+      ],
+      "variants": {
+        "256": {
+          "path": "assets/food-artwork/dish-a1b5c702a812.49775de559c4e652.256.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 19042,
+          "sha256": "49775de559c4e652b90a1182bf90f5869835d2b5b6c3141bbd672e8fc697cf5e"
+        },
+        "512": {
+          "path": "assets/food-artwork/dish-a1b5c702a812.bac52f305adb63df.512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 49142,
+          "sha256": "bac52f305adb63df69d87884bb6083b627972959682a110d650503bd62fa4652"
+        }
+      },
+      "original_sha256": "e6d60c59dc8b2ffbc3f275e49630865cc190cdca2c7ea3d6585360c2e941590c"
     }
   ]
 }

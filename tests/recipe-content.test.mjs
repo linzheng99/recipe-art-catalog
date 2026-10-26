@@ -48,7 +48,7 @@ test("提取介绍与原文难度，保留嵌套步骤，不混入未定义基�
   assert.equal(parseRecipeContent("# 无标注\n\n一段介绍。").difficulty, null);
 });
 
-test("195篇已配图菜谱均可从固定摘要原文读取，拒绝摘要不一致", async () => {
+test("已配图菜谱均可从固定摘要原文读取，拒绝摘要不一致", async () => {
   const source = JSON.parse(
     await readFile(`${root}/catalog/howtocook.json`, "utf8"),
   );
