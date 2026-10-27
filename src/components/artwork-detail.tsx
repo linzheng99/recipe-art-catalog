@@ -1,4 +1,4 @@
-import { Copy, Download, ExternalLink } from "lucide-react";
+import { Copy, Download, ExternalLink, Link2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -10,7 +10,8 @@ import {
 import { ArtworkImage } from "@/components/artwork-image";
 import { DeferredRecipeDetails } from "@/components/deferred-recipe-details";
 import { categories, imageURL, safeExternalURL } from "@/lib/catalog";
-import { copyAddress } from "@/lib/clipboard";
+import { copyAddress, copyText } from "@/lib/clipboard";
+import { getDishURL } from "@/lib/dish-link";
 import type { Artwork } from "@/lib/catalog";
 
 export function ArtworkDetail({
@@ -84,13 +85,28 @@ export function ArtworkDetail({
                 </Button>
               ))}
             </div>
-            <Button
-              variant="ghost"
-              onClick={() => void copyAddress(imageURL(item, "256"))}
-            >
-              <Copy aria-hidden="true" />
-              复制图片地址
-            </Button>
+            <div className="flex flex-wrap gap-2">
+              <Button
+                variant="outline"
+                onClick={() =>
+                  void copyText(
+                    getDishURL(item.key),
+                    "菜品链接已复制",
+                    "请复制这个菜品链接",
+                  )
+                }
+              >
+                <Link2 aria-hidden="true" />
+                复制菜品链接
+              </Button>
+              <Button
+                variant="ghost"
+                onClick={() => void copyAddress(imageURL(item, "256"))}
+              >
+                <Copy aria-hidden="true" />
+                复制图片地址
+              </Button>
+            </div>
             <div className="detail-sources">
               {known && nutritionURL && (
                 <a

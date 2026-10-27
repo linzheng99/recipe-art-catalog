@@ -10,6 +10,7 @@ import { ArtworkImage } from "@/components/artwork-image";
 import { ArtworkDetail } from "@/components/artwork-detail";
 import { categories, filterArtworks } from "@/lib/catalog";
 import { useCatalogStore } from "@/stores/catalog-store";
+import { useDishNavigation } from "@/hooks/use-dish-navigation";
 
 export function CatalogSection() {
   const catalog = useCatalogStore((state) => state.catalog);
@@ -20,7 +21,7 @@ export function CatalogSection() {
   const selectedKey = useCatalogStore((state) => state.selectedKey);
   const setQuery = useCatalogStore((state) => state.setQuery);
   const setCategory = useCatalogStore((state) => state.setCategory);
-  const select = useCatalogStore((state) => state.select);
+  const select = useDishNavigation();
   const showMore = useCatalogStore((state) => state.showMore);
   const load = useCatalogStore((state) => state.load);
   const trigger = useRef<HTMLButtonElement | null>(null);
