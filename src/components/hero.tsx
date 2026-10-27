@@ -32,17 +32,11 @@ export function Hero() {
             </a>
           </Button>
         </div>
-        <dl className="hero-stats" aria-label="实际制作进度">
-          {[
-            ["独立插画", catalog?.coverage.artworks],
-            ["已配图菜谱", catalog?.coverage.recipes],
-            ["待配图菜谱", catalog?.coverage.pending],
-          ].map(([label, count]) => (
-            <div key={label}>
-              <dt>{label}</dt>
-              <dd>{count ?? "…"}</dd>
-            </div>
-          ))}
+        <dl className="hero-stats" aria-label="已配图菜谱数量">
+          <div>
+            <dt>已配图菜谱</dt>
+            <dd>{catalog?.coverage.recipes ?? "…"}</dd>
+          </div>
         </dl>
       </div>
       <div className="hero-art" aria-label="精选菜品插画">
