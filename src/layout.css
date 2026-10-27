@@ -271,6 +271,33 @@
   .filters button {
     min-height: 36px;
   }
+  .search-help {
+    margin-top: 10px;
+    color: var(--muted-foreground);
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .difficulty-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 12px;
+    margin-top: -14px;
+    margin-bottom: 28px;
+  }
+  .difficulty-filters .filters {
+    align-items: center;
+    padding: 0;
+  }
+  .difficulty-filters .search-help {
+    flex-basis: 100%;
+    margin-top: 4px;
+  }
+  .filter-label {
+    color: var(--muted-foreground);
+    font-size: 12px;
+    margin-right: 4px;
+  }
   .gallery {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -817,6 +844,10 @@
     .filters {
       gap: 4px;
       padding-block: 18px 24px;
+    }
+    .difficulty-filters .filter-label {
+      flex-basis: 100%;
+      margin-bottom: 4px;
     }
     .gallery {
       grid-template-columns: repeat(2, minmax(0, 1fr));

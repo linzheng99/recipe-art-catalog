@@ -17,16 +17,30 @@ export function CatalogSection() {
   const status = useCatalogStore((state) => state.status);
   const query = useCatalogStore((state) => state.query);
   const category = useCatalogStore((state) => state.category);
+  const difficulty = useCatalogStore((state) => state.difficulty);
   const shown = useCatalogStore((state) => state.shown);
   const selectedKey = useCatalogStore((state) => state.selectedKey);
   const setQuery = useCatalogStore((state) => state.setQuery);
   const setCategory = useCatalogStore((state) => state.setCategory);
+  const setDifficulty = useCatalogStore((state) => state.setDifficulty);
+  const resetFilters = useCatalogStore((state) => state.resetFilters);
   const select = useDishNavigation();
   const showMore = useCatalogStore((state) => state.showMore);
   const load = useCatalogStore((state) => state.load);
   const trigger = useRef<HTMLButtonElement | null>(null);
   const search = useRef<HTMLInputElement | null>(null);
-  const matches = filterArtworks(catalog?.artworks ?? [], query, category);
+  const matches = filterArtworks(
+    catalog?.artworks ?? [],
+    query,
+    category,
+    difficulty,
+  );
+  const hasFilters =
+    query.trim() !== "" || category !== "all" || difficulty !== "all";
+  const clearFilters = () => {
+    resetFilters();
+    search.current?.focus();
+  };
   const selected = catalog?.artworks.find((item) => item.key === selectedKey);
   const filters = [
     ["all", "全部菜品"],
@@ -50,7 +64,7 @@ export function CatalogSection() {
       <div className="catalog-toolbar">
         <div className="search-field">
           <label className="sr-only" htmlFor="search">
-            搜索菜名或别称
+            搜索菜名、别称、拼音或首字母
           </label>
           <Search aria-hidden="true" />
           <Input
@@ -59,7 +73,8 @@ export function CatalogSection() {
             id="search"
             type="search"
             value={query}
-            placeholder="搜搜看，比如：番茄炒蛋"
+            placeholder="菜名、别称或拼音，如：番茄 / fqcd"
+            aria-describedby="search-help"
             autoComplete="off"
             onChange={(event) => setQuery(event.target.value)}
             disabled={status !== "ready"}
@@ -73,6 +88,9 @@ export function CatalogSection() {
               : `${matches.length} 道菜品`}
         </span>
       </div>
+      <p className="search-help" id="search-help">
+        支持全拼和首字母，多个关键词用空格分开。
+      </p>
       <div className="filters" role="group" aria-label="菜品分类">
         {catalog &&
           filters.map(([key, label]) => (
@@ -87,6 +105,32 @@ export function CatalogSection() {
             </Button>
           ))}
       </div>
+      {status === "ready" && (
+        <div className="difficulty-filters">
+          <div className="filters" role="group" aria-label="烹饪难度">
+            <span className="filter-label">烹饪难度</span>
+            {["all", "1", "2", "3", "4", "5"].map((level) => (
+              <Button
+                key={level}
+                size="sm"
+                variant={difficulty === level ? "default" : "ghost"}
+                aria-pressed={difficulty === level}
+                onClick={() => setDifficulty(level)}
+              >
+                {level === "all" ? "全部难度" : `${level} 星`}
+              </Button>
+            ))}
+          </div>
+          {hasFilters && (
+            <Button size="sm" variant="ghost" onClick={clearFilters}>
+              重置筛选
+            </Button>
+          )}
+          <p className="search-help">
+            难度取自原菜谱；同一插画对应多篇菜谱时，任一篇符合即可。
+          </p>
+        </div>
+      )}
       {loading && (
         <div className="gallery" aria-label="正在读取插画目录" aria-busy="true">
           {Array.from({ length: 8 }, (_, index) => (
@@ -110,14 +154,7 @@ export function CatalogSection() {
         <div className="catalog-message" role="status">
           <SearchX aria-hidden="true" />
           <p>暂时没有找到这道菜，试试别称或其他分类吧。</p>
-          <Button
-            variant="outline"
-            onClick={() => {
-              setQuery("");
-              setCategory("all");
-              search.current?.focus();
-            }}
-          >
+          <Button variant="outline" onClick={clearFilters}>
             清除筛选
           </Button>
         </div>

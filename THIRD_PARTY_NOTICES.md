@@ -12,7 +12,9 @@
 
 ## 独立插画与项目代码
 
-Q 版插画由 AI 独立生成，以菜谱文字作为外观参考；插画不是 HowToCook 原照片，也不是用户实拍。上游 Unlicense 不因此自动覆盖独立插画和本项目新增代码。本项目尚未为这些新增内容另行指定统一许可证；公开展示不应被理解为已取得其他内容的相同授权。后续若统一开放复用，需要维护者明确许可范围。
+Q 版插画由 AI 独立生成，以菜谱文字作为外观参考；插画不是 HowToCook 原照片，也不是用户实拍。
+
+任何人均可免费使用本项目的独立插画、新增代码、生成提示词和自行维护的目录内容，包括个人或商业用途，允许复制、修改和分发，无需另行申请。完整授权见仓库根目录 LICENSE，网站副本位于 `licenses/PROJECT-REUSE.txt`。此授权由本项目维护者提供；HowToCook 菜谱资料、第三方代码和字体继续遵循各自原有许可，使用时保留其要求的许可与版权声明。
 
 ## 营养参考
 
@@ -27,3 +29,5 @@ Q 版插画由 AI 独立生成，以菜谱文字作为外观参考；插画不�
 构建脚本将运行时依赖（含传递依赖）、shadcn/ui、Tailwind CSS 与 tw-animate-css 的原始许可证汇总为 `public/licenses/FRONTEND-DEPENDENCIES.txt`，随站点发布到 `licenses/FRONTEND-DEPENDENCIES.txt`，包含原始版权声明与 MIT、ISC、Apache、OFL 等实际文本。依赖更新后须重新构建并保留更新后的汇总。
 
 react-remove-scroll-bar 的 npm 包未附许可证文件，单独保留的原文位于 `licenses/react-remove-scroll-bar-LICENSE.txt`，取自上游 [LICENSE](https://github.com/theKashey/react-remove-scroll-bar/blob/master/LICENSE)，并纳入上述汇总。
+
+搜索词在构建时使用 [pinyin-pro](https://github.com/zh-lx/pinyin-pro) 生成全拼和首字母，工具按 MIT 许可使用，确切版本见 package-lock.json，许可证同样纳入上述汇总；浏览器仅加载派生搜索词，不包含拼音词典或运行时代码。

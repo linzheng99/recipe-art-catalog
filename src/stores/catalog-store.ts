@@ -16,6 +16,7 @@ interface CatalogState {
   status: "idle" | "loading" | "ready" | "error";
   query: string;
   category: string;
+  difficulty: string;
   shown: number;
   selectedKey: string | null;
   theme: "system" | "light" | "dark";
@@ -25,6 +26,8 @@ interface CatalogState {
   load: () => Promise<void>;
   setQuery: (query: string) => void;
   setCategory: (category: string) => void;
+  setDifficulty: (difficulty: string) => void;
+  resetFilters: () => void;
   showMore: () => void;
   select: (key: string | null) => void;
   setTheme: (theme: "system" | "light" | "dark") => void;
@@ -36,6 +39,7 @@ export const useCatalogStore = create<CatalogState>((set, get) => ({
   status: "idle",
   query: "",
   category: "all",
+  difficulty: "all",
   shown: 24,
   selectedKey: null,
   theme: "system",
@@ -81,6 +85,9 @@ export const useCatalogStore = create<CatalogState>((set, get) => ({
   },
   setQuery: (query) => set({ query, shown: 24 }),
   setCategory: (category) => set({ category, shown: 24 }),
+  setDifficulty: (difficulty) => set({ difficulty, shown: 24 }),
+  resetFilters: () =>
+    set({ query: "", category: "all", difficulty: "all", shown: 24 }),
   showMore: () => set((state) => ({ shown: state.shown + 24 })),
   select: (selectedKey) => set({ selectedKey }),
   setTheme: (theme) => set({ theme }),

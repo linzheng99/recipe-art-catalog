@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { createSearchTerms } from "./search-index.mjs";
 
 // 完整目录仍是历史证据；浏览索引只派生出页面需要的数据，不改写归档。
 export function createRuntimeCatalog(manifest) {
@@ -7,6 +8,17 @@ export function createRuntimeCatalog(manifest) {
     const references = artwork.reference_recipes;
     const item = {
       ...artwork,
+      search_terms: createSearchTerms(artwork),
+      difficulty: [
+        ...new Set(
+          references.flatMap((reference) => {
+            const stars = reference.details?.difficulty;
+            return typeof stars === "string" && /^★{1,5}$/.test(stars)
+              ? [stars.length]
+              : [];
+          }),
+        ),
+      ].sort(),
       reference_recipes: references.map(
         ({ details, ...reference }) => reference,
       ),

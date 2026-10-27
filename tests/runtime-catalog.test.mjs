@@ -18,7 +18,20 @@ test("轻量目录保持全部图片与来源标识，正文可按摘要还原�
   for (const [index, item] of lite.artworks.entries()) {
     const original = full.artworks[index];
     const { generation, reference_recipes, ...fields } = original;
-    const { recipe_details, ...summary } = item;
+    const { recipe_details, search_terms, difficulty, ...summary } = item;
+    assert.ok(
+      search_terms.includes(
+        item.name.normalize("NFKC").replace(/\s+/g, "").toLowerCase(),
+      ),
+    );
+    assert.deepEqual(
+      difficulty,
+      [
+        ...new Set(
+          reference_recipes.map((recipe) => recipe.details.difficulty.length),
+        ),
+      ].sort(),
+    );
     assert.deepEqual(summary, {
       ...fields,
       reference_recipes: reference_recipes.map(
@@ -51,6 +64,8 @@ test("派生轻量数据不改写完整目录，缺少正文时不生成虚假�
     artworks: [
       {
         key: "example",
+        name: "示例",
+        aliases: [],
         generation: { prompt: "Original evidence" },
         reference_recipes: [
           {

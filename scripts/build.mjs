@@ -123,6 +123,22 @@ export function assemble(
       license_url: source.license_url,
     },
     image_usage: "菜品示意图，不是用户照片；配方、营养与过敏信息需单独核实。",
+    reuse: {
+      scope: [
+        "independent_artwork",
+        "original_code",
+        "generation_prompts",
+        "original_catalog_content",
+      ],
+      allowed_users: "anyone",
+      free_of_charge: true,
+      commercial_use: true,
+      modification: true,
+      redistribution: true,
+      additional_permission_required: false,
+      license_path: "licenses/PROJECT-REUSE.txt",
+      third_party_notices_path: "THIRD_PARTY_NOTICES.md",
+    },
     coverage: {
       artworks: artworks.length,
       recipes: covered.size,
@@ -196,6 +212,7 @@ export async function build({ check = false } = {}) {
   }
   // 来源文本与许可证同时进入公开站点，避免部署产物丢失上游声明。
   const publications = [
+    ["LICENSE", "licenses/PROJECT-REUSE.txt"],
     ["THIRD_PARTY_NOTICES.md", "THIRD_PARTY_NOTICES.md"],
     ["catalog/HOWTOCOOK-LICENSE", "licenses/HOWTOCOOK-LICENSE.txt"],
   ];

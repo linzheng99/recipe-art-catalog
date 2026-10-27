@@ -46,6 +46,8 @@ export interface Artwork {
   variants: Record<"256" | "512", Variant>;
   reference_recipes: ReferenceRecipe[];
   recipe_details?: { path: string; bytes: number; sha256: string };
+  search_terms?: string[];
+  difficulty?: number[];
   nutrition: {
     status: "unknown" | "reference";
     basis: "per_100g" | null;
@@ -79,15 +81,36 @@ export function filterArtworks(
   artworks: Artwork[],
   query: string,
   category: string,
+  difficulty = "all",
 ) {
   const term = normalize(query);
-  return artworks.filter(
-    (item) =>
-      (category === "all" || item.category === category) &&
-      [item.name, ...item.aliases].some((name) =>
-        normalize(name).includes(term),
-      ),
-  );
+  const tokens = query.normalize("NFKC").trim().split(/\s+/).map(normalize);
+  return artworks
+    .filter((item) => {
+      const names = [
+        item.name,
+        ...item.aliases,
+        ...(item.search_terms ?? []),
+      ].map(normalize);
+      const levels =
+        item.difficulty ??
+        item.reference_recipes.flatMap((recipe) => {
+          const stars = recipe.details?.difficulty;
+          return stars && /^★{1,5}$/.test(stars) ? [stars.length] : [];
+        });
+      return (
+        (category === "all" || item.category === category) &&
+        (difficulty === "all" || levels.includes(Number(difficulty))) &&
+        (names.some((name) => name.includes(term)) ||
+          tokens.every((token) => names.some((name) => name.includes(token))))
+      );
+    })
+    .sort((a, b) => {
+      // 完整菜名或别称优先，其余结果保留原目录顺序。
+      const exact = (item: Artwork) =>
+        [item.name, ...item.aliases].some((name) => normalize(name) === term);
+      return Number(exact(b)) - Number(exact(a));
+    });
 }
 
 export function getManifestURL() {
@@ -252,6 +275,22 @@ export function parseCatalog(value: unknown): Catalog {
         throw new Error("Invalid variant");
     }
     parseReferenceRecipes(item.reference_recipes);
+    if (
+      item.search_terms !== undefined &&
+      (!Array.isArray(item.search_terms) ||
+        item.search_terms.some(
+          (term) => typeof term !== "string" || !term.trim(),
+        ))
+    )
+      throw new Error("Invalid search terms");
+    if (
+      item.difficulty !== undefined &&
+      (!Array.isArray(item.difficulty) ||
+        item.difficulty.some(
+          (level) => !Number.isInteger(level) || level < 1 || level > 5,
+        ))
+    )
+      throw new Error("Invalid difficulty");
     if (item.recipe_details !== undefined)
       parseRecipeDescriptor(item.recipe_details, item.key);
     const nutrition = item.nutrition;

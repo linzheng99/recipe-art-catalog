@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "e0dbddc1d4d3ec7c",
+  "version": "e657d5cc78d7d6c0",
   "source": {
     "name": "Anduin2017/HowToCook",
     "commit": "0e106eea348c734fe1586f781202994439cf98a5",
@@ -9,6 +9,22 @@
     "license_url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/LICENSE"
   },
   "image_usage": "菜品示意图，不是用户照片；配方、营养与过敏信息需单独核实。",
+  "reuse": {
+    "scope": [
+      "independent_artwork",
+      "original_code",
+      "generation_prompts",
+      "original_catalog_content"
+    ],
+    "allowed_users": "anyone",
+    "free_of_charge": true,
+    "commercial_use": true,
+    "modification": true,
+    "redistribution": true,
+    "additional_permission_required": false,
+    "license_path": "licenses/PROJECT-REUSE.txt",
+    "third_party_notices_path": "THIRD_PARTY_NOTICES.md"
+  },
   "coverage": {
     "artworks": 371,
     "recipes": 372,

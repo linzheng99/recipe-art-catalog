@@ -86,7 +86,14 @@ const imageURL = new URL(
             Q 版插画由 AI
             独立生成，没有下载或重用上游照片。图像用于菜品示意，营养参考不代表具体一餐的实际摄入。
           </p>
+          <p>
+            任何人均可免费使用本项目插画和原创内容，包括个人或商业用途，允许修改和分发，无需另行申请。第三方内容遵循原有许可。
+          </p>
           <div className="source-links">
+            <a href="./licenses/PROJECT-REUSE.txt">
+              查看复用授权
+              <ArrowUpRight aria-hidden="true" />
+            </a>
             <a href="./licenses/HOWTOCOOK-LICENSE.txt">
               查看上游许可证
               <ArrowUpRight aria-hidden="true" />

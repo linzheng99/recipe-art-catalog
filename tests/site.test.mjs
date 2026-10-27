@@ -18,6 +18,7 @@ test("仓库子路径下首页、脚本、样式、JSON、图片和许可证可�
       [stylesheet, "text/css"],
       ["THIRD_PARTY_NOTICES.md", "text/plain"],
       ["licenses/HOWTOCOOK-LICENSE.txt", "text/plain"],
+      ["licenses/PROJECT-REUSE.txt", "text/plain"],
       ["licenses/FRONTEND-DEPENDENCIES.txt", "text/plain"],
     ]) {
       const response = await fetch(new URL(file, base));

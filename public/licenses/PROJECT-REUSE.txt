@@ -1,0 +1,15 @@
+项目内容复用授权
+
+本项目维护者就其有权授权的独立插画、新增代码、生成提示词和自行维护的目录内容，允许任何人免费使用、复制、修改、分发及用于商业用途，无需另行申请许可。
+
+HowToCook 菜谱资料、第三方代码和字体继续遵循各自原有许可证。使用这些第三方内容时，应保留并遵循其要求的许可与版权声明，详见 THIRD_PARTY_NOTICES.md。
+
+上述项目内容按现状提供，不附带任何明示或默示保证。
+
+Project Content Reuse Permission
+
+To the extent the project maintainers have the right to grant permission, anyone may use, copy, modify, redistribute, and commercially use the project's independent illustrations, original code, generation prompts, and independently maintained catalog content, free of charge and without requesting additional permission.
+
+HowToCook recipe materials, third-party code, and fonts remain subject to their respective original licenses. Preserve and comply with the license and copyright notices required for those materials. See THIRD_PARTY_NOTICES.md for details.
+
+The project content is provided as is, without any express or implied warranty.

@@ -6,6 +6,12 @@ import { useCatalogStore } from "@/stores/catalog-store";
 const fixture = JSON.parse(
   readFileSync(new URL("../../public/manifest.json", import.meta.url), "utf8"),
 );
+const liteFixture = JSON.parse(
+  readFileSync(
+    new URL("../../public/manifest-lite.json", import.meta.url),
+    "utf8",
+  ),
+);
 
 beforeEach(() => {
   useCatalogStore.setState(useCatalogStore.getInitialState(), true);
@@ -61,6 +67,50 @@ describe("公开目录兼容性", () => {
     nutrition.artworks[0].nutrition.per_100g.energy_kcal = 100;
     expect(() => parseCatalog(nutrition)).toThrow(/nutrition/);
   });
+  it("全拼、首字母、常用别称和多个关键词可组合分类与难度", () => {
+    const artworks = parseCatalog(liteFixture).artworks;
+    for (const query of [
+      "xi hong shi chao ji dan",
+      "ＸＨＳＣＪＤ",
+      "fqcd",
+      "番茄 鸡蛋",
+    ])
+      expect(
+        filterArtworks(artworks, query, "vegetable_dish", "2").map(
+          (item) => item.key,
+        ),
+      ).toContain("tomato-egg");
+    expect(
+      filterArtworks(artworks, "马铃薯丝", "all").map((item) => item.key),
+    ).toContain("shredded-potato");
+    expect(filterArtworks(artworks, "xihongshichaojidan", "drink")).toEqual([]);
+    expect(filterArtworks(artworks, "xihongshichaojidan", "all", "5")).toEqual(
+      [],
+    );
+  });
+  it("旧目录用正文难度筛选，缺少难度不猜测；完整名称排在包含结果之前", () => {
+    const tomato = parseCatalog(fixture).artworks.find(
+      (item) => item.key === "tomato-egg",
+    )!;
+    expect(filterArtworks([tomato], "", "all", "2")).toEqual([tomato]);
+    const unknown = { ...tomato, reference_recipes: [] };
+    expect(filterArtworks([unknown], "", "all", "1")).toEqual([]);
+    const extended = { ...tomato, name: `${tomato.name}面`, aliases: [] };
+    expect(filterArtworks([extended, tomato], tomato.name, "all")).toEqual([
+      tomato,
+      extended,
+    ]);
+    const multi = { ...tomato, difficulty: [1, 3] };
+    expect(filterArtworks([multi], "", "all", "3")).toEqual([multi]);
+  });
+  it("拒绝无效的可选搜索索引和难度摘要", () => {
+    const invalid = structuredClone(liteFixture);
+    invalid.artworks[0].search_terms = [123];
+    expect(() => parseCatalog(invalid)).toThrow(/search terms/);
+    invalid.artworks[0].search_terms = ["番茄"];
+    invalid.artworks[0].difficulty = [6];
+    expect(() => parseCatalog(invalid)).toThrow(/difficulty/);
+  });
 });
 
 describe("目录请求与筛选状态", () => {
@@ -115,12 +165,22 @@ describe("目录请求与筛选状态", () => {
     expect(useCatalogStore.getState().shown).toBe(24);
     useCatalogStore.getState().showMore();
     useCatalogStore.getState().setCategory("vegetable_dish");
+    useCatalogStore.getState().showMore();
+    useCatalogStore.getState().setDifficulty("2");
     useCatalogStore.getState().setTheme("dark");
     expect(useCatalogStore.getState()).toMatchObject({
       shown: 24,
       query: "番茄",
       category: "vegetable_dish",
+      difficulty: "2",
       theme: "dark",
+    });
+    useCatalogStore.getState().resetFilters();
+    expect(useCatalogStore.getState()).toMatchObject({
+      query: "",
+      category: "all",
+      difficulty: "all",
+      shown: 24,
     });
   });
 });

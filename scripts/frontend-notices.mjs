@@ -10,6 +10,7 @@ export async function writeFrontendNotices(root, { check = false } = {}) {
     "node_modules/shadcn",
     "node_modules/tailwindcss",
     "node_modules/tw-animate-css",
+    "node_modules/pinyin-pro",
   ]);
   const entries = Object.entries(lock.packages)
     .filter(
@@ -19,7 +20,7 @@ export async function writeFrontendNotices(root, { check = false } = {}) {
     .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0));
   const sections = [
     "Frontend dependencies and third-party license texts",
-    "Generated from package-lock.json. Includes runtime transitive dependencies and the shadcn/ui, Tailwind CSS, and tw-animate-css sources.",
+    "Generated from package-lock.json. Includes runtime transitive dependencies and the shadcn/ui, Tailwind CSS, tw-animate-css, and build-time pinyin-pro sources.",
   ];
   for (const [location] of entries) {
     const directory = path.join(root, location);
