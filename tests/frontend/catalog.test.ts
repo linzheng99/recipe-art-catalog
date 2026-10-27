@@ -89,7 +89,7 @@ describe("目录请求与筛选状态", () => {
     );
     const url = fetchMock.mock.calls[0][0] as URL;
     expect(url.href).toBe(
-      "https://owner.github.io/recipe-art-catalog/manifest.json",
+      "https://owner.github.io/recipe-art-catalog/manifest-lite.json",
     );
   });
 

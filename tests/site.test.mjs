@@ -26,6 +26,18 @@ test("仓库子路径下首页、脚本、样式、JSON、图片和许可证可�
     }
     const response = await fetch(new URL("manifest.json", base));
     const catalog = await response.json();
+    const liteResponse = await fetch(new URL("manifest-lite.json", base));
+    assert.equal(liteResponse.status, 200);
+    const lite = await liteResponse.json();
+    assert.equal(lite.version, catalog.version);
+    const details = await fetch(
+      new URL(
+        lite.artworks[0].recipe_details.path,
+        new URL("manifest-lite.json", base),
+      ),
+    );
+    assert.equal(details.status, 200);
+    assert.equal((await details.json()).key, lite.artworks[0].key);
     const unchanged = await fetch(new URL("manifest.json", base), {
       headers: { "If-None-Match": response.headers.get("etag") },
     });

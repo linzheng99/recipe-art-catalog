@@ -62,9 +62,28 @@ const sectionNames: Record<string, string> = {
   附加内容: "烹饪提示",
 };
 
-export function RecipeDetails({ recipes }: { recipes: ReferenceRecipe[] }) {
+export function RecipeDetails({
+  recipes,
+  loading = false,
+  error = false,
+  onRetry,
+}: {
+  recipes: ReferenceRecipe[];
+  loading?: boolean;
+  error?: boolean;
+  onRetry?: () => void;
+}) {
   return (
     <div className="recipe-details">
+      {loading && <p role="status">正在加载菜谱…</p>}
+      {error && (
+        <div className="mb-6 space-y-3" role="alert">
+          <p>菜谱暂时没有加载成功，可以重试或查看原菜谱。</p>
+          <Button variant="outline" onClick={onRetry}>
+            重新加载菜谱
+          </Button>
+        </div>
+      )}
       {recipes.map((recipe) => {
         const details = recipe.details;
         const url = safeExternalURL(recipe.url, "github.com");
@@ -131,11 +150,11 @@ export function RecipeDetails({ recipes }: { recipes: ReferenceRecipe[] }) {
                   ))}
                 </div>
               </>
-            ) : (
+            ) : !loading && !error ? (
               <p className="recipe-missing">
                 本站暂未收录这篇菜谱正文，可通过原菜谱链接查看。
               </p>
-            )}
+            ) : null}
           </section>
         );
       })}

@@ -33,6 +33,14 @@ npm run preview
 
 构建产物位于 `dist/`，可部署到 GitHub Pages 或其他静态托管平台。
 
+## 数据接入
+
+- `manifest-lite.json`：轻量目录，提供菜品标识、别名、来源、营养参考和图片地址，适合图片源接入。
+- 每道菜的 `recipe_details.path` 指向按需加载的菜谱正文；相对路径以目录地址为基准，用 `new URL(path, manifestURL)` 解析。
+- `manifest.json`：保留兼容的完整目录，包含菜谱正文及历史生成 Prompt。
+
+两个目录保持 `schema_version=1`，使用相同的菜品 key、recipe_ids 和图片摘要地址。菜谱正文文件附有 SHA-256 与字节数；完整目录和轻量目录的 version 均对应同一份资料版本。
+
 ## 来源
 
 菜谱目录与引用文字来自 [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)，遵循上游 Unlicense。插画由 AI 独立生成，没有使用上游照片。

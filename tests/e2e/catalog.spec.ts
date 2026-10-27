@@ -5,6 +5,131 @@ import { readFileSync } from "node:fs";
 const fixture = JSON.parse(
   readFileSync(new URL("../../public/manifest.json", import.meta.url), "utf8"),
 );
+const liteFixture = JSON.parse(
+  readFileSync(
+    new URL("../../public/manifest-lite.json", import.meta.url),
+    "utf8",
+  ),
+);
+
+test("首屏只读取轻量目录，打开详情才并行加载正文和渲染代码，再次打开复用正文", async ({
+  page,
+}) => {
+  const requests: string[] = [];
+  page.on("request", (request) =>
+    requests.push(new URL(request.url()).pathname),
+  );
+  const tomato = liteFixture.artworks.find(
+    (item: { key: string }) => item.key === "tomato-egg",
+  );
+  let release!: () => void;
+  const gate = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  await page.route(`**/${tomato.recipe_details.path}`, async (route) => {
+    await gate;
+    await route.continue();
+  });
+  try {
+    await page.goto("./");
+    await expect(page.getByRole("searchbox")).toBeEnabled();
+    expect(requests.some((path) => path.endsWith("/manifest-lite.json"))).toBe(
+      true,
+    );
+    expect(requests.some((path) => path.endsWith("/manifest.json"))).toBe(
+      false,
+    );
+    expect(
+      requests.filter((path) => path.includes("/recipe-details/")),
+    ).toEqual([]);
+    expect(
+      requests.filter((path) =>
+        /\/assets\/recipe-details-[^/]+\.js$/.test(path),
+      ),
+    ).toEqual([]);
+    await page.getByRole("searchbox").fill("番茄炒蛋");
+    const card = page.getByRole("button", { name: "查看西红柿炒鸡蛋插画详情" });
+    await card.click();
+    const dialog = page.getByRole("dialog");
+    await expect(
+      dialog.getByRole("link", { name: /下载 256 px/ }),
+    ).toBeVisible();
+    await expect(dialog.getByRole("status")).toContainText("正在加载菜谱");
+    await expect
+      .poll(
+        () =>
+          requests.filter((path) =>
+            /\/assets\/recipe-details-[^/]+\.js$/.test(path),
+          ).length,
+      )
+      .toBeGreaterThan(0);
+    await expect
+      .poll(
+        () =>
+          requests.filter((path) => path.includes("/recipe-details/")).length,
+      )
+      .toBe(1);
+    release();
+    await expect(
+      dialog.getByRole("heading", { name: "制作步骤" }),
+    ).toBeVisible();
+    await page.keyboard.press("Escape");
+    await card.click();
+    await expect(
+      dialog.getByRole("heading", { name: "制作步骤" }),
+    ).toBeVisible();
+    expect(
+      requests.filter((path) => path.includes("/recipe-details/")),
+    ).toEqual([`/recipe-art-catalog/${tomato.recipe_details.path}`]);
+  } finally {
+    release();
+  }
+});
+
+test("正文请求失败不影响图片下载与来源，重试后恢复正文", async ({ page }) => {
+  let attempts = 0;
+  await page.route(
+    "**/assets/recipe-details/tomato-egg.*.json",
+    async (route) => {
+      attempts += 1;
+      if (attempts === 1)
+        await route.fulfill({ status: 503, body: "unavailable" });
+      else await route.continue();
+    },
+  );
+  await page.goto("./");
+  const search = page.getByRole("searchbox");
+  await expect(search).toBeEnabled();
+  await search.fill("番茄炒蛋");
+  await page.getByRole("button", { name: "查看西红柿炒鸡蛋插画详情" }).click();
+  const dialog = page.getByRole("dialog");
+  await expect(dialog.getByRole("alert")).toContainText("菜谱暂时没有加载成功");
+  await expect(dialog.getByRole("link", { name: /下载 256 px/ })).toBeVisible();
+  await expect(
+    dialog.getByRole("link", { name: "查看原菜谱", exact: true }),
+  ).toBeVisible();
+  await dialog.getByRole("button", { name: "重新加载菜谱" }).click();
+  await expect(dialog.getByRole("heading", { name: "制作步骤" })).toBeVisible();
+  expect(attempts).toBe(2);
+});
+
+test("详情代码加载失败仍保留图片、下载和原菜谱入口", async ({ page }) => {
+  await page.route("**/assets/recipe-details-*.js", (route) => route.abort());
+  await page.goto("./");
+  const search = page.getByRole("searchbox");
+  await expect(search).toBeEnabled();
+  await search.fill("番茄炒蛋");
+  await page.getByRole("button", { name: "查看西红柿炒鸡蛋插画详情" }).click();
+  const dialog = page.getByRole("dialog");
+  await expect(dialog.getByRole("alert")).toContainText("菜谱内容暂时无法显示");
+  await expect(
+    dialog.getByRole("img", { name: "西红柿炒鸡蛋" }),
+  ).toHaveJSProperty("naturalWidth", 512);
+  await expect(dialog.getByRole("link", { name: /下载 256 px/ })).toBeVisible();
+  await expect(
+    dialog.getByRole("link", { name: /查看原菜谱：/ }),
+  ).toBeVisible();
+});
 
 test("搜索、分类、键盘详情、下载和主题在仓库子路径可用", async ({
   page,
@@ -119,6 +244,9 @@ test("蒸蛋的两篇原菜谱分别展示，旧目录缺少正文时仍可打�
     (item: { reference_recipes: Record<string, unknown>[] }) =>
       item.reference_recipes.forEach((recipe) => delete recipe.details),
   );
+  await page.route("**/manifest-lite.json", (route) =>
+    route.fulfill({ status: 404 }),
+  );
   await page.route("**/manifest.json", (route) =>
     route.fulfill({ json: legacy }),
   );
@@ -136,7 +264,7 @@ test("蒸蛋的两篇原菜谱分别展示，旧目录缺少正文时仍可打�
 
 test("目录失败可重试，图片失败有可读回退", async ({ page }) => {
   let attempts = 0;
-  await page.route("**/manifest.json", async (route) => {
+  await page.route("**/manifest-lite.json", async (route) => {
     attempts += 1;
     if (attempts === 1)
       await route.fulfill({ status: 503, body: "unavailable" });
@@ -216,7 +344,7 @@ test("首页直接展示并复制公共 Prompt，详情中不再重复", async (
   await expect(dialog.getByRole("link", { name: /下载 256 px/ })).toBeVisible();
   await page.keyboard.press("Escape");
 
-  await page.route("**/manifest.json", (route) =>
+  await page.route("**/manifest-lite.json", (route) =>
     route.fulfill({ status: 503, body: "unavailable" }),
   );
   await page.reload();

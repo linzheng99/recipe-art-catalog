@@ -1,6 +1,15 @@
 import { create } from "zustand";
-import { getManifestURL, parseCatalog } from "@/lib/catalog";
-import type { Catalog } from "@/lib/catalog";
+import { getCatalogURL, getManifestURL, parseCatalog } from "@/lib/catalog";
+import type { Artwork, Catalog, ReferenceRecipe } from "@/lib/catalog";
+import {
+  fetchRecipeDetails,
+  recipeDetailsCacheKey,
+} from "@/lib/recipe-details";
+
+export interface RecipeLoadState {
+  status: "loading" | "ready" | "error";
+  recipes: ReferenceRecipe[] | null;
+}
 
 interface CatalogState {
   catalog: Catalog | null;
@@ -11,6 +20,8 @@ interface CatalogState {
   selectedKey: string | null;
   theme: "system" | "light" | "dark";
   notice: string | null;
+  recipeDetails: Record<string, RecipeLoadState>;
+  loadRecipeDetails: (item: Artwork) => Promise<void>;
   load: () => Promise<void>;
   setQuery: (query: string) => void;
   setCategory: (category: string) => void;
@@ -29,20 +40,43 @@ export const useCatalogStore = create<CatalogState>((set, get) => ({
   selectedKey: null,
   theme: "system",
   notice: null,
+  recipeDetails: {},
   load: async () => {
     // 合并 StrictMode 与重复点击产生的加载；失败后仍可显式重试。
     if (get().status === "loading") return;
     set({ status: "loading", selectedKey: null });
     try {
-      const response = await fetch(getManifestURL(), {
+      const options = () => ({
         signal: AbortSignal.timeout(10000),
-        credentials: "omit",
+        credentials: "omit" as const,
       });
+      let response = await fetch(getCatalogURL(), options());
+      // 旧部署没有轻量入口时继续兼容完整目录，其他错误保留显式重试。
+      if (response.status === 404)
+        response = await fetch(getManifestURL(), options());
       if (!response.ok) throw new Error("Catalog unavailable");
       const catalog = parseCatalog(await response.json());
       set({ catalog, status: "ready" });
     } catch {
       set({ status: "error", catalog: null });
+    }
+  },
+  loadRecipeDetails: async (item) => {
+    if (!item.recipe_details) return;
+    const key = recipeDetailsCacheKey(item);
+    const status = get().recipeDetails[key]?.status;
+    if (status === "loading" || status === "ready") return;
+    const update = (value: RecipeLoadState) =>
+      set((state) => ({
+        recipeDetails: { ...state.recipeDetails, [key]: value },
+      }));
+    update({ status: "loading", recipes: null });
+    try {
+      const recipes = await fetchRecipeDetails(item);
+      // 以正文摘要隔离缓存；切换菜品或目录更新后，旧请求不会覆盖当前正文。
+      update({ status: "ready", recipes });
+    } catch {
+      update({ status: "error", recipes: null });
     }
   },
   setQuery: (query) => set({ query, shown: 24 }),

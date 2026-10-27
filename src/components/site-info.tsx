@@ -1,10 +1,10 @@
 import { ArrowUpRight, Copy, FileJson } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getManifestURL } from "@/lib/catalog";
+import { getCatalogURL } from "@/lib/catalog";
 import { copyAddress } from "@/lib/clipboard";
 
 export function SiteInfo() {
-  const manifestURL = getManifestURL().href;
+  const manifestURL = getCatalogURL().href;
   return (
     <>
       <section
@@ -16,12 +16,12 @@ export function SiteInfo() {
           <div>
             <p className="eyebrow">让插画走进你的项目</p>
             <h2 id="connect-title">
-              一份 JSON，
+              一份轻量目录，
               <br />
               连接整个图鉴。
             </h2>
             <p className="section-description">
-              稳定的菜品标识、明确的别称、带摘要的图片路径。网站和应用都能独立接入。
+              稳定的菜品标识、明确的别称、带摘要的图片路径。轻量目录适合网站和应用接入，完整目录保留菜谱正文与生成记录。
             </p>
             <Button variant="link" asChild>
               <a href="./manifest.json">
@@ -33,7 +33,7 @@ export function SiteInfo() {
           </div>
           <div className="code-panel">
             <div className="code-header">
-              <span>公开目录地址</span>
+              <span>轻量目录地址</span>
               <Button
                 variant="secondary"
                 size="sm"
@@ -53,7 +53,10 @@ const imageURL = new URL(
   dish.variants['256'].path, manifestURL
 ).href`}</code>
             </pre>
-            <p>提供透明 WebP · 256 / 512 px · 营养参考注明来源与基准</p>
+            <p>
+              提供透明 WebP · 256 / 512 px · 菜谱正文通过 recipe_details.path
+              按需读取
+            </p>
           </div>
         </div>
       </section>

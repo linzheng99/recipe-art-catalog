@@ -45,6 +45,7 @@ export interface Artwork {
   } | null;
   variants: Record<"256" | "512", Variant>;
   reference_recipes: ReferenceRecipe[];
+  recipe_details?: { path: string; bytes: number; sha256: string };
   nutrition: {
     status: "unknown" | "reference";
     basis: "per_100g" | null;
@@ -93,6 +94,10 @@ export function getManifestURL() {
   return new URL("manifest.json", window.location.href);
 }
 
+export function getCatalogURL() {
+  return new URL("manifest-lite.json", window.location.href);
+}
+
 export function imageURL(
   item: Artwork,
   size: "256" | "512",
@@ -123,6 +128,57 @@ export function safeExternalURL(value: string | undefined, hostname?: string) {
 
 const record = (value: unknown): value is Record<string, unknown> =>
   typeof value === "object" && value !== null;
+
+export function parseReferenceRecipes(value: unknown): ReferenceRecipe[] {
+  if (
+    !Array.isArray(value) ||
+    !value.every(
+      (recipe) =>
+        record(recipe) &&
+        typeof recipe.id === "string" &&
+        typeof recipe.name === "string" &&
+        typeof recipe.url === "string",
+    )
+  )
+    throw new Error("Invalid source");
+  for (const recipe of value) {
+    const details = recipe.details;
+    if (
+      details !== undefined &&
+      details !== null &&
+      (!record(details) ||
+        typeof details.introduction !== "string" ||
+        (details.difficulty !== null &&
+          typeof details.difficulty !== "string") ||
+        !Array.isArray(details.sections) ||
+        !details.sections.every(
+          (section) =>
+            record(section) &&
+            typeof section.heading === "string" &&
+            typeof section.markdown === "string",
+        ))
+    )
+      throw new Error("Invalid recipe content");
+  }
+  return value as ReferenceRecipe[];
+}
+
+export function parseRecipeDescriptor(
+  value: unknown,
+  key: string,
+): NonNullable<Artwork["recipe_details"]> {
+  if (
+    !record(value) ||
+    typeof value.sha256 !== "string" ||
+    !/^[a-f0-9]{64}$/.test(value.sha256) ||
+    value.path !==
+      `assets/recipe-details/${key}.${value.sha256.slice(0, 16)}.json` ||
+    !Number.isSafeInteger(value.bytes) ||
+    (value.bytes as number) <= 0
+  )
+    throw new Error("Invalid recipe descriptor");
+  return value as NonNullable<Artwork["recipe_details"]>;
+}
 
 export function parseCatalog(value: unknown): Catalog {
   if (
@@ -195,35 +251,9 @@ export function parseCatalog(value: unknown): Catalog {
       )
         throw new Error("Invalid variant");
     }
-    if (
-      !item.reference_recipes.every(
-        (recipe) =>
-          record(recipe) &&
-          typeof recipe.id === "string" &&
-          typeof recipe.name === "string" &&
-          typeof recipe.url === "string",
-      )
-    )
-      throw new Error("Invalid source");
-    for (const recipe of item.reference_recipes) {
-      const details = recipe.details;
-      if (
-        details !== undefined &&
-        details !== null &&
-        (!record(details) ||
-          typeof details.introduction !== "string" ||
-          (details.difficulty !== null &&
-            typeof details.difficulty !== "string") ||
-          !Array.isArray(details.sections) ||
-          !details.sections.every(
-            (section) =>
-              record(section) &&
-              typeof section.heading === "string" &&
-              typeof section.markdown === "string",
-          ))
-      )
-        throw new Error("Invalid recipe content");
-    }
+    parseReferenceRecipes(item.reference_recipes);
+    if (item.recipe_details !== undefined)
+      parseRecipeDescriptor(item.recipe_details, item.key);
     const nutrition = item.nutrition;
     if (
       !record(nutrition) ||

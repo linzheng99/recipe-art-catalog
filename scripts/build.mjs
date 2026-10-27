@@ -5,6 +5,7 @@ import path from "node:path";
 import { writeFrontendNotices } from "./frontend-notices.mjs";
 import { loadGenerationPrompts } from "./generation-prompts.mjs";
 import { loadRecipeContents } from "./recipe-content.mjs";
+import { createRuntimeCatalog } from "./runtime-catalog.mjs";
 
 export const root = fileURLToPath(new URL("../", import.meta.url));
 const readJSON = async (filename) =>
@@ -212,6 +213,24 @@ export async function build({ check = false } = {}) {
     }
   }
   const text = JSON.stringify(manifest, null, 2) + "\n";
+  const runtime = createRuntimeCatalog(manifest);
+  // 先写内容寻址的正文，再更新入口；旧摘要文件保留，已打开的页面仍能读取旧版本。
+  const runtimeFiles = [
+    ...runtime.details.map(({ path, text }) => [path, text]),
+    ["manifest-lite.json", JSON.stringify(runtime.index) + "\n"],
+  ];
+  for (const [filename, content] of runtimeFiles) {
+    const target = path.join(root, "public", filename);
+    if (check)
+      assert(
+        (await readFile(target, "utf8")) === content,
+        `运行目录过期 ${filename}，请运行 npm run build`,
+      );
+    else {
+      await mkdir(path.dirname(target), { recursive: true });
+      await writeFile(target, content);
+    }
+  }
   if (check)
     assert(
       (await readFile(path.join(root, "public/manifest.json"), "utf8")) ===

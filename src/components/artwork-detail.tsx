@@ -8,7 +8,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { ArtworkImage } from "@/components/artwork-image";
-import { RecipeDetails } from "@/components/recipe-details";
+import { DeferredRecipeDetails } from "@/components/deferred-recipe-details";
 import { categories, imageURL, safeExternalURL } from "@/lib/catalog";
 import { copyAddress } from "@/lib/clipboard";
 import type { Artwork } from "@/lib/catalog";
@@ -105,7 +105,7 @@ export function ArtworkDetail({
             </div>
           </div>
         </div>
-        <RecipeDetails recipes={item.reference_recipes} />
+        <DeferredRecipeDetails item={item} />
       </div>
     </DialogContent>
   );
