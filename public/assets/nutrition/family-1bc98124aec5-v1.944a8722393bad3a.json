@@ -1,0 +1,1691 @@
+{
+  "schema_version": 1,
+  "id": "family-1bc98124aec5-v1",
+  "recipe_id": "howtocook-1bc98124aec5",
+  "recipe_blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
+  "version": "1",
+  "data_version": "f1233b4e514bb0c4",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "estimation_level": "food_group_proxy",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 300,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品300g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "同类食物代理粗估；2–3人家庭标准配方估算：食用牛油（牛脂）150g、大豆食用油35g、猪油20g、李锦记SPICY BEAN SAUCE辣豆酱40g、干辣椒15g、腐乳5g、李锦记辣豆豉酱5g、姜8g、去皮大蒜8g、孜然籽2g、肉桂粉1g、黑胡椒粉1g、食盐3g、饮用水80g；整份约300g。这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "identity_precision": "food_group_proxy",
+    "food_proxies": [
+      {
+        "target": "豆母子发酵豆制品",
+        "reference_name": "腐乳",
+        "food": {
+          "fdc_id": 174305,
+          "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
+        },
+        "reason": "同类发酵豆制品代理，非原产品组成"
+      },
+      {
+        "target": "豆豉和豆母子调味",
+        "reference_name": "李锦记辣豆豉酱",
+        "food": {
+          "fdc_id": 2505417,
+          "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895135480"
+        },
+        "reason": "固定通用发酵豆酱代理"
+      },
+      {
+        "target": "郫县豆瓣",
+        "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+        "food": {
+          "fdc_id": 2028275,
+          "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895610000"
+        },
+        "reason": "固定黄豆辣酱近似蚕豆豆瓣"
+      },
+      {
+        "target": "糍粑辣椒",
+        "reference_name": "干辣椒",
+        "food": {
+          "fdc_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+        },
+        "reason": "干辣椒加水模型，不声称原湿糊测定"
+      }
+    ],
+    "food_identity": "howtocook-1bc98124aec5",
+    "state": "ready_to_eat",
+    "cooking_method": "braise",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
+    "variant": "family-1bc98124aec5-v1",
+    "standard_ingredients": [
+      {
+        "key": "beef_tallow",
+        "grams": 150
+      },
+      {
+        "key": "oil",
+        "grams": 35
+      },
+      {
+        "key": "lard",
+        "grams": 20
+      },
+      {
+        "key": "douban_branded",
+        "grams": 40
+      },
+      {
+        "key": "chili_dry",
+        "grams": 15
+      },
+      {
+        "key": "tofu_salted",
+        "grams": 5
+      },
+      {
+        "key": "black_bean_sauce",
+        "grams": 5
+      },
+      {
+        "key": "ginger",
+        "grams": 8
+      },
+      {
+        "key": "garlic",
+        "grams": 8
+      },
+      {
+        "key": "cumin",
+        "grams": 2
+      },
+      {
+        "key": "cinnamon",
+        "grams": 1
+      },
+      {
+        "key": "black_pepper",
+        "grams": 1
+      },
+      {
+        "key": "salt",
+        "grams": 3
+      },
+      {
+        "key": "water",
+        "grams": 80
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 667.916667,
+    "protein_g": 1.9046,
+    "carbohydrate_g": 7.634833,
+    "fat_g": 70.789333
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/171400/nutrients",
+    "version": "f1233b4e514bb0c4",
+    "fdc_ids": [
+      171400,
+      171411,
+      171401,
+      2028275,
+      170932,
+      174305,
+      2505417,
+      169231,
+      169230,
+      170923,
+      171320,
+      170931,
+      173468,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E7%89%9B%E6%B2%B9%E7%81%AB%E9%94%85%E5%BA%95%E6%96%99.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78"
+  },
+  "profile": {
+    "id": "family-1bc98124aec5-v1",
+    "version": "1",
+    "recipe_id": "howtocook-1bc98124aec5",
+    "recipe_blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
+    "method": "usda_recipe_estimate",
+    "estimation_level": "food_group_proxy",
+    "default_for_artwork": false,
+    "scope": "同类食物代理粗估；2–3人家庭标准配方估算：食用牛油（牛脂）150g、大豆食用油35g、猪油20g、李锦记SPICY BEAN SAUCE辣豆酱40g、干辣椒15g、腐乳5g、李锦记辣豆豉酱5g、姜8g、去皮大蒜8g、孜然籽2g、肉桂粉1g、黑胡椒粉1g、食盐3g、饮用水80g；整份约300g。这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "identity_precision": "food_group_proxy",
+      "food_proxies": [
+        {
+          "target": "豆母子发酵豆制品",
+          "reference_name": "腐乳",
+          "food": {
+            "fdc_id": 174305,
+            "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
+          },
+          "reason": "同类发酵豆制品代理，非原产品组成"
+        },
+        {
+          "target": "豆豉和豆母子调味",
+          "reference_name": "李锦记辣豆豉酱",
+          "food": {
+            "fdc_id": 2505417,
+            "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+            "data_type": "Branded",
+            "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+            "brand_owner": "Lee Kum Kee Co. Ltd.",
+            "brand_name": "LEE KUM KEE",
+            "gtin_upc": "078895135480"
+          },
+          "reason": "固定通用发酵豆酱代理"
+        },
+        {
+          "target": "郫县豆瓣",
+          "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+          "food": {
+            "fdc_id": 2028275,
+            "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+            "data_type": "Branded",
+            "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+            "brand_owner": "Lee Kum Kee Co. Ltd.",
+            "brand_name": "LEE KUM KEE",
+            "gtin_upc": "078895610000"
+          },
+          "reason": "固定黄豆辣酱近似蚕豆豆瓣"
+        },
+        {
+          "target": "糍粑辣椒",
+          "reference_name": "干辣椒",
+          "food": {
+            "fdc_id": 170932,
+            "description": "Spices, pepper, red or cayenne",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+          },
+          "reason": "干辣椒加水模型，不声称原湿糊测定"
+        }
+      ],
+      "food_identity": "howtocook-1bc98124aec5",
+      "state": "ready_to_eat",
+      "cooking_method": "braise",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
+      "variant": "family-1bc98124aec5-v1",
+      "standard_ingredients": [
+        {
+          "key": "beef_tallow",
+          "grams": 150
+        },
+        {
+          "key": "oil",
+          "grams": 35
+        },
+        {
+          "key": "lard",
+          "grams": 20
+        },
+        {
+          "key": "douban_branded",
+          "grams": 40
+        },
+        {
+          "key": "chili_dry",
+          "grams": 15
+        },
+        {
+          "key": "tofu_salted",
+          "grams": 5
+        },
+        {
+          "key": "black_bean_sauce",
+          "grams": 5
+        },
+        {
+          "key": "ginger",
+          "grams": 8
+        },
+        {
+          "key": "garlic",
+          "grams": 8
+        },
+        {
+          "key": "cumin",
+          "grams": 2
+        },
+        {
+          "key": "cinnamon",
+          "grams": 1
+        },
+        {
+          "key": "black_pepper",
+          "grams": 1
+        },
+        {
+          "key": "salt",
+          "grams": 3
+        },
+        {
+          "key": "water",
+          "grams": 80
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：食用牛油（牛脂）150g、大豆食用油35g、猪油20g、李锦记SPICY BEAN SAUCE辣豆酱40g、干辣椒15g、腐乳5g、李锦记辣豆豉酱5g、姜8g、去皮大蒜8g、孜然籽2g、肉桂粉1g、黑胡椒粉1g、食盐3g、饮用水80g。克数是项目标准，不是原文ml/个数换算。",
+      "这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "豆母子发酵豆制品采用腐乳代理：同类发酵豆制品代理，非原产品组成。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "豆豉和豆母子调味采用李锦记辣豆豉酱代理：固定通用发酵豆酱代理。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "郫县豆瓣采用李锦记SPICY BEAN SAUCE辣豆酱代理：固定黄豆辣酱近似蚕豆豆瓣。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "糍粑辣椒采用干辣椒代理：干辣椒加水模型，不声称原湿糊测定。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "食用牛油（牛脂）",
+        "food": {
+          "fdc_id": 171400,
+          "description": "Fat, beef tallow",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9fa0ac9e3471509c217fa8598d6cec4326de2ea3d15fb6e6c293d54becdec78f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "USDA Fat, beef tallow，动物牛脂而非乳制黄油或起酥油。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "猪油",
+        "food": {
+          "fdc_id": 171401,
+          "description": "Lard",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "李锦记SPICY BEAN SAUCE辣豆酱",
+        "food": {
+          "fdc_id": 2028275,
+          "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895610000"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+      },
+      {
+        "name": "干辣椒",
+        "food": {
+          "fdc_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "腐乳",
+        "food": {
+          "fdc_id": 174305,
+          "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "盐渍发酵腐乳通用宏量参考，非红曲玫瑰腐乳品牌标签；仅作明确通用腐乳变体，不用于其他豆酱。"
+      },
+      {
+        "name": "李锦记辣豆豉酱",
+        "food": {
+          "fdc_id": 2505417,
+          "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895135480"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。"
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "孜然籽",
+        "food": {
+          "fdc_id": 170923,
+          "description": "Spices, cumin seed",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6547255bf1215d1fcd23761e65196917deba938e9146f06b3d720ce06a33b5ac"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "肉桂粉",
+        "food": {
+          "fdc_id": 171320,
+          "description": "Spices, cinnamon, ground",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "433c4ef2179c1b4761116a2c335056d0b8dc7c1682c4ce05715401e29e55c88c"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 300,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品300g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "braise",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
+      "reviewed_at": "2026-10-29T00:12:21.192Z",
+      "checks": {
+        "recipe_version": "e18171098915e0f103750b5e3aa6257ff620da78",
+        "food_identity": "Fat, beef tallow; Oil, soybean, salad or cooking; Lard; LEE KUM KEE, SPICY BEAN SAUCE; Spices, pepper, red or cayenne; Tofu, salted and fermented (fuyu), prepared with calcium sulfate; LEE KUM KEE, CHILI BLACK BEAN SAUCE; Ginger root, raw; Garlic, raw; Spices, cumin seed; Spices, cinnamon, ground; Spices, pepper, black; Salt, table; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品braise。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
+        "standard_variant": "这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。",
+        "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E7%89%9B%E6%B2%B9%E7%81%AB%E9%94%85%E5%BA%95%E6%96%99.md",
+          "blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171400/nutrients",
+          "note": "食用牛油（牛脂）：Fat, beef tallow；已核对数据类型、生熟、可食部分及原始摘要。USDA Fat, beef tallow，动物牛脂而非乳制黄油或起酥油。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171401/nutrients",
+          "note": "猪油：Lard；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2028275/nutrients",
+          "note": "李锦记SPICY BEAN SAUCE辣豆酱：LEE KUM KEE, SPICY BEAN SAUCE；已核对数据类型、生熟、可食部分及原始摘要。李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+          "note": "干辣椒：Spices, pepper, red or cayenne；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174305/nutrients",
+          "note": "腐乳：Tofu, salted and fermented (fuyu), prepared with calcium sulfate；已核对数据类型、生熟、可食部分及原始摘要。盐渍发酵腐乳通用宏量参考，非红曲玫瑰腐乳品牌标签；仅作明确通用腐乳变体，不用于其他豆酱。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2505417/nutrients",
+          "note": "李锦记辣豆豉酱：LEE KUM KEE, CHILI BLACK BEAN SAUCE；已核对数据类型、生熟、可食部分及原始摘要。限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+          "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+          "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170923/nutrients",
+          "note": "孜然籽：Spices, cumin seed；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171320/nutrients",
+          "note": "肉桂粉：Spices, cinnamon, ground；已核对数据类型、生熟、可食部分及原始摘要。核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+          "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 902,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 902
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171400,
+        "description": "Fat, beef tallow",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T15:22:05.741Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171400/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9fa0ac9e3471509c",
+        "raw_sha256": "9fa0ac9e3471509c217fa8598d6cec4326de2ea3d15fb6e6c293d54becdec78f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c7e4f24bbd2b6955106d4e6a70f6666d5c10b6693bd69daea370f99ea6d76b18"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 902,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 902
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171401,
+        "description": "Lard",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:07:09.409Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171401/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 8ef60b0af4cf820b",
+        "raw_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "b707b5fcd44cc94aea08ee13cd6e66772d568b95e807c842a843e4cf9977bfb0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 147,
+        "protein_g": 5.88,
+        "carbohydrate_g": 17.6,
+        "fat_g": 5.88
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 147
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 5.88
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.6
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 5.88
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2028275,
+        "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+        "data_type": "Branded",
+        "brand_owner": "Lee Kum Kee Co. Ltd.",
+        "brand_name": "LEE KUM KEE",
+        "gtin_upc": "078895610000",
+        "ingredients": "WATER, FERMENTED SOYBEAN PASTE (WATER, SALT, SOYBEANS, WHEAT FLOUR), SALTED CHILI PEPPERS (CHILI PEPPERS, SALT), SUGAR, TOMATO PASTE, SESAME OIL, OYSTER SAUCE (WATER, SUGAR, SALT, OYSTER EXTRACTIVES (OYSTER, WATER, SALT), MODIFIED CORN STARCH, CARAMEL COLOR), SESAME PASTE, SICHUAN PEPPER, MODIFIED CORN STARCH, DEHYDRATED GARLIC, LACTIC ACID",
+        "publication_date": "2021-10-28",
+        "retrieved_at": "2026-10-28T06:01:07.858Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2028275/nutrients",
+        "version": "Branded / 2021-10-28 / 068cdd612c225e8d",
+        "raw_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 318,
+        "protein_g": 12,
+        "carbohydrate_g": 56.6,
+        "fat_g": 17.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 318
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 56.6
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 17.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170932,
+        "description": "Spices, pepper, red or cayenne",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 571f1aae4c88b5c9",
+        "raw_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 116,
+        "protein_g": 8.15,
+        "carbohydrate_g": 5.15,
+        "fat_g": 8
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 116
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.15
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 5.15
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 8
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174305,
+        "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:03:09.152Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174305/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 1d8a40c61458a5a9",
+        "raw_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "f0d6284fa6869c1bc2f119789b8002ff77c3bc8f8ef58550730a21ee71c78652"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 357,
+        "protein_g": 0,
+        "carbohydrate_g": 14.3,
+        "fat_g": 28.6
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 357
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 14.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 28.6
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2505417,
+        "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+        "data_type": "Branded",
+        "brand_owner": "Lee Kum Kee Co. Ltd.",
+        "brand_name": "LEE KUM KEE",
+        "gtin_upc": "078895135480",
+        "ingredients": "FERMENTED SOYBEAN PASTE (WATER, SALT, SOYBEANS, WHEAT), SOYBEAN OIL, WATER, DRIED CHILI PEPPERS, SALTED CHILI PEPPERS (CHILI PEPPERS, SALT), SUGAR, FERMENTED BLACK BEANS (BLACK BEANS, SALT, WATER), SHALLOT, DEHYDRATED GARLIC, SESAME OIL, MONOSODIUM GLUTAMATE AND DISODIUM 5'-INOSINATE AND DISODIUM 5'-GUANYLATE AS FLAVOR ENHANCERS, SALT, SPICES, CARAMEL COLOR, PAPRIKA OLEORESIN.",
+        "publication_date": "2023-03-16",
+        "retrieved_at": "2026-10-28T06:01:07.858Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2505417/nutrients",
+        "version": "Branded / 2023-03-16 / ddb6d0dc12b55430",
+        "raw_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 80,
+        "protein_g": 1.82,
+        "carbohydrate_g": 17.8,
+        "fat_g": 0.75
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 80
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.75
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169231,
+        "description": "Ginger root, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:57.102Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8c5161cfeef99a8",
+        "raw_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3ed0beff1be476911c0e6250c641fa95241e2baad9a5169294d889fb94927fc0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 149,
+        "protein_g": 6.36,
+        "carbohydrate_g": 33.1,
+        "fat_g": 0.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 149
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.36
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 33.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169230,
+        "description": "Garlic, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:07.095Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 7ad29963a8d95feb",
+        "raw_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 375,
+        "protein_g": 17.8,
+        "carbohydrate_g": 44.2,
+        "fat_g": 22.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 375
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 17.8
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 44.2
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 22.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170923,
+        "description": "Spices, cumin seed",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:07:36.504Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170923/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 6547255bf1215d1f",
+        "raw_sha256": "6547255bf1215d1fcd23761e65196917deba938e9146f06b3d720ce06a33b5ac",
+        "transport": "api_search_snapshot",
+        "query_sha256": "515b4528dc46f2d045285646f8d459e158b70ef7d7a0f3a1bd6ae470755b0d2f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 247,
+        "protein_g": 3.99,
+        "carbohydrate_g": 80.6,
+        "fat_g": 1.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 247
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.99
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 80.6
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171320,
+        "description": "Spices, cinnamon, ground",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:07:36.504Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171320/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 433c4ef2179c1b47",
+        "raw_sha256": "433c4ef2179c1b4761116a2c335056d0b8dc7c1682c4ce05715401e29e55c88c",
+        "transport": "api_search_snapshot",
+        "query_sha256": "515b4528dc46f2d045285646f8d459e158b70ef7d7a0f3a1bd6ae470755b0d2f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 251,
+        "protein_g": 10.4,
+        "carbohydrate_g": 64,
+        "fat_g": 3.26
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 251
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 64
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.26
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170931,
+        "description": "Spices, pepper, black",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 60b7f134c776a0c1",
+        "raw_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "食用牛油（牛脂）",
+        "food": {
+          "fdc_id": 171400,
+          "description": "Fat, beef tallow",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9fa0ac9e3471509c217fa8598d6cec4326de2ea3d15fb6e6c293d54becdec78f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "USDA Fat, beef tallow，动物牛脂而非乳制黄油或起酥油。",
+        "per_100g": {
+          "energy_kcal": 902,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 35
+      },
+      {
+        "name": "猪油",
+        "food": {
+          "fdc_id": 171401,
+          "description": "Lard",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 902,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "李锦记SPICY BEAN SAUCE辣豆酱",
+        "food": {
+          "fdc_id": 2028275,
+          "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895610000"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。",
+        "per_100g": {
+          "energy_kcal": 147,
+          "protein_g": 5.88,
+          "carbohydrate_g": 17.6,
+          "fat_g": 5.88
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "干辣椒",
+        "food": {
+          "fdc_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 318,
+          "protein_g": 12,
+          "carbohydrate_g": 56.6,
+          "fat_g": 17.3
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "腐乳",
+        "food": {
+          "fdc_id": 174305,
+          "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "盐渍发酵腐乳通用宏量参考，非红曲玫瑰腐乳品牌标签；仅作明确通用腐乳变体，不用于其他豆酱。",
+        "per_100g": {
+          "energy_kcal": 116,
+          "protein_g": 8.15,
+          "carbohydrate_g": 5.15,
+          "fat_g": 8
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "李锦记辣豆豉酱",
+        "food": {
+          "fdc_id": 2505417,
+          "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895135480"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。",
+        "per_100g": {
+          "energy_kcal": 357,
+          "protein_g": 0,
+          "carbohydrate_g": 14.3,
+          "fat_g": 28.6
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 80,
+          "protein_g": 1.82,
+          "carbohydrate_g": 17.8,
+          "fat_g": 0.75
+        },
+        "edible_g": 8
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 149,
+          "protein_g": 6.36,
+          "carbohydrate_g": 33.1,
+          "fat_g": 0.5
+        },
+        "edible_g": 8
+      },
+      {
+        "name": "孜然籽",
+        "food": {
+          "fdc_id": 170923,
+          "description": "Spices, cumin seed",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6547255bf1215d1fcd23761e65196917deba938e9146f06b3d720ce06a33b5ac"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 375,
+          "protein_g": 17.8,
+          "carbohydrate_g": 44.2,
+          "fat_g": 22.3
+        },
+        "edible_g": 2
+      },
+      {
+        "name": "肉桂粉",
+        "food": {
+          "fdc_id": 171320,
+          "description": "Spices, cinnamon, ground",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "433c4ef2179c1b4761116a2c335056d0b8dc7c1682c4ce05715401e29e55c88c"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。",
+        "per_100g": {
+          "energy_kcal": 247,
+          "protein_g": 3.99,
+          "carbohydrate_g": 80.6,
+          "fat_g": 1.24
+        },
+        "edible_g": 1
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。",
+        "per_100g": {
+          "energy_kcal": 251,
+          "protein_g": 10.4,
+          "carbohydrate_g": 64,
+          "fat_g": 3.26
+        },
+        "edible_g": 1
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 80
+      }
+    ],
+    "total": {
+      "energy_kcal": 2003.75,
+      "protein_g": 5.7138,
+      "carbohydrate_g": 22.9045,
+      "fat_g": 212.368
+    },
+    "final_edible_g": 300,
+    "per_100g": {
+      "energy_kcal": 667.916667,
+      "protein_g": 1.9046,
+      "carbohydrate_g": 7.634833,
+      "fat_g": 70.789333
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 675.261729,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

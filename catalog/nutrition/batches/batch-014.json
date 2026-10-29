@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-031354976c67",
+      "queries": [
+        "Rice noodles cooked",
+        {
+          "query": "FIVE SPICE TOFU",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Peanuts all types dry roasted without salt",
+        "Sauerkraut canned solids and liquids",
+        "Shrimp dried",
+        "Mollusks clam mixed species raw",
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-49e4e1e85bbf",
+      "queries": [
+        "Noodles chinese cooked",
+        "Tomatoes red ripe raw year round average",
+        "Egg whole raw fresh",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Sugars granulated",
+        "Peppers sweet green raw",
+        "Oil sesame salad cooking",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ff9dea4298f0",
+      "queries": [
+        "Noodles chinese cooked",
+        "Pork fresh belly raw",
+        "Beans snap green raw",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        "Ginger root raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Salt table",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c638d9f85df8",
+      "queries": [
+        "Noodles japanese soba cooked",
+        "Cucumber with peel raw",
+        "Carrots raw",
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Soy sauce shoyu"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ecbf1bf555cf",
+      "queries": [
+        {
+          "query": "\"SWEET POTATO VERMICELLI\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Garlic raw",
+        "Onions spring scallions tops bulb raw",
+        "Sugars granulated",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4de3928e6efa",
+      "queries": [
+        "Glutinous rice flour",
+        "Sugars granulated",
+        "Raisins seedless",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9835d25396e1",
+      "queries": [
+        "Noodles chinese cooked",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        "Spices pepper red cayenne",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Cabbage chinese pak choi raw",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c5e2191c72cc",
+      "queries": [
+        "Rice white short grain cooked unenriched",
+        "Egg whole raw fresh",
+        "Beef brisket whole separable lean fat raw",
+        "Soybeans mature seeds sprouted raw",
+        "Mushrooms white raw",
+        "Carrots raw",
+        "Squash summer zucchini skin raw",
+        {
+          "query": "\"GOCHUJANG\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Seeds sesame whole dried",
+        "Oil sesame salad cooking",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b8edc500b99e",
+      "queries": [
+        "Crustaceans shrimp mixed species raw",
+        "Egg whole raw fresh",
+        "Wheat flour white all purpose unenriched",
+        "Water tap drinking",
+        "Oil sesame salad cooking",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-8deffad10bd6",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Water tap drinking",
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Oil sesame salad cooking",
+        "Cornstarch",
+        "Lard",
+        "Mushrooms shiitake raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c3250cf8bae4",
+      "queries": [
+        "Rice white short grain cooked unenriched",
+        "Corn sweet yellow cooked boiled drained without salt",
+        {
+          "query": "\"NORI\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Fish tuna light canned water drained solids",
+        "Seeds sesame whole dried",
+        "Sugars granulated",
+        "Soy sauce shoyu",
+        "Oil sesame salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-343910aaf767",
+      "queries": [
+        "Chickpea flour besan",
+        "Wheat flour white all purpose unenriched",
+        "Yogurt plain whole milk",
+        "Onions raw",
+        "Tomatoes red ripe raw year round average",
+        "Ginger root raw",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Coriander cilantro leaves raw",
+        "Oil soybean salad cooking",
+        "Spices turmeric ground",
+        "Spices paprika",
+        "Spices coriander seed",
+        "Spices cumin seed",
+        "Salt table",
+        "Leavening agents baking powder double acting sodium aluminum sulfate",
+        "Lemon juice raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e5f0719e2271",
+      "queries": [
+        "Noodles chinese cooked",
+        "Oil sesame salad cooking",
+        "Soy sauce shoyu",
+        "Spices pepper red cayenne",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-163edd1cb5ff",
+      "queries": [
+        "Noodles japanese soba cooked",
+        "Cabbage chinese pe tsai raw",
+        "Lettuce green leaf raw",
+        "Milk whole 3.25 milkfat",
+        "Seeds sesame butter tahini roasted toasted kernels",
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Oil sesame salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a05b627440bb",
+      "queries": [
+        "Cabbage chinese pe tsai raw",
+        {
+          "query": "PRESERVED DUCK EGGS",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Pork cured ham boneless regular extra lean and regular unheated",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Salt table",
+        "Sugars granulated",
+        "Cornstarch",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e9b1f03369e3",
+      "queries": [
+        "Cabbage chinese pe tsai raw",
+        "Seeds sesame butter tahini roasted toasted kernels",
+        "Vinegar cider",
+        "Sugars granulated",
+        "Oil sesame salad cooking",
+        "Salt table",
+        "Seeds sesame whole dried"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9d5b2964d96a",
+      "queries": [
+        "Mushrooms cloud ears raw",
+        "Garlic raw",
+        "Sugars granulated",
+        "Peppers hot chili red raw",
+        "Salt table",
+        "Oil sesame salad cooking",
+        "Soy sauce shoyu",
+        "Vinegar cider"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9fa6e6906317",
+      "queries": [
+        "Seeds sesame butter tahini roasted toasted kernels",
+        "Garlic raw",
+        "Vinegar cider",
+        "Soy sauce shoyu",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-fc120554b9fc",
+      "queries": [
+        "Celtuce raw",
+        "Radishes oriental raw",
+        "Peppers hot chili red raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Vinegar cider"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-8d02690da719",
+      "queries": [
+        "Tofu soft calcium sulfate magnesium chloride",
+        "Soy sauce shoyu",
+        "Garlic raw",
+        "Onions spring scallions tops bulb raw",
+        "Oil sesame salad cooking",
+        "Sugars granulated",
+        "Vinegar cider"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a4fb0751e170",
+      "queries": [
+        "Mushrooms enoki raw",
+        "Garlic raw",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Sugars granulated",
+        "Oil sesame salad cooking",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1a65efb5c3b6",
+      "queries": [
+        "Cabbage raw",
+        "Egg whole raw fresh",
+        "Noodles chinese cellophane dehydrated",
+        "Carrots raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        "Spices pepper red cayenne",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-02e515d6befb",
+      "queries": [
+        "Potatoes flesh skin raw",
+        "Cauliflower raw",
+        "Onions raw",
+        "Tomatoes red ripe raw year round average",
+        "Ginger root raw",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Spices cumin seed",
+        "Spices turmeric ground",
+        "Spices pepper red cayenne",
+        "Coriander cilantro leaves raw",
+        "Salt table",
+        "Spices curry powder"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1e38411f7136",
+      "queries": [
+        "Gourd white flowered calabash raw",
+        "Chickpea flour besan",
+        "Onions raw",
+        "Tomatoes red ripe raw year round average",
+        "Ginger root raw",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Coriander cilantro leaves raw",
+        "Spices turmeric ground",
+        "Spices paprika",
+        "Spices coriander seed",
+        "Spices cumin seed",
+        "Salt table",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    }
+  ]
+}

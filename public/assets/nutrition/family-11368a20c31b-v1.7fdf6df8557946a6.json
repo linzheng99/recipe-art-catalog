@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "id": "family-11368a20c31b-v1",
+  "recipe_id": "howtocook-11368a20c31b",
+  "recipe_blob_sha": "453d9b06d5e1437da6156202dfef842682e1aba3",
+  "version": "1",
+  "data_version": "1f6c945e72e9e8f2",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：去皮去囊膜温州蜜柑果肉280g、泡好无糖红茶280g、白砂糖20g、饮用水20g；整份约600g。按原文允许其他易分离柑橘，明确采用去皮去囊膜温州蜜柑净果肉280g，所有果肉食用；无糖红茶280g代理原茉莉绿茶茶底，不含茶渣，白糖20g和水20g作糖浆；冷调净600g为质量守恒，不声称耙耙柑专属营养。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-11368a20c31b",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-11368a20c31b-v1",
+    "standard_ingredients": [
+      {
+        "key": "mext_mandarin",
+        "grams": 280
+      },
+      {
+        "key": "tea",
+        "grams": 280
+      },
+      {
+        "key": "sugar",
+        "grams": 20
+      },
+      {
+        "key": "water",
+        "grams": 20
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 36.233333,
+    "protein_g": 0.326667,
+    "carbohydrate_g": 8.84,
+    "fat_g": 0.046667
+  },
+  "source": {
+    "name": "MEXT 日本食品標準成分表 + USDA FoodData Central",
+    "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=7_07029_7",
+    "version": "1f6c945e72e9e8f2",
+    "fdc_ids": [
+      173227,
+      169655,
+      173647
+    ],
+    "providers": [
+      "mext",
+      "usda"
+    ],
+    "food_ids": [
+      {
+        "provider": "mext",
+        "id": "07029"
+      }
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E8%80%99%E8%80%99%E6%9F%91%E8%8C%B6/%E8%80%99%E8%80%99%E6%9F%91%E8%8C%B6.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "453d9b06d5e1437da6156202dfef842682e1aba3"
+  },
+  "profile": {
+    "id": "family-11368a20c31b-v1",
+    "version": "1",
+    "recipe_id": "howtocook-11368a20c31b",
+    "recipe_blob_sha": "453d9b06d5e1437da6156202dfef842682e1aba3",
+    "method": "recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：去皮去囊膜温州蜜柑果肉280g、泡好无糖红茶280g、白砂糖20g、饮用水20g；整份约600g。按原文允许其他易分离柑橘，明确采用去皮去囊膜温州蜜柑净果肉280g，所有果肉食用；无糖红茶280g代理原茉莉绿茶茶底，不含茶渣，白糖20g和水20g作糖浆；冷调净600g为质量守恒，不声称耙耙柑专属营养。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-11368a20c31b",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-11368a20c31b-v1",
+      "standard_ingredients": [
+        {
+          "key": "mext_mandarin",
+          "grams": 280
+        },
+        {
+          "key": "tea",
+          "grams": 280
+        },
+        {
+          "key": "sugar",
+          "grams": 20
+        },
+        {
+          "key": "water",
+          "grams": 20
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：去皮去囊膜温州蜜柑果肉280g、泡好无糖红茶280g、白砂糖20g、饮用水20g。克数是项目标准，不是原文ml/个数换算。",
+      "按原文允许其他易分离柑橘，明确采用去皮去囊膜温州蜜柑净果肉280g，所有果肉食用；无糖红茶280g代理原茉莉绿茶茶底，不含茶渣，白糖20g和水20g作糖浆；冷调净600g为质量守恒，不声称耙耙柑专属营养",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "去皮去囊膜温州蜜柑果肉",
+        "food": {
+          "provider": "mext",
+          "food_id": "07029",
+          "description": "（かんきつ類）　うんしゅうみかん　砂じょう　普通　生",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "9ab9f4a2cad69fb46cfe52a6fa5cf9293d3a6917e796323c2d6b8964006e158d"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 280,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "原文允许其他易分果肉柑橘，选温州蜜柑普通种，去皮去囊膜净果肉；非耙耙柑专属营养，非橙汁，果肉全食。"
+      },
+      {
+        "name": "泡好无糖红茶",
+        "food": {
+          "fdc_id": 173227,
+          "description": "Beverages, tea, black, brewed, prepared with tap water",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "afde895716992b96a6b2a6ee8d1401673e00e7e6e74a759ce7281c9619f471ce"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 280,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 600,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T08:12:16.320Z",
+      "checks": {
+        "recipe_version": "453d9b06d5e1437da6156202dfef842682e1aba3",
+        "food_identity": "（かんきつ類）　うんしゅうみかん　砂じょう　普通　生; Beverages, tea, black, brewed, prepared with tap water; Sugars, granulated; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "按原文允许其他易分离柑橘，明确采用去皮去囊膜温州蜜柑净果肉280g，所有果肉食用；无糖红茶280g代理原茉莉绿茶茶底，不含茶渣，白糖20g和水20g作糖浆；冷调净600g为质量守恒，不声称耙耙柑专属营养"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E8%80%99%E8%80%99%E6%9F%91%E8%8C%B6/%E8%80%99%E8%80%99%E6%9F%91%E8%8C%B6.md",
+          "blob_sha": "453d9b06d5e1437da6156202dfef842682e1aba3",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=7_07029_7",
+          "note": "去皮去囊膜温州蜜柑果肉：（かんきつ類）　うんしゅうみかん　砂じょう　普通　生；已核对数据类型、生熟、可食部分及原始摘要。原文允许其他易分果肉柑橘，选温州蜜柑普通种，去皮去囊膜净果肉；非耙耙柑专属营养，非橙汁，果肉全食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173227/nutrients",
+          "note": "泡好无糖红茶：Beverages, tea, black, brewed, prepared with tap water；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 49,
+        "protein_g": 0.7,
+        "carbohydrate_g": 11.5,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "identifier": "ENERC_KCAL",
+          "column": "G",
+          "cell": "G932",
+          "unit": "kcal",
+          "raw_value": "49",
+          "amount_per_100g": 49,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "protein_g": {
+          "identifier": "PROT-",
+          "column": "J",
+          "cell": "J932",
+          "unit": "g",
+          "raw_value": "0.7",
+          "amount_per_100g": 0.7,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "carbohydrate_g": {
+          "identifier": "CHOCDF-",
+          "column": "U",
+          "cell": "U932",
+          "unit": "g",
+          "raw_value": "11.5",
+          "amount_per_100g": 11.5,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "fat_g": {
+          "identifier": "FAT-",
+          "column": "M",
+          "cell": "M932",
+          "unit": "g",
+          "raw_value": "0.1",
+          "amount_per_100g": 0.1,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        }
+      },
+      "source": {
+        "provider": "mext",
+        "name": "MEXT 日本食品標準成分表",
+        "food_id": "07029",
+        "description": "（かんきつ類）　うんしゅうみかん　砂じょう　普通　生",
+        "data_type": "MEXT Standard Tables",
+        "publication_date": "2026-03-27",
+        "retrieved_at": "2026-10-28T08:08:00.106Z",
+        "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=7_07029_7",
+        "version": "日本食品標準成分表（八訂）増補2023年 / 正誤表2026-03-27 / 9ab9f4a2cad69fb4",
+        "raw_sha256": "9ab9f4a2cad69fb46cfe52a6fa5cf9293d3a6917e796323c2d6b8964006e158d",
+        "transport": "official_bulk_xlsx",
+        "dataset_url": "https://www.mext.go.jp/content/20260327-mxt_kagsei-mext-000029402_02.xlsx",
+        "dataset_sha256": "0d5a77077dd6cd91cbc2e6e317b8b218a38728c409eed452f1c10635a0d3099c",
+        "sheet_name": "表全体",
+        "row_number": 932,
+        "license": {
+          "name": "MEXT food composition data reuse with attribution",
+          "url": "https://www.mext.go.jp/a_menu/syokuhinseibun/",
+          "attribution": "出典：日本食品標準成分表（八訂）増補2023年（文部科学省）。本项目加工计算。"
+        },
+        "nutrient_definition": {
+          "carbohydrate_g": "CHOCDF-: 差减法总碳水，保留来源口径，不替换为可利用碳水",
+          "energy_kcal": "保留日本成分表能量值，未按4/4/9改写"
+        }
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 1,
+        "protein_g": 0,
+        "carbohydrate_g": 0.3,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 1
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173227,
+        "description": "Beverages, tea, black, brewed, prepared with tap water",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:38.524Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173227/nutrients",
+        "version": "SR Legacy / 2019-04-01 / afde895716992b96",
+        "raw_sha256": "afde895716992b96a6b2a6ee8d1401673e00e7e6e74a759ce7281c9619f471ce",
+        "transport": "api_search_snapshot",
+        "query_sha256": "75cb0b5424de446ac2ab5d2465336ea0f5190f037df9b66aa9c0d5eb6ed649f2"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "去皮去囊膜温州蜜柑果肉",
+        "food": {
+          "provider": "mext",
+          "food_id": "07029",
+          "description": "（かんきつ類）　うんしゅうみかん　砂じょう　普通　生",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "9ab9f4a2cad69fb46cfe52a6fa5cf9293d3a6917e796323c2d6b8964006e158d"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 280,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "原文允许其他易分果肉柑橘，选温州蜜柑普通种，去皮去囊膜净果肉；非耙耙柑专属营养，非橙汁，果肉全食。",
+        "per_100g": {
+          "energy_kcal": 49,
+          "protein_g": 0.7,
+          "carbohydrate_g": 11.5,
+          "fat_g": 0.1
+        },
+        "edible_g": 280
+      },
+      {
+        "name": "泡好无糖红茶",
+        "food": {
+          "fdc_id": 173227,
+          "description": "Beverages, tea, black, brewed, prepared with tap water",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "afde895716992b96a6b2a6ee8d1401673e00e7e6e74a759ce7281c9619f471ce"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 280,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 1,
+          "protein_g": 0,
+          "carbohydrate_g": 0.3,
+          "fat_g": 0
+        },
+        "edible_g": 280
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 20
+      }
+    ],
+    "total": {
+      "energy_kcal": 217.4,
+      "protein_g": 1.96,
+      "carbohydrate_g": 53.04,
+      "fat_g": 0.28
+    },
+    "final_edible_g": 600,
+    "per_100g": {
+      "energy_kcal": 36.233333,
+      "protein_g": 0.326667,
+      "carbohydrate_g": 8.84,
+      "fat_g": 0.046667
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 37.086671,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

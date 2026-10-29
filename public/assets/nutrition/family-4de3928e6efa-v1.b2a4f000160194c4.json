@@ -1,0 +1,771 @@
+{
+  "schema_version": 1,
+  "id": "family-4de3928e6efa-v1",
+  "recipe_id": "howtocook-4de3928e6efa",
+  "recipe_blob_sha": "1ad0403f9abf4ab83cb6b87be04545bdd9abe82d",
+  "version": "1",
+  "data_version": "cc49a4d1955a98d0",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "recipe_estimate",
+  "estimation_level": "food_group_proxy",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 1000,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品1000g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "同类食物代理粗估；2–3人家庭标准配方估算：糯米粉90g、通用米发酵甜饮（甘酒）150g、白砂糖20g、葡萄干3g、饮用水750g；整份约1000g。小汤圆固定无馅自制版，以糯米粉90g加所列水煮熟建模，非芝麻馅汤圆；醪糟150g用通用米发酵甜饮代理，枸杞用少量干葡萄3g作干果宏量近似。白糖20g全部计入，不另加原汤圆内馅；全部汤汁食用，成品1000g为家庭假设，发酵状态和酒度未匹配。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "identity_precision": "food_group_proxy",
+    "food_proxies": [
+      {
+        "target": "糯米醪糟",
+        "reference_name": "通用米发酵甜饮（甘酒）",
+        "food": {
+          "provider": "mext",
+          "food_id": "16050",
+          "description": "＜その他＞　甘酒",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+        },
+        "reason": "同类谷物发酵甜饮代理，米粒和酒精比例可能不同"
+      },
+      {
+        "target": "枸杞",
+        "reference_name": "葡萄干",
+        "food": {
+          "fdc_id": 168165,
+          "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8a27872e69ec2e209cb101ec380dba7b968305e7cd2b894c49cba54622ef70c2"
+        },
+        "reason": "少量干果宏量近似，非枸杞实测"
+      }
+    ],
+    "food_identity": "howtocook-4de3928e6efa",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-4de3928e6efa-v1",
+    "standard_ingredients": [
+      {
+        "key": "glutinous_rice_flour",
+        "grams": 90,
+        "name": "糯米粉"
+      },
+      {
+        "key": "mext_amazake",
+        "grams": 150
+      },
+      {
+        "key": "sugar",
+        "grams": 20
+      },
+      {
+        "key": "raisin",
+        "grams": 3
+      },
+      {
+        "key": "water",
+        "grams": 750
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 52.257,
+    "protein_g": 0.867,
+    "carbohydrate_g": 12.1919,
+    "fat_g": 0.12015
+  },
+  "source": {
+    "name": "USDA FoodData Central + MEXT 日本食品標準成分表",
+    "url": "https://fdc.nal.usda.gov/food-details/1104867/nutrients",
+    "version": "cc49a4d1955a98d0",
+    "fdc_ids": [
+      1104867,
+      169655,
+      168165,
+      173647
+    ],
+    "providers": [
+      "usda",
+      "mext"
+    ],
+    "food_ids": [
+      {
+        "provider": "mext",
+        "id": "16050"
+      }
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E9%86%AA%E7%B3%9F%E5%B0%8F%E6%B1%A4%E5%9C%86.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "1ad0403f9abf4ab83cb6b87be04545bdd9abe82d"
+  },
+  "profile": {
+    "id": "family-4de3928e6efa-v1",
+    "version": "1",
+    "recipe_id": "howtocook-4de3928e6efa",
+    "recipe_blob_sha": "1ad0403f9abf4ab83cb6b87be04545bdd9abe82d",
+    "method": "recipe_estimate",
+    "estimation_level": "food_group_proxy",
+    "default_for_artwork": false,
+    "scope": "同类食物代理粗估；2–3人家庭标准配方估算：糯米粉90g、通用米发酵甜饮（甘酒）150g、白砂糖20g、葡萄干3g、饮用水750g；整份约1000g。小汤圆固定无馅自制版，以糯米粉90g加所列水煮熟建模，非芝麻馅汤圆；醪糟150g用通用米发酵甜饮代理，枸杞用少量干葡萄3g作干果宏量近似。白糖20g全部计入，不另加原汤圆内馅；全部汤汁食用，成品1000g为家庭假设，发酵状态和酒度未匹配。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "identity_precision": "food_group_proxy",
+      "food_proxies": [
+        {
+          "target": "糯米醪糟",
+          "reference_name": "通用米发酵甜饮（甘酒）",
+          "food": {
+            "provider": "mext",
+            "food_id": "16050",
+            "description": "＜その他＞　甘酒",
+            "data_type": "MEXT Standard Tables",
+            "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+          },
+          "reason": "同类谷物发酵甜饮代理，米粒和酒精比例可能不同"
+        },
+        {
+          "target": "枸杞",
+          "reference_name": "葡萄干",
+          "food": {
+            "fdc_id": 168165,
+            "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "8a27872e69ec2e209cb101ec380dba7b968305e7cd2b894c49cba54622ef70c2"
+          },
+          "reason": "少量干果宏量近似，非枸杞实测"
+        }
+      ],
+      "food_identity": "howtocook-4de3928e6efa",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-4de3928e6efa-v1",
+      "standard_ingredients": [
+        {
+          "key": "glutinous_rice_flour",
+          "grams": 90,
+          "name": "糯米粉"
+        },
+        {
+          "key": "mext_amazake",
+          "grams": 150
+        },
+        {
+          "key": "sugar",
+          "grams": 20
+        },
+        {
+          "key": "raisin",
+          "grams": 3
+        },
+        {
+          "key": "water",
+          "grams": 750
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：糯米粉90g、通用米发酵甜饮（甘酒）150g、白砂糖20g、葡萄干3g、饮用水750g。克数是项目标准，不是原文ml/个数换算。",
+      "小汤圆固定无馅自制版，以糯米粉90g加所列水煮熟建模，非芝麻馅汤圆；醪糟150g用通用米发酵甜饮代理，枸杞用少量干葡萄3g作干果宏量近似。白糖20g全部计入，不另加原汤圆内馅；全部汤汁食用，成品1000g为家庭假设，发酵状态和酒度未匹配。",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "糯米醪糟采用通用米发酵甜饮（甘酒）代理：同类谷物发酵甜饮代理，米粒和酒精比例可能不同。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "枸杞采用葡萄干代理：少量干果宏量近似，非枸杞实测。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "糯米粉",
+        "food": {
+          "fdc_id": 1104867,
+          "description": "Flour, rice, glutinous",
+          "data_type": "Foundation",
+          "snapshot_sha256": "7adf3fcd36105dee958e952aca35748bc3cf7f274147f3f4ca504a41062d41d2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 90,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "Foundation明确糯米粉Flour rice glutinous，非普通米粉或生糯米；逐营养素按实际记录解析，缺项保持null。"
+      },
+      {
+        "name": "通用米发酵甜饮（甘酒）",
+        "food": {
+          "provider": "mext",
+          "food_id": "16050",
+          "description": "＜その他＞　甘酒",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "葡萄干",
+        "food": {
+          "fdc_id": 168165,
+          "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8a27872e69ec2e209cb101ec380dba7b968305e7cd2b894c49cba54622ef70c2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 750,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 1000,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品1000g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
+      "reviewed_at": "2026-10-29T00:16:23.452Z",
+      "checks": {
+        "recipe_version": "1ad0403f9abf4ab83cb6b87be04545bdd9abe82d",
+        "food_identity": "Flour, rice, glutinous; ＜その他＞　甘酒; Sugars, granulated; Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program); Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "小汤圆固定无馅自制版，以糯米粉90g加所列水煮熟建模，非芝麻馅汤圆；醪糟150g用通用米发酵甜饮代理，枸杞用少量干葡萄3g作干果宏量近似。白糖20g全部计入，不另加原汤圆内馅；全部汤汁食用，成品1000g为家庭假设，发酵状态和酒度未匹配。",
+        "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E9%86%AA%E7%B3%9F%E5%B0%8F%E6%B1%A4%E5%9C%86.md",
+          "blob_sha": "1ad0403f9abf4ab83cb6b87be04545bdd9abe82d",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/1104867/nutrients",
+          "note": "糯米粉：Flour, rice, glutinous；已核对数据类型、生熟、可食部分及原始摘要。Foundation明确糯米粉Flour rice glutinous，非普通米粉或生糯米；逐营养素按实际记录解析，缺项保持null。"
+        },
+        {
+          "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16050_7",
+          "note": "通用米发酵甜饮（甘酒）：＜その他＞　甘酒；已核对数据类型、生熟、可食部分及原始摘要。MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168165/nutrients",
+          "note": "葡萄干：Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 358,
+        "protein_g": 6.69,
+        "carbohydrate_g": 80.1,
+        "fat_g": 1.16
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 358
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.69
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 80.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.16
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 1104867,
+        "description": "Flour, rice, glutinous",
+        "data_type": "Foundation",
+        "publication_date": "2020-10-30",
+        "retrieved_at": "2026-10-28T05:57:33.813Z",
+        "url": "https://fdc.nal.usda.gov/food-details/1104867/nutrients",
+        "version": "Foundation / 2020-10-30 / 7adf3fcd36105dee",
+        "raw_sha256": "7adf3fcd36105dee958e952aca35748bc3cf7f274147f3f4ca504a41062d41d2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "4a9f86f2036be5a7a98d22b0ef4406c31dc1884f39ebf9a3416dde76bec326d9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 76,
+        "protein_g": 1.7,
+        "carbohydrate_g": 18.3,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "identifier": "ENERC_KCAL",
+          "column": "G",
+          "cell": "G2339",
+          "unit": "kcal",
+          "raw_value": "76",
+          "amount_per_100g": 76,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "protein_g": {
+          "identifier": "PROT-",
+          "column": "J",
+          "cell": "J2339",
+          "unit": "g",
+          "raw_value": "1.7",
+          "amount_per_100g": 1.7,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "carbohydrate_g": {
+          "identifier": "CHOCDF-",
+          "column": "U",
+          "cell": "U2339",
+          "unit": "g",
+          "raw_value": "18.3",
+          "amount_per_100g": 18.3,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "fat_g": {
+          "identifier": "FAT-",
+          "column": "M",
+          "cell": "M2339",
+          "unit": "g",
+          "raw_value": "0.1",
+          "amount_per_100g": 0.1,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        }
+      },
+      "source": {
+        "provider": "mext",
+        "name": "MEXT 日本食品標準成分表",
+        "food_id": "16050",
+        "description": "＜その他＞　甘酒",
+        "data_type": "MEXT Standard Tables",
+        "publication_date": "2026-03-27",
+        "retrieved_at": "2026-10-28T15:22:54.767Z",
+        "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16050_7",
+        "version": "日本食品標準成分表（八訂）増補2023年 / 正誤表2026-03-27 / 742bed7b5e17db39",
+        "raw_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30",
+        "transport": "official_bulk_xlsx",
+        "dataset_url": "https://www.mext.go.jp/content/20260327-mxt_kagsei-mext-000029402_02.xlsx",
+        "dataset_sha256": "0d5a77077dd6cd91cbc2e6e317b8b218a38728c409eed452f1c10635a0d3099c",
+        "sheet_name": "表全体",
+        "row_number": 2339,
+        "license": {
+          "name": "MEXT food composition data reuse with attribution",
+          "url": "https://www.mext.go.jp/a_menu/syokuhinseibun/",
+          "attribution": "出典：日本食品標準成分表（八訂）増補2023年（文部科学省）。本项目加工计算。"
+        },
+        "nutrient_definition": {
+          "carbohydrate_g": "CHOCDF-: 差减法总碳水，保留来源口径，不替换为可利用碳水",
+          "energy_kcal": "保留日本成分表能量值，未按4/4/9改写"
+        }
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 299,
+        "protein_g": 3.3,
+        "carbohydrate_g": 79.3,
+        "fat_g": 0.25
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 299
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 79.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.25
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168165,
+        "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:06:56.294Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168165/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 8a27872e69ec2e20",
+        "raw_sha256": "8a27872e69ec2e209cb101ec380dba7b968305e7cd2b894c49cba54622ef70c2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "71d21a90482efc56cccd3815a3117c642c4fbebcdfdafff099aeca3e29d0851a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "糯米粉",
+        "food": {
+          "fdc_id": 1104867,
+          "description": "Flour, rice, glutinous",
+          "data_type": "Foundation",
+          "snapshot_sha256": "7adf3fcd36105dee958e952aca35748bc3cf7f274147f3f4ca504a41062d41d2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 90,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "Foundation明确糯米粉Flour rice glutinous，非普通米粉或生糯米；逐营养素按实际记录解析，缺项保持null。",
+        "per_100g": {
+          "energy_kcal": 358,
+          "protein_g": 6.69,
+          "carbohydrate_g": 80.1,
+          "fat_g": 1.16
+        },
+        "edible_g": 90
+      },
+      {
+        "name": "通用米发酵甜饮（甘酒）",
+        "food": {
+          "provider": "mext",
+          "food_id": "16050",
+          "description": "＜その他＞　甘酒",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。",
+        "per_100g": {
+          "energy_kcal": 76,
+          "protein_g": 1.7,
+          "carbohydrate_g": 18.3,
+          "fat_g": 0.1
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "葡萄干",
+        "food": {
+          "fdc_id": 168165,
+          "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8a27872e69ec2e209cb101ec380dba7b968305e7cd2b894c49cba54622ef70c2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 299,
+          "protein_g": 3.3,
+          "carbohydrate_g": 79.3,
+          "fat_g": 0.25
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 750,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 750
+      }
+    ],
+    "total": {
+      "energy_kcal": 522.57,
+      "protein_g": 8.67,
+      "carbohydrate_g": 121.919,
+      "fat_g": 1.2015
+    },
+    "final_edible_g": 1000,
+    "per_100g": {
+      "energy_kcal": 52.257,
+      "protein_g": 0.867,
+      "carbohydrate_g": 12.1919,
+      "fat_g": 0.12015
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 53.316950000000006,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

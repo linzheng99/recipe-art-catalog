@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "provider": "tfda",
+      "status": "request_failed",
+      "url": "https://data.fda.gov.tw/data/opendata/export/20/json",
+      "checked_at": "2026-10-28T08:19:26.222Z",
+      "reason": "当前执行环境无法解析域名；未导入数据或覆盖既有营养，后续可重试官方整包。"
+    },
+    {
+      "provider": "mext",
+      "status": "complete",
+      "dataset": "sources/nutrition/mext/dataset.json",
+      "imported_foods": 12
+    },
+    {
+      "provider": "krda",
+      "status": "complete",
+      "dataset": "sources/nutrition/krda/dataset.json",
+      "imported_foods": 9,
+      "reviewed_recipes_added": 6,
+      "cache_integrity": "complete_zip_crc_checked"
+    },
+    {
+      "provider": "china_review",
+      "status": "candidates_reviewed_not_imported",
+      "checked_at": "2026-10-28T08:55:03.598431+00:00",
+      "urls": [
+        "https://nlc.chinanutri.cn/fq/foodinfo/1008.html",
+        "https://nlc.chinanutri.cn/fq/foodinfo/1026.html",
+        "https://nlc.chinanutri.cn/fq/foodinfo/899.html",
+        "https://nlc.chinanutri.cn/fq/foodinfo/453.html"
+      ],
+      "note": "核验黄鳝、鳜鱼、鸭血和菜心条目；本轮公开数值优先使用已导入韩国年度DB；未将检索结果标为营养审核完成。"
+    },
+    {
+      "provider": "brand_review",
+      "status": "partial_review_completed",
+      "checked_at": "2026-10-28T15:01:23.008228+00:00",
+      "approved": [
+        {
+          "name": "NOW Erythritol",
+          "gtin_upc": "733739069276",
+          "fdc_id": 2386683,
+          "url": "https://www.nowfoods.com/products/natural-foods/erythritol",
+          "note": "核验纯赤藓糖醇；采用USDA历史每100g数据，非官网整页转载。"
+        }
+      ],
+      "pending": [
+        {
+          "name": "甘竹豆豉鲮鱼罐头（精装）",
+          "url": "https://m.ganzhu2088.com/product/39.html",
+          "reason": "搜索到厂家官方产品及配料，但尚未取得可核验的四项营养标签和含油/沥油基准，不把配料说明当完整营养。"
+        }
+      ]
+    }
+  ]
+}

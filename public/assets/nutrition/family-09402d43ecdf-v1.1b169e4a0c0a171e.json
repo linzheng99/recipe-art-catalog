@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "id": "family-09402d43ecdf-v1",
+  "recipe_id": "howtocook-09402d43ecdf",
+  "recipe_blob_sha": "5776eebdbf2eff5964f727e1966ef10865de7f23",
+  "version": "1",
+  "data_version": "bf483f94abdd05f9",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 145,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品145g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：净全鸡蛋液150g、大豆食用油8g、食盐1g；整份约145g。净全鸡蛋液150g，少油煎，食用油全部计入；熟度为方案条件，非食品安全判断。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-09402d43ecdf",
+    "state": "ready_to_eat",
+    "cooking_method": "pan_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-09402d43ecdf-v1",
+    "standard_ingredients": [
+      {
+        "key": "egg",
+        "grams": 150
+      },
+      {
+        "key": "oil",
+        "grams": 8
+      },
+      {
+        "key": "salt",
+        "grams": 1
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 196.703448,
+    "protein_g": 13.034483,
+    "carbohydrate_g": 0.744828,
+    "fat_g": 15.355172
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+    "version": "bf483f94abdd05f9",
+    "fdc_ids": [
+      171287,
+      171411,
+      173468
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E5%A4%AA%E9%98%B3%E8%9B%8B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "5776eebdbf2eff5964f727e1966ef10865de7f23"
+  },
+  "profile": {
+    "id": "family-09402d43ecdf-v1",
+    "version": "1",
+    "recipe_id": "howtocook-09402d43ecdf",
+    "recipe_blob_sha": "5776eebdbf2eff5964f727e1966ef10865de7f23",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：净全鸡蛋液150g、大豆食用油8g、食盐1g；整份约145g。净全鸡蛋液150g，少油煎，食用油全部计入；熟度为方案条件，非食品安全判断。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-09402d43ecdf",
+      "state": "ready_to_eat",
+      "cooking_method": "pan_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-09402d43ecdf-v1",
+      "standard_ingredients": [
+        {
+          "key": "egg",
+          "grams": 150
+        },
+        {
+          "key": "oil",
+          "grams": 8
+        },
+        {
+          "key": "salt",
+          "grams": 1
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：净全鸡蛋液150g、大豆食用油8g、食盐1g。克数是项目标准，不是原文ml/个数换算。",
+      "净全鸡蛋液150g，少油煎，食用油全部计入；熟度为方案条件，非食品安全判断",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 145,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品145g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "pan_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:09:54.756Z",
+      "checks": {
+        "recipe_version": "5776eebdbf2eff5964f727e1966ef10865de7f23",
+        "food_identity": "Egg, whole, raw, fresh; Oil, soybean, salad or cooking; Salt, table",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat输入；成品pan_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "净全鸡蛋液150g，少油煎，食用油全部计入；熟度为方案条件，非食品安全判断"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E5%A4%AA%E9%98%B3%E8%9B%8B.md",
+          "blob_sha": "5776eebdbf2eff5964f727e1966ef10865de7f23",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "净全鸡蛋液：Egg, whole, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 8
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 1
+      }
+    ],
+    "total": {
+      "energy_kcal": 285.22,
+      "protein_g": 18.9,
+      "carbohydrate_g": 1.08,
+      "fat_g": 22.265
+    },
+    "final_edible_g": 145,
+    "per_100g": {
+      "energy_kcal": 196.703448,
+      "protein_g": 13.034483,
+      "carbohydrate_g": 0.744828,
+      "fat_g": 15.355172
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 193.313792,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

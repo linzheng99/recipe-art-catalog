@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "id": "family-6674e52ce5ac-v1",
+  "recipe_id": "howtocook-6674e52ce5ac",
+  "recipe_blob_sha": "fdab957e3fd8ccba59048411f80397eb64f76568",
+  "version": "1",
+  "data_version": "9811dca62d669719",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 450,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品450g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：草莓500g、白砂糖150g、柠檬汁15g；整份约450g。熬煮后果肉全部食用，不额外过滤弃料。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-6674e52ce5ac",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-6674e52ce5ac-v1",
+    "standard_ingredients": [
+      {
+        "key": "strawberry",
+        "grams": 500
+      },
+      {
+        "key": "sugar",
+        "grams": 150
+      },
+      {
+        "key": "lemon_juice",
+        "grams": 15
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 165.288889,
+    "protein_g": 0.756111,
+    "carbohydrate_g": 42.096667,
+    "fat_g": 0.341333
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+    "version": "9811dca62d669719",
+    "fdc_ids": [
+      167762,
+      169655,
+      167747
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/condiment/%E8%8D%89%E8%8E%93%E9%85%B1/%E8%8D%89%E8%8E%93%E9%85%B1.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "fdab957e3fd8ccba59048411f80397eb64f76568"
+  },
+  "profile": {
+    "id": "family-6674e52ce5ac-v1",
+    "version": "1",
+    "recipe_id": "howtocook-6674e52ce5ac",
+    "recipe_blob_sha": "fdab957e3fd8ccba59048411f80397eb64f76568",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：草莓500g、白砂糖150g、柠檬汁15g；整份约450g。熬煮后果肉全部食用，不额外过滤弃料。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-6674e52ce5ac",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-6674e52ce5ac-v1",
+      "standard_ingredients": [
+        {
+          "key": "strawberry",
+          "grams": 500
+        },
+        {
+          "key": "sugar",
+          "grams": 150
+        },
+        {
+          "key": "lemon_juice",
+          "grams": 15
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：草莓500g、白砂糖150g、柠檬汁15g。克数是项目标准，不是原文ml/个数换算。",
+      "熬煮后果肉全部食用，不额外过滤弃料",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "草莓",
+        "food": {
+          "fdc_id": 167762,
+          "description": "Strawberries, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "57d65cba9de1caac92f5db5d472531d1033f5def0bb782b12116a32dc71e87b8"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 450,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品450g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:09:54.756Z",
+      "checks": {
+        "recipe_version": "fdab957e3fd8ccba59048411f80397eb64f76568",
+        "food_identity": "Strawberries, raw; Sugars, granulated; Lemon juice, raw",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "熬煮后果肉全部食用，不额外过滤弃料"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/condiment/%E8%8D%89%E8%8E%93%E9%85%B1/%E8%8D%89%E8%8E%93%E9%85%B1.md",
+          "blob_sha": "fdab957e3fd8ccba59048411f80397eb64f76568",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+          "note": "草莓：Strawberries, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+          "note": "柠檬汁：Lemon juice, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 32,
+        "protein_g": 0.67,
+        "carbohydrate_g": 7.68,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 32
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.67
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.68
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167762,
+        "description": "Strawberries, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:12.514Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 57d65cba9de1caac",
+        "raw_sha256": "57d65cba9de1caac92f5db5d472531d1033f5def0bb782b12116a32dc71e87b8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "f3ad527be770c3d998edc6512fb4dcaf2d4b27f0a9347f6bb3aa5d5b048b33ca"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 22,
+        "protein_g": 0.35,
+        "carbohydrate_g": 6.9,
+        "fat_g": 0.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 22
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.35
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167747,
+        "description": "Lemon juice, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:23.040Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 313ada983b5ac2cc",
+        "raw_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "草莓",
+        "food": {
+          "fdc_id": 167762,
+          "description": "Strawberries, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "57d65cba9de1caac92f5db5d472531d1033f5def0bb782b12116a32dc71e87b8"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 32,
+          "protein_g": 0.67,
+          "carbohydrate_g": 7.68,
+          "fat_g": 0.3
+        },
+        "edible_g": 500
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 22,
+          "protein_g": 0.35,
+          "carbohydrate_g": 6.9,
+          "fat_g": 0.24
+        },
+        "edible_g": 15
+      }
+    ],
+    "total": {
+      "energy_kcal": 743.8,
+      "protein_g": 3.4025,
+      "carbohydrate_g": 189.435,
+      "fat_g": 1.536
+    },
+    "final_edible_g": 450,
+    "per_100g": {
+      "energy_kcal": 165.288889,
+      "protein_g": 0.756111,
+      "carbohydrate_g": 42.096667,
+      "fat_g": 0.341333
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 174.48310899999998,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

@@ -1,0 +1,1015 @@
+{
+  "schema_version": 1,
+  "id": "family-d22fb95d6bed-v1",
+  "recipe_id": "howtocook-d22fb95d6bed",
+  "recipe_blob_sha": "d03888c339528c5ac27680cdc74be221dff8400a",
+  "version": "1",
+  "data_version": "d8419ad25beeae21",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 340,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品340g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：鳜鱼净肉（斑鳜代理）300g、小葱15g、姜10g、鲜辣椒6g、大豆食用油15g、通用酱油（shoyu近似）10g、饮用水40g、食盐1g；整份约340g。固定去骨鳜鱼生净肉300g，按韩国斑鳜Siniperca scherzeri作明确同属代理，不代表其他鳜鱼物种实测；蒸鱼豉油10g以普通酱油代理；仅计附着盐1g和食用姜10g，弃去的腌酒姜盐及蒸锅5L水不计；蒸后汁液及淋油全部食用，凝结水与蒸发合并体现在非实测成品340g假设。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-d22fb95d6bed",
+    "state": "ready_to_eat",
+    "cooking_method": "covered_steaming",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": null,
+    "variant": "family-d22fb95d6bed-v1",
+    "standard_ingredients": [
+      {
+        "key": "krda_mandarin",
+        "grams": 300
+      },
+      {
+        "key": "scallion",
+        "grams": 15
+      },
+      {
+        "key": "ginger",
+        "grams": 10
+      },
+      {
+        "key": "chili",
+        "grams": 6
+      },
+      {
+        "key": "oil",
+        "grams": 15
+      },
+      {
+        "key": "soy",
+        "grams": 10
+      },
+      {
+        "key": "water",
+        "grams": 40
+      },
+      {
+        "key": "salt",
+        "grams": 1
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 142.970588,
+    "protein_g": 15.583147,
+    "carbohydrate_g": 1.147824,
+    "fat_g": 8.084382
+  },
+  "source": {
+    "name": "韩国 RDA 国家标准食物成分 DB + USDA FoodData Central",
+    "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+    "version": "d8419ad25beeae21",
+    "fdc_ids": [
+      170005,
+      169231,
+      170106,
+      171411,
+      174277,
+      173647,
+      173468
+    ],
+    "providers": [
+      "krda",
+      "usda"
+    ],
+    "food_ids": [
+      {
+        "provider": "krda",
+        "id": "K1240000000a"
+      }
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E8%91%B1%E6%B2%B9%E6%A1%82%E9%B1%BC/%E8%91%B1%E6%B2%B9%E6%A1%82%E9%B1%BC.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "d03888c339528c5ac27680cdc74be221dff8400a"
+  },
+  "profile": {
+    "id": "family-d22fb95d6bed-v1",
+    "version": "1",
+    "recipe_id": "howtocook-d22fb95d6bed",
+    "recipe_blob_sha": "d03888c339528c5ac27680cdc74be221dff8400a",
+    "method": "recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：鳜鱼净肉（斑鳜代理）300g、小葱15g、姜10g、鲜辣椒6g、大豆食用油15g、通用酱油（shoyu近似）10g、饮用水40g、食盐1g；整份约340g。固定去骨鳜鱼生净肉300g，按韩国斑鳜Siniperca scherzeri作明确同属代理，不代表其他鳜鱼物种实测；蒸鱼豉油10g以普通酱油代理；仅计附着盐1g和食用姜10g，弃去的腌酒姜盐及蒸锅5L水不计；蒸后汁液及淋油全部食用，凝结水与蒸发合并体现在非实测成品340g假设。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-d22fb95d6bed",
+      "state": "ready_to_eat",
+      "cooking_method": "covered_steaming",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": null,
+      "variant": "family-d22fb95d6bed-v1",
+      "standard_ingredients": [
+        {
+          "key": "krda_mandarin",
+          "grams": 300
+        },
+        {
+          "key": "scallion",
+          "grams": 15
+        },
+        {
+          "key": "ginger",
+          "grams": 10
+        },
+        {
+          "key": "chili",
+          "grams": 6
+        },
+        {
+          "key": "oil",
+          "grams": 15
+        },
+        {
+          "key": "soy",
+          "grams": 10
+        },
+        {
+          "key": "water",
+          "grams": 40
+        },
+        {
+          "key": "salt",
+          "grams": 1
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：鳜鱼净肉（斑鳜代理）300g、小葱15g、姜10g、鲜辣椒6g、大豆食用油15g、通用酱油（shoyu近似）10g、饮用水40g、食盐1g。克数是项目标准，不是原文ml/个数换算。",
+      "固定去骨鳜鱼生净肉300g，按韩国斑鳜Siniperca scherzeri作明确同属代理，不代表其他鳜鱼物种实测；蒸鱼豉油10g以普通酱油代理；仅计附着盐1g和食用姜10g，弃去的腌酒姜盐及蒸锅5L水不计；蒸后汁液及淋油全部食用，凝结水与蒸发合并体现在非实测成品340g假设",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "官方Siniperca scherzeri（斑鳜），作为同属鳜鱼家庭标准变体的明确代理；不是Siniperca chuatsi翘嘴鳜的物种实测，不自动用于其他鳜鱼或鲈鱼。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "鳜鱼净肉（斑鳜代理）",
+        "food": {
+          "provider": "krda",
+          "food_id": "K1240000000a",
+          "description": "쏘가리, 생것",
+          "data_type": "KRDA Standard Food Composition DB",
+          "snapshot_sha256": "1ba4fbc7a08b2e713af7c9f68288c4682a6484e9118904c83bf2dbd4d038818f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "官方Siniperca scherzeri（斑鳜），作为同属鳜鱼家庭标准变体的明确代理；不是Siniperca chuatsi翘嘴鳜的物种实测，不自动用于其他鳜鱼或鲈鱼。"
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "鲜辣椒",
+        "food": {
+          "fdc_id": 170106,
+          "description": "Peppers, hot chili, red, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 6,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 340,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品340g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "covered_steaming",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T08:55:43.649Z",
+      "checks": {
+        "recipe_version": "d03888c339528c5ac27680cdc74be221dff8400a",
+        "food_identity": "쏘가리, 생것; Onions, spring or scallions (includes tops and bulb), raw; Ginger root, raw; Peppers, hot chili, red, raw; Oil, soybean, salad or cooking; Soy sauce made from soy and wheat (shoyu); Beverages, water, tap, drinking; Salt, table",
+        "state_and_cooking": "逐项按raw/raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品covered_steaming。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "固定去骨鳜鱼生净肉300g，按韩国斑鳜Siniperca scherzeri作明确同属代理，不代表其他鳜鱼物种实测；蒸鱼豉油10g以普通酱油代理；仅计附着盐1g和食用姜10g，弃去的腌酒姜盐及蒸锅5L水不计；蒸后汁液及淋油全部食用，凝结水与蒸发合并体现在非实测成品340g假设"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E8%91%B1%E6%B2%B9%E6%A1%82%E9%B1%BC/%E8%91%B1%E6%B2%B9%E6%A1%82%E9%B1%BC.md",
+          "blob_sha": "d03888c339528c5ac27680cdc74be221dff8400a",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+          "note": "鳜鱼净肉（斑鳜代理）：쏘가리, 생것；已核对数据类型、生熟、可食部分及原始摘要。官方Siniperca scherzeri（斑鳜），作为同属鳜鱼家庭标准变体的明确代理；不是Siniperca chuatsi翘嘴鳜的物种实测，不自动用于其他鳜鱼或鲈鱼。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+          "note": "小葱：Onions, spring or scallions (includes tops and bulb), raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+          "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170106/nutrients",
+          "note": "鲜辣椒：Peppers, hot chili, red, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 111,
+        "protein_g": 17.2,
+        "carbohydrate_g": 0,
+        "fat_g": 4.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "column": "F",
+          "identifier": "에너지",
+          "cell": "F2491",
+          "unit": "kcal",
+          "raw_value": "111",
+          "amount_per_100g": 111
+        },
+        "protein_g": {
+          "column": "H",
+          "identifier": "단백질",
+          "cell": "H2491",
+          "unit": "g",
+          "raw_value": "17.2",
+          "amount_per_100g": 17.2
+        },
+        "carbohydrate_g": {
+          "column": "K",
+          "identifier": "탄수화물",
+          "cell": "K2491",
+          "unit": "g",
+          "raw_value": "0",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "column": "I",
+          "identifier": "지방",
+          "cell": "I2491",
+          "unit": "g",
+          "raw_value": "4.0999999999999996",
+          "amount_per_100g": 4.1
+        }
+      },
+      "source": {
+        "provider": "krda",
+        "name": "韩国 RDA 国家标准食物成分 DB",
+        "food_id": "K1240000000a",
+        "description": "쏘가리, 생것",
+        "english_name": "Mandarin fish, Raw",
+        "scientific_name": "Siniperca scherzeri",
+        "data_type": "KRDA Standard Food Composition DB",
+        "retrieved_at": "2026-10-28T08:52:23.236Z",
+        "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+        "version": "국가표준식품성분 Database 10.4 / 1ba4fbc7a08b2e71",
+        "raw_sha256": "1ba4fbc7a08b2e713af7c9f68288c4682a6484e9118904c83bf2dbd4d038818f",
+        "transport": "official_bulk_xlsx",
+        "dataset_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/downloadImg.do",
+        "dataset_sha256": "271cc431f2991b3c0c049ec6e05fb59a040319e984ab71468184530de61dec50",
+        "sheet_name": "국가표준식품성분 Database 10.4",
+        "row_number": 2491,
+        "original_source": "수('09)",
+        "identity_evidence": {
+          "sheet_name": "부록2)식품코드,국문명,영문명,학명 정보 ",
+          "row_number": 2489,
+          "cells": {
+            "A": "2383",
+            "B": "K1240000000a",
+            "C": "쏘가리, 생것",
+            "D": "Mandarin fish, Raw",
+            "E": "Siniperca scherzeri"
+          }
+        },
+        "license": {
+          "name": "KOGL Type 1 (attribution)",
+          "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+          "attribution": "출처: 농촌진흥청 국가표준식품성분 DB 10.4. 本项目提取并计算，非韩国官方产品。"
+        },
+        "nutrient_definition": {
+          "carbohydrate_g": "保留韩国成分表总碳水口径",
+          "energy_kcal": "保留韩国成分表热量；不按4/4/9改写"
+        }
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 32,
+        "protein_g": 1.83,
+        "carbohydrate_g": 7.34,
+        "fat_g": 0.19
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 32
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.83
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.19
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170005,
+        "description": "Onions, spring or scallions (includes tops and bulb), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:01.945Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 03035a02e7636a80",
+        "raw_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec",
+        "transport": "api_search_snapshot",
+        "query_sha256": "416b8b0bce821dae5c07e19da1ce978c892bc5a9ebdd2b571af1842bcb1490ac"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 80,
+        "protein_g": 1.82,
+        "carbohydrate_g": 17.8,
+        "fat_g": 0.75
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 80
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.75
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169231,
+        "description": "Ginger root, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:57.102Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8c5161cfeef99a8",
+        "raw_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3ed0beff1be476911c0e6250c641fa95241e2baad9a5169294d889fb94927fc0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 40,
+        "protein_g": 1.87,
+        "carbohydrate_g": 8.81,
+        "fat_g": 0.44
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 40
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.87
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 8.81
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.44
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170106,
+        "description": "Peppers, hot chili, red, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170106/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 0672f914f6833951",
+        "raw_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "鳜鱼净肉（斑鳜代理）",
+        "food": {
+          "provider": "krda",
+          "food_id": "K1240000000a",
+          "description": "쏘가리, 생것",
+          "data_type": "KRDA Standard Food Composition DB",
+          "snapshot_sha256": "1ba4fbc7a08b2e713af7c9f68288c4682a6484e9118904c83bf2dbd4d038818f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "官方Siniperca scherzeri（斑鳜），作为同属鳜鱼家庭标准变体的明确代理；不是Siniperca chuatsi翘嘴鳜的物种实测，不自动用于其他鳜鱼或鲈鱼。",
+        "per_100g": {
+          "energy_kcal": 111,
+          "protein_g": 17.2,
+          "carbohydrate_g": 0,
+          "fat_g": 4.1
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 32,
+          "protein_g": 1.83,
+          "carbohydrate_g": 7.34,
+          "fat_g": 0.19
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 80,
+          "protein_g": 1.82,
+          "carbohydrate_g": 17.8,
+          "fat_g": 0.75
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "鲜辣椒",
+        "food": {
+          "fdc_id": 170106,
+          "description": "Peppers, hot chili, red, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 6,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 40,
+          "protein_g": 1.87,
+          "carbohydrate_g": 8.81,
+          "fat_g": 0.44
+        },
+        "edible_g": 6
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 1
+      }
+    ],
+    "total": {
+      "energy_kcal": 486.1,
+      "protein_g": 52.9827,
+      "carbohydrate_g": 3.9026,
+      "fat_g": 27.4869
+    },
+    "final_edible_g": 340,
+    "per_100g": {
+      "energy_kcal": 142.970588,
+      "protein_g": 15.583147,
+      "carbohydrate_g": 1.147824,
+      "fat_g": 8.084382
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 139.683322,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

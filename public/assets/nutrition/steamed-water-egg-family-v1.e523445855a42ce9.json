@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "id": "steamed-water-egg-family-v1",
+  "recipe_id": "howtocook-b13f782654bf",
+  "recipe_blob_sha": "1e5a44e03b3f2cd94f5cb610c8da5671c425a8ce",
+  "version": "1",
+  "data_version": "7bdeb0d4439c3fc0",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 360,
+    "method": "household_serving_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "维护者要求以2–3人家庭份量计算。本方案人为设定可食成品360g（每人约120.0–180.0g），仅为可重算的家庭份情景，不是文献或实测出成率。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭份估算：去壳净蛋液150g（约3枚）、水225g、盐2g，不加油酱；带盖蒸制，整份成品重量假设为360g。食材营养来自USDA；成品重是家庭份假设，非实测或USDA出成率，未做烹饪损失校正。",
+  "match": {
+    "food_identity": "plain_steamed_chicken_egg_water",
+    "state": "cooked",
+    "cooking_method": "covered_steaming",
+    "edible_part": "shell_removed_egg_custard_and_all_liquid",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "steamed-water-egg-family-v1",
+    "egg_edible_g": 150,
+    "water_g": 225,
+    "salt_g": 2,
+    "sesame_oil_g": 0,
+    "soy_sauce_g": 0,
+    "assumed_final_edible_g": 360,
+    "household_servings": {
+      "min": 2,
+      "max": 3
+    },
+    "excludes": [
+      "将假设成品重量当成实测或USDA提供的出成率",
+      "不同蛋种、蛋黄比例、蛋水比例或油酱用量",
+      "过滤弃蛋液、丢弃汤汁、开放长时间蒸制或额外配料"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 59.583333,
+    "protein_g": 5.25,
+    "carbohydrate_g": 0.3,
+    "fat_g": 3.9625
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+    "version": "7bdeb0d4439c3fc0",
+    "fdc_ids": [
+      171287,
+      173647,
+      173468
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E8%92%B8%E6%B0%B4%E8%9B%8B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "1e5a44e03b3f2cd94f5cb610c8da5671c425a8ce"
+  },
+  "profile": {
+    "id": "steamed-water-egg-family-v1",
+    "version": "1",
+    "recipe_id": "howtocook-b13f782654bf",
+    "recipe_blob_sha": "1e5a44e03b3f2cd94f5cb610c8da5671c425a8ce",
+    "method": "usda_recipe_estimate",
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭份估算：去壳净蛋液150g（约3枚）、水225g、盐2g，不加油酱；带盖蒸制，整份成品重量假设为360g。食材营养来自USDA；成品重是家庭份假设，非实测或USDA出成率，未做烹饪损失校正。",
+    "match": {
+      "food_identity": "plain_steamed_chicken_egg_water",
+      "state": "cooked",
+      "cooking_method": "covered_steaming",
+      "edible_part": "shell_removed_egg_custard_and_all_liquid",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "steamed-water-egg-family-v1",
+      "egg_edible_g": 150,
+      "water_g": 225,
+      "salt_g": 2,
+      "sesame_oil_g": 0,
+      "soy_sauce_g": 0,
+      "assumed_final_edible_g": 360,
+      "household_servings": {
+        "min": 2,
+        "max": 3
+      },
+      "excludes": [
+        "将假设成品重量当成实测或USDA提供的出成率",
+        "不同蛋种、蛋黄比例、蛋水比例或油酱用量",
+        "过滤弃蛋液、丢弃汤汁、开放长时间蒸制或额外配料"
+      ]
+    },
+    "assumptions": [
+      "维护者明确允许按2–3人家庭正常份量设定食材与成品重量；本方案是标准情景估算，不声称复现原文每枚蛋大小或实际出成率。",
+      "净蛋液150g、水225g、盐2g均直接按克定义；去壳后称蛋液，不把带壳毛重计入。",
+      "成品可食总重独立假设为360g，供2–3人作配菜；不将加热前原料重自动等同于蒸后重，也没有伪造测量或文献依据。",
+      "选择带盖隔水蒸、无过滤弃蛋液、不弃汤汁的标准工艺，假设宏量营养全部留在可食部分，蒸汽/凝结水仅影响重量；没有实际烹饪保留率，不伪造校正系数。",
+      "选择原文清蒸原味分支，不加入可选蒸鱼豉油、葱花或香油。",
+      "鸡蛋采用USDA整鸡蛋生蛋液数据作为配方输入，状态为raw；结果标记为蒸制配方估算，而非声称生蛋与熟蛋每100g相同。"
+    ],
+    "uncertainty": [
+      "成品360g是项目选定的家庭份情景，不是实测或统计平均；实际蒸后净重不同，每100g结果按整份营养重新除以实际成品重。",
+      "宏量营养完全保留只是假设，蒸制时间、蒸汽凝结/蒸发、碗壁残留及少量损失未校正；本方案为低置信度家庭份参考。",
+      "蛋种、蛋黄比例及用量不同会改变整份营养；不适用于过滤弃料、弃汁、额外食材或其他烹调方式。"
+    ],
+    "process": {
+      "method": "covered_steaming",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true,
+      "no_heating_after_weighing": false,
+      "water_change": "unmeasured; captured only by explicitly assumed final household weight",
+      "preparation_before_weighing": "去壳后净蛋液；不进行会弃蛋液的过滤或撇沫。"
+    },
+    "final_weight": {
+      "grams": 360,
+      "method": "household_serving_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "维护者要求以2–3人家庭份量计算。本方案人为设定可食成品360g（每人约120.0–180.0g），仅为可重算的家庭份情景，不是文献或实测出成率。"
+    },
+    "ingredients": [
+      {
+        "name": "鸡蛋液（去壳净量，按三枚标准蛋）",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "家庭份明确规定去壳净蛋液150g，约三枚蛋；不声称每枚实际净重必为50g。"
+        }
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 225,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "标准加水225g，直接以克定义，不根据蛋壳或蛋液体积推算密度。"
+        }
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "家庭份标准盐量2g，来源采用USDA食盐宏量营养值。"
+        }
+      }
+    ],
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex evidence review of explicitly assumed household scenario (not USDA approval; no measured yield or human sign-off claimed)",
+      "reviewed_at": "2026-10-28T01:46:29.804Z",
+      "checks": {
+        "recipe_version": "1e5a44e03b3f2cd94f5cb610c8da5671c425a8ce",
+        "food_identity": "USDA整鸡蛋生蛋液、饮用水、食盐逐项匹配，未使用甜蛋奶羹或蛋奶派成品。",
+        "state_and_cooking": "raw蛋液为配方输入，cooked蒸蛋为估算输出；带盖蒸且无弃汁，明确假设宏量营养保留、未做热损失校正。",
+        "edible_part": "去壳净蛋液150g；成品重量为明确家庭份情景，不假装实测。",
+        "additions": "无油糖酱，水盐均纳入原料与重量记录。",
+        "brand": "通用食材；酱油如适用为明确的通用近似。",
+        "weight_basis": "维护者授权按2–3人家庭份计算；成品重标记is_measured=false及estimate_confidence=low。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E8%92%B8%E6%B0%B4%E8%9B%8B.md",
+          "note": "固定提交原文核对蒸蛋食材、带盖蒸制及调料分支。家庭份量及成品重量由项目独立假设，不声称来自原文。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "已保存原始USDA响应，核对食材种类、生熟、可食部分与逐项营养；不表示USDA提供该蒸蛋配方或出成率。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "已保存原始USDA响应，核对食材种类、生熟、可食部分与逐项营养；不表示USDA提供该蒸蛋配方或出成率。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "已保存原始USDA响应，核对食材种类、生熟、可食部分与逐项营养；不表示USDA提供该蒸蛋配方或出成率。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "鸡蛋液（去壳净量，按三枚标准蛋）",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "家庭份明确规定去壳净蛋液150g，约三枚蛋；不声称每枚实际净重必为50g。"
+        },
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 225,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "标准加水225g，直接以克定义，不根据蛋壳或蛋液体积推算密度。"
+        },
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 225
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "家庭份标准盐量2g，来源采用USDA食盐宏量营养值。"
+        },
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 2
+      }
+    ],
+    "total": {
+      "energy_kcal": 214.5,
+      "protein_g": 18.9,
+      "carbohydrate_g": 1.08,
+      "fat_g": 14.265
+    },
+    "final_edible_g": 360,
+    "per_100g": {
+      "energy_kcal": 59.583333,
+      "protein_g": 5.25,
+      "carbohydrate_g": 0.3,
+      "fat_g": 3.9625
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 57.8625,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

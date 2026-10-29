@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "id": "family-4f64350b4de5-v1",
+  "recipe_id": "howtocook-4f64350b4de5",
+  "recipe_blob_sha": "b4569dc1ca72f14f2f845b1d805a1c5c893ecb15",
+  "version": "1",
+  "data_version": "81838a4cee7af502",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：金酒40%酒精75g、含糖汤力水450g、柠檬汁30g、饮用水150g；整份约705g。两杯标准情景，限定40%vol无糖金酒和普通含糖汤力水；冰按饮用水150g计且全部融化饮用，不含装饰果皮籽；所有液体直接称克，不从原文ml换算。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-4f64350b4de5",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-4f64350b4de5-v1",
+    "standard_ingredients": [
+      {
+        "key": "gin",
+        "grams": 75
+      },
+      {
+        "key": "tonic",
+        "grams": 450
+      },
+      {
+        "key": "lemon_juice",
+        "grams": 30
+      },
+      {
+        "key": "water",
+        "grams": 150
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 47.212766,
+    "protein_g": 0.014894,
+    "carbohydrate_g": 5.910638,
+    "fat_g": 0.010213
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+    "version": "81838a4cee7af502",
+    "fdc_ids": [
+      174815,
+      171869,
+      167747,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%87%91%E6%B1%A4%E5%8A%9B/%E9%87%91%E6%B1%A4%E5%8A%9B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "b4569dc1ca72f14f2f845b1d805a1c5c893ecb15"
+  },
+  "profile": {
+    "id": "family-4f64350b4de5-v1",
+    "version": "1",
+    "recipe_id": "howtocook-4f64350b4de5",
+    "recipe_blob_sha": "b4569dc1ca72f14f2f845b1d805a1c5c893ecb15",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：金酒40%酒精75g、含糖汤力水450g、柠檬汁30g、饮用水150g；整份约705g。两杯标准情景，限定40%vol无糖金酒和普通含糖汤力水；冰按饮用水150g计且全部融化饮用，不含装饰果皮籽；所有液体直接称克，不从原文ml换算。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-4f64350b4de5",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-4f64350b4de5-v1",
+      "standard_ingredients": [
+        {
+          "key": "gin",
+          "grams": 75
+        },
+        {
+          "key": "tonic",
+          "grams": 450
+        },
+        {
+          "key": "lemon_juice",
+          "grams": 30
+        },
+        {
+          "key": "water",
+          "grams": 150
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：金酒40%酒精75g、含糖汤力水450g、柠檬汁30g、饮用水150g。克数是项目标准，不是原文ml/个数换算。",
+      "两杯标准情景，限定40%vol无糖金酒和普通含糖汤力水；冰按饮用水150g计且全部融化饮用，不含装饰果皮籽；所有液体直接称克，不从原文ml换算",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "金酒40%酒精",
+        "food": {
+          "fdc_id": 174815,
+          "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 75,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。"
+      },
+      {
+        "name": "含糖汤力水",
+        "food": {
+          "fdc_id": 171869,
+          "description": "Beverages, carbonated, tonic water",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "725fa20c0c8e5265ecfb390d01a5365eeeb2def4f1c78dbecb646fbfeb4d1504"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "含糖汤力水通用饮料，非无糖汤力水或苏打水。"
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 705,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:06:41.733Z",
+      "checks": {
+        "recipe_version": "b4569dc1ca72f14f2f845b1d805a1c5c893ecb15",
+        "food_identity": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof; Beverages, carbonated, tonic water; Lemon juice, raw; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "两杯标准情景，限定40%vol无糖金酒和普通含糖汤力水；冰按饮用水150g计且全部融化饮用，不含装饰果皮籽；所有液体直接称克，不从原文ml换算"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%87%91%E6%B1%A4%E5%8A%9B/%E9%87%91%E6%B1%A4%E5%8A%9B.md",
+          "blob_sha": "b4569dc1ca72f14f2f845b1d805a1c5c893ecb15",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+          "note": "金酒40%酒精：Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof；已核对数据类型、生熟、可食部分及原始摘要。通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171869/nutrients",
+          "note": "含糖汤力水：Beverages, carbonated, tonic water；已核对数据类型、生熟、可食部分及原始摘要。含糖汤力水通用饮料，非无糖汤力水或苏打水。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+          "note": "柠檬汁：Lemon juice, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174815,
+        "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+        "version": "SR Legacy / 2019-04-01 / c3d45071dd6a986e",
+        "raw_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 34,
+        "protein_g": 0,
+        "carbohydrate_g": 8.8,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 34
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 8.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171869,
+        "description": "Beverages, carbonated, tonic water",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:31.683Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171869/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 725fa20c0c8e5265",
+        "raw_sha256": "725fa20c0c8e5265ecfb390d01a5365eeeb2def4f1c78dbecb646fbfeb4d1504",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d3a4d2d4c36f86aa6562416c98b79d7935eee5dbc3b1db96ac71067df06d03a9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 22,
+        "protein_g": 0.35,
+        "carbohydrate_g": 6.9,
+        "fat_g": 0.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 22
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.35
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167747,
+        "description": "Lemon juice, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:23.040Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 313ada983b5ac2cc",
+        "raw_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "金酒40%酒精",
+        "food": {
+          "fdc_id": 174815,
+          "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 75,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 75
+      },
+      {
+        "name": "含糖汤力水",
+        "food": {
+          "fdc_id": 171869,
+          "description": "Beverages, carbonated, tonic water",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "725fa20c0c8e5265ecfb390d01a5365eeeb2def4f1c78dbecb646fbfeb4d1504"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "含糖汤力水通用饮料，非无糖汤力水或苏打水。",
+        "per_100g": {
+          "energy_kcal": 34,
+          "protein_g": 0,
+          "carbohydrate_g": 8.8,
+          "fat_g": 0
+        },
+        "edible_g": 450
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 22,
+          "protein_g": 0.35,
+          "carbohydrate_g": 6.9,
+          "fat_g": 0.24
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 150
+      }
+    ],
+    "total": {
+      "energy_kcal": 332.85,
+      "protein_g": 0.105,
+      "carbohydrate_g": 41.67,
+      "fat_g": 0.072
+    },
+    "final_edible_g": 705,
+    "per_100g": {
+      "energy_kcal": 47.212766,
+      "protein_g": 0.014894,
+      "carbohydrate_g": 5.910638,
+      "fat_g": 0.010213
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 23.794044999999997,
+    "warnings": [
+      "4/4/9粗略折算与来源热量差异较大，保留来源热量，请复核"
+    ]
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

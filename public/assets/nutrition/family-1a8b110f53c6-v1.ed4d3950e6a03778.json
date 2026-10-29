@@ -1,0 +1,1193 @@
+{
+  "schema_version": 1,
+  "id": "family-1a8b110f53c6-v1",
+  "recipe_id": "howtocook-1a8b110f53c6",
+  "recipe_blob_sha": "c8227d12d16329bd3bede20222b717401cf04a78",
+  "version": "1",
+  "data_version": "2dd5325aac0ef7e0",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 1100,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品1100g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：小白菜250g、菠菜150g、猪里脊（去骨）200g、鸡腿肉（去骨去皮）200g、Phoenix Bean烟熏五香豆腐150g、INDOMIE鸡肉风味方便面含调料70g、干辣椒12g、老干妈油辣椒25g、大豆食用油15g、通用酱油（shoyu近似）20g；整份约1100g。固定青菜猪肉鸡肉五香硬豆腐和70g指定方便面含全部调料的家庭组合；不放可选鱼丸火腿肠，Phoenix烟熏豆腐代理干豆腐、指定老干妈提供辣油；油酱全计，不宣称所有麻辣香锅相同。限定品牌：Phoenix Bean烟熏五香豆腐=Phoenix Bean, LLC  GTIN 851378008064；INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030；老干妈油辣椒=LAOGANMA GTIN 889417000038。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-1a8b110f53c6",
+    "state": "ready_to_eat",
+    "cooking_method": "stir_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": "Phoenix Bean烟熏五香豆腐=Phoenix Bean, LLC  GTIN 851378008064；INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030；老干妈油辣椒=LAOGANMA GTIN 889417000038",
+    "variant": "family-1a8b110f53c6-v1",
+    "standard_ingredients": [
+      {
+        "key": "bok_choy",
+        "grams": 250
+      },
+      {
+        "key": "spinach",
+        "grams": 150
+      },
+      {
+        "key": "pork_lean",
+        "grams": 200
+      },
+      {
+        "key": "chicken_thigh",
+        "grams": 200
+      },
+      {
+        "key": "tofu_dry_branded",
+        "grams": 150
+      },
+      {
+        "key": "instant_noodle_exact",
+        "grams": 70
+      },
+      {
+        "key": "chili_dry",
+        "grams": 12
+      },
+      {
+        "key": "chili_crisp",
+        "grams": 25
+      },
+      {
+        "key": "oil",
+        "grams": 15
+      },
+      {
+        "key": "soy",
+        "grams": 20
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 135.264545,
+    "protein_g": 12.205045,
+    "carbohydrate_g": 7.296636,
+    "fat_g": 6.385455
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/170390/nutrients",
+    "version": "2dd5325aac0ef7e0",
+    "fdc_ids": [
+      170390,
+      168462,
+      168249,
+      173627,
+      2273238,
+      2677255,
+      170932,
+      2427220,
+      171411,
+      174277
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E9%BA%BB%E8%BE%A3%E9%A6%99%E9%94%85.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "c8227d12d16329bd3bede20222b717401cf04a78"
+  },
+  "profile": {
+    "id": "family-1a8b110f53c6-v1",
+    "version": "1",
+    "recipe_id": "howtocook-1a8b110f53c6",
+    "recipe_blob_sha": "c8227d12d16329bd3bede20222b717401cf04a78",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：小白菜250g、菠菜150g、猪里脊（去骨）200g、鸡腿肉（去骨去皮）200g、Phoenix Bean烟熏五香豆腐150g、INDOMIE鸡肉风味方便面含调料70g、干辣椒12g、老干妈油辣椒25g、大豆食用油15g、通用酱油（shoyu近似）20g；整份约1100g。固定青菜猪肉鸡肉五香硬豆腐和70g指定方便面含全部调料的家庭组合；不放可选鱼丸火腿肠，Phoenix烟熏豆腐代理干豆腐、指定老干妈提供辣油；油酱全计，不宣称所有麻辣香锅相同。限定品牌：Phoenix Bean烟熏五香豆腐=Phoenix Bean, LLC  GTIN 851378008064；INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030；老干妈油辣椒=LAOGANMA GTIN 889417000038。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-1a8b110f53c6",
+      "state": "ready_to_eat",
+      "cooking_method": "stir_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": "Phoenix Bean烟熏五香豆腐=Phoenix Bean, LLC  GTIN 851378008064；INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030；老干妈油辣椒=LAOGANMA GTIN 889417000038",
+      "variant": "family-1a8b110f53c6-v1",
+      "standard_ingredients": [
+        {
+          "key": "bok_choy",
+          "grams": 250
+        },
+        {
+          "key": "spinach",
+          "grams": 150
+        },
+        {
+          "key": "pork_lean",
+          "grams": 200
+        },
+        {
+          "key": "chicken_thigh",
+          "grams": 200
+        },
+        {
+          "key": "tofu_dry_branded",
+          "grams": 150
+        },
+        {
+          "key": "instant_noodle_exact",
+          "grams": 70
+        },
+        {
+          "key": "chili_dry",
+          "grams": 12
+        },
+        {
+          "key": "chili_crisp",
+          "grams": 25
+        },
+        {
+          "key": "oil",
+          "grams": 15
+        },
+        {
+          "key": "soy",
+          "grams": 20
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：小白菜250g、菠菜150g、猪里脊（去骨）200g、鸡腿肉（去骨去皮）200g、Phoenix Bean烟熏五香豆腐150g、INDOMIE鸡肉风味方便面含调料70g、干辣椒12g、老干妈油辣椒25g、大豆食用油15g、通用酱油（shoyu近似）20g。克数是项目标准，不是原文ml/个数换算。",
+      "固定青菜猪肉鸡肉五香硬豆腐和70g指定方便面含全部调料的家庭组合；不放可选鱼丸火腿肠，Phoenix烟熏豆腐代理干豆腐、指定老干妈提供辣油；油酱全计，不宣称所有麻辣香锅相同",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "小白菜",
+        "food": {
+          "fdc_id": 170390,
+          "description": "Cabbage, chinese (pak-choi), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "菠菜",
+        "food": {
+          "fdc_id": 168462,
+          "description": "Spinach, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2ee228b8ca0414df850277df97149478d56f9885e38003f50bfc9868f9ed6b7b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "猪里脊（去骨）",
+        "food": {
+          "fdc_id": 168249,
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b04c119ef19e062456cc68c825a6c375ad4862756630d29e55cce535c18175e7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "鸡腿肉（去骨去皮）",
+        "food": {
+          "fdc_id": 173627,
+          "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "Phoenix Bean烟熏五香豆腐",
+        "food": {
+          "fdc_id": 2273238,
+          "description": "SMOKED FIVE SPICE TOFU",
+          "data_type": "Branded",
+          "snapshot_sha256": "25bdf1c932b12a6494fda55f1da53178a294a433178afd5d8df03292e03760b8",
+          "brand_owner": "Phoenix Bean, LLC ",
+          "brand_name": "",
+          "gtin_upc": "851378008064"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "固定Phoenix Bean烟熏五香硬豆腐作香干替代，非所有中国香干；排除干冻高野豆腐。"
+      },
+      {
+        "name": "INDOMIE鸡肉风味方便面含调料",
+        "food": {
+          "fdc_id": 2677255,
+          "description": "CHICKEN INSTANT NOODLES, CHICKEN",
+          "data_type": "Branded",
+          "snapshot_sha256": "0a9b3d2564094347efef2482c2a1bccbb8b4d83ff8a2c792a6418918df750900",
+          "brand_owner": "Pt Indofood Sukses Makmur Tbk",
+          "brand_name": "INDOMIE",
+          "gtin_upc": "089686170030"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 70,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定INDOMIE CHICKEN对应GTIN，面饼及全部所附调料按包装干态一起计入；不拆取面饼单独使用，不等于其他品牌。"
+      },
+      {
+        "name": "干辣椒",
+        "food": {
+          "fdc_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "老干妈油辣椒",
+        "food": {
+          "fdc_id": 2427220,
+          "description": "FRIED CHILI IN OIL",
+          "data_type": "Branded",
+          "snapshot_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+          "brand_owner": "Dse Healthcare Solutions, LLC",
+          "brand_name": "LAOGANMA",
+          "gtin_upc": "889417000038"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      }
+    ],
+    "final_weight": {
+      "grams": 1100,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品1100g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "stir_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "c8227d12d16329bd3bede20222b717401cf04a78",
+        "food_identity": "Cabbage, chinese (pak-choi), raw; Spinach, raw; Pork, fresh, loin, tenderloin, separable lean only, raw; Chicken, broilers or fryers, dark meat, thigh, meat only, raw; SMOKED FIVE SPICE TOFU; CHICKEN INSTANT NOODLES, CHICKEN; Spices, pepper, red or cayenne; FRIED CHILI IN OIL; Oil, soybean, salad or cooking; Soy sauce made from soy and wheat (shoyu)",
+        "state_and_cooking": "逐项按raw/raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品stir_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "Phoenix Bean烟熏五香豆腐=Phoenix Bean, LLC  GTIN 851378008064；INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030；老干妈油辣椒=LAOGANMA GTIN 889417000038",
+        "standard_variant": "固定青菜猪肉鸡肉五香硬豆腐和70g指定方便面含全部调料的家庭组合；不放可选鱼丸火腿肠，Phoenix烟熏豆腐代理干豆腐、指定老干妈提供辣油；油酱全计，不宣称所有麻辣香锅相同"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E9%BA%BB%E8%BE%A3%E9%A6%99%E9%94%85.md",
+          "blob_sha": "c8227d12d16329bd3bede20222b717401cf04a78",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170390/nutrients",
+          "note": "小白菜：Cabbage, chinese (pak-choi), raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+          "note": "菠菜：Spinach, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168249/nutrients",
+          "note": "猪里脊（去骨）：Pork, fresh, loin, tenderloin, separable lean only, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173627/nutrients",
+          "note": "鸡腿肉（去骨去皮）：Chicken, broilers or fryers, dark meat, thigh, meat only, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2273238/nutrients",
+          "note": "Phoenix Bean烟熏五香豆腐：SMOKED FIVE SPICE TOFU；已核对数据类型、生熟、可食部分及原始摘要。固定Phoenix Bean烟熏五香硬豆腐作香干替代，非所有中国香干；排除干冻高野豆腐。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2677255/nutrients",
+          "note": "INDOMIE鸡肉风味方便面含调料：CHICKEN INSTANT NOODLES, CHICKEN；已核对数据类型、生熟、可食部分及原始摘要。限定INDOMIE CHICKEN对应GTIN，面饼及全部所附调料按包装干态一起计入；不拆取面饼单独使用，不等于其他品牌。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+          "note": "干辣椒：Spices, pepper, red or cayenne；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2427220/nutrients",
+          "note": "老干妈油辣椒：FRIED CHILI IN OIL；已核对数据类型、生熟、可食部分及原始摘要。限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 13,
+        "protein_g": 1.5,
+        "carbohydrate_g": 2.18,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 13
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.18
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170390,
+        "description": "Cabbage, chinese (pak-choi), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:23.773Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170390/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f97a2a4156f9a654",
+        "raw_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0f35685a8e98d27263503110e42c9aca15a5a5f481a8f7b5d55bb079a7072d4d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 23,
+        "protein_g": 2.86,
+        "carbohydrate_g": 3.63,
+        "fat_g": 0.39
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 23
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.86
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.63
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.39
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168462,
+        "description": "Spinach, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:06.094Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2ee228b8ca0414df",
+        "raw_sha256": "2ee228b8ca0414df850277df97149478d56f9885e38003f50bfc9868f9ed6b7b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "eb551cad362532ac948976e9be745daa5c3fda0cdafc694f1f20ffd9cace3a1f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 109,
+        "protein_g": 21,
+        "carbohydrate_g": 0,
+        "fat_g": 2.17
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 109
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 21
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 2.17
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168249,
+        "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:05:32.483Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168249/nutrients",
+        "version": "SR Legacy / 2019-04-01 / b04c119ef19e0624",
+        "raw_sha256": "b04c119ef19e062456cc68c825a6c375ad4862756630d29e55cce535c18175e7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "31487d672abceb9f59f91888b3a839348fbd1a1dad5872850748e11faba0f4c4"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 121,
+        "protein_g": 19.7,
+        "carbohydrate_g": 0,
+        "fat_g": 4.12
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 121
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 19.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 4.12
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173627,
+        "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:05:49.048Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173627/nutrients",
+        "version": "SR Legacy / 2019-04-01 / bf6b88eb8435b5c3",
+        "raw_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "83be84c295aba75df30f65729ad59730dc08d221a14b83d442ffb1537fb9ed09"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 214,
+        "protein_g": 21.4,
+        "carbohydrate_g": 5.95,
+        "fat_g": 10.7
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 214
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 21.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 5.95
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 10.7
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2273238,
+        "description": "SMOKED FIVE SPICE TOFU",
+        "data_type": "Branded",
+        "brand_owner": "Phoenix Bean, LLC ",
+        "brand_name": "",
+        "gtin_upc": "851378008064",
+        "ingredients": "NON-GMO SOYBEANS, WATER, CALCIUM SULFATE, GLUTEN FREE SOY SAUCE, SALT, PEPPER, CUMIN, CINNAMON, CLOVE, ANISEED AND CORIANDER.",
+        "publication_date": "2022-05-23",
+        "retrieved_at": "2026-10-28T06:01:32.891Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2273238/nutrients",
+        "version": "Branded / 2022-05-23 / 25bdf1c932b12a64",
+        "raw_sha256": "25bdf1c932b12a6494fda55f1da53178a294a433178afd5d8df03292e03760b8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "6e9d6935e7de004f145a205896953367f2794889a1cd2f7125759a29bed99cc2"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 429,
+        "protein_g": 11.4,
+        "carbohydrate_g": 65.7,
+        "fat_g": 14.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 429
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 11.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 65.7
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 14.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2677255,
+        "description": "CHICKEN INSTANT NOODLES, CHICKEN",
+        "data_type": "Branded",
+        "brand_owner": "Pt Indofood Sukses Makmur Tbk",
+        "brand_name": "INDOMIE",
+        "gtin_upc": "089686170030",
+        "ingredients": "NOODLES: WHEAT FLOUR, REFINED PALM OIL (CONTAINS TBHQ), SALT, SODIUM CARBONATE, POTASSIUM CARBONATE, GUAR GUM, RIBOFLAVIN. SEASONING POWDER: SALT, MONOSODIUM GLUTAMATE, DISODIUM INOSINATE, DISODIUM GUANYLATE, SUGAR, YEAST EXTRACT, PEPPER, GARLIC POWDER, ARTIFICIAL FLAVOUR, GINGER POWDER. CHILI POWDER",
+        "publication_date": "2023-11-16",
+        "retrieved_at": "2026-10-28T06:12:21.495Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2677255/nutrients",
+        "version": "Branded / 2023-11-16 / 0a9b3d2564094347",
+        "raw_sha256": "0a9b3d2564094347efef2482c2a1bccbb8b4d83ff8a2c792a6418918df750900",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8222e7c7cbe96ad9beeed23ae41a16f3f44464e822a18cf7c7650723af1f4e88"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 318,
+        "protein_g": 12,
+        "carbohydrate_g": 56.6,
+        "fat_g": 17.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 318
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 56.6
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 17.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170932,
+        "description": "Spices, pepper, red or cayenne",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 571f1aae4c88b5c9",
+        "raw_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 633,
+        "protein_g": 6.67,
+        "carbohydrate_g": 26.7,
+        "fat_g": 53.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 633
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.67
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 26.7
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 53.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2427220,
+        "description": "FRIED CHILI IN OIL",
+        "data_type": "Branded",
+        "brand_owner": "Dse Healthcare Solutions, LLC",
+        "brand_name": "LAOGANMA",
+        "gtin_upc": "889417000038",
+        "ingredients": "SOYBEAN OIL, CHILI, PEANUT, MONOSODIUM GLUTAMATE, SALT, SUGAR, PRICKLY ASH POWDER, SULFUR DIOXIDE, SODIUM SULFITE.",
+        "publication_date": "2022-12-22",
+        "retrieved_at": "2026-10-28T06:53:09.666Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2427220/nutrients",
+        "version": "Branded / 2022-12-22 / d7142e632184e0ab",
+        "raw_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+        "transport": "api_search_snapshot",
+        "query_sha256": "957ad00392d33d84214c4718fe71109f39d5aac3d8fdf1d455cd9bb5ebbd954a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "小白菜",
+        "food": {
+          "fdc_id": 170390,
+          "description": "Cabbage, chinese (pak-choi), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 13,
+          "protein_g": 1.5,
+          "carbohydrate_g": 2.18,
+          "fat_g": 0.2
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "菠菜",
+        "food": {
+          "fdc_id": 168462,
+          "description": "Spinach, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2ee228b8ca0414df850277df97149478d56f9885e38003f50bfc9868f9ed6b7b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 23,
+          "protein_g": 2.86,
+          "carbohydrate_g": 3.63,
+          "fat_g": 0.39
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "猪里脊（去骨）",
+        "food": {
+          "fdc_id": 168249,
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b04c119ef19e062456cc68c825a6c375ad4862756630d29e55cce535c18175e7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 109,
+          "protein_g": 21,
+          "carbohydrate_g": 0,
+          "fat_g": 2.17
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "鸡腿肉（去骨去皮）",
+        "food": {
+          "fdc_id": 173627,
+          "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 121,
+          "protein_g": 19.7,
+          "carbohydrate_g": 0,
+          "fat_g": 4.12
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "Phoenix Bean烟熏五香豆腐",
+        "food": {
+          "fdc_id": 2273238,
+          "description": "SMOKED FIVE SPICE TOFU",
+          "data_type": "Branded",
+          "snapshot_sha256": "25bdf1c932b12a6494fda55f1da53178a294a433178afd5d8df03292e03760b8",
+          "brand_owner": "Phoenix Bean, LLC ",
+          "brand_name": "",
+          "gtin_upc": "851378008064"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "固定Phoenix Bean烟熏五香硬豆腐作香干替代，非所有中国香干；排除干冻高野豆腐。",
+        "per_100g": {
+          "energy_kcal": 214,
+          "protein_g": 21.4,
+          "carbohydrate_g": 5.95,
+          "fat_g": 10.7
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "INDOMIE鸡肉风味方便面含调料",
+        "food": {
+          "fdc_id": 2677255,
+          "description": "CHICKEN INSTANT NOODLES, CHICKEN",
+          "data_type": "Branded",
+          "snapshot_sha256": "0a9b3d2564094347efef2482c2a1bccbb8b4d83ff8a2c792a6418918df750900",
+          "brand_owner": "Pt Indofood Sukses Makmur Tbk",
+          "brand_name": "INDOMIE",
+          "gtin_upc": "089686170030"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 70,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定INDOMIE CHICKEN对应GTIN，面饼及全部所附调料按包装干态一起计入；不拆取面饼单独使用，不等于其他品牌。",
+        "per_100g": {
+          "energy_kcal": 429,
+          "protein_g": 11.4,
+          "carbohydrate_g": 65.7,
+          "fat_g": 14.3
+        },
+        "edible_g": 70
+      },
+      {
+        "name": "干辣椒",
+        "food": {
+          "fdc_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 318,
+          "protein_g": 12,
+          "carbohydrate_g": 56.6,
+          "fat_g": 17.3
+        },
+        "edible_g": 12
+      },
+      {
+        "name": "老干妈油辣椒",
+        "food": {
+          "fdc_id": 2427220,
+          "description": "FRIED CHILI IN OIL",
+          "data_type": "Branded",
+          "snapshot_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+          "brand_owner": "Dse Healthcare Solutions, LLC",
+          "brand_name": "LAOGANMA",
+          "gtin_upc": "889417000038"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。",
+        "per_100g": {
+          "energy_kcal": 633,
+          "protein_g": 6.67,
+          "carbohydrate_g": 26.7,
+          "fat_g": 53.3
+        },
+        "edible_g": 25
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 20
+      }
+    ],
+    "total": {
+      "energy_kcal": 1487.91,
+      "protein_g": 134.2555,
+      "carbohydrate_g": 80.263,
+      "fat_g": 70.24
+    },
+    "final_edible_g": 1100,
+    "per_100g": {
+      "energy_kcal": 135.264545,
+      "protein_g": 12.205045,
+      "carbohydrate_g": 7.296636,
+      "fat_g": 6.385455
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 135.475819,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

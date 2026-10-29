@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "provider": "USDA FoodData Central",
+  "transport": "api",
+  "endpoint": "https://api.nal.usda.gov/fdc/v1/foods/search",
+  "request": {
+    "query": "\"EGG TOFU\"",
+    "dataType": [
+      "Branded"
+    ],
+    "pageSize": 20,
+    "pageNumber": 1
+  },
+  "retrieved_at": "2026-10-28T06:11:36.707Z",
+  "raw_sha256": "b8aac2e25208f8d1ed69a811a09976871d93f3b691dcb4e9828cf18f9028fd13",
+  "response": {
+    "totalHits": 0,
+    "currentPage": 1,
+    "totalPages": 0,
+    "pageList": [],
+    "foodSearchCriteria": {
+      "dataType": [
+        "Branded"
+      ],
+      "query": "\"EGG TOFU\"",
+      "generalSearchInput": "\"EGG TOFU\"",
+      "pageNumber": 1,
+      "numberOfResultsPerPage": 50,
+      "pageSize": 20,
+      "requireAllWords": false,
+      "foodTypes": [
+        "Branded"
+      ]
+    },
+    "foods": [],
+    "aggregations": {
+      "dataType": {},
+      "nutrients": {}
+    }
+  }
+}

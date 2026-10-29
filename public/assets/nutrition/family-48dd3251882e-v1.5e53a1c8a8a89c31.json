@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "id": "family-48dd3251882e-v1",
+  "recipe_id": "howtocook-48dd3251882e",
+  "recipe_blob_sha": "89fa058581d6bf298296d37ac3ef649a87ce8d92",
+  "version": "1",
+  "data_version": "c3e8a9e1dba3bcae",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 470,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品470g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：荷兰豆350g、VENUS中式腊肠150g、通用酱油（shoyu近似）15g、大豆食用油10g；整份约470g。固定VENUS中式腊肠GTIN，不等于所有腊肠；荷兰豆生净荚重，直接炒熟不焯水；腊肠油及所加油全保留，未做加热营养损失校正。限定品牌：VENUS中式腊肠=VENUS GTIN 032971301886。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-48dd3251882e",
+    "state": "ready_to_eat",
+    "cooking_method": "stir_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": "VENUS中式腊肠=VENUS GTIN 032971301886",
+    "variant": "family-48dd3251882e-v1",
+    "standard_ingredients": [
+      {
+        "key": "snow_peas",
+        "grams": 350
+      },
+      {
+        "key": "sausage_branded",
+        "grams": 150
+      },
+      {
+        "key": "soy",
+        "grams": 15
+      },
+      {
+        "key": "oil",
+        "grams": 10
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 207.202128,
+    "protein_g": 8.217234,
+    "carbohydrate_g": 8.297766,
+    "fat_g": 15.730957
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/170010/nutrients",
+    "version": "c3e8a9e1dba3bcae",
+    "fdc_ids": [
+      170010,
+      2618479,
+      174277,
+      171411
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "89fa058581d6bf298296d37ac3ef649a87ce8d92"
+  },
+  "profile": {
+    "id": "family-48dd3251882e-v1",
+    "version": "1",
+    "recipe_id": "howtocook-48dd3251882e",
+    "recipe_blob_sha": "89fa058581d6bf298296d37ac3ef649a87ce8d92",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：荷兰豆350g、VENUS中式腊肠150g、通用酱油（shoyu近似）15g、大豆食用油10g；整份约470g。固定VENUS中式腊肠GTIN，不等于所有腊肠；荷兰豆生净荚重，直接炒熟不焯水；腊肠油及所加油全保留，未做加热营养损失校正。限定品牌：VENUS中式腊肠=VENUS GTIN 032971301886。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-48dd3251882e",
+      "state": "ready_to_eat",
+      "cooking_method": "stir_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": "VENUS中式腊肠=VENUS GTIN 032971301886",
+      "variant": "family-48dd3251882e-v1",
+      "standard_ingredients": [
+        {
+          "key": "snow_peas",
+          "grams": 350
+        },
+        {
+          "key": "sausage_branded",
+          "grams": 150
+        },
+        {
+          "key": "soy",
+          "grams": 15
+        },
+        {
+          "key": "oil",
+          "grams": 10
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：荷兰豆350g、VENUS中式腊肠150g、通用酱油（shoyu近似）15g、大豆食用油10g。克数是项目标准，不是原文ml/个数换算。",
+      "固定VENUS中式腊肠GTIN，不等于所有腊肠；荷兰豆生净荚重，直接炒熟不焯水；腊肠油及所加油全保留，未做加热营养损失校正",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "荷兰豆",
+        "food": {
+          "fdc_id": 170010,
+          "description": "Peas, edible-podded, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e9f72df00d9b3bfc62b776d7ad49f50857584b9c18ddfed39ce1ec004513f580"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 350,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "可食嫩豆荚生净重，非剥壳青豆。"
+      },
+      {
+        "name": "VENUS中式腊肠",
+        "food": {
+          "fdc_id": 2618479,
+          "description": "CHINESE STYLE SAUSAGE",
+          "data_type": "Branded",
+          "snapshot_sha256": "bbef31623e40793beb59bf2973d5337c0e6e073cdcccffd7c536f716d3544447",
+          "brand_owner": "Venus Foods Inc. ",
+          "brand_name": "VENUS",
+          "gtin_upc": "032971301886"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定VENUS中式猪肉腊肠及GTIN，含糖和酒精的标签能量原样计入，不用于所有川味/黔味腊肠或其他品牌。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 470,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品470g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "stir_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:06:41.733Z",
+      "checks": {
+        "recipe_version": "89fa058581d6bf298296d37ac3ef649a87ce8d92",
+        "food_identity": "Peas, edible-podded, raw; CHINESE STYLE SAUSAGE; Soy sauce made from soy and wheat (shoyu); Oil, soybean, salad or cooking",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品stir_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "VENUS中式腊肠=VENUS GTIN 032971301886",
+        "standard_variant": "固定VENUS中式腊肠GTIN，不等于所有腊肠；荷兰豆生净荚重，直接炒熟不焯水；腊肠油及所加油全保留，未做加热营养损失校正"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0.md",
+          "blob_sha": "89fa058581d6bf298296d37ac3ef649a87ce8d92",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170010/nutrients",
+          "note": "荷兰豆：Peas, edible-podded, raw；已核对数据类型、生熟、可食部分及原始摘要。可食嫩豆荚生净重，非剥壳青豆。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2618479/nutrients",
+          "note": "VENUS中式腊肠：CHINESE STYLE SAUSAGE；已核对数据类型、生熟、可食部分及原始摘要。限定VENUS中式猪肉腊肠及GTIN，含糖和酒精的标签能量原样计入，不用于所有川味/黔味腊肠或其他品牌。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 42,
+        "protein_g": 2.8,
+        "carbohydrate_g": 7.55,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 42
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.8
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.55
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170010,
+        "description": "Peas, edible-podded, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:55:08.355Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170010/nutrients",
+        "version": "SR Legacy / 2019-04-01 / e9f72df00d9b3bfc",
+        "raw_sha256": "e9f72df00d9b3bfc62b776d7ad49f50857584b9c18ddfed39ce1ec004513f580",
+        "transport": "api_search_snapshot",
+        "query_sha256": "93e63425f4d5872338e5fa2edbe50321a696bbf809a7b56d198e386521be0728"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 487,
+        "protein_g": 18.4,
+        "carbohydrate_g": 7.89,
+        "fat_g": 42.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 487
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 18.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.89
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 42.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2618479,
+        "description": "CHINESE STYLE SAUSAGE",
+        "data_type": "Branded",
+        "brand_owner": "Venus Foods Inc. ",
+        "brand_name": "VENUS",
+        "gtin_upc": "032971301886",
+        "ingredients": "PORK, PORK FAT, SUGAR, SOY SAUCE (WATER, SOY BEANS, WHEAT FLOUR, SALT, SUGAR, CARAMEL COLOR, SODIUM BENZOATE, LESS THAN 0.1% AS FOOD PRESERVATIVE), SALT, GRAIN ALCOHOL, SPICES, SODIUM ERYTHORBATE, SODIUM NITRITE.",
+        "publication_date": "2023-08-31",
+        "retrieved_at": "2026-10-28T06:01:20.818Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2618479/nutrients",
+        "version": "Branded / 2023-08-31 / bbef31623e40793b",
+        "raw_sha256": "bbef31623e40793beb59bf2973d5337c0e6e073cdcccffd7c536f716d3544447",
+        "transport": "api_search_snapshot",
+        "query_sha256": "df6f2a5dd87ba7b7906104e4d60e8ff5b48e33ae1772b507d371dadaa31d8b1f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "荷兰豆",
+        "food": {
+          "fdc_id": 170010,
+          "description": "Peas, edible-podded, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e9f72df00d9b3bfc62b776d7ad49f50857584b9c18ddfed39ce1ec004513f580"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 350,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "可食嫩豆荚生净重，非剥壳青豆。",
+        "per_100g": {
+          "energy_kcal": 42,
+          "protein_g": 2.8,
+          "carbohydrate_g": 7.55,
+          "fat_g": 0.2
+        },
+        "edible_g": 350
+      },
+      {
+        "name": "VENUS中式腊肠",
+        "food": {
+          "fdc_id": 2618479,
+          "description": "CHINESE STYLE SAUSAGE",
+          "data_type": "Branded",
+          "snapshot_sha256": "bbef31623e40793beb59bf2973d5337c0e6e073cdcccffd7c536f716d3544447",
+          "brand_owner": "Venus Foods Inc. ",
+          "brand_name": "VENUS",
+          "gtin_upc": "032971301886"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定VENUS中式猪肉腊肠及GTIN，含糖和酒精的标签能量原样计入，不用于所有川味/黔味腊肠或其他品牌。",
+        "per_100g": {
+          "energy_kcal": 487,
+          "protein_g": 18.4,
+          "carbohydrate_g": 7.89,
+          "fat_g": 42.1
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 10
+      }
+    ],
+    "total": {
+      "energy_kcal": 973.85,
+      "protein_g": 38.621,
+      "carbohydrate_g": 38.9995,
+      "fat_g": 73.9355
+    },
+    "final_edible_g": 470,
+    "per_100g": {
+      "energy_kcal": 207.202128,
+      "protein_g": 8.217234,
+      "carbohydrate_g": 8.297766,
+      "fat_g": 15.730957
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 207.638613,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

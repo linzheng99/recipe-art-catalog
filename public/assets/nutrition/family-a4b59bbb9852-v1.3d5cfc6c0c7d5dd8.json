@@ -1,0 +1,1461 @@
+{
+  "schema_version": 1,
+  "id": "family-a4b59bbb9852-v1",
+  "recipe_id": "howtocook-a4b59bbb9852",
+  "recipe_blob_sha": "32b874f770c9b93a1af18dc68a6380662073255e",
+  "version": "1",
+  "data_version": "358e2758b1e839ee",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 650,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品650g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：鲜香菇150g、金针菇150g、白蘑菇150g、西兰花150g、青甜椒80g、鲜辣椒10g、大豆食用油18g、通用酱油（shoyu近似）20g、通用蚝油20g、玉米淀粉12g、姜10g、小葱10g、食盐2g；整份约650g。家庭三菇替代版固定鲜香菇金针菇白蘑菇，明确替代蟹味菇白玉菇；不做先焯水弃汤，直接炒熟，全部油蚝油及淀粉加入；不宣称原品种相同。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-a4b59bbb9852",
+    "state": "ready_to_eat",
+    "cooking_method": "stir_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": null,
+    "variant": "family-a4b59bbb9852-v1",
+    "standard_ingredients": [
+      {
+        "key": "shiitake",
+        "grams": 150
+      },
+      {
+        "key": "enoki",
+        "grams": 150
+      },
+      {
+        "key": "mushroom",
+        "grams": 150
+      },
+      {
+        "key": "broccoli",
+        "grams": 150
+      },
+      {
+        "key": "pepper_green",
+        "grams": 80
+      },
+      {
+        "key": "chili",
+        "grams": 10
+      },
+      {
+        "key": "oil",
+        "grams": 18
+      },
+      {
+        "key": "soy",
+        "grams": 20
+      },
+      {
+        "key": "oyster",
+        "grams": 20
+      },
+      {
+        "key": "starch",
+        "grams": 12
+      },
+      {
+        "key": "ginger",
+        "grams": 10
+      },
+      {
+        "key": "scallion",
+        "grams": 10
+      },
+      {
+        "key": "salt",
+        "grams": 2
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 68.821538,
+    "protein_g": 2.982185,
+    "carbohydrate_g": 8.919846,
+    "fat_g": 3.181385
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169242/nutrients",
+    "version": "358e2758b1e839ee",
+    "fdc_ids": [
+      169242,
+      169382,
+      169251,
+      170379,
+      170427,
+      170106,
+      171411,
+      174277,
+      174529,
+      169698,
+      169231,
+      170005,
+      173468
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "32b874f770c9b93a1af18dc68a6380662073255e"
+  },
+  "profile": {
+    "id": "family-a4b59bbb9852-v1",
+    "version": "1",
+    "recipe_id": "howtocook-a4b59bbb9852",
+    "recipe_blob_sha": "32b874f770c9b93a1af18dc68a6380662073255e",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：鲜香菇150g、金针菇150g、白蘑菇150g、西兰花150g、青甜椒80g、鲜辣椒10g、大豆食用油18g、通用酱油（shoyu近似）20g、通用蚝油20g、玉米淀粉12g、姜10g、小葱10g、食盐2g；整份约650g。家庭三菇替代版固定鲜香菇金针菇白蘑菇，明确替代蟹味菇白玉菇；不做先焯水弃汤，直接炒熟，全部油蚝油及淀粉加入；不宣称原品种相同。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-a4b59bbb9852",
+      "state": "ready_to_eat",
+      "cooking_method": "stir_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": null,
+      "variant": "family-a4b59bbb9852-v1",
+      "standard_ingredients": [
+        {
+          "key": "shiitake",
+          "grams": 150
+        },
+        {
+          "key": "enoki",
+          "grams": 150
+        },
+        {
+          "key": "mushroom",
+          "grams": 150
+        },
+        {
+          "key": "broccoli",
+          "grams": 150
+        },
+        {
+          "key": "pepper_green",
+          "grams": 80
+        },
+        {
+          "key": "chili",
+          "grams": 10
+        },
+        {
+          "key": "oil",
+          "grams": 18
+        },
+        {
+          "key": "soy",
+          "grams": 20
+        },
+        {
+          "key": "oyster",
+          "grams": 20
+        },
+        {
+          "key": "starch",
+          "grams": 12
+        },
+        {
+          "key": "ginger",
+          "grams": 10
+        },
+        {
+          "key": "scallion",
+          "grams": 10
+        },
+        {
+          "key": "salt",
+          "grams": 2
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：鲜香菇150g、金针菇150g、白蘑菇150g、西兰花150g、青甜椒80g、鲜辣椒10g、大豆食用油18g、通用酱油（shoyu近似）20g、通用蚝油20g、玉米淀粉12g、姜10g、小葱10g、食盐2g。克数是项目标准，不是原文ml/个数换算。",
+      "家庭三菇替代版固定鲜香菇金针菇白蘑菇，明确替代蟹味菇白玉菇；不做先焯水弃汤，直接炒熟，全部油蚝油及淀粉加入；不宣称原品种相同",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "鲜香菇",
+        "food": {
+          "fdc_id": 169242,
+          "description": "Mushrooms, shiitake, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c2accfdea48e68173ab7c41722c8f3a0fe3223d962f1a874da59f9ab3dabb69e"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "金针菇",
+        "food": {
+          "fdc_id": 169382,
+          "description": "Mushrooms, enoki, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "54d3b1a4a0025f7370119ac10cbbc796af2eba0b438cb50a4d60cbdb54e98ff2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白蘑菇",
+        "food": {
+          "fdc_id": 169251,
+          "description": "Mushrooms, white, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8cbfa6009ce552eb0e16cada0513e5276a03341e73e8e98207ff8deab5ba69f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "西兰花",
+        "food": {
+          "fdc_id": 170379,
+          "description": "Broccoli, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8484641106cf413061a8bf74dea69cfc6058c55f0628446c0a6f99d1ada0060b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "青甜椒",
+        "food": {
+          "fdc_id": 170427,
+          "description": "Peppers, sweet, green, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "581eded9601b96451ac4ad0451f3b1699713c3fa2b91ab530a7537b7bf22c298"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "鲜辣椒",
+        "food": {
+          "fdc_id": 170106,
+          "description": "Peppers, hot chili, red, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 18,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "通用蚝油",
+        "food": {
+          "fdc_id": 174529,
+          "description": "Sauce, oyster, ready-to-serve",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "1652b798ee6cb7e3a0ec61f6630d7895fe972a542460d71054f52f1d2bc499e7"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 650,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品650g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "stir_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "32b874f770c9b93a1af18dc68a6380662073255e",
+        "food_identity": "Mushrooms, shiitake, raw; Mushrooms, enoki, raw; Mushrooms, white, raw; Broccoli, raw; Peppers, sweet, green, raw; Peppers, hot chili, red, raw; Oil, soybean, salad or cooking; Soy sauce made from soy and wheat (shoyu); Sauce, oyster, ready-to-serve; Cornstarch; Ginger root, raw; Onions, spring or scallions (includes tops and bulb), raw; Salt, table",
+        "state_and_cooking": "逐项按raw/raw/raw/raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/raw/ready_to_eat输入；成品stir_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "家庭三菇替代版固定鲜香菇金针菇白蘑菇，明确替代蟹味菇白玉菇；不做先焯水弃汤，直接炒熟，全部油蚝油及淀粉加入；不宣称原品种相同"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87.md",
+          "blob_sha": "32b874f770c9b93a1af18dc68a6380662073255e",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169242/nutrients",
+          "note": "鲜香菇：Mushrooms, shiitake, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169382/nutrients",
+          "note": "金针菇：Mushrooms, enoki, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169251/nutrients",
+          "note": "白蘑菇：Mushrooms, white, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
+          "note": "西兰花：Broccoli, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170427/nutrients",
+          "note": "青甜椒：Peppers, sweet, green, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170106/nutrients",
+          "note": "鲜辣椒：Peppers, hot chili, red, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174529/nutrients",
+          "note": "通用蚝油：Sauce, oyster, ready-to-serve；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+          "note": "玉米淀粉：Cornstarch；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+          "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+          "note": "小葱：Onions, spring or scallions (includes tops and bulb), raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 34,
+        "protein_g": 2.24,
+        "carbohydrate_g": 6.79,
+        "fat_g": 0.49
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 34
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.24
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.79
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.49
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169242,
+        "description": "Mushrooms, shiitake, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:04:48.393Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169242/nutrients",
+        "version": "SR Legacy / 2019-04-01 / c2accfdea48e6817",
+        "raw_sha256": "c2accfdea48e68173ab7c41722c8f3a0fe3223d962f1a874da59f9ab3dabb69e",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8f69e055209653a75ba24b09bfdf3629b4dbbef39f10c66d12629e30290bd146"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 37,
+        "protein_g": 2.66,
+        "carbohydrate_g": 7.81,
+        "fat_g": 0.29
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 37
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.66
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.81
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.29
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169382,
+        "description": "Mushrooms, enoki, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:04:48.393Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169382/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 54d3b1a4a0025f73",
+        "raw_sha256": "54d3b1a4a0025f7370119ac10cbbc796af2eba0b438cb50a4d60cbdb54e98ff2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8f69e055209653a75ba24b09bfdf3629b4dbbef39f10c66d12629e30290bd146"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 22,
+        "protein_g": 3.09,
+        "carbohydrate_g": 3.26,
+        "fat_g": 0.34
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 22
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.09
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.26
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.34
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169251,
+        "description": "Mushrooms, white, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:04:48.393Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169251/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8cbfa6009ce552e",
+        "raw_sha256": "f8cbfa6009ce552eb0e16cada0513e5276a03341e73e8e98207ff8deab5ba69f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8f69e055209653a75ba24b09bfdf3629b4dbbef39f10c66d12629e30290bd146"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 34,
+        "protein_g": 2.82,
+        "carbohydrate_g": 6.64,
+        "fat_g": 0.37
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 34
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.64
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.37
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170379,
+        "description": "Broccoli, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:02.663Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 8484641106cf4130",
+        "raw_sha256": "8484641106cf413061a8bf74dea69cfc6058c55f0628446c0a6f99d1ada0060b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "2ea386c3654e84779e689c14a318813be6834df679986d0a405910e374142651"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 20,
+        "protein_g": 0.86,
+        "carbohydrate_g": 4.64,
+        "fat_g": 0.17
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 20
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.86
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.64
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.17
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170427,
+        "description": "Peppers, sweet, green, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:45.542Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170427/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 581eded9601b9645",
+        "raw_sha256": "581eded9601b96451ac4ad0451f3b1699713c3fa2b91ab530a7537b7bf22c298",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3f5636df3c8bca4d51887104eb6f76f38e42e355f376693fe41bfce18023efc4"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 40,
+        "protein_g": 1.87,
+        "carbohydrate_g": 8.81,
+        "fat_g": 0.44
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 40
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.87
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 8.81
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.44
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170106,
+        "description": "Peppers, hot chili, red, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170106/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 0672f914f6833951",
+        "raw_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 51,
+        "protein_g": 1.35,
+        "carbohydrate_g": 10.9,
+        "fat_g": 0.25
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 51
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.35
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 10.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.25
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174529,
+        "description": "Sauce, oyster, ready-to-serve",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:18.457Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174529/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 1652b798ee6cb7e3",
+        "raw_sha256": "1652b798ee6cb7e3a0ec61f6630d7895fe972a542460d71054f52f1d2bc499e7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "4f91f593d29ac8f232bc21fb7a54f9c1b463cd8fc94766b2b415f200c7cb4c3e"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 381,
+        "protein_g": 0.26,
+        "carbohydrate_g": 91.3,
+        "fat_g": 0.05
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 381
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.26
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 91.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.05
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169698,
+        "description": "Cornstarch",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:13.894Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 6abbc2aad71def07",
+        "raw_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8335fd2b6cb173614624aa578ae42445496f50073e80f7a8bcbfe25eec41987c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 80,
+        "protein_g": 1.82,
+        "carbohydrate_g": 17.8,
+        "fat_g": 0.75
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 80
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.75
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169231,
+        "description": "Ginger root, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:57.102Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8c5161cfeef99a8",
+        "raw_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3ed0beff1be476911c0e6250c641fa95241e2baad9a5169294d889fb94927fc0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 32,
+        "protein_g": 1.83,
+        "carbohydrate_g": 7.34,
+        "fat_g": 0.19
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 32
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.83
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.19
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170005,
+        "description": "Onions, spring or scallions (includes tops and bulb), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:01.945Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 03035a02e7636a80",
+        "raw_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec",
+        "transport": "api_search_snapshot",
+        "query_sha256": "416b8b0bce821dae5c07e19da1ce978c892bc5a9ebdd2b571af1842bcb1490ac"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "鲜香菇",
+        "food": {
+          "fdc_id": 169242,
+          "description": "Mushrooms, shiitake, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c2accfdea48e68173ab7c41722c8f3a0fe3223d962f1a874da59f9ab3dabb69e"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 34,
+          "protein_g": 2.24,
+          "carbohydrate_g": 6.79,
+          "fat_g": 0.49
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "金针菇",
+        "food": {
+          "fdc_id": 169382,
+          "description": "Mushrooms, enoki, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "54d3b1a4a0025f7370119ac10cbbc796af2eba0b438cb50a4d60cbdb54e98ff2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 37,
+          "protein_g": 2.66,
+          "carbohydrate_g": 7.81,
+          "fat_g": 0.29
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "白蘑菇",
+        "food": {
+          "fdc_id": 169251,
+          "description": "Mushrooms, white, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8cbfa6009ce552eb0e16cada0513e5276a03341e73e8e98207ff8deab5ba69f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 22,
+          "protein_g": 3.09,
+          "carbohydrate_g": 3.26,
+          "fat_g": 0.34
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "西兰花",
+        "food": {
+          "fdc_id": 170379,
+          "description": "Broccoli, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8484641106cf413061a8bf74dea69cfc6058c55f0628446c0a6f99d1ada0060b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 34,
+          "protein_g": 2.82,
+          "carbohydrate_g": 6.64,
+          "fat_g": 0.37
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "青甜椒",
+        "food": {
+          "fdc_id": 170427,
+          "description": "Peppers, sweet, green, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "581eded9601b96451ac4ad0451f3b1699713c3fa2b91ab530a7537b7bf22c298"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 20,
+          "protein_g": 0.86,
+          "carbohydrate_g": 4.64,
+          "fat_g": 0.17
+        },
+        "edible_g": 80
+      },
+      {
+        "name": "鲜辣椒",
+        "food": {
+          "fdc_id": 170106,
+          "description": "Peppers, hot chili, red, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 40,
+          "protein_g": 1.87,
+          "carbohydrate_g": 8.81,
+          "fat_g": 0.44
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 18,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 18
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "通用蚝油",
+        "food": {
+          "fdc_id": 174529,
+          "description": "Sauce, oyster, ready-to-serve",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "1652b798ee6cb7e3a0ec61f6630d7895fe972a542460d71054f52f1d2bc499e7"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 51,
+          "protein_g": 1.35,
+          "carbohydrate_g": 10.9,
+          "fat_g": 0.25
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 381,
+          "protein_g": 0.26,
+          "carbohydrate_g": 91.3,
+          "fat_g": 0.05
+        },
+        "edible_g": 12
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 80,
+          "protein_g": 1.82,
+          "carbohydrate_g": 17.8,
+          "fat_g": 0.75
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 32,
+          "protein_g": 1.83,
+          "carbohydrate_g": 7.34,
+          "fat_g": 0.19
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 2
+      }
+    ],
+    "total": {
+      "energy_kcal": 447.34,
+      "protein_g": 19.3842,
+      "carbohydrate_g": 57.979,
+      "fat_g": 20.679
+    },
+    "final_edible_g": 650,
+    "per_100g": {
+      "energy_kcal": 68.821538,
+      "protein_g": 2.982185,
+      "carbohydrate_g": 8.919846,
+      "fat_g": 3.181385
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 76.240589,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

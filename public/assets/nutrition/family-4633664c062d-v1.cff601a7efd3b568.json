@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "id": "family-4633664c062d-v1",
+  "recipe_id": "howtocook-4633664c062d",
+  "recipe_blob_sha": "b5004dc0c6456218c861128fffe56513b271b8a2",
+  "version": "1",
+  "data_version": "d4427973e90a6671",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "recipe_estimate",
+  "estimation_level": "food_group_proxy",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "同类食物代理粗估；2–3人家庭标准配方估算：通用米发酵甜饮（甘酒）500g；整份约500g。2–3人份含米粒酒酿成品，使用通用米麴发酵甜饮甘酒500g作同类谷物发酵成品代理。不是按生米营养假装完成发酵，也不声称中国甜酒曲、米粒汁液比例或实际酒度相同；不另加糖，固定参考成品500g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "identity_precision": "food_group_proxy",
+    "food_proxies": [
+      {
+        "target": "含米粒糯米酒酿",
+        "reference_name": "通用米发酵甜饮（甘酒）",
+        "food": {
+          "provider": "mext",
+          "food_id": "16050",
+          "description": "＜その他＞　甘酒",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+        },
+        "reason": "通用米发酵甜品代理，含水量、酒精和发酵组成可能不同"
+      }
+    ],
+    "food_identity": "howtocook-4633664c062d",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-4633664c062d-v1",
+    "standard_ingredients": [
+      {
+        "key": "mext_amazake",
+        "grams": 500
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 76,
+    "protein_g": 1.7,
+    "carbohydrate_g": 18.3,
+    "fat_g": 0.1
+  },
+  "source": {
+    "name": "MEXT 日本食品標準成分表",
+    "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16050_7",
+    "version": "d4427973e90a6671",
+    "fdc_ids": [],
+    "providers": [
+      "mext"
+    ],
+    "food_ids": [
+      {
+        "provider": "mext",
+        "id": "16050"
+      }
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%85%92%E9%85%BF%E9%86%AA%E7%B3%9F/%E9%85%92%E9%85%BF%E9%86%AA%E7%B3%9F.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "b5004dc0c6456218c861128fffe56513b271b8a2"
+  },
+  "profile": {
+    "id": "family-4633664c062d-v1",
+    "version": "1",
+    "recipe_id": "howtocook-4633664c062d",
+    "recipe_blob_sha": "b5004dc0c6456218c861128fffe56513b271b8a2",
+    "method": "recipe_estimate",
+    "estimation_level": "food_group_proxy",
+    "default_for_artwork": false,
+    "scope": "同类食物代理粗估；2–3人家庭标准配方估算：通用米发酵甜饮（甘酒）500g；整份约500g。2–3人份含米粒酒酿成品，使用通用米麴发酵甜饮甘酒500g作同类谷物发酵成品代理。不是按生米营养假装完成发酵，也不声称中国甜酒曲、米粒汁液比例或实际酒度相同；不另加糖，固定参考成品500g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "identity_precision": "food_group_proxy",
+      "food_proxies": [
+        {
+          "target": "含米粒糯米酒酿",
+          "reference_name": "通用米发酵甜饮（甘酒）",
+          "food": {
+            "provider": "mext",
+            "food_id": "16050",
+            "description": "＜その他＞　甘酒",
+            "data_type": "MEXT Standard Tables",
+            "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+          },
+          "reason": "通用米发酵甜品代理，含水量、酒精和发酵组成可能不同"
+        }
+      ],
+      "food_identity": "howtocook-4633664c062d",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-4633664c062d-v1",
+      "standard_ingredients": [
+        {
+          "key": "mext_amazake",
+          "grams": 500
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：通用米发酵甜饮（甘酒）500g。克数是项目标准，不是原文ml/个数换算。",
+      "2–3人份含米粒酒酿成品，使用通用米麴发酵甜饮甘酒500g作同类谷物发酵成品代理。不是按生米营养假装完成发酵，也不声称中国甜酒曲、米粒汁液比例或实际酒度相同；不另加糖，固定参考成品500g。",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "含米粒糯米酒酿采用通用米发酵甜饮（甘酒）代理：通用米发酵甜品代理，含水量、酒精和发酵组成可能不同。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "通用米发酵甜饮（甘酒）",
+        "food": {
+          "provider": "mext",
+          "food_id": "16050",
+          "description": "＜その他＞　甘酒",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。"
+      }
+    ],
+    "final_weight": {
+      "grams": 500,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
+      "reviewed_at": "2026-10-29T00:12:21.192Z",
+      "checks": {
+        "recipe_version": "b5004dc0c6456218c861128fffe56513b271b8a2",
+        "food_identity": "＜その他＞　甘酒",
+        "state_and_cooking": "逐项按ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "2–3人份含米粒酒酿成品，使用通用米麴发酵甜饮甘酒500g作同类谷物发酵成品代理。不是按生米营养假装完成发酵，也不声称中国甜酒曲、米粒汁液比例或实际酒度相同；不另加糖，固定参考成品500g。",
+        "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%85%92%E9%85%BF%E9%86%AA%E7%B3%9F/%E9%85%92%E9%85%BF%E9%86%AA%E7%B3%9F.md",
+          "blob_sha": "b5004dc0c6456218c861128fffe56513b271b8a2",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16050_7",
+          "note": "通用米发酵甜饮（甘酒）：＜その他＞　甘酒；已核对数据类型、生熟、可食部分及原始摘要。MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 76,
+        "protein_g": 1.7,
+        "carbohydrate_g": 18.3,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "identifier": "ENERC_KCAL",
+          "column": "G",
+          "cell": "G2339",
+          "unit": "kcal",
+          "raw_value": "76",
+          "amount_per_100g": 76,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "protein_g": {
+          "identifier": "PROT-",
+          "column": "J",
+          "cell": "J2339",
+          "unit": "g",
+          "raw_value": "1.7",
+          "amount_per_100g": 1.7,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "carbohydrate_g": {
+          "identifier": "CHOCDF-",
+          "column": "U",
+          "cell": "U2339",
+          "unit": "g",
+          "raw_value": "18.3",
+          "amount_per_100g": 18.3,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        },
+        "fat_g": {
+          "identifier": "FAT-",
+          "column": "M",
+          "cell": "M2339",
+          "unit": "g",
+          "raw_value": "0.1",
+          "amount_per_100g": 0.1,
+          "estimated_in_source": false,
+          "trace_in_source": false
+        }
+      },
+      "source": {
+        "provider": "mext",
+        "name": "MEXT 日本食品標準成分表",
+        "food_id": "16050",
+        "description": "＜その他＞　甘酒",
+        "data_type": "MEXT Standard Tables",
+        "publication_date": "2026-03-27",
+        "retrieved_at": "2026-10-28T15:22:54.767Z",
+        "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16050_7",
+        "version": "日本食品標準成分表（八訂）増補2023年 / 正誤表2026-03-27 / 742bed7b5e17db39",
+        "raw_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30",
+        "transport": "official_bulk_xlsx",
+        "dataset_url": "https://www.mext.go.jp/content/20260327-mxt_kagsei-mext-000029402_02.xlsx",
+        "dataset_sha256": "0d5a77077dd6cd91cbc2e6e317b8b218a38728c409eed452f1c10635a0d3099c",
+        "sheet_name": "表全体",
+        "row_number": 2339,
+        "license": {
+          "name": "MEXT food composition data reuse with attribution",
+          "url": "https://www.mext.go.jp/a_menu/syokuhinseibun/",
+          "attribution": "出典：日本食品標準成分表（八訂）増補2023年（文部科学省）。本项目加工计算。"
+        },
+        "nutrient_definition": {
+          "carbohydrate_g": "CHOCDF-: 差减法总碳水，保留来源口径，不替换为可利用碳水",
+          "energy_kcal": "保留日本成分表能量值，未按4/4/9改写"
+        }
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "通用米发酵甜饮（甘酒）",
+        "food": {
+          "provider": "mext",
+          "food_id": "16050",
+          "description": "＜その他＞　甘酒",
+          "data_type": "MEXT Standard Tables",
+          "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。",
+        "per_100g": {
+          "energy_kcal": 76,
+          "protein_g": 1.7,
+          "carbohydrate_g": 18.3,
+          "fat_g": 0.1
+        },
+        "edible_g": 500
+      }
+    ],
+    "total": {
+      "energy_kcal": 380,
+      "protein_g": 8.5,
+      "carbohydrate_g": 91.5,
+      "fat_g": 0.5
+    },
+    "final_edible_g": 500,
+    "per_100g": {
+      "energy_kcal": 76,
+      "protein_g": 1.7,
+      "carbohydrate_g": 18.3,
+      "fat_g": 0.1
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 80.9,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

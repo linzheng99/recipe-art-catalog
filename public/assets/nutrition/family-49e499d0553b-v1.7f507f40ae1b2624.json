@@ -1,0 +1,677 @@
+{
+  "schema_version": 1,
+  "id": "family-49e499d0553b-v1",
+  "recipe_id": "howtocook-49e499d0553b",
+  "recipe_blob_sha": "2ec80388a10cae4c9084aa958e6060efd007449a",
+  "version": "1",
+  "data_version": "0c3e33ce87e84246",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 520,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品520g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：CHINESE BRAND猪肉白菜速冻饺子450g、大豆食用油15g、芝麻仁5g、小葱10g、饮用水100g；整份约520g。指定CHINESE BRAND猪肉白菜速冻饺子包装净重450g；不先煮水饺，直接煎加水焖熟，全部煎油及残余汤汁食用，成品520g为假设；不适用于其他品牌馅料。限定品牌：CHINESE BRAND猪肉白菜速冻饺子=CHINESE BRAND GTIN 084503770769。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-49e499d0553b",
+    "state": "ready_to_eat",
+    "cooking_method": "pan_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": "CHINESE BRAND猪肉白菜速冻饺子=CHINESE BRAND GTIN 084503770769",
+    "variant": "family-49e499d0553b-v1",
+    "standard_ingredients": [
+      {
+        "key": "dumpling_exact",
+        "grams": 450
+      },
+      {
+        "key": "oil",
+        "grams": 15
+      },
+      {
+        "key": "sesame",
+        "grams": 5
+      },
+      {
+        "key": "scallion",
+        "grams": 10
+      },
+      {
+        "key": "water",
+        "grams": 100
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 247.971154,
+    "protein_g": 9.118846,
+    "carbohydrate_g": 23.298846,
+    "fat_g": 12.885385
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/2624459/nutrients",
+    "version": "0c3e33ce87e84246",
+    "fdc_ids": [
+      2624459,
+      171411,
+      170150,
+      170005,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E7%85%8E%E9%A5%BA.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "2ec80388a10cae4c9084aa958e6060efd007449a"
+  },
+  "profile": {
+    "id": "family-49e499d0553b-v1",
+    "version": "1",
+    "recipe_id": "howtocook-49e499d0553b",
+    "recipe_blob_sha": "2ec80388a10cae4c9084aa958e6060efd007449a",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：CHINESE BRAND猪肉白菜速冻饺子450g、大豆食用油15g、芝麻仁5g、小葱10g、饮用水100g；整份约520g。指定CHINESE BRAND猪肉白菜速冻饺子包装净重450g；不先煮水饺，直接煎加水焖熟，全部煎油及残余汤汁食用，成品520g为假设；不适用于其他品牌馅料。限定品牌：CHINESE BRAND猪肉白菜速冻饺子=CHINESE BRAND GTIN 084503770769。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-49e499d0553b",
+      "state": "ready_to_eat",
+      "cooking_method": "pan_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": "CHINESE BRAND猪肉白菜速冻饺子=CHINESE BRAND GTIN 084503770769",
+      "variant": "family-49e499d0553b-v1",
+      "standard_ingredients": [
+        {
+          "key": "dumpling_exact",
+          "grams": 450
+        },
+        {
+          "key": "oil",
+          "grams": 15
+        },
+        {
+          "key": "sesame",
+          "grams": 5
+        },
+        {
+          "key": "scallion",
+          "grams": 10
+        },
+        {
+          "key": "water",
+          "grams": 100
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：CHINESE BRAND猪肉白菜速冻饺子450g、大豆食用油15g、芝麻仁5g、小葱10g、饮用水100g。克数是项目标准，不是原文ml/个数换算。",
+      "指定CHINESE BRAND猪肉白菜速冻饺子包装净重450g；不先煮水饺，直接煎加水焖熟，全部煎油及残余汤汁食用，成品520g为假设；不适用于其他品牌馅料",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "CHINESE BRAND猪肉白菜速冻饺子",
+        "food": {
+          "fdc_id": 2624459,
+          "description": "PORK DUMPLING",
+          "data_type": "Branded",
+          "snapshot_sha256": "aec3ddb659b7c81ac36e0a4a62fd234ff129654fe4aff0d45561db358efd32d6",
+          "brand_owner": "Chinese Spaghetti Factory Inc.",
+          "brand_name": "CHINESE BRAND",
+          "gtin_upc": "084503770769"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定Chinese Spaghetti Factory的CHINESE BRAND速冻猪肉白菜饺子，按未烹饪包装净重输入；不使用任意馅料或其他品牌。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "芝麻仁",
+        "food": {
+          "fdc_id": 170150,
+          "description": "Seeds, sesame seeds, whole, dried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "87220391998d507e6b77c29f15b42dc305d6201be0c7b133d9f1755869032320"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 520,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品520g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "pan_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:14:28.217Z",
+      "checks": {
+        "recipe_version": "2ec80388a10cae4c9084aa958e6060efd007449a",
+        "food_identity": "PORK DUMPLING; Oil, soybean, salad or cooking; Seeds, sesame seeds, whole, dried; Onions, spring or scallions (includes tops and bulb), raw; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/raw/ready_to_eat输入；成品pan_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "CHINESE BRAND猪肉白菜速冻饺子=CHINESE BRAND GTIN 084503770769",
+        "standard_variant": "指定CHINESE BRAND猪肉白菜速冻饺子包装净重450g；不先煮水饺，直接煎加水焖熟，全部煎油及残余汤汁食用，成品520g为假设；不适用于其他品牌馅料"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E7%85%8E%E9%A5%BA.md",
+          "blob_sha": "2ec80388a10cae4c9084aa958e6060efd007449a",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2624459/nutrients",
+          "note": "CHINESE BRAND猪肉白菜速冻饺子：PORK DUMPLING；已核对数据类型、生熟、可食部分及原始摘要。限定Chinese Spaghetti Factory的CHINESE BRAND速冻猪肉白菜饺子，按未烹饪包装净重输入；不使用任意馅料或其他品牌。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "note": "芝麻仁：Seeds, sesame seeds, whole, dried；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+          "note": "小葱：Onions, spring or scallions (includes tops and bulb), raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 250,
+        "protein_g": 10.3,
+        "carbohydrate_g": 26.5,
+        "fat_g": 11
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 250
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 26.5
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 11
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2624459,
+        "description": "PORK DUMPLING",
+        "data_type": "Branded",
+        "brand_owner": "Chinese Spaghetti Factory Inc.",
+        "brand_name": "CHINESE BRAND",
+        "gtin_upc": "084503770769",
+        "ingredients": "DOUGH : BLEACHED, BROMATED ENRICHED FLOUR (CONTAINS: BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, POTASSIUM BROMATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SOYBEAN OIL, EGG WHITES. FILLING : GROUND PORK, CABBAGE, SOY SAUCE (WATER, MOLASSES, SOYA BEAN, FLOUR AND COLORED WITH CARAMEL), GINGER ROOT, SUGAR, MONOSODIUM GLUTAMATE, SCALLION, SALT, SESAME SEED OIL, PEPPER.",
+        "publication_date": "2023-08-31",
+        "retrieved_at": "2026-10-28T06:12:17.953Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2624459/nutrients",
+        "version": "Branded / 2023-08-31 / aec3ddb659b7c81a",
+        "raw_sha256": "aec3ddb659b7c81ac36e0a4a62fd234ff129654fe4aff0d45561db358efd32d6",
+        "transport": "api_search_snapshot",
+        "query_sha256": "53e4be1fa15a9397d42e671cf76b86d08d12df1542291b2f7cd9de844b714c32"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 573,
+        "protein_g": 17.7,
+        "carbohydrate_g": 23.4,
+        "fat_g": 49.7
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 573
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 17.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 23.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 49.7
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170150,
+        "description": "Seeds, sesame seeds, whole, dried",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:06.712Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 87220391998d507e",
+        "raw_sha256": "87220391998d507e6b77c29f15b42dc305d6201be0c7b133d9f1755869032320",
+        "transport": "api_search_snapshot",
+        "query_sha256": "9123fb6dd92dbc28b28c187ff4c72e67323b1ff8ae189f387dbae1b8e70cf64d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 32,
+        "protein_g": 1.83,
+        "carbohydrate_g": 7.34,
+        "fat_g": 0.19
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 32
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.83
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.19
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170005,
+        "description": "Onions, spring or scallions (includes tops and bulb), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:01.945Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 03035a02e7636a80",
+        "raw_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec",
+        "transport": "api_search_snapshot",
+        "query_sha256": "416b8b0bce821dae5c07e19da1ce978c892bc5a9ebdd2b571af1842bcb1490ac"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "CHINESE BRAND猪肉白菜速冻饺子",
+        "food": {
+          "fdc_id": 2624459,
+          "description": "PORK DUMPLING",
+          "data_type": "Branded",
+          "snapshot_sha256": "aec3ddb659b7c81ac36e0a4a62fd234ff129654fe4aff0d45561db358efd32d6",
+          "brand_owner": "Chinese Spaghetti Factory Inc.",
+          "brand_name": "CHINESE BRAND",
+          "gtin_upc": "084503770769"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定Chinese Spaghetti Factory的CHINESE BRAND速冻猪肉白菜饺子，按未烹饪包装净重输入；不使用任意馅料或其他品牌。",
+        "per_100g": {
+          "energy_kcal": 250,
+          "protein_g": 10.3,
+          "carbohydrate_g": 26.5,
+          "fat_g": 11
+        },
+        "edible_g": 450
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "芝麻仁",
+        "food": {
+          "fdc_id": 170150,
+          "description": "Seeds, sesame seeds, whole, dried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "87220391998d507e6b77c29f15b42dc305d6201be0c7b133d9f1755869032320"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 573,
+          "protein_g": 17.7,
+          "carbohydrate_g": 23.4,
+          "fat_g": 49.7
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 32,
+          "protein_g": 1.83,
+          "carbohydrate_g": 7.34,
+          "fat_g": 0.19
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 100
+      }
+    ],
+    "total": {
+      "energy_kcal": 1289.45,
+      "protein_g": 47.418,
+      "carbohydrate_g": 121.154,
+      "fat_g": 67.004
+    },
+    "final_edible_g": 520,
+    "per_100g": {
+      "energy_kcal": 247.971154,
+      "protein_g": 9.118846,
+      "carbohydrate_g": 23.298846,
+      "fat_g": 12.885385
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 245.639233,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

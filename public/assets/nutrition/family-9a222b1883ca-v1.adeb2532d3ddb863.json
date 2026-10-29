@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "id": "family-9a222b1883ca-v1",
+  "recipe_id": "howtocook-9a222b1883ca",
+  "recipe_blob_sha": "dd506eb2fc7789664d53f3bf91f44bd7823eb7bc",
+  "version": "1",
+  "data_version": "e1eb5cfe84c31642",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 850,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品850g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：白米粉250g、饮用水300g、小葱20g、通用酱油（shoyu近似）25g、食盐2g、净全鸡蛋液100g、小白菜200g、大豆食用油25g；整份约850g。白粿固定用普通米粉加水蒸制的无糖自制版本，非糯米糕或市售标签；不先煮制沥水，直接切片炒熟，葱油不滤渣；可选项固定鸡蛋青菜，油25g全计入。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-9a222b1883ca",
+    "state": "ready_to_eat",
+    "cooking_method": "stir_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": null,
+    "variant": "family-9a222b1883ca-v1",
+    "standard_ingredients": [
+      {
+        "key": "rice_flour",
+        "grams": 250
+      },
+      {
+        "key": "water",
+        "grams": 300
+      },
+      {
+        "key": "scallion",
+        "grams": 20
+      },
+      {
+        "key": "soy",
+        "grams": 25
+      },
+      {
+        "key": "salt",
+        "grams": 2
+      },
+      {
+        "key": "egg",
+        "grams": 100
+      },
+      {
+        "key": "bok_choy",
+        "grams": 200
+      },
+      {
+        "key": "oil",
+        "grams": 25
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 155.841176,
+    "protein_g": 3.867765,
+    "carbohydrate_g": 24.474176,
+    "fat_g": 4.545941
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+    "version": "e1eb5cfe84c31642",
+    "fdc_ids": [
+      169714,
+      173647,
+      170005,
+      174277,
+      173468,
+      171287,
+      170390,
+      171411
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E7%82%92%E5%B9%B4%E7%B3%95.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "dd506eb2fc7789664d53f3bf91f44bd7823eb7bc"
+  },
+  "profile": {
+    "id": "family-9a222b1883ca-v1",
+    "version": "1",
+    "recipe_id": "howtocook-9a222b1883ca",
+    "recipe_blob_sha": "dd506eb2fc7789664d53f3bf91f44bd7823eb7bc",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：白米粉250g、饮用水300g、小葱20g、通用酱油（shoyu近似）25g、食盐2g、净全鸡蛋液100g、小白菜200g、大豆食用油25g；整份约850g。白粿固定用普通米粉加水蒸制的无糖自制版本，非糯米糕或市售标签；不先煮制沥水，直接切片炒熟，葱油不滤渣；可选项固定鸡蛋青菜，油25g全计入。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-9a222b1883ca",
+      "state": "ready_to_eat",
+      "cooking_method": "stir_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": null,
+      "variant": "family-9a222b1883ca-v1",
+      "standard_ingredients": [
+        {
+          "key": "rice_flour",
+          "grams": 250
+        },
+        {
+          "key": "water",
+          "grams": 300
+        },
+        {
+          "key": "scallion",
+          "grams": 20
+        },
+        {
+          "key": "soy",
+          "grams": 25
+        },
+        {
+          "key": "salt",
+          "grams": 2
+        },
+        {
+          "key": "egg",
+          "grams": 100
+        },
+        {
+          "key": "bok_choy",
+          "grams": 200
+        },
+        {
+          "key": "oil",
+          "grams": 25
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：白米粉250g、饮用水300g、小葱20g、通用酱油（shoyu近似）25g、食盐2g、净全鸡蛋液100g、小白菜200g、大豆食用油25g。克数是项目标准，不是原文ml/个数换算。",
+      "白粿固定用普通米粉加水蒸制的无糖自制版本，非糯米糕或市售标签；不先煮制沥水，直接切片炒熟，葱油不滤渣；可选项固定鸡蛋青菜，油25g全计入",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "白米粉",
+        "food": {
+          "fdc_id": 169714,
+          "description": "Rice flour, white, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "小白菜",
+        "food": {
+          "fdc_id": 170390,
+          "description": "Cabbage, chinese (pak-choi), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 850,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品850g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "stir_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:09:41.307Z",
+      "checks": {
+        "recipe_version": "dd506eb2fc7789664d53f3bf91f44bd7823eb7bc",
+        "food_identity": "Rice flour, white, unenriched; Beverages, water, tap, drinking; Onions, spring or scallions (includes tops and bulb), raw; Soy sauce made from soy and wheat (shoyu); Salt, table; Egg, whole, raw, fresh; Cabbage, chinese (pak-choi), raw; Oil, soybean, salad or cooking",
+        "state_and_cooking": "逐项按raw/ready_to_eat/raw/ready_to_eat/ready_to_eat/raw/raw/ready_to_eat输入；成品stir_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "白粿固定用普通米粉加水蒸制的无糖自制版本，非糯米糕或市售标签；不先煮制沥水，直接切片炒熟，葱油不滤渣；可选项固定鸡蛋青菜，油25g全计入"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E7%82%92%E5%B9%B4%E7%B3%95.md",
+          "blob_sha": "dd506eb2fc7789664d53f3bf91f44bd7823eb7bc",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+          "note": "白米粉：Rice flour, white, unenriched；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+          "note": "小葱：Onions, spring or scallions (includes tops and bulb), raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "净全鸡蛋液：Egg, whole, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170390/nutrients",
+          "note": "小白菜：Cabbage, chinese (pak-choi), raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 366,
+        "protein_g": 5.95,
+        "carbohydrate_g": 80.1,
+        "fat_g": 1.42
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 366
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 5.95
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 80.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.42
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169714,
+        "description": "Rice flour, white, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:53:54.123Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+        "version": "SR Legacy / 2019-04-01 / a8dfd65f52122447",
+        "raw_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "99ddda4919b5c7b96835c629d67d17e0169643730843c6bcd7bae4eebc84db80"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 32,
+        "protein_g": 1.83,
+        "carbohydrate_g": 7.34,
+        "fat_g": 0.19
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 32
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.83
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.19
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170005,
+        "description": "Onions, spring or scallions (includes tops and bulb), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:01.945Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 03035a02e7636a80",
+        "raw_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec",
+        "transport": "api_search_snapshot",
+        "query_sha256": "416b8b0bce821dae5c07e19da1ce978c892bc5a9ebdd2b571af1842bcb1490ac"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 13,
+        "protein_g": 1.5,
+        "carbohydrate_g": 2.18,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 13
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.18
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170390,
+        "description": "Cabbage, chinese (pak-choi), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:23.773Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170390/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f97a2a4156f9a654",
+        "raw_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0f35685a8e98d27263503110e42c9aca15a5a5f481a8f7b5d55bb079a7072d4d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "白米粉",
+        "food": {
+          "fdc_id": 169714,
+          "description": "Rice flour, white, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 366,
+          "protein_g": 5.95,
+          "carbohydrate_g": 80.1,
+          "fat_g": 1.42
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 32,
+          "protein_g": 1.83,
+          "carbohydrate_g": 7.34,
+          "fat_g": 0.19
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 25
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 2
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "小白菜",
+        "food": {
+          "fdc_id": 170390,
+          "description": "Cabbage, chinese (pak-choi), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 13,
+          "protein_g": 1.5,
+          "carbohydrate_g": 2.18,
+          "fat_g": 0.2
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 25
+      }
+    ],
+    "total": {
+      "energy_kcal": 1324.65,
+      "protein_g": 32.876,
+      "carbohydrate_g": 208.0305,
+      "fat_g": 38.6405
+    },
+    "final_edible_g": 850,
+    "per_100g": {
+      "energy_kcal": 155.841176,
+      "protein_g": 3.867765,
+      "carbohydrate_g": 24.474176,
+      "fat_g": 4.545941
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 154.281233,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

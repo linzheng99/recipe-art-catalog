@@ -1,0 +1,766 @@
+{
+  "schema_version": 1,
+  "id": "family-0fdf09819203-v1",
+  "recipe_id": "howtocook-0fdf09819203",
+  "recipe_blob_sha": "e72e51646e85f5099887ef1602e5d3a9fcf2ea53",
+  "version": "1",
+  "data_version": "c61c5e53bdd84f91",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 350,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品350g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：通用小麦面粉100g、玉米淀粉100g、无盐黄油100g、生鸡蛋蛋黄净量35g、白砂糖40g、食盐1g；整份约350g。蛋黄按生净重35g先蒸熟再加入面团；使用专用生蛋黄数据作为配方输入，不拿全熟全蛋代替，蒸熟及烘焙损失未校正。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-0fdf09819203",
+    "state": "ready_to_eat",
+    "cooking_method": "bake",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-0fdf09819203-v1",
+    "standard_ingredients": [
+      {
+        "key": "flour",
+        "grams": 100
+      },
+      {
+        "key": "starch",
+        "grams": 100
+      },
+      {
+        "key": "butter",
+        "grams": 100
+      },
+      {
+        "key": "egg_yolk_raw",
+        "grams": 35
+      },
+      {
+        "key": "sugar",
+        "grams": 40
+      },
+      {
+        "key": "salt",
+        "grams": 1
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 494.142857,
+    "protein_g": 4.85,
+    "carbohydrate_g": 59.690429,
+    "fat_g": 26.115714
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+    "version": "c61c5e53bdd84f91",
+    "fdc_ids": [
+      169761,
+      169698,
+      173430,
+      172184,
+      169655,
+      173468
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/dessert/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "e72e51646e85f5099887ef1602e5d3a9fcf2ea53"
+  },
+  "profile": {
+    "id": "family-0fdf09819203-v1",
+    "version": "1",
+    "recipe_id": "howtocook-0fdf09819203",
+    "recipe_blob_sha": "e72e51646e85f5099887ef1602e5d3a9fcf2ea53",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：通用小麦面粉100g、玉米淀粉100g、无盐黄油100g、生鸡蛋蛋黄净量35g、白砂糖40g、食盐1g；整份约350g。蛋黄按生净重35g先蒸熟再加入面团；使用专用生蛋黄数据作为配方输入，不拿全熟全蛋代替，蒸熟及烘焙损失未校正。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-0fdf09819203",
+      "state": "ready_to_eat",
+      "cooking_method": "bake",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-0fdf09819203-v1",
+      "standard_ingredients": [
+        {
+          "key": "flour",
+          "grams": 100
+        },
+        {
+          "key": "starch",
+          "grams": 100
+        },
+        {
+          "key": "butter",
+          "grams": 100
+        },
+        {
+          "key": "egg_yolk_raw",
+          "grams": 35
+        },
+        {
+          "key": "sugar",
+          "grams": 40
+        },
+        {
+          "key": "salt",
+          "grams": 1
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：通用小麦面粉100g、玉米淀粉100g、无盐黄油100g、生鸡蛋蛋黄净量35g、白砂糖40g、食盐1g。克数是项目标准，不是原文ml/个数换算。",
+      "蛋黄按生净重35g先蒸熟再加入面团；使用专用生蛋黄数据作为配方输入，不拿全熟全蛋代替，蒸熟及烘焙损失未校正",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "通用小麦面粉",
+        "food": {
+          "fdc_id": 169761,
+          "description": "Wheat flour, white, all-purpose, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "无盐黄油",
+        "food": {
+          "fdc_id": 173430,
+          "description": "Butter, without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "93ff39490ae9730e69955bf83013e9390975548a8bb2b72763a98c575e2cddff"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "生鸡蛋蛋黄净量",
+        "food": {
+          "fdc_id": 172184,
+          "description": "Egg, yolk, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b881eb409677776cef9be1fdc992e0aeb45dd91fb73822c0886919d7254f175f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "专用蛋黄条目；按生净重定义后蒸熟再烘烤，不能以全蛋营养代替蛋黄，热加工损失另作明确未校正假设。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 350,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品350g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "bake",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:43:38.138Z",
+      "checks": {
+        "recipe_version": "e72e51646e85f5099887ef1602e5d3a9fcf2ea53",
+        "food_identity": "Wheat flour, white, all-purpose, unenriched; Cornstarch; Butter, without salt; Egg, yolk, raw, fresh; Sugars, granulated; Salt, table",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/raw/ready_to_eat/ready_to_eat输入；成品bake。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "蛋黄按生净重35g先蒸熟再加入面团；使用专用生蛋黄数据作为配方输入，不拿全熟全蛋代替，蒸熟及烘焙损失未校正"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/dessert/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2.md",
+          "blob_sha": "e72e51646e85f5099887ef1602e5d3a9fcf2ea53",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+          "note": "通用小麦面粉：Wheat flour, white, all-purpose, unenriched；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+          "note": "玉米淀粉：Cornstarch；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "无盐黄油：Butter, without salt；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+          "note": "生鸡蛋蛋黄净量：Egg, yolk, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。专用蛋黄条目；按生净重定义后蒸熟再烘烤，不能以全蛋营养代替蛋黄，热加工损失另作明确未校正假设。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 364,
+        "protein_g": 10.3,
+        "carbohydrate_g": 76.3,
+        "fat_g": 0.98
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 364
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 76.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.98
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169761,
+        "description": "Wheat flour, white, all-purpose, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:19.187Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9529ab04b7250be5",
+        "raw_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 381,
+        "protein_g": 0.26,
+        "carbohydrate_g": 91.3,
+        "fat_g": 0.05
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 381
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.26
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 91.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.05
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169698,
+        "description": "Cornstarch",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:13.894Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 6abbc2aad71def07",
+        "raw_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8335fd2b6cb173614624aa578ae42445496f50073e80f7a8bcbfe25eec41987c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 717,
+        "protein_g": 0.85,
+        "carbohydrate_g": 0.06,
+        "fat_g": 81.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 717
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.85
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.06
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 81.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173430,
+        "description": "Butter, without salt",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:23.094Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 93ff39490ae9730e",
+        "raw_sha256": "93ff39490ae9730e69955bf83013e9390975548a8bb2b72763a98c575e2cddff",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e6a2c30e46ea0358f19b0b1bad1bf00779e8e68a8542bf576a969b0a0a64b9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 322,
+        "protein_g": 15.9,
+        "carbohydrate_g": 3.59,
+        "fat_g": 26.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 322
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 15.9
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.59
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 26.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172184,
+        "description": "Egg, yolk, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:18:09.799Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+        "version": "SR Legacy / 2019-04-01 / b881eb409677776c",
+        "raw_sha256": "b881eb409677776cef9be1fdc992e0aeb45dd91fb73822c0886919d7254f175f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "76e1304f9c5f511480df64648940454f2bc628fba03f69d16fc9d705daf1cb13"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "通用小麦面粉",
+        "food": {
+          "fdc_id": 169761,
+          "description": "Wheat flour, white, all-purpose, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 364,
+          "protein_g": 10.3,
+          "carbohydrate_g": 76.3,
+          "fat_g": 0.98
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 381,
+          "protein_g": 0.26,
+          "carbohydrate_g": 91.3,
+          "fat_g": 0.05
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "无盐黄油",
+        "food": {
+          "fdc_id": 173430,
+          "description": "Butter, without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "93ff39490ae9730e69955bf83013e9390975548a8bb2b72763a98c575e2cddff"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 717,
+          "protein_g": 0.85,
+          "carbohydrate_g": 0.06,
+          "fat_g": 81.1
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "生鸡蛋蛋黄净量",
+        "food": {
+          "fdc_id": 172184,
+          "description": "Egg, yolk, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b881eb409677776cef9be1fdc992e0aeb45dd91fb73822c0886919d7254f175f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "专用蛋黄条目；按生净重定义后蒸熟再烘烤，不能以全蛋营养代替蛋黄，热加工损失另作明确未校正假设。",
+        "per_100g": {
+          "energy_kcal": 322,
+          "protein_g": 15.9,
+          "carbohydrate_g": 3.59,
+          "fat_g": 26.5
+        },
+        "edible_g": 35
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 1
+      }
+    ],
+    "total": {
+      "energy_kcal": 1729.5,
+      "protein_g": 16.975,
+      "carbohydrate_g": 208.9165,
+      "fat_g": 91.405
+    },
+    "final_edible_g": 350,
+    "per_100g": {
+      "energy_kcal": 494.142857,
+      "protein_g": 4.85,
+      "carbohydrate_g": 59.690429,
+      "fat_g": 26.115714
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 493.203142,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-7047e23423f0",
+      "queries": [
+        "Strawberries raw",
+        "Cream fluid heavy whipping",
+        "Milk whole 3.25 milkfat",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-545e3a3e64c9",
+      "queries": [
+        "Yogurt plain whole milk",
+        "Cream fluid heavy whipping",
+        "Milk whole 3.25 milkfat",
+        "Sugars granulated",
+        "Gelatins dry powder unsweetened"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0175adf06f5f",
+      "queries": [
+        "Butter without salt",
+        "Candies marshmallows",
+        "Milk dry whole without added vitamin D",
+        "Nuts walnuts english",
+        "Nuts cashew nuts raw",
+        "Crackers saltines includes oyster soda soup"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1282bbd3a9c9",
+      "queries": [
+        "Egg whole raw fresh",
+        {
+          "query": "733739069276",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Cocoa dry powder unsweetened",
+        {
+          "query": "Leavening agents cream of tartar",
+          "data_types": [
+            "SR Legacy"
+          ]
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-43027c68c000",
+      "queries": [
+        "Cornstarch",
+        {
+          "query": "Seaweed laver dried",
+          "data_types": [
+            "SR Legacy",
+            "Foundation",
+            "Survey (FNDDS)"
+          ]
+        },
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-989ccdcae7af",
+      "queries": [
+        "Alcoholic beverage distilled vodka 80 proof"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b8b6c7d1722e",
+      "queries": [
+        "Alcoholic beverage distilled rum 80 proof",
+        "Lime juice raw",
+        "Spearmint fresh",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-678acb8ed4c0",
+      "queries": [
+        "Waxgourd chinese preserving melon raw",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-460b515020de",
+      "queries": [
+        {
+          "query": "Seaweed laver dried",
+          "data_types": [
+            "SR Legacy",
+            "Foundation",
+            "Survey (FNDDS)"
+          ]
+        },
+        "Spearmint fresh",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b48ca1e354ea",
+      "queries": [
+        "Beverages tea black brewed prepared tap water",
+        "Milk whole 3.25 milkfat",
+        "Sugars granulated",
+        "Ginger root raw",
+        "Spices cardamom",
+        "Spices cinnamon ground"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ffc03aba56ce",
+      "queries": [
+        "Alcoholic beverage distilled whiskey 80 proof",
+        "Beverages carbonated cola regular",
+        "Lemon juice raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d18a2e859415",
+      "queries": [
+        "Kiwifruit green raw",
+        "Spinach raw",
+        "Water tap drinking",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ed29771026e7",
+      "queries": [
+        "Beverages tea black brewed prepared tap water",
+        "Milk whole 3.25 milkfat",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e403ba22275a",
+      "queries": [
+        "Seeds chia seeds dried",
+        "Milk whole 3.25 milkfat",
+        "Mangos raw",
+        "Grapefruit raw pink red",
+        "Nuts coconut milk raw liquid expressed grated meat water",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-378f9d2c3a56",
+      "queries": [
+        "Water tap drinking",
+        "Lemon juice raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-91c84c269928",
+      "queries": [
+        "Beverages tea black brewed prepared tap water",
+        "Milk whole 3.25 milkfat",
+        "Milk canned condensed sweetened",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b261aa97c4ab",
+      "queries": [
+        "Alcoholic beverage distilled rum 80 proof",
+        "Alcoholic beverage distilled vodka 80 proof",
+        "Orange juice raw",
+        "Syrups maple",
+        "Lemon juice raw",
+        "Lemons raw without peel",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-3a181639cf91",
+      "queries": [
+        "Avocados raw all commercial varieties",
+        "Yogurt plain whole milk",
+        "Milk whole 3.25 milkfat"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-30eafb2f0a66",
+      "queries": [
+        "Passion fruit purple raw",
+        "Orange juice raw",
+        "Water tap drinking",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-677f373658d2",
+      "queries": [
+        "Nuts coconut water liquid coconuts",
+        "Nuts coconut milk raw liquid expressed grated meat water",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-11368a20c31b",
+      "queries": [
+        "Beverages tea black brewed prepared tap water",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-cb3741f4d29d",
+      "queries": [
+        "Pineapple raw all varieties",
+        "Beverages coffee brewed prepared tap water",
+        "Water tap drinking",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4633664c062d",
+      "queries": []
+    },
+    {
+      "recipe_id": "howtocook-d20888ebc3bf",
+      "queries": [
+        {
+          "query": "Prune juice canned",
+          "data_types": [
+            "SR Legacy"
+          ]
+        },
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    }
+  ]
+}

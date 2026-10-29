@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "id": "family-bebbb3caba34-v1",
+  "recipe_id": "howtocook-bebbb3caba34",
+  "recipe_blob_sha": "83bf148326a2a00539e11eaa73ff37b441a40c9f",
+  "version": "1",
+  "data_version": "47cd97d7a4d0b685",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 120,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品120g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：通用小麦面粉70g、大豆食用油50g；整份约120g。面粉和大豆油标准，油全部留在油酥中。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-bebbb3caba34",
+    "state": "ready_to_eat",
+    "cooking_method": "stir_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-bebbb3caba34-v1",
+    "standard_ingredients": [
+      {
+        "key": "flour",
+        "grams": 70
+      },
+      {
+        "key": "oil",
+        "grams": 50
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 580.666667,
+    "protein_g": 6.008333,
+    "carbohydrate_g": 44.508333,
+    "fat_g": 42.238333
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+    "version": "47cd97d7a4d0b685",
+    "fdc_ids": [
+      169761,
+      171411
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/condiment/%E6%B2%B9%E9%85%A5.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "83bf148326a2a00539e11eaa73ff37b441a40c9f"
+  },
+  "profile": {
+    "id": "family-bebbb3caba34-v1",
+    "version": "1",
+    "recipe_id": "howtocook-bebbb3caba34",
+    "recipe_blob_sha": "83bf148326a2a00539e11eaa73ff37b441a40c9f",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：通用小麦面粉70g、大豆食用油50g；整份约120g。面粉和大豆油标准，油全部留在油酥中。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-bebbb3caba34",
+      "state": "ready_to_eat",
+      "cooking_method": "stir_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-bebbb3caba34-v1",
+      "standard_ingredients": [
+        {
+          "key": "flour",
+          "grams": 70
+        },
+        {
+          "key": "oil",
+          "grams": 50
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：通用小麦面粉70g、大豆食用油50g。克数是项目标准，不是原文ml/个数换算。",
+      "面粉和大豆油标准，油全部留在油酥中",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "通用小麦面粉",
+        "food": {
+          "fdc_id": 169761,
+          "description": "Wheat flour, white, all-purpose, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 70,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 120,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品120g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "stir_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:09:54.756Z",
+      "checks": {
+        "recipe_version": "83bf148326a2a00539e11eaa73ff37b441a40c9f",
+        "food_identity": "Wheat flour, white, all-purpose, unenriched; Oil, soybean, salad or cooking",
+        "state_and_cooking": "逐项按raw/ready_to_eat输入；成品stir_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "面粉和大豆油标准，油全部留在油酥中"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/condiment/%E6%B2%B9%E9%85%A5.md",
+          "blob_sha": "83bf148326a2a00539e11eaa73ff37b441a40c9f",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+          "note": "通用小麦面粉：Wheat flour, white, all-purpose, unenriched；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 364,
+        "protein_g": 10.3,
+        "carbohydrate_g": 76.3,
+        "fat_g": 0.98
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 364
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 76.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.98
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169761,
+        "description": "Wheat flour, white, all-purpose, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:19.187Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9529ab04b7250be5",
+        "raw_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "通用小麦面粉",
+        "food": {
+          "fdc_id": 169761,
+          "description": "Wheat flour, white, all-purpose, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 70,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 364,
+          "protein_g": 10.3,
+          "carbohydrate_g": 76.3,
+          "fat_g": 0.98
+        },
+        "edible_g": 70
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 50
+      }
+    ],
+    "total": {
+      "energy_kcal": 696.8,
+      "protein_g": 7.21,
+      "carbohydrate_g": 53.41,
+      "fat_g": 50.686
+    },
+    "final_edible_g": 120,
+    "per_100g": {
+      "energy_kcal": 580.666667,
+      "protein_g": 6.008333,
+      "carbohydrate_g": 44.508333,
+      "fat_g": 42.238333
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 582.211661,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

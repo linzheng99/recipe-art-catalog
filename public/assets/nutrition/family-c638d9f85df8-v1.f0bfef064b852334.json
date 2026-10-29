@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "id": "family-c638d9f85df8-v1",
+  "recipe_id": "howtocook-c638d9f85df8",
+  "recipe_blob_sha": "26221a137d0384889dcc9b08bbface8761d78dd6",
+  "version": "1",
+  "data_version": "1859cd545c955dcf",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：荞麦面熟条500g、带皮黄瓜150g、胡萝卜80g、老干妈油辣椒35g、通用酱油（shoyu近似）15g；整份约780g。熟荞麦面500g，鲜黄瓜和胡萝卜，指定老干妈油辣椒35g；原文萝卜分支固定胡萝卜，全部食用且不额外加油，不用于干荞麦面重量。限定品牌：老干妈油辣椒=LAOGANMA GTIN 889417000038。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-c638d9f85df8",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": "老干妈油辣椒=LAOGANMA GTIN 889417000038",
+    "variant": "family-c638d9f85df8-v1",
+    "standard_ingredients": [
+      {
+        "key": "soba",
+        "grams": 500
+      },
+      {
+        "key": "cucumber",
+        "grams": 150
+      },
+      {
+        "key": "carrot",
+        "grams": 80
+      },
+      {
+        "key": "chili_crisp",
+        "grams": 35
+      },
+      {
+        "key": "soy",
+        "grams": 15
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 99.974359,
+    "protein_g": 3.919808,
+    "carbohydrate_g": 16.691474,
+    "fat_g": 2.5125
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/168907/nutrients",
+    "version": "1859cd545c955dcf",
+    "fdc_ids": [
+      168907,
+      168409,
+      170393,
+      2427220,
+      174277
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "26221a137d0384889dcc9b08bbface8761d78dd6"
+  },
+  "profile": {
+    "id": "family-c638d9f85df8-v1",
+    "version": "1",
+    "recipe_id": "howtocook-c638d9f85df8",
+    "recipe_blob_sha": "26221a137d0384889dcc9b08bbface8761d78dd6",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：荞麦面熟条500g、带皮黄瓜150g、胡萝卜80g、老干妈油辣椒35g、通用酱油（shoyu近似）15g；整份约780g。熟荞麦面500g，鲜黄瓜和胡萝卜，指定老干妈油辣椒35g；原文萝卜分支固定胡萝卜，全部食用且不额外加油，不用于干荞麦面重量。限定品牌：老干妈油辣椒=LAOGANMA GTIN 889417000038。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-c638d9f85df8",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": "老干妈油辣椒=LAOGANMA GTIN 889417000038",
+      "variant": "family-c638d9f85df8-v1",
+      "standard_ingredients": [
+        {
+          "key": "soba",
+          "grams": 500
+        },
+        {
+          "key": "cucumber",
+          "grams": 150
+        },
+        {
+          "key": "carrot",
+          "grams": 80
+        },
+        {
+          "key": "chili_crisp",
+          "grams": 35
+        },
+        {
+          "key": "soy",
+          "grams": 15
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：荞麦面熟条500g、带皮黄瓜150g、胡萝卜80g、老干妈油辣椒35g、通用酱油（shoyu近似）15g。克数是项目标准，不是原文ml/个数换算。",
+      "熟荞麦面500g，鲜黄瓜和胡萝卜，指定老干妈油辣椒35g；原文萝卜分支固定胡萝卜，全部食用且不额外加油，不用于干荞麦面重量",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "荞麦面熟条",
+        "food": {
+          "fdc_id": 168907,
+          "description": "Noodles, japanese, soba, cooked",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0c48dd85132c7dbe8b3ba3bbd5167ec8baf589d58bb76571ada09e791497fa2a"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "带皮黄瓜",
+        "food": {
+          "fdc_id": 168409,
+          "description": "Cucumber, with peel, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5b2f14993c985d167d196fe527257c5d64d0560545de642606ced194a6303f1b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "胡萝卜",
+        "food": {
+          "fdc_id": 170393,
+          "description": "Carrots, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "老干妈油辣椒",
+        "food": {
+          "fdc_id": 2427220,
+          "description": "FRIED CHILI IN OIL",
+          "data_type": "Branded",
+          "snapshot_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+          "brand_owner": "Dse Healthcare Solutions, LLC",
+          "brand_name": "LAOGANMA",
+          "gtin_upc": "889417000038"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      }
+    ],
+    "final_weight": {
+      "grams": 780,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "26221a137d0384889dcc9b08bbface8761d78dd6",
+        "food_identity": "Noodles, japanese, soba, cooked; Cucumber, with peel, raw; Carrots, raw; FRIED CHILI IN OIL; Soy sauce made from soy and wheat (shoyu)",
+        "state_and_cooking": "逐项按cooked/raw/raw/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "老干妈油辣椒=LAOGANMA GTIN 889417000038",
+        "standard_variant": "熟荞麦面500g，鲜黄瓜和胡萝卜，指定老干妈油辣椒35g；原文萝卜分支固定胡萝卜，全部食用且不额外加油，不用于干荞麦面重量"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2.md",
+          "blob_sha": "26221a137d0384889dcc9b08bbface8761d78dd6",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168907/nutrients",
+          "note": "荞麦面熟条：Noodles, japanese, soba, cooked；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168409/nutrients",
+          "note": "带皮黄瓜：Cucumber, with peel, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170393/nutrients",
+          "note": "胡萝卜：Carrots, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2427220/nutrients",
+          "note": "老干妈油辣椒：FRIED CHILI IN OIL；已核对数据类型、生熟、可食部分及原始摘要。限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 99,
+        "protein_g": 5.06,
+        "carbohydrate_g": 21.4,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 99
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 5.06
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 21.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168907,
+        "description": "Noodles, japanese, soba, cooked",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:12:35.508Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168907/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 0c48dd85132c7dbe",
+        "raw_sha256": "0c48dd85132c7dbe8b3ba3bbd5167ec8baf589d58bb76571ada09e791497fa2a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96f8c4aa7af0d54de48836bbb53c59f0313702ac1e0e9297a983cd28cc162c8a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 15,
+        "protein_g": 0.65,
+        "carbohydrate_g": 3.63,
+        "fat_g": 0.11
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 15
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.65
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.63
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.11
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168409,
+        "description": "Cucumber, with peel, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:08.879Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168409/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 5b2f14993c985d16",
+        "raw_sha256": "5b2f14993c985d167d196fe527257c5d64d0560545de642606ced194a6303f1b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ff61b34129b9b3955f69129cb234252f6a4d49a7005ceede7c49e7edf0fd3bfd"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 41,
+        "protein_g": 0.93,
+        "carbohydrate_g": 9.58,
+        "fat_g": 0.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 41
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.93
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.58
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170393,
+        "description": "Carrots, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:34.603Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170393/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 5d6fcdd9d5d95e0b",
+        "raw_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7081f1901d0911da91690d10c6388dc7b1f403c9f0ac1473725a075db13dddbd"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 633,
+        "protein_g": 6.67,
+        "carbohydrate_g": 26.7,
+        "fat_g": 53.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 633
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.67
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 26.7
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 53.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2427220,
+        "description": "FRIED CHILI IN OIL",
+        "data_type": "Branded",
+        "brand_owner": "Dse Healthcare Solutions, LLC",
+        "brand_name": "LAOGANMA",
+        "gtin_upc": "889417000038",
+        "ingredients": "SOYBEAN OIL, CHILI, PEANUT, MONOSODIUM GLUTAMATE, SALT, SUGAR, PRICKLY ASH POWDER, SULFUR DIOXIDE, SODIUM SULFITE.",
+        "publication_date": "2022-12-22",
+        "retrieved_at": "2026-10-28T06:53:09.666Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2427220/nutrients",
+        "version": "Branded / 2022-12-22 / d7142e632184e0ab",
+        "raw_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+        "transport": "api_search_snapshot",
+        "query_sha256": "957ad00392d33d84214c4718fe71109f39d5aac3d8fdf1d455cd9bb5ebbd954a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "荞麦面熟条",
+        "food": {
+          "fdc_id": 168907,
+          "description": "Noodles, japanese, soba, cooked",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0c48dd85132c7dbe8b3ba3bbd5167ec8baf589d58bb76571ada09e791497fa2a"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 99,
+          "protein_g": 5.06,
+          "carbohydrate_g": 21.4,
+          "fat_g": 0.1
+        },
+        "edible_g": 500
+      },
+      {
+        "name": "带皮黄瓜",
+        "food": {
+          "fdc_id": 168409,
+          "description": "Cucumber, with peel, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5b2f14993c985d167d196fe527257c5d64d0560545de642606ced194a6303f1b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 15,
+          "protein_g": 0.65,
+          "carbohydrate_g": 3.63,
+          "fat_g": 0.11
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "胡萝卜",
+        "food": {
+          "fdc_id": 170393,
+          "description": "Carrots, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 41,
+          "protein_g": 0.93,
+          "carbohydrate_g": 9.58,
+          "fat_g": 0.24
+        },
+        "edible_g": 80
+      },
+      {
+        "name": "老干妈油辣椒",
+        "food": {
+          "fdc_id": 2427220,
+          "description": "FRIED CHILI IN OIL",
+          "data_type": "Branded",
+          "snapshot_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+          "brand_owner": "Dse Healthcare Solutions, LLC",
+          "brand_name": "LAOGANMA",
+          "gtin_upc": "889417000038"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。",
+        "per_100g": {
+          "energy_kcal": 633,
+          "protein_g": 6.67,
+          "carbohydrate_g": 26.7,
+          "fat_g": 53.3
+        },
+        "edible_g": 35
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 15
+      }
+    ],
+    "total": {
+      "energy_kcal": 779.8,
+      "protein_g": 30.5745,
+      "carbohydrate_g": 130.1935,
+      "fat_g": 19.5975
+    },
+    "final_edible_g": 780,
+    "per_100g": {
+      "energy_kcal": 99.974359,
+      "protein_g": 3.919808,
+      "carbohydrate_g": 16.691474,
+      "fat_g": 2.5125
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 105.057628,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

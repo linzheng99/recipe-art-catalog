@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "provider": "mext",
+  "name": "MEXT 日本食品標準成分表",
+  "release": "日本食品標準成分表（八訂）増補2023年 / 正誤表2026-03-27",
+  "url": "https://www.mext.go.jp/content/20260327-mxt_kagsei-mext-000029402_02.xlsx",
+  "dataset_path": "sources/nutrition/mext/datasets/composition-2023-20260327.xlsx",
+  "license": {
+    "name": "MEXT food composition data reuse with attribution",
+    "url": "https://www.mext.go.jp/a_menu/syokuhinseibun/",
+    "attribution": "出典：日本食品標準成分表（八訂）増補2023年（文部科学省）。本项目加工计算。"
+  },
+  "dataset_sha256": "0d5a77077dd6cd91cbc2e6e317b8b218a38728c409eed452f1c10635a0d3099c"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "provider": "USDA FoodData Central",
+  "transport": "api",
+  "endpoint": "https://api.nal.usda.gov/fdc/v1/foods/search",
+  "request": {
+    "query": "\"LAO GAN MA\"",
+    "dataType": [
+      "Branded"
+    ],
+    "pageSize": 20,
+    "pageNumber": 1
+  },
+  "retrieved_at": "2026-10-28T06:11:57.010Z",
+  "raw_sha256": "7c4ec1daa5ccceca9e2a247b3d62b91a3ace245f2c03988f9b2cd147f05adfd2",
+  "response": {
+    "totalHits": 0,
+    "currentPage": 1,
+    "totalPages": 0,
+    "pageList": [],
+    "foodSearchCriteria": {
+      "dataType": [
+        "Branded"
+      ],
+      "query": "\"LAO GAN MA\"",
+      "generalSearchInput": "\"LAO GAN MA\"",
+      "pageNumber": 1,
+      "numberOfResultsPerPage": 50,
+      "pageSize": 20,
+      "requireAllWords": false,
+      "foodTypes": [
+        "Branded"
+      ]
+    },
+    "foods": [],
+    "aggregations": {
+      "dataType": {},
+      "nutrients": {}
+    }
+  }
+}

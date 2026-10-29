@@ -138,3 +138,36 @@ it("合并重复请求，快速切菜及同菜新版本不会串用正文", asyn
       .recipes?.[0].name,
   ).toBe(tofu.reference_recipes[0].name);
 });
+
+it("营养完整范围随摘要验证后的菜谱加载，范围错误或配方错位拒绝", async () => {
+  const { parseRecipeData } = await import("@/lib/recipe-details");
+  const data = JSON.parse(body(tomato));
+  const parsed = parseRecipeData(data, tomato);
+  expect(parsed.nutrition?.scope).toContain("番茄400g");
+  expect(tomato.nutrition.scope).not.toContain("番茄400g");
+  const broken = structuredClone(data);
+  broken.nutrition.per_100g.protein_g += 1;
+  expect(() => parseRecipeData(broken, tomato)).toThrow(/mismatch/);
+  const wrongRecipe = structuredClone(data);
+  wrongRecipe.nutrition_profiles[0].recipe_id = "wrong-recipe";
+  expect(() => parseRecipeData(wrongRecipe, tomato)).toThrow(/mismatch/);
+});
+
+it("旧玉米默认来源版本与新方案摘要兼容，但拒绝改动营养或来源", async () => {
+  const { parseRecipeData } = await import("@/lib/recipe-details");
+  const corn = lite.artworks.find((item) => item.key === "dish-853f4dcc16af")!;
+  const data = JSON.parse(body(corn));
+  const parsed = parseRecipeData(data, corn);
+  expect(parsed.nutrition?.per_100g.energy_kcal).toBe(96);
+  expect(parsed.nutrition_profiles?.[0].per_100g.energy_kcal).toBe(96);
+  expect(data.nutrition.source.version).not.toBe(
+    data.nutrition_profiles[0].source.version,
+  );
+  const altered = structuredClone(data);
+  altered.nutrition_profiles[0].per_100g.protein_g += 1;
+  expect(() => parseRecipeData(altered, corn)).toThrow(/mismatch/);
+  const wrongSource = structuredClone(data);
+  wrongSource.nutrition_profiles[0].source.url =
+    "https://example.com/other-food";
+  expect(() => parseRecipeData(wrongSource, corn)).toThrow(/mismatch/);
+});

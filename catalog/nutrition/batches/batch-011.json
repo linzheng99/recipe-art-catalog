@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-ad951394e7a9",
+      "queries": [
+        "Lamb ribs separable lean fat raw",
+        "Garlic raw",
+        "Spices pepper red cayenne",
+        "Salt table",
+        "Butter without salt",
+        "Soy sauce shoyu"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-01b1d98676a5",
+      "queries": [
+        "Chicken broilers fryers wing meat skin raw",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Spices paprika",
+        "Spices garlic powder",
+        "Spices onion powder",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6c8fa75dcb07",
+      "queries": [
+        {
+          "query": "\"PORK DUMPLINGS\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-68ca6633c10d",
+      "queries": [
+        {
+          "query": "\"GLUTINOUS RICE BALLS\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2e33e0141c78",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Pork fresh ground raw",
+        "Egg white raw fresh",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Oil sesame salad cooking",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-3c05ffd63abd",
+      "queries": [
+        "Mushrooms shiitake raw",
+        "Water tap drinking",
+        "Cornstarch",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-95d7b404d04e",
+      "queries": [
+        "Mushrooms white raw",
+        "Cream fluid heavy whipping",
+        "Milk whole 3.25 milkfat",
+        "Butter without salt",
+        "Wheat flour white all purpose unenriched",
+        "Onions raw",
+        "Water tap drinking",
+        "Salt table",
+        "Spices pepper red cayenne"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-8ad51751e8b6",
+      "queries": [
+        "Millet raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4c944fb35c21",
+      "queries": [
+        "Chicken broilers fryers thigh meat only raw",
+        "Pumpkin raw",
+        "Jujube chinese dried",
+        "Ginger root raw",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1afcd350dd6d",
+      "queries": [
+        "Pork fresh spareribs separable lean fat raw",
+        "Carrots raw",
+        "Corn sweet yellow cooked boiled drained without salt",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-558559ec84a0",
+      "queries": [
+        "Pork fresh spareribs separable lean fat raw",
+        "Balsam pear bitter gourd pods raw",
+        "Shrimp dried",
+        "Ginger root raw",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e511d3a4430a",
+      "queries": [
+        "Tofu soft calcium sulfate magnesium chloride",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Oil soybean salad cooking",
+        "Alcoholic beverage rice sake",
+        "Salt table",
+        "Spices pepper red cayenne",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-bb2673fc51ec",
+      "queries": [
+        "Egg whole raw fresh",
+        "Oil sesame salad cooking",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-38f5fbfaae40",
+      "queries": [
+        "Pork fresh spareribs separable lean fat raw",
+        "Corn sweet yellow cooked boiled drained without salt",
+        "Carrots raw",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Oil soybean salad cooking",
+        "Vinegar cider",
+        "Spices pepper red cayenne",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0840396cb272",
+      "queries": [
+        "Pork fresh ground raw",
+        "Egg whole raw fresh",
+        "Water tap drinking",
+        "Soy sauce shoyu",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Salt table",
+        "Cornstarch",
+        "Oil sesame salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-28a9b2f06a8d",
+      "queries": [
+        "Tomatoes red ripe raw year round average",
+        "Beef round top round separable lean only trimmed raw",
+        "Egg whole raw fresh",
+        "Water tap drinking",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Oil soybean salad cooking",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-648523905ae1",
+      "queries": [
+        {
+          "query": "PRESERVED DUCK EGGS",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Rice white short grain cooked unenriched",
+        "Onions spring scallions tops bulb raw",
+        "Coriander cilantro leaves raw",
+        "Lettuce green leaf raw",
+        "Ginger root raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Salt table",
+        "Spices pepper red cayenne",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-196eab378a75",
+      "queries": [
+        "Rice white short grain cooked unenriched",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b435c11c8067",
+      "queries": [
+        {
+          "query": "\"NORI\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Egg whole raw fresh",
+        "Onions spring scallions tops bulb raw",
+        "Water tap drinking",
+        "Salt table",
+        "Oil soybean salad cooking",
+        "Oil sesame salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-419a5e174596",
+      "queries": [
+        "Beef round top round separable lean only trimmed raw",
+        "Tomatoes red ripe raw year round average",
+        "Potatoes flesh skin raw",
+        "Cabbage raw",
+        "Onions raw",
+        "Carrots raw",
+        "Oil soybean salad cooking",
+        "Catsup",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-949bd05cd61f",
+      "queries": [
+        "Lamb domestic leg separable lean fat raw",
+        "Onions spring scallions tops bulb raw",
+        "Spices pepper red cayenne",
+        "Salt table",
+        "Coriander cilantro leaves raw",
+        "Water tap drinking",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-46c174a49499",
+      "queries": [
+        "Rice white short grain cooked unenriched",
+        "Rice white glutinous cooked",
+        "Beans navy mature seeds cooked boiled without salt",
+        "Peanuts all types dry roasted without salt",
+        "Jujube chinese dried",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-12b1c244a100",
+      "queries": [
+        "Squab pigeon meat and skin raw",
+        "Mushrooms shiitake raw",
+        "Mushrooms white raw",
+        "Corn sweet yellow cooked boiled drained without salt",
+        "Ginger root raw",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-414f79bd9c04",
+      "queries": [
+        "Tomatoes red ripe raw year round average",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Onions spring scallions tops bulb raw",
+        "Water tap drinking"
+      ]
+    }
+  ]
+}

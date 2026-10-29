@@ -1,0 +1,1382 @@
+{
+  "schema_version": 1,
+  "id": "family-00350cbfad20-v1",
+  "recipe_id": "howtocook-00350cbfad20",
+  "recipe_blob_sha": "04541cb0ba7e967f16601d58cd53d8978d5c6a3b",
+  "version": "1",
+  "data_version": "834d4d438cce32c6",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 1100,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品1100g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：熟米粉500g、猪里脊（去骨）250g、李锦记辣豆豉酱20g、老干妈油辣椒15g、去皮大蒜20g、通用酱油（shoyu近似）20g、白砂糖5g、白醋15g、大豆食用油12g、玉米淀粉10g、黑胡椒粉1g、饮用水450g；整份约1100g。普通熟米粉和瘦猪肉家庭代理版本，缺酸笋时此标准不加酸笋，品牌辣豆豉酱替干豆豉、老干妈辣油替剁椒；无酒，全部汤料食用，不代表原文酸笋特有配方。限定品牌：李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480；老干妈油辣椒=LAOGANMA GTIN 889417000038。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-00350cbfad20",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": true,
+    "sauce_added": true,
+    "brand": "李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480；老干妈油辣椒=LAOGANMA GTIN 889417000038",
+    "variant": "family-00350cbfad20-v1",
+    "standard_ingredients": [
+      {
+        "key": "rice_noodles",
+        "grams": 500
+      },
+      {
+        "key": "pork_lean",
+        "grams": 250
+      },
+      {
+        "key": "black_bean_sauce",
+        "grams": 20
+      },
+      {
+        "key": "chili_crisp",
+        "grams": 15
+      },
+      {
+        "key": "garlic",
+        "grams": 20
+      },
+      {
+        "key": "soy",
+        "grams": 20
+      },
+      {
+        "key": "sugar",
+        "grams": 5
+      },
+      {
+        "key": "vinegar",
+        "grams": 15
+      },
+      {
+        "key": "oil",
+        "grams": 12
+      },
+      {
+        "key": "starch",
+        "grams": 10
+      },
+      {
+        "key": "black_pepper",
+        "grams": 1
+      },
+      {
+        "key": "water",
+        "grams": 450
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 107.999091,
+    "protein_g": 5.952773,
+    "carbohydrate_g": 13.567909,
+    "fat_g": 2.944691
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/168914/nutrients",
+    "version": "834d4d438cce32c6",
+    "fdc_ids": [
+      168914,
+      168249,
+      2505417,
+      2427220,
+      169230,
+      174277,
+      169655,
+      172237,
+      171411,
+      169698,
+      170931,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "04541cb0ba7e967f16601d58cd53d8978d5c6a3b"
+  },
+  "profile": {
+    "id": "family-00350cbfad20-v1",
+    "version": "1",
+    "recipe_id": "howtocook-00350cbfad20",
+    "recipe_blob_sha": "04541cb0ba7e967f16601d58cd53d8978d5c6a3b",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：熟米粉500g、猪里脊（去骨）250g、李锦记辣豆豉酱20g、老干妈油辣椒15g、去皮大蒜20g、通用酱油（shoyu近似）20g、白砂糖5g、白醋15g、大豆食用油12g、玉米淀粉10g、黑胡椒粉1g、饮用水450g；整份约1100g。普通熟米粉和瘦猪肉家庭代理版本，缺酸笋时此标准不加酸笋，品牌辣豆豉酱替干豆豉、老干妈辣油替剁椒；无酒，全部汤料食用，不代表原文酸笋特有配方。限定品牌：李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480；老干妈油辣椒=LAOGANMA GTIN 889417000038。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-00350cbfad20",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": true,
+      "sauce_added": true,
+      "brand": "李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480；老干妈油辣椒=LAOGANMA GTIN 889417000038",
+      "variant": "family-00350cbfad20-v1",
+      "standard_ingredients": [
+        {
+          "key": "rice_noodles",
+          "grams": 500
+        },
+        {
+          "key": "pork_lean",
+          "grams": 250
+        },
+        {
+          "key": "black_bean_sauce",
+          "grams": 20
+        },
+        {
+          "key": "chili_crisp",
+          "grams": 15
+        },
+        {
+          "key": "garlic",
+          "grams": 20
+        },
+        {
+          "key": "soy",
+          "grams": 20
+        },
+        {
+          "key": "sugar",
+          "grams": 5
+        },
+        {
+          "key": "vinegar",
+          "grams": 15
+        },
+        {
+          "key": "oil",
+          "grams": 12
+        },
+        {
+          "key": "starch",
+          "grams": 10
+        },
+        {
+          "key": "black_pepper",
+          "grams": 1
+        },
+        {
+          "key": "water",
+          "grams": 450
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：熟米粉500g、猪里脊（去骨）250g、李锦记辣豆豉酱20g、老干妈油辣椒15g、去皮大蒜20g、通用酱油（shoyu近似）20g、白砂糖5g、白醋15g、大豆食用油12g、玉米淀粉10g、黑胡椒粉1g、饮用水450g。克数是项目标准，不是原文ml/个数换算。",
+      "普通熟米粉和瘦猪肉家庭代理版本，缺酸笋时此标准不加酸笋，品牌辣豆豉酱替干豆豉、老干妈辣油替剁椒；无酒，全部汤料食用，不代表原文酸笋特有配方",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "熟米粉",
+        "food": {
+          "fdc_id": 168914,
+          "description": "Rice noodles, cooked",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e494ef3a29c6b5bc905cf3b3633e0c393d52449471aa1fabcbef60e86d0483b8"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "无酱熟米粉通用参考，非碱水面或干米粉，鲜河粉含水量不同需独立确认。"
+      },
+      {
+        "name": "猪里脊（去骨）",
+        "food": {
+          "fdc_id": 168249,
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b04c119ef19e062456cc68c825a6c375ad4862756630d29e55cce535c18175e7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "李锦记辣豆豉酱",
+        "food": {
+          "fdc_id": 2505417,
+          "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895135480"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。"
+      },
+      {
+        "name": "老干妈油辣椒",
+        "food": {
+          "fdc_id": 2427220,
+          "description": "FRIED CHILI IN OIL",
+          "data_type": "Branded",
+          "snapshot_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+          "brand_owner": "Dse Healthcare Solutions, LLC",
+          "brand_name": "LAOGANMA",
+          "gtin_upc": "889417000038"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。"
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白醋",
+        "food": {
+          "fdc_id": 172237,
+          "description": "Vinegar, distilled",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0af051d2e90836282f6b2b53e24830595706ebd304570d9690124fddeb679b4d"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 1100,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品1100g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:18:51.272Z",
+      "checks": {
+        "recipe_version": "04541cb0ba7e967f16601d58cd53d8978d5c6a3b",
+        "food_identity": "Rice noodles, cooked; Pork, fresh, loin, tenderloin, separable lean only, raw; LEE KUM KEE, CHILI BLACK BEAN SAUCE; FRIED CHILI IN OIL; Garlic, raw; Soy sauce made from soy and wheat (shoyu); Sugars, granulated; Vinegar, distilled; Oil, soybean, salad or cooking; Cornstarch; Spices, pepper, black; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按cooked/raw/ready_to_eat/ready_to_eat/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480；老干妈油辣椒=LAOGANMA GTIN 889417000038",
+        "standard_variant": "普通熟米粉和瘦猪肉家庭代理版本，缺酸笋时此标准不加酸笋，品牌辣豆豉酱替干豆豉、老干妈辣油替剁椒；无酒，全部汤料食用，不代表原文酸笋特有配方"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89.md",
+          "blob_sha": "04541cb0ba7e967f16601d58cd53d8978d5c6a3b",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168914/nutrients",
+          "note": "熟米粉：Rice noodles, cooked；已核对数据类型、生熟、可食部分及原始摘要。无酱熟米粉通用参考，非碱水面或干米粉，鲜河粉含水量不同需独立确认。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168249/nutrients",
+          "note": "猪里脊（去骨）：Pork, fresh, loin, tenderloin, separable lean only, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2505417/nutrients",
+          "note": "李锦记辣豆豉酱：LEE KUM KEE, CHILI BLACK BEAN SAUCE；已核对数据类型、生熟、可食部分及原始摘要。限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2427220/nutrients",
+          "note": "老干妈油辣椒：FRIED CHILI IN OIL；已核对数据类型、生熟、可食部分及原始摘要。限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+          "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172237/nutrients",
+          "note": "白醋：Vinegar, distilled；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+          "note": "玉米淀粉：Cornstarch；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+          "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 108,
+        "protein_g": 1.79,
+        "carbohydrate_g": 24,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 108
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.79
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 24
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168914,
+        "description": "Rice noodles, cooked",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:57:04.338Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168914/nutrients",
+        "version": "SR Legacy / 2019-04-01 / e494ef3a29c6b5bc",
+        "raw_sha256": "e494ef3a29c6b5bc905cf3b3633e0c393d52449471aa1fabcbef60e86d0483b8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "13d5ff9a17c662abf2785ddcbd4c514b5112ad3ce7ab999284ff32783ea4461c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 109,
+        "protein_g": 21,
+        "carbohydrate_g": 0,
+        "fat_g": 2.17
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 109
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 21
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 2.17
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168249,
+        "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:05:32.483Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168249/nutrients",
+        "version": "SR Legacy / 2019-04-01 / b04c119ef19e0624",
+        "raw_sha256": "b04c119ef19e062456cc68c825a6c375ad4862756630d29e55cce535c18175e7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "31487d672abceb9f59f91888b3a839348fbd1a1dad5872850748e11faba0f4c4"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 357,
+        "protein_g": 0,
+        "carbohydrate_g": 14.3,
+        "fat_g": 28.6
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 357
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 14.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 28.6
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2505417,
+        "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+        "data_type": "Branded",
+        "brand_owner": "Lee Kum Kee Co. Ltd.",
+        "brand_name": "LEE KUM KEE",
+        "gtin_upc": "078895135480",
+        "ingredients": "FERMENTED SOYBEAN PASTE (WATER, SALT, SOYBEANS, WHEAT), SOYBEAN OIL, WATER, DRIED CHILI PEPPERS, SALTED CHILI PEPPERS (CHILI PEPPERS, SALT), SUGAR, FERMENTED BLACK BEANS (BLACK BEANS, SALT, WATER), SHALLOT, DEHYDRATED GARLIC, SESAME OIL, MONOSODIUM GLUTAMATE AND DISODIUM 5'-INOSINATE AND DISODIUM 5'-GUANYLATE AS FLAVOR ENHANCERS, SALT, SPICES, CARAMEL COLOR, PAPRIKA OLEORESIN.",
+        "publication_date": "2023-03-16",
+        "retrieved_at": "2026-10-28T06:01:07.858Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2505417/nutrients",
+        "version": "Branded / 2023-03-16 / ddb6d0dc12b55430",
+        "raw_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 633,
+        "protein_g": 6.67,
+        "carbohydrate_g": 26.7,
+        "fat_g": 53.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 633
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.67
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 26.7
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 53.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2427220,
+        "description": "FRIED CHILI IN OIL",
+        "data_type": "Branded",
+        "brand_owner": "Dse Healthcare Solutions, LLC",
+        "brand_name": "LAOGANMA",
+        "gtin_upc": "889417000038",
+        "ingredients": "SOYBEAN OIL, CHILI, PEANUT, MONOSODIUM GLUTAMATE, SALT, SUGAR, PRICKLY ASH POWDER, SULFUR DIOXIDE, SODIUM SULFITE.",
+        "publication_date": "2022-12-22",
+        "retrieved_at": "2026-10-28T06:53:09.666Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2427220/nutrients",
+        "version": "Branded / 2022-12-22 / d7142e632184e0ab",
+        "raw_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+        "transport": "api_search_snapshot",
+        "query_sha256": "957ad00392d33d84214c4718fe71109f39d5aac3d8fdf1d455cd9bb5ebbd954a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 149,
+        "protein_g": 6.36,
+        "carbohydrate_g": 33.1,
+        "fat_g": 0.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 149
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.36
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 33.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169230,
+        "description": "Garlic, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:07.095Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 7ad29963a8d95feb",
+        "raw_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 18,
+        "protein_g": 0,
+        "carbohydrate_g": 0.04,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 18
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.04
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172237,
+        "description": "Vinegar, distilled",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:21.901Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172237/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 0af051d2e9083628",
+        "raw_sha256": "0af051d2e90836282f6b2b53e24830595706ebd304570d9690124fddeb679b4d",
+        "transport": "api_search_snapshot",
+        "query_sha256": "9902e57ba3c67e16fb8d820a0fddefe4b9652a63b30338cfef7e79a76d2bafa3"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 381,
+        "protein_g": 0.26,
+        "carbohydrate_g": 91.3,
+        "fat_g": 0.05
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 381
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.26
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 91.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.05
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169698,
+        "description": "Cornstarch",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:13.894Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 6abbc2aad71def07",
+        "raw_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8335fd2b6cb173614624aa578ae42445496f50073e80f7a8bcbfe25eec41987c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 251,
+        "protein_g": 10.4,
+        "carbohydrate_g": 64,
+        "fat_g": 3.26
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 251
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 64
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.26
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170931,
+        "description": "Spices, pepper, black",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 60b7f134c776a0c1",
+        "raw_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "熟米粉",
+        "food": {
+          "fdc_id": 168914,
+          "description": "Rice noodles, cooked",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e494ef3a29c6b5bc905cf3b3633e0c393d52449471aa1fabcbef60e86d0483b8"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "无酱熟米粉通用参考，非碱水面或干米粉，鲜河粉含水量不同需独立确认。",
+        "per_100g": {
+          "energy_kcal": 108,
+          "protein_g": 1.79,
+          "carbohydrate_g": 24,
+          "fat_g": 0.2
+        },
+        "edible_g": 500
+      },
+      {
+        "name": "猪里脊（去骨）",
+        "food": {
+          "fdc_id": 168249,
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b04c119ef19e062456cc68c825a6c375ad4862756630d29e55cce535c18175e7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 109,
+          "protein_g": 21,
+          "carbohydrate_g": 0,
+          "fat_g": 2.17
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "李锦记辣豆豉酱",
+        "food": {
+          "fdc_id": 2505417,
+          "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+          "data_type": "Branded",
+          "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+          "brand_owner": "Lee Kum Kee Co. Ltd.",
+          "brand_name": "LEE KUM KEE",
+          "gtin_upc": "078895135480"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。",
+        "per_100g": {
+          "energy_kcal": 357,
+          "protein_g": 0,
+          "carbohydrate_g": 14.3,
+          "fat_g": 28.6
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "老干妈油辣椒",
+        "food": {
+          "fdc_id": 2427220,
+          "description": "FRIED CHILI IN OIL",
+          "data_type": "Branded",
+          "snapshot_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+          "brand_owner": "Dse Healthcare Solutions, LLC",
+          "brand_name": "LAOGANMA",
+          "gtin_upc": "889417000038"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。",
+        "per_100g": {
+          "energy_kcal": 633,
+          "protein_g": 6.67,
+          "carbohydrate_g": 26.7,
+          "fat_g": 53.3
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 149,
+          "protein_g": 6.36,
+          "carbohydrate_g": 33.1,
+          "fat_g": 0.5
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "白醋",
+        "food": {
+          "fdc_id": 172237,
+          "description": "Vinegar, distilled",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "0af051d2e90836282f6b2b53e24830595706ebd304570d9690124fddeb679b4d"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 18,
+          "protein_g": 0,
+          "carbohydrate_g": 0.04,
+          "fat_g": 0
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 12
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 381,
+          "protein_g": 0.26,
+          "carbohydrate_g": 91.3,
+          "fat_g": 0.05
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。",
+        "per_100g": {
+          "energy_kcal": 251,
+          "protein_g": 10.4,
+          "carbohydrate_g": 64,
+          "fat_g": 3.26
+        },
+        "edible_g": 1
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 450
+      }
+    ],
+    "total": {
+      "energy_kcal": 1187.99,
+      "protein_g": 65.4805,
+      "carbohydrate_g": 149.247,
+      "fat_g": 32.3916
+    },
+    "final_edible_g": 1100,
+    "per_100g": {
+      "energy_kcal": 107.999091,
+      "protein_g": 5.952773,
+      "carbohydrate_g": 13.567909,
+      "fat_g": 2.944691
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 104.584947,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

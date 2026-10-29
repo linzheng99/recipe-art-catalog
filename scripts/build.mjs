@@ -6,6 +6,7 @@ import { writeFrontendNotices } from "./frontend-notices.mjs";
 import { loadGenerationPrompts } from "./generation-prompts.mjs";
 import { loadRecipeContents } from "./recipe-content.mjs";
 import { createRuntimeCatalog } from "./runtime-catalog.mjs";
+import { loadNutritionCatalog } from "./nutrition-catalog.mjs";
 
 export const root = fileURLToPath(new URL("../", import.meta.url));
 const readJSON = async (filename) =>
@@ -23,6 +24,7 @@ export function assemble(
   nutrition,
   prompts = new Map(),
   recipeContents = new Map(),
+  nutritionCatalog = null,
 ) {
   const recipes = new Map(source.recipes.map((recipe) => [recipe.id, recipe]));
   const images = new Map(variants.artworks.map((image) => [image.key, image]));
@@ -109,6 +111,9 @@ export function assemble(
         }),
       ),
       nutrition: reference,
+      ...(nutritionCatalog?.byArtwork.has(artwork.key)
+        ? { nutrition_profiles: nutritionCatalog.byArtwork.get(artwork.key) }
+        : {}),
       generation: prompts.get(artwork.key) ?? null,
       variants: image.variants,
     };
@@ -123,6 +128,16 @@ export function assemble(
       license_url: source.license_url,
     },
     image_usage: "菜品示意图，不是用户照片；配方、营养与过敏信息需单独核实。",
+    ...(nutritionCatalog
+      ? {
+          nutrition_catalog: {
+            schema_version: 1,
+            path: "nutrition/index.json",
+            version: nutritionCatalog.index.version,
+            coverage: nutritionCatalog.index.coverage,
+          },
+        }
+      : {}),
     reuse: {
       scope: [
         "independent_artwork",
@@ -182,13 +197,23 @@ export async function build({ check = false } = {}) {
   );
   const prompts = await loadGenerationPrompts(root);
   const recipeContents = await loadRecipeContents(root, source, config);
+  const nutritionCatalog = await loadNutritionCatalog(
+    root,
+    source,
+    config,
+    nutrition,
+  );
   const manifest = assemble(
     source,
     config,
     variants,
-    nutrition,
+    {
+      ...nutrition,
+      entries: { ...nutrition.entries, ...nutritionCatalog.defaults },
+    },
     prompts,
     recipeContents,
+    nutritionCatalog,
   );
   // Git checkout只需要压缩成品；不依赖未提交的PNG原稿、Python或其他应用仓库。
   for (const artwork of manifest.artworks) {
@@ -212,6 +237,8 @@ export async function build({ check = false } = {}) {
   }
   // 来源文本与许可证同时进入公开站点，避免部署产物丢失上游声明。
   const publications = [
+    ["src/lib/nutrition-client.mjs", "nutrition/client.js"],
+    ["src/lib/nutrition-client.d.mts", "nutrition/client.d.ts"],
     ["LICENSE", "licenses/PROJECT-REUSE.txt"],
     ["THIRD_PARTY_NOTICES.md", "THIRD_PARTY_NOTICES.md"],
     ["catalog/HOWTOCOOK-LICENSE", "licenses/HOWTOCOOK-LICENSE.txt"],
@@ -233,9 +260,21 @@ export async function build({ check = false } = {}) {
   const runtime = createRuntimeCatalog(manifest);
   // 先写内容寻址的正文，再更新入口；旧摘要文件保留，已打开的页面仍能读取旧版本。
   const runtimeFiles = [
+    ...nutritionCatalog.files.map(({ path, text }) => [path, text]),
+    [
+      "nutrition/index.json",
+      JSON.stringify(nutritionCatalog.index, null, 2) + "\n",
+    ],
     ...runtime.details.map(({ path, text }) => [path, text]),
     ["manifest-lite.json", JSON.stringify(runtime.index) + "\n"],
   ];
+  const reportPath = path.join(root, "catalog/NUTRITION_COVERAGE.md");
+  if (check)
+    assert(
+      (await readFile(reportPath, "utf8")) === nutritionCatalog.report,
+      "营养覆盖报告过期，请运行 npm run build",
+    );
+  else await writeFile(reportPath, nutritionCatalog.report);
   for (const [filename, content] of runtimeFiles) {
     const target = path.join(root, "public", filename);
     if (check)

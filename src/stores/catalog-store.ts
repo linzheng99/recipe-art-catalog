@@ -1,14 +1,13 @@
 import { create } from "zustand";
 import { getCatalogURL, getManifestURL, parseCatalog } from "@/lib/catalog";
 import type { Artwork, Catalog, ReferenceRecipe } from "@/lib/catalog";
-import {
-  fetchRecipeDetails,
-  recipeDetailsCacheKey,
-} from "@/lib/recipe-details";
+import { fetchRecipeData, recipeDetailsCacheKey } from "@/lib/recipe-details";
 
 export interface RecipeLoadState {
   status: "loading" | "ready" | "error";
   recipes: ReferenceRecipe[] | null;
+  nutrition?: Artwork["nutrition"];
+  nutrition_profiles?: Artwork["nutrition_profiles"];
 }
 
 interface CatalogState {
@@ -76,9 +75,9 @@ export const useCatalogStore = create<CatalogState>((set, get) => ({
       }));
     update({ status: "loading", recipes: null });
     try {
-      const recipes = await fetchRecipeDetails(item);
+      const data = await fetchRecipeData(item);
       // 以正文摘要隔离缓存；切换菜品或目录更新后，旧请求不会覆盖当前正文。
-      update({ status: "ready", recipes });
+      update({ status: "ready", ...data });
     } catch {
       update({ status: "error", recipes: null });
     }

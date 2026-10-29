@@ -1,0 +1,1261 @@
+{
+  "schema_version": 1,
+  "id": "family-e708c271324a-v1",
+  "recipe_id": "howtocook-e708c271324a",
+  "recipe_blob_sha": "fbd38d64d8d67b2fc78d249cc37f627dd74086ab",
+  "version": "1",
+  "data_version": "a6486860edeb90d7",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 1000,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品1000g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：85%瘦牛肉末400g、去皮大蒜15g、胡萝卜100g、芹菜80g、洋葱150g、大豆食用油20g、白砂糖5g、食盐5g、黑胡椒粉3g、番茄酱250g、3.25%全脂牛奶250g；整份约1000g。以大豆油替代橄榄油的标准变体，85%瘦牛肉末、全脂奶，不加可选香草。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-e708c271324a",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": true,
+    "sauce_added": true,
+    "brand": null,
+    "variant": "family-e708c271324a-v1",
+    "standard_ingredients": [
+      {
+        "key": "beef_ground",
+        "grams": 400
+      },
+      {
+        "key": "garlic",
+        "grams": 15
+      },
+      {
+        "key": "carrot",
+        "grams": 100
+      },
+      {
+        "key": "celery",
+        "grams": 80
+      },
+      {
+        "key": "onion",
+        "grams": 150
+      },
+      {
+        "key": "oil",
+        "grams": 20
+      },
+      {
+        "key": "sugar",
+        "grams": 5
+      },
+      {
+        "key": "salt",
+        "grams": 5
+      },
+      {
+        "key": "black_pepper",
+        "grams": 3
+      },
+      {
+        "key": "ketchup",
+        "grams": 250
+      },
+      {
+        "key": "milk",
+        "grams": 250
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 169.923,
+    "protein_g": 8.5673,
+    "carbohydrate_g": 11.8301,
+    "fat_g": 10.15238
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/173068/nutrients",
+    "version": "a6486860edeb90d7",
+    "fdc_ids": [
+      173068,
+      169230,
+      170393,
+      169988,
+      170000,
+      171411,
+      169655,
+      173468,
+      170931,
+      168556,
+      172217
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E7%95%AA%E8%8C%84%E7%BA%A2%E9%85%B1.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "fbd38d64d8d67b2fc78d249cc37f627dd74086ab"
+  },
+  "profile": {
+    "id": "family-e708c271324a-v1",
+    "version": "1",
+    "recipe_id": "howtocook-e708c271324a",
+    "recipe_blob_sha": "fbd38d64d8d67b2fc78d249cc37f627dd74086ab",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：85%瘦牛肉末400g、去皮大蒜15g、胡萝卜100g、芹菜80g、洋葱150g、大豆食用油20g、白砂糖5g、食盐5g、黑胡椒粉3g、番茄酱250g、3.25%全脂牛奶250g；整份约1000g。以大豆油替代橄榄油的标准变体，85%瘦牛肉末、全脂奶，不加可选香草。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-e708c271324a",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": true,
+      "sauce_added": true,
+      "brand": null,
+      "variant": "family-e708c271324a-v1",
+      "standard_ingredients": [
+        {
+          "key": "beef_ground",
+          "grams": 400
+        },
+        {
+          "key": "garlic",
+          "grams": 15
+        },
+        {
+          "key": "carrot",
+          "grams": 100
+        },
+        {
+          "key": "celery",
+          "grams": 80
+        },
+        {
+          "key": "onion",
+          "grams": 150
+        },
+        {
+          "key": "oil",
+          "grams": 20
+        },
+        {
+          "key": "sugar",
+          "grams": 5
+        },
+        {
+          "key": "salt",
+          "grams": 5
+        },
+        {
+          "key": "black_pepper",
+          "grams": 3
+        },
+        {
+          "key": "ketchup",
+          "grams": 250
+        },
+        {
+          "key": "milk",
+          "grams": 250
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：85%瘦牛肉末400g、去皮大蒜15g、胡萝卜100g、芹菜80g、洋葱150g、大豆食用油20g、白砂糖5g、食盐5g、黑胡椒粉3g、番茄酱250g、3.25%全脂牛奶250g。克数是项目标准，不是原文ml/个数换算。",
+      "以大豆油替代橄榄油的标准变体，85%瘦牛肉末、全脂奶，不加可选香草",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "85%瘦牛肉末",
+        "food": {
+          "fdc_id": 173068,
+          "description": "Beef, Australian, imported, grass-fed, ground, 85% lean / 15% fat, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c9aef4f9a811699f5e14536d0257c4edaf7afbf273e19132c5f5fc65145a3b4b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 400,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "胡萝卜",
+        "food": {
+          "fdc_id": 170393,
+          "description": "Carrots, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "芹菜",
+        "food": {
+          "fdc_id": 169988,
+          "description": "Celery, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5fa37012c31018128ce521ec890a86b128f8e01d1077baa82ee1032d50f5b5ef"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+      },
+      {
+        "name": "番茄酱",
+        "food": {
+          "fdc_id": 168556,
+          "description": "Catsup",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03c820005791cc6a05c419d921f58a6f05ae698172077befcb1eeac926cac76e"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 1000,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品1000g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:24:47.419Z",
+      "checks": {
+        "recipe_version": "fbd38d64d8d67b2fc78d249cc37f627dd74086ab",
+        "food_identity": "Beef, Australian, imported, grass-fed, ground, 85% lean / 15% fat, raw; Garlic, raw; Carrots, raw; Celery, raw; Onions, raw; Oil, soybean, salad or cooking; Sugars, granulated; Salt, table; Spices, pepper, black; Catsup; Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+        "state_and_cooking": "逐项按raw/raw/raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "以大豆油替代橄榄油的标准变体，85%瘦牛肉末、全脂奶，不加可选香草"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E7%95%AA%E8%8C%84%E7%BA%A2%E9%85%B1.md",
+          "blob_sha": "fbd38d64d8d67b2fc78d249cc37f627dd74086ab",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173068/nutrients",
+          "note": "85%瘦牛肉末：Beef, Australian, imported, grass-fed, ground, 85% lean / 15% fat, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+          "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170393/nutrients",
+          "note": "胡萝卜：Carrots, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169988/nutrients",
+          "note": "芹菜：Celery, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "洋葱：Onions, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+          "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168556/nutrients",
+          "note": "番茄酱：Catsup；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+          "note": "3.25%全脂牛奶：Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 239,
+        "protein_g": 17.7,
+        "carbohydrate_g": 0,
+        "fat_g": 18.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 239
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 17.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 18.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173068,
+        "description": "Beef, Australian, imported, grass-fed, ground, 85% lean / 15% fat, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:11:37.740Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173068/nutrients",
+        "version": "SR Legacy / 2019-04-01 / c9aef4f9a811699f",
+        "raw_sha256": "c9aef4f9a811699f5e14536d0257c4edaf7afbf273e19132c5f5fc65145a3b4b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8f6c8bf680bf3363d6dcc7c3fb654f78f1f517e396733284199cfb0265b69b77"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 149,
+        "protein_g": 6.36,
+        "carbohydrate_g": 33.1,
+        "fat_g": 0.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 149
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.36
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 33.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169230,
+        "description": "Garlic, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:07.095Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 7ad29963a8d95feb",
+        "raw_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 41,
+        "protein_g": 0.93,
+        "carbohydrate_g": 9.58,
+        "fat_g": 0.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 41
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.93
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.58
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170393,
+        "description": "Carrots, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:34.603Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170393/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 5d6fcdd9d5d95e0b",
+        "raw_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7081f1901d0911da91690d10c6388dc7b1f403c9f0ac1473725a075db13dddbd"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 14,
+        "protein_g": 0.69,
+        "carbohydrate_g": 2.97,
+        "fat_g": 0.17
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 14
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.69
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.97
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.17
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169988,
+        "description": "Celery, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:15.053Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169988/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 5fa37012c3101812",
+        "raw_sha256": "5fa37012c31018128ce521ec890a86b128f8e01d1077baa82ee1032d50f5b5ef",
+        "transport": "api_search_snapshot",
+        "query_sha256": "94e7bebe2b8cb9517d72db4f7b6c01628c715184c990edb2befe06bb971294e9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 40,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.34,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 40
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170000,
+        "description": "Onions, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:22.135Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+        "version": "SR Legacy / 2019-04-01 / fe11efa3ee637efd",
+        "raw_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9",
+        "transport": "api_search_snapshot",
+        "query_sha256": "9e6bc240d3f56b6d8354fad391941b71f47fb49307a0a36c0aaa1ef78922bf41"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 251,
+        "protein_g": 10.4,
+        "carbohydrate_g": 64,
+        "fat_g": 3.26
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 251
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 64
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.26
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170931,
+        "description": "Spices, pepper, black",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 60b7f134c776a0c1",
+        "raw_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 101,
+        "protein_g": 1.04,
+        "carbohydrate_g": 27.4,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 101
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.04
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 27.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168556,
+        "description": "Catsup",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:03:16.818Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168556/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 03c820005791cc6a",
+        "raw_sha256": "03c820005791cc6a05c419d921f58a6f05ae698172077befcb1eeac926cac76e",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d1aa41e3d94f1e13275e38452b9ef3a4fc95050a34d4c38ba676b18e496dbe92"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 61,
+        "protein_g": 3.15,
+        "carbohydrate_g": 4.78,
+        "fat_g": 3.27
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 61
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.15
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.78
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.27
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172217,
+        "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:25.785Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 815f14b67231b3f2",
+        "raw_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fc598dbff21afe1348a1b23e5977c2974d48369f7891c90cfcf7751bed6cae07"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "85%瘦牛肉末",
+        "food": {
+          "fdc_id": 173068,
+          "description": "Beef, Australian, imported, grass-fed, ground, 85% lean / 15% fat, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c9aef4f9a811699f5e14536d0257c4edaf7afbf273e19132c5f5fc65145a3b4b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 400,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 239,
+          "protein_g": 17.7,
+          "carbohydrate_g": 0,
+          "fat_g": 18.1
+        },
+        "edible_g": 400
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 149,
+          "protein_g": 6.36,
+          "carbohydrate_g": 33.1,
+          "fat_g": 0.5
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "胡萝卜",
+        "food": {
+          "fdc_id": 170393,
+          "description": "Carrots, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 41,
+          "protein_g": 0.93,
+          "carbohydrate_g": 9.58,
+          "fat_g": 0.24
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "芹菜",
+        "food": {
+          "fdc_id": 169988,
+          "description": "Celery, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5fa37012c31018128ce521ec890a86b128f8e01d1077baa82ee1032d50f5b5ef"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 14,
+          "protein_g": 0.69,
+          "carbohydrate_g": 2.97,
+          "fat_g": 0.17
+        },
+        "edible_g": 80
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 40,
+          "protein_g": 1.1,
+          "carbohydrate_g": 9.34,
+          "fat_g": 0.1
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。",
+        "per_100g": {
+          "energy_kcal": 251,
+          "protein_g": 10.4,
+          "carbohydrate_g": 64,
+          "fat_g": 3.26
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "番茄酱",
+        "food": {
+          "fdc_id": 168556,
+          "description": "Catsup",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03c820005791cc6a05c419d921f58a6f05ae698172077befcb1eeac926cac76e"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 101,
+          "protein_g": 1.04,
+          "carbohydrate_g": 27.4,
+          "fat_g": 0.1
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 61,
+          "protein_g": 3.15,
+          "carbohydrate_g": 4.78,
+          "fat_g": 3.27
+        },
+        "edible_g": 250
+      }
+    ],
+    "total": {
+      "energy_kcal": 1699.23,
+      "protein_g": 85.673,
+      "carbohydrate_g": 118.301,
+      "fat_g": 101.5238
+    },
+    "final_edible_g": 1000,
+    "per_100g": {
+      "energy_kcal": 169.923,
+      "protein_g": 8.5673,
+      "carbohydrate_g": 11.8301,
+      "fat_g": 10.15238
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 172.96102,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-40b2e9e97868",
+      "queries": [
+        "Egg whole cooked hard boiled",
+        "Bread white commercially prepared",
+        "Pork cured bacon unprepared",
+        "Butter without salt",
+        "Salad dressing mayonnaise regular",
+        "Salt table",
+        "Spices pepper red cayenne"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c1d599a83ce0",
+      "queries": [
+        "Oil soybean salad cooking",
+        "Spices pepper red cayenne",
+        "Seeds sesame whole dried",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Salt table",
+        "Sugars granulated",
+        "Vinegar cider"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-bebbb3caba34",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-12863092d2c6",
+      "queries": [
+        "Spices pepper red cayenne",
+        "Spices cumin seed",
+        "Seeds sesame whole dried",
+        "Oil soybean salad cooking",
+        "Oil sesame salad cooking",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Salt table",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b0ca418ed646",
+      "queries": [
+        "Sugars granulated",
+        "Water tap drinking",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f26c5646a21a",
+      "queries": [
+        "Sugars granulated",
+        "Vinegar cider",
+        "Soy sauce shoyu",
+        "Catsup",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6674e52ce5ac",
+      "queries": [
+        "Strawberries raw",
+        "Sugars granulated",
+        "Lemon juice raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-53fc0a69484a",
+      "queries": [
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-fc61a88b7e00",
+      "queries": [
+        "Garlic raw",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e1c93933b3fd",
+      "queries": [
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e53cc385a1a0",
+      "queries": [
+        "Taro raw",
+        "Sugars granulated",
+        "Oil soybean salad cooking",
+        "Water tap drinking",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0f2b773be2e0",
+      "queries": [
+        "Beverages coffee brewed prepared tap water",
+        "Nuts coconut milk raw liquid expressed grated meat water",
+        "Milk whole 3.25 milkfat",
+        "Sugars granulated",
+        "Gelatins dry powder unsweetened"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-12a0f2535a3d",
+      "queries": [
+        "Cream fluid heavy whipping",
+        "Cookies chocolate sandwich with creme filling regular",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-73b34579ff0e",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Egg whole raw fresh",
+        "Sugars granulated",
+        "Milk whole 3.25 milkfat",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-8c3af213e85c",
+      "queries": [
+        {
+          "query": "\"MASCARPONE\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Cookies ladyfingers without lemon juice and rind",
+        "Beverages coffee brewed prepared tap water",
+        "Egg whole raw fresh",
+        "Sugars granulated",
+        "Cocoa dry powder unsweetened"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-dd9b76b4698c",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Egg whole raw fresh",
+        "Milk whole 3.25 milkfat",
+        "Honey",
+        "Butter without salt",
+        "Leavening agents yeast baker active dry",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-85c01e8fd94f",
+      "queries": [
+        "Milk whole 3.25 milkfat",
+        "Cornstarch",
+        "Wheat flour white all purpose unenriched",
+        "Bread crumbs dry grated plain",
+        "Egg whole raw fresh",
+        "Sugars granulated",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-5112cfeefccc",
+      "queries": [
+        "Cheese cream",
+        "Egg whole raw fresh",
+        "Cream fluid heavy whipping",
+        "Sugars granulated",
+        "Wheat flour white all purpose unenriched"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ebf90ccaf451",
+      "queries": [
+        "Puff pastry frozen ready to bake",
+        "Egg whole raw fresh",
+        "Milk whole 3.25 milkfat",
+        "Cream fluid heavy whipping",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0fdf09819203",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Cornstarch",
+        "Butter without salt",
+        "Egg whole raw fresh",
+        "Sugars granulated",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6cda991d90ce",
+      "queries": [
+        "Egg whole raw fresh",
+        "Grapefruit raw pink red",
+        "Wheat flour white all purpose unenriched",
+        "Oil soybean salad cooking",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d23cfa9525fb",
+      "queries": [
+        "Carrots raw",
+        "Wheat flour white all purpose unenriched",
+        "Egg whole raw fresh",
+        "Sugars granulated",
+        "Oil soybean salad cooking",
+        "Leavening agents baking powder double acting sodium aluminum sulfate"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-bc33bad07d07",
+      "queries": [
+        "Taro raw",
+        "Milk whole 3.25 milkfat",
+        "Cream fluid heavy whipping",
+        "Glutinous rice flour",
+        "Cornstarch",
+        "Butter without salt",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-91bc15e9352d",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Butter without salt",
+        "Milk whole 3.25 milkfat",
+        "Egg whole raw fresh",
+        "Sugars granulated",
+        "Leavening agents baking powder double acting sodium aluminum sulfate",
+        "Salt table"
+      ]
+    }
+  ]
+}

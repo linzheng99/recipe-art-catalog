@@ -1,0 +1,865 @@
+{
+  "schema_version": 1,
+  "id": "family-22a66ee1b189-v1",
+  "recipe_id": "howtocook-22a66ee1b189",
+  "recipe_blob_sha": "19c097b89606e4574d3dca4061a140285b107287",
+  "version": "1",
+  "data_version": "8596ad72da087dc1",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 950,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品950g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：生短粒白米180g、小白菜350g、培根150g、猪油12g、白砂糖3g、黑胡椒粉1g、饮用水400g；整份约950g。咸肉明确采用USDA培根作腌猪肉近似，非东北咸肉标签；生米180g，青菜350g，省略可选冬笋料酒；肉析油全计，不另把锅中残油当额外用油。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-22a66ee1b189",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-22a66ee1b189-v1",
+    "standard_ingredients": [
+      {
+        "key": "rice_dry",
+        "grams": 180
+      },
+      {
+        "key": "bok_choy",
+        "grams": 350
+      },
+      {
+        "key": "bacon",
+        "grams": 150
+      },
+      {
+        "key": "lard",
+        "grams": 12
+      },
+      {
+        "key": "sugar",
+        "grams": 3
+      },
+      {
+        "key": "black_pepper",
+        "grams": 1
+      },
+      {
+        "key": "water",
+        "grams": 400
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 147.553684,
+    "protein_g": 3.958316,
+    "carbohydrate_g": 16.192632,
+    "fat_g": 7.296695
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/168931/nutrients",
+    "version": "8596ad72da087dc1",
+    "fdc_ids": [
+      168931,
+      170390,
+      168277,
+      171401,
+      169655,
+      170931,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E5%92%B8%E8%82%89%E8%8F%9C%E9%A5%AD.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "19c097b89606e4574d3dca4061a140285b107287"
+  },
+  "profile": {
+    "id": "family-22a66ee1b189-v1",
+    "version": "1",
+    "recipe_id": "howtocook-22a66ee1b189",
+    "recipe_blob_sha": "19c097b89606e4574d3dca4061a140285b107287",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：生短粒白米180g、小白菜350g、培根150g、猪油12g、白砂糖3g、黑胡椒粉1g、饮用水400g；整份约950g。咸肉明确采用USDA培根作腌猪肉近似，非东北咸肉标签；生米180g，青菜350g，省略可选冬笋料酒；肉析油全计，不另把锅中残油当额外用油。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-22a66ee1b189",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-22a66ee1b189-v1",
+      "standard_ingredients": [
+        {
+          "key": "rice_dry",
+          "grams": 180
+        },
+        {
+          "key": "bok_choy",
+          "grams": 350
+        },
+        {
+          "key": "bacon",
+          "grams": 150
+        },
+        {
+          "key": "lard",
+          "grams": 12
+        },
+        {
+          "key": "sugar",
+          "grams": 3
+        },
+        {
+          "key": "black_pepper",
+          "grams": 1
+        },
+        {
+          "key": "water",
+          "grams": 400
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：生短粒白米180g、小白菜350g、培根150g、猪油12g、白砂糖3g、黑胡椒粉1g、饮用水400g。克数是项目标准，不是原文ml/个数换算。",
+      "咸肉明确采用USDA培根作腌猪肉近似，非东北咸肉标签；生米180g，青菜350g，省略可选冬笋料酒；肉析油全计，不另把锅中残油当额外用油",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "生短粒白米",
+        "food": {
+          "fdc_id": 168931,
+          "description": "Rice, white, short-grain, raw, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "241fad3e35a8c655a5d54615139523734f85faede57fcb0cc53c8c78dcd37b88"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "小白菜",
+        "food": {
+          "fdc_id": 170390,
+          "description": "Cabbage, chinese (pak-choi), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 350,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "猪油",
+        "food": {
+          "fdc_id": 171401,
+          "description": "Lard",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 400,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 950,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品950g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "19c097b89606e4574d3dca4061a140285b107287",
+        "food_identity": "Rice, white, short-grain, raw, unenriched; Cabbage, chinese (pak-choi), raw; Pork, cured, bacon, unprepared; Lard; Sugars, granulated; Spices, pepper, black; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "咸肉明确采用USDA培根作腌猪肉近似，非东北咸肉标签；生米180g，青菜350g，省略可选冬笋料酒；肉析油全计，不另把锅中残油当额外用油"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E5%92%B8%E8%82%89%E8%8F%9C%E9%A5%AD.md",
+          "blob_sha": "19c097b89606e4574d3dca4061a140285b107287",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168931/nutrients",
+          "note": "生短粒白米：Rice, white, short-grain, raw, unenriched；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170390/nutrients",
+          "note": "小白菜：Cabbage, chinese (pak-choi), raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+          "note": "培根：Pork, cured, bacon, unprepared；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171401/nutrients",
+          "note": "猪油：Lard；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+          "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 358,
+        "protein_g": 6.5,
+        "carbohydrate_g": 79.2,
+        "fat_g": 0.52
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 358
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 79.2
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.52
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168931,
+        "description": "Rice, white, short-grain, raw, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:53:54.123Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168931/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 241fad3e35a8c655",
+        "raw_sha256": "241fad3e35a8c655a5d54615139523734f85faede57fcb0cc53c8c78dcd37b88",
+        "transport": "api_search_snapshot",
+        "query_sha256": "99ddda4919b5c7b96835c629d67d17e0169643730843c6bcd7bae4eebc84db80"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 13,
+        "protein_g": 1.5,
+        "carbohydrate_g": 2.18,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 13
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.18
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170390,
+        "description": "Cabbage, chinese (pak-choi), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:23.773Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170390/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f97a2a4156f9a654",
+        "raw_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0f35685a8e98d27263503110e42c9aca15a5a5f481a8f7b5d55bb079a7072d4d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 393,
+        "protein_g": 13.7,
+        "carbohydrate_g": 0,
+        "fat_g": 37.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 393
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 13.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 37.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168277,
+        "description": "Pork, cured, bacon, unprepared",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:06:41.812Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 30b09321de3d5ee0",
+        "raw_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7bae0cd307a94e3f9a9d6e57633eba4914a6e037b3236a9cb4222fa91a3e84cb"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 902,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 902
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171401,
+        "description": "Lard",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:07:09.409Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171401/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 8ef60b0af4cf820b",
+        "raw_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "b707b5fcd44cc94aea08ee13cd6e66772d568b95e807c842a843e4cf9977bfb0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 251,
+        "protein_g": 10.4,
+        "carbohydrate_g": 64,
+        "fat_g": 3.26
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 251
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 64
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.26
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170931,
+        "description": "Spices, pepper, black",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 60b7f134c776a0c1",
+        "raw_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "生短粒白米",
+        "food": {
+          "fdc_id": 168931,
+          "description": "Rice, white, short-grain, raw, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "241fad3e35a8c655a5d54615139523734f85faede57fcb0cc53c8c78dcd37b88"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 358,
+          "protein_g": 6.5,
+          "carbohydrate_g": 79.2,
+          "fat_g": 0.52
+        },
+        "edible_g": 180
+      },
+      {
+        "name": "小白菜",
+        "food": {
+          "fdc_id": 170390,
+          "description": "Cabbage, chinese (pak-choi), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 350,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 13,
+          "protein_g": 1.5,
+          "carbohydrate_g": 2.18,
+          "fat_g": 0.2
+        },
+        "edible_g": 350
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 393,
+          "protein_g": 13.7,
+          "carbohydrate_g": 0,
+          "fat_g": 37.1
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "猪油",
+        "food": {
+          "fdc_id": 171401,
+          "description": "Lard",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 902,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 12
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。",
+        "per_100g": {
+          "energy_kcal": 251,
+          "protein_g": 10.4,
+          "carbohydrate_g": 64,
+          "fat_g": 3.26
+        },
+        "edible_g": 1
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 400,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 400
+      }
+    ],
+    "total": {
+      "energy_kcal": 1401.76,
+      "protein_g": 37.604,
+      "carbohydrate_g": 153.83,
+      "fat_g": 69.3186
+    },
+    "final_edible_g": 950,
+    "per_100g": {
+      "energy_kcal": 147.553684,
+      "protein_g": 3.958316,
+      "carbohydrate_g": 16.192632,
+      "fat_g": 7.296695
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 146.274047,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

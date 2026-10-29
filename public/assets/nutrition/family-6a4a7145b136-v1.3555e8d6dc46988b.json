@@ -1,0 +1,1063 @@
+{
+  "schema_version": 1,
+  "id": "family-6a4a7145b136-v1",
+  "recipe_id": "howtocook-6a4a7145b136",
+  "recipe_blob_sha": "21dbacc0a6dba51c0285a63cbde0efcbb821ea80",
+  "version": "1",
+  "data_version": "dd70dda0b66db597",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 850,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品850g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：鸭肉和皮（去骨）450g、糯米粉候选80g、白米粉50g、甜椒粉8g、姜15g、去皮大蒜15g、食盐3g、大豆食用油12g、饮用水180g；整份约850g。自制无复配蒸肉粉版本，用糯米粉80g和普通米粉50g组成明确米粉，鸭肉与皮按去骨净重；不放商业蒸肉粉及可选猪肉，蒸汁油脂全计。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-6a4a7145b136",
+    "state": "ready_to_eat",
+    "cooking_method": "covered_steaming",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-6a4a7145b136-v1",
+    "standard_ingredients": [
+      {
+        "key": "duck",
+        "grams": 450
+      },
+      {
+        "key": "glutinous_rice_flour",
+        "grams": 80
+      },
+      {
+        "key": "rice_flour",
+        "grams": 50
+      },
+      {
+        "key": "paprika",
+        "grams": 8
+      },
+      {
+        "key": "ginger",
+        "grams": 15
+      },
+      {
+        "key": "garlic",
+        "grams": 15
+      },
+      {
+        "key": "salt",
+        "grams": 3
+      },
+      {
+        "key": "oil",
+        "grams": 12
+      },
+      {
+        "key": "water",
+        "grams": 180
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 288.281176,
+    "protein_g": 7.344941,
+    "carbohydrate_g": 13.657059,
+    "fat_g": 22.553824
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/172408/nutrients",
+    "version": "dd70dda0b66db597",
+    "fdc_ids": [
+      172408,
+      1104867,
+      169714,
+      171329,
+      169231,
+      169230,
+      173468,
+      171411,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "21dbacc0a6dba51c0285a63cbde0efcbb821ea80"
+  },
+  "profile": {
+    "id": "family-6a4a7145b136-v1",
+    "version": "1",
+    "recipe_id": "howtocook-6a4a7145b136",
+    "recipe_blob_sha": "21dbacc0a6dba51c0285a63cbde0efcbb821ea80",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：鸭肉和皮（去骨）450g、糯米粉候选80g、白米粉50g、甜椒粉8g、姜15g、去皮大蒜15g、食盐3g、大豆食用油12g、饮用水180g；整份约850g。自制无复配蒸肉粉版本，用糯米粉80g和普通米粉50g组成明确米粉，鸭肉与皮按去骨净重；不放商业蒸肉粉及可选猪肉，蒸汁油脂全计。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-6a4a7145b136",
+      "state": "ready_to_eat",
+      "cooking_method": "covered_steaming",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-6a4a7145b136-v1",
+      "standard_ingredients": [
+        {
+          "key": "duck",
+          "grams": 450
+        },
+        {
+          "key": "glutinous_rice_flour",
+          "grams": 80
+        },
+        {
+          "key": "rice_flour",
+          "grams": 50
+        },
+        {
+          "key": "paprika",
+          "grams": 8
+        },
+        {
+          "key": "ginger",
+          "grams": 15
+        },
+        {
+          "key": "garlic",
+          "grams": 15
+        },
+        {
+          "key": "salt",
+          "grams": 3
+        },
+        {
+          "key": "oil",
+          "grams": 12
+        },
+        {
+          "key": "water",
+          "grams": 180
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：鸭肉和皮（去骨）450g、糯米粉候选80g、白米粉50g、甜椒粉8g、姜15g、去皮大蒜15g、食盐3g、大豆食用油12g、饮用水180g。克数是项目标准，不是原文ml/个数换算。",
+      "自制无复配蒸肉粉版本，用糯米粉80g和普通米粉50g组成明确米粉，鸭肉与皮按去骨净重；不放商业蒸肉粉及可选猪肉，蒸汁油脂全计",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "鸭肉和皮（去骨）",
+        "food": {
+          "fdc_id": 172408,
+          "description": "Duck, domesticated, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "990ddbc3c993067001944aec413701d208dc4f7420d4f7b8856e782959997bce"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "糯米粉候选",
+        "food": {
+          "fdc_id": 1104867,
+          "description": "Flour, rice, glutinous",
+          "data_type": "Foundation",
+          "snapshot_sha256": "7adf3fcd36105dee958e952aca35748bc3cf7f274147f3f4ca504a41062d41d2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "Foundation明确糯米粉Flour rice glutinous，非普通米粉或生糯米；逐营养素按实际记录解析，缺项保持null。"
+      },
+      {
+        "name": "白米粉",
+        "food": {
+          "fdc_id": 169714,
+          "description": "Rice flour, white, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "甜椒粉",
+        "food": {
+          "fdc_id": 171329,
+          "description": "Spices, paprika",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "56a51a94ed59bb6e41c2987be20882567e165cfcf79ddeb41d99deb060dfffaa"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "红甜椒干粉通用参考，非复合烧烤料。"
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 850,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品850g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "covered_steaming",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "21dbacc0a6dba51c0285a63cbde0efcbb821ea80",
+        "food_identity": "Duck, domesticated, meat and skin, raw; Flour, rice, glutinous; Rice flour, white, unenriched; Spices, paprika; Ginger root, raw; Garlic, raw; Salt, table; Oil, soybean, salad or cooking; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/raw/raw/ready_to_eat/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品covered_steaming。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "自制无复配蒸肉粉版本，用糯米粉80g和普通米粉50g组成明确米粉，鸭肉与皮按去骨净重；不放商业蒸肉粉及可选猪肉，蒸汁油脂全计"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD.md",
+          "blob_sha": "21dbacc0a6dba51c0285a63cbde0efcbb821ea80",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172408/nutrients",
+          "note": "鸭肉和皮（去骨）：Duck, domesticated, meat and skin, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/1104867/nutrients",
+          "note": "糯米粉候选：Flour, rice, glutinous；已核对数据类型、生熟、可食部分及原始摘要。Foundation明确糯米粉Flour rice glutinous，非普通米粉或生糯米；逐营养素按实际记录解析，缺项保持null。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+          "note": "白米粉：Rice flour, white, unenriched；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171329/nutrients",
+          "note": "甜椒粉：Spices, paprika；已核对数据类型、生熟、可食部分及原始摘要。红甜椒干粉通用参考，非复合烧烤料。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+          "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+          "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 404,
+        "protein_g": 11.5,
+        "carbohydrate_g": 0,
+        "fat_g": 39.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 404
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 11.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 39.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172408,
+        "description": "Duck, domesticated, meat and skin, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:05:16.011Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172408/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 990ddbc3c9930670",
+        "raw_sha256": "990ddbc3c993067001944aec413701d208dc4f7420d4f7b8856e782959997bce",
+        "transport": "api_search_snapshot",
+        "query_sha256": "6f36ba2dd4f61107fa662f9e3c9a46968aaaab5e0b5d17d57f7825879a0c98d3"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 358,
+        "protein_g": 6.69,
+        "carbohydrate_g": 80.1,
+        "fat_g": 1.16
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 358
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.69
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 80.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.16
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 1104867,
+        "description": "Flour, rice, glutinous",
+        "data_type": "Foundation",
+        "publication_date": "2020-10-30",
+        "retrieved_at": "2026-10-28T05:57:33.813Z",
+        "url": "https://fdc.nal.usda.gov/food-details/1104867/nutrients",
+        "version": "Foundation / 2020-10-30 / 7adf3fcd36105dee",
+        "raw_sha256": "7adf3fcd36105dee958e952aca35748bc3cf7f274147f3f4ca504a41062d41d2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "4a9f86f2036be5a7a98d22b0ef4406c31dc1884f39ebf9a3416dde76bec326d9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 366,
+        "protein_g": 5.95,
+        "carbohydrate_g": 80.1,
+        "fat_g": 1.42
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 366
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 5.95
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 80.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.42
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169714,
+        "description": "Rice flour, white, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:53:54.123Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+        "version": "SR Legacy / 2019-04-01 / a8dfd65f52122447",
+        "raw_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "99ddda4919b5c7b96835c629d67d17e0169643730843c6bcd7bae4eebc84db80"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 282,
+        "protein_g": 14.1,
+        "carbohydrate_g": 54,
+        "fat_g": 12.9
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 282
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 14.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 54
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 12.9
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171329,
+        "description": "Spices, paprika",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:55:57.277Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171329/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 56a51a94ed59bb6e",
+        "raw_sha256": "56a51a94ed59bb6e41c2987be20882567e165cfcf79ddeb41d99deb060dfffaa",
+        "transport": "api_search_snapshot",
+        "query_sha256": "4bd013e64c7478b649cde38156bec6510648d8ccd9d89082fa9379c02997bf79"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 80,
+        "protein_g": 1.82,
+        "carbohydrate_g": 17.8,
+        "fat_g": 0.75
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 80
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.75
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169231,
+        "description": "Ginger root, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:57.102Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8c5161cfeef99a8",
+        "raw_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3ed0beff1be476911c0e6250c641fa95241e2baad9a5169294d889fb94927fc0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 149,
+        "protein_g": 6.36,
+        "carbohydrate_g": 33.1,
+        "fat_g": 0.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 149
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.36
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 33.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169230,
+        "description": "Garlic, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:07.095Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 7ad29963a8d95feb",
+        "raw_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "鸭肉和皮（去骨）",
+        "food": {
+          "fdc_id": 172408,
+          "description": "Duck, domesticated, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "990ddbc3c993067001944aec413701d208dc4f7420d4f7b8856e782959997bce"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 450,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 404,
+          "protein_g": 11.5,
+          "carbohydrate_g": 0,
+          "fat_g": 39.3
+        },
+        "edible_g": 450
+      },
+      {
+        "name": "糯米粉候选",
+        "food": {
+          "fdc_id": 1104867,
+          "description": "Flour, rice, glutinous",
+          "data_type": "Foundation",
+          "snapshot_sha256": "7adf3fcd36105dee958e952aca35748bc3cf7f274147f3f4ca504a41062d41d2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "Foundation明确糯米粉Flour rice glutinous，非普通米粉或生糯米；逐营养素按实际记录解析，缺项保持null。",
+        "per_100g": {
+          "energy_kcal": 358,
+          "protein_g": 6.69,
+          "carbohydrate_g": 80.1,
+          "fat_g": 1.16
+        },
+        "edible_g": 80
+      },
+      {
+        "name": "白米粉",
+        "food": {
+          "fdc_id": 169714,
+          "description": "Rice flour, white, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 366,
+          "protein_g": 5.95,
+          "carbohydrate_g": 80.1,
+          "fat_g": 1.42
+        },
+        "edible_g": 50
+      },
+      {
+        "name": "甜椒粉",
+        "food": {
+          "fdc_id": 171329,
+          "description": "Spices, paprika",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "56a51a94ed59bb6e41c2987be20882567e165cfcf79ddeb41d99deb060dfffaa"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 8,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "红甜椒干粉通用参考，非复合烧烤料。",
+        "per_100g": {
+          "energy_kcal": 282,
+          "protein_g": 14.1,
+          "carbohydrate_g": 54,
+          "fat_g": 12.9
+        },
+        "edible_g": 8
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 80,
+          "protein_g": 1.82,
+          "carbohydrate_g": 17.8,
+          "fat_g": 0.75
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 149,
+          "protein_g": 6.36,
+          "carbohydrate_g": 33.1,
+          "fat_g": 0.5
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 12
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 180
+      }
+    ],
+    "total": {
+      "energy_kcal": 2450.39,
+      "protein_g": 62.432,
+      "carbohydrate_g": 116.085,
+      "fat_g": 191.7075
+    },
+    "final_edible_g": 850,
+    "per_100g": {
+      "energy_kcal": 288.281176,
+      "protein_g": 7.344941,
+      "carbohydrate_g": 13.657059,
+      "fat_g": 22.553824
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 286.992416,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "id": "family-cb3741f4d29d-v1",
+  "recipe_id": "howtocook-cb3741f4d29d",
+  "recipe_blob_sha": "5bead162d146a28527da6e03aab662285e4f42f4",
+  "version": "1",
+  "data_version": "3dd3d7ecc72d8c57",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：菠萝果肉200g、现煮黑咖啡150g、饮用水120g、白砂糖30g；整份约500g。全菠萝果肉不滤渣，现煮黑咖啡，无其他配料。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-cb3741f4d29d",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-cb3741f4d29d-v1",
+    "standard_ingredients": [
+      {
+        "key": "pineapple",
+        "grams": 200
+      },
+      {
+        "key": "coffee",
+        "grams": 150
+      },
+      {
+        "key": "water",
+        "grams": 120
+      },
+      {
+        "key": "sugar",
+        "grams": 30
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 43.52,
+    "protein_g": 0.252,
+    "carbohydrate_g": 11.24,
+    "fat_g": 0.054
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169124/nutrients",
+    "version": "3dd3d7ecc72d8c57",
+    "fdc_ids": [
+      169124,
+      171890,
+      173647,
+      169655
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E8%8F%A0%E8%90%9D%E5%92%96%E5%95%A1%E7%89%B9%E8%B0%83/%E8%8F%A0%E8%90%9D%E5%92%96%E5%95%A1%E7%89%B9%E8%B0%83.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "5bead162d146a28527da6e03aab662285e4f42f4"
+  },
+  "profile": {
+    "id": "family-cb3741f4d29d-v1",
+    "version": "1",
+    "recipe_id": "howtocook-cb3741f4d29d",
+    "recipe_blob_sha": "5bead162d146a28527da6e03aab662285e4f42f4",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：菠萝果肉200g、现煮黑咖啡150g、饮用水120g、白砂糖30g；整份约500g。全菠萝果肉不滤渣，现煮黑咖啡，无其他配料。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-cb3741f4d29d",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-cb3741f4d29d-v1",
+      "standard_ingredients": [
+        {
+          "key": "pineapple",
+          "grams": 200
+        },
+        {
+          "key": "coffee",
+          "grams": 150
+        },
+        {
+          "key": "water",
+          "grams": 120
+        },
+        {
+          "key": "sugar",
+          "grams": 30
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：菠萝果肉200g、现煮黑咖啡150g、饮用水120g、白砂糖30g。克数是项目标准，不是原文ml/个数换算。",
+      "全菠萝果肉不滤渣，现煮黑咖啡，无其他配料",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "菠萝果肉",
+        "food": {
+          "fdc_id": 169124,
+          "description": "Pineapple, raw, all varieties",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3247a27106bced56801bdebd6df7b347988c291e8f1f32c7a9561b831b9dab93"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      },
+      {
+        "name": "现煮黑咖啡",
+        "food": {
+          "fdc_id": 171890,
+          "description": "Beverages, coffee, brewed, prepared with tap water",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "1fe33db620248fb5cb8f8911bb888e9d67c478317b3b3e6c0701dfd034e466ad"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 120,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 500,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:09:54.756Z",
+      "checks": {
+        "recipe_version": "5bead162d146a28527da6e03aab662285e4f42f4",
+        "food_identity": "Pineapple, raw, all varieties; Beverages, coffee, brewed, prepared with tap water; Beverages, water, tap, drinking; Sugars, granulated",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "全菠萝果肉不滤渣，现煮黑咖啡，无其他配料"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E8%8F%A0%E8%90%9D%E5%92%96%E5%95%A1%E7%89%B9%E8%B0%83/%E8%8F%A0%E8%90%9D%E5%92%96%E5%95%A1%E7%89%B9%E8%B0%83.md",
+          "blob_sha": "5bead162d146a28527da6e03aab662285e4f42f4",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169124/nutrients",
+          "note": "菠萝果肉：Pineapple, raw, all varieties；已核对数据类型、生熟、可食部分及原始摘要。核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171890/nutrients",
+          "note": "现煮黑咖啡：Beverages, coffee, brewed, prepared with tap water；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 50,
+        "protein_g": 0.54,
+        "carbohydrate_g": 13.1,
+        "fat_g": 0.12
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 50
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.54
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 13.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.12
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169124,
+        "description": "Pineapple, raw, all varieties",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:20.395Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169124/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 3247a27106bced56",
+        "raw_sha256": "3247a27106bced56801bdebd6df7b347988c291e8f1f32c7a9561b831b9dab93",
+        "transport": "api_search_snapshot",
+        "query_sha256": "56befb1009b650677df8d560b99c8eaa9196fa8306c8bcd5501c42a4b6b012ed"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 1,
+        "protein_g": 0.12,
+        "carbohydrate_g": 0,
+        "fat_g": 0.02
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 1
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.12
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.02
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171890,
+        "description": "Beverages, coffee, brewed, prepared with tap water",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:38.524Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171890/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 1fe33db620248fb5",
+        "raw_sha256": "1fe33db620248fb5cb8f8911bb888e9d67c478317b3b3e6c0701dfd034e466ad",
+        "transport": "api_search_snapshot",
+        "query_sha256": "75cb0b5424de446ac2ab5d2465336ea0f5190f037df9b66aa9c0d5eb6ed649f2"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "菠萝果肉",
+        "food": {
+          "fdc_id": 169124,
+          "description": "Pineapple, raw, all varieties",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3247a27106bced56801bdebd6df7b347988c291e8f1f32c7a9561b831b9dab93"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。",
+        "per_100g": {
+          "energy_kcal": 50,
+          "protein_g": 0.54,
+          "carbohydrate_g": 13.1,
+          "fat_g": 0.12
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "现煮黑咖啡",
+        "food": {
+          "fdc_id": 171890,
+          "description": "Beverages, coffee, brewed, prepared with tap water",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "1fe33db620248fb5cb8f8911bb888e9d67c478317b3b3e6c0701dfd034e466ad"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 1,
+          "protein_g": 0.12,
+          "carbohydrate_g": 0,
+          "fat_g": 0.02
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 120,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 120
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 30
+      }
+    ],
+    "total": {
+      "energy_kcal": 217.6,
+      "protein_g": 1.26,
+      "carbohydrate_g": 56.2,
+      "fat_g": 0.27
+    },
+    "final_edible_g": 500,
+    "per_100g": {
+      "energy_kcal": 43.52,
+      "protein_g": 0.252,
+      "carbohydrate_g": 11.24,
+      "fat_g": 0.054
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 46.454,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

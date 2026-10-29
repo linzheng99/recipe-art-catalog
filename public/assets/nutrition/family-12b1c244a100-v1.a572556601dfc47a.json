@@ -1,0 +1,864 @@
+{
+  "schema_version": 1,
+  "id": "family-12b1c244a100-v1",
+  "recipe_id": "howtocook-12b1c244a100",
+  "recipe_blob_sha": "e660e79f44af7650e76eb1a89776f6f9b0494641",
+  "version": "1",
+  "data_version": "125da73a5756441e",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 1400,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品1400g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：乳鸽肉皮300g、鲜香菇100g、白蘑菇100g、水煮黄色甜玉米粒150g、姜20g、食盐3g、饮用水1000g；整份约1400g。乳鸽只称去骨净肉与皮，排除骨内脏；玉米限定已煮黄色甜玉米粒无芯，不放料酒、不焯水弃液，鲜香菇及白蘑菇各100g，所有汤汁入口。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-12b1c244a100",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-12b1c244a100-v1",
+    "standard_ingredients": [
+      {
+        "key": "pigeon",
+        "grams": 300
+      },
+      {
+        "key": "shiitake",
+        "grams": 100
+      },
+      {
+        "key": "mushroom",
+        "grams": 100
+      },
+      {
+        "key": "corn_cooked",
+        "grams": 150
+      },
+      {
+        "key": "ginger",
+        "grams": 20
+      },
+      {
+        "key": "salt",
+        "grams": 3
+      },
+      {
+        "key": "water",
+        "grams": 1000
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 78.428571,
+    "protein_g": 4.736357,
+    "carbohydrate_g": 3.22,
+    "fat_g": 5.330714
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/174475/nutrients",
+    "version": "125da73a5756441e",
+    "fdc_ids": [
+      174475,
+      169242,
+      169251,
+      169999,
+      169231,
+      173468,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/soup/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "e660e79f44af7650e76eb1a89776f6f9b0494641"
+  },
+  "profile": {
+    "id": "family-12b1c244a100-v1",
+    "version": "1",
+    "recipe_id": "howtocook-12b1c244a100",
+    "recipe_blob_sha": "e660e79f44af7650e76eb1a89776f6f9b0494641",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：乳鸽肉皮300g、鲜香菇100g、白蘑菇100g、水煮黄色甜玉米粒150g、姜20g、食盐3g、饮用水1000g；整份约1400g。乳鸽只称去骨净肉与皮，排除骨内脏；玉米限定已煮黄色甜玉米粒无芯，不放料酒、不焯水弃液，鲜香菇及白蘑菇各100g，所有汤汁入口。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-12b1c244a100",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-12b1c244a100-v1",
+      "standard_ingredients": [
+        {
+          "key": "pigeon",
+          "grams": 300
+        },
+        {
+          "key": "shiitake",
+          "grams": 100
+        },
+        {
+          "key": "mushroom",
+          "grams": 100
+        },
+        {
+          "key": "corn_cooked",
+          "grams": 150
+        },
+        {
+          "key": "ginger",
+          "grams": 20
+        },
+        {
+          "key": "salt",
+          "grams": 3
+        },
+        {
+          "key": "water",
+          "grams": 1000
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：乳鸽肉皮300g、鲜香菇100g、白蘑菇100g、水煮黄色甜玉米粒150g、姜20g、食盐3g、饮用水1000g。克数是项目标准，不是原文ml/个数换算。",
+      "乳鸽只称去骨净肉与皮，排除骨内脏；玉米限定已煮黄色甜玉米粒无芯，不放料酒、不焯水弃液，鲜香菇及白蘑菇各100g，所有汤汁入口",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "乳鸽肉皮",
+        "food": {
+          "fdc_id": 174475,
+          "description": "Squab, (pigeon), meat and skin, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2d4955e0f27992f937e8a711b63dc9d8d681869c0b5c426c1681eb690fd8a719"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "乳鸽净肉与皮，不含骨、内脏，非整鸽毛重。"
+      },
+      {
+        "name": "鲜香菇",
+        "food": {
+          "fdc_id": 169242,
+          "description": "Mushrooms, shiitake, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c2accfdea48e68173ab7c41722c8f3a0fe3223d962f1a874da59f9ab3dabb69e"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白蘑菇",
+        "food": {
+          "fdc_id": 169251,
+          "description": "Mushrooms, white, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8cbfa6009ce552eb0e16cada0513e5276a03341e73e8e98207ff8deab5ba69f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "水煮黄色甜玉米粒",
+        "food": {
+          "fdc_id": 169999,
+          "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8e2d1c36328ce7f97b28956583be4996ba9cf41493534ff63845c4741a44bc3b"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1000,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 1400,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品1400g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:09:41.307Z",
+      "checks": {
+        "recipe_version": "e660e79f44af7650e76eb1a89776f6f9b0494641",
+        "food_identity": "Squab, (pigeon), meat and skin, raw; Mushrooms, shiitake, raw; Mushrooms, white, raw; Corn, sweet, yellow, cooked, boiled, drained, without salt; Ginger root, raw; Salt, table; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/raw/raw/cooked/raw/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "乳鸽只称去骨净肉与皮，排除骨内脏；玉米限定已煮黄色甜玉米粒无芯，不放料酒、不焯水弃液，鲜香菇及白蘑菇各100g，所有汤汁入口"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/soup/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD/%E8%8F%8C%E8%8F%87%E7%82%96%E4%B9%B3%E9%B8%BD.md",
+          "blob_sha": "e660e79f44af7650e76eb1a89776f6f9b0494641",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174475/nutrients",
+          "note": "乳鸽肉皮：Squab, (pigeon), meat and skin, raw；已核对数据类型、生熟、可食部分及原始摘要。乳鸽净肉与皮，不含骨、内脏，非整鸽毛重。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169242/nutrients",
+          "note": "鲜香菇：Mushrooms, shiitake, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169251/nutrients",
+          "note": "白蘑菇：Mushrooms, white, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169999/nutrients",
+          "note": "水煮黄色甜玉米粒：Corn, sweet, yellow, cooked, boiled, drained, without salt；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+          "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 294,
+        "protein_g": 18.5,
+        "carbohydrate_g": 0,
+        "fat_g": 23.8
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 294
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 18.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 23.8
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174475,
+        "description": "Squab, (pigeon), meat and skin, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:57:22.197Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174475/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2d4955e0f27992f9",
+        "raw_sha256": "2d4955e0f27992f937e8a711b63dc9d8d681869c0b5c426c1681eb690fd8a719",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0beb300ce5cb600f7544c56676f9547d35835ded0ba7e2cfe3aa25bfa839646d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 34,
+        "protein_g": 2.24,
+        "carbohydrate_g": 6.79,
+        "fat_g": 0.49
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 34
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.24
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.79
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.49
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169242,
+        "description": "Mushrooms, shiitake, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:04:48.393Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169242/nutrients",
+        "version": "SR Legacy / 2019-04-01 / c2accfdea48e6817",
+        "raw_sha256": "c2accfdea48e68173ab7c41722c8f3a0fe3223d962f1a874da59f9ab3dabb69e",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8f69e055209653a75ba24b09bfdf3629b4dbbef39f10c66d12629e30290bd146"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 22,
+        "protein_g": 3.09,
+        "carbohydrate_g": 3.26,
+        "fat_g": 0.34
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 22
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.09
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.26
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.34
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169251,
+        "description": "Mushrooms, white, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:04:48.393Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169251/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8cbfa6009ce552e",
+        "raw_sha256": "f8cbfa6009ce552eb0e16cada0513e5276a03341e73e8e98207ff8deab5ba69f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8f69e055209653a75ba24b09bfdf3629b4dbbef39f10c66d12629e30290bd146"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 96,
+        "protein_g": 3.41,
+        "carbohydrate_g": 20.98,
+        "fat_g": 1.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 96
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.41
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 20.98
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169999,
+        "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+        "data_type": "SR Legacy",
+        "publication_date": "4/1/2019",
+        "retrieved_at": "2026-10-27T14:55:02.607Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169999/nutrients",
+        "version": "SR Legacy / 4/1/2019 / 8e2d1c36328ce7f9",
+        "raw_sha256": "8e2d1c36328ce7f97b28956583be4996ba9cf41493534ff63845c4741a44bc3b",
+        "transport": "api"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 80,
+        "protein_g": 1.82,
+        "carbohydrate_g": 17.8,
+        "fat_g": 0.75
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 80
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.75
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169231,
+        "description": "Ginger root, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:57.102Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8c5161cfeef99a8",
+        "raw_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3ed0beff1be476911c0e6250c641fa95241e2baad9a5169294d889fb94927fc0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "乳鸽肉皮",
+        "food": {
+          "fdc_id": 174475,
+          "description": "Squab, (pigeon), meat and skin, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2d4955e0f27992f937e8a711b63dc9d8d681869c0b5c426c1681eb690fd8a719"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "乳鸽净肉与皮，不含骨、内脏，非整鸽毛重。",
+        "per_100g": {
+          "energy_kcal": 294,
+          "protein_g": 18.5,
+          "carbohydrate_g": 0,
+          "fat_g": 23.8
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "鲜香菇",
+        "food": {
+          "fdc_id": 169242,
+          "description": "Mushrooms, shiitake, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c2accfdea48e68173ab7c41722c8f3a0fe3223d962f1a874da59f9ab3dabb69e"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 34,
+          "protein_g": 2.24,
+          "carbohydrate_g": 6.79,
+          "fat_g": 0.49
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "白蘑菇",
+        "food": {
+          "fdc_id": 169251,
+          "description": "Mushrooms, white, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8cbfa6009ce552eb0e16cada0513e5276a03341e73e8e98207ff8deab5ba69f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 22,
+          "protein_g": 3.09,
+          "carbohydrate_g": 3.26,
+          "fat_g": 0.34
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "水煮黄色甜玉米粒",
+        "food": {
+          "fdc_id": 169999,
+          "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8e2d1c36328ce7f97b28956583be4996ba9cf41493534ff63845c4741a44bc3b"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 96,
+          "protein_g": 3.41,
+          "carbohydrate_g": 20.98,
+          "fat_g": 1.5
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 80,
+          "protein_g": 1.82,
+          "carbohydrate_g": 17.8,
+          "fat_g": 0.75
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1000,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 1000
+      }
+    ],
+    "total": {
+      "energy_kcal": 1098,
+      "protein_g": 66.309,
+      "carbohydrate_g": 45.08,
+      "fat_g": 74.63
+    },
+    "final_edible_g": 1400,
+    "per_100g": {
+      "energy_kcal": 78.428571,
+      "protein_g": 4.736357,
+      "carbohydrate_g": 3.22,
+      "fat_g": 5.330714
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 79.801854,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

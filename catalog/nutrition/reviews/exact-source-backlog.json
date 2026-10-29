@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-29T00:12:53.721801+00:00",
+  "policy": "已提供通用食物组粗估，以下是原食材或品牌来源的精化待办，不是缺少可用营养。",
+  "recipes": [
+    {
+      "recipe_id": "howtocook-eb849be42cbb",
+      "name": "水煮鱼",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-eb849be42cbb-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "原文巴沙鱼与已核验鲤鱼鲈鱼不同，且藤椒油含配方差异；图片相近不能合用营养。",
+      "improvement": "补巴沙鱼净肉来源和藤椒油标签，按鱼菜与汤汁是否全食分别建方案。"
+    },
+    {
+      "recipe_id": "howtocook-961ae3ea5f72",
+      "name": "红烧鱼头",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-961ae3ea5f72-v1",
+      "previous_status": "no_match",
+      "original_gap": "原文鲢鱼头含多种组织；当前鲤鱼净肉参考不能代表鱼头可食部分。",
+      "improvement": "补鲢鱼头去骨可食组织的来源及范围，不用整鱼肉值套算。"
+    },
+    {
+      "recipe_id": "howtocook-2ce6f52e5526",
+      "name": "葱烧海参",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-2ce6f52e5526-v1",
+      "previous_status": "no_match",
+      "original_gap": "韩国DB10.4已核验鲜刺参Stichopus japonicus（K6340000000a），原文却指定泡发北极参；鲜刺参与泡发北极参的物种和含水状态都不同，未将其静默当成同一食材。家庭用量与成品重量可以设定，当前缺泡发北极参或明确近似代理的对应成分依据。",
+      "improvement": "补泡发北极参营养标签或可复用来源；若新增鲜刺参版本，需另建配方和适用范围，不覆盖原文泡发北极参。"
+    },
+    {
+      "recipe_id": "howtocook-c9b72f0464b3",
+      "name": "香煎翘嘴鱼",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-c9b72f0464b3-v1",
+      "previous_status": "no_match",
+      "original_gap": "翘嘴鱼需腌晒1–2天再煎，当前生鲤鱼或通用鱼肉不代表其物种及失水状态。",
+      "improvement": "补翘嘴鱼来源和腌晒出成依据；不把标准家庭成品重当腌晒测定结果。"
+    },
+    {
+      "recipe_id": "howtocook-4211c36ff61d",
+      "name": "鳊鱼炖豆腐",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-4211c36ff61d-v1",
+      "previous_status": "no_match",
+      "original_gap": "本轮freshwater bream检索未取得明确鳊鱼条目，命中drum或其他鱼；不能替换物种。",
+      "improvement": "取得鳊鱼净肉的可溯源来源，再独立汇总豆腐及酱汁。"
+    },
+    {
+      "recipe_id": "howtocook-43027c68c000",
+      "name": "龟苓膏",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-43027c68c000-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "龟苓膏粉是品牌复配制品，并不等于纯淀粉或明胶；缺其标签及冲调基准。",
+      "improvement": "提供对应粉料标签和干粉投入净量，再按糖水家庭份计算。"
+    },
+    {
+      "recipe_id": "howtocook-460b515020de",
+      "name": "冰粉",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-460b515020de-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "冰粉籽搓洗后滤渣凝胶，籽的整份营养不等于凝胶；薄荷汁或粉也未固定。",
+      "improvement": "补冰粉凝胶成品来源或可核验提取率，明确糖浆等实际加入量。"
+    },
+    {
+      "recipe_id": "howtocook-b261aa97c4ab",
+      "name": "海边落日",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-b261aa97c4ab-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "蓝橙或橙味力娇酒、红石榴糖浆或龙舌兰酒的酒度含糖量未核验，不能替成等量无糖朗姆酒。",
+      "improvement": "固定各酒与糖浆的品牌来源；所有液体称克或使用有来源密度，再按冷调质量守恒计算。"
+    },
+    {
+      "recipe_id": "howtocook-4633664c062d",
+      "name": "酒酿醪糟",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-4633664c062d-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "已找到日本官方甘酒16050，但其说明是米麴甜饮，不能静默当作中国甜酒曲发酵、含米粒的糯米醪糟。现仍缺适用的醪糟成品来源。",
+      "improvement": "补明确含米粒/汁液比例的中国酒酿品牌标签或适用成品参考；汤圆和普通糖水可沿用家庭份。"
+    },
+    {
+      "recipe_id": "howtocook-d20888ebc3bf",
+      "name": "酸梅汤",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-d20888ebc3bf-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "原文熬煮后滤掉冬瓜或药材果渣，只有液体入口；整果营养之和不等于滤液营养。",
+      "improvement": "取得适用成品饮品或可核验浸出数据，保留糖与滤液重量基准。"
+    },
+    {
+      "recipe_id": "howtocook-342d514cbf79",
+      "name": "酸梅汤（半成品加工）",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-342d514cbf79-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "原文酸梅晶是配方不明的固体饮料，还加入二锅头；不能用白糖代替整包粉。",
+      "improvement": "补酸梅晶标签及白酒酒度来源，固定加酒或无酒分支。"
+    },
+    {
+      "recipe_id": "howtocook-45ad36b6133c",
+      "name": "长岛冰茶",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-45ad36b6133c-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "蓝橙或橙味力娇酒、红石榴糖浆或龙舌兰酒的酒度含糖量未核验，不能替成等量无糖朗姆酒。",
+      "improvement": "固定各酒与糖浆的品牌来源；所有液体称克或使用有来源密度，再按冷调质量守恒计算。"
+    },
+    {
+      "recipe_id": "howtocook-c5fddf9813b2",
+      "name": "杀猪菜",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-c5fddf9813b2-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "缺血肠的配方及营养来源；现有普通猪肉不能代表含血、谷物及脂肪的血肠。已允许酸包菜代理酸白菜，但该代理不能补齐血肠。",
+      "improvement": "核验血肠标签或各组成食材来源，固定普通家庭版本及酸白菜代理范围。"
+    },
+    {
+      "recipe_id": "howtocook-ddc763f709d2",
+      "name": "猪皮冻",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-ddc763f709d2-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "当前只有带皮五花肉候选，没有纯鲜猪皮来源；反复煮洗刮脂也改变配方。",
+      "improvement": "补刮脂处理后净猪皮的适用营养与水量范围，不能用猪蹄或五花肉替代。"
+    },
+    {
+      "recipe_id": "howtocook-a7f8fdd45ba3",
+      "name": "血浆鸭",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-a7f8fdd45ba3-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "鲜鸭血尚无已核验营养来源，不能把鸭肉的营养作为鸭血。鸭肉、油和成品重量均可按家庭份设定。",
+      "improvement": "补鸭血适用来源，再固定加醋及酒料分支；酒精保留假设须明确。"
+    },
+    {
+      "recipe_id": "howtocook-6f41690d80c8",
+      "name": "豆豉鲮鱼油麦菜",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-6f41690d80c8-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "甘竹豆豉鲮鱼罐头为鱼油豆豉复配，缺标签；油麦菜与已选冰山生菜不同。",
+      "improvement": "补指定罐头含油/沥油基准与油麦菜来源，不用普通鱼肉加油凑数。"
+    },
+    {
+      "recipe_id": "howtocook-280e1f88f772",
+      "name": "贵州辣子鸡",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-280e1f88f772-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "糍粑辣椒、酒糟、蒜苗等不是普通辣椒粉/熟米，含发酵和啤酒过程；尚无完整来源链。",
+      "improvement": "补酒糟与糍粑辣椒配方及蒜苗来源，固定酒精和油保留规则。"
+    },
+    {
+      "recipe_id": "howtocook-1bc98124aec5",
+      "name": "牛油火锅底料",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-1bc98124aec5-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "大量牛油、豆母子、郫县豆瓣、糍粑辣椒和麦芽粉配方不全，且底料全锅不等于每人食用量。",
+      "improvement": "补所有复配配料和过滤出油依据，明确底料成品参考与稀释后汤锅分别计算。"
+    },
+    {
+      "recipe_id": "howtocook-031354976c67",
+      "name": "螺蛳粉",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-031354976c67-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "原文袋装螺蛳粉含多种料包，品牌和弃油/加包比例不固定；不能把纯米粉值当整碗。",
+      "improvement": "固定产品每包面和各料包标签与实际加入克数，汤汁份量另定义。"
+    },
+    {
+      "recipe_id": "howtocook-4de3928e6efa",
+      "name": "醪糟小汤圆",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-4de3928e6efa-v1",
+      "previous_status": "missing_evidence",
+      "original_gap": "已找到日本官方甘酒16050，但其说明是米麴甜饮，不能静默当作中国甜酒曲发酵、含米粒的糯米醪糟。现仍缺适用的醪糟成品来源。",
+      "improvement": "补明确含米粒/汁液比例的中国酒酿品牌标签或适用成品参考；汤圆和普通糖水可沿用家庭份。"
+    },
+    {
+      "recipe_id": "howtocook-c8756846df80",
+      "name": "白灼菜心",
+      "status": "proxy_available_exact_source_not_verified",
+      "profile_id": "family-c8756846df80-v1",
+      "previous_status": "no_match",
+      "original_gap": "菜心是开花茎叶蔬菜，候选pak-choi小白菜不能直接视为相同；原文还焯水沥出。",
+      "improvement": "补明确菜心及相应熟沥水来源，再分别加食用的油酱。"
+    }
+  ]
+}

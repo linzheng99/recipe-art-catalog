@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "description": "首批8篇：先保留候选，独立核验后再维护营养方案。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-853f4dcc16af",
+      "queries": [
+        "Corn sweet yellow cooked boiled drained without salt"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-7a681fba9fd0",
+      "queries": [
+        "Egg whole cooked hard boiled"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-cf3dabc066de",
+      "queries": [
+        "Rice white short grain cooked unenriched"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d051be3bc11e",
+      "queries": [
+        "Tomatoes red ripe raw year round average",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f5e44764c054",
+      "queries": [
+        "Cucumber with peel raw",
+        "Garlic raw",
+        "Oil sesame salad cooking",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Vinegar cider",
+        "Salt table",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0f850528c984",
+      "queries": [
+        "Oats raw",
+        "Milk whole 3.25 milkfat",
+        "Cereals oats regular quick cooked water without salt",
+        "Egg whole cooked hard boiled"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b13f782654bf",
+      "queries": [
+        "Egg whole raw fresh",
+        "Egg custard savory steamed",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-afbed0895578",
+      "queries": [
+        "Egg whole raw fresh",
+        "Oil sesame salad cooking",
+        "Soy sauce shoyu",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    }
+  ]
+}

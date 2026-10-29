@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-708eac43f729",
+      "queries": [
+        "Cucumber with peel raw",
+        "Egg whole raw fresh",
+        "Luncheon meat pork ham canned",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Peppers hot chili red raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ecae5220671c",
+      "queries": [
+        "Egg whole raw fresh",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9dff14f76013",
+      "queries": [
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a1b5c702a812",
+      "queries": [
+        "Egg whole raw fresh",
+        "Water tap drinking",
+        "Sugars granulated"
+      ]
+    }
+  ]
+}

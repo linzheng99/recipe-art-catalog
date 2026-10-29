@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "id": "family-989ccdcae7af-v1",
+  "recipe_id": "howtocook-989ccdcae7af",
+  "recipe_blob_sha": "2bf0c8a7dd0f43f1d8dcb20b34e21d05c743a38b",
+  "version": "1",
+  "data_version": "45b3b4ebba507c72",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：通用咖啡甜酒（53 proof）20g、通用奶油咖啡甜酒（34 proof）20g、伏特加40%酒精20g；整份约60g。不点火的通用三层甜酒标准版本，每种直接称20g，成品60g约分2小杯；咖啡甜酒限定53 proof即26.5%ABV、奶油甜酒34 proof即17%ABV、伏特加40%ABV。不同于原甘露/百利/蓝天品牌及原文每种10ml，未把ml当g，也不估计燃烧损失。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-989ccdcae7af",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-989ccdcae7af-v1",
+    "standard_ingredients": [
+      {
+        "key": "coffee_liqueur",
+        "grams": 20
+      },
+      {
+        "key": "cream_liqueur",
+        "grams": 20
+      },
+      {
+        "key": "vodka",
+        "grams": 20
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 298,
+    "protein_g": 0.966667,
+    "carbohydrate_g": 22.566667,
+    "fat_g": 5.333333
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/175097/nutrients",
+    "version": "45b3b4ebba507c72",
+    "fdc_ids": [
+      175097,
+      175098,
+      174818
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/B52%E8%BD%B0%E7%82%B8%E6%9C%BA.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "2bf0c8a7dd0f43f1d8dcb20b34e21d05c743a38b"
+  },
+  "profile": {
+    "id": "family-989ccdcae7af-v1",
+    "version": "1",
+    "recipe_id": "howtocook-989ccdcae7af",
+    "recipe_blob_sha": "2bf0c8a7dd0f43f1d8dcb20b34e21d05c743a38b",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：通用咖啡甜酒（53 proof）20g、通用奶油咖啡甜酒（34 proof）20g、伏特加40%酒精20g；整份约60g。不点火的通用三层甜酒标准版本，每种直接称20g，成品60g约分2小杯；咖啡甜酒限定53 proof即26.5%ABV、奶油甜酒34 proof即17%ABV、伏特加40%ABV。不同于原甘露/百利/蓝天品牌及原文每种10ml，未把ml当g，也不估计燃烧损失。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-989ccdcae7af",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-989ccdcae7af-v1",
+      "standard_ingredients": [
+        {
+          "key": "coffee_liqueur",
+          "grams": 20
+        },
+        {
+          "key": "cream_liqueur",
+          "grams": 20
+        },
+        {
+          "key": "vodka",
+          "grams": 20
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：通用咖啡甜酒（53 proof）20g、通用奶油咖啡甜酒（34 proof）20g、伏特加40%酒精20g。克数是项目标准，不是原文ml/个数换算。",
+      "不点火的通用三层甜酒标准版本，每种直接称20g，成品60g约分2小杯；咖啡甜酒限定53 proof即26.5%ABV、奶油甜酒34 proof即17%ABV、伏特加40%ABV。不同于原甘露/百利/蓝天品牌及原文每种10ml，未把ml当g，也不估计燃烧损失",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "限定17%ABV含奶油甜酒，非无糖烈酒，作为百利类甜酒的明确通用代理，不声称品牌标签精确一致。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "通用咖啡甜酒（53 proof）",
+        "food": {
+          "fdc_id": 175097,
+          "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定26.5%ABV咖啡甜酒通用配方，不冒充甘露当前16%或20%品牌标签，其他酒度和糖量不自动适用。"
+      },
+      {
+        "name": "通用奶油咖啡甜酒（34 proof）",
+        "food": {
+          "fdc_id": 175098,
+          "description": "Alcoholic beverage, liqueur, coffee with cream, 34 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3f71b8e22c06298aa617436e44b990c226eeb761608fb5cf1cc962d27338d2f8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定17%ABV含奶油甜酒，非无糖烈酒，作为百利类甜酒的明确通用代理，不声称品牌标签精确一致。"
+      },
+      {
+        "name": "伏特加40%酒精",
+        "food": {
+          "fdc_id": 174818,
+          "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。"
+      }
+    ],
+    "final_weight": {
+      "grams": 60,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T08:16:37.479Z",
+      "checks": {
+        "recipe_version": "2bf0c8a7dd0f43f1d8dcb20b34e21d05c743a38b",
+        "food_identity": "Alcoholic beverage, liqueur, coffee, 53 proof; Alcoholic beverage, liqueur, coffee with cream, 34 proof; Alcoholic beverage, distilled, vodka, 80 proof",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "不点火的通用三层甜酒标准版本，每种直接称20g，成品60g约分2小杯；咖啡甜酒限定53 proof即26.5%ABV、奶油甜酒34 proof即17%ABV、伏特加40%ABV。不同于原甘露/百利/蓝天品牌及原文每种10ml，未把ml当g，也不估计燃烧损失"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/B52%E8%BD%B0%E7%82%B8%E6%9C%BA.md",
+          "blob_sha": "2bf0c8a7dd0f43f1d8dcb20b34e21d05c743a38b",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/175097/nutrients",
+          "note": "通用咖啡甜酒（53 proof）：Alcoholic beverage, liqueur, coffee, 53 proof；已核对数据类型、生熟、可食部分及原始摘要。限定26.5%ABV咖啡甜酒通用配方，不冒充甘露当前16%或20%品牌标签，其他酒度和糖量不自动适用。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/175098/nutrients",
+          "note": "通用奶油咖啡甜酒（34 proof）：Alcoholic beverage, liqueur, coffee with cream, 34 proof；已核对数据类型、生熟、可食部分及原始摘要。限定17%ABV含奶油甜酒，非无糖烈酒，作为百利类甜酒的明确通用代理，不声称品牌标签精确一致。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+          "note": "伏特加40%酒精：Alcoholic beverage, distilled, vodka, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 336,
+        "protein_g": 0.1,
+        "carbohydrate_g": 46.8,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 336
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 46.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 175097,
+        "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/175097/nutrients",
+        "version": "SR Legacy / 2019-04-01 / d0ab776d15db3f11",
+        "raw_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 327,
+        "protein_g": 2.8,
+        "carbohydrate_g": 20.9,
+        "fat_g": 15.7
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 327
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.8
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 20.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 15.7
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 175098,
+        "description": "Alcoholic beverage, liqueur, coffee with cream, 34 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/175098/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 3f71b8e22c06298a",
+        "raw_sha256": "3f71b8e22c06298aa617436e44b990c226eeb761608fb5cf1cc962d27338d2f8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174818,
+        "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ad8d47a49ad51da2",
+        "raw_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "通用咖啡甜酒（53 proof）",
+        "food": {
+          "fdc_id": 175097,
+          "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定26.5%ABV咖啡甜酒通用配方，不冒充甘露当前16%或20%品牌标签，其他酒度和糖量不自动适用。",
+        "per_100g": {
+          "energy_kcal": 336,
+          "protein_g": 0.1,
+          "carbohydrate_g": 46.8,
+          "fat_g": 0.3
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "通用奶油咖啡甜酒（34 proof）",
+        "food": {
+          "fdc_id": 175098,
+          "description": "Alcoholic beverage, liqueur, coffee with cream, 34 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3f71b8e22c06298aa617436e44b990c226eeb761608fb5cf1cc962d27338d2f8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定17%ABV含奶油甜酒，非无糖烈酒，作为百利类甜酒的明确通用代理，不声称品牌标签精确一致。",
+        "per_100g": {
+          "energy_kcal": 327,
+          "protein_g": 2.8,
+          "carbohydrate_g": 20.9,
+          "fat_g": 15.7
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "伏特加40%酒精",
+        "food": {
+          "fdc_id": 174818,
+          "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 20
+      }
+    ],
+    "total": {
+      "energy_kcal": 178.8,
+      "protein_g": 0.58,
+      "carbohydrate_g": 13.54,
+      "fat_g": 3.2
+    },
+    "final_edible_g": 60,
+    "per_100g": {
+      "energy_kcal": 298,
+      "protein_g": 0.966667,
+      "carbohydrate_g": 22.566667,
+      "fat_g": 5.333333
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 142.133333,
+    "warnings": [
+      "4/4/9粗略折算与来源热量差异较大，保留来源热量，请复核"
+    ]
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

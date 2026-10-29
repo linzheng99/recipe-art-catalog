@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "id": "family-68ca6633c10d-v1",
+  "recipe_id": "howtocook-68ca6633c10d",
+  "recipe_blob_sha": "0f694eeba7654a95e02c2cfe0d1a1327099d737c",
+  "version": "1",
+  "data_version": "28c943437d621c87",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 900,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品900g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：味全黑芝麻速冻汤圆300g、饮用水650g；整份约900g。固定味全GTIN黑芝麻速冻汤圆300g含皮和全部馅料，不是无馅或其他品牌；家庭煮制后连清汤食用，成品900g是假设，不把整锅营养当每100g。限定品牌：味全黑芝麻速冻汤圆=WEI-CHUAN GTIN 072869463173。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-68ca6633c10d",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": "味全黑芝麻速冻汤圆=WEI-CHUAN GTIN 072869463173",
+    "variant": "family-68ca6633c10d-v1",
+    "standard_ingredients": [
+      {
+        "key": "sweet_dumpling",
+        "grams": 300
+      },
+      {
+        "key": "water",
+        "grams": 650
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 123.333333,
+    "protein_g": 1.333333,
+    "carbohydrate_g": 15.333333,
+    "fat_g": 6.333333
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/2090323/nutrients",
+    "version": "28c943437d621c87",
+    "fdc_ids": [
+      2090323,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E9%80%9F%E5%86%BB%E6%B1%A4%E5%9C%86/%E9%80%9F%E5%86%BB%E6%B1%A4%E5%9C%86.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "0f694eeba7654a95e02c2cfe0d1a1327099d737c"
+  },
+  "profile": {
+    "id": "family-68ca6633c10d-v1",
+    "version": "1",
+    "recipe_id": "howtocook-68ca6633c10d",
+    "recipe_blob_sha": "0f694eeba7654a95e02c2cfe0d1a1327099d737c",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：味全黑芝麻速冻汤圆300g、饮用水650g；整份约900g。固定味全GTIN黑芝麻速冻汤圆300g含皮和全部馅料，不是无馅或其他品牌；家庭煮制后连清汤食用，成品900g是假设，不把整锅营养当每100g。限定品牌：味全黑芝麻速冻汤圆=WEI-CHUAN GTIN 072869463173。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-68ca6633c10d",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": "味全黑芝麻速冻汤圆=WEI-CHUAN GTIN 072869463173",
+      "variant": "family-68ca6633c10d-v1",
+      "standard_ingredients": [
+        {
+          "key": "sweet_dumpling",
+          "grams": 300
+        },
+        {
+          "key": "water",
+          "grams": 650
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：味全黑芝麻速冻汤圆300g、饮用水650g。克数是项目标准，不是原文ml/个数换算。",
+      "固定味全GTIN黑芝麻速冻汤圆300g含皮和全部馅料，不是无馅或其他品牌；家庭煮制后连清汤食用，成品900g是假设，不把整锅营养当每100g",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "味全黑芝麻速冻汤圆",
+        "food": {
+          "fdc_id": 2090323,
+          "description": "GLUTINOUS RICE BALL WITH BLACK SESAME SEED PASTE",
+          "data_type": "Branded",
+          "snapshot_sha256": "ce1549cf880d2ba5199edcf2c067d3f6f14791367798c49141e1c39053a01c0c",
+          "brand_owner": "Wei-Chuan U S A Inc.",
+          "brand_name": "WEI-CHUAN",
+          "gtin_upc": "072869463173"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "固定WEI-CHUAN黑芝麻馅糯米汤圆GTIN，按未烹调包装净量，含皮和全部馅料油糖；不是无馅小汤圆，不用于其他品牌。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 650,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 900,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品900g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:11:23.843Z",
+      "checks": {
+        "recipe_version": "0f694eeba7654a95e02c2cfe0d1a1327099d737c",
+        "food_identity": "GLUTINOUS RICE BALL WITH BLACK SESAME SEED PASTE; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "味全黑芝麻速冻汤圆=WEI-CHUAN GTIN 072869463173",
+        "standard_variant": "固定味全GTIN黑芝麻速冻汤圆300g含皮和全部馅料，不是无馅或其他品牌；家庭煮制后连清汤食用，成品900g是假设，不把整锅营养当每100g"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E9%80%9F%E5%86%BB%E6%B1%A4%E5%9C%86/%E9%80%9F%E5%86%BB%E6%B1%A4%E5%9C%86.md",
+          "blob_sha": "0f694eeba7654a95e02c2cfe0d1a1327099d737c",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2090323/nutrients",
+          "note": "味全黑芝麻速冻汤圆：GLUTINOUS RICE BALL WITH BLACK SESAME SEED PASTE；已核对数据类型、生熟、可食部分及原始摘要。固定WEI-CHUAN黑芝麻馅糯米汤圆GTIN，按未烹调包装净量，含皮和全部馅料油糖；不是无馅小汤圆，不用于其他品牌。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 370,
+        "protein_g": 4,
+        "carbohydrate_g": 46,
+        "fat_g": 19
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 370
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 46
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 19
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2090323,
+        "description": "GLUTINOUS RICE BALL WITH BLACK SESAME SEED PASTE",
+        "data_type": "Branded",
+        "brand_owner": "Wei-Chuan U S A Inc.",
+        "brand_name": "WEI-CHUAN",
+        "gtin_upc": "072869463173",
+        "ingredients": "WRAPPER: GLUTINOUS RICE FLOUR WATER PALM OIL. FILLING: SUGAR, PALM OIL AND BLACK SESAME SEED",
+        "publication_date": "2021-10-28",
+        "retrieved_at": "2026-10-28T06:53:17.590Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2090323/nutrients",
+        "version": "Branded / 2021-10-28 / ce1549cf880d2ba5",
+        "raw_sha256": "ce1549cf880d2ba5199edcf2c067d3f6f14791367798c49141e1c39053a01c0c",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8c682f7c077fcf2c5f984f4544453358b0a9ea4227033d2f7bbf2182716080b8"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "味全黑芝麻速冻汤圆",
+        "food": {
+          "fdc_id": 2090323,
+          "description": "GLUTINOUS RICE BALL WITH BLACK SESAME SEED PASTE",
+          "data_type": "Branded",
+          "snapshot_sha256": "ce1549cf880d2ba5199edcf2c067d3f6f14791367798c49141e1c39053a01c0c",
+          "brand_owner": "Wei-Chuan U S A Inc.",
+          "brand_name": "WEI-CHUAN",
+          "gtin_upc": "072869463173"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "固定WEI-CHUAN黑芝麻馅糯米汤圆GTIN，按未烹调包装净量，含皮和全部馅料油糖；不是无馅小汤圆，不用于其他品牌。",
+        "per_100g": {
+          "energy_kcal": 370,
+          "protein_g": 4,
+          "carbohydrate_g": 46,
+          "fat_g": 19
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 650,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 650
+      }
+    ],
+    "total": {
+      "energy_kcal": 1110,
+      "protein_g": 12,
+      "carbohydrate_g": 138,
+      "fat_g": 57
+    },
+    "final_edible_g": 900,
+    "per_100g": {
+      "energy_kcal": 123.333333,
+      "protein_g": 1.333333,
+      "carbohydrate_g": 15.333333,
+      "fat_g": 6.333333
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 123.66666099999999,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

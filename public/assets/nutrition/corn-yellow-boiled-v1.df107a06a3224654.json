@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "corn-yellow-boiled-v1",
+  "recipe_id": "howtocook-853f4dcc16af",
+  "recipe_blob_sha": "d6f46391d75e2fc662eba8023b2d6f4fbaeac178",
+  "version": "1",
+  "data_version": "11733c29f9eac874",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_direct",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "水煮黄色甜玉米的熟可食玉米粒，每100g沥水后重量；不含玉米芯、外皮、盐糖及油酱。仅在这些条件相符时使用。",
+  "match": {
+    "food_identity": "yellow_sweet_corn",
+    "state": "cooked",
+    "cooking_method": "boiled_drained",
+    "edible_part": "kernels_without_cob_or_husk",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "plain_without_salt",
+    "excludes": [
+      "糯玉米、紫玉米或品种不明的玉米",
+      "生玉米、整根含芯称重",
+      "加糖、油、酱或其他配料的成品"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 96,
+    "protein_g": 3.41,
+    "carbohydrate_g": 20.98,
+    "fat_g": 1.5
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169999/nutrients",
+    "version": "11733c29f9eac874",
+    "fdc_ids": [
+      169999
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": false,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E6%B0%B4%E7%85%AE%E7%8E%89%E7%B1%B3.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "d6f46391d75e2fc662eba8023b2d6f4fbaeac178"
+  },
+  "profile": {
+    "id": "corn-yellow-boiled-v1",
+    "version": "1",
+    "recipe_id": "howtocook-853f4dcc16af",
+    "recipe_blob_sha": "d6f46391d75e2fc662eba8023b2d6f4fbaeac178",
+    "method": "usda_direct",
+    "default_for_artwork": true,
+    "scope": "水煮黄色甜玉米的熟可食玉米粒，每100g沥水后重量；不含玉米芯、外皮、盐糖及油酱。仅在这些条件相符时使用。",
+    "match": {
+      "food_identity": "yellow_sweet_corn",
+      "state": "cooked",
+      "cooking_method": "boiled_drained",
+      "edible_part": "kernels_without_cob_or_husk",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "plain_without_salt",
+      "excludes": [
+        "糯玉米、紫玉米或品种不明的玉米",
+        "生玉米、整根含芯称重",
+        "加糖、油、酱或其他配料的成品"
+      ]
+    },
+    "assumptions": [
+      "沿用已有FDC 169999参考，不假定原菜谱的所有玉米品种都适用。",
+      "排除原菜谱可选糖和加盐做法；所有配料条件须由使用方再次确认。",
+      "每100g是熟玉米粒净可食重量，不能按一整根玉米的毛重换算。"
+    ],
+    "uncertainty": [
+      "USDA通用参考不代表本地品种、含水量和实际烹饪的精确值。",
+      "插画允许宽松匹配，营养须排除糯玉米及未知品种。"
+    ],
+    "food": {
+      "fdc_id": 169999,
+      "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8e2d1c36328ce7f97b28956583be4996ba9cf41493534ff63845c4741a44bc3b"
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex evidence review (not USDA approval; no human sign-off claimed)",
+      "reviewed_at": "2026-10-27T15:03:53.187Z",
+      "checks": {
+        "recipe_version": "d6f46391d75e2fc662eba8023b2d6f4fbaeac178",
+        "food_identity": "USDA明确为yellow sweet corn，排除waxy corn。",
+        "state_and_cooking": "cooked, boiled, drained；不是生重或未沥水成品。",
+        "edible_part": "去芯去皮玉米粒；原菜谱整根重量不作食用克数。",
+        "additions": "USDA without salt且无额外油糖酱；原菜谱加糖/盐版本不自动匹配。",
+        "brand": "非品牌通用食物，未引入特定商品假设。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E6%B0%B4%E7%85%AE%E7%8E%89%E7%B1%B3.md",
+          "note": "核对固定提交原文的计算、操作及可选分支。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169999/nutrients",
+          "note": "API原始响应复核：96kcal、3.41g蛋白、20.98g碳水、1.5g脂肪，与既有值一致。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 96,
+        "protein_g": 3.41,
+        "carbohydrate_g": 20.98,
+        "fat_g": 1.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 96
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.41
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 20.98
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169999,
+        "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+        "data_type": "SR Legacy",
+        "publication_date": "4/1/2019",
+        "retrieved_at": "2026-10-27T14:55:02.607Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169999/nutrients",
+        "version": "SR Legacy / 4/1/2019 / 8e2d1c36328ce7f9",
+        "raw_sha256": "8e2d1c36328ce7f97b28956583be4996ba9cf41493534ff63845c4741a44bc3b",
+        "transport": "api"
+      }
+    }
+  ],
+  "calculation": null,
+  "quality_checks": {
+    "energy_from_macros_kcal": 111.06,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

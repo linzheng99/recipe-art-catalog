@@ -20,6 +20,7 @@ test("仓库子路径下首页、脚本、样式、JSON、图片和许可证可�
       ["licenses/HOWTOCOOK-LICENSE.txt", "text/plain"],
       ["licenses/PROJECT-REUSE.txt", "text/plain"],
       ["licenses/FRONTEND-DEPENDENCIES.txt", "text/plain"],
+      ["nutrition/index.json", "application/json"],
     ]) {
       const response = await fetch(new URL(file, base));
       assert.equal(response.status, 200, file);
@@ -31,6 +32,16 @@ test("仓库子路径下首页、脚本、样式、JSON、图片和许可证可�
     assert.equal(liteResponse.status, 200);
     const lite = await liteResponse.json();
     assert.equal(lite.version, catalog.version);
+    const nutrition = await (
+      await fetch(new URL(lite.nutrition_catalog.path, base))
+    ).json();
+    assert.equal(nutrition.version, lite.nutrition_catalog.version);
+    assert.equal(nutrition.recipes.length, 372);
+    for (const profile of nutrition.profiles) {
+      const reference = await fetch(new URL(profile.details.path, base));
+      assert.equal(reference.status, 200);
+      assert.equal((await reference.json()).recipe_id, profile.recipe_id);
+    }
     const details = await fetch(
       new URL(
         lite.artworks[0].recipe_details.path,

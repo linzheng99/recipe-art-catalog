@@ -1,0 +1,964 @@
+{
+  "schema_version": 1,
+  "id": "family-e9ddad293a47-v1",
+  "recipe_id": "howtocook-e9ddad293a47",
+  "recipe_blob_sha": "d80c08ef9de8243fe88c0de9e545e32a86e4faa0",
+  "version": "1",
+  "data_version": "c147ec61ca359a08",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 800,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品800g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：白米粉180g、通用小麦面粉50g、净全鸡蛋液100g、培根100g、茄子300g、大豆食用油25g、食盐2g、饮用水150g；整份约800g。原文熟腊肉以USDA培根投入量100g代理，非同一品牌；茄子去皮净量按带皮参考近似，米粉面粉蛋液全部为食用裹糊；油25g为最终成品留油，不计未食用余油。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-e9ddad293a47",
+    "state": "ready_to_eat",
+    "cooking_method": "pan_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-e9ddad293a47-v1",
+    "standard_ingredients": [
+      {
+        "key": "rice_flour",
+        "grams": 180
+      },
+      {
+        "key": "flour",
+        "grams": 50
+      },
+      {
+        "key": "egg",
+        "grams": 100
+      },
+      {
+        "key": "bacon",
+        "grams": 100
+      },
+      {
+        "key": "eggplant",
+        "grams": 300
+      },
+      {
+        "key": "oil",
+        "grams": 25
+      },
+      {
+        "key": "salt",
+        "grams": 2
+      },
+      {
+        "key": "water",
+        "grams": 150
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 209.1,
+    "protein_g": 5.6375,
+    "carbohydrate_g": 25.08625,
+    "fat_g": 9.3995
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+    "version": "c147ec61ca359a08",
+    "fdc_ids": [
+      169714,
+      169761,
+      171287,
+      168277,
+      169228,
+      171411,
+      173468,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "d80c08ef9de8243fe88c0de9e545e32a86e4faa0"
+  },
+  "profile": {
+    "id": "family-e9ddad293a47-v1",
+    "version": "1",
+    "recipe_id": "howtocook-e9ddad293a47",
+    "recipe_blob_sha": "d80c08ef9de8243fe88c0de9e545e32a86e4faa0",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：白米粉180g、通用小麦面粉50g、净全鸡蛋液100g、培根100g、茄子300g、大豆食用油25g、食盐2g、饮用水150g；整份约800g。原文熟腊肉以USDA培根投入量100g代理，非同一品牌；茄子去皮净量按带皮参考近似，米粉面粉蛋液全部为食用裹糊；油25g为最终成品留油，不计未食用余油。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-e9ddad293a47",
+      "state": "ready_to_eat",
+      "cooking_method": "pan_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-e9ddad293a47-v1",
+      "standard_ingredients": [
+        {
+          "key": "rice_flour",
+          "grams": 180
+        },
+        {
+          "key": "flour",
+          "grams": 50
+        },
+        {
+          "key": "egg",
+          "grams": 100
+        },
+        {
+          "key": "bacon",
+          "grams": 100
+        },
+        {
+          "key": "eggplant",
+          "grams": 300
+        },
+        {
+          "key": "oil",
+          "grams": 25
+        },
+        {
+          "key": "salt",
+          "grams": 2
+        },
+        {
+          "key": "water",
+          "grams": 150
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：白米粉180g、通用小麦面粉50g、净全鸡蛋液100g、培根100g、茄子300g、大豆食用油25g、食盐2g、饮用水150g。克数是项目标准，不是原文ml/个数换算。",
+      "原文熟腊肉以USDA培根投入量100g代理，非同一品牌；茄子去皮净量按带皮参考近似，米粉面粉蛋液全部为食用裹糊；油25g为最终成品留油，不计未食用余油",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "白米粉",
+        "food": {
+          "fdc_id": 169714,
+          "description": "Rice flour, white, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "通用小麦面粉",
+        "food": {
+          "fdc_id": 169761,
+          "description": "Wheat flour, white, all-purpose, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "茄子",
+        "food": {
+          "fdc_id": 169228,
+          "description": "Eggplant, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "822f730a8187b1738b50a09abaa22eae5a1d6ec6ffe1b0b5d46ecce1627ca05a"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 800,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品800g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "pan_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "d80c08ef9de8243fe88c0de9e545e32a86e4faa0",
+        "food_identity": "Rice flour, white, unenriched; Wheat flour, white, all-purpose, unenriched; Egg, whole, raw, fresh; Pork, cured, bacon, unprepared; Eggplant, raw; Oil, soybean, salad or cooking; Salt, table; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/raw/raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品pan_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "原文熟腊肉以USDA培根投入量100g代理，非同一品牌；茄子去皮净量按带皮参考近似，米粉面粉蛋液全部为食用裹糊；油25g为最终成品留油，不计未食用余油"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC.md",
+          "blob_sha": "d80c08ef9de8243fe88c0de9e545e32a86e4faa0",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+          "note": "白米粉：Rice flour, white, unenriched；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+          "note": "通用小麦面粉：Wheat flour, white, all-purpose, unenriched；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "净全鸡蛋液：Egg, whole, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+          "note": "培根：Pork, cured, bacon, unprepared；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169228/nutrients",
+          "note": "茄子：Eggplant, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 366,
+        "protein_g": 5.95,
+        "carbohydrate_g": 80.1,
+        "fat_g": 1.42
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 366
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 5.95
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 80.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.42
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169714,
+        "description": "Rice flour, white, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:53:54.123Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+        "version": "SR Legacy / 2019-04-01 / a8dfd65f52122447",
+        "raw_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "99ddda4919b5c7b96835c629d67d17e0169643730843c6bcd7bae4eebc84db80"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 364,
+        "protein_g": 10.3,
+        "carbohydrate_g": 76.3,
+        "fat_g": 0.98
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 364
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 76.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.98
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169761,
+        "description": "Wheat flour, white, all-purpose, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:19.187Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169761/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9529ab04b7250be5",
+        "raw_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7",
+        "transport": "api_search_snapshot",
+        "query_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 393,
+        "protein_g": 13.7,
+        "carbohydrate_g": 0,
+        "fat_g": 37.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 393
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 13.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 37.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168277,
+        "description": "Pork, cured, bacon, unprepared",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:06:41.812Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 30b09321de3d5ee0",
+        "raw_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7bae0cd307a94e3f9a9d6e57633eba4914a6e037b3236a9cb4222fa91a3e84cb"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 25,
+        "protein_g": 0.98,
+        "carbohydrate_g": 5.88,
+        "fat_g": 0.18
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 25
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.98
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 5.88
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.18
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169228,
+        "description": "Eggplant, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:24.731Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169228/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 822f730a8187b173",
+        "raw_sha256": "822f730a8187b1738b50a09abaa22eae5a1d6ec6ffe1b0b5d46ecce1627ca05a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "afb36eae744239d9975f0bf905389f94d405c565aef0962ca4e48aeb8597e0a0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "白米粉",
+        "food": {
+          "fdc_id": 169714,
+          "description": "Rice flour, white, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 366,
+          "protein_g": 5.95,
+          "carbohydrate_g": 80.1,
+          "fat_g": 1.42
+        },
+        "edible_g": 180
+      },
+      {
+        "name": "通用小麦面粉",
+        "food": {
+          "fdc_id": 169761,
+          "description": "Wheat flour, white, all-purpose, unenriched",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 364,
+          "protein_g": 10.3,
+          "carbohydrate_g": 76.3,
+          "fat_g": 0.98
+        },
+        "edible_g": 50
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 393,
+          "protein_g": 13.7,
+          "carbohydrate_g": 0,
+          "fat_g": 37.1
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "茄子",
+        "food": {
+          "fdc_id": 169228,
+          "description": "Eggplant, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "822f730a8187b1738b50a09abaa22eae5a1d6ec6ffe1b0b5d46ecce1627ca05a"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 25,
+          "protein_g": 0.98,
+          "carbohydrate_g": 5.88,
+          "fat_g": 0.18
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 25
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 2
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 150
+      }
+    ],
+    "total": {
+      "energy_kcal": 1672.8,
+      "protein_g": 45.1,
+      "carbohydrate_g": 200.69,
+      "fat_g": 75.196
+    },
+    "final_edible_g": 800,
+    "per_100g": {
+      "energy_kcal": 209.1,
+      "protein_g": 5.6375,
+      "carbohydrate_g": 25.08625,
+      "fat_g": 9.3995
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 207.4905,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "id": "family-460b515020de-v1",
+  "recipe_id": "howtocook-460b515020de",
+  "recipe_blob_sha": "7efba74e04eab4bdf67c5c6d6f761c769f17958e",
+  "version": "1",
+  "data_version": "54d9600ea0e44415",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "estimation_level": "food_group_proxy",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 900,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品900g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "同类食物代理粗估；2–3人家庭标准配方估算：干琼脂4g、留兰香鲜叶1g、饮用水900g；整份约900g。限定无糖冰粉基底，原冰粉籽搓洗滤液以琼脂4g与水900g的通用植物凝胶模型代理；不是把200g籽的整份营养加进凝胶，也不声称测得提取率。以碎薄荷叶1g替代未固定的薄荷汁或粉，叶片计入食用量；不含红糖浆、坚果及水果，添加时另算。成品900g为2–3人份假设。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "identity_precision": "food_group_proxy",
+    "food_proxies": [
+      {
+        "target": "冰粉凝胶",
+        "reference_name": "干琼脂",
+        "food": {
+          "fdc_id": 170090,
+          "description": "Seaweed, agar, dried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f965f8aec49544087a89fee1ba614a0ee2488f5abc22a1dea56ef2bf6b22f89"
+        },
+        "reason": "通用无糖植物凝胶代理，凝胶基料和提取过程不同"
+      },
+      {
+        "target": "薄荷汁或粉",
+        "reference_name": "留兰香鲜叶",
+        "food": {
+          "fdc_id": 173475,
+          "description": "Spearmint, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a"
+        },
+        "reason": "以少量鲜薄荷的宏量近似香味配料"
+      }
+    ],
+    "food_identity": "howtocook-460b515020de",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-460b515020de-v1",
+    "standard_ingredients": [
+      {
+        "key": "agar_dry",
+        "grams": 4
+      },
+      {
+        "key": "mint",
+        "grams": 1
+      },
+      {
+        "key": "water",
+        "grams": 900
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 1.408889,
+    "protein_g": 0.031256,
+    "carbohydrate_g": 0.3689,
+    "fat_g": 0.002144
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/170090/nutrients",
+    "version": "54d9600ea0e44415",
+    "fdc_ids": [
+      170090,
+      173475,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E5%86%B0%E7%B2%89/%E5%86%B0%E7%B2%89.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "7efba74e04eab4bdf67c5c6d6f761c769f17958e"
+  },
+  "profile": {
+    "id": "family-460b515020de-v1",
+    "version": "1",
+    "recipe_id": "howtocook-460b515020de",
+    "recipe_blob_sha": "7efba74e04eab4bdf67c5c6d6f761c769f17958e",
+    "method": "usda_recipe_estimate",
+    "estimation_level": "food_group_proxy",
+    "default_for_artwork": false,
+    "scope": "同类食物代理粗估；2–3人家庭标准配方估算：干琼脂4g、留兰香鲜叶1g、饮用水900g；整份约900g。限定无糖冰粉基底，原冰粉籽搓洗滤液以琼脂4g与水900g的通用植物凝胶模型代理；不是把200g籽的整份营养加进凝胶，也不声称测得提取率。以碎薄荷叶1g替代未固定的薄荷汁或粉，叶片计入食用量；不含红糖浆、坚果及水果，添加时另算。成品900g为2–3人份假设。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "identity_precision": "food_group_proxy",
+      "food_proxies": [
+        {
+          "target": "冰粉凝胶",
+          "reference_name": "干琼脂",
+          "food": {
+            "fdc_id": 170090,
+            "description": "Seaweed, agar, dried",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "2f965f8aec49544087a89fee1ba614a0ee2488f5abc22a1dea56ef2bf6b22f89"
+          },
+          "reason": "通用无糖植物凝胶代理，凝胶基料和提取过程不同"
+        },
+        {
+          "target": "薄荷汁或粉",
+          "reference_name": "留兰香鲜叶",
+          "food": {
+            "fdc_id": 173475,
+            "description": "Spearmint, fresh",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a"
+          },
+          "reason": "以少量鲜薄荷的宏量近似香味配料"
+        }
+      ],
+      "food_identity": "howtocook-460b515020de",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-460b515020de-v1",
+      "standard_ingredients": [
+        {
+          "key": "agar_dry",
+          "grams": 4
+        },
+        {
+          "key": "mint",
+          "grams": 1
+        },
+        {
+          "key": "water",
+          "grams": 900
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：干琼脂4g、留兰香鲜叶1g、饮用水900g。克数是项目标准，不是原文ml/个数换算。",
+      "限定无糖冰粉基底，原冰粉籽搓洗滤液以琼脂4g与水900g的通用植物凝胶模型代理；不是把200g籽的整份营养加进凝胶，也不声称测得提取率。以碎薄荷叶1g替代未固定的薄荷汁或粉，叶片计入食用量；不含红糖浆、坚果及水果，添加时另算。成品900g为2–3人份假设。",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "冰粉凝胶采用干琼脂代理：通用无糖植物凝胶代理，凝胶基料和提取过程不同。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "薄荷汁或粉采用留兰香鲜叶代理：以少量鲜薄荷的宏量近似香味配料。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "干琼脂",
+        "food": {
+          "fdc_id": 170090,
+          "description": "Seaweed, agar, dried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f965f8aec49544087a89fee1ba614a0ee2488f5abc22a1dea56ef2bf6b22f89"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 4,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "USDA Seaweed, agar, dried；通用植物凝胶配料，非龟苓膏品牌粉或冰粉籽实测。"
+      },
+      {
+        "name": "留兰香鲜叶",
+        "food": {
+          "fdc_id": 173475,
+          "description": "Spearmint, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "新鲜留兰香可食叶，非干薄荷或薄荷糖浆。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 900,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 900,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品900g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
+      "reviewed_at": "2026-10-29T00:12:21.192Z",
+      "checks": {
+        "recipe_version": "7efba74e04eab4bdf67c5c6d6f761c769f17958e",
+        "food_identity": "Seaweed, agar, dried; Spearmint, fresh; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/raw/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "限定无糖冰粉基底，原冰粉籽搓洗滤液以琼脂4g与水900g的通用植物凝胶模型代理；不是把200g籽的整份营养加进凝胶，也不声称测得提取率。以碎薄荷叶1g替代未固定的薄荷汁或粉，叶片计入食用量；不含红糖浆、坚果及水果，添加时另算。成品900g为2–3人份假设。",
+        "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E5%86%B0%E7%B2%89/%E5%86%B0%E7%B2%89.md",
+          "blob_sha": "7efba74e04eab4bdf67c5c6d6f761c769f17958e",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170090/nutrients",
+          "note": "干琼脂：Seaweed, agar, dried；已核对数据类型、生熟、可食部分及原始摘要。USDA Seaweed, agar, dried；通用植物凝胶配料，非龟苓膏品牌粉或冰粉籽实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173475/nutrients",
+          "note": "留兰香鲜叶：Spearmint, fresh；已核对数据类型、生熟、可食部分及原始摘要。新鲜留兰香可食叶，非干薄荷或薄荷糖浆。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 306,
+        "protein_g": 6.21,
+        "carbohydrate_g": 80.9,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 306
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.21
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 80.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170090,
+        "description": "Seaweed, agar, dried",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:57:07.513Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170090/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f965f8aec495440",
+        "raw_sha256": "2f965f8aec49544087a89fee1ba614a0ee2488f5abc22a1dea56ef2bf6b22f89",
+        "transport": "api_search_snapshot",
+        "query_sha256": "b01523e1111262a6e00c29e46d7a4a5e6a75ab134ba5505c8a184ce6847a71ae"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 44,
+        "protein_g": 3.29,
+        "carbohydrate_g": 8.41,
+        "fat_g": 0.73
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 44
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.29
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 8.41
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.73
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173475,
+        "description": "Spearmint, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:40.445Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173475/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 17aa540deff3b90c",
+        "raw_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7662dfd5abd6101304cf9690f31508c446a31be36dc353b79eeca6cf9b8d4ccc"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "干琼脂",
+        "food": {
+          "fdc_id": 170090,
+          "description": "Seaweed, agar, dried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f965f8aec49544087a89fee1ba614a0ee2488f5abc22a1dea56ef2bf6b22f89"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 4,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "USDA Seaweed, agar, dried；通用植物凝胶配料，非龟苓膏品牌粉或冰粉籽实测。",
+        "per_100g": {
+          "energy_kcal": 306,
+          "protein_g": 6.21,
+          "carbohydrate_g": 80.9,
+          "fat_g": 0.3
+        },
+        "edible_g": 4
+      },
+      {
+        "name": "留兰香鲜叶",
+        "food": {
+          "fdc_id": 173475,
+          "description": "Spearmint, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "新鲜留兰香可食叶，非干薄荷或薄荷糖浆。",
+        "per_100g": {
+          "energy_kcal": 44,
+          "protein_g": 3.29,
+          "carbohydrate_g": 8.41,
+          "fat_g": 0.73
+        },
+        "edible_g": 1
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 900,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 900
+      }
+    ],
+    "total": {
+      "energy_kcal": 12.68,
+      "protein_g": 0.2813,
+      "carbohydrate_g": 3.3201,
+      "fat_g": 0.0193
+    },
+    "final_edible_g": 900,
+    "per_100g": {
+      "energy_kcal": 1.408889,
+      "protein_g": 0.031256,
+      "carbohydrate_g": 0.3689,
+      "fat_g": 0.002144
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 1.61992,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

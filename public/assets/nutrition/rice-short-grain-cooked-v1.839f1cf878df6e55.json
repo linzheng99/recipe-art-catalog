@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "rice-short-grain-cooked-v1",
+  "recipe_id": "howtocook-cf3dabc066de",
+  "recipe_blob_sha": "19722f4be732dcf0718673b1db6d6636bb645157",
+  "version": "1",
+  "data_version": "c101fc44e43054d4",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_direct",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "短粒、非强化白米饭通用参考：已煮熟的可食米饭，不加油、糖或酱料，每100g熟重；不适用于糯米、糙米、长粒米、粥或生米。采用USDA熟饭参考含水量，非此锅米饭实测。",
+  "match": {
+    "food_identity": "white_short_grain_unenriched_rice",
+    "state": "cooked",
+    "cooking_method": "cooked_with_water",
+    "edible_part": "cooked_edible_rice",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "plain_short_grain_cooked",
+    "excludes": [
+      "糯米、糙米、长粒米、强化米或米种不明",
+      "粥、汤饭、生米重量",
+      "含油糖酱料或明显不同含水量的米饭"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 130,
+    "protein_g": 2.36,
+    "carbohydrate_g": 28.7,
+    "fat_g": 0.19
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/168932/nutrients",
+    "version": "c101fc44e43054d4",
+    "fdc_ids": [
+      168932
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": false,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E7%B1%B3%E9%A5%AD/%E7%94%B5%E9%A5%AD%E7%85%B2%E8%92%B8%E7%B1%B3%E9%A5%AD.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "19722f4be732dcf0718673b1db6d6636bb645157"
+  },
+  "profile": {
+    "id": "rice-short-grain-cooked-v1",
+    "version": "1",
+    "recipe_id": "howtocook-cf3dabc066de",
+    "recipe_blob_sha": "19722f4be732dcf0718673b1db6d6636bb645157",
+    "method": "usda_direct",
+    "default_for_artwork": true,
+    "scope": "短粒、非强化白米饭通用参考：已煮熟的可食米饭，不加油、糖或酱料，每100g熟重；不适用于糯米、糙米、长粒米、粥或生米。采用USDA熟饭参考含水量，非此锅米饭实测。",
+    "match": {
+      "food_identity": "white_short_grain_unenriched_rice",
+      "state": "cooked",
+      "cooking_method": "cooked_with_water",
+      "edible_part": "cooked_edible_rice",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "plain_short_grain_cooked",
+      "excludes": [
+        "糯米、糙米、长粒米、强化米或米种不明",
+        "粥、汤饭、生米重量",
+        "含油糖酱料或明显不同含水量的米饭"
+      ]
+    },
+    "assumptions": [
+      "原文允许江南或北方大米，本方案明确只选短粒白米分支，不声称适用于所有大米。",
+      "直接采用USDA熟米饭每100g数据，不从原文100–200ml生米或指尖水位推定干米克数及出成率。",
+      "普通熟饭的含水量采用USDA通用参考；实际米种、米水比或软硬不同应调整或换源。"
+    ],
+    "uncertainty": [
+      "米种和电饭煲吸水、焖制及保温失水会改变每100g数值；这是熟食通用参考。"
+    ],
+    "food": {
+      "fdc_id": 168932,
+      "description": "Rice, white, short-grain, cooked, unenriched",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2cdddef83f4c9042ac6245d63990ccb98bad2dc24f3bc66e441656588f1a0148"
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex evidence review of scoped reference / standardized estimate (not USDA approval; no human measurement or sign-off claimed)",
+      "reviewed_at": "2026-10-28T01:08:12.181Z",
+      "checks": {
+        "recipe_version": "19722f4be732dcf0718673b1db6d6636bb645157",
+        "food_identity": "short-grain white unenriched限定为短粒非强化白米。",
+        "state_and_cooking": "采用已煮熟米饭来源，避免生米原料总重代替成品。",
+        "edible_part": "熟米饭可食重量。",
+        "additions": "不加油糖酱，符合原文米和水配方分支。",
+        "brand": "非品牌通用米饭。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E7%B1%B3%E9%A5%AD/%E7%94%B5%E9%A5%AD%E7%85%B2%E8%92%B8%E7%B1%B3%E9%A5%AD.md",
+          "note": "固定版本原文用于核对食材及工艺；标准配方克数为明确约定，非原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168932/nutrients",
+          "note": "复核原始USDA缓存中的食物描述、生熟、四项宏量营养及来源摘要。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 130,
+        "protein_g": 2.36,
+        "carbohydrate_g": 28.7,
+        "fat_g": 0.19
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 130
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.36
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 28.7
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.19
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168932,
+        "description": "Rice, white, short-grain, cooked, unenriched",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:53:54.123Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168932/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2cdddef83f4c9042",
+        "raw_sha256": "2cdddef83f4c9042ac6245d63990ccb98bad2dc24f3bc66e441656588f1a0148",
+        "transport": "api_search_snapshot",
+        "query_sha256": "99ddda4919b5c7b96835c629d67d17e0169643730843c6bcd7bae4eebc84db80"
+      }
+    }
+  ],
+  "calculation": null,
+  "quality_checks": {
+    "energy_from_macros_kcal": 125.94999999999999,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

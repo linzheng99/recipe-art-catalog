@@ -31,6 +31,29 @@ export interface ReferenceRecipe {
   details?: RecipeContent | null;
 }
 
+export interface NutritionReference {
+  estimation_level?: "food_group_proxy";
+  status: "unknown" | "reference";
+  method?: "usda_direct" | "usda_recipe_estimate" | "recipe_estimate";
+  review_status?: "approved" | "pending";
+  profile_id?: string;
+  basis: "per_100g" | null;
+  scope: string | null;
+  per_100g: {
+    energy_kcal: number | null;
+    protein_g: number | null;
+    carbohydrate_g: number | null;
+    fat_g: number | null;
+  };
+  source: { url: string; version: string } | null;
+}
+
+export interface NutritionProfile extends NutritionReference {
+  id: string;
+  recipe_id: string;
+  review_status: "approved" | "pending";
+}
+
 export interface Artwork {
   key: string;
   name: string;
@@ -48,18 +71,8 @@ export interface Artwork {
   recipe_details?: { path: string; bytes: number; sha256: string };
   search_terms?: string[];
   difficulty?: number[];
-  nutrition: {
-    status: "unknown" | "reference";
-    basis: "per_100g" | null;
-    scope: string | null;
-    per_100g: {
-      energy_kcal: number | null;
-      protein_g: number | null;
-      carbohydrate_g: number | null;
-      fat_g: number | null;
-    };
-    source: { url: string; version: string } | null;
-  };
+  nutrition: NutritionReference;
+  nutrition_profiles?: NutritionProfile[];
 }
 
 export interface Catalog {
@@ -203,6 +216,62 @@ export function parseRecipeDescriptor(
   return value as NonNullable<Artwork["recipe_details"]>;
 }
 
+export function parseNutrition(nutrition: unknown): NutritionReference {
+  if (
+    record(nutrition) &&
+    nutrition.method !== undefined &&
+    !["usda_direct", "usda_recipe_estimate", "recipe_estimate"].includes(
+      String(nutrition.method),
+    )
+  )
+    throw new Error("Invalid nutrition method");
+  if (
+    !record(nutrition) ||
+    !["unknown", "reference"].includes(String(nutrition.status)) ||
+    !record(nutrition.per_100g) ||
+    (nutrition.basis !== null && nutrition.basis !== "per_100g") ||
+    (nutrition.scope !== null && typeof nutrition.scope !== "string")
+  )
+    throw new Error("Invalid nutrition");
+  for (const field of ["energy_kcal", "protein_g", "carbohydrate_g", "fat_g"]) {
+    const number = nutrition.per_100g[field];
+    if (
+      number !== null &&
+      (typeof number !== "number" ||
+        !Number.isFinite(number) ||
+        number < 0 ||
+        nutrition.status !== "reference" ||
+        nutrition.basis !== "per_100g" ||
+        !nutrition.scope ||
+        !record(nutrition.source) ||
+        !safeExternalURL(String(nutrition.source.url)) ||
+        typeof nutrition.source.version !== "string")
+    )
+      throw new Error("Invalid nutrition reference");
+  }
+  if (
+    nutrition.source !== null &&
+    (!record(nutrition.source) ||
+      typeof nutrition.source.url !== "string" ||
+      typeof nutrition.source.version !== "string")
+  )
+    throw new Error("Invalid nutrition source");
+  if (
+    record(nutrition) &&
+    nutrition.review_status !== undefined &&
+    !["approved", "pending"].includes(String(nutrition.review_status))
+  )
+    throw new Error("Invalid nutrition review");
+  if (
+    record(nutrition) &&
+    nutrition.profile_id !== undefined &&
+    (typeof nutrition.profile_id !== "string" ||
+      !/^[a-z0-9-]+$/.test(nutrition.profile_id))
+  )
+    throw new Error("Invalid nutrition profile ID");
+  return nutrition as unknown as NutritionReference;
+}
+
 export function parseCatalog(value: unknown): Catalog {
   if (
     !record(value) ||
@@ -293,43 +362,27 @@ export function parseCatalog(value: unknown): Catalog {
       throw new Error("Invalid difficulty");
     if (item.recipe_details !== undefined)
       parseRecipeDescriptor(item.recipe_details, item.key);
-    const nutrition = item.nutrition;
-    if (
-      !record(nutrition) ||
-      !["unknown", "reference"].includes(String(nutrition.status)) ||
-      !record(nutrition.per_100g) ||
-      (nutrition.basis !== null && nutrition.basis !== "per_100g") ||
-      (nutrition.scope !== null && typeof nutrition.scope !== "string")
-    )
-      throw new Error("Invalid nutrition");
-    for (const field of [
-      "energy_kcal",
-      "protein_g",
-      "carbohydrate_g",
-      "fat_g",
-    ]) {
-      const number = nutrition.per_100g[field];
-      if (
-        number !== null &&
-        (typeof number !== "number" ||
-          !Number.isFinite(number) ||
-          number < 0 ||
-          nutrition.status !== "reference" ||
-          nutrition.basis !== "per_100g" ||
-          !nutrition.scope ||
-          !record(nutrition.source) ||
-          !safeExternalURL(String(nutrition.source.url)) ||
-          typeof nutrition.source.version !== "string")
-      )
-        throw new Error("Invalid nutrition reference");
+    parseNutrition(item.nutrition);
+    if (item.nutrition_profiles !== undefined) {
+      if (!Array.isArray(item.nutrition_profiles))
+        throw new Error("Invalid nutrition profiles");
+      const profileIDs = new Set<string>();
+      for (const profile of item.nutrition_profiles) {
+        if (
+          !record(profile) ||
+          typeof profile.id !== "string" ||
+          !/^[a-z0-9-]+$/.test(profile.id) ||
+          profileIDs.has(profile.id) ||
+          !["approved", "pending"].includes(String(profile.review_status)) ||
+          !parseReferenceRecipes(item.reference_recipes).some(
+            (recipe) => recipe.id === profile.recipe_id,
+          )
+        )
+          throw new Error("Invalid nutrition profile mapping");
+        profileIDs.add(profile.id);
+        parseNutrition(profile);
+      }
     }
-    if (
-      nutrition.source !== null &&
-      (!record(nutrition.source) ||
-        typeof nutrition.source.url !== "string" ||
-        typeof nutrition.source.version !== "string")
-    )
-      throw new Error("Invalid nutrition source");
   }
   if (value.coverage.artworks !== value.artworks.length)
     throw new Error("Coverage mismatch");

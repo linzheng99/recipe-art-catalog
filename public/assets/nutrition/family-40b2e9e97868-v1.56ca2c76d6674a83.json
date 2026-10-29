@@ -1,0 +1,864 @@
+{
+  "schema_version": 1,
+  "id": "family-40b2e9e97868-v1",
+  "recipe_id": "howtocook-40b2e9e97868",
+  "recipe_blob_sha": "0f425955a2593ab87584bb98751434d3bec1fd44",
+  "version": "1",
+  "data_version": "a6099f2ed5f68bc6",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 450,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品450g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：去壳全熟鸡蛋100g、白吐司200g、培根50g、无盐黄油15g、普通蛋黄酱35g、食盐1g、黑胡椒粉2g；整份约450g。全熟去壳鸡蛋、白吐司和通用蛋黄酱，培根煸出油全部食用；不含可选配料。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-40b2e9e97868",
+    "state": "ready_to_eat",
+    "cooking_method": "pan_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-40b2e9e97868-v1",
+    "standard_ingredients": [
+      {
+        "key": "egg_boiled",
+        "grams": 100
+      },
+      {
+        "key": "bread",
+        "grams": 200
+      },
+      {
+        "key": "bacon",
+        "grams": 50
+      },
+      {
+        "key": "butter",
+        "grams": 15
+      },
+      {
+        "key": "mayonnaise",
+        "grams": 35
+      },
+      {
+        "key": "salt",
+        "grams": 1
+      },
+      {
+        "key": "black_pepper",
+        "grams": 2
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 274.237778,
+    "protein_g": 8.400333,
+    "carbohydrate_g": 22.535222,
+    "fat_g": 16.4956
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+    "version": "a6099f2ed5f68bc6",
+    "fdc_ids": [
+      173424,
+      174924,
+      168277,
+      173430,
+      171009,
+      173468,
+      170931
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E9%B8%A1%E8%9B%8B%E4%B8%89%E6%98%8E%E6%B2%BB.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "0f425955a2593ab87584bb98751434d3bec1fd44"
+  },
+  "profile": {
+    "id": "family-40b2e9e97868-v1",
+    "version": "1",
+    "recipe_id": "howtocook-40b2e9e97868",
+    "recipe_blob_sha": "0f425955a2593ab87584bb98751434d3bec1fd44",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：去壳全熟鸡蛋100g、白吐司200g、培根50g、无盐黄油15g、普通蛋黄酱35g、食盐1g、黑胡椒粉2g；整份约450g。全熟去壳鸡蛋、白吐司和通用蛋黄酱，培根煸出油全部食用；不含可选配料。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-40b2e9e97868",
+      "state": "ready_to_eat",
+      "cooking_method": "pan_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-40b2e9e97868-v1",
+      "standard_ingredients": [
+        {
+          "key": "egg_boiled",
+          "grams": 100
+        },
+        {
+          "key": "bread",
+          "grams": 200
+        },
+        {
+          "key": "bacon",
+          "grams": 50
+        },
+        {
+          "key": "butter",
+          "grams": 15
+        },
+        {
+          "key": "mayonnaise",
+          "grams": 35
+        },
+        {
+          "key": "salt",
+          "grams": 1
+        },
+        {
+          "key": "black_pepper",
+          "grams": 2
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：去壳全熟鸡蛋100g、白吐司200g、培根50g、无盐黄油15g、普通蛋黄酱35g、食盐1g、黑胡椒粉2g。克数是项目标准，不是原文ml/个数换算。",
+      "全熟去壳鸡蛋、白吐司和通用蛋黄酱，培根煸出油全部食用；不含可选配料",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "去壳全熟鸡蛋",
+        "food": {
+          "fdc_id": 173424,
+          "description": "Egg, whole, cooked, hard-boiled",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "cb07dd820bb3464b15bbfdf6df88cae708ad1b8bacf90c909bc1d7bdc2e3c3c7"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "无盐黄油",
+        "food": {
+          "fdc_id": 173430,
+          "description": "Butter, without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "93ff39490ae9730e69955bf83013e9390975548a8bb2b72763a98c575e2cddff"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "普通蛋黄酱",
+        "food": {
+          "fdc_id": 171009,
+          "description": "Salad dressing, mayonnaise, regular",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fd7a393ee21c7f0970f008de2333c1cea19afbdb14a3e02c71a95be871ac0879"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+      }
+    ],
+    "final_weight": {
+      "grams": 450,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品450g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "pan_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:24:47.419Z",
+      "checks": {
+        "recipe_version": "0f425955a2593ab87584bb98751434d3bec1fd44",
+        "food_identity": "Egg, whole, cooked, hard-boiled; Bread, white, commercially prepared (includes soft bread crumbs); Pork, cured, bacon, unprepared; Butter, without salt; Salad dressing, mayonnaise, regular; Salt, table; Spices, pepper, black",
+        "state_and_cooking": "逐项按cooked/ready_to_eat/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品pan_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "全熟去壳鸡蛋、白吐司和通用蛋黄酱，培根煸出油全部食用；不含可选配料"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E9%B8%A1%E8%9B%8B%E4%B8%89%E6%98%8E%E6%B2%BB.md",
+          "blob_sha": "0f425955a2593ab87584bb98751434d3bec1fd44",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+          "note": "去壳全熟鸡蛋：Egg, whole, cooked, hard-boiled；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+          "note": "白吐司：Bread, white, commercially prepared (includes soft bread crumbs)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+          "note": "培根：Pork, cured, bacon, unprepared；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "无盐黄油：Butter, without salt；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171009/nutrients",
+          "note": "普通蛋黄酱：Salad dressing, mayonnaise, regular；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+          "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 155,
+        "protein_g": 12.58,
+        "carbohydrate_g": 1.12,
+        "fat_g": 10.61
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 155
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.58
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 1.12
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 10.61
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173424,
+        "description": "Egg, whole, cooked, hard-boiled",
+        "data_type": "SR Legacy",
+        "publication_date": "4/1/2019",
+        "retrieved_at": "2026-10-27T14:55:46.933Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+        "version": "SR Legacy / 4/1/2019 / cb07dd820bb3464b",
+        "raw_sha256": "cb07dd820bb3464b15bbfdf6df88cae708ad1b8bacf90c909bc1d7bdc2e3c3c7",
+        "transport": "api"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 266,
+        "protein_g": 8.85,
+        "carbohydrate_g": 49.4,
+        "fat_g": 3.33
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 266
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.85
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 49.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.33
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174924,
+        "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:29.094Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f9628b59b6c86dd1",
+        "raw_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d9f54e13a381e5bc847cfa372356ec7400acf0fceb0864e10fbfeaf4642397ea"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 393,
+        "protein_g": 13.7,
+        "carbohydrate_g": 0,
+        "fat_g": 37.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 393
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 13.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 37.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168277,
+        "description": "Pork, cured, bacon, unprepared",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:06:41.812Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 30b09321de3d5ee0",
+        "raw_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7bae0cd307a94e3f9a9d6e57633eba4914a6e037b3236a9cb4222fa91a3e84cb"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 717,
+        "protein_g": 0.85,
+        "carbohydrate_g": 0.06,
+        "fat_g": 81.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 717
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.85
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.06
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 81.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173430,
+        "description": "Butter, without salt",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:23.094Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 93ff39490ae9730e",
+        "raw_sha256": "93ff39490ae9730e69955bf83013e9390975548a8bb2b72763a98c575e2cddff",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e6a2c30e46ea0358f19b0b1bad1bf00779e8e68a8542bf576a969b0a0a64b9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 680,
+        "protein_g": 0.96,
+        "carbohydrate_g": 0.57,
+        "fat_g": 74.8
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 680
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.96
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 74.8
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171009,
+        "description": "Salad dressing, mayonnaise, regular",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:18:14.191Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171009/nutrients",
+        "version": "SR Legacy / 2019-04-01 / fd7a393ee21c7f09",
+        "raw_sha256": "fd7a393ee21c7f0970f008de2333c1cea19afbdb14a3e02c71a95be871ac0879",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7bc72807150ce99b2a5ff019df4dd25593bca382d175fce243770feb83ea74c1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 251,
+        "protein_g": 10.4,
+        "carbohydrate_g": 64,
+        "fat_g": 3.26
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 251
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 64
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.26
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170931,
+        "description": "Spices, pepper, black",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 60b7f134c776a0c1",
+        "raw_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "去壳全熟鸡蛋",
+        "food": {
+          "fdc_id": 173424,
+          "description": "Egg, whole, cooked, hard-boiled",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "cb07dd820bb3464b15bbfdf6df88cae708ad1b8bacf90c909bc1d7bdc2e3c3c7"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 155,
+          "protein_g": 12.58,
+          "carbohydrate_g": 1.12,
+          "fat_g": 10.61
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 266,
+          "protein_g": 8.85,
+          "carbohydrate_g": 49.4,
+          "fat_g": 3.33
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 393,
+          "protein_g": 13.7,
+          "carbohydrate_g": 0,
+          "fat_g": 37.1
+        },
+        "edible_g": 50
+      },
+      {
+        "name": "无盐黄油",
+        "food": {
+          "fdc_id": 173430,
+          "description": "Butter, without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "93ff39490ae9730e69955bf83013e9390975548a8bb2b72763a98c575e2cddff"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 717,
+          "protein_g": 0.85,
+          "carbohydrate_g": 0.06,
+          "fat_g": 81.1
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "普通蛋黄酱",
+        "food": {
+          "fdc_id": 171009,
+          "description": "Salad dressing, mayonnaise, regular",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fd7a393ee21c7f0970f008de2333c1cea19afbdb14a3e02c71a95be871ac0879"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 35,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 680,
+          "protein_g": 0.96,
+          "carbohydrate_g": 0.57,
+          "fat_g": 74.8
+        },
+        "edible_g": 35
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 1,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 1
+      },
+      {
+        "name": "黑胡椒粉",
+        "food": {
+          "fdc_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。",
+        "per_100g": {
+          "energy_kcal": 251,
+          "protein_g": 10.4,
+          "carbohydrate_g": 64,
+          "fat_g": 3.26
+        },
+        "edible_g": 2
+      }
+    ],
+    "total": {
+      "energy_kcal": 1234.07,
+      "protein_g": 37.8015,
+      "carbohydrate_g": 101.4085,
+      "fat_g": 74.2302
+    },
+    "final_edible_g": 450,
+    "per_100g": {
+      "energy_kcal": 274.237778,
+      "protein_g": 8.400333,
+      "carbohydrate_g": 22.535222,
+      "fat_g": 16.4956
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 272.20262,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

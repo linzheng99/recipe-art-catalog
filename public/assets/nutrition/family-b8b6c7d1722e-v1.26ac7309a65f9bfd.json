@@ -1,0 +1,649 @@
+{
+  "schema_version": 1,
+  "id": "family-b8b6c7d1722e-v1",
+  "recipe_id": "howtocook-b8b6c7d1722e",
+  "recipe_blob_sha": "29f392474987d37828acace17d98fa9a9b4fb392",
+  "version": "1",
+  "data_version": "2a02ed55feee5c3c",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：朗姆酒40%酒精90g、青柠汁40g、留兰香鲜叶5g、白砂糖40g、饮用水550g；整份约725g。两杯标准版使用40%vol无糖朗姆酒，按操作步骤不加原文计算段另列的伏特加；薄荷叶5g食用，冰与无糖苏打均计饮用水且全部入口；直接称克，无ml密度假设。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-b8b6c7d1722e",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-b8b6c7d1722e-v1",
+    "standard_ingredients": [
+      {
+        "key": "rum",
+        "grams": 90
+      },
+      {
+        "key": "lime_juice",
+        "grams": 40
+      },
+      {
+        "key": "mint",
+        "grams": 5
+      },
+      {
+        "key": "sugar",
+        "grams": 40
+      },
+      {
+        "key": "water",
+        "grams": 550
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 51.710345,
+    "protein_g": 0.045862,
+    "carbohydrate_g": 6.039793,
+    "fat_g": 0.008897
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+    "version": "2a02ed55feee5c3c",
+    "fdc_ids": [
+      174817,
+      168156,
+      173475,
+      169655,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/Mojito%E8%8E%AB%E5%90%89%E6%89%98.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "29f392474987d37828acace17d98fa9a9b4fb392"
+  },
+  "profile": {
+    "id": "family-b8b6c7d1722e-v1",
+    "version": "1",
+    "recipe_id": "howtocook-b8b6c7d1722e",
+    "recipe_blob_sha": "29f392474987d37828acace17d98fa9a9b4fb392",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：朗姆酒40%酒精90g、青柠汁40g、留兰香鲜叶5g、白砂糖40g、饮用水550g；整份约725g。两杯标准版使用40%vol无糖朗姆酒，按操作步骤不加原文计算段另列的伏特加；薄荷叶5g食用，冰与无糖苏打均计饮用水且全部入口；直接称克，无ml密度假设。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-b8b6c7d1722e",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-b8b6c7d1722e-v1",
+      "standard_ingredients": [
+        {
+          "key": "rum",
+          "grams": 90
+        },
+        {
+          "key": "lime_juice",
+          "grams": 40
+        },
+        {
+          "key": "mint",
+          "grams": 5
+        },
+        {
+          "key": "sugar",
+          "grams": 40
+        },
+        {
+          "key": "water",
+          "grams": 550
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：朗姆酒40%酒精90g、青柠汁40g、留兰香鲜叶5g、白砂糖40g、饮用水550g。克数是项目标准，不是原文ml/个数换算。",
+      "两杯标准版使用40%vol无糖朗姆酒，按操作步骤不加原文计算段另列的伏特加；薄荷叶5g食用，冰与无糖苏打均计饮用水且全部入口；直接称克，无ml密度假设",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "朗姆酒40%酒精",
+        "food": {
+          "fdc_id": 174817,
+          "description": "Alcoholic beverage, distilled, rum, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 90,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+      },
+      {
+        "name": "青柠汁",
+        "food": {
+          "fdc_id": 168156,
+          "description": "Lime juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b06a210f8a952ba03244587d12675bbf4dd80227c9d99c515ae8d5f01c2cfe00"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "生青柠汁净重，不含果皮籽或整颗青柠重量。"
+      },
+      {
+        "name": "留兰香鲜叶",
+        "food": {
+          "fdc_id": 173475,
+          "description": "Spearmint, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "新鲜留兰香可食叶，非干薄荷或薄荷糖浆。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 550,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 725,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:06:41.733Z",
+      "checks": {
+        "recipe_version": "29f392474987d37828acace17d98fa9a9b4fb392",
+        "food_identity": "Alcoholic beverage, distilled, rum, 80 proof; Lime juice, raw; Spearmint, fresh; Sugars, granulated; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/raw/raw/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "两杯标准版使用40%vol无糖朗姆酒，按操作步骤不加原文计算段另列的伏特加；薄荷叶5g食用，冰与无糖苏打均计饮用水且全部入口；直接称克，无ml密度假设"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/Mojito%E8%8E%AB%E5%90%89%E6%89%98.md",
+          "blob_sha": "29f392474987d37828acace17d98fa9a9b4fb392",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+          "note": "朗姆酒40%酒精：Alcoholic beverage, distilled, rum, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168156/nutrients",
+          "note": "青柠汁：Lime juice, raw；已核对数据类型、生熟、可食部分及原始摘要。生青柠汁净重，不含果皮籽或整颗青柠重量。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173475/nutrients",
+          "note": "留兰香鲜叶：Spearmint, fresh；已核对数据类型、生熟、可食部分及原始摘要。新鲜留兰香可食叶，非干薄荷或薄荷糖浆。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174817,
+        "description": "Alcoholic beverage, distilled, rum, 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 3fc952171940a75e",
+        "raw_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 25,
+        "protein_g": 0.42,
+        "carbohydrate_g": 8.42,
+        "fat_g": 0.07
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 25
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.42
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 8.42
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.07
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168156,
+        "description": "Lime juice, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:23.040Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168156/nutrients",
+        "version": "SR Legacy / 2019-04-01 / b06a210f8a952ba0",
+        "raw_sha256": "b06a210f8a952ba03244587d12675bbf4dd80227c9d99c515ae8d5f01c2cfe00",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 44,
+        "protein_g": 3.29,
+        "carbohydrate_g": 8.41,
+        "fat_g": 0.73
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 44
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.29
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 8.41
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.73
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173475,
+        "description": "Spearmint, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:40.445Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173475/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 17aa540deff3b90c",
+        "raw_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7662dfd5abd6101304cf9690f31508c446a31be36dc353b79eeca6cf9b8d4ccc"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "朗姆酒40%酒精",
+        "food": {
+          "fdc_id": 174817,
+          "description": "Alcoholic beverage, distilled, rum, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 90,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 90
+      },
+      {
+        "name": "青柠汁",
+        "food": {
+          "fdc_id": 168156,
+          "description": "Lime juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b06a210f8a952ba03244587d12675bbf4dd80227c9d99c515ae8d5f01c2cfe00"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "生青柠汁净重，不含果皮籽或整颗青柠重量。",
+        "per_100g": {
+          "energy_kcal": 25,
+          "protein_g": 0.42,
+          "carbohydrate_g": 8.42,
+          "fat_g": 0.07
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "留兰香鲜叶",
+        "food": {
+          "fdc_id": 173475,
+          "description": "Spearmint, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "新鲜留兰香可食叶，非干薄荷或薄荷糖浆。",
+        "per_100g": {
+          "energy_kcal": 44,
+          "protein_g": 3.29,
+          "carbohydrate_g": 8.41,
+          "fat_g": 0.73
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 550,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 550
+      }
+    ],
+    "total": {
+      "energy_kcal": 374.9,
+      "protein_g": 0.3325,
+      "carbohydrate_g": 43.7885,
+      "fat_g": 0.0645
+    },
+    "final_edible_g": 725,
+    "per_100g": {
+      "energy_kcal": 51.710345,
+      "protein_g": 0.045862,
+      "carbohydrate_g": 6.039793,
+      "fat_g": 0.008897
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 24.422693,
+    "warnings": [
+      "4/4/9粗略折算与来源热量差异较大，保留来源热量，请复核"
+    ]
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

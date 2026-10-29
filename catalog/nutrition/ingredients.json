@@ -1,0 +1,4439 @@
+{
+  "schema_version": 1,
+  "ingredients": [
+    {
+      "key": "egg",
+      "name": "净全鸡蛋液",
+      "query": "Egg whole raw fresh",
+      "state": "raw",
+      "fdc_id": 171287,
+      "description": "Egg, whole, raw, fresh",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "tomato",
+      "name": "红熟番茄",
+      "query": "Tomatoes red ripe raw year round average",
+      "state": "raw",
+      "fdc_id": 170457,
+      "description": "Tomatoes, red, ripe, raw, year round average",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "7a6f6fda4ed26d644a4028cec1e4deb52bcd7fb31f563559468b93b55a02cf71",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "sugar",
+      "name": "白砂糖",
+      "query": "Sugars granulated",
+      "state": "ready_to_eat",
+      "fdc_id": 169655,
+      "description": "Sugars, granulated",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "salt",
+      "name": "食盐",
+      "query": "Salt table",
+      "state": "ready_to_eat",
+      "fdc_id": 173468,
+      "description": "Salt, table",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "water",
+      "name": "饮用水",
+      "query": "Water tap drinking",
+      "state": "ready_to_eat",
+      "fdc_id": 173647,
+      "description": "Beverages, water, tap, drinking",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "garlic",
+      "name": "去皮大蒜",
+      "query": "Garlic raw",
+      "state": "raw",
+      "fdc_id": 169230,
+      "description": "Garlic, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "soy",
+      "name": "通用酱油（shoyu近似）",
+      "query": "Soy sauce shoyu",
+      "state": "ready_to_eat",
+      "fdc_id": 174277,
+      "description": "Soy sauce made from soy and wheat (shoyu)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      }
+    },
+    {
+      "key": "oyster",
+      "name": "通用蚝油",
+      "query": "Sauce oyster ready to serve",
+      "state": "ready_to_eat",
+      "fdc_id": 174529,
+      "description": "Sauce, oyster, ready-to-serve",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "1652b798ee6cb7e3a0ec61f6630d7895fe972a542460d71054f52f1d2bc499e7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      }
+    },
+    {
+      "key": "sesame_oil",
+      "name": "芝麻香油",
+      "query": "Oil sesame salad cooking",
+      "state": "ready_to_eat",
+      "fdc_id": 171016,
+      "description": "Oil, sesame, salad or cooking",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "eebfa5910701139f4363d7a926b3878b576c68d476b65fc1a7dff21e5d7f3591",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "vinegar",
+      "name": "白醋",
+      "query": "Vinegar cider",
+      "state": "ready_to_eat",
+      "fdc_id": 172237,
+      "description": "Vinegar, distilled",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "0af051d2e90836282f6b2b53e24830595706ebd304570d9690124fddeb679b4d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      }
+    },
+    {
+      "key": "milk",
+      "name": "3.25%全脂牛奶",
+      "query": "Milk whole 3.25 milkfat",
+      "state": "ready_to_eat",
+      "fdc_id": 172217,
+      "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "rice_cooked",
+      "name": "短粒熟白米饭",
+      "query": "Rice white short grain cooked unenriched",
+      "state": "cooked",
+      "fdc_id": 168932,
+      "description": "Rice, white, short-grain, cooked, unenriched",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2cdddef83f4c9042ac6245d63990ccb98bad2dc24f3bc66e441656588f1a0148",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "corn_cooked",
+      "name": "水煮黄色甜玉米粒",
+      "query": "Corn sweet yellow cooked boiled drained without salt",
+      "state": "cooked",
+      "fdc_id": 169999,
+      "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8e2d1c36328ce7f97b28956583be4996ba9cf41493534ff63845c4741a44bc3b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "egg_boiled",
+      "name": "去壳全熟鸡蛋",
+      "query": "Egg whole cooked hard boiled",
+      "state": "cooked",
+      "fdc_id": 173424,
+      "description": "Egg, whole, cooked, hard-boiled",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "cb07dd820bb3464b15bbfdf6df88cae708ad1b8bacf90c909bc1d7bdc2e3c3c7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "egg_fried",
+      "name": "熟煎全蛋（已含通用烹调油脂）",
+      "query": "Egg whole cooked hard boiled",
+      "state": "cooked",
+      "fdc_id": 173423,
+      "description": "Egg, whole, cooked, fried",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "98f06ca47c2d27ee64ba5ab624d3496e9318df435d7ef562f683795372e011bb",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "oats_cooked",
+      "name": "清水煮熟燕麦",
+      "query": "Cereals oats regular quick cooked water without salt",
+      "state": "cooked",
+      "fdc_id": 173905,
+      "description": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "9eb3d863a5c10c01ab722f61f296e973d343138dcbc0580a20049d032cb2a135",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "cucumber",
+      "name": "带皮黄瓜",
+      "query": "Cucumber with peel raw",
+      "state": "raw",
+      "fdc_id": 168409,
+      "description": "Cucumber, with peel, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5b2f14993c985d167d196fe527257c5d64d0560545de642606ced194a6303f1b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "oil",
+      "name": "大豆食用油",
+      "query": "Oil soybean salad cooking",
+      "state": "ready_to_eat",
+      "fdc_id": 171411,
+      "description": "Oil, soybean, salad or cooking",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "potato",
+      "name": "土豆净可食量（USDA带皮宏量代理）",
+      "query": "Potatoes flesh skin raw",
+      "state": "raw",
+      "fdc_id": 170026,
+      "description": "Potatoes, flesh and skin, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3154c915df83c6912ed093f4b0f5006d5091d36204ab66d9a9ffad322a9baca0",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。"
+      }
+    },
+    {
+      "key": "cabbage",
+      "name": "圆包菜",
+      "query": "Cabbage raw",
+      "state": "raw",
+      "fdc_id": 169975,
+      "description": "Cabbage, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "1c428d0e63efd3cbf337fe930cd451b3f5fd118e6499909d365c896749e9dbb9",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "napa",
+      "name": "大白菜",
+      "query": "Cabbage chinese pe tsai raw",
+      "state": "raw",
+      "fdc_id": 169979,
+      "description": "Cabbage, chinese (pe-tsai), raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "468226740907eebf24e666ff99604376ebba34f70e4fcc0f7202caea8ab2c7f0",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "water_spinach",
+      "name": "空心菜",
+      "query": "Water convolvulus raw",
+      "state": "raw",
+      "fdc_id": 169301,
+      "description": "Water convolvulus,raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "13823927a4933ef7d282eb863a9ae411f95311ede81a583b93101be8399f2bb7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "cauliflower",
+      "name": "花菜",
+      "query": "Cauliflower raw",
+      "state": "raw",
+      "fdc_id": 169986,
+      "description": "Cauliflower, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f77eb527be9914893ca3697cb7973ca0e10b0d30a689926d8359275c6614cf3e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "broccoli",
+      "name": "西兰花",
+      "query": "Broccoli raw",
+      "state": "raw",
+      "fdc_id": 170379,
+      "description": "Broccoli, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8484641106cf413061a8bf74dea69cfc6058c55f0628446c0a6f99d1ada0060b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "spinach",
+      "name": "菠菜",
+      "query": "Spinach raw",
+      "state": "raw",
+      "fdc_id": 168462,
+      "description": "Spinach, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2ee228b8ca0414df850277df97149478d56f9885e38003f50bfc9868f9ed6b7b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "lettuce",
+      "name": "绿叶生菜",
+      "query": "Lettuce green leaf raw",
+      "state": "raw",
+      "fdc_id": 169249,
+      "description": "Lettuce, green leaf, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f43b29f47af06d2143a4f97c320cdeb20e42abfdaeed6536e8582c0897c00484",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "celery",
+      "name": "芹菜",
+      "query": "Celery raw",
+      "state": "raw",
+      "fdc_id": 169988,
+      "description": "Celery, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5fa37012c31018128ce521ec890a86b128f8e01d1077baa82ee1032d50f5b5ef",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "onion",
+      "name": "洋葱",
+      "query": "Onions raw",
+      "state": "raw",
+      "fdc_id": 170000,
+      "description": "Onions, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "eggplant",
+      "name": "茄子",
+      "query": "Eggplant raw",
+      "state": "raw",
+      "fdc_id": 169228,
+      "description": "Eggplant, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "822f730a8187b1738b50a09abaa22eae5a1d6ec6ffe1b0b5d46ecce1627ca05a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "pumpkin",
+      "name": "南瓜",
+      "query": "Pumpkin raw",
+      "state": "raw",
+      "fdc_id": 168448,
+      "description": "Pumpkin, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "cb8fba49a6ff4c60f75968522beb3230676a8a957471cb770313eef20b90f69c",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "carrot",
+      "name": "胡萝卜",
+      "query": "Carrots raw",
+      "state": "raw",
+      "fdc_id": 170393,
+      "description": "Carrots, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "zucchini",
+      "name": "西葫芦",
+      "query": "Squash summer zucchini skin raw",
+      "state": "raw",
+      "fdc_id": 169291,
+      "description": "Squash, summer, zucchini, includes skin, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e905f8d803c9731a31d4df908237953b37b79dec5427b1f1fca1c44466fba49e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "pepper_green",
+      "name": "青甜椒",
+      "query": "Peppers sweet green raw",
+      "state": "raw",
+      "fdc_id": 170427,
+      "description": "Peppers, sweet, green, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "581eded9601b96451ac4ad0451f3b1699713c3fa2b91ab530a7537b7bf22c298",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "pepper_red",
+      "name": "红甜椒",
+      "query": "Peppers sweet red raw",
+      "state": "raw",
+      "fdc_id": 170108,
+      "description": "Peppers, sweet, red, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b4c9d0afec4f4e0a6e3f8d4426b216af38a376fe48e88e90eec73b52d0fd26bb",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "chili",
+      "name": "鲜辣椒",
+      "query": "Peppers hot chili red raw",
+      "state": "raw",
+      "fdc_id": 170106,
+      "description": "Peppers, hot chili, red, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "chili_dry",
+      "name": "干辣椒",
+      "query": "Spices pepper red cayenne",
+      "state": "ready_to_eat",
+      "fdc_id": 170932,
+      "description": "Spices, pepper, red or cayenne",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "ginger",
+      "name": "姜",
+      "query": "Ginger root raw",
+      "state": "raw",
+      "fdc_id": 169231,
+      "description": "Ginger root, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "scallion",
+      "name": "小葱",
+      "query": "Onions spring scallions tops bulb raw",
+      "state": "raw",
+      "fdc_id": 170005,
+      "description": "Onions, spring or scallions (includes tops and bulb), raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "sesame",
+      "name": "芝麻仁",
+      "query": "Seeds sesame whole dried",
+      "state": "ready_to_eat",
+      "fdc_id": 170150,
+      "description": "Seeds, sesame seeds, whole, dried",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "87220391998d507e6b77c29f15b42dc305d6201be0c7b133d9f1755869032320",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "tahini",
+      "name": "芝麻酱（通用tahini近似）",
+      "query": "Seeds sesame butter tahini roasted toasted kernels",
+      "state": "ready_to_eat",
+      "fdc_id": 170189,
+      "description": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "31862146e1ea5aa28d42818006ee60dc3c5b03f5f83fefe0cad1d5cc18cf1d07",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      }
+    },
+    {
+      "key": "starch",
+      "name": "玉米淀粉",
+      "query": "Cornstarch",
+      "state": "ready_to_eat",
+      "fdc_id": 169698,
+      "description": "Cornstarch",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "flour",
+      "name": "通用小麦面粉",
+      "query": "Wheat flour white all purpose unenriched",
+      "state": "raw",
+      "fdc_id": 169761,
+      "description": "Wheat flour, white, all-purpose, unenriched",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "9529ab04b7250be51b5c0c07f0d2d05640567e599995014ea39182b5ea0641d7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "butter",
+      "name": "无盐黄油",
+      "query": "Butter without salt",
+      "state": "ready_to_eat",
+      "fdc_id": 173430,
+      "description": "Butter, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "93ff39490ae9730e69955bf83013e9390975548a8bb2b72763a98c575e2cddff",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "honey",
+      "name": "蜂蜜",
+      "query": "Honey",
+      "state": "ready_to_eat",
+      "fdc_id": 169640,
+      "description": "Honey",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "249a7210c5cf8248fcf40a28724dddd9fe34c90d51415161a8869d880e494124",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "tofu",
+      "name": "软豆腐",
+      "query": "Tofu soft calcium sulfate magnesium chloride",
+      "state": "ready_to_eat",
+      "fdc_id": 172449,
+      "description": "Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "70250b18b1743c885da79a881d0b1891e01436191b0a15fcaa6cee796b4c0c28",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "tofu_firm",
+      "name": "老豆腐",
+      "query": "Tofu firm calcium sulfate",
+      "state": "raw",
+      "fdc_id": 172475,
+      "description": "Tofu, raw, firm, prepared with calcium sulfate",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "19841edc6d3336881b75c80d2db48299291327c88c1de7985030f8c6a3cdd305",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "enoki",
+      "name": "金针菇",
+      "query": "Mushrooms enoki raw",
+      "state": "raw",
+      "fdc_id": 169382,
+      "description": "Mushrooms, enoki, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "54d3b1a4a0025f7370119ac10cbbc796af2eba0b438cb50a4d60cbdb54e98ff2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "shiitake",
+      "name": "鲜香菇",
+      "query": "Mushrooms shiitake raw",
+      "state": "raw",
+      "fdc_id": 169242,
+      "description": "Mushrooms, shiitake, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "c2accfdea48e68173ab7c41722c8f3a0fe3223d962f1a874da59f9ab3dabb69e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "mushroom",
+      "name": "白蘑菇",
+      "query": "Mushrooms white raw",
+      "state": "raw",
+      "fdc_id": 169251,
+      "description": "Mushrooms, white, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f8cbfa6009ce552eb0e16cada0513e5276a03341e73e8e98207ff8deab5ba69f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "green_beans",
+      "name": "四季豆",
+      "query": "Beans snap green raw",
+      "state": "raw",
+      "fdc_id": 169961,
+      "description": "Beans, snap, green, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e57c70b63ee2fab7fe6d4171015e076fac7ddbb0144a881e65409e53539e7d61",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "lotus",
+      "name": "莲藕",
+      "query": "Lotus root raw",
+      "state": "raw",
+      "fdc_id": 169250,
+      "description": "Lotus root, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3d683dc96d6b517f428cc1e39b1190a8f0e7ff1b979f5a3b34f9c31e7f8f897d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "leek",
+      "name": "韭葱（不用于韭菜）",
+      "query": "Leeks bulb lower leaf raw",
+      "state": "raw",
+      "fdc_id": 169246,
+      "description": "Leeks, (bulb and lower leaf-portion), raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b7ad825d149ce7439478232ee92788ad6639d0e838bf5755e3a41d5f0f09deff",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "chives",
+      "name": "韭菜候选（须核对物种）",
+      "query": "Chives raw",
+      "state": "raw"
+    },
+    {
+      "key": "pine_nut",
+      "name": "松子仁",
+      "query": "Nuts pine nuts dried",
+      "state": "ready_to_eat",
+      "fdc_id": 170591,
+      "description": "Nuts, pine nuts, dried",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6df092bc9b03d056008efbd3ff1614d274ff5d68d8cbcb733ef46cc235357829",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      }
+    },
+    {
+      "key": "peas",
+      "name": "青豌豆",
+      "query": "Peas green raw",
+      "state": "raw",
+      "fdc_id": 170419,
+      "description": "Peas, green, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "7803d4537b028b7b6f6d6ee8f959f9606161b3a91d91fecc73e6ee248fe4ea4a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "sweet_potato",
+      "name": "甘薯",
+      "query": "Sweet potato raw unprepared",
+      "state": "raw",
+      "fdc_id": 168482,
+      "description": "Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "4061dbd03218567ab1aab4144f9508d39156c39640fca8816da610dccfacdcd3",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "taro",
+      "name": "芋头",
+      "query": "Taro raw",
+      "state": "raw",
+      "fdc_id": 169308,
+      "description": "Taro, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5f8cfaa608b7c593c0ef550ccd765ae9180e76712e0a91ab3bda8d043ec6f612",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "winter_melon",
+      "name": "冬瓜",
+      "query": "Waxgourd chinese preserving melon raw",
+      "state": "raw",
+      "fdc_id": 170069,
+      "description": "Waxgourd, (chinese preserving melon), raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5e51649d41e422559c751707f7c9fea466fd3c745794ce091b5b837c3b60e75b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "rice_dry",
+      "name": "生短粒白米",
+      "query": "Rice white short grain cooked unenriched",
+      "state": "raw",
+      "fdc_id": 168931,
+      "description": "Rice, white, short-grain, raw, unenriched",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "241fad3e35a8c655a5d54615139523734f85faede57fcb0cc53c8c78dcd37b88",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "oats_dry",
+      "name": "干普通燕麦",
+      "query": "Cereals oats regular quick cooked water without salt",
+      "state": "raw",
+      "fdc_id": 173904,
+      "description": "Cereals, oats, regular and quick, not fortified, dry",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "d269c430fb9159b81ae041a730042cc9a0d9b74fc8e4a4c51797c192e6a1cb34",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "bread",
+      "name": "白吐司",
+      "query": "Bread white commercially prepared",
+      "state": "ready_to_eat",
+      "fdc_id": 174924,
+      "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "jam",
+      "name": "通用果酱",
+      "query": "Jams preserves",
+      "state": "ready_to_eat",
+      "fdc_id": 169641,
+      "description": "Jams and preserves",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3c5f877407ca51bc60bc4ed17fd24c8cd58aba9ee3d11cdd56b2aef54318029b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "peanut",
+      "name": "烤花生仁",
+      "query": "Peanuts all types dry roasted without salt",
+      "state": "ready_to_eat",
+      "fdc_id": 173806,
+      "description": "Peanuts, all types, dry-roasted, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "99cf349b57044b5d2ea1eb4aca1e0ab2a6fb8d4daf8bb84a0a067a98c0b4b00e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "pasta",
+      "name": "煮熟意大利面",
+      "query": "Spaghetti cooked enriched without added salt",
+      "state": "cooked",
+      "fdc_id": 168928,
+      "description": "Pasta, cooked, unenriched, without added salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "17529f2a28185c39331ae76d19d04a7abb6e7e36cbeedaeb8beac5001e68a08d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "noodles",
+      "name": "煮熟面条",
+      "query": "Noodles chinese cooked",
+      "state": "cooked"
+    },
+    {
+      "key": "cream",
+      "name": "稀奶油",
+      "query": "Cream fluid heavy whipping",
+      "state": "ready_to_eat",
+      "fdc_id": 170859,
+      "description": "Cream, fluid, heavy whipping",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "92f010d709db95392b61ce6448496677443e5b692b6a3a3b28bd93e96d55b10a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "yogurt",
+      "name": "原味全脂酸奶",
+      "query": "Yogurt plain whole milk",
+      "state": "ready_to_eat",
+      "fdc_id": 171284,
+      "description": "Yogurt, plain, whole milk",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2b4f166797d9a13be4be7c63c439f22c980d7bad374319ebf1d59dc77f55742d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "lemon",
+      "name": "去皮柠檬",
+      "query": "Lemons raw without peel",
+      "state": "raw",
+      "fdc_id": 167746,
+      "description": "Lemons, raw, without peel",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "lemon_juice",
+      "name": "柠檬汁",
+      "query": "Lemon juice raw",
+      "state": "ready_to_eat",
+      "fdc_id": 167747,
+      "description": "Lemon juice, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "banana",
+      "name": "去皮香蕉",
+      "query": "Bananas raw",
+      "state": "raw",
+      "fdc_id": 173944,
+      "description": "Bananas, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6cfc23327807ef48446bdcc301220eca5cd37160a27bbbf51f68363377818551",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "strawberry",
+      "name": "草莓",
+      "query": "Strawberries raw",
+      "state": "raw",
+      "fdc_id": 167762,
+      "description": "Strawberries, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "57d65cba9de1caac92f5db5d472531d1033f5def0bb782b12116a32dc71e87b8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "mango",
+      "name": "芒果果肉",
+      "query": "Mangos raw",
+      "state": "raw",
+      "fdc_id": 169910,
+      "description": "Mangos, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "660d36886cc484e10cbb29fc68175c774d95b46419939ba41dcc4d22ada9e530",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "orange",
+      "name": "橙子果肉",
+      "query": "Oranges raw all commercial varieties",
+      "state": "raw",
+      "fdc_id": 169097,
+      "description": "Oranges, raw, all commercial varieties",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "91e0f7d32160f9734aacd17ca03afc9057aa7f906ef02948b7285726a6e6be7c",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "orange_juice",
+      "name": "橙汁",
+      "query": "Orange juice raw",
+      "state": "ready_to_eat",
+      "fdc_id": 169098,
+      "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "avocado",
+      "name": "牛油果果肉",
+      "query": "Avocados raw all commercial varieties",
+      "state": "raw",
+      "fdc_id": 171705,
+      "description": "Avocados, raw, all commercial varieties",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "443efe28dd64dceae7cb620cb736f7800be15bd5b4ba81500ad75df0b6b27bd3",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "coconut_milk",
+      "name": "椰奶",
+      "query": "Nuts coconut milk raw liquid expressed grated meat water",
+      "state": "ready_to_eat",
+      "fdc_id": 170172,
+      "description": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "114034c3167e189abe2b4c9005b6b286f001ca240db33ec94d402d5494bf8a4a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "coffee",
+      "name": "现煮黑咖啡",
+      "query": "Beverages coffee brewed prepared tap water",
+      "state": "ready_to_eat",
+      "fdc_id": 171890,
+      "description": "Beverages, coffee, brewed, prepared with tap water",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "1fe33db620248fb5cb8f8911bb888e9d67c478317b3b3e6c0701dfd034e466ad",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "tea",
+      "name": "泡好无糖红茶",
+      "query": "Beverages tea black brewed prepared tap water",
+      "state": "ready_to_eat",
+      "fdc_id": 173227,
+      "description": "Beverages, tea, black, brewed, prepared with tap water",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "afde895716992b96a6b2a6ee8d1401673e00e7e6e74a759ce7281c9619f471ce",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "milk_condensed",
+      "name": "甜炼乳",
+      "query": "Milk canned condensed sweetened",
+      "state": "ready_to_eat",
+      "fdc_id": 171275,
+      "description": "Milk, canned, condensed, sweetened",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "d4fe014840c72a71fed63138015af9fae95b0b3d694ef0d0498e62cc04944089",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "cocoa",
+      "name": "无糖可可粉",
+      "query": "Cocoa dry powder unsweetened",
+      "state": "ready_to_eat",
+      "fdc_id": 169593,
+      "description": "Cocoa, dry powder, unsweetened",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "af8709f497ea3ccebceb2cb023e823c768b01d3d12fad7a611141c0341df3cb3",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "yeast",
+      "name": "干酵母",
+      "query": "Leavening agents yeast baker active dry",
+      "state": "ready_to_eat",
+      "fdc_id": 175043,
+      "description": "Leavening agents, yeast, baker's, active dry",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "25040227b967dc0e7bf81470b74785c63c8f072e51768cdbe633f8f7b93b3c6c",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "baking_powder",
+      "name": "泡打粉",
+      "query": "Leavening agents baking powder double acting sodium aluminum sulfate",
+      "state": "ready_to_eat",
+      "fdc_id": 172803,
+      "description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f42f5decdd309178d1ba2cc737af39161d9be9003998ae741cc1b2f8d3a555f3",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "gelatin",
+      "name": "吉利丁粉",
+      "query": "Gelatins dry powder unsweetened",
+      "state": "ready_to_eat",
+      "fdc_id": 169599,
+      "description": "Gelatins, dry powder, unsweetened",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6c5aa1fa5dc3251b3b5746f25b9d00fbbd731c3278e84f05579df50263c8fdae",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "ketchup",
+      "name": "番茄酱",
+      "query": "Catsup",
+      "state": "ready_to_eat",
+      "fdc_id": 168556,
+      "description": "Catsup",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "03c820005791cc6a05c419d921f58a6f05ae698172077befcb1eeac926cac76e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    },
+    {
+      "key": "wood_ear",
+      "name": "鲜木耳",
+      "query": "Mushrooms cloud ears raw",
+      "state": "raw",
+      "fdc_id": 169237,
+      "description": "Jew's ear, (pepeao), raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "fb9de22bf48863c6752db2ba2c8148a96a763abf79427ee9e16ada9f2aaad354",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "bok_choy",
+      "name": "小白菜",
+      "query": "Cabbage chinese pak choi raw",
+      "state": "raw",
+      "fdc_id": 170390,
+      "description": "Cabbage, chinese (pak-choi), raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f97a2a4156f9a654ee4fd3be41cba31b83c6142500df5153cf479189ee072bb7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "yam",
+      "name": "山药",
+      "query": "Yam raw",
+      "state": "raw"
+    },
+    {
+      "key": "millet",
+      "name": "小米",
+      "query": "Millet raw",
+      "state": "raw",
+      "fdc_id": 169702,
+      "description": "Millet, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "570b6f199768befdc11cd2366504040c62ff80a38bdaa9f0ebca9ca194f0f8aa",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "walnut",
+      "name": "核桃仁",
+      "query": "Nuts walnuts english",
+      "state": "ready_to_eat",
+      "fdc_id": 170187,
+      "description": "Nuts, walnuts, english",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "a12db107763ce9d3a410f4b561971e4c9354b51c502e76def7a3ab5afcfb32b1",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "red_beans",
+      "name": "煮熟红芸豆",
+      "query": "Beans kidney red mature seeds cooked boiled without salt",
+      "state": "cooked",
+      "fdc_id": 175194,
+      "description": "Beans, kidney, red, mature seeds, cooked, boiled, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "0c31c29c1716b41379f3c47c6ce66a60886ff5ce98ff5d0fee96afbc7b30542d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "mung_noodles",
+      "name": "干绿豆粉丝",
+      "query": "Noodles chinese cellophane dehydrated",
+      "state": "ready_to_eat",
+      "fdc_id": 174258,
+      "description": "Noodles, chinese, cellophane or long rice (mung beans), dehydrated",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "05e4ce4de2d5733a7f92624141a8a20cc68635ebe9ec554b355de56f7df4a8a7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "duck_preserved",
+      "name": "皮蛋候选",
+      "query": "Egg duck preserved",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "pork_belly",
+      "name": "去骨生五花肉",
+      "query": "Pork fresh belly raw",
+      "state": "raw",
+      "fdc_id": 167812,
+      "description": "Pork, fresh, belly, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "a05933c02b85e48530b5f16d859f1077df0597748f1aa4709463893816cbc989",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "pork_lean",
+      "name": "猪里脊（去骨）",
+      "query": "Pork fresh loin tenderloin separable lean only raw",
+      "state": "raw",
+      "fdc_id": 168249,
+      "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b04c119ef19e062456cc68c825a6c375ad4862756630d29e55cce535c18175e7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "pork_ground",
+      "name": "生猪肉末",
+      "query": "Pork fresh ground raw",
+      "state": "raw",
+      "fdc_id": 167902,
+      "description": "Pork, fresh, ground, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e74b012cb44cc92be18d367939a7814313e9c8e6dc3d622c4deaaf625b9fded7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "beef",
+      "name": "生牛肉（去骨瘦肉）",
+      "query": "Beef round top round separable lean only trimmed raw",
+      "state": "raw",
+      "fdc_id": 173996,
+      "description": "Beef, round, top round roast, boneless, separable lean only, trimmed to 0\" fat, choice, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "29df08169af84752dec94481405882bcf0a575456b25931c1bd8ad202f1346c6",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "chicken_thigh",
+      "name": "鸡腿肉（去骨去皮）",
+      "query": "Chicken broilers fryers thigh meat only raw",
+      "state": "raw",
+      "fdc_id": 173627,
+      "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "chicken_breast",
+      "name": "鸡胸肉（去骨去皮）",
+      "query": "Chicken broilers fryers breast meat only raw",
+      "state": "raw",
+      "fdc_id": 171077,
+      "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "98ecd7042137b9f64797233cdf363cfaeba735ac9342fc43cc7245a65bff0394",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "chicken_wing",
+      "name": "鸡翅肉和皮（去骨）",
+      "query": "Chicken broilers fryers wing meat skin raw",
+      "state": "raw",
+      "fdc_id": 172390,
+      "description": "Chicken, broilers or fryers, wing, meat and skin, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5c30ea485da5464d6304b859d8980c024997081c8ddbc03733c8e9b125d92f13",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "duck",
+      "name": "鸭肉和皮（去骨）",
+      "query": "Duck domesticated meat skin raw",
+      "state": "raw",
+      "fdc_id": 172408,
+      "description": "Duck, domesticated, meat and skin, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "990ddbc3c993067001944aec413701d208dc4f7420d4f7b8856e782959997bce",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "lamb",
+      "name": "去骨生羊肉",
+      "query": "Lamb domestic leg separable lean fat raw",
+      "state": "raw",
+      "fdc_id": 174315,
+      "description": "Lamb, leg, shank half, separable lean and fat, trimmed to 1/4\" fat, choice, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6b83c168527ca7ad9e965c03087c436d06276c9b4082694637f2b103d7429d84",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "shrimp",
+      "name": "去壳生虾仁",
+      "query": "Crustaceans shrimp mixed species raw",
+      "state": "raw",
+      "fdc_id": 175179,
+      "description": "Crustaceans, shrimp, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "7adce367871bf8418863b3d1ff0f42d32598a098f9a4a2ae6876d11597639721",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。 通用种类可用于明确的家庭标准近似；特定物种精确营养需另查。"
+      }
+    },
+    {
+      "key": "carp",
+      "name": "鲤鱼可食鱼肉",
+      "query": "Fish carp raw",
+      "state": "raw",
+      "fdc_id": 171952,
+      "description": "Fish, carp, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "d6bebba69077bbfcedaa4d12bdaba6cd252ff24602d590ade6f7240d6a78b295",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "bass",
+      "name": "鲈鱼候选",
+      "query": "Fish bass fresh water mixed species raw",
+      "state": "raw",
+      "fdc_id": 174184,
+      "description": "Fish, bass, fresh water, mixed species, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3a17f7cdc7e89ca6472616fae54bc103961c69fc79f2da1a2b1ca1127e9861bc",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。 通用种类可用于明确的家庭标准近似；特定物种精确营养需另查。"
+      }
+    },
+    {
+      "key": "salmon",
+      "name": "三文鱼（大西洋养殖）",
+      "query": "Fish salmon Atlantic farmed raw",
+      "state": "raw",
+      "fdc_id": 175167,
+      "description": "Fish, salmon, Atlantic, farmed, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "0631b8489c632497cc7e02dbbb3c76fe0a8035c5ff4284a406b5db0b6c1597b3",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "crab",
+      "name": "蟹肉",
+      "query": "Crustaceans crab blue raw",
+      "state": "raw",
+      "fdc_id": 174204,
+      "description": "Crustaceans, crab, blue, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "779d0d0ac04dd6bbbd15aaf3162dae476e0c7bb4d26327f75c3c27defda7e1cf",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "clams",
+      "name": "蛤蜊肉",
+      "query": "Mollusks clam mixed species raw",
+      "state": "raw",
+      "fdc_id": 174214,
+      "description": "Mollusks, clam, mixed species, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "56f717c50210de29e38143e1fd1c41a210e0989312ffe726a5b5d785728529c9",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。 通用种类可用于明确的家庭标准近似；特定物种精确营养需另查。"
+      }
+    },
+    {
+      "key": "oyster_meat",
+      "name": "牡蛎肉",
+      "query": "Mollusks oyster eastern wild raw",
+      "state": "raw",
+      "fdc_id": 171978,
+      "description": "Mollusks, oyster, eastern, wild, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "0c6f0621d5f4d4da8aef2502b991eea6e76074cb9c486498ef8d21ec540b3b3b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "tuna_can",
+      "name": "水浸罐装金枪鱼",
+      "query": "Fish tuna light canned water drained solids",
+      "state": "ready_to_eat",
+      "fdc_id": 171986,
+      "description": "Fish, tuna, light, canned in water, without salt, drained solids",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "397ada49bff0c9370361f75ec0f4d2d13b73a41e69572f336e0becc149811d15",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "bacon",
+      "name": "培根",
+      "query": "Pork cured bacon unprepared",
+      "state": "raw",
+      "fdc_id": 168277,
+      "description": "Pork, cured, bacon, unprepared",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "sausage",
+      "name": "通用猪肉香肠",
+      "query": "Sausage pork fresh raw",
+      "state": "raw"
+    },
+    {
+      "key": "cheese",
+      "name": "切达奶酪",
+      "query": "Cheese cheddar",
+      "state": "ready_to_eat",
+      "fdc_id": 2705709,
+      "description": "Cheese, Cheddar",
+      "data_type": "Survey (FNDDS)",
+      "snapshot_sha256": "60b00d13d8f99c760699a2b2ec9820a92e69052b2ab4b37dfeed783938829aa0",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "cream_cheese",
+      "name": "奶油奶酪",
+      "query": "Cheese cream",
+      "state": "ready_to_eat",
+      "fdc_id": 173418,
+      "description": "Cheese, cream",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "398ee55b6529681feba5ab27955162f35a43e401d6dea00bbc0e97c44c209409",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "raisin",
+      "name": "葡萄干",
+      "query": "Raisins seedless",
+      "state": "ready_to_eat",
+      "fdc_id": 168165,
+      "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8a27872e69ec2e209cb101ec380dba7b968305e7cd2b894c49cba54622ef70c2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "dates",
+      "name": "干红枣候选",
+      "query": "Jujube chinese dried",
+      "state": "ready_to_eat",
+      "fdc_id": 168152,
+      "description": "Jujube, Chinese, fresh, dried",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "ecafee9d2ac2e736bdb8cb4221b870f5f81071c48f07d42bb808f2ca84bf2f00",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "longan",
+      "name": "干桂圆",
+      "query": "Longans dried",
+      "state": "ready_to_eat",
+      "fdc_id": 169907,
+      "description": "Longans, dried",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "1543544d3392ebc4743f34113b4b1bdfde8dc31319bd7a2ffccc17a4eb31e34d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "lard",
+      "name": "猪油",
+      "query": "Lard",
+      "state": "ready_to_eat",
+      "fdc_id": 171401,
+      "description": "Lard",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    },
+    {
+      "key": "kiwi",
+      "name": "去皮奇异果",
+      "query": "Kiwifruit green raw",
+      "state": "raw",
+      "fdc_id": 168153,
+      "description": "Kiwifruit, green, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5221f6f0b098e80ee0117cfdb5e567bf229b1458f415bec8a24a127065ad14b8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      }
+    },
+    {
+      "key": "pineapple",
+      "name": "菠萝果肉",
+      "query": "Pineapple raw all varieties",
+      "state": "raw",
+      "fdc_id": 169124,
+      "description": "Pineapple, raw, all varieties",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3247a27106bced56801bdebd6df7b347988c291e8f1f32c7a9561b831b9dab93",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      }
+    },
+    {
+      "key": "passionfruit",
+      "name": "百香果净果肉",
+      "query": "Passion fruit purple raw",
+      "state": "raw",
+      "fdc_id": 169108,
+      "description": "Passion-fruit, (granadilla), purple, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f47a6d4421aece4354c7496b38cf59262d391d4c01b341ed48025d17dd8acf51",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      }
+    },
+    {
+      "key": "coconut_water",
+      "name": "椰子水",
+      "query": "Nuts coconut water liquid coconuts",
+      "state": "ready_to_eat",
+      "fdc_id": 170174,
+      "description": "Nuts, coconut water (liquid from coconuts)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "aebae4cfc385cb1b286463c8e9eb7d03dd5e98f2f8ed4b609de7404df3eee634",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      }
+    },
+    {
+      "key": "cardamom",
+      "name": "小豆蔻",
+      "query": "Spices cardamom",
+      "state": "ready_to_eat",
+      "fdc_id": 170919,
+      "description": "Spices, cardamom",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "566123e9309593cb507534069af93091242e1a397cb73d4ccec73d7074853236",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      }
+    },
+    {
+      "key": "cinnamon",
+      "name": "肉桂粉",
+      "query": "Spices cinnamon ground",
+      "state": "ready_to_eat",
+      "fdc_id": 171320,
+      "description": "Spices, cinnamon, ground",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "433c4ef2179c1b4761116a2c335056d0b8dc7c1682c4ce05715401e29e55c88c",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      }
+    },
+    {
+      "key": "beef_brisket",
+      "name": "牛胸腹肉（去骨带脂）",
+      "query": "Beef brisket whole separable lean fat raw",
+      "state": "raw",
+      "fdc_id": 168664,
+      "description": "Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "10b4ea1f47b4efd594bf80064e79e2a1ab5c1cc792a54f4adcf4a4041d0a472f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "beef_ground",
+      "name": "85%瘦牛肉末",
+      "query": "Beef ground 85 lean 15 fat raw",
+      "state": "raw",
+      "fdc_id": 173068,
+      "description": "Beef, Australian, imported, grass-fed, ground, 85% lean / 15% fat, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "c9aef4f9a811699f5e14536d0257c4edaf7afbf273e19132c5f5fc65145a3b4b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "pork_ribs",
+      "name": "肋排可食肉脂（去骨）",
+      "query": "Pork fresh spareribs separable lean fat raw",
+      "state": "raw",
+      "fdc_id": 167853,
+      "description": "Pork, fresh, spareribs, separable lean and fat, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "71233239d8fac163de1822858c90412b1a83c12040af8403deb46b0b562784b1",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "pork_feet",
+      "name": "猪蹄可食皮肉（去骨）",
+      "query": "Pork fresh feet raw",
+      "state": "raw",
+      "fdc_id": 167859,
+      "description": "Pork, fresh, variety meats and by-products, feet, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "a2868abc3d5cb7d9cfe337b80a3da631aa841a9dbcdaa662cf1a315b2a65c70c",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "chicken_liver",
+      "name": "鸡肝",
+      "query": "Chicken liver all classes raw",
+      "state": "raw",
+      "fdc_id": 171060,
+      "description": "Chicken, liver, all classes, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "74224c4f12e39026967c030d2953b6fd2f200708bd0b699a2983e0c7dafa9817",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "cumin",
+      "name": "孜然籽",
+      "query": "Spices cumin seed",
+      "state": "ready_to_eat",
+      "fdc_id": 170923,
+      "description": "Spices, cumin seed",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6547255bf1215d1fcd23761e65196917deba938e9146f06b3d720ce06a33b5ac",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "coriander",
+      "name": "香菜叶",
+      "query": "Coriander cilantro leaves raw",
+      "state": "raw",
+      "fdc_id": 169997,
+      "description": "Coriander (cilantro) leaves, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "71f7e26c46f4cbee54db0bdf93faaaac6d739c8f83d88af4a604ca46963969de",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "radish",
+      "name": "白萝卜",
+      "query": "Radishes oriental raw",
+      "state": "raw",
+      "fdc_id": 168451,
+      "description": "Radishes, oriental, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "c48192fef1c9790960c1f58312666a3fabc42fbab7513727ea4b51b92be5d0eb",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "cashew",
+      "name": "腰果仁",
+      "query": "Nuts cashew nuts raw",
+      "state": "ready_to_eat",
+      "fdc_id": 170162,
+      "description": "Nuts, cashew nuts, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b0f004dc0106b521dd0ac192e62abd3f46f1a56e6c112827749e0e53dbc718e2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "turmeric",
+      "name": "姜黄粉",
+      "query": "Spices turmeric ground",
+      "state": "ready_to_eat",
+      "fdc_id": 172231,
+      "description": "Spices, turmeric, ground",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "dbf13e66d7fc45549b31da6251dc17c2cff0740f6590f3db17612dc97eb0a9db",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "curry",
+      "name": "通用咖喱粉（不用于咖喱块）",
+      "query": "Spices curry powder",
+      "state": "ready_to_eat",
+      "fdc_id": 170924,
+      "description": "Spices, curry powder",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "659341b353c6f0c6cec91e26f1e2b891c6238dc0733604e5e81b09646a48968e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "chickpea_flour",
+      "name": "鹰嘴豆粉",
+      "query": "Chickpea flour besan",
+      "state": "raw",
+      "fdc_id": 174288,
+      "description": "Chickpea flour (besan)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "977a16d6096a7c674b9afa46a2aeacc7c33e13011d1b3d5cd599026a71756be7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "rice_flour",
+      "name": "白米粉",
+      "query": "Rice flour white unenriched",
+      "state": "raw",
+      "fdc_id": 169714,
+      "description": "Rice flour, white, unenriched",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "a8dfd65f52122447d22acc532981460aaedf018bb22d4266c9e0f8221a1bb2b7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "glutinous_flour",
+      "name": "糯米粉候选",
+      "query": "Rice flour glutinous",
+      "state": "raw"
+    },
+    {
+      "key": "soba",
+      "name": "荞麦面熟条",
+      "query": "Noodles japanese soba cooked",
+      "state": "cooked",
+      "fdc_id": 168907,
+      "description": "Noodles, japanese, soba, cooked",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "0c48dd85132c7dbe8b3ba3bbd5167ec8baf589d58bb76571ada09e791497fa2a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "sweet_potato_starch",
+      "name": "红薯淀粉候选",
+      "query": "Sweet potato starch",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "edamame",
+      "name": "去荚毛豆",
+      "query": "Edamame frozen unprepared",
+      "state": "raw",
+      "fdc_id": 168410,
+      "description": "Edamame, frozen, unprepared",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2886ab99727ef639edc08a337f67fbf5df99f4e899c57886cd778602d4f7adfd",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "black_pepper",
+      "name": "黑胡椒粉",
+      "query": "Spices pepper red cayenne",
+      "state": "ready_to_eat",
+      "fdc_id": 170931,
+      "description": "Spices, pepper, black",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review",
+        "note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+      }
+    },
+    {
+      "key": "lamb_ribs",
+      "name": "羊肋排可食肉脂（去骨）",
+      "query": "Lamb ribs separable lean fat raw",
+      "state": "raw",
+      "fdc_id": 174321,
+      "description": "Lamb, rib, separable lean and fat, trimmed to 1/4\" fat, choice, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "82f86a7ff1c5f044015cbebb50dd284f8a406c6900834378a885041214fd15c8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "beef_tenderloin",
+      "name": "牛里脊（去骨净瘦肉）",
+      "query": "Beef tenderloin separable lean only raw",
+      "state": "raw",
+      "fdc_id": 171768,
+      "description": "Beef, loin, tenderloin steak, boneless, separable lean only, trimmed to 0\" fat, choice, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "441115d4cb2176fda97ca87779cc51635f743f1f68f9e71f55602bf77bfd1566",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "egg_yolk_cooked",
+      "name": "熟鸡蛋蛋黄",
+      "query": "Egg yolk cooked",
+      "state": "cooked"
+    },
+    {
+      "key": "mayonnaise",
+      "name": "普通蛋黄酱",
+      "query": "Salad dressing mayonnaise regular",
+      "state": "ready_to_eat",
+      "fdc_id": 171009,
+      "description": "Salad dressing, mayonnaise, regular",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "fd7a393ee21c7f0970f008de2333c1cea19afbdb14a3e02c71a95be871ac0879",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    },
+    {
+      "key": "noodles_somen",
+      "name": "熟白小麦素面（USDA日本素面近似）",
+      "query": "Noodles chinese cooked",
+      "state": "cooked",
+      "fdc_id": 168909,
+      "description": "Noodles, japanese, somen, cooked",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8f347217c6fc92312cb5013e80c997cce4b945fa375fb47c4a92cf4ad49f0b85",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit generic cooked wheat-noodle proxy review",
+        "note": "仅作明确的白小麦素面家庭配方代理；日本素面加工和含水量不同，不用于油炸方便面、碱水面、米粉、荞麦面或品牌面条的精确计算。"
+      }
+    },
+    {
+      "key": "shrimp_cooked",
+      "name": "熟去头壳虾肉",
+      "query": "Crustaceans shrimp mixed species raw",
+      "state": "cooked",
+      "fdc_id": 175180,
+      "description": "Crustaceans, shrimp, cooked",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8faf8adbf81ab21e84f2eb1011330bcc236ae6a9ae47c3ae66bb46a51bafabf2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review",
+        "note": "选择熟虾肉记录，排除生虾、裹粉炸虾、仿虾、头壳毛重和额外蘸料。"
+      }
+    },
+    {
+      "key": "grapefruit",
+      "name": "红心葡萄柚果肉",
+      "query": "Grapefruit raw pink red",
+      "state": "raw",
+      "fdc_id": 174673,
+      "description": "Grapefruit, raw, pink and red, all areas",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "fc1f0cd39b1d51a9a4c00ac57fa7c23ec33dbf226db247898c6be87fbaa1fc50",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review",
+        "note": "红心葡萄柚净果肉，不采用果汁、柚皮、白心柚或橙子条目。"
+      }
+    },
+    {
+      "key": "egg_yolk_raw",
+      "name": "生鸡蛋蛋黄净量",
+      "query": "Egg whole raw fresh",
+      "state": "raw",
+      "fdc_id": 172184,
+      "description": "Egg, yolk, raw, fresh",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b881eb409677776cef9be1fdc992e0aeb45dd91fb73822c0886919d7254f175f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review",
+        "note": "专用蛋黄条目；按生净重定义后蒸熟再烘烤，不能以全蛋营养代替蛋黄，热加工损失另作明确未校正假设。"
+      }
+    },
+    {
+      "key": "cola",
+      "name": "含糖可乐通用饮料",
+      "query": "Beverages carbonated cola regular",
+      "state": "ready_to_eat",
+      "fdc_id": 174852,
+      "description": "Beverages, carbonated, cola, regular",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2f530e7e02b87c29356c8f0804ea86f8f7731bac046488ba49e2d9c4a9b1d37f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定含糖含咖啡因普通可乐；不适用于无糖或减糖配方，不承诺可口可乐品牌标签相同。"
+      }
+    },
+    {
+      "key": "chicken_cooked",
+      "name": "熟鸡胸肉去皮",
+      "query": "Chicken breast meat only cooked roasted",
+      "state": "cooked",
+      "fdc_id": 171478,
+      "description": "Chicken, broilers or fryers, breast, meat only, cooked, stewed",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b4b97d48d8b41aca60d51bcdc2cdab20a7ee6c3ea335791716854c3db1b6c01e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "选择无皮鸡胸肉煮炖熟沥水数据，不用烤鸡或生鸡肉值冒充熟鸡丝；不含皮、骨、汤和调味。"
+      }
+    },
+    {
+      "key": "sablefish",
+      "name": "黑鳕鱼可食净肉",
+      "query": "Fish sablefish raw",
+      "state": "raw",
+      "fdc_id": 175134,
+      "description": "Fish, sablefish, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "de84cdf342b0ea975868fdea890be7f7b27777dd87a8e07513d8d2a6d7b8239a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定黑鳕即sablefish裸净肉，非大西洋鳕、银鳕营销混称及鱼皮营养；使用时去皮称肉。"
+      }
+    },
+    {
+      "key": "eel",
+      "name": "鳗鱼可食净肉",
+      "query": "Fish eel mixed species raw",
+      "state": "raw",
+      "fdc_id": 174193,
+      "description": "Fish, eel, mixed species, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2358595aae073d0c0a1894394e707a65ca9d804117ae680b5f823c551497645f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "仅鳗鱼混合物种净肉参考；不可用于黄鳝、鳝丝或带骨毛重。"
+      }
+    },
+    {
+      "key": "rabbit",
+      "name": "兔肉可食净肉",
+      "query": "Game meat rabbit domesticated composite cuts raw",
+      "state": "raw",
+      "fdc_id": 172521,
+      "description": "Game meat, rabbit, domesticated, composite of cuts, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "31aa15044cf1e2960d03b5fbcd6e8a331dfa5100c665a04f995c7de341b4724d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "家养兔混合部位净可食肉，不含骨，非野兔；品种与部位差异保留不确定性。"
+      }
+    },
+    {
+      "key": "snow_peas",
+      "name": "荷兰豆",
+      "query": "Peas edible podded raw",
+      "state": "raw",
+      "fdc_id": 170010,
+      "description": "Peas, edible-podded, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e9f72df00d9b3bfc62b776d7ad49f50857584b9c18ddfed39ce1ec004513f580",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "可食嫩豆荚生净重，非剥壳青豆。"
+      }
+    },
+    {
+      "key": "bitter_melon",
+      "name": "苦瓜",
+      "query": "Balsam pear bitter gourd pods raw",
+      "state": "raw",
+      "fdc_id": 168393,
+      "description": "Balsam-pear (bitter gourd), pods, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "01025a8dcd8a1ca27752acee2e2ae54277afc546b0647abaa835bbd31c64a6ed",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "生苦瓜果荚净重，非叶或已煮沥干状态。"
+      }
+    },
+    {
+      "key": "navy_beans",
+      "name": "熟白芸豆",
+      "query": "Beans navy mature seeds cooked boiled without salt",
+      "state": "cooked",
+      "fdc_id": 173746,
+      "description": "Beans, navy, mature seeds, cooked, boiled, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "ce95888544a87da42e7c166ed016e39150a8087db9b25b6270a962c56bc486f2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "无盐煮熟navy白豆的熟净重代理；不能直接当作干白芸豆、薏米或其他品种数据。"
+      }
+    },
+    {
+      "key": "dried_tofu",
+      "name": "豆干",
+      "query": "Tofu dried frozen koyadofu prepared with calcium sulfate",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "tofu_salted",
+      "name": "腐乳",
+      "query": "Tofu salted fermented fuyu prepared with calcium sulfate",
+      "state": "ready_to_eat",
+      "fdc_id": 174305,
+      "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "盐渍发酵腐乳通用宏量参考，非红曲玫瑰腐乳品牌标签；仅作明确通用腐乳变体，不用于其他豆酱。"
+      }
+    },
+    {
+      "key": "soy_paste",
+      "name": "豆酱",
+      "query": "Miso",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "fish_sauce",
+      "name": "鱼露",
+      "query": "Sauce fish ready to serve",
+      "state": "ready_to_eat",
+      "fdc_id": 174531,
+      "description": "Sauce, fish, ready-to-serve",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "66cff0e3898b74e90d49b7e6ed1944d704e1ae1c9838a1295700a972b593d818",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "即食鱼露通用参考，品牌盐糖比例有差异。"
+      }
+    },
+    {
+      "key": "egg_white",
+      "name": "净鸡蛋清",
+      "query": "Egg white raw fresh",
+      "state": "raw",
+      "fdc_id": 172183,
+      "description": "Egg, white, raw, fresh",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f315cae8d241fba813b3925d6e1fe59292c94c72128fd2e6fc5756341680c147",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "新鲜生鸡蛋清净重，不含蛋黄，不用全蛋替代。"
+      }
+    },
+    {
+      "key": "paprika",
+      "name": "甜椒粉",
+      "query": "Spices paprika",
+      "state": "ready_to_eat",
+      "fdc_id": 171329,
+      "description": "Spices, paprika",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "56a51a94ed59bb6e41c2987be20882567e165cfcf79ddeb41d99deb060dfffaa",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "红甜椒干粉通用参考，非复合烧烤料。"
+      }
+    },
+    {
+      "key": "garlic_powder",
+      "name": "蒜粉",
+      "query": "Spices garlic powder",
+      "state": "ready_to_eat",
+      "fdc_id": 171325,
+      "description": "Spices, garlic powder",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "7b55fdacaa290668f47b6baef528ba789f91587e1c36d6b86e4a926b5812b908",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "纯蒜粉通用参考，非含盐复合调味料。"
+      }
+    },
+    {
+      "key": "onion_powder",
+      "name": "洋葱粉",
+      "query": "Spices onion powder",
+      "state": "ready_to_eat",
+      "fdc_id": 171327,
+      "description": "Spices, onion powder",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6ab461f4fdcb2ec96f3596acd295481fd167d923e15b078d4e54f6d94d502f8b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "纯洋葱粉通用参考，非含盐复合调味料。"
+      }
+    },
+    {
+      "key": "gin",
+      "name": "金酒40%酒精",
+      "query": "Alcoholic beverage distilled gin 80 proof",
+      "state": "ready_to_eat",
+      "fdc_id": 174815,
+      "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。"
+      }
+    },
+    {
+      "key": "rum",
+      "name": "朗姆酒40%酒精",
+      "query": "Alcoholic beverage distilled rum 80 proof",
+      "state": "ready_to_eat",
+      "fdc_id": 174817,
+      "description": "Alcoholic beverage, distilled, rum, 80 proof",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+      }
+    },
+    {
+      "key": "whiskey",
+      "name": "43%vol无糖威士忌",
+      "query": "Alcoholic beverage distilled whiskey 80 proof",
+      "state": "ready_to_eat",
+      "fdc_id": 174819,
+      "description": "Alcoholic beverage, distilled, whiskey, 86 proof",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "17451169ba6585c00f4cdf573ec215a68b56124ae9ef9fd745596d2342144ad2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "此项为86proof即43%vol威士忌，限定43%vol无糖威士忌；与最初40%候选目标不同，方案明确43%不静默混用。"
+      }
+    },
+    {
+      "key": "vodka",
+      "name": "伏特加40%酒精",
+      "query": "Alcoholic beverage distilled vodka 80 proof",
+      "state": "ready_to_eat",
+      "fdc_id": 174818,
+      "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。"
+      }
+    },
+    {
+      "key": "tonic",
+      "name": "含糖汤力水",
+      "query": "Beverages carbonated tonic water",
+      "state": "ready_to_eat",
+      "fdc_id": 171869,
+      "description": "Beverages, carbonated, tonic water",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "725fa20c0c8e5265ecfb390d01a5365eeeb2def4f1c78dbecb646fbfeb4d1504",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "含糖汤力水通用饮料，非无糖汤力水或苏打水。"
+      }
+    },
+    {
+      "key": "lime_juice",
+      "name": "青柠汁",
+      "query": "Lime juice raw",
+      "state": "raw",
+      "fdc_id": 168156,
+      "description": "Lime juice, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b06a210f8a952ba03244587d12675bbf4dd80227c9d99c515ae8d5f01c2cfe00",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "生青柠汁净重，不含果皮籽或整颗青柠重量。"
+      }
+    },
+    {
+      "key": "mint",
+      "name": "留兰香鲜叶",
+      "query": "Spearmint fresh",
+      "state": "raw",
+      "fdc_id": 173475,
+      "description": "Spearmint, fresh",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "17aa540deff3b90ccbb9ad18ecbe24db7627ad91fc627cf21f220189b8f0714a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "新鲜留兰香可食叶，非干薄荷或薄荷糖浆。"
+      }
+    },
+    {
+      "key": "maple",
+      "name": "枫糖浆",
+      "query": "Syrups maple",
+      "state": "ready_to_eat",
+      "fdc_id": 169661,
+      "description": "Syrups, maple",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "a93b5547351e0ad5df031ffa320d1720c88d78f3614edf5ade23e1e5feb78d19",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "纯枫糖浆参考，非仅含少量枫糖的混合餐桌糖浆。"
+      }
+    },
+    {
+      "key": "milk_powder",
+      "name": "全脂奶粉",
+      "query": "Milk dry whole without added vitamin D",
+      "state": "ready_to_eat",
+      "fdc_id": 173454,
+      "description": "Milk, dry, whole, without added vitamin D",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "368417c4579e327c150e92ab0ccb3527e22e10e7a7bcdc304e5e6bcc04b4edd7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "全脂干奶粉，无额外维生素D；不是脱脂粉或奶精。"
+      }
+    },
+    {
+      "key": "marshmallow",
+      "name": "原味棉花糖",
+      "query": "Candies marshmallows",
+      "state": "ready_to_eat",
+      "fdc_id": 167995,
+      "description": "Candies, marshmallows",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "360cb5a11f78a78f6f634193cf08b040b332652ecaea98e367a248e0e52288a5",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "通用原味棉花糖参考，非夹心、代糖或巧克力品牌制品。"
+      }
+    },
+    {
+      "key": "cracker",
+      "name": "普通原味苏打饼干",
+      "query": "Crackers saltines includes oyster soda soup",
+      "state": "ready_to_eat",
+      "fdc_id": 172746,
+      "description": "Crackers, saltines (includes oyster, soda, soup)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "7174102d27a58aa9ec5cf6d877b2008a059108f8e5275458a09c7db2b5ce21dd",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "通用原味苏打咸饼干，非Ritz或小奇福标签；仅用于明确替代版本。"
+      }
+    },
+    {
+      "key": "glutinous_rice",
+      "name": "熟糯米",
+      "query": "Rice white glutinous cooked",
+      "state": "cooked",
+      "fdc_id": 169711,
+      "description": "Rice, white, glutinous, unenriched, cooked",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e168850da9f6c63b104d06cff4e9e1b5a62bd0b4e07553422d59a9eaaf6e9d7e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "未强化熟糯白米，非生糯米或白米饭；只按熟可食克数输入。"
+      }
+    },
+    {
+      "key": "rice_noodles",
+      "name": "熟米粉",
+      "query": "Rice noodles cooked",
+      "state": "cooked",
+      "fdc_id": 168914,
+      "description": "Rice noodles, cooked",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e494ef3a29c6b5bc905cf3b3633e0c393d52449471aa1fabcbef60e86d0483b8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "无酱熟米粉通用参考，非碱水面或干米粉，鲜河粉含水量不同需独立确认。"
+      }
+    },
+    {
+      "key": "laver",
+      "name": "干紫菜",
+      "query": "Seaweed laver dried",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "lotus_seed",
+      "name": "干莲子",
+      "query": "Seeds lotus seeds dried",
+      "state": "ready_to_eat",
+      "fdc_id": 170149,
+      "description": "Seeds, lotus seeds, dried",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "4176d4ffa068abac4b27201387a8e0592547ffc3d560a403d94135f413bb9a63",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "干莲子可食种子净重，非鲜莲子或泡发后的重量。"
+      }
+    },
+    {
+      "key": "barley",
+      "name": "珍珠大麦",
+      "query": "Barley pearled raw",
+      "state": "raw",
+      "fdc_id": 170284,
+      "description": "Barley, pearled, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b0023858071c109aa20bfae86a82133af4067392ee5368e120382abfb340925f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "生珍珠大麦；不是薏米，禁止按中文名称混同。"
+      }
+    },
+    {
+      "key": "pigeon",
+      "name": "乳鸽肉皮",
+      "query": "Squab pigeon meat and skin raw",
+      "state": "raw",
+      "fdc_id": 174475,
+      "description": "Squab, (pigeon), meat and skin, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2d4955e0f27992f937e8a711b63dc9d8d681869c0b5c426c1681eb690fd8a719",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "乳鸽净肉与皮，不含骨、内脏，非整鸽毛重。"
+      }
+    },
+    {
+      "key": "turnip_greens",
+      "name": "莴笋叶候选",
+      "query": "Lettuce stem leaves raw",
+      "state": "raw"
+    },
+    {
+      "key": "frog",
+      "name": "蛙腿肉候选",
+      "query": "Frog legs raw",
+      "state": "raw"
+    },
+    {
+      "key": "egg_preserved",
+      "name": "皮蛋候选",
+      "query": "Egg duck preserved",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "glutinous_rice_flour",
+      "name": "糯米粉候选",
+      "query": "Glutinous rice flour",
+      "state": "raw",
+      "fdc_id": 1104867,
+      "description": "Flour, rice, glutinous",
+      "data_type": "Foundation",
+      "snapshot_sha256": "7adf3fcd36105dee958e952aca35748bc3cf7f274147f3f4ca504a41062d41d2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "Foundation明确糯米粉Flour rice glutinous，非普通米粉或生糯米；逐营养素按实际记录解析，缺项保持null。"
+      }
+    },
+    {
+      "key": "silver_ear",
+      "name": "银耳候选",
+      "query": "White fungus dried",
+      "state": "raw"
+    },
+    {
+      "key": "chili_bean_paste",
+      "name": "辣豆瓣酱候选",
+      "query": "Chili bean paste",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "black_bean_fermented",
+      "name": "豆豉候选",
+      "query": "Fermented black beans",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "garlic_shoot",
+      "name": "蒜苔候选",
+      "query": "Garlic scapes raw",
+      "state": "raw"
+    },
+    {
+      "key": "chia",
+      "name": "奇亚籽",
+      "query": "Seeds chia seeds dried",
+      "state": "ready_to_eat",
+      "fdc_id": 170554,
+      "description": "Seeds, chia seeds, dried",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "c667403c2f7709b053718b2d2eef1531370898052aa85c42151875b5d88d3b39",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "干奇亚籽净重，泡奶后连籽全部食用；不是西米。"
+      }
+    },
+    {
+      "key": "whole_flour",
+      "name": "全麦面粉",
+      "query": "Wheat flour whole grain",
+      "state": "raw",
+      "fdc_id": 790085,
+      "description": "Flour, whole wheat, unenriched",
+      "data_type": "Foundation",
+      "snapshot_sha256": "b76f500139ade8f93934fc454b4cdf892bd3d610afe5411344bbf1982c09bf3d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "未强化全麦面粉通用代理，不承诺印度Atta粒度与品种一致。"
+      }
+    },
+    {
+      "key": "ghee",
+      "name": "酥油",
+      "query": "Butter oil anhydrous",
+      "state": "ready_to_eat",
+      "fdc_id": 173412,
+      "description": "Butter oil, anhydrous",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "907d6e56fdb0177d51273bec473c382a84aaa8e7e16d9ad4692e053d4272fb6e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "无水乳脂通用参考；无额外糖或植物油。"
+      }
+    },
+    {
+      "key": "coriander_seed",
+      "name": "芫荽籽粉",
+      "query": "Spices coriander seed",
+      "state": "ready_to_eat",
+      "fdc_id": 170922,
+      "description": "Spices, coriander seed",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "61c2c2b415fe76623b81cad0cec78c01b14742846fe739481dafb27ca5124db2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "芫荽种子粉，非香菜叶。"
+      }
+    },
+    {
+      "key": "long_rice",
+      "name": "长粒生白米",
+      "query": "Rice white long grain regular raw unenriched",
+      "state": "raw",
+      "fdc_id": 169756,
+      "description": "Rice, white, long-grain, regular, raw, unenriched",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "cddd03d315c3ca6d5dc87568a0540ff7eb4c2f047d3678b3e0e6fdf689f5cffd",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "未强化生长粒白米通用代理，非特定Basmati品牌；按生米投入和明确吸水情景估算。"
+      }
+    },
+    {
+      "key": "chickpea",
+      "name": "鹰嘴豆",
+      "query": "Chickpeas mature seeds raw",
+      "state": "raw",
+      "fdc_id": 173756,
+      "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "c01a506dc7c20ec2b149fa1bad2f03db07026116ca22677d1a279f482749d4d4",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "干鹰嘴豆净重，非煮熟重量或鹰嘴豆粉。"
+      }
+    },
+    {
+      "key": "bottle_gourd",
+      "name": "瓠瓜",
+      "query": "Gourd white flowered calabash raw",
+      "state": "raw",
+      "fdc_id": 169232,
+      "description": "Gourd, white-flowered (calabash), raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "9ffc0b1acc30b4244bbcf8089de5c7875138a50e9243eb9e391fa6c985218e27",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "白花瓠瓜可食净重，非苦味或观赏葫芦。"
+      }
+    },
+    {
+      "key": "pork_skin",
+      "name": "猪皮候选",
+      "query": "Pork skin raw",
+      "state": "raw"
+    },
+    {
+      "key": "celtuce",
+      "name": "莴笋候选",
+      "query": "Celtuce raw",
+      "state": "raw",
+      "fdc_id": 169990,
+      "description": "Celtuce, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "131a0d629da6d2f4b766c0b42755e414b44356fcc9d2c6f4fa402ce12780a45b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "USDA明确Celtuce生莴笋参考，去除硬外皮的净可食茎代理；不可默认等于莴笋叶营养。"
+      }
+    },
+    {
+      "key": "chinese_chive",
+      "name": "中国韭菜候选",
+      "query": "Chinese chives raw",
+      "state": "raw"
+    },
+    {
+      "key": "puff_pastry",
+      "name": "起酥饼皮",
+      "query": "Puff pastry frozen ready to bake",
+      "state": "raw",
+      "fdc_id": 172790,
+      "description": "Puff pastry, frozen, ready-to-bake",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "f63947ba44a74e39336b8497fa5f3210b68f54491d1c6add1c941a55ef3c4d89",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。"
+      }
+    },
+    {
+      "key": "mascarpone",
+      "name": "马斯卡彭候选",
+      "query": "Mascarpone cheese",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "ladyfinger",
+      "name": "手指饼干",
+      "query": "Cookies ladyfingers without lemon juice and rind",
+      "state": "ready_to_eat",
+      "fdc_id": 172821,
+      "description": "Cookies, ladyfingers, without lemon juice and rind",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "c0c25106e60deaa7924d701226861568fcaa9cd80200cdc422b58bfd69cd839e",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "无柠檬汁及皮的通用手指饼干，不承诺品牌营养一致。"
+      }
+    },
+    {
+      "key": "sandwich_cookie",
+      "name": "夹心巧克力饼干",
+      "query": "Cookies chocolate sandwich with creme filling regular",
+      "state": "ready_to_eat",
+      "fdc_id": 172718,
+      "description": "Cookies, chocolate sandwich, with creme filling, regular",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "5401c256741ec264e5f33ba32f2abdcc71ed4cbeb51da718242e8c17a71b5a3d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "普通奶油夹心巧克力饼干通用代理，包含夹心；非特定奥利奥标签或去夹心饼干，不适用于双倍夹心或巧克力涂层。"
+      }
+    },
+    {
+      "key": "curry_sauce",
+      "name": "日式咖喱块候选",
+      "query": "Japanese curry roux",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "ham",
+      "name": "熟火腿",
+      "query": "Pork cured ham boneless regular extra lean and regular unheated",
+      "state": "ready_to_eat",
+      "fdc_id": 168295,
+      "description": "Pork, cured, ham, boneless, extra lean and regular, unheated",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6d9c5510988f5f647f9505d9948f089768a7de29b590c4dc9ce061494d60fc54",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "去骨腌制火腿，按未再次加热时的重量输入；非中式淀粉火腿肠或午餐肉，品牌盐脂不同需核对。"
+      }
+    },
+    {
+      "key": "douban_branded",
+      "name": "李锦记SPICY BEAN SAUCE辣豆酱",
+      "query": "LEE KUM KEE CHILI BEAN SAUCE",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2028275,
+      "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+      "data_type": "Branded",
+      "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+      "brand_name": "LEE KUM KEE",
+      "brand_owner": "Lee Kum Kee Co. Ltd.",
+      "gtin_upc": "078895610000",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+      }
+    },
+    {
+      "key": "douchi_branded",
+      "name": "豆豉品牌候选",
+      "query": "FERMENTED BLACK BEANS",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "chinese_chive_branded",
+      "name": "韭菜品牌候选",
+      "query": "GARLIC CHIVES",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "yam_branded",
+      "name": "中国山药品牌候选",
+      "query": "CHINESE YAM",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "sausage_branded",
+      "name": "VENUS中式腊肠",
+      "query": "CHINESE STYLE SAUSAGE",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2618479,
+      "description": "CHINESE STYLE SAUSAGE",
+      "data_type": "Branded",
+      "snapshot_sha256": "bbef31623e40793beb59bf2973d5337c0e6e073cdcccffd7c536f716d3544447",
+      "brand_name": "VENUS",
+      "brand_owner": "Venus Foods Inc. ",
+      "gtin_upc": "032971301886",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定VENUS中式猪肉腊肠及GTIN，含糖和酒精的标签能量原样计入，不用于所有川味/黔味腊肠或其他品牌。"
+      }
+    },
+    {
+      "key": "egg_tofu_branded",
+      "name": "玉子豆腐品牌候选",
+      "query": "EGG TOFU",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "preserved_egg_branded",
+      "name": "味全皮蛋净可食部分",
+      "query": "PRESERVED DUCK EGGS",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2442977,
+      "description": "PRESERVED DUCK EGGS",
+      "data_type": "Branded",
+      "snapshot_sha256": "ecefb05483c05b338e1ec7c4a69cbb61fe74ee556180681fe3d94bb32435406b",
+      "brand_name": "WEI-CHUAN",
+      "brand_owner": "Wei-Chuan U S A Inc.",
+      "gtin_upc": "072869351029",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "成分明确鸭蛋盐碱水的皮蛋，非生鸭蛋或咸鸭蛋；限定WEI-CHUAN对应GTIN，排除壳和包装。"
+      }
+    },
+    {
+      "key": "tofu_dry_branded",
+      "name": "Phoenix Bean烟熏五香豆腐",
+      "query": "FIVE SPICE TOFU",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2273238,
+      "description": "SMOKED FIVE SPICE TOFU",
+      "data_type": "Branded",
+      "snapshot_sha256": "25bdf1c932b12a6494fda55f1da53178a294a433178afd5d8df03292e03760b8",
+      "brand_name": "",
+      "brand_owner": "Phoenix Bean, LLC ",
+      "gtin_upc": "851378008064",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "固定Phoenix Bean烟熏五香硬豆腐作香干替代，非所有中国香干；排除干冻高野豆腐。"
+      }
+    },
+    {
+      "key": "sweet_paste_branded",
+      "name": "SHINHO小麦黄豆甜面酱",
+      "query": "SWEET BEAN SAUCE",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 468095,
+      "description": "SWEET BEAN PASTE",
+      "data_type": "Branded",
+      "snapshot_sha256": "4c2ceb733e1e580f4485ba59121231617edba33c963b3212dc536474cba680a4",
+      "brand_name": null,
+      "brand_owner": "SHINHO",
+      "gtin_upc": "6921204802570",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "成分为水、小麦粉、黄豆、盐等的SHINHO甜面酱，非甜红豆馅；固定GTIN，不适用任意甜面酱。"
+      }
+    },
+    {
+      "key": "chu_hou_branded",
+      "name": "冠珍CHEE HOU柱侯酱",
+      "query": "CHU HOU PASTE",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2064180,
+      "description": "CHEE HOU SAUCE",
+      "data_type": "Branded",
+      "snapshot_sha256": "96d4675c55793b57d37b69a23c8105b22caaa92fd3d5a18a0bfda16382589f15",
+      "brand_name": "KOON CHUN",
+      "brand_owner": "Koon Chun Hing Kee Soy & Sauce",
+      "gtin_upc": "020717250154",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定Koon Chun冠珍柱侯酱GTIN，配料黄豆酱、糖、醋、蒜及芝麻；不是CHU CHEE泰咖喱酱。"
+      }
+    },
+    {
+      "key": "curry_roux_branded",
+      "name": "S&B GOLDEN CURRY咖喱块",
+      "query": "S&B GOLDEN CURRY",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2031609,
+      "description": "S&B, GOLDEN CURRY, SAUCE MIX",
+      "data_type": "Branded",
+      "snapshot_sha256": "68d40dd804129e9c0fa9602ae113ccee0a1038c5a3bc4b34bffcfb3425737276",
+      "brand_name": "S&B",
+      "brand_owner": "S & B Shokuhin Company Ltd",
+      "gtin_upc": "074880030327",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定S&B GOLDEN CURRY sauce mix固体调味块，非带蔬菜成品咖喱或好侍标签；品牌配方按对应GTIN。"
+      }
+    },
+    {
+      "key": "sichuan_pepper_branded",
+      "name": "花椒品牌候选",
+      "query": "SICHUAN PEPPERCORN",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "star_anise_branded",
+      "name": "八角品牌候选",
+      "query": "STAR ANISE",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "sauerkraut",
+      "name": "酸白菜品牌候选",
+      "query": "PICKLED CHINESE CABBAGE",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "tremella_branded",
+      "name": "银耳品牌候选",
+      "query": "WHITE FUNGUS",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "garlic_scapes_branded",
+      "name": "蒜苔品牌候选",
+      "query": "GARLIC SCAPES",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "bean_sprout",
+      "name": "绿豆芽",
+      "query": "MUNG BEAN SPROUTS",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "red_adzuki",
+      "name": "无盐熟红小豆",
+      "query": "Beans navy mature seeds cooked boiled without salt",
+      "state": "cooked",
+      "fdc_id": 173728,
+      "description": "Beans, adzuki, mature seeds, cooked, boiled, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3e9cb0d8282e85c938c8cbda7a73a846e041c0a07f13cc3a4583d84888a2601d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "明确选择Adzuki红小豆而非红腰豆，熟无盐可食重；查询中的navy是共现候选来源，不用查询文字替代实际食物身份。"
+      }
+    },
+    {
+      "key": "glutinous_raw",
+      "name": "生糯米",
+      "query": "Rice white glutinous cooked",
+      "state": "raw",
+      "fdc_id": 168883,
+      "description": "Rice, white, glutinous, unenriched, uncooked",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "e046b86ecc917ff5e50adbc8698979ab6e159818825562d69b343521db78794a",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "生未强化糯白米，非熟糯米重量；整锅煮粥无弃液。"
+      }
+    },
+    {
+      "key": "egg_tofu_exact",
+      "name": "玉子豆腐精确候选",
+      "query": "\"EGG TOFU\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "nori_exact",
+      "name": "干紫菜精确候选",
+      "query": "\"DRIED LAVER\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "garlic_shoot_exact",
+      "name": "蒜苗精确候选",
+      "query": "\"GARLIC SHOOTS\"",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "yam_exact",
+      "name": "山药精确候选",
+      "query": "\"CHINESE YAM\"",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "silver_ear_exact",
+      "name": "银耳精确候选",
+      "query": "\"SILVER EAR\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "douchi_exact",
+      "name": "豆豉精确候选",
+      "query": "\"DOUCHI\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "laoganma",
+      "name": "老干妈精确候选",
+      "query": "\"LAO GAN MA\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "pea_starch",
+      "name": "豌豆淀粉精确候选",
+      "query": "\"PEA STARCH\"",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "mascarpone_exact",
+      "name": "MURRAY’S马斯卡彭",
+      "query": "\"MASCARPONE\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2289625,
+      "description": "MASCARPONE",
+      "data_type": "Branded",
+      "snapshot_sha256": "554aed342f174bbd8859dd7d329f103ba48f99440dfcc0395cc8d95ab1ae1485",
+      "brand_name": "MURRAY'S",
+      "brand_owner": "Murray's Products LLC",
+      "gtin_upc": "817944010541",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定MURRAY’S马斯卡彭品牌和GTIN，非奶油奶酪或加工奶酪；奶油乳酸配料，宏量按USDA标签原值。"
+      }
+    },
+    {
+      "key": "sichuan_exact",
+      "name": "花椒精确候选",
+      "query": "\"SZECHUAN PEPPER\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "rice_cake_exact",
+      "name": "米糕精确候选",
+      "query": "\"RICE CAKE\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "dumpling_exact",
+      "name": "CHINESE BRAND猪肉白菜速冻饺子",
+      "query": "\"PORK DUMPLINGS\"",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2624459,
+      "description": "PORK DUMPLING",
+      "data_type": "Branded",
+      "snapshot_sha256": "aec3ddb659b7c81ac36e0a4a62fd234ff129654fe4aff0d45561db358efd32d6",
+      "brand_name": "CHINESE BRAND",
+      "brand_owner": "Chinese Spaghetti Factory Inc.",
+      "gtin_upc": "084503770769",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定Chinese Spaghetti Factory的CHINESE BRAND速冻猪肉白菜饺子，按未烹饪包装净重输入；不使用任意馅料或其他品牌。"
+      }
+    },
+    {
+      "key": "instant_noodle_exact",
+      "name": "INDOMIE鸡肉风味方便面含调料",
+      "query": "\"INSTANT NOODLES\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2677255,
+      "description": "CHICKEN INSTANT NOODLES, CHICKEN",
+      "data_type": "Branded",
+      "snapshot_sha256": "0a9b3d2564094347efef2482c2a1bccbb8b4d83ff8a2c792a6418918df750900",
+      "brand_name": "INDOMIE",
+      "brand_owner": "Pt Indofood Sukses Makmur Tbk",
+      "gtin_upc": "089686170030",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "限定INDOMIE CHICKEN对应GTIN，面饼及全部所附调料按包装干态一起计入；不拆取面饼单独使用，不等于其他品牌。"
+      }
+    },
+    {
+      "key": "italian_sausage",
+      "name": "生意式猪肉香肠",
+      "query": "Sausage Italian pork raw",
+      "state": "raw",
+      "fdc_id": 171631,
+      "description": "Sausage, Italian, pork, mild, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "8e090cfdc1cd6670472a0de62b1ef3314b2f57d6806f0e61439896e09848b184",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "未烹饪温和型意式猪肉香肠，不用于西班牙Chorizo、中式腊肠或午餐肉；按去肠衣馅料净重计算。"
+      }
+    },
+    {
+      "key": "sea_cucumber",
+      "name": "泡发海参候选",
+      "query": "Sea cucumber cooked",
+      "state": "cooked"
+    },
+    {
+      "key": "swamp_eel",
+      "name": "黄鳝候选",
+      "query": "Swamp eel Monopterus albus raw",
+      "state": "raw"
+    },
+    {
+      "key": "razor_clam",
+      "name": "蛏子候选",
+      "query": "Razor clam raw",
+      "state": "raw"
+    },
+    {
+      "key": "crayfish",
+      "name": "小龙虾候选",
+      "query": "Crustaceans crayfish mixed species wild raw",
+      "state": "raw"
+    },
+    {
+      "key": "mandarin_fish",
+      "name": "鳜鱼候选",
+      "query": "Mandarin fish Chinese perch raw",
+      "state": "raw"
+    },
+    {
+      "key": "bream",
+      "name": "鳊鱼候选",
+      "query": "Freshwater bream raw",
+      "state": "raw"
+    },
+    {
+      "key": "fish_head",
+      "name": "鲢鱼头候选",
+      "query": "Bighead silver carp head raw",
+      "state": "raw"
+    },
+    {
+      "key": "grass_carp",
+      "name": "草鱼候选",
+      "query": "Grass carp raw",
+      "state": "raw"
+    },
+    {
+      "key": "argentine_shrimp",
+      "name": "阿根廷红虾候选",
+      "query": "Argentine red shrimp raw",
+      "state": "raw"
+    },
+    {
+      "key": "giant_prawn",
+      "name": "罗氏虾候选",
+      "query": "Giant freshwater prawn raw",
+      "state": "raw"
+    },
+    {
+      "key": "choy_sum",
+      "name": "菜心候选",
+      "query": "Choy sum flowering Chinese cabbage raw",
+      "state": "raw"
+    },
+    {
+      "key": "tea_mushroom",
+      "name": "茶树菇候选",
+      "query": "Agrocybe aegerita mushroom raw",
+      "state": "raw"
+    },
+    {
+      "key": "celtuce_leaves",
+      "name": "莴笋叶候选",
+      "query": "Celtuce leaves raw",
+      "state": "raw"
+    },
+    {
+      "key": "shimeji",
+      "name": "蟹味白玉菇候选",
+      "query": "Hypsizygus marmoreus mushroom raw",
+      "state": "raw"
+    },
+    {
+      "key": "wildrice_stem",
+      "name": "茭白候选",
+      "query": "Zizania latifolia stem raw",
+      "state": "raw"
+    },
+    {
+      "key": "shrimp_dried",
+      "name": "干虾皮候选",
+      "query": "Shrimp dried",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "chicken_feet",
+      "name": "鸡爪候选",
+      "query": "Chicken feet raw",
+      "state": "cooked",
+      "fdc_id": 171119,
+      "description": "Chicken, feet, boiled",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6799d4e526a4fc8bfd20fab49a255af2196416f6494d9538955f06b87fb42a71",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "水煮鸡爪的熟可食皮筋肉净重，不含骨及煮液，不用生鸡爪或鸡腿肉替代；后续只加入所列酱汁。"
+      }
+    },
+    {
+      "key": "pork_hock",
+      "name": "猪肘候选",
+      "query": "Pork hock skin raw",
+      "state": "raw"
+    },
+    {
+      "key": "nori_plain",
+      "name": "BLUE DRAGON无调味烤紫菜",
+      "query": "\"NORI\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2024503,
+      "description": "SUSHI NORI",
+      "data_type": "Branded",
+      "snapshot_sha256": "0e4ea24f4567e9e39099d5f3e58974f90f51d46a17eb15442d2d781c7bc775d3",
+      "brand_name": "BLUE DRAGON",
+      "brand_owner": "Interggs, Inc.",
+      "gtin_upc": "711464015904",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "配料100%烤海藻的无油无盐寿司紫菜作干紫菜替代，限定BLUE DRAGON GTIN；小份标签取整使热量和宏量折算有差异，不据此改写来源值，不适用调味海苔。"
+      }
+    },
+    {
+      "key": "tremella_exact",
+      "name": "银耳再检索",
+      "query": "\"TREMELLA\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "nira_exact",
+      "name": "中国韭菜再检索",
+      "query": "\"NIRA\"",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "beer",
+      "name": "普通啤酒",
+      "query": "Alcoholic beverage beer regular all",
+      "state": "ready_to_eat",
+      "fdc_id": 168746,
+      "description": "Alcoholic beverage, beer, regular, all",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "97c34e31224db6d2661a6944ab6edbb66b9e2558833ececf6912a1be86e4df49",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "普通啤酒通用参考；用于已注明酒精能量未扣除的家庭炖菜情景，非实际挥发后的精确值。"
+      }
+    },
+    {
+      "key": "breadcrumbs",
+      "name": "干面包糠",
+      "query": "Bread crumbs dry grated plain",
+      "state": "ready_to_eat",
+      "fdc_id": 174928,
+      "description": "Bread, crumbs, dry, grated, plain",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "32be96e1b316031f1525acc51f7416af240b83e24f37ca00986e183dd3e4a7ec",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "无调味干面包糠净量，配方中只计实际粘附量，不计剩余备料。"
+      }
+    },
+    {
+      "key": "mustard",
+      "name": "普通黄芥末酱",
+      "query": "Mustard prepared yellow",
+      "state": "ready_to_eat",
+      "fdc_id": 172234,
+      "description": "Mustard, prepared, yellow",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "900298c505bdd379f4fadcc7fff0105b8cf30a6392cb5c96cb845c08915311e8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "普通黄芥末酱代理，不等于青芥末wasabi；只能用于明确黄芥末替代的标准变体。"
+      }
+    },
+    {
+      "key": "shrimp_dry",
+      "name": "干虾仁",
+      "query": "Shrimp dried",
+      "state": "ready_to_eat",
+      "fdc_id": 2706366,
+      "description": "Shrimp, dried",
+      "data_type": "Survey (FNDDS)",
+      "snapshot_sha256": "0861c3dcd72fc390c475edbb38ebb2860f14c9f8a7106f1c7f80df84bd3cd4ae",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "通用干虾仁参考，不是虾皮；只能用于明确干虾仁替代的标准变体。"
+      }
+    },
+    {
+      "key": "cooking_wine",
+      "name": "普通米酒烹调酒",
+      "query": "Alcoholic beverage rice sake",
+      "state": "ready_to_eat",
+      "fdc_id": 167723,
+      "description": "Alcoholic beverage, rice (sake)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "b1454355eb43e6e028800cec49ae76b4344fddc6e802047bf03f1a7159db869f",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "日本清酒营养参考，非所有中国料酒；只用于明确清酒替代且披露酒精能量未校正的情景。"
+      }
+    },
+    {
+      "key": "beef_shank",
+      "name": "生去骨牛腱",
+      "query": "Beef shank crosscuts separable lean and fat raw",
+      "state": "raw",
+      "fdc_id": 169441,
+      "description": "Beef, shank crosscuts, separable lean only, trimmed to 1/4\" fat, choice, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "6982b0cc6aec8fb6aa87fb4b0919fb1c423d2a3a4188cdec16f4780699b95459",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "成年牛腱横切去骨瘦肉，非幼牛或牛胸腩；按生瘦肉净重输入。"
+      }
+    },
+    {
+      "key": "soybean_sprouts",
+      "name": "生黄豆芽",
+      "query": "Soybeans mature seeds sprouted raw",
+      "state": "raw",
+      "fdc_id": 169284,
+      "description": "Soybeans, mature seeds, sprouted, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "21a331de0ff8abc733aee9ab28bc17c99a89fe0d7328b1d9a1304230b8757a10",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "生黄豆芽，不与绿豆芽混用，按净可食重输入。"
+      }
+    },
+    {
+      "key": "mung_sprouts",
+      "name": "生绿豆芽",
+      "query": "Mung beans mature seeds sprouted raw",
+      "state": "raw",
+      "fdc_id": 169957,
+      "description": "Mung beans, mature seeds, sprouted, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "2542c59488d51825e6c4f0b023bc0eb276bdbb4ab5c93d4fe72e0d38ac7ea15d",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "生绿豆芽，不与黄豆芽混用，按净可食重输入。"
+      }
+    },
+    {
+      "key": "turkey_ham",
+      "name": "普通午餐肉候选",
+      "query": "Luncheon meat pork ham canned",
+      "state": "ready_to_eat",
+      "fdc_id": 172951,
+      "description": "Luncheon meat, pork with ham, minced, canned, includes Spam (Hormel)",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "508c9b0dec2d7483631d9faf6d5d82a8a66a4fc5715eb158bc9228235e2dd63c",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "猪肉混火腿罐装午餐肉通用参考，包括Spam类型；不是火鸡火腿，限定配方明确午餐肉变体。"
+      }
+    },
+    {
+      "key": "sauerkraut_plain",
+      "name": "酸白菜通用候选",
+      "query": "Sauerkraut canned solids and liquids",
+      "state": "ready_to_eat",
+      "fdc_id": 169279,
+      "description": "Sauerkraut, canned, solids and liquids",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "bc1168c4f8fc944416f31663335ee12e158ceb15a4ba81831a41906caa34d1ea",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "通用酸包菜含固液参考，非东北酸白菜；只用于明确酸包菜替代的标准方案，不声称相同腌菜。"
+      }
+    },
+    {
+      "key": "dry_tofu_skin",
+      "name": "腐竹干豆皮候选",
+      "query": "Tofu skin dried",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "soybeans_cooked",
+      "name": "无盐熟黄豆",
+      "query": "Soybeans mature cooked boiled without salt",
+      "state": "cooked",
+      "fdc_id": 174271,
+      "description": "Soybeans, mature cooked, boiled, without salt",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "4a810bf9c444e62b029ecf7eb95c9e78068627668be31f8f99132fd329367f10",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "无盐熟黄豆，不能当未发酵黄豆的值直接冒充豆豉或黄豆酱成品。"
+      }
+    },
+    {
+      "key": "konjac_powder",
+      "name": "魔芋粉候选",
+      "query": "Konjac flour",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "erythritol",
+      "name": "赤藓糖醇候选",
+      "query": "Erythritol",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "mung_starch",
+      "name": "豌豆淀粉候选",
+      "query": "Pea starch",
+      "state": "ready_to_eat"
+    },
+    {
+      "key": "sweet_noodle",
+      "name": "SUNGIVEN干红薯粉条",
+      "query": "\"SWEET POTATO VERMICELLI\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 467618,
+      "description": "SWEET POTATO VERMICELLI",
+      "data_type": "Branded",
+      "snapshot_sha256": "b88d6658672c5ddabd738fdebe35416c4863be20326b83dfe397afb576b4a49d",
+      "brand_owner": "SUNGIVEN",
+      "brand_name": null,
+      "gtin_upc": "6954427507335",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit ingredient source review; not USDA approval",
+        "note": "配料紫甘薯淀粉及水；以干粉条净重计算，固定GTIN，不代替其他淀粉制品。"
+      }
+    },
+    {
+      "key": "bean_curd_sheet",
+      "name": "干豆皮候选",
+      "query": "\"BEAN CURD SHEET\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "gochujang",
+      "name": "CULINARY TOURS韩式辣酱",
+      "query": "\"GOCHUJANG\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2244609,
+      "description": "GOCHUJANG SAUCE, GOCHUJANG",
+      "data_type": "Branded",
+      "snapshot_sha256": "31f61029611725c9eed89d538b24069c76427efeddf978b5cf4877bc797849f3",
+      "brand_owner": "Kingston Marketing Co",
+      "brand_name": "CULINARY TOURS",
+      "gtin_upc": "011225191367",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit ingredient source review; not USDA approval",
+        "note": "限定CULINARY TOURS调制gochujang酱及GTIN，含糖油，不等于所有韩式辣椒酱。"
+      }
+    },
+    {
+      "key": "chili_crisp",
+      "name": "老干妈油辣椒",
+      "query": "\"LAOGANMA\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2427220,
+      "description": "FRIED CHILI IN OIL",
+      "data_type": "Branded",
+      "snapshot_sha256": "d7142e632184e0ab928bfd0d3ae0758a24e147451bee83ecdc4daac5d0609d88",
+      "brand_owner": "Dse Healthcare Solutions, LLC",
+      "brand_name": "LAOGANMA",
+      "gtin_upc": "889417000038",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit ingredient source review; not USDA approval",
+        "note": "限定LAOGANMA FRIED CHILI IN OIL及GTIN；含油辣椒花生花椒，整酱计入，不重复另加标签中已有油。"
+      }
+    },
+    {
+      "key": "egg_tofu_product",
+      "name": "蛋豆腐候选",
+      "query": "\"EGG\" \"TOFU\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "sweet_dumpling",
+      "name": "味全黑芝麻速冻汤圆",
+      "query": "\"GLUTINOUS RICE BALLS\"",
+      "state": "raw",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2090323,
+      "description": "GLUTINOUS RICE BALL WITH BLACK SESAME SEED PASTE",
+      "data_type": "Branded",
+      "snapshot_sha256": "ce1549cf880d2ba5199edcf2c067d3f6f14791367798c49141e1c39053a01c0c",
+      "brand_owner": "Wei-Chuan U S A Inc.",
+      "brand_name": "WEI-CHUAN",
+      "gtin_upc": "072869463173",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit packaged ingredient review; not USDA approval",
+        "note": "固定WEI-CHUAN黑芝麻馅糯米汤圆GTIN，按未烹调包装净量，含皮和全部馅料油糖；不是无馅小汤圆，不用于其他品牌。"
+      }
+    },
+    {
+      "key": "beef_shank_cooked",
+      "name": "煮熟沥水牛腱瘦肉",
+      "state": "cooked",
+      "query": "Beef shank crosscuts separable lean and fat raw",
+      "fdc_id": 169442,
+      "description": "Beef, shank crosscuts, separable lean only, trimmed to 1/4\" fat, choice, cooked, simmered",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "19ab59b3dac00632f3fd78e3f1306507bbd1037e1c0e8a714c4dad48b2755a21",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "牛腱横切瘦肉煮熟沥水后的净熟肉参考，排除骨、明显肥油及原煮液；用于卤肉基底，再独立加最终食用附着汁，不按生肉重换算。"
+      }
+    },
+    {
+      "key": "crayfish_farmed",
+      "name": "养殖小龙虾净肉",
+      "query": "Crustaceans crayfish mixed species wild raw",
+      "state": "raw",
+      "fdc_id": 175169,
+      "description": "Crustaceans, crayfish, mixed species, farmed, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "4a0f155f92ab6c2226723682f046c963de7f0ce47eda690003a36030e814bcf0",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit generic ingredient reference review; not USDA approval",
+        "note": "养殖混合种小龙虾去头壳可食净肉的通用来源，不计虾黄虾头内脏及壳；具体品种差异作为粗估误差。"
+      }
+    },
+    {
+      "key": "frog_legs",
+      "name": "蛙腿净肉",
+      "query": "Frog legs raw",
+      "state": "raw",
+      "fdc_id": 168148,
+      "description": "Frog legs, raw",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "23a3c6bddf3cfe09c4eb0e2cfa24a098acc59d61822338060b8172e63b06be5b",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit generic ingredient reference review; not USDA approval",
+        "note": "通用生蛙腿可食净肉，用于明确仅蛙腿肉的牛蛙粗估，不含骨皮躯干内脏，未声称单一牛蛙种实测。"
+      }
+    },
+    {
+      "key": "black_bean_sauce",
+      "name": "李锦记辣豆豉酱",
+      "query": "LEE KUM KEE CHILI BEAN SAUCE",
+      "state": "ready_to_eat",
+      "fdc_id": 2505417,
+      "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+      "data_type": "Branded",
+      "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+      "data_types": [
+        "Branded"
+      ],
+      "brand_owner": "Lee Kum Kee Co. Ltd.",
+      "brand_name": "LEE KUM KEE",
+      "gtin_upc": "078895135480",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit generic ingredient reference review; not USDA approval",
+        "note": "限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。"
+      }
+    },
+    {
+      "key": "soymilk_plain",
+      "name": "无糖豆浆",
+      "query": "Soymilk unsweetened plain",
+      "state": "ready_to_eat",
+      "fdc_id": 1999630,
+      "description": "Soy milk, unsweetened, plain, shelf stable",
+      "data_type": "Foundation",
+      "snapshot_sha256": "5ce49929ca2bb70104659ee72b0399d9c1442672321ba526a0b2c45bcc296841",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex evidence review; not USDA approval",
+        "note": "Foundation明确无糖原味常温豆奶，非杏仁奶燕麦奶或加糖香草豆奶；按净克数直接输入，用于自制蛋豆腐标准配方。"
+      }
+    },
+    {
+      "key": "yuba",
+      "name": "腐竹候选",
+      "query": "\"BEAN CURD STICK\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "pork_skin_fresh",
+      "name": "鲜猪皮候选",
+      "query": "\"PORK SKIN\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "salted_duck_egg",
+      "name": "咸鸭蛋候选",
+      "query": "\"SALTED DUCK EGG\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "pickled_mustard",
+      "name": "梅干菜候选",
+      "query": "\"PRESERVED MUSTARD\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "rice_fermented",
+      "name": "甜酒酿候选",
+      "query": "\"FERMENTED RICE\"",
+      "state": "ready_to_eat",
+      "data_types": [
+        "Branded"
+      ]
+    },
+    {
+      "key": "mext_chive",
+      "name": "韭菜净叶",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "06207",
+      "description": "（にら類）　にら　葉　生",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "c362b7b834b1d85e2a794a7308511d9508c1f3741ba807fc2226553afa598c0b",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06207_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.165Z",
+        "note": "官方学名Allium tuberosum、Chinese chive leaves raw，与中国韭菜相符，非细香葱；排除老根。"
+      }
+    },
+    {
+      "key": "mext_garlic_scape",
+      "name": "蒜苔净花茎",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "06224",
+      "description": "（にんにく類）　茎にんにく　花茎　生",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "1a05c2655a21208d08b0272c643caa632a4b7cd0bb4252c196045f80eef02d40",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06224_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "官方Garlic scape raw、Allium sativum花茎，不是蒜瓣；按已去除硬基部净重。"
+      }
+    },
+    {
+      "key": "mext_chinese_yam",
+      "name": "去皮长山药",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "02023",
+      "description": "＜いも類＞　（やまのいも類）　ながいも　ながいも　塊根　生",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "55b544052e696b54271d5987f462eddfb8c8d611b38e31b14afb7dd03c68086c",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=2_02023_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "官方Chinese yam Nagaimo、Dioscorea polystachya，去皮净块根；限定长山药品种代理，不声称等于铁棍山药含水量。"
+      }
+    },
+    {
+      "key": "mext_tremella",
+      "name": "干银耳",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "08008",
+      "description": "（きくらげ類）　しろきくらげ　乾",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "52698325f0fe245c27d075b39d8989c51480160d8636231b01878c96a1ce1fc8",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=8_08008_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "白木耳/银耳干态，全部克数指干料净重；不能把泡发湿重套给干态值。"
+      }
+    },
+    {
+      "key": "mext_yuba_dry",
+      "name": "干腐竹豆皮",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "04060",
+      "description": "だいず　［その他］　湯葉　干し　乾",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "a93b77b24c4ef4160b731c0ced700feccefda71ecca661654048f226ce906f90",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=4_04060_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "日本干湯葉（大豆表面凝膜）代理未油炸干腐竹；不等于冻干豆腐。直接设干料克数和泡发水，未套用湿重。"
+      }
+    },
+    {
+      "key": "mext_fern_boiled",
+      "name": "干紫萁泡煮后净嫩芽",
+      "state": "cooked",
+      "provider": "mext",
+      "food_id": "06123",
+      "description": "ぜんまい　干しぜんまい　干し若芽　ゆで",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "5bdfff86996ac9f37004e3143485bb6afd46ab3dfc207f5fdbb3836a73aef1f4",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06123_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "Osmunda japonica紫萁，干制后泡煮的可食嫩芽；50g指泡煮湿重，非50g干料，商芝地域加工差异作为代理不确定性。"
+      }
+    },
+    {
+      "key": "mext_mandarin",
+      "name": "去皮去囊膜温州蜜柑果肉",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "07029",
+      "description": "（かんきつ類）　うんしゅうみかん　砂じょう　普通　生",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "9ab9f4a2cad69fb46cfe52a6fa5cf9293d3a6917e796323c2d6b8964006e158d",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=7_07029_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "原文允许其他易分果肉柑橘，选温州蜜柑普通种，去皮去囊膜净果肉；非耙耙柑专属营养，非橙汁，果肉全食。"
+      }
+    },
+    {
+      "key": "mext_water_bamboo",
+      "name": "去鞘茭白净膨大茎",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "06271",
+      "description": "まこも　茎　生",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "54cb07160124776728a5a8d7b71b52eb9fab9f4d907e3e9e19c124e1b698217e",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06271_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "官方まこもたけ可食茎，Zizania latifolia；排除叶鞘和基部，不是wild rice谷物。"
+      }
+    },
+    {
+      "key": "mext_romaine",
+      "name": "长叶莴苣净叶",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "06316",
+      "description": "（レタス類）　コスレタス　葉　生",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "925ca0eed3b1e6ba12f9568222b99daf0d485bdafea9ccfa88f2ddbe1f32f421",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06316_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:09:13.166Z",
+        "note": "叶用长叶莴苣（cos/romaine）仅作为油麦菜或莴笋叶的低置信度宏量代理，不等于精确同品种，也不使用莴笋茎数据。"
+      }
+    },
+    {
+      "key": "mext_chestnut_roasted",
+      "name": "烤熟中国栗净仁",
+      "state": "cooked",
+      "provider": "mext",
+      "food_id": "05013",
+      "description": "（くり類）　中国ぐり　甘ぐり",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "51f24f5b18e3f47afc1501248a6710e84dfe3a78ef26a0a00749ebe0c23735ff",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=5_05013_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:12:16.052Z",
+        "note": "中国栗烤熟净仁，非生栗、带壳重量或糖渍甘露煮；用于明确的熟栗入汤家庭版本。"
+      }
+    },
+    {
+      "key": "coffee_liqueur",
+      "name": "通用咖啡甜酒（53 proof）",
+      "state": "ready_to_eat",
+      "query": "Alcoholic beverage distilled vodka 80 proof",
+      "fdc_id": 175097,
+      "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit food evidence review; not a human or USDA sign-off",
+        "note": "限定26.5%ABV咖啡甜酒通用配方，不冒充甘露当前16%或20%品牌标签，其他酒度和糖量不自动适用。"
+      }
+    },
+    {
+      "key": "cream_liqueur",
+      "name": "通用奶油咖啡甜酒（34 proof）",
+      "state": "ready_to_eat",
+      "query": "Alcoholic beverage distilled vodka 80 proof",
+      "fdc_id": 175098,
+      "description": "Alcoholic beverage, liqueur, coffee with cream, 34 proof",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "3f71b8e22c06298aa617436e44b990c226eeb761608fb5cf1cc962d27338d2f8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit food evidence review; not a human or USDA sign-off",
+        "note": "限定17%ABV含奶油甜酒，非无糖烈酒，作为百利类甜酒的明确通用代理，不声称品牌标签精确一致。"
+      }
+    },
+    {
+      "key": "krda_swamp_eel",
+      "name": "黄鳝去骨净肉",
+      "state": "raw",
+      "provider": "krda",
+      "food_id": "K0600000000a",
+      "description": "드렁허리, 생것",
+      "data_type": "KRDA Standard Food Composition DB",
+      "snapshot_sha256": "69b627f31a78202c834eeccba58a36830b0ffdb28822966da1c292c6aa1b52a6",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:54:17.473501+00:00",
+        "note": "官方附录学名Monopterus albus，明确为黄鳝，非Anguilla鳗鱼；生可食部，不把含骨整鱼毛重当净肉。"
+      }
+    },
+    {
+      "key": "krda_mandarin",
+      "name": "鳜鱼净肉（斑鳜代理）",
+      "state": "raw",
+      "provider": "krda",
+      "food_id": "K1240000000a",
+      "description": "쏘가리, 생것",
+      "data_type": "KRDA Standard Food Composition DB",
+      "snapshot_sha256": "1ba4fbc7a08b2e713af7c9f68288c4682a6484e9118904c83bf2dbd4d038818f",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:54:17.473501+00:00",
+        "note": "官方Siniperca scherzeri（斑鳜），作为同属鳜鱼家庭标准变体的明确代理；不是Siniperca chuatsi翘嘴鳜的物种实测，不自动用于其他鳜鱼或鲈鱼。"
+      }
+    },
+    {
+      "key": "krda_river_snail",
+      "name": "田螺净肉",
+      "state": "raw",
+      "provider": "krda",
+      "food_id": "K4190010000a",
+      "description": "우렁이, 논우렁이, 생것",
+      "data_type": "KRDA Standard Food Composition DB",
+      "snapshot_sha256": "4e10aebcc95de5831097c8d11c9a496ae0a12a87f83c442908120907824bca97",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:54:17.473501+00:00",
+        "note": "官方Cipangopaludina chinensis malleata、River snail，淡水田螺可食肉，排除螺壳、螺盖及泥肠；非海螺或福寿螺，不从带壳1000g直接换算净量。"
+      }
+    },
+    {
+      "key": "krda_tea_mushroom",
+      "name": "鲜茶树菇",
+      "state": "raw",
+      "provider": "krda",
+      "food_id": "G0100000000a",
+      "description": "버들송이버섯, 생것",
+      "data_type": "KRDA Standard Food Composition DB",
+      "snapshot_sha256": "b5a3d776729d0f18ec357663961a5743b19753b345b8aad518fdd0c5feffdcd2",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-28T08:54:17.473501+00:00",
+        "note": "官方Agrocybe cylindracea，为茶树菇近缘分类用名的鲜品代理；只用于明确鲜菇自制版本，不能代表闽星瓶装含油盐产品、干菇或普通白蘑菇。"
+      }
+    },
+    {
+      "key": "mext_konjac_flour",
+      "name": "纯魔芋精粉",
+      "state": "raw",
+      "provider": "mext",
+      "food_id": "02002",
+      "description": "＜いも類＞　こんにゃく　精粉",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "9373f148d346f03952b0ddc975d139ec83d2e29bd93815f246f3c8318d8efbc6",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=2_02002_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex official table evidence review; not a human sign-off",
+        "reviewed_at": "2026-10-28T14:40:18.533861+00:00",
+        "note": "官方こんにゃく精粉（纯魔芋精粉），非凝胶魔芋、魔芋面或复配蛋糕粉；总碳水含纤维口径，不作净碳水。"
+      }
+    },
+    {
+      "key": "erythritol_now",
+      "name": "NOW纯赤藓糖醇",
+      "state": "ready_to_eat",
+      "query": "733739069276",
+      "data_types": [
+        "Branded"
+      ],
+      "fdc_id": 2386683,
+      "description": "ERYTHRITOL ZERO CALORIE SWEETENER, ERYTHRITOL",
+      "data_type": "Branded",
+      "snapshot_sha256": "cf724019997f75ee15220f6ee9b39d494e9b2ab58a9e0a9087a91df51e5e3ce2",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and brand evidence review; no human sign-off claimed",
+        "reviewed_at": "2026-10-28T14:40:18.533861+00:00",
+        "note": "固定NOW、生产商Now Health Group Inc.、GTIN733739069276；配料仅ERYTHRITOL，非罗汉果混合代糖。已核对同UPC官网配料和营养：USDA历史每份8g，当前官网每份10g，统一每100g均为0kcal、蛋白0g、脂肪0g、总碳水100g。总碳水包含糖醇，不当作净碳水或用4/4/9改写0kcal。",
+        "evidence": [
+          {
+            "url": "https://www.nowfoods.com/products/natural-foods/erythritol",
+            "note": "核验官网同UPC产品为纯赤藓糖醇；当前份量10g、USDA历史份量8g，每100g已声明的四项数值一致，不以网页改写历史USDA响应。"
+          }
+        ]
+      },
+      "brand_owner": "Now Health Group Inc.",
+      "brand_name": "NOW",
+      "gtin_upc": "733739069276"
+    },
+    {
+      "key": "cream_tartar",
+      "name": "纯塔塔粉（酒石酸氢钾）",
+      "state": "ready_to_eat",
+      "query": "Leavening agents cream of tartar",
+      "data_types": [
+        "SR Legacy"
+      ],
+      "fdc_id": 175041,
+      "description": "Leavening agents, cream of tartar",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "650e78a00ca94ee00005bc5ec1f90137846027f1f070204925660c8244cd68b8",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and brand evidence review; no human sign-off claimed",
+        "reviewed_at": "2026-10-28T14:40:18.533861+00:00",
+        "note": "核对USDA通用Leavening agents, cream of tartar，纯塔塔粉而非小苏打、泡打粉或酵母；明确原方1g，不以白糖或淀粉替代。"
+      }
+    },
+    {
+      "key": "krda_yellow_catfish",
+      "name": "昂刺鱼去骨净肉（黄颡鱼）",
+      "state": "raw",
+      "provider": "krda",
+      "food_id": "K0580000000a",
+      "description": "동자개(빠가사리), 생것",
+      "data_type": "KRDA Standard Food Composition DB",
+      "snapshot_sha256": "7703266cf183f497f6eb47733f09de12e0af5396208ed16bf84484e30aedc961",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex species and official table evidence review; no human sign-off claimed",
+        "reviewed_at": "2026-10-28T15:01:45.918694+00:00",
+        "note": "韩国附录Pseudobagrus fulvidraco，与黄颡鱼学名对应；选择原文昂刺鱼分支，非沙光鱼、普通鲤鱼或鲈鱼；只取去骨可食部。",
+        "evidence": [
+          {
+            "url": "https://sioc.cas.cn/science/kpzy/qtzy/tryw/202306/t20230630_6800394.html",
+            "note": "仅核验黄颡鱼拉丁名Pseudobagrus fulvidraco；营养数字全部取KRDA年度DB，不引用该网页其他健康或药用内容。"
+          }
+        ]
+      }
+    },
+    {
+      "key": "beef_tallow",
+      "name": "食用牛油（牛脂）",
+      "state": "ready_to_eat",
+      "fdc_id": 171400,
+      "data_type": "SR Legacy",
+      "description": "Fat, beef tallow",
+      "snapshot_sha256": "9fa0ac9e3471509c217fa8598d6cec4326de2ea3d15fb6e6c293d54becdec78f",
+      "query": "Fat beef tallow",
+      "data_types": [
+        "SR Legacy"
+      ],
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "USDA Fat, beef tallow，动物牛脂而非乳制黄油或起酥油。"
+      }
+    },
+    {
+      "key": "prune_juice",
+      "name": "通用西梅汁",
+      "state": "ready_to_eat",
+      "fdc_id": 167753,
+      "data_type": "SR Legacy",
+      "description": "Prune juice, canned",
+      "snapshot_sha256": "11193d1cc68f4932def094d5ab1e50a07f9df14c15cc70eadeb65f5e54170a2d",
+      "query": "Prune juice canned",
+      "data_types": [
+        "SR Legacy"
+      ],
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "USDA Prune juice, canned；作其他果味浸出液代理时必须声明，不能称为乌梅或山楂实测。"
+      }
+    },
+    {
+      "key": "sardine_oil_drained",
+      "name": "油浸沙丁鱼沥出固形物",
+      "state": "ready_to_eat",
+      "fdc_id": 175139,
+      "data_type": "SR Legacy",
+      "description": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "snapshot_sha256": "0f5d7f8a59d3709d8f3a75ab96c450a7f2cece8c889c1166c2efb7ce14f18d5c",
+      "query": "Fish sardine Atlantic canned in oil drained solids with bone",
+      "data_types": [
+        "SR Legacy"
+      ],
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "USDA大西洋沙丁鱼油浸罐头沥出固形物（含可食骨），保留其内部油脂；另加油只指实际额外食用量。作为鲮鱼罐头代理须声明物种和配方不同。"
+      }
+    },
+    {
+      "key": "agar_dry",
+      "name": "干琼脂",
+      "state": "raw",
+      "fdc_id": 170090,
+      "data_type": "SR Legacy",
+      "description": "Seaweed, agar, dried",
+      "snapshot_sha256": "2f965f8aec49544087a89fee1ba614a0ee2488f5abc22a1dea56ef2bf6b22f89",
+      "query": "Seaweed laver dried",
+      "data_types": [
+        "SR Legacy",
+        "Foundation",
+        "Survey (FNDDS)"
+      ],
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "USDA Seaweed, agar, dried；通用植物凝胶配料，非龟苓膏品牌粉或冰粉籽实测。"
+      }
+    },
+    {
+      "key": "krda_blood",
+      "name": "通用鲜动物血（牛血）",
+      "state": "raw",
+      "provider": "krda",
+      "food_id": "I028000D440a",
+      "data_type": "KRDA Standard Food Composition DB",
+      "description": "소 부산물, 선지(피), 생것",
+      "snapshot_sha256": "68251d02a0e59db6496cc9183f892f5c5ddd25cc0bdfce6fb2f610fa9454e154",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "韩国表明确为鲜牛血，非鸭肉。用于鸭血代理须以food_group_proxy披露物种差异；不标成鸭血实测。"
+      }
+    },
+    {
+      "key": "krda_blood_sausage",
+      "name": "通用熟血肠（韩国高血含量型）",
+      "state": "ready_to_eat",
+      "provider": "krda",
+      "food_id": "I0220020009e",
+      "data_type": "KRDA Standard Food Composition DB",
+      "description": "순대, 선지 비율 높은것",
+      "snapshot_sha256": "8a5a8a4cbe7dd0d9dde04a8442ff3a1240951b06f844fa07c1a58afe53a4cae7",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "韩国高血含量型熟血肠Sundae；含谷物等复配，作为东北血肠近似时需披露组成不同，不能冒充某品牌血肠。"
+      }
+    },
+    {
+      "key": "krda_blanch_greens",
+      "name": "焯熟小白菜",
+      "state": "ready_to_eat",
+      "provider": "krda",
+      "food_id": "F1750000009c",
+      "data_type": "KRDA Standard Food Composition DB",
+      "description": "청경채, 데친것",
+      "snapshot_sha256": "28ccacf0e300aa6e78e86f4bd097d709b8e288410c04f1d40f03e254b13597b2",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "韩国Brassica rapa subsp. chinensis焯熟可食部。用于菜心代理时明确同类熟叶菜近似，非开花茎叶菜心的实测。"
+      }
+    },
+    {
+      "key": "krda_sea_cucumber",
+      "name": "通用鲜刺参可食部",
+      "state": "raw",
+      "provider": "krda",
+      "food_id": "K6340000000a",
+      "data_type": "KRDA Standard Food Composition DB",
+      "description": "해삼, 생것",
+      "snapshot_sha256": "ac17060e42678d20cc855bf8aa9abe960abd918df35efff2d82b273a318ee28d",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "韩国鲜刺参Stichopus japonicus（现常归Apostichopus），保留来源学名；作为泡发北极参代理须说明物种及含水差异，不称原文北极参测定。"
+      }
+    },
+    {
+      "key": "mext_amazake",
+      "name": "通用米发酵甜饮（甘酒）",
+      "state": "ready_to_eat",
+      "provider": "mext",
+      "food_id": "16050",
+      "data_type": "MEXT Standard Tables",
+      "description": "＜その他＞　甘酒",
+      "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16050_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source evidence review; not a human or provider sign-off",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "MEXT甘酒是米麴甜饮，作为中国含米粒酒酿或酒糟的同类谷物发酵食品代理时必须明确，不声称相同酒度、发酵菌或米汁比例。"
+      }
+    },
+    {
+      "key": "generic_spirit",
+      "name": "通用40%vol无糖蒸馏酒",
+      "query": "Alcoholic beverage distilled vodka 80 proof",
+      "state": "ready_to_eat",
+      "fdc_id": 174818,
+      "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex explicit generic food proxy review; no human sign-off claimed",
+        "reviewed_at": "2026-10-29T00:11:38.032Z",
+        "note": "使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
+      }
+    }
+  ]
+}

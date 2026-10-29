@@ -65,6 +65,7 @@ describe("公开目录兼容性", () => {
     );
     const nutrition = structuredClone(fixture);
     nutrition.artworks[0].nutrition.per_100g.energy_kcal = 100;
+    nutrition.artworks[0].nutrition.source = null;
     expect(() => parseCatalog(nutrition)).toThrow(/nutrition/);
   });
   it("全拼、首字母、常用别称和多个关键词可组合分类与难度", () => {

@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "id": "family-30eafb2f0a66-v1",
+  "recipe_id": "howtocook-30eafb2f0a66",
+  "recipe_blob_sha": "ba69104a56c892e9a956fa64d9aceda9e7a4a44d",
+  "version": "1",
+  "data_version": "f0afb98009fc292f",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：百香果净果肉80g、橙汁300g、饮用水100g、白砂糖20g；整份约500g。百香果净可食果肉，橙汁，无过滤弃渣。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-30eafb2f0a66",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-30eafb2f0a66-v1",
+    "standard_ingredients": [
+      {
+        "key": "passionfruit",
+        "grams": 80
+      },
+      {
+        "key": "orange_juice",
+        "grams": 300
+      },
+      {
+        "key": "water",
+        "grams": 100
+      },
+      {
+        "key": "sugar",
+        "grams": 20
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 58,
+    "protein_g": 0.772,
+    "carbohydrate_g": 13.984,
+    "fat_g": 0.232
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/169108/nutrients",
+    "version": "f0afb98009fc292f",
+    "fdc_ids": [
+      169108,
+      169098,
+      173647,
+      169655
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E7%99%BE%E9%A6%99%E6%9E%9C%E6%A9%99%E5%AD%90%E7%89%B9%E8%B0%83/%E7%99%BE%E9%A6%99%E6%9E%9C%E6%A9%99%E5%AD%90%E7%89%B9%E8%B0%83.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "ba69104a56c892e9a956fa64d9aceda9e7a4a44d"
+  },
+  "profile": {
+    "id": "family-30eafb2f0a66-v1",
+    "version": "1",
+    "recipe_id": "howtocook-30eafb2f0a66",
+    "recipe_blob_sha": "ba69104a56c892e9a956fa64d9aceda9e7a4a44d",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：百香果净果肉80g、橙汁300g、饮用水100g、白砂糖20g；整份约500g。百香果净可食果肉，橙汁，无过滤弃渣。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-30eafb2f0a66",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-30eafb2f0a66-v1",
+      "standard_ingredients": [
+        {
+          "key": "passionfruit",
+          "grams": 80
+        },
+        {
+          "key": "orange_juice",
+          "grams": 300
+        },
+        {
+          "key": "water",
+          "grams": 100
+        },
+        {
+          "key": "sugar",
+          "grams": 20
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：百香果净果肉80g、橙汁300g、饮用水100g、白砂糖20g。克数是项目标准，不是原文ml/个数换算。",
+      "百香果净可食果肉，橙汁，无过滤弃渣",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "百香果净果肉",
+        "food": {
+          "fdc_id": 169108,
+          "description": "Passion-fruit, (granadilla), purple, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f47a6d4421aece4354c7496b38cf59262d391d4c01b341ed48025d17dd8acf51"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      },
+      {
+        "name": "橙汁",
+        "food": {
+          "fdc_id": 169098,
+          "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 500,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:09:54.756Z",
+      "checks": {
+        "recipe_version": "ba69104a56c892e9a956fa64d9aceda9e7a4a44d",
+        "food_identity": "Passion-fruit, (granadilla), purple, raw; Orange juice, raw (Includes foods for USDA's Food Distribution Program); Beverages, water, tap, drinking; Sugars, granulated",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "百香果净可食果肉，橙汁，无过滤弃渣"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E7%99%BE%E9%A6%99%E6%9E%9C%E6%A9%99%E5%AD%90%E7%89%B9%E8%B0%83/%E7%99%BE%E9%A6%99%E6%9E%9C%E6%A9%99%E5%AD%90%E7%89%B9%E8%B0%83.md",
+          "blob_sha": "ba69104a56c892e9a956fa64d9aceda9e7a4a44d",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169108/nutrients",
+          "note": "百香果净果肉：Passion-fruit, (granadilla), purple, raw；已核对数据类型、生熟、可食部分及原始摘要。核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169098/nutrients",
+          "note": "橙汁：Orange juice, raw (Includes foods for USDA's Food Distribution Program)；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 97,
+        "protein_g": 2.2,
+        "carbohydrate_g": 23.4,
+        "fat_g": 0.7
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 97
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.2
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 23.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.7
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169108,
+        "description": "Passion-fruit, (granadilla), purple, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:07:25.656Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169108/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f47a6d4421aece43",
+        "raw_sha256": "f47a6d4421aece4354c7496b38cf59262d391d4c01b341ed48025d17dd8acf51",
+        "transport": "api_search_snapshot",
+        "query_sha256": "f98c54dca6e1bc67e38c687f6fd93d178bc4fef1b726599e63a31a391f93e4a0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 45,
+        "protein_g": 0.7,
+        "carbohydrate_g": 10.4,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 45
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169098,
+        "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:23.040Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169098/nutrients",
+        "version": "SR Legacy / 2019-04-01 / e9fe7649359064ac",
+        "raw_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "百香果净果肉",
+        "food": {
+          "fdc_id": 169108,
+          "description": "Passion-fruit, (granadilla), purple, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f47a6d4421aece4354c7496b38cf59262d391d4c01b341ed48025d17dd8acf51"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。",
+        "per_100g": {
+          "energy_kcal": 97,
+          "protein_g": 2.2,
+          "carbohydrate_g": 23.4,
+          "fat_g": 0.7
+        },
+        "edible_g": 80
+      },
+      {
+        "name": "橙汁",
+        "food": {
+          "fdc_id": 169098,
+          "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 45,
+          "protein_g": 0.7,
+          "carbohydrate_g": 10.4,
+          "fat_g": 0.2
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 20
+      }
+    ],
+    "total": {
+      "energy_kcal": 290,
+      "protein_g": 3.86,
+      "carbohydrate_g": 69.92,
+      "fat_g": 1.16
+    },
+    "final_edible_g": 500,
+    "per_100g": {
+      "energy_kcal": 58,
+      "protein_g": 0.772,
+      "carbohydrate_g": 13.984,
+      "fat_g": 0.232
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 61.112,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

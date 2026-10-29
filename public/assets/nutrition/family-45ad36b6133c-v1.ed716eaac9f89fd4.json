@@ -1,0 +1,1200 @@
+{
+  "schema_version": 1,
+  "id": "family-45ad36b6133c-v1",
+  "recipe_id": "howtocook-45ad36b6133c",
+  "recipe_blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+  "version": "1",
+  "data_version": "65469e5d8dd864eb",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "estimation_level": "food_group_proxy",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "同类食物代理粗估；2–3人家庭标准配方估算：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用咖啡甜酒（53 proof）30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g；整份约610g。两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "identity_precision": "food_group_proxy",
+    "food_proxies": [
+      {
+        "target": "龙舌兰酒",
+        "reference_name": "通用40%vol无糖蒸馏酒",
+        "food": {
+          "fdc_id": 174818,
+          "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+        },
+        "reason": "通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测"
+      },
+      {
+        "target": "橙味甜酒",
+        "reference_name": "通用咖啡甜酒（53 proof）",
+        "food": {
+          "fdc_id": 175097,
+          "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+        },
+        "reason": "通用含糖甜酒宏量代理，风味、酒度和含糖可能不同"
+      }
+    ],
+    "food_identity": "howtocook-45ad36b6133c",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-45ad36b6133c-v1",
+    "standard_ingredients": [
+      {
+        "key": "gin",
+        "grams": 30
+      },
+      {
+        "key": "generic_spirit",
+        "grams": 30
+      },
+      {
+        "key": "vodka",
+        "grams": 30
+      },
+      {
+        "key": "rum",
+        "grams": 30
+      },
+      {
+        "key": "coffee_liqueur",
+        "grams": 30
+      },
+      {
+        "key": "lemon_juice",
+        "grams": 60
+      },
+      {
+        "key": "maple",
+        "grams": 40
+      },
+      {
+        "key": "cola",
+        "grams": 150
+      },
+      {
+        "key": "lemon",
+        "grams": 10
+      },
+      {
+        "key": "water",
+        "grams": 200
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 91.983607,
+    "protein_g": 0.06,
+    "carbohydrate_g": 10.083934,
+    "fat_g": 0.108689
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+    "version": "65469e5d8dd864eb",
+    "fdc_ids": [
+      174815,
+      174818,
+      174818,
+      174817,
+      175097,
+      167747,
+      169661,
+      174852,
+      167746,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%95%BF%E5%B2%9B%E5%86%B0%E8%8C%B6.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c"
+  },
+  "profile": {
+    "id": "family-45ad36b6133c-v1",
+    "version": "1",
+    "recipe_id": "howtocook-45ad36b6133c",
+    "recipe_blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+    "method": "usda_recipe_estimate",
+    "estimation_level": "food_group_proxy",
+    "default_for_artwork": false,
+    "scope": "同类食物代理粗估；2–3人家庭标准配方估算：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用咖啡甜酒（53 proof）30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g；整份约610g。两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "identity_precision": "food_group_proxy",
+      "food_proxies": [
+        {
+          "target": "龙舌兰酒",
+          "reference_name": "通用40%vol无糖蒸馏酒",
+          "food": {
+            "fdc_id": 174818,
+            "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+          },
+          "reason": "通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测"
+        },
+        {
+          "target": "橙味甜酒",
+          "reference_name": "通用咖啡甜酒（53 proof）",
+          "food": {
+            "fdc_id": 175097,
+            "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+          },
+          "reason": "通用含糖甜酒宏量代理，风味、酒度和含糖可能不同"
+        }
+      ],
+      "food_identity": "howtocook-45ad36b6133c",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-45ad36b6133c-v1",
+      "standard_ingredients": [
+        {
+          "key": "gin",
+          "grams": 30
+        },
+        {
+          "key": "generic_spirit",
+          "grams": 30
+        },
+        {
+          "key": "vodka",
+          "grams": 30
+        },
+        {
+          "key": "rum",
+          "grams": 30
+        },
+        {
+          "key": "coffee_liqueur",
+          "grams": 30
+        },
+        {
+          "key": "lemon_juice",
+          "grams": 60
+        },
+        {
+          "key": "maple",
+          "grams": 40
+        },
+        {
+          "key": "cola",
+          "grams": 150
+        },
+        {
+          "key": "lemon",
+          "grams": 10
+        },
+        {
+          "key": "water",
+          "grams": 200
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用咖啡甜酒（53 proof）30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g。克数是项目标准，不是原文ml/个数换算。",
+      "两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "龙舌兰酒采用通用40%vol无糖蒸馏酒代理：通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "橙味甜酒采用通用咖啡甜酒（53 proof）代理：通用含糖甜酒宏量代理，风味、酒度和含糖可能不同。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "金酒40%酒精",
+        "food": {
+          "fdc_id": 174815,
+          "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。"
+      },
+      {
+        "name": "通用40%vol无糖蒸馏酒",
+        "food": {
+          "fdc_id": 174818,
+          "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
+      },
+      {
+        "name": "伏特加40%酒精",
+        "food": {
+          "fdc_id": 174818,
+          "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。"
+      },
+      {
+        "name": "朗姆酒40%酒精",
+        "food": {
+          "fdc_id": 174817,
+          "description": "Alcoholic beverage, distilled, rum, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+      },
+      {
+        "name": "通用咖啡甜酒（53 proof）",
+        "food": {
+          "fdc_id": 175097,
+          "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定26.5%ABV咖啡甜酒通用配方，不冒充甘露当前16%或20%品牌标签，其他酒度和糖量不自动适用。"
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 60,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "枫糖浆",
+        "food": {
+          "fdc_id": 169661,
+          "description": "Syrups, maple",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a93b5547351e0ad5df031ffa320d1720c88d78f3614edf5ade23e1e5feb78d19"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "纯枫糖浆参考，非仅含少量枫糖的混合餐桌糖浆。"
+      },
+      {
+        "name": "含糖可乐通用饮料",
+        "food": {
+          "fdc_id": 174852,
+          "description": "Beverages, carbonated, cola, regular",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f530e7e02b87c29356c8f0804ea86f8f7731bac046488ba49e2d9c4a9b1d37f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定含糖含咖啡因普通可乐；不适用于无糖或减糖配方，不承诺可口可乐品牌标签相同。"
+      },
+      {
+        "name": "去皮柠檬",
+        "food": {
+          "fdc_id": 167746,
+          "description": "Lemons, raw, without peel",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 610,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
+      "reviewed_at": "2026-10-29T00:13:41.285Z",
+      "checks": {
+        "recipe_version": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+        "food_identity": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof; Alcoholic beverage, distilled, vodka, 80 proof; Alcoholic beverage, distilled, vodka, 80 proof; Alcoholic beverage, distilled, rum, 80 proof; Alcoholic beverage, liqueur, coffee, 53 proof; Lemon juice, raw; Syrups, maple; Beverages, carbonated, cola, regular; Lemons, raw, without peel; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。",
+        "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%95%BF%E5%B2%9B%E5%86%B0%E8%8C%B6.md",
+          "blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+          "note": "金酒40%酒精：Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof；已核对数据类型、生熟、可食部分及原始摘要。通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+          "note": "通用40%vol无糖蒸馏酒：Alcoholic beverage, distilled, vodka, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+          "note": "伏特加40%酒精：Alcoholic beverage, distilled, vodka, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+          "note": "朗姆酒40%酒精：Alcoholic beverage, distilled, rum, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/175097/nutrients",
+          "note": "通用咖啡甜酒（53 proof）：Alcoholic beverage, liqueur, coffee, 53 proof；已核对数据类型、生熟、可食部分及原始摘要。限定26.5%ABV咖啡甜酒通用配方，不冒充甘露当前16%或20%品牌标签，其他酒度和糖量不自动适用。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+          "note": "柠檬汁：Lemon juice, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169661/nutrients",
+          "note": "枫糖浆：Syrups, maple；已核对数据类型、生熟、可食部分及原始摘要。纯枫糖浆参考，非仅含少量枫糖的混合餐桌糖浆。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients",
+          "note": "含糖可乐通用饮料：Beverages, carbonated, cola, regular；已核对数据类型、生熟、可食部分及原始摘要。限定含糖含咖啡因普通可乐；不适用于无糖或减糖配方，不承诺可口可乐品牌标签相同。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167746/nutrients",
+          "note": "去皮柠檬：Lemons, raw, without peel；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174815,
+        "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+        "version": "SR Legacy / 2019-04-01 / c3d45071dd6a986e",
+        "raw_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174818,
+        "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ad8d47a49ad51da2",
+        "raw_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174818,
+        "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ad8d47a49ad51da2",
+        "raw_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174817,
+        "description": "Alcoholic beverage, distilled, rum, 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 3fc952171940a75e",
+        "raw_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 336,
+        "protein_g": 0.1,
+        "carbohydrate_g": 46.8,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 336
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 46.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 175097,
+        "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/175097/nutrients",
+        "version": "SR Legacy / 2019-04-01 / d0ab776d15db3f11",
+        "raw_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 22,
+        "protein_g": 0.35,
+        "carbohydrate_g": 6.9,
+        "fat_g": 0.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 22
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.35
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167747,
+        "description": "Lemon juice, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:23.040Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 313ada983b5ac2cc",
+        "raw_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 260,
+        "protein_g": 0.04,
+        "carbohydrate_g": 67,
+        "fat_g": 0.06
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 260
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.04
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 67
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.06
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169661,
+        "description": "Syrups, maple",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:44.298Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169661/nutrients",
+        "version": "SR Legacy / 2019-04-01 / a93b5547351e0ad5",
+        "raw_sha256": "a93b5547351e0ad5df031ffa320d1720c88d78f3614edf5ade23e1e5feb78d19",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ef80e5eb35d7c9c7e580b5e53ff9ddb6e2fed100bf63bbb3e38d789d897d7f5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 42,
+        "protein_g": 0,
+        "carbohydrate_g": 10.4,
+        "fat_g": 0.25
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 42
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.25
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174852,
+        "description": "Beverages, carbonated, cola, regular",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:31.683Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f530e7e02b87c29",
+        "raw_sha256": "2f530e7e02b87c29356c8f0804ea86f8f7731bac046488ba49e2d9c4a9b1d37f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d3a4d2d4c36f86aa6562416c98b79d7935eee5dbc3b1db96ac71067df06d03a9"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 29,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.32,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 29
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.32
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167746,
+        "description": "Lemons, raw, without peel",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:57.655Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167746/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ad77b7fd374d509a",
+        "raw_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb",
+        "transport": "api_search_snapshot",
+        "query_sha256": "e17df5f4a062fac3d58aa9d316a73d63e696c6548d7780e66c8271a72344d442"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "金酒40%酒精",
+        "food": {
+          "fdc_id": 174815,
+          "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "通用40%vol无糖蒸馏酒",
+        "food": {
+          "fdc_id": 174818,
+          "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "伏特加40%酒精",
+        "food": {
+          "fdc_id": 174818,
+          "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "朗姆酒40%酒精",
+        "food": {
+          "fdc_id": 174817,
+          "description": "Alcoholic beverage, distilled, rum, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "通用咖啡甜酒（53 proof）",
+        "food": {
+          "fdc_id": 175097,
+          "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定26.5%ABV咖啡甜酒通用配方，不冒充甘露当前16%或20%品牌标签，其他酒度和糖量不自动适用。",
+        "per_100g": {
+          "energy_kcal": 336,
+          "protein_g": 0.1,
+          "carbohydrate_g": 46.8,
+          "fat_g": 0.3
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 60,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 22,
+          "protein_g": 0.35,
+          "carbohydrate_g": 6.9,
+          "fat_g": 0.24
+        },
+        "edible_g": 60
+      },
+      {
+        "name": "枫糖浆",
+        "food": {
+          "fdc_id": 169661,
+          "description": "Syrups, maple",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "a93b5547351e0ad5df031ffa320d1720c88d78f3614edf5ade23e1e5feb78d19"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "纯枫糖浆参考，非仅含少量枫糖的混合餐桌糖浆。",
+        "per_100g": {
+          "energy_kcal": 260,
+          "protein_g": 0.04,
+          "carbohydrate_g": 67,
+          "fat_g": 0.06
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "含糖可乐通用饮料",
+        "food": {
+          "fdc_id": 174852,
+          "description": "Beverages, carbonated, cola, regular",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f530e7e02b87c29356c8f0804ea86f8f7731bac046488ba49e2d9c4a9b1d37f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定含糖含咖啡因普通可乐；不适用于无糖或减糖配方，不承诺可口可乐品牌标签相同。",
+        "per_100g": {
+          "energy_kcal": 42,
+          "protein_g": 0,
+          "carbohydrate_g": 10.4,
+          "fat_g": 0.25
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "去皮柠檬",
+        "food": {
+          "fdc_id": 167746,
+          "description": "Lemons, raw, without peel",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 29,
+          "protein_g": 1.1,
+          "carbohydrate_g": 9.32,
+          "fat_g": 0.3
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 200
+      }
+    ],
+    "total": {
+      "energy_kcal": 561.1,
+      "protein_g": 0.366,
+      "carbohydrate_g": 61.512,
+      "fat_g": 0.663
+    },
+    "final_edible_g": 610,
+    "per_100g": {
+      "energy_kcal": 91.983607,
+      "protein_g": 0.06,
+      "carbohydrate_g": 10.083934,
+      "fat_g": 0.108689
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 41.553937,
+    "warnings": [
+      "4/4/9粗略折算与来源热量差异较大，保留来源热量，请复核"
+    ]
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

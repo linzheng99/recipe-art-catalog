@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "id": "family-7047e23423f0-v1",
+  "recipe_id": "howtocook-7047e23423f0",
+  "recipe_blob_sha": "83775bd3f167590a545cf971b15ec3f59c057cbf",
+  "version": "1",
+  "data_version": "b3c9e9504131df08",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：草莓300g、稀奶油250g、3.25%全脂牛奶150g、白砂糖50g；整份约750g。全果草莓不滤渣，无额外蛋或其他配料，冻制后全部食用。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-7047e23423f0",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-7047e23423f0-v1",
+    "standard_ingredients": [
+      {
+        "key": "strawberry",
+        "grams": 300
+      },
+      {
+        "key": "cream",
+        "grams": 250
+      },
+      {
+        "key": "milk",
+        "grams": 150
+      },
+      {
+        "key": "sugar",
+        "grams": 50
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 164.133333,
+    "protein_g": 1.844667,
+    "carbohydrate_g": 11.641333,
+    "fat_g": 12.807333
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+    "version": "b3c9e9504131df08",
+    "fdc_ids": [
+      167762,
+      170859,
+      172217,
+      169655
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/dessert/%E8%8D%89%E8%8E%93%E5%86%B0%E6%B7%87%E6%B7%8B/%E8%8D%89%E8%8E%93%E5%86%B0%E6%B7%87%E6%B7%8B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "83775bd3f167590a545cf971b15ec3f59c057cbf"
+  },
+  "profile": {
+    "id": "family-7047e23423f0-v1",
+    "version": "1",
+    "recipe_id": "howtocook-7047e23423f0",
+    "recipe_blob_sha": "83775bd3f167590a545cf971b15ec3f59c057cbf",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：草莓300g、稀奶油250g、3.25%全脂牛奶150g、白砂糖50g；整份约750g。全果草莓不滤渣，无额外蛋或其他配料，冻制后全部食用。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-7047e23423f0",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-7047e23423f0-v1",
+      "standard_ingredients": [
+        {
+          "key": "strawberry",
+          "grams": 300
+        },
+        {
+          "key": "cream",
+          "grams": 250
+        },
+        {
+          "key": "milk",
+          "grams": 150
+        },
+        {
+          "key": "sugar",
+          "grams": 50
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：草莓300g、稀奶油250g、3.25%全脂牛奶150g、白砂糖50g。克数是项目标准，不是原文ml/个数换算。",
+      "全果草莓不滤渣，无额外蛋或其他配料，冻制后全部食用",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "草莓",
+        "food": {
+          "fdc_id": 167762,
+          "description": "Strawberries, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "57d65cba9de1caac92f5db5d472531d1033f5def0bb782b12116a32dc71e87b8"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "稀奶油",
+        "food": {
+          "fdc_id": 170859,
+          "description": "Cream, fluid, heavy whipping",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "92f010d709db95392b61ce6448496677443e5b692b6a3a3b28bd93e96d55b10a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 750,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:24:47.419Z",
+      "checks": {
+        "recipe_version": "83775bd3f167590a545cf971b15ec3f59c057cbf",
+        "food_identity": "Strawberries, raw; Cream, fluid, heavy whipping; Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D; Sugars, granulated",
+        "state_and_cooking": "逐项按raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "全果草莓不滤渣，无额外蛋或其他配料，冻制后全部食用"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/dessert/%E8%8D%89%E8%8E%93%E5%86%B0%E6%B7%87%E6%B7%8B/%E8%8D%89%E8%8E%93%E5%86%B0%E6%B7%87%E6%B7%8B.md",
+          "blob_sha": "83775bd3f167590a545cf971b15ec3f59c057cbf",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+          "note": "草莓：Strawberries, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients",
+          "note": "稀奶油：Cream, fluid, heavy whipping；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+          "note": "3.25%全脂牛奶：Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 32,
+        "protein_g": 0.67,
+        "carbohydrate_g": 7.68,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 32
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.67
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.68
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167762,
+        "description": "Strawberries, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:12.514Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 57d65cba9de1caac",
+        "raw_sha256": "57d65cba9de1caac92f5db5d472531d1033f5def0bb782b12116a32dc71e87b8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "f3ad527be770c3d998edc6512fb4dcaf2d4b27f0a9347f6bb3aa5d5b048b33ca"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 340,
+        "protein_g": 2.84,
+        "carbohydrate_g": 2.84,
+        "fat_g": 36.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 340
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.84
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.84
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 36.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170859,
+        "description": "Cream, fluid, heavy whipping",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:52.217Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 92f010d709db9539",
+        "raw_sha256": "92f010d709db95392b61ce6448496677443e5b692b6a3a3b28bd93e96d55b10a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "b448a3e90caa266ec62f5667f6c1bbce3e6c0a595ede6849d37a15597ae7c102"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 61,
+        "protein_g": 3.15,
+        "carbohydrate_g": 4.78,
+        "fat_g": 3.27
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 61
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.15
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.78
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.27
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172217,
+        "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:25.785Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 815f14b67231b3f2",
+        "raw_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fc598dbff21afe1348a1b23e5977c2974d48369f7891c90cfcf7751bed6cae07"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "草莓",
+        "food": {
+          "fdc_id": 167762,
+          "description": "Strawberries, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "57d65cba9de1caac92f5db5d472531d1033f5def0bb782b12116a32dc71e87b8"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 32,
+          "protein_g": 0.67,
+          "carbohydrate_g": 7.68,
+          "fat_g": 0.3
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "稀奶油",
+        "food": {
+          "fdc_id": 170859,
+          "description": "Cream, fluid, heavy whipping",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "92f010d709db95392b61ce6448496677443e5b692b6a3a3b28bd93e96d55b10a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 340,
+          "protein_g": 2.84,
+          "carbohydrate_g": 2.84,
+          "fat_g": 36.1
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 61,
+          "protein_g": 3.15,
+          "carbohydrate_g": 4.78,
+          "fat_g": 3.27
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 50
+      }
+    ],
+    "total": {
+      "energy_kcal": 1231,
+      "protein_g": 13.835,
+      "carbohydrate_g": 87.31,
+      "fat_g": 96.055
+    },
+    "final_edible_g": 750,
+    "per_100g": {
+      "energy_kcal": 164.133333,
+      "protein_g": 1.844667,
+      "carbohydrate_g": 11.641333,
+      "fat_g": 12.807333
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 169.209997,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

@@ -1,0 +1,867 @@
+{
+  "schema_version": 1,
+  "id": "family-9c598d5ae097-v1",
+  "recipe_id": "howtocook-9c598d5ae097",
+  "recipe_blob_sha": "8a005dc7dbbf22b554a205107842da8033b6e26f",
+  "version": "1",
+  "data_version": "9590ae29f903ee85",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 550,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品550g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：蛤蜊肉250g、净全鸡蛋液200g、洋葱80g、玉米淀粉10g、通用酱油（shoyu近似）15g、大豆食用油20g、食盐2g；整份约550g。USDA混合蛤蜊净肉作为蛏肉粗估代理，非特定蛏子实测；只称去壳可食肉，焯水损失未校正；不放酒鸡精，蛋油和所有锅汁计入。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-9c598d5ae097",
+    "state": "ready_to_eat",
+    "cooking_method": "pan_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": null,
+    "variant": "family-9c598d5ae097-v1",
+    "standard_ingredients": [
+      {
+        "key": "clams",
+        "grams": 250
+      },
+      {
+        "key": "egg",
+        "grams": 200
+      },
+      {
+        "key": "onion",
+        "grams": 80
+      },
+      {
+        "key": "starch",
+        "grams": 10
+      },
+      {
+        "key": "soy",
+        "grams": 15
+      },
+      {
+        "key": "oil",
+        "grams": 20
+      },
+      {
+        "key": "salt",
+        "grams": 2
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 137.427273,
+    "protein_g": 11.650364,
+    "carbohydrate_g": 5.037545,
+    "fat_g": 7.561909
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/174214/nutrients",
+    "version": "9590ae29f903ee85",
+    "fdc_ids": [
+      174214,
+      171287,
+      170000,
+      169698,
+      174277,
+      171411,
+      173468
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/%E8%9B%8F%E6%8A%B1%E8%9B%8B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "8a005dc7dbbf22b554a205107842da8033b6e26f"
+  },
+  "profile": {
+    "id": "family-9c598d5ae097-v1",
+    "version": "1",
+    "recipe_id": "howtocook-9c598d5ae097",
+    "recipe_blob_sha": "8a005dc7dbbf22b554a205107842da8033b6e26f",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：蛤蜊肉250g、净全鸡蛋液200g、洋葱80g、玉米淀粉10g、通用酱油（shoyu近似）15g、大豆食用油20g、食盐2g；整份约550g。USDA混合蛤蜊净肉作为蛏肉粗估代理，非特定蛏子实测；只称去壳可食肉，焯水损失未校正；不放酒鸡精，蛋油和所有锅汁计入。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-9c598d5ae097",
+      "state": "ready_to_eat",
+      "cooking_method": "pan_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": null,
+      "variant": "family-9c598d5ae097-v1",
+      "standard_ingredients": [
+        {
+          "key": "clams",
+          "grams": 250
+        },
+        {
+          "key": "egg",
+          "grams": 200
+        },
+        {
+          "key": "onion",
+          "grams": 80
+        },
+        {
+          "key": "starch",
+          "grams": 10
+        },
+        {
+          "key": "soy",
+          "grams": 15
+        },
+        {
+          "key": "oil",
+          "grams": 20
+        },
+        {
+          "key": "salt",
+          "grams": 2
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：蛤蜊肉250g、净全鸡蛋液200g、洋葱80g、玉米淀粉10g、通用酱油（shoyu近似）15g、大豆食用油20g、食盐2g。克数是项目标准，不是原文ml/个数换算。",
+      "USDA混合蛤蜊净肉作为蛏肉粗估代理，非特定蛏子实测；只称去壳可食肉，焯水损失未校正；不放酒鸡精，蛋油和所有锅汁计入",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。 通用种类可用于明确的家庭标准近似；特定物种精确营养需另查。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "蛤蜊肉",
+        "food": {
+          "fdc_id": 174214,
+          "description": "Mollusks, clam, mixed species, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "56f717c50210de29e38143e1fd1c41a210e0989312ffe726a5b5d785728529c9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。 通用种类可用于明确的家庭标准近似；特定物种精确营养需另查。"
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 550,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品550g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "pan_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:11:23.843Z",
+      "checks": {
+        "recipe_version": "8a005dc7dbbf22b554a205107842da8033b6e26f",
+        "food_identity": "Mollusks, clam, mixed species, raw; Egg, whole, raw, fresh; Onions, raw; Cornstarch; Soy sauce made from soy and wheat (shoyu); Oil, soybean, salad or cooking; Salt, table",
+        "state_and_cooking": "逐项按raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品pan_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "USDA混合蛤蜊净肉作为蛏肉粗估代理，非特定蛏子实测；只称去壳可食肉，焯水损失未校正；不放酒鸡精，蛋油和所有锅汁计入"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/%E8%9B%8F%E6%8A%B1%E8%9B%8B.md",
+          "blob_sha": "8a005dc7dbbf22b554a205107842da8033b6e26f",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174214/nutrients",
+          "note": "蛤蜊肉：Mollusks, clam, mixed species, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。 通用种类可用于明确的家庭标准近似；特定物种精确营养需另查。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "净全鸡蛋液：Egg, whole, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "洋葱：Onions, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+          "note": "玉米淀粉：Cornstarch；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 86,
+        "protein_g": 14.7,
+        "carbohydrate_g": 3.57,
+        "fat_g": 0.96
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 86
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 14.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.57
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.96
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174214,
+        "description": "Mollusks, clam, mixed species, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:06:25.689Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174214/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 56f717c50210de29",
+        "raw_sha256": "56f717c50210de29e38143e1fd1c41a210e0989312ffe726a5b5d785728529c9",
+        "transport": "api_search_snapshot",
+        "query_sha256": "6b3bfc51322fc9c4a0098a135fda0b88269402d88faae963dea1f38de70df88a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 40,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.34,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 40
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170000,
+        "description": "Onions, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:22.135Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+        "version": "SR Legacy / 2019-04-01 / fe11efa3ee637efd",
+        "raw_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9",
+        "transport": "api_search_snapshot",
+        "query_sha256": "9e6bc240d3f56b6d8354fad391941b71f47fb49307a0a36c0aaa1ef78922bf41"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 381,
+        "protein_g": 0.26,
+        "carbohydrate_g": 91.3,
+        "fat_g": 0.05
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 381
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.26
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 91.3
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.05
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169698,
+        "description": "Cornstarch",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:00:13.894Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169698/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 6abbc2aad71def07",
+        "raw_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8335fd2b6cb173614624aa578ae42445496f50073e80f7a8bcbfe25eec41987c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "蛤蜊肉",
+        "food": {
+          "fdc_id": 174214,
+          "description": "Mollusks, clam, mixed species, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "56f717c50210de29e38143e1fd1c41a210e0989312ffe726a5b5d785728529c9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。 通用种类可用于明确的家庭标准近似；特定物种精确营养需另查。",
+        "per_100g": {
+          "energy_kcal": 86,
+          "protein_g": 14.7,
+          "carbohydrate_g": 3.57,
+          "fat_g": 0.96
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 40,
+          "protein_g": 1.1,
+          "carbohydrate_g": 9.34,
+          "fat_g": 0.1
+        },
+        "edible_g": 80
+      },
+      {
+        "name": "玉米淀粉",
+        "food": {
+          "fdc_id": 169698,
+          "description": "Cornstarch",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "6abbc2aad71def0702a4ee7359d303329481a7241c6f081f2845dcb915a3e012"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 381,
+          "protein_g": 0.26,
+          "carbohydrate_g": 91.3,
+          "fat_g": 0.05
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 2
+      }
+    ],
+    "total": {
+      "energy_kcal": 755.85,
+      "protein_g": 64.077,
+      "carbohydrate_g": 27.7065,
+      "fat_g": 41.5905
+    },
+    "final_edible_g": 550,
+    "per_100g": {
+      "energy_kcal": 137.427273,
+      "protein_g": 11.650364,
+      "carbohydrate_g": 5.037545,
+      "fat_g": 7.561909
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 134.80881699999998,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

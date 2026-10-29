@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "id": "milk-oats-cooked-components-v1",
+  "recipe_id": "howtocook-0f850528c984",
+  "recipe_blob_sha": "b977b832412acddb757bc7d62b6a46aaf5a6e178",
+  "version": "1",
+  "data_version": "1fa47c9c35ce296c",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "标准熟重早餐估算：清水煮熟燕麦200g、3.25%脂肪全脂牛奶280g、煎好去壳可食全蛋50g，整份约530g。燕麦和鸡蛋采用USDA熟食数据（煎蛋条目已含其烹调脂肪），不另加油糖酱，称量后不再加热且全部食用。200g熟燕麦不声称等于原文40g干燕麦；280g奶不是280ml换算。",
+  "match": {
+    "food_identity": "cooked_oatmeal_whole_milk_fried_chicken_egg_breakfast",
+    "state": "ready_to_eat",
+    "cooking_method": "assemble_pre_cooked_components",
+    "edible_part": "cooked_oatmeal_milk_and_fried_egg_without_shell",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "oatmeal_200g_milk_280g_fried_egg_50g",
+    "cooked_oatmeal_g": 200,
+    "milk_g": 280,
+    "fried_egg_g": 50,
+    "excludes": [
+      "原文40g干燕麦与280ml牛奶的精确换算",
+      "微波后继续失水、额外煎蛋油或椒盐水果饼干",
+      "燕麦麸、甜味即食燕麦、脱脂奶、植物奶或其他奶脂含量"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 77.509434,
+    "protein_g": 3.90566,
+    "carbohydrate_g": 7.131887,
+    "fat_g": 3.697358
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/173905/nutrients",
+    "version": "1fa47c9c35ce296c",
+    "fdc_ids": [
+      173905,
+      172217,
+      173423
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E7%89%9B%E5%A5%B6%E7%87%95%E9%BA%A6.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "b977b832412acddb757bc7d62b6a46aaf5a6e178"
+  },
+  "profile": {
+    "id": "milk-oats-cooked-components-v1",
+    "version": "1",
+    "recipe_id": "howtocook-0f850528c984",
+    "recipe_blob_sha": "b977b832412acddb757bc7d62b6a46aaf5a6e178",
+    "method": "usda_recipe_estimate",
+    "recipe_basis": "standardized_assumptions",
+    "default_for_artwork": true,
+    "scope": "标准熟重早餐估算：清水煮熟燕麦200g、3.25%脂肪全脂牛奶280g、煎好去壳可食全蛋50g，整份约530g。燕麦和鸡蛋采用USDA熟食数据（煎蛋条目已含其烹调脂肪），不另加油糖酱，称量后不再加热且全部食用。200g熟燕麦不声称等于原文40g干燕麦；280g奶不是280ml换算。",
+    "match": {
+      "food_identity": "cooked_oatmeal_whole_milk_fried_chicken_egg_breakfast",
+      "state": "ready_to_eat",
+      "cooking_method": "assemble_pre_cooked_components",
+      "edible_part": "cooked_oatmeal_milk_and_fried_egg_without_shell",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "oatmeal_200g_milk_280g_fried_egg_50g",
+      "cooked_oatmeal_g": 200,
+      "milk_g": 280,
+      "fried_egg_g": 50,
+      "excludes": [
+        "原文40g干燕麦与280ml牛奶的精确换算",
+        "微波后继续失水、额外煎蛋油或椒盐水果饼干",
+        "燕麦麸、甜味即食燕麦、脱脂奶、植物奶或其他奶脂含量"
+      ]
+    },
+    "assumptions": [
+      "常见早餐标准量直接以熟重定义：熟燕麦200g、牛奶280g、熟煎蛋50g，原菜谱份量不确定处采用显式独立标准，不冒充原文测量。",
+      "只选择清水煮燕麦后搭配牛奶的分支，采用USDA无盐清水熟燕麦的成品含水量；不从40g干燕麦加200ml煮水求成品。",
+      "牛奶直接称280g，明确3.25%脂肪全脂牛奶，不使用无密度依据的ml换g。",
+      "鸡蛋使用USDA煎熟全蛋通用参考、按去壳熟重50g；烹调脂肪已在熟蛋条目内，不将其当生蛋并漏油，也不重复加油。",
+      "全部成分完成烹饪并放温后定义熟重，只汇总这些可食成分，之后不再微波、沥水或丢弃；可分开食用。",
+      "可选椒盐、水果蔬菜及饼干不包括在本标准配方；额外油、糖、酱料均不包括。"
+    ],
+    "uncertainty": [
+      "熟燕麦含水量与USDA参考不同会改变每100g结果；200g是独立标准熟重，不能反推原文40g干料出成率。",
+      "煎蛋条目已反映USDA通用烹调脂肪，但实际锅中加油量、吸收量和残油不一定相同；不是某次用油的精确估算。",
+      "全脂奶实际奶脂和蛋大小会有差异；没有额外施加热加工损失校正，改用原料重或继续加热时应另算。"
+    ],
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true,
+      "preparation_before_weighing": "燕麦和鸡蛋已分别烹熟并放温，按成品可食量定义；使用熟食来源，不声称原料营养全部保留。"
+    },
+    "final_weight": {
+      "grams": 530,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "标准份各项都是已烹熟后的成品可食量200+280+50g，之后无加热或弃料，因此整份约530g；不是热加工原料重量之和。"
+    },
+    "ingredients": [
+      {
+        "name": "清水煮熟燕麦（无盐）",
+        "food": {
+          "fdc_id": 173905,
+          "description": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9eb3d863a5c10c01ab722f61f296e973d343138dcbc0580a20049d032cb2a135"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "标准熟可食量200g；USDA熟燕麦来源，不推算原文干料出成率。"
+        }
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 280,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "标准直接称280g，非280ml无密度换算。"
+        }
+      },
+      {
+        "name": "煎熟全鸡蛋（含来源中的烹调脂肪）",
+        "food": {
+          "fdc_id": 173423,
+          "description": "Egg, whole, cooked, fried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "98f06ca47c2d27ee64ba5ab624d3496e9318df435d7ef562f683795372e011bb"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "标准去壳熟可食量50g；USDA煎蛋数据已含其配方烹调脂肪，不另加油。"
+        }
+      }
+    ],
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex evidence review of scoped reference / standardized estimate (not USDA approval; no human measurement or sign-off claimed)",
+      "reviewed_at": "2026-10-28T01:08:12.181Z",
+      "checks": {
+        "recipe_version": "b977b832412acddb757bc7d62b6a46aaf5a6e178",
+        "food_identity": "regular and quick oats cooked with water，不误用oat bran；牛奶为3.25%全脂，鸡蛋为fried。",
+        "state_and_cooking": "按已煮熟燕麦及已煎熟全蛋的熟重使用熟食来源，完成后只汇总；不套生料重量。",
+        "edible_part": "熟可食重量200g燕麦+280g奶+50g去壳煎蛋。",
+        "additions": "煎蛋条目已含烹调脂肪，未漏油或重复加油；无额外糖酱及可选椒盐配菜。",
+        "brand": "通用食品，不含特定奶或燕麦品牌假设。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E7%89%9B%E5%A5%B6%E7%87%95%E9%BA%A6.md",
+          "note": "固定版本原文用于核对食材及工艺；标准配方克数为明确约定，非原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173905/nutrients",
+          "note": "复核原始USDA缓存中的食物描述、生熟、四项宏量营养及来源摘要。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+          "note": "复核原始USDA缓存中的食物描述、生熟、四项宏量营养及来源摘要。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173423/nutrients",
+          "note": "复核原始USDA缓存中的食物描述、生熟、四项宏量营养及来源摘要。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 71,
+        "protein_g": 2.54,
+        "carbohydrate_g": 12,
+        "fat_g": 1.52
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 71
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.54
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 12
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 1.52
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173905,
+        "description": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:29.848Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173905/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9eb3d863a5c10c01",
+        "raw_sha256": "9eb3d863a5c10c01ab722f61f296e973d343138dcbc0580a20049d032cb2a135",
+        "transport": "api_search_snapshot",
+        "query_sha256": "107fd3b301c3da1187970b7e12f4825082512d8a9e312ee1d4b9e679ffbe85ff"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 61,
+        "protein_g": 3.15,
+        "carbohydrate_g": 4.78,
+        "fat_g": 3.27
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 61
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.15
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.78
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.27
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172217,
+        "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:25.785Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 815f14b67231b3f2",
+        "raw_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fc598dbff21afe1348a1b23e5977c2974d48369f7891c90cfcf7751bed6cae07"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 196,
+        "protein_g": 13.6,
+        "carbohydrate_g": 0.83,
+        "fat_g": 14.8
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 196
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 13.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.83
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 14.8
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173423,
+        "description": "Egg, whole, cooked, fried",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:53:49.934Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173423/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 98f06ca47c2d27ee",
+        "raw_sha256": "98f06ca47c2d27ee64ba5ab624d3496e9318df435d7ef562f683795372e011bb",
+        "transport": "api_search_snapshot",
+        "query_sha256": "56e224a025bd3ae4d71f426085877c633af172f3319a65c146713c439e13ed36"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "清水煮熟燕麦（无盐）",
+        "food": {
+          "fdc_id": 173905,
+          "description": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9eb3d863a5c10c01ab722f61f296e973d343138dcbc0580a20049d032cb2a135"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "标准熟可食量200g；USDA熟燕麦来源，不推算原文干料出成率。"
+        },
+        "per_100g": {
+          "energy_kcal": 71,
+          "protein_g": 2.54,
+          "carbohydrate_g": 12,
+          "fat_g": 1.52
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 280,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "标准直接称280g，非280ml无密度换算。"
+        },
+        "per_100g": {
+          "energy_kcal": 61,
+          "protein_g": 3.15,
+          "carbohydrate_g": 4.78,
+          "fat_g": 3.27
+        },
+        "edible_g": 280
+      },
+      {
+        "name": "煎熟全鸡蛋（含来源中的烹调脂肪）",
+        "food": {
+          "fdc_id": 173423,
+          "description": "Egg, whole, cooked, fried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "98f06ca47c2d27ee64ba5ab624d3496e9318df435d7ef562f683795372e011bb"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "标准去壳熟可食量50g；USDA煎蛋数据已含其配方烹调脂肪，不另加油。"
+        },
+        "per_100g": {
+          "energy_kcal": 196,
+          "protein_g": 13.6,
+          "carbohydrate_g": 0.83,
+          "fat_g": 14.8
+        },
+        "edible_g": 50
+      }
+    ],
+    "total": {
+      "energy_kcal": 410.8,
+      "protein_g": 20.7,
+      "carbohydrate_g": 37.799,
+      "fat_g": 19.596
+    },
+    "final_edible_g": 530,
+    "per_100g": {
+      "energy_kcal": 77.509434,
+      "protein_g": 3.90566,
+      "carbohydrate_g": 7.131887,
+      "fat_g": 3.697358
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 77.42641,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

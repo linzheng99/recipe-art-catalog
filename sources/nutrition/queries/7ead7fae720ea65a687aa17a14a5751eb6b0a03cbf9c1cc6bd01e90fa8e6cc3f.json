@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "provider": "USDA FoodData Central",
+  "transport": "api",
+  "endpoint": "https://api.nal.usda.gov/fdc/v1/foods/search",
+  "request": {
+    "query": "\"BEAN CURD SHEET\"",
+    "dataType": [
+      "Branded"
+    ],
+    "pageSize": 20,
+    "pageNumber": 1
+  },
+  "retrieved_at": "2026-10-28T06:53:01.849Z",
+  "raw_sha256": "2c07093f4811f6e18d07196110b9f831ffceee47639b4802096f4eff7ee1a6e1",
+  "response": {
+    "totalHits": 0,
+    "currentPage": 1,
+    "totalPages": 0,
+    "pageList": [],
+    "foodSearchCriteria": {
+      "dataType": [
+        "Branded"
+      ],
+      "query": "\"BEAN CURD SHEET\"",
+      "generalSearchInput": "\"BEAN CURD SHEET\"",
+      "pageNumber": 1,
+      "numberOfResultsPerPage": 50,
+      "pageSize": 20,
+      "requireAllWords": false,
+      "foodTypes": [
+        "Branded"
+      ]
+    },
+    "foods": [],
+    "aggregations": {
+      "dataType": {},
+      "nutrients": {}
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "review_version": "generic-proxy-review-1",
+  "reviewed_at": "2026-10-29T00:12:53.721801+00:00",
+  "reviewer": "Codex source and process review; not a human or USDA sign-off",
+  "policy": "维护者授权同类通用食物代理并按常见家庭份计算；本批21篇均新增明确food_group_proxy标准版本。原有21条结论完整归档pre-generic-proxies-2026-10-29.json，具体原食材来源仍需精化的部分另存exact-source-backlog.json，不冒充原配方实测或精确身份匹配。",
+  "recipes": []
+}

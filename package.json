@@ -9,10 +9,17 @@
   "scripts": {
     "build": "node scripts/build.mjs && tsc --noEmit && vite build",
     "check": "npm run format:check && tsc --noEmit && node scripts/build.mjs --check",
+    "clean:generated": "node scripts/clean-generated.mjs",
     "format": "prettier --write src tests scripts/*.mjs *.config.ts index.html tsconfig.json components.json package.json",
     "format:check": "prettier --check src tests scripts/*.mjs *.config.ts index.html tsconfig.json components.json package.json",
     "test": "node --test tests/*.test.mjs && vitest run",
     "test:e2e": "playwright test",
+    "nutrition:sync": "node --env-file-if-exists=.env.local scripts/nutrition-sync.mjs",
+    "nutrition:ingredients": "node --env-file-if-exists=.env.local scripts/nutrition-ingredients.mjs",
+    "nutrition:prepare": "node scripts/nutrition-prepare-batches.mjs",
+    "nutrition:apply": "node scripts/nutrition-plans.mjs",
+    "nutrition:review": "node scripts/nutrition-review.mjs",
+    "usda": "node --env-file-if-exists=.env.local scripts/usda.mjs",
     "dev": "node scripts/build.mjs && vite",
     "preview": "node scripts/serve.mjs --dist"
   },

@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-34fadc2fa767",
+      "queries": [
+        "Pork fresh spareribs separable lean fat raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Sugars granulated",
+        "Ginger root raw",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-aaa0f1f21191",
+      "queries": [
+        "Beef shank crosscuts separable lean and fat raw",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        {
+          "query": "SWEET BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-249efab791e1",
+      "queries": [
+        "Pork fresh spareribs separable lean fat raw",
+        "Cornstarch",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Sugars granulated",
+        "Sauce fish ready to serve",
+        "Catsup",
+        "Vinegar cider",
+        "Garlic raw",
+        "Onions spring scallions tops bulb raw",
+        "Seeds sesame whole dried",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-bcbc233bc07c",
+      "queries": [
+        "Peppers sweet green raw",
+        "Potatoes flesh skin raw",
+        "Pork fresh belly raw",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Salt table",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking",
+        "Cornstarch",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f3bcbbe6cbfb",
+      "queries": [
+        "Peppers sweet green raw",
+        "Pork fresh ground raw",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Oil soybean salad cooking",
+        "Cornstarch",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e1297263237b",
+      "queries": [
+        "Pork fresh loin tenderloin separable lean only raw",
+        {
+          "query": "FIVE SPICE TOFU",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Peppers sweet green raw",
+        "Soy sauce shoyu",
+        "Cornstarch",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a2902089367e",
+      "queries": [
+        {
+          "query": "FIVE SPICE TOFU",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Celery raw",
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Garlic raw",
+        "Peppers sweet green raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-683225505a87",
+      "queries": [
+        "Pork fresh belly raw",
+        "Lettuce green leaf raw",
+        "Soy sauce shoyu",
+        "Ginger root raw",
+        "Garlic raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4f1a2679eb84",
+      "queries": [
+        "Chicken broilers fryers thigh meat only raw",
+        "Mushrooms shiitake raw",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Salt table",
+        "Oil sesame salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-36958538b5b1",
+      "queries": [
+        "Chicken feet raw",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Spices cinnamon ground",
+        "Salt table",
+        "Sugars granulated",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-5f3a3719b0e0",
+      "queries": [
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Carrots raw",
+        "Peppers sweet green raw",
+        "Mushrooms cloud ears raw",
+        "Soy sauce shoyu",
+        "Egg white raw fresh",
+        "Cornstarch",
+        "Vinegar cider",
+        "Sugars granulated",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-bfaaef2163dd",
+      "queries": [
+        "Eggplant raw",
+        "Pork fresh ground raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Vinegar cider",
+        "Cornstarch",
+        "Oil soybean salad cooking",
+        "Garlic raw",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c68aaa42a6ac",
+      "queries": [
+        "Tofu soft calcium sulfate magnesium chloride",
+        "Pork fresh ground raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Garlic raw",
+        "Ginger root raw",
+        "Peppers hot chili red raw",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking",
+        "Cornstarch",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1a8b110f53c6",
+      "queries": [
+        "Cabbage chinese pak choi raw",
+        "Spinach raw",
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Chicken broilers fryers thigh meat only raw",
+        {
+          "query": "FIVE SPICE TOFU",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        {
+          "query": "\"INSTANT NOODLES\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Spices pepper red cayenne",
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-636808171f3d",
+      "queries": [
+        "Chicken broilers fryers thigh meat only raw",
+        "Yogurt plain whole milk",
+        "Butter without salt",
+        "Cream fluid heavy whipping",
+        "Tomatoes red ripe raw year round average",
+        "Onions raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Nuts cashew nuts raw",
+        "Spices turmeric ground",
+        "Spices paprika",
+        "Spices coriander seed",
+        "Spices cumin seed",
+        "Spices cardamom",
+        "Spices cinnamon ground",
+        "Sugars granulated",
+        "Salt table",
+        "Oil soybean salad cooking",
+        "Lemon juice raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-832e8ac5e9aa",
+      "queries": [
+        "Chicken broilers fryers thigh meat only raw",
+        "Mushrooms shiitake raw",
+        "Peppers sweet green raw",
+        "Ginger root raw",
+        "Spices pepper red cayenne",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Salt table",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-292d0a9d95d8",
+      "queries": [
+        "Cucumber with peel raw",
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Garlic raw",
+        "Peppers hot chili red raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e38c861fa4b7",
+      "queries": [
+        "Beef tenderloin separable lean only raw",
+        "Onions raw",
+        "Peppers sweet red raw",
+        "Cornstarch",
+        "Spices pepper red cayenne",
+        "Salt table",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f20a63e1bd7e",
+      "queries": [
+        {
+          "query": "CHINESE STYLE SAUSAGE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Cabbage chinese pe tsai raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-617f7ae9488e",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Cornstarch",
+        "Water tap drinking",
+        "Cucumber with peel raw",
+        "Mung beans mature seeds sprouted raw",
+        "Seeds sesame butter tahini roasted toasted kernels",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Garlic raw",
+        "Oil sesame salad cooking",
+        "Sugars granulated",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-72605b6e5df1",
+      "queries": [
+        "Spaghetti cooked enriched without added salt",
+        "Tomatoes red ripe raw year round average",
+        "Pork fresh ground raw",
+        "Onions raw",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e960ac6812f3",
+      "queries": [
+        "Puff pastry frozen ready to bake",
+        "Egg whole raw fresh",
+        "Milk whole 3.25 milkfat",
+        "Cream fluid heavy whipping",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f3e472bcc3e6",
+      "queries": [
+        "Potatoes flesh skin raw",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1bc98124aec5",
+      "queries": [
+        {
+          "query": "Fat beef tallow",
+          "data_types": [
+            "SR Legacy"
+          ]
+        },
+        "Oil soybean salad cooking",
+        "Lard",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Spices pepper red cayenne",
+        "Tofu salted fermented fuyu prepared with calcium sulfate",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Ginger root raw",
+        "Garlic raw",
+        "Spices cumin seed",
+        "Spices cinnamon ground",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    }
+  ]
+}

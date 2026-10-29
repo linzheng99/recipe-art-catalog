@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "id": "family-a1ba8de42384-v1",
+  "recipe_id": "howtocook-a1ba8de42384",
+  "recipe_blob_sha": "200c3800de02633b617135481c841fe5ea6f1e9a",
+  "version": "1",
+  "data_version": "a7e74acdf7b8549c",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：白吐司150g、通用果酱30g；整份约180g。白吐司与通用果酱，不加原文以外配料，品牌不明时仅此标准参考。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-a1ba8de42384",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": null,
+    "variant": "family-a1ba8de42384-v1",
+    "standard_ingredients": [
+      {
+        "key": "bread",
+        "grams": 150
+      },
+      {
+        "key": "jam",
+        "grams": 30
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 268,
+    "protein_g": 7.436667,
+    "carbohydrate_g": 52.65,
+    "fat_g": 2.786667
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+    "version": "a7e74acdf7b8549c",
+    "fdc_ids": [
+      174924,
+      169641
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E5%90%90%E5%8F%B8%E6%9E%9C%E9%85%B1.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "200c3800de02633b617135481c841fe5ea6f1e9a"
+  },
+  "profile": {
+    "id": "family-a1ba8de42384-v1",
+    "version": "1",
+    "recipe_id": "howtocook-a1ba8de42384",
+    "recipe_blob_sha": "200c3800de02633b617135481c841fe5ea6f1e9a",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：白吐司150g、通用果酱30g；整份约180g。白吐司与通用果酱，不加原文以外配料，品牌不明时仅此标准参考。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-a1ba8de42384",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": null,
+      "variant": "family-a1ba8de42384-v1",
+      "standard_ingredients": [
+        {
+          "key": "bread",
+          "grams": 150
+        },
+        {
+          "key": "jam",
+          "grams": 30
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：白吐司150g、通用果酱30g。克数是项目标准，不是原文ml/个数换算。",
+      "白吐司与通用果酱，不加原文以外配料，品牌不明时仅此标准参考",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用果酱",
+        "food": {
+          "fdc_id": 169641,
+          "description": "Jams and preserves",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3c5f877407ca51bc60bc4ed17fd24c8cd58aba9ee3d11cdd56b2aef54318029b"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 180,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:09:54.756Z",
+      "checks": {
+        "recipe_version": "200c3800de02633b617135481c841fe5ea6f1e9a",
+        "food_identity": "Bread, white, commercially prepared (includes soft bread crumbs); Jams and preserves",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "白吐司与通用果酱，不加原文以外配料，品牌不明时仅此标准参考"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E5%90%90%E5%8F%B8%E6%9E%9C%E9%85%B1.md",
+          "blob_sha": "200c3800de02633b617135481c841fe5ea6f1e9a",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+          "note": "白吐司：Bread, white, commercially prepared (includes soft bread crumbs)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169641/nutrients",
+          "note": "通用果酱：Jams and preserves；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 266,
+        "protein_g": 8.85,
+        "carbohydrate_g": 49.4,
+        "fat_g": 3.33
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 266
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.85
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 49.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.33
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174924,
+        "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:29.094Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f9628b59b6c86dd1",
+        "raw_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d9f54e13a381e5bc847cfa372356ec7400acf0fceb0864e10fbfeaf4642397ea"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 278,
+        "protein_g": 0.37,
+        "carbohydrate_g": 68.9,
+        "fat_g": 0.07
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 278
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.37
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 68.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.07
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169641,
+        "description": "Jams and preserves",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:05:16.011Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169641/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 3c5f877407ca51bc",
+        "raw_sha256": "3c5f877407ca51bc60bc4ed17fd24c8cd58aba9ee3d11cdd56b2aef54318029b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "6f36ba2dd4f61107fa662f9e3c9a46968aaaab5e0b5d17d57f7825879a0c98d3"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 266,
+          "protein_g": 8.85,
+          "carbohydrate_g": 49.4,
+          "fat_g": 3.33
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "通用果酱",
+        "food": {
+          "fdc_id": 169641,
+          "description": "Jams and preserves",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3c5f877407ca51bc60bc4ed17fd24c8cd58aba9ee3d11cdd56b2aef54318029b"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 278,
+          "protein_g": 0.37,
+          "carbohydrate_g": 68.9,
+          "fat_g": 0.07
+        },
+        "edible_g": 30
+      }
+    ],
+    "total": {
+      "energy_kcal": 482.4,
+      "protein_g": 13.386,
+      "carbohydrate_g": 94.77,
+      "fat_g": 5.016
+    },
+    "final_edible_g": 180,
+    "per_100g": {
+      "energy_kcal": 268,
+      "protein_g": 7.436667,
+      "carbohydrate_g": 52.65,
+      "fat_g": 2.786667
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 265.426671,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

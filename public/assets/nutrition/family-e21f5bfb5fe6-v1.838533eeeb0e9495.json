@@ -1,0 +1,876 @@
+{
+  "schema_version": 1,
+  "id": "family-e21f5bfb5fe6-v1",
+  "recipe_id": "howtocook-e21f5bfb5fe6",
+  "recipe_blob_sha": "ba1bcd7eee1fb76c318f87ff45eddce2943366f5",
+  "version": "1",
+  "data_version": "19d54c475a24b540",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 850,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品850g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：S&B GOLDEN CURRY咖喱块65g、牛胸腹肉（去骨带脂）300g、3.25%全脂牛奶150g、洋葱200g、胡萝卜100g、土豆净可食量（USDA带皮宏量代理）150g、饮用水200g；整份约850g。指定S&B咖喱块，牛胸腩含脂净肉切薄片作为明确肥牛部位；不加香叶，不焯水弃汁；奶量按克称，所有咖喱汤汁食用。限定品牌：S&B GOLDEN CURRY咖喱块=S&B GTIN 074880030327。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-e21f5bfb5fe6",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": "S&B GOLDEN CURRY咖喱块=S&B GTIN 074880030327",
+    "variant": "family-e21f5bfb5fe6-v1",
+    "standard_ingredients": [
+      {
+        "key": "curry_roux_branded",
+        "grams": 65
+      },
+      {
+        "key": "beef_brisket",
+        "grams": 300
+      },
+      {
+        "key": "milk",
+        "grams": 150
+      },
+      {
+        "key": "onion",
+        "grams": 200
+      },
+      {
+        "key": "carrot",
+        "grams": 100
+      },
+      {
+        "key": "potato",
+        "grams": 150
+      },
+      {
+        "key": "water",
+        "grams": 200
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 169.941176,
+    "protein_g": 8.162353,
+    "carbohydrate_g": 10.895294,
+    "fat_g": 10.062353
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/2031609/nutrients",
+    "version": "19d54c475a24b540",
+    "fdc_ids": [
+      2031609,
+      168664,
+      172217,
+      170000,
+      170393,
+      170026,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "ba1bcd7eee1fb76c318f87ff45eddce2943366f5"
+  },
+  "profile": {
+    "id": "family-e21f5bfb5fe6-v1",
+    "version": "1",
+    "recipe_id": "howtocook-e21f5bfb5fe6",
+    "recipe_blob_sha": "ba1bcd7eee1fb76c318f87ff45eddce2943366f5",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：S&B GOLDEN CURRY咖喱块65g、牛胸腹肉（去骨带脂）300g、3.25%全脂牛奶150g、洋葱200g、胡萝卜100g、土豆净可食量（USDA带皮宏量代理）150g、饮用水200g；整份约850g。指定S&B咖喱块，牛胸腩含脂净肉切薄片作为明确肥牛部位；不加香叶，不焯水弃汁；奶量按克称，所有咖喱汤汁食用。限定品牌：S&B GOLDEN CURRY咖喱块=S&B GTIN 074880030327。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-e21f5bfb5fe6",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": "S&B GOLDEN CURRY咖喱块=S&B GTIN 074880030327",
+      "variant": "family-e21f5bfb5fe6-v1",
+      "standard_ingredients": [
+        {
+          "key": "curry_roux_branded",
+          "grams": 65
+        },
+        {
+          "key": "beef_brisket",
+          "grams": 300
+        },
+        {
+          "key": "milk",
+          "grams": 150
+        },
+        {
+          "key": "onion",
+          "grams": 200
+        },
+        {
+          "key": "carrot",
+          "grams": 100
+        },
+        {
+          "key": "potato",
+          "grams": 150
+        },
+        {
+          "key": "water",
+          "grams": 200
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：S&B GOLDEN CURRY咖喱块65g、牛胸腹肉（去骨带脂）300g、3.25%全脂牛奶150g、洋葱200g、胡萝卜100g、土豆净可食量（USDA带皮宏量代理）150g、饮用水200g。克数是项目标准，不是原文ml/个数换算。",
+      "指定S&B咖喱块，牛胸腩含脂净肉切薄片作为明确肥牛部位；不加香叶，不焯水弃汁；奶量按克称，所有咖喱汤汁食用",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "S&B GOLDEN CURRY咖喱块",
+        "food": {
+          "fdc_id": 2031609,
+          "description": "S&B, GOLDEN CURRY, SAUCE MIX",
+          "data_type": "Branded",
+          "snapshot_sha256": "68d40dd804129e9c0fa9602ae113ccee0a1038c5a3bc4b34bffcfb3425737276",
+          "brand_owner": "S & B Shokuhin Company Ltd",
+          "brand_name": "S&B",
+          "gtin_upc": "074880030327"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 65,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定S&B GOLDEN CURRY sauce mix固体调味块，非带蔬菜成品咖喱或好侍标签；品牌配方按对应GTIN。"
+      },
+      {
+        "name": "牛胸腹肉（去骨带脂）",
+        "food": {
+          "fdc_id": 168664,
+          "description": "Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "10b4ea1f47b4efd594bf80064e79e2a1ab5c1cc792a54f4adcf4a4041d0a472f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "胡萝卜",
+        "food": {
+          "fdc_id": 170393,
+          "description": "Carrots, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "土豆净可食量（USDA带皮宏量代理）",
+        "food": {
+          "fdc_id": 170026,
+          "description": "Potatoes, flesh and skin, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3154c915df83c6912ed093f4b0f5006d5091d36204ab66d9a9ffad322a9baca0"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 850,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品850g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:06:41.733Z",
+      "checks": {
+        "recipe_version": "ba1bcd7eee1fb76c318f87ff45eddce2943366f5",
+        "food_identity": "S&B, GOLDEN CURRY, SAUCE MIX; Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, all grades, raw; Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D; Onions, raw; Carrots, raw; Potatoes, flesh and skin, raw; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/raw/ready_to_eat/raw/raw/raw/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "S&B GOLDEN CURRY咖喱块=S&B GTIN 074880030327",
+        "standard_variant": "指定S&B咖喱块，牛胸腩含脂净肉切薄片作为明确肥牛部位；不加香叶，不焯水弃汁；奶量按克称，所有咖喱汤汁食用"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B.md",
+          "blob_sha": "ba1bcd7eee1fb76c318f87ff45eddce2943366f5",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2031609/nutrients",
+          "note": "S&B GOLDEN CURRY咖喱块：S&B, GOLDEN CURRY, SAUCE MIX；已核对数据类型、生熟、可食部分及原始摘要。限定S&B GOLDEN CURRY sauce mix固体调味块，非带蔬菜成品咖喱或好侍标签；品牌配方按对应GTIN。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168664/nutrients",
+          "note": "牛胸腹肉（去骨带脂）：Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, all grades, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+          "note": "3.25%全脂牛奶：Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "洋葱：Onions, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170393/nutrients",
+          "note": "胡萝卜：Carrots, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170026/nutrients",
+          "note": "土豆净可食量（USDA带皮宏量代理）：Potatoes, flesh and skin, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 550,
+        "protein_g": 5,
+        "carbohydrate_g": 45,
+        "fat_g": 35
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 550
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 45
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 35
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2031609,
+        "description": "S&B, GOLDEN CURRY, SAUCE MIX",
+        "data_type": "Branded",
+        "brand_owner": "S & B Shokuhin Company Ltd",
+        "brand_name": "S&B",
+        "gtin_upc": "074880030327",
+        "ingredients": "WHEAT FLOUR, EDIBLE OILS(PALM OIL,CANOLA OIL), SALT, SUGAR, CURRY POWDER, SPICES, CARAMEL, MONOSODIUM GLUTAMATE, MALIC ACID, DISODIUM GUANYLATE, DISODIUM INOSINATE.",
+        "publication_date": "2021-10-28",
+        "retrieved_at": "2026-10-28T06:01:46.115Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2031609/nutrients",
+        "version": "Branded / 2021-10-28 / 68d40dd804129e9c",
+        "raw_sha256": "68d40dd804129e9c0fa9602ae113ccee0a1038c5a3bc4b34bffcfb3425737276",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7e7a677115a75c6151e9c86189b41f2f2fe2cb03c118d1c7d5b9434b0ebc12bc"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 253,
+        "protein_g": 18.4,
+        "carbohydrate_g": 0.56,
+        "fat_g": 19.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 253
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 18.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.56
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 19.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168664,
+        "description": "Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:11:34.975Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168664/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 10b4ea1f47b4efd5",
+        "raw_sha256": "10b4ea1f47b4efd594bf80064e79e2a1ab5c1cc792a54f4adcf4a4041d0a472f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "99ae471e000ea54fe107b4f9ed984cf51f8c4d6e566d00b6c93d78016d1eb035"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 61,
+        "protein_g": 3.15,
+        "carbohydrate_g": 4.78,
+        "fat_g": 3.27
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 61
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.15
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.78
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.27
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172217,
+        "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:25.785Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 815f14b67231b3f2",
+        "raw_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fc598dbff21afe1348a1b23e5977c2974d48369f7891c90cfcf7751bed6cae07"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 40,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.34,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 40
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170000,
+        "description": "Onions, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:22.135Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+        "version": "SR Legacy / 2019-04-01 / fe11efa3ee637efd",
+        "raw_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9",
+        "transport": "api_search_snapshot",
+        "query_sha256": "9e6bc240d3f56b6d8354fad391941b71f47fb49307a0a36c0aaa1ef78922bf41"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 41,
+        "protein_g": 0.93,
+        "carbohydrate_g": 9.58,
+        "fat_g": 0.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 41
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.93
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.58
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170393,
+        "description": "Carrots, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:34.603Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170393/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 5d6fcdd9d5d95e0b",
+        "raw_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7081f1901d0911da91690d10c6388dc7b1f403c9f0ac1473725a075db13dddbd"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 77,
+        "protein_g": 2.05,
+        "carbohydrate_g": 17.5,
+        "fat_g": 0.09
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 77
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.05
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.5
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.09
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170026,
+        "description": "Potatoes, flesh and skin, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:42.149Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170026/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 3154c915df83c691",
+        "raw_sha256": "3154c915df83c6912ed093f4b0f5006d5091d36204ab66d9a9ffad322a9baca0",
+        "transport": "api_search_snapshot",
+        "query_sha256": "948ce799300fabd5223bc48d5564016f96314aa9f75c3d6645c3bb068f16f756"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "S&B GOLDEN CURRY咖喱块",
+        "food": {
+          "fdc_id": 2031609,
+          "description": "S&B, GOLDEN CURRY, SAUCE MIX",
+          "data_type": "Branded",
+          "snapshot_sha256": "68d40dd804129e9c0fa9602ae113ccee0a1038c5a3bc4b34bffcfb3425737276",
+          "brand_owner": "S & B Shokuhin Company Ltd",
+          "brand_name": "S&B",
+          "gtin_upc": "074880030327"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 65,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定S&B GOLDEN CURRY sauce mix固体调味块，非带蔬菜成品咖喱或好侍标签；品牌配方按对应GTIN。",
+        "per_100g": {
+          "energy_kcal": 550,
+          "protein_g": 5,
+          "carbohydrate_g": 45,
+          "fat_g": 35
+        },
+        "edible_g": 65
+      },
+      {
+        "name": "牛胸腹肉（去骨带脂）",
+        "food": {
+          "fdc_id": 168664,
+          "description": "Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "10b4ea1f47b4efd594bf80064e79e2a1ab5c1cc792a54f4adcf4a4041d0a472f"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 253,
+          "protein_g": 18.4,
+          "carbohydrate_g": 0.56,
+          "fat_g": 19.1
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 61,
+          "protein_g": 3.15,
+          "carbohydrate_g": 4.78,
+          "fat_g": 3.27
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 40,
+          "protein_g": 1.1,
+          "carbohydrate_g": 9.34,
+          "fat_g": 0.1
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "胡萝卜",
+        "food": {
+          "fdc_id": 170393,
+          "description": "Carrots, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "5d6fcdd9d5d95e0bfa63b73b2846130a0ed9247a6a6699fbec87d3dd10cf843b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 41,
+          "protein_g": 0.93,
+          "carbohydrate_g": 9.58,
+          "fat_g": 0.24
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "土豆净可食量（USDA带皮宏量代理）",
+        "food": {
+          "fdc_id": 170026,
+          "description": "Potatoes, flesh and skin, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3154c915df83c6912ed093f4b0f5006d5091d36204ab66d9a9ffad322a9baca0"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。",
+        "per_100g": {
+          "energy_kcal": 77,
+          "protein_g": 2.05,
+          "carbohydrate_g": 17.5,
+          "fat_g": 0.09
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 200
+      }
+    ],
+    "total": {
+      "energy_kcal": 1444.5,
+      "protein_g": 69.38,
+      "carbohydrate_g": 92.61,
+      "fat_g": 85.53
+    },
+    "final_edible_g": 850,
+    "per_100g": {
+      "energy_kcal": 169.941176,
+      "protein_g": 8.162353,
+      "carbohydrate_g": 10.895294,
+      "fat_g": 10.062353
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 166.791765,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

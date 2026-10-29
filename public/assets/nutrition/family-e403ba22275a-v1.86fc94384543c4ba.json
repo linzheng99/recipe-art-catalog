@@ -1,0 +1,746 @@
+{
+  "schema_version": 1,
+  "id": "family-e403ba22275a-v1",
+  "recipe_id": "howtocook-e403ba22275a",
+  "recipe_blob_sha": "fa8ba5b7815fac829991281c11be6ad420516a74",
+  "version": "1",
+  "data_version": "d4ede2188d8afe0a",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：奇亚籽30g、3.25%全脂牛奶100g、芒果果肉300g、红心葡萄柚果肉100g、椰奶180g、饮用水50g；整份约760g。按原文奇亚籽改良版，非西米版；芒果葡萄柚去皮去核净重，椰奶限定USDA通用未加糖椰浆，冰全部融化，无干果点缀；原文ml均改为独立称克标准。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-e403ba22275a",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-e403ba22275a-v1",
+    "standard_ingredients": [
+      {
+        "key": "chia",
+        "grams": 30
+      },
+      {
+        "key": "milk",
+        "grams": 100
+      },
+      {
+        "key": "mango",
+        "grams": 300
+      },
+      {
+        "key": "grapefruit",
+        "grams": 100
+      },
+      {
+        "key": "coconut_milk",
+        "grams": 180
+      },
+      {
+        "key": "water",
+        "grams": 50
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 110.894737,
+    "protein_g": 2.033158,
+    "carbohydrate_g": 10.931842,
+    "fat_g": 7.447368
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+    "version": "d4ede2188d8afe0a",
+    "fdc_ids": [
+      170554,
+      172217,
+      169910,
+      174673,
+      170172,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E6%9D%A8%E6%9E%9D%E7%94%98%E9%9C%B2.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "fa8ba5b7815fac829991281c11be6ad420516a74"
+  },
+  "profile": {
+    "id": "family-e403ba22275a-v1",
+    "version": "1",
+    "recipe_id": "howtocook-e403ba22275a",
+    "recipe_blob_sha": "fa8ba5b7815fac829991281c11be6ad420516a74",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：奇亚籽30g、3.25%全脂牛奶100g、芒果果肉300g、红心葡萄柚果肉100g、椰奶180g、饮用水50g；整份约760g。按原文奇亚籽改良版，非西米版；芒果葡萄柚去皮去核净重，椰奶限定USDA通用未加糖椰浆，冰全部融化，无干果点缀；原文ml均改为独立称克标准。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-e403ba22275a",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-e403ba22275a-v1",
+      "standard_ingredients": [
+        {
+          "key": "chia",
+          "grams": 30
+        },
+        {
+          "key": "milk",
+          "grams": 100
+        },
+        {
+          "key": "mango",
+          "grams": 300
+        },
+        {
+          "key": "grapefruit",
+          "grams": 100
+        },
+        {
+          "key": "coconut_milk",
+          "grams": 180
+        },
+        {
+          "key": "water",
+          "grams": 50
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：奇亚籽30g、3.25%全脂牛奶100g、芒果果肉300g、红心葡萄柚果肉100g、椰奶180g、饮用水50g。克数是项目标准，不是原文ml/个数换算。",
+      "按原文奇亚籽改良版，非西米版；芒果葡萄柚去皮去核净重，椰奶限定USDA通用未加糖椰浆，冰全部融化，无干果点缀；原文ml均改为独立称克标准",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "奇亚籽",
+        "food": {
+          "fdc_id": 170554,
+          "description": "Seeds, chia seeds, dried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c667403c2f7709b053718b2d2eef1531370898052aa85c42151875b5d88d3b39"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "干奇亚籽净重，泡奶后连籽全部食用；不是西米。"
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "芒果果肉",
+        "food": {
+          "fdc_id": 169910,
+          "description": "Mangos, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "660d36886cc484e10cbb29fc68175c774d95b46419939ba41dcc4d22ada9e530"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "红心葡萄柚果肉",
+        "food": {
+          "fdc_id": 174673,
+          "description": "Grapefruit, raw, pink and red, all areas",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fc1f0cd39b1d51a9a4c00ac57fa7c23ec33dbf226db247898c6be87fbaa1fc50"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "红心葡萄柚净果肉，不采用果汁、柚皮、白心柚或橙子条目。"
+      },
+      {
+        "name": "椰奶",
+        "food": {
+          "fdc_id": 170172,
+          "description": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "114034c3167e189abe2b4c9005b6b286f001ca240db33ec94d402d5494bf8a4a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 760,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:06:41.733Z",
+      "checks": {
+        "recipe_version": "fa8ba5b7815fac829991281c11be6ad420516a74",
+        "food_identity": "Seeds, chia seeds, dried; Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D; Mangos, raw; Grapefruit, raw, pink and red, all areas; Nuts, coconut milk, raw (liquid expressed from grated meat and water); Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/raw/raw/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "按原文奇亚籽改良版，非西米版；芒果葡萄柚去皮去核净重，椰奶限定USDA通用未加糖椰浆，冰全部融化，无干果点缀；原文ml均改为独立称克标准"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E6%9D%A8%E6%9E%9D%E7%94%98%E9%9C%B2.md",
+          "blob_sha": "fa8ba5b7815fac829991281c11be6ad420516a74",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+          "note": "奇亚籽：Seeds, chia seeds, dried；已核对数据类型、生熟、可食部分及原始摘要。干奇亚籽净重，泡奶后连籽全部食用；不是西米。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+          "note": "3.25%全脂牛奶：Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169910/nutrients",
+          "note": "芒果果肉：Mangos, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174673/nutrients",
+          "note": "红心葡萄柚果肉：Grapefruit, raw, pink and red, all areas；已核对数据类型、生熟、可食部分及原始摘要。红心葡萄柚净果肉，不采用果汁、柚皮、白心柚或橙子条目。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170172/nutrients",
+          "note": "椰奶：Nuts, coconut milk, raw (liquid expressed from grated meat and water)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 486,
+        "protein_g": 16.5,
+        "carbohydrate_g": 42.1,
+        "fat_g": 30.7
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 486
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 16.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 42.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 30.7
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170554,
+        "description": "Seeds, chia seeds, dried",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:57:13.107Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+        "version": "SR Legacy / 2019-04-01 / c667403c2f7709b0",
+        "raw_sha256": "c667403c2f7709b053718b2d2eef1531370898052aa85c42151875b5d88d3b39",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ffe05b6a63eba7fa226a1dfbf9a202f455752ae8f0d07846a1eb10e612646de2"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 61,
+        "protein_g": 3.15,
+        "carbohydrate_g": 4.78,
+        "fat_g": 3.27
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 61
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.15
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.78
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.27
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172217,
+        "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:25.785Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 815f14b67231b3f2",
+        "raw_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fc598dbff21afe1348a1b23e5977c2974d48369f7891c90cfcf7751bed6cae07"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 60,
+        "protein_g": 0.82,
+        "carbohydrate_g": 15,
+        "fat_g": 0.38
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 60
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 15
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.38
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169910,
+        "description": "Mangos, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:14.513Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169910/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 660d36886cc484e1",
+        "raw_sha256": "660d36886cc484e10cbb29fc68175c774d95b46419939ba41dcc4d22ada9e530",
+        "transport": "api_search_snapshot",
+        "query_sha256": "937977c51407aae14dba1f7dd7edd8772db915adb6aa9a55366a60b3a8b8e94a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 42,
+        "protein_g": 0.77,
+        "carbohydrate_g": 10.7,
+        "fat_g": 0.14
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 42
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.77
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 10.7
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.14
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174673,
+        "description": "Grapefruit, raw, pink and red, all areas",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:22:57.144Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174673/nutrients",
+        "version": "SR Legacy / 2019-04-01 / fc1f0cd39b1d51a9",
+        "raw_sha256": "fc1f0cd39b1d51a9a4c00ac57fa7c23ec33dbf226db247898c6be87fbaa1fc50",
+        "transport": "api_search_snapshot",
+        "query_sha256": "6ccb4efed098f32093312a063aa800fbff2531d63d5be6172511cd9c3fdadca3"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 230,
+        "protein_g": 2.29,
+        "carbohydrate_g": 5.54,
+        "fat_g": 23.8
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 230
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.29
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 5.54
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 23.8
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170172,
+        "description": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:54.495Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170172/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 114034c3167e189a",
+        "raw_sha256": "114034c3167e189abe2b4c9005b6b286f001ca240db33ec94d402d5494bf8a4a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "f4e8b24e8d7a5388260105a0c1b2b8b1e3c17f6e1275e2e9a1b5518e198fae9e"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "奇亚籽",
+        "food": {
+          "fdc_id": 170554,
+          "description": "Seeds, chia seeds, dried",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "c667403c2f7709b053718b2d2eef1531370898052aa85c42151875b5d88d3b39"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "干奇亚籽净重，泡奶后连籽全部食用；不是西米。",
+        "per_100g": {
+          "energy_kcal": 486,
+          "protein_g": 16.5,
+          "carbohydrate_g": 42.1,
+          "fat_g": 30.7
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 61,
+          "protein_g": 3.15,
+          "carbohydrate_g": 4.78,
+          "fat_g": 3.27
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "芒果果肉",
+        "food": {
+          "fdc_id": 169910,
+          "description": "Mangos, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "660d36886cc484e10cbb29fc68175c774d95b46419939ba41dcc4d22ada9e530"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 300,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 60,
+          "protein_g": 0.82,
+          "carbohydrate_g": 15,
+          "fat_g": 0.38
+        },
+        "edible_g": 300
+      },
+      {
+        "name": "红心葡萄柚果肉",
+        "food": {
+          "fdc_id": 174673,
+          "description": "Grapefruit, raw, pink and red, all areas",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fc1f0cd39b1d51a9a4c00ac57fa7c23ec33dbf226db247898c6be87fbaa1fc50"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "红心葡萄柚净果肉，不采用果汁、柚皮、白心柚或橙子条目。",
+        "per_100g": {
+          "energy_kcal": 42,
+          "protein_g": 0.77,
+          "carbohydrate_g": 10.7,
+          "fat_g": 0.14
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "椰奶",
+        "food": {
+          "fdc_id": 170172,
+          "description": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "114034c3167e189abe2b4c9005b6b286f001ca240db33ec94d402d5494bf8a4a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 180,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 230,
+          "protein_g": 2.29,
+          "carbohydrate_g": 5.54,
+          "fat_g": 23.8
+        },
+        "edible_g": 180
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 50
+      }
+    ],
+    "total": {
+      "energy_kcal": 842.8,
+      "protein_g": 15.452,
+      "carbohydrate_g": 83.082,
+      "fat_g": 56.6
+    },
+    "final_edible_g": 760,
+    "per_100g": {
+      "energy_kcal": 110.894737,
+      "protein_g": 2.033158,
+      "carbohydrate_g": 10.931842,
+      "fat_g": 7.447368
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 118.886312,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

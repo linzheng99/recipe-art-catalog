@@ -1,0 +1,1469 @@
+{
+  "schema_version": 1,
+  "id": "family-c5fddf9813b2-v1",
+  "recipe_id": "howtocook-c5fddf9813b2",
+  "recipe_blob_sha": "70020b8cde06c6f4e3fb0b516816da3998e6ebd6",
+  "version": "1",
+  "data_version": "f31ba8914c2fbcbc",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "recipe_estimate",
+  "estimation_level": "food_group_proxy",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 1600,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品1600g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "同类食物代理粗估；2–3人家庭标准配方估算：通用熟血肠（韩国高血含量型）200g、通用酸包菜500g、肋排可食肉脂（去骨）250g、去皮大蒜25g、姜10g、干辣椒3g、小葱20g、芝麻香油12g、大豆食用油10g、通用酱油（shoyu近似）10g、食盐5g、饮用水800g；整份约1600g。血肠200g采用通用韩国高血含量熟血肠代理，含谷物脂肪的比例可能不同，非东北血肠或品牌实测；酸菜500g采用无额外油的通用酸包菜。排骨只计去骨肉脂250g，不计原文带骨毛重400g；香油12g含蘸料，所有油酱及汤汁一并食用。省略弃去的香料包和酒，成品1600g为2–3人家庭假设。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "identity_precision": "food_group_proxy",
+    "food_proxies": [
+      {
+        "target": "东北血肠",
+        "reference_name": "通用熟血肠（韩国高血含量型）",
+        "food": {
+          "provider": "krda",
+          "food_id": "I0220020009e",
+          "description": "순대, 선지 비율 높은것",
+          "data_type": "KRDA Standard Food Composition DB",
+          "snapshot_sha256": "8a5a8a4cbe7dd0d9dde04a8442ff3a1240951b06f844fa07c1a58afe53a4cae7"
+        },
+        "reason": "同类熟血肠代理，血量、谷物和脂肪组成可能不同"
+      },
+      {
+        "target": "酸白菜",
+        "reference_name": "通用酸包菜",
+        "food": {
+          "fdc_id": 169279,
+          "description": "Sauerkraut, canned, solids and liquids",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "bc1168c4f8fc944416f31663335ee12e158ceb15a4ba81831a41906caa34d1ea"
+        },
+        "reason": "通用发酵酸包菜代理，非具体产品"
+      }
+    ],
+    "food_identity": "howtocook-c5fddf9813b2",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": true,
+    "brand": null,
+    "variant": "family-c5fddf9813b2-v1",
+    "standard_ingredients": [
+      {
+        "key": "krda_blood_sausage",
+        "grams": 200
+      },
+      {
+        "key": "sauerkraut_plain",
+        "grams": 500,
+        "name": "通用酸包菜"
+      },
+      {
+        "key": "pork_ribs",
+        "grams": 250
+      },
+      {
+        "key": "garlic",
+        "grams": 25
+      },
+      {
+        "key": "ginger",
+        "grams": 10
+      },
+      {
+        "key": "chili_dry",
+        "grams": 3
+      },
+      {
+        "key": "scallion",
+        "grams": 20
+      },
+      {
+        "key": "sesame_oil",
+        "grams": 12
+      },
+      {
+        "key": "oil",
+        "grams": 10
+      },
+      {
+        "key": "soy",
+        "grams": 10
+      },
+      {
+        "key": "salt",
+        "grams": 5
+      },
+      {
+        "key": "water",
+        "grams": 800
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 84.279375,
+    "protein_g": 4.06575,
+    "carbohydrate_g": 3.650875,
+    "fat_g": 6.047125
+  },
+  "source": {
+    "name": "韩国 RDA 国家标准食物成分 DB + USDA FoodData Central",
+    "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+    "version": "f31ba8914c2fbcbc",
+    "fdc_ids": [
+      169279,
+      167853,
+      169230,
+      169231,
+      170932,
+      170005,
+      171016,
+      171411,
+      174277,
+      173468,
+      173647
+    ],
+    "providers": [
+      "krda",
+      "usda"
+    ],
+    "food_ids": [
+      {
+        "provider": "krda",
+        "id": "I0220020009e"
+      }
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E6%9D%80%E7%8C%AA%E8%8F%9C.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "70020b8cde06c6f4e3fb0b516816da3998e6ebd6"
+  },
+  "profile": {
+    "id": "family-c5fddf9813b2-v1",
+    "version": "1",
+    "recipe_id": "howtocook-c5fddf9813b2",
+    "recipe_blob_sha": "70020b8cde06c6f4e3fb0b516816da3998e6ebd6",
+    "method": "recipe_estimate",
+    "estimation_level": "food_group_proxy",
+    "default_for_artwork": false,
+    "scope": "同类食物代理粗估；2–3人家庭标准配方估算：通用熟血肠（韩国高血含量型）200g、通用酸包菜500g、肋排可食肉脂（去骨）250g、去皮大蒜25g、姜10g、干辣椒3g、小葱20g、芝麻香油12g、大豆食用油10g、通用酱油（shoyu近似）10g、食盐5g、饮用水800g；整份约1600g。血肠200g采用通用韩国高血含量熟血肠代理，含谷物脂肪的比例可能不同，非东北血肠或品牌实测；酸菜500g采用无额外油的通用酸包菜。排骨只计去骨肉脂250g，不计原文带骨毛重400g；香油12g含蘸料，所有油酱及汤汁一并食用。省略弃去的香料包和酒，成品1600g为2–3人家庭假设。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "identity_precision": "food_group_proxy",
+      "food_proxies": [
+        {
+          "target": "东北血肠",
+          "reference_name": "通用熟血肠（韩国高血含量型）",
+          "food": {
+            "provider": "krda",
+            "food_id": "I0220020009e",
+            "description": "순대, 선지 비율 높은것",
+            "data_type": "KRDA Standard Food Composition DB",
+            "snapshot_sha256": "8a5a8a4cbe7dd0d9dde04a8442ff3a1240951b06f844fa07c1a58afe53a4cae7"
+          },
+          "reason": "同类熟血肠代理，血量、谷物和脂肪组成可能不同"
+        },
+        {
+          "target": "酸白菜",
+          "reference_name": "通用酸包菜",
+          "food": {
+            "fdc_id": 169279,
+            "description": "Sauerkraut, canned, solids and liquids",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "bc1168c4f8fc944416f31663335ee12e158ceb15a4ba81831a41906caa34d1ea"
+          },
+          "reason": "通用发酵酸包菜代理，非具体产品"
+        }
+      ],
+      "food_identity": "howtocook-c5fddf9813b2",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": true,
+      "brand": null,
+      "variant": "family-c5fddf9813b2-v1",
+      "standard_ingredients": [
+        {
+          "key": "krda_blood_sausage",
+          "grams": 200
+        },
+        {
+          "key": "sauerkraut_plain",
+          "grams": 500,
+          "name": "通用酸包菜"
+        },
+        {
+          "key": "pork_ribs",
+          "grams": 250
+        },
+        {
+          "key": "garlic",
+          "grams": 25
+        },
+        {
+          "key": "ginger",
+          "grams": 10
+        },
+        {
+          "key": "chili_dry",
+          "grams": 3
+        },
+        {
+          "key": "scallion",
+          "grams": 20
+        },
+        {
+          "key": "sesame_oil",
+          "grams": 12
+        },
+        {
+          "key": "oil",
+          "grams": 10
+        },
+        {
+          "key": "soy",
+          "grams": 10
+        },
+        {
+          "key": "salt",
+          "grams": 5
+        },
+        {
+          "key": "water",
+          "grams": 800
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：通用熟血肠（韩国高血含量型）200g、通用酸包菜500g、肋排可食肉脂（去骨）250g、去皮大蒜25g、姜10g、干辣椒3g、小葱20g、芝麻香油12g、大豆食用油10g、通用酱油（shoyu近似）10g、食盐5g、饮用水800g。克数是项目标准，不是原文ml/个数换算。",
+      "血肠200g采用通用韩国高血含量熟血肠代理，含谷物脂肪的比例可能不同，非东北血肠或品牌实测；酸菜500g采用无额外油的通用酸包菜。排骨只计去骨肉脂250g，不计原文带骨毛重400g；香油12g含蘸料，所有油酱及汤汁一并食用。省略弃去的香料包和酒，成品1600g为2–3人家庭假设。",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "东北血肠采用通用熟血肠（韩国高血含量型）代理：同类熟血肠代理，血量、谷物和脂肪组成可能不同。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "酸白菜采用通用酸包菜代理：通用发酵酸包菜代理，非具体产品。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "韩国高血含量型熟血肠Sundae；含谷物等复配，作为东北血肠近似时需披露组成不同，不能冒充某品牌血肠。",
+      "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "通用熟血肠（韩国高血含量型）",
+        "food": {
+          "provider": "krda",
+          "food_id": "I0220020009e",
+          "description": "순대, 선지 비율 높은것",
+          "data_type": "KRDA Standard Food Composition DB",
+          "snapshot_sha256": "8a5a8a4cbe7dd0d9dde04a8442ff3a1240951b06f844fa07c1a58afe53a4cae7"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "韩国高血含量型熟血肠Sundae；含谷物等复配，作为东北血肠近似时需披露组成不同，不能冒充某品牌血肠。"
+      },
+      {
+        "name": "通用酸包菜",
+        "food": {
+          "fdc_id": 169279,
+          "description": "Sauerkraut, canned, solids and liquids",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "bc1168c4f8fc944416f31663335ee12e158ceb15a4ba81831a41906caa34d1ea"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "通用酸包菜含固液参考，非东北酸白菜；只用于明确酸包菜替代的标准方案，不声称相同腌菜。"
+      },
+      {
+        "name": "肋排可食肉脂（去骨）",
+        "food": {
+          "fdc_id": 167853,
+          "description": "Pork, fresh, spareribs, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "71233239d8fac163de1822858c90412b1a83c12040af8403deb46b0b562784b1"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "干辣椒",
+        "food": {
+          "fdc_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "芝麻香油",
+        "food": {
+          "fdc_id": 171016,
+          "description": "Oil, sesame, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "eebfa5910701139f4363d7a926b3878b576c68d476b65fc1a7dff21e5d7f3591"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 800,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 1600,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品1600g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
+      "reviewed_at": "2026-10-29T00:16:23.452Z",
+      "checks": {
+        "recipe_version": "70020b8cde06c6f4e3fb0b516816da3998e6ebd6",
+        "food_identity": "순대, 선지 비율 높은것; Sauerkraut, canned, solids and liquids; Pork, fresh, spareribs, separable lean and fat, raw; Garlic, raw; Ginger root, raw; Spices, pepper, red or cayenne; Onions, spring or scallions (includes tops and bulb), raw; Oil, sesame, salad or cooking; Oil, soybean, salad or cooking; Soy sauce made from soy and wheat (shoyu); Salt, table; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/raw/raw/raw/ready_to_eat/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "血肠200g采用通用韩国高血含量熟血肠代理，含谷物脂肪的比例可能不同，非东北血肠或品牌实测；酸菜500g采用无额外油的通用酸包菜。排骨只计去骨肉脂250g，不计原文带骨毛重400g；香油12g含蘸料，所有油酱及汤汁一并食用。省略弃去的香料包和酒，成品1600g为2–3人家庭假设。",
+        "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E6%9D%80%E7%8C%AA%E8%8F%9C.md",
+          "blob_sha": "70020b8cde06c6f4e3fb0b516816da3998e6ebd6",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+          "note": "通用熟血肠（韩国高血含量型）：순대, 선지 비율 높은것；已核对数据类型、生熟、可食部分及原始摘要。韩国高血含量型熟血肠Sundae；含谷物等复配，作为东北血肠近似时需披露组成不同，不能冒充某品牌血肠。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169279/nutrients",
+          "note": "通用酸包菜：Sauerkraut, canned, solids and liquids；已核对数据类型、生熟、可食部分及原始摘要。通用酸包菜含固液参考，非东北酸白菜；只用于明确酸包菜替代的标准方案，不声称相同腌菜。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167853/nutrients",
+          "note": "肋排可食肉脂（去骨）：Pork, fresh, spareribs, separable lean and fat, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+          "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+          "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+          "note": "干辣椒：Spices, pepper, red or cayenne；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+          "note": "小葱：Onions, spring or scallions (includes tops and bulb), raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171016/nutrients",
+          "note": "芝麻香油：Oil, sesame, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+          "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 150,
+        "protein_g": 9.22,
+        "carbohydrate_g": 11.65,
+        "fat_g": 7.37
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "column": "F",
+          "identifier": "에너지",
+          "cell": "F1871",
+          "unit": "kcal",
+          "raw_value": "150",
+          "amount_per_100g": 150
+        },
+        "protein_g": {
+          "column": "H",
+          "identifier": "단백질",
+          "cell": "H1871",
+          "unit": "g",
+          "raw_value": "9.2200000000000006",
+          "amount_per_100g": 9.22
+        },
+        "carbohydrate_g": {
+          "column": "K",
+          "identifier": "탄수화물",
+          "cell": "K1871",
+          "unit": "g",
+          "raw_value": "11.65",
+          "amount_per_100g": 11.65
+        },
+        "fat_g": {
+          "column": "I",
+          "identifier": "지방",
+          "cell": "I1871",
+          "unit": "g",
+          "raw_value": "7.37",
+          "amount_per_100g": 7.37
+        }
+      },
+      "source": {
+        "provider": "krda",
+        "name": "韩国 RDA 国家标准食物成分 DB",
+        "food_id": "I0220020009e",
+        "description": "순대, 선지 비율 높은것",
+        "english_name": "Korean blood sausage(Sundae), High blood contained",
+        "scientific_name": null,
+        "data_type": "KRDA Standard Food Composition DB",
+        "retrieved_at": "2026-10-28T15:22:52.969Z",
+        "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+        "version": "국가표준식품성분 Database 10.4 / 8a5a8a4cbe7dd0d9",
+        "raw_sha256": "8a5a8a4cbe7dd0d9dde04a8442ff3a1240951b06f844fa07c1a58afe53a4cae7",
+        "transport": "official_bulk_xlsx",
+        "dataset_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/downloadImg.do",
+        "dataset_sha256": "271cc431f2991b3c0c049ec6e05fb59a040319e984ab71468184530de61dec50",
+        "sheet_name": "국가표준식품성분 Database 10.4",
+        "row_number": 1871,
+        "original_source": "농진청('19)",
+        "identity_evidence": {
+          "sheet_name": "부록2)식품코드,국문명,영문명,학명 정보 ",
+          "row_number": 1869,
+          "cells": {
+            "A": "1770",
+            "B": "I0220020009e",
+            "C": "순대, 선지 비율 높은것",
+            "D": "Korean blood sausage(Sundae), High blood contained"
+          }
+        },
+        "license": {
+          "name": "KOGL Type 1 (attribution)",
+          "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+          "attribution": "출처: 농촌진흥청 국가표준식품성분 DB 10.4. 本项目提取并计算，非韩国官方产品。"
+        },
+        "nutrient_definition": {
+          "carbohydrate_g": "保留韩国成分表总碳水口径",
+          "energy_kcal": "保留韩国成分表热量；不按4/4/9改写"
+        }
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 19,
+        "protein_g": 0.91,
+        "carbohydrate_g": 4.28,
+        "fat_g": 0.14
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 19
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.91
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.28
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.14
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169279,
+        "description": "Sauerkraut, canned, solids and liquids",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T06:52:31.409Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169279/nutrients",
+        "version": "SR Legacy / 2019-04-01 / bc1168c4f8fc9444",
+        "raw_sha256": "bc1168c4f8fc944416f31663335ee12e158ceb15a4ba81831a41906caa34d1ea",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4fdcffd6c77165e6db68ad462664ba0f4ef285d2767b15e78aa549c4f991617"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 277,
+        "protein_g": 15.5,
+        "carbohydrate_g": 0,
+        "fat_g": 23.4
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 277
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 15.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 23.4
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167853,
+        "description": "Pork, fresh, spareribs, separable lean and fat, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:11:45.881Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167853/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 71233239d8fac163",
+        "raw_sha256": "71233239d8fac163de1822858c90412b1a83c12040af8403deb46b0b562784b1",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0dc92308475ba062e2b024c0316c416a98414b30c5c804a40226d0976410eece"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 149,
+        "protein_g": 6.36,
+        "carbohydrate_g": 33.1,
+        "fat_g": 0.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 149
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.36
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 33.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169230,
+        "description": "Garlic, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:07.095Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 7ad29963a8d95feb",
+        "raw_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 80,
+        "protein_g": 1.82,
+        "carbohydrate_g": 17.8,
+        "fat_g": 0.75
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 80
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.82
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 17.8
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.75
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169231,
+        "description": "Ginger root, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:57.102Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f8c5161cfeef99a8",
+        "raw_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3ed0beff1be476911c0e6250c641fa95241e2baad9a5169294d889fb94927fc0"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 318,
+        "protein_g": 12,
+        "carbohydrate_g": 56.6,
+        "fat_g": 17.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 318
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 56.6
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 17.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170932,
+        "description": "Spices, pepper, red or cayenne",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 571f1aae4c88b5c9",
+        "raw_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 32,
+        "protein_g": 1.83,
+        "carbohydrate_g": 7.34,
+        "fat_g": 0.19
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 32
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.83
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 7.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.19
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170005,
+        "description": "Onions, spring or scallions (includes tops and bulb), raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:01.945Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 03035a02e7636a80",
+        "raw_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec",
+        "transport": "api_search_snapshot",
+        "query_sha256": "416b8b0bce821dae5c07e19da1ce978c892bc5a9ebdd2b571af1842bcb1490ac"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171016,
+        "description": "Oil, sesame, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:09.778Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171016/nutrients",
+        "version": "SR Legacy / 2019-04-01 / eebfa5910701139f",
+        "raw_sha256": "eebfa5910701139f4363d7a926b3878b576c68d476b65fc1a7dff21e5d7f3591",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d20d5465f440e2db2ba935a5810271aa992f6182c96fe9887a65ec34d4d85688"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 53,
+        "protein_g": 8.14,
+        "carbohydrate_g": 4.93,
+        "fat_g": 0.57
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 53
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.14
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.93
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174277,
+        "description": "Soy sauce made from soy and wheat (shoyu)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:13.868Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2f447d1325755a78",
+        "raw_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330",
+        "transport": "api_search_snapshot",
+        "query_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "通用熟血肠（韩国高血含量型）",
+        "food": {
+          "provider": "krda",
+          "food_id": "I0220020009e",
+          "description": "순대, 선지 비율 높은것",
+          "data_type": "KRDA Standard Food Composition DB",
+          "snapshot_sha256": "8a5a8a4cbe7dd0d9dde04a8442ff3a1240951b06f844fa07c1a58afe53a4cae7"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "韩国高血含量型熟血肠Sundae；含谷物等复配，作为东北血肠近似时需披露组成不同，不能冒充某品牌血肠。",
+        "per_100g": {
+          "energy_kcal": 150,
+          "protein_g": 9.22,
+          "carbohydrate_g": 11.65,
+          "fat_g": 7.37
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "通用酸包菜",
+        "food": {
+          "fdc_id": 169279,
+          "description": "Sauerkraut, canned, solids and liquids",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "bc1168c4f8fc944416f31663335ee12e158ceb15a4ba81831a41906caa34d1ea"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 500,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "通用酸包菜含固液参考，非东北酸白菜；只用于明确酸包菜替代的标准方案，不声称相同腌菜。",
+        "per_100g": {
+          "energy_kcal": 19,
+          "protein_g": 0.91,
+          "carbohydrate_g": 4.28,
+          "fat_g": 0.14
+        },
+        "edible_g": 500
+      },
+      {
+        "name": "肋排可食肉脂（去骨）",
+        "food": {
+          "fdc_id": 167853,
+          "description": "Pork, fresh, spareribs, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "71233239d8fac163de1822858c90412b1a83c12040af8403deb46b0b562784b1"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 277,
+          "protein_g": 15.5,
+          "carbohydrate_g": 0,
+          "fat_g": 23.4
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 25,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 149,
+          "protein_g": 6.36,
+          "carbohydrate_g": 33.1,
+          "fat_g": 0.5
+        },
+        "edible_g": 25
+      },
+      {
+        "name": "姜",
+        "food": {
+          "fdc_id": 169231,
+          "description": "Ginger root, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 80,
+          "protein_g": 1.82,
+          "carbohydrate_g": 17.8,
+          "fat_g": 0.75
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "干辣椒",
+        "food": {
+          "fdc_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 318,
+          "protein_g": 12,
+          "carbohydrate_g": 56.6,
+          "fat_g": 17.3
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "小葱",
+        "food": {
+          "fdc_id": 170005,
+          "description": "Onions, spring or scallions (includes tops and bulb), raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 20,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 32,
+          "protein_g": 1.83,
+          "carbohydrate_g": 7.34,
+          "fat_g": 0.19
+        },
+        "edible_g": 20
+      },
+      {
+        "name": "芝麻香油",
+        "food": {
+          "fdc_id": 171016,
+          "description": "Oil, sesame, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "eebfa5910701139f4363d7a926b3878b576c68d476b65fc1a7dff21e5d7f3591"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 12,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 12
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "通用酱油（shoyu近似）",
+        "food": {
+          "fdc_id": 174277,
+          "description": "Soy sauce made from soy and wheat (shoyu)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "per_100g": {
+          "energy_kcal": 53,
+          "protein_g": 8.14,
+          "carbohydrate_g": 4.93,
+          "fat_g": 0.57
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 5,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 5
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 800,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 800
+      }
+    ],
+    "total": {
+      "energy_kcal": 1348.47,
+      "protein_g": 65.052,
+      "carbohydrate_g": 58.414,
+      "fat_g": 96.754
+    },
+    "final_edible_g": 1600,
+    "per_100g": {
+      "energy_kcal": 84.279375,
+      "protein_g": 4.06575,
+      "carbohydrate_g": 3.650875,
+      "fat_g": 6.047125
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 85.290625,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

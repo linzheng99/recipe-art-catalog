@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-5fa782ab3b20",
+      "queries": [
+        "Eggplant raw",
+        "Peppers sweet green raw",
+        "Onions raw",
+        "Tomatoes red ripe raw year round average",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        "Egg whole raw fresh",
+        "Wheat flour white all purpose unenriched",
+        "Cornstarch",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9990afe9babe",
+      "queries": [
+        "Tofu firm calcium sulfate",
+        "Egg whole raw fresh",
+        "Cornstarch",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Sugars granulated",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-47b0d27fb06b",
+      "queries": [
+        "Celery raw",
+        "Oil sesame salad cooking",
+        "Sauce oyster ready to serve",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-150f56720d90",
+      "queries": [
+        "Eggplant raw",
+        "Potatoes flesh skin raw",
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Peppers sweet green raw",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a294a849e9a5",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Egg whole raw fresh",
+        "Water tap drinking",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-20f6144a04ec",
+      "queries": [
+        "Spinach raw",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-54b72d4f7cf8",
+      "queries": [
+        "Tofu firm calcium sulfate",
+        "Onions spring scallions tops bulb raw",
+        "Peppers sweet green raw",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-35b2e221aa1e",
+      "queries": [
+        "Celery raw",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a1b0c1fdfc06",
+      "queries": [
+        "Water convolvulus raw",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Sugars granulated",
+        "Soy sauce shoyu"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-92f286f58f84",
+      "queries": [
+        "Broccoli raw",
+        "Garlic raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Sugars granulated",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-5086f352be3e",
+      "queries": [
+        "Eggplant raw",
+        "Honey",
+        "Sugars granulated",
+        "Soy sauce shoyu",
+        "Water tap drinking",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-322c053e9c0d",
+      "queries": [
+        "Peppers sweet green raw",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Sugars granulated",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a4b59bbb9852",
+      "queries": [
+        "Mushrooms shiitake raw",
+        "Mushrooms enoki raw",
+        "Mushrooms white raw",
+        "Broccoli raw",
+        "Peppers sweet green raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Cornstarch",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9aafc1145d54",
+      "queries": [
+        "Lettuce green leaf raw",
+        "Sauce oyster ready to serve",
+        "Garlic raw",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Sugars granulated",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2130948c0fd2",
+      "queries": [
+        "Tomatoes red ripe raw year round average",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Sugars granulated",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2a19546cdca8",
+      "queries": [
+        "Tomatoes red ripe raw year round average",
+        "Egg whole raw fresh",
+        "Tofu soft calcium sulfate magnesium chloride",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Cornstarch",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4d2ca8f35f3b",
+      "queries": [
+        "Squash summer zucchini skin raw",
+        "Tomatoes red ripe raw year round average",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d50d59c1ca77",
+      "queries": [
+        "Edamame frozen unprepared",
+        "Sugars granulated",
+        "Salt table",
+        "Vinegar cider",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9190d44233e7",
+      "queries": [
+        "Potatoes flesh skin raw",
+        "Garlic raw",
+        "Peppers sweet green raw",
+        "Peppers sweet red raw",
+        "Spices pepper red cayenne",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Salt table",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2e8d27218fc6",
+      "queries": [
+        "Egg whole raw fresh",
+        "Soymilk unsweetened plain",
+        "Water tap drinking",
+        "Mushrooms enoki raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Sugars granulated",
+        "Salt table",
+        "Garlic raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-29dc63b5178d",
+      "queries": [
+        "Egg whole cooked hard boiled",
+        "Peppers sweet green raw",
+        "Peppers hot chili red raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Garlic raw",
+        "Onions spring scallions tops bulb raw",
+        "Cornstarch",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Sugars granulated"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-7ddb62ef1001",
+      "queries": [
+        "Beans snap green raw",
+        "Potatoes flesh skin raw",
+        "Tomatoes red ripe raw year round average",
+        "Peppers sweet green raw",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-598880791fad",
+      "queries": [
+        {
+          "query": "PRESERVED DUCK EGGS",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Peppers sweet green raw",
+        "Onions spring scallions tops bulb raw",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Sugars granulated",
+        "Oil sesame salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-cf76d9b00d1d",
+      "queries": [
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    }
+  ]
+}

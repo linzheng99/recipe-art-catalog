@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "id": "family-a994a8dc42ec-v1",
+  "recipe_id": "howtocook-a994a8dc42ec",
+  "recipe_blob_sha": "73cf334540d90dfa389a7933233da5228084adfa",
+  "version": "1",
+  "data_version": "421188d76055c178",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 480,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品480g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：INDOMIE鸡肉风味方便面含调料140g、净全鸡蛋液100g、大豆食用油10g、饮用水250g；整份约480g。指定INDOMIE鸡肉风味面且加入全部随附调料，无火腿肠；一锅吸水煮软后炒收干，不采用原文先煮沥水冲洗，明确保留全部面饼营养和油；成品480g为假设。限定品牌：INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-a994a8dc42ec",
+    "state": "ready_to_eat",
+    "cooking_method": "stir_fry",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": "INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030",
+    "variant": "family-a994a8dc42ec-v1",
+    "standard_ingredients": [
+      {
+        "key": "instant_noodle_exact",
+        "grams": 140
+      },
+      {
+        "key": "egg",
+        "grams": 100
+      },
+      {
+        "key": "oil",
+        "grams": 10
+      },
+      {
+        "key": "water",
+        "grams": 250
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 173.333333,
+    "protein_g": 5.95,
+    "carbohydrate_g": 19.3125,
+    "fat_g": 8.235417
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/2677255/nutrients",
+    "version": "421188d76055c178",
+    "fdc_ids": [
+      2677255,
+      171287,
+      171411,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "73cf334540d90dfa389a7933233da5228084adfa"
+  },
+  "profile": {
+    "id": "family-a994a8dc42ec-v1",
+    "version": "1",
+    "recipe_id": "howtocook-a994a8dc42ec",
+    "recipe_blob_sha": "73cf334540d90dfa389a7933233da5228084adfa",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：INDOMIE鸡肉风味方便面含调料140g、净全鸡蛋液100g、大豆食用油10g、饮用水250g；整份约480g。指定INDOMIE鸡肉风味面且加入全部随附调料，无火腿肠；一锅吸水煮软后炒收干，不采用原文先煮沥水冲洗，明确保留全部面饼营养和油；成品480g为假设。限定品牌：INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-a994a8dc42ec",
+      "state": "ready_to_eat",
+      "cooking_method": "stir_fry",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": "INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030",
+      "variant": "family-a994a8dc42ec-v1",
+      "standard_ingredients": [
+        {
+          "key": "instant_noodle_exact",
+          "grams": 140
+        },
+        {
+          "key": "egg",
+          "grams": 100
+        },
+        {
+          "key": "oil",
+          "grams": 10
+        },
+        {
+          "key": "water",
+          "grams": 250
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：INDOMIE鸡肉风味方便面含调料140g、净全鸡蛋液100g、大豆食用油10g、饮用水250g。克数是项目标准，不是原文ml/个数换算。",
+      "指定INDOMIE鸡肉风味面且加入全部随附调料，无火腿肠；一锅吸水煮软后炒收干，不采用原文先煮沥水冲洗，明确保留全部面饼营养和油；成品480g为假设",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "INDOMIE鸡肉风味方便面含调料",
+        "food": {
+          "fdc_id": 2677255,
+          "description": "CHICKEN INSTANT NOODLES, CHICKEN",
+          "data_type": "Branded",
+          "snapshot_sha256": "0a9b3d2564094347efef2482c2a1bccbb8b4d83ff8a2c792a6418918df750900",
+          "brand_owner": "Pt Indofood Sukses Makmur Tbk",
+          "brand_name": "INDOMIE",
+          "gtin_upc": "089686170030"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 140,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定INDOMIE CHICKEN对应GTIN，面饼及全部所附调料按包装干态一起计入；不拆取面饼单独使用，不等于其他品牌。"
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 480,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品480g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "stir_fry",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:14:28.217Z",
+      "checks": {
+        "recipe_version": "73cf334540d90dfa389a7933233da5228084adfa",
+        "food_identity": "CHICKEN INSTANT NOODLES, CHICKEN; Egg, whole, raw, fresh; Oil, soybean, salad or cooking; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/raw/ready_to_eat/ready_to_eat输入；成品stir_fry。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "INDOMIE鸡肉风味方便面含调料=INDOMIE GTIN 089686170030",
+        "standard_variant": "指定INDOMIE鸡肉风味面且加入全部随附调料，无火腿肠；一锅吸水煮软后炒收干，不采用原文先煮沥水冲洗，明确保留全部面饼营养和油；成品480g为假设"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/staple/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2.md",
+          "blob_sha": "73cf334540d90dfa389a7933233da5228084adfa",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2677255/nutrients",
+          "note": "INDOMIE鸡肉风味方便面含调料：CHICKEN INSTANT NOODLES, CHICKEN；已核对数据类型、生熟、可食部分及原始摘要。限定INDOMIE CHICKEN对应GTIN，面饼及全部所附调料按包装干态一起计入；不拆取面饼单独使用，不等于其他品牌。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "净全鸡蛋液：Egg, whole, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 429,
+        "protein_g": 11.4,
+        "carbohydrate_g": 65.7,
+        "fat_g": 14.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 429
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 11.4
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 65.7
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 14.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2677255,
+        "description": "CHICKEN INSTANT NOODLES, CHICKEN",
+        "data_type": "Branded",
+        "brand_owner": "Pt Indofood Sukses Makmur Tbk",
+        "brand_name": "INDOMIE",
+        "gtin_upc": "089686170030",
+        "ingredients": "NOODLES: WHEAT FLOUR, REFINED PALM OIL (CONTAINS TBHQ), SALT, SODIUM CARBONATE, POTASSIUM CARBONATE, GUAR GUM, RIBOFLAVIN. SEASONING POWDER: SALT, MONOSODIUM GLUTAMATE, DISODIUM INOSINATE, DISODIUM GUANYLATE, SUGAR, YEAST EXTRACT, PEPPER, GARLIC POWDER, ARTIFICIAL FLAVOUR, GINGER POWDER. CHILI POWDER",
+        "publication_date": "2023-11-16",
+        "retrieved_at": "2026-10-28T06:12:21.495Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2677255/nutrients",
+        "version": "Branded / 2023-11-16 / 0a9b3d2564094347",
+        "raw_sha256": "0a9b3d2564094347efef2482c2a1bccbb8b4d83ff8a2c792a6418918df750900",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8222e7c7cbe96ad9beeed23ae41a16f3f44464e822a18cf7c7650723af1f4e88"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "INDOMIE鸡肉风味方便面含调料",
+        "food": {
+          "fdc_id": 2677255,
+          "description": "CHICKEN INSTANT NOODLES, CHICKEN",
+          "data_type": "Branded",
+          "snapshot_sha256": "0a9b3d2564094347efef2482c2a1bccbb8b4d83ff8a2c792a6418918df750900",
+          "brand_owner": "Pt Indofood Sukses Makmur Tbk",
+          "brand_name": "INDOMIE",
+          "gtin_upc": "089686170030"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 140,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "限定INDOMIE CHICKEN对应GTIN，面饼及全部所附调料按包装干态一起计入；不拆取面饼单独使用，不等于其他品牌。",
+        "per_100g": {
+          "energy_kcal": 429,
+          "protein_g": 11.4,
+          "carbohydrate_g": 65.7,
+          "fat_g": 14.3
+        },
+        "edible_g": 140
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 250
+      }
+    ],
+    "total": {
+      "energy_kcal": 832,
+      "protein_g": 28.56,
+      "carbohydrate_g": 92.7,
+      "fat_g": 39.53
+    },
+    "final_edible_g": 480,
+    "per_100g": {
+      "energy_kcal": 173.333333,
+      "protein_g": 5.95,
+      "carbohydrate_g": 19.3125,
+      "fat_g": 8.235417
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 175.16875299999998,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

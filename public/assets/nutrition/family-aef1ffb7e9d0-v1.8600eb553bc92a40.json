@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "id": "family-aef1ffb7e9d0-v1",
+  "recipe_id": "howtocook-aef1ffb7e9d0",
+  "recipe_blob_sha": "bda1753358769c4e7d388d0c42ddcf402f894bae",
+  "version": "1",
+  "data_version": "f30bd5b07e48e988",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 500,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品500g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：去壳全熟鸡蛋200g、起酥饼皮160g、切达奶酪40g、培根70g；整份约500g。原文手抓饼皮明确以通用起酥皮代替；全熟净鸡蛋200g，切达奶酪40g、培根70g；采用空气炸锅分支，油脂滴汁全部留在成品，不另计锅中油，非所有手抓饼产品标签。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-aef1ffb7e9d0",
+    "state": "ready_to_eat",
+    "cooking_method": "bake",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-aef1ffb7e9d0-v1",
+    "standard_ingredients": [
+      {
+        "key": "egg_boiled",
+        "grams": 200
+      },
+      {
+        "key": "puff_pastry",
+        "grams": 160
+      },
+      {
+        "key": "cheese",
+        "grams": 40
+      },
+      {
+        "key": "bacon",
+        "grams": 70
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 326.06,
+    "protein_g": 11.15,
+    "carbohydrate_g": 15.0752,
+    "fat_g": 24.35
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+    "version": "f30bd5b07e48e988",
+    "fdc_ids": [
+      173424,
+      172790,
+      2705709,
+      168277
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E8%8B%8F%E6%A0%BC%E5%85%B0%E8%9B%8B/%E8%8B%8F%E6%A0%BC%E5%85%B0%E8%9B%8B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "bda1753358769c4e7d388d0c42ddcf402f894bae"
+  },
+  "profile": {
+    "id": "family-aef1ffb7e9d0-v1",
+    "version": "1",
+    "recipe_id": "howtocook-aef1ffb7e9d0",
+    "recipe_blob_sha": "bda1753358769c4e7d388d0c42ddcf402f894bae",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：去壳全熟鸡蛋200g、起酥饼皮160g、切达奶酪40g、培根70g；整份约500g。原文手抓饼皮明确以通用起酥皮代替；全熟净鸡蛋200g，切达奶酪40g、培根70g；采用空气炸锅分支，油脂滴汁全部留在成品，不另计锅中油，非所有手抓饼产品标签。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-aef1ffb7e9d0",
+      "state": "ready_to_eat",
+      "cooking_method": "bake",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-aef1ffb7e9d0-v1",
+      "standard_ingredients": [
+        {
+          "key": "egg_boiled",
+          "grams": 200
+        },
+        {
+          "key": "puff_pastry",
+          "grams": 160
+        },
+        {
+          "key": "cheese",
+          "grams": 40
+        },
+        {
+          "key": "bacon",
+          "grams": 70
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：去壳全熟鸡蛋200g、起酥饼皮160g、切达奶酪40g、培根70g。克数是项目标准，不是原文ml/个数换算。",
+      "原文手抓饼皮明确以通用起酥皮代替；全熟净鸡蛋200g，切达奶酪40g、培根70g；采用空气炸锅分支，油脂滴汁全部留在成品，不另计锅中油，非所有手抓饼产品标签",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "去壳全熟鸡蛋",
+        "food": {
+          "fdc_id": 173424,
+          "description": "Egg, whole, cooked, hard-boiled",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "cb07dd820bb3464b15bbfdf6df88cae708ad1b8bacf90c909bc1d7bdc2e3c3c7"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "起酥饼皮",
+        "food": {
+          "fdc_id": 172790,
+          "description": "Puff pastry, frozen, ready-to-bake",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f63947ba44a74e39336b8497fa5f3210b68f54491d1c6add1c941a55ef3c4d89"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 160,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。"
+      },
+      {
+        "name": "切达奶酪",
+        "food": {
+          "fdc_id": 2705709,
+          "description": "Cheese, Cheddar",
+          "data_type": "Survey (FNDDS)",
+          "snapshot_sha256": "60b00d13d8f99c760699a2b2ec9820a92e69052b2ab4b37dfeed783938829aa0"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 70,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      }
+    ],
+    "final_weight": {
+      "grams": 500,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品500g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "bake",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "bda1753358769c4e7d388d0c42ddcf402f894bae",
+        "food_identity": "Egg, whole, cooked, hard-boiled; Puff pastry, frozen, ready-to-bake; Cheese, Cheddar; Pork, cured, bacon, unprepared",
+        "state_and_cooking": "逐项按cooked/raw/ready_to_eat/raw输入；成品bake。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "原文手抓饼皮明确以通用起酥皮代替；全熟净鸡蛋200g，切达奶酪40g、培根70g；采用空气炸锅分支，油脂滴汁全部留在成品，不另计锅中油，非所有手抓饼产品标签"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E8%8B%8F%E6%A0%BC%E5%85%B0%E8%9B%8B/%E8%8B%8F%E6%A0%BC%E5%85%B0%E8%9B%8B.md",
+          "blob_sha": "bda1753358769c4e7d388d0c42ddcf402f894bae",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+          "note": "去壳全熟鸡蛋：Egg, whole, cooked, hard-boiled；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172790/nutrients",
+          "note": "起酥饼皮：Puff pastry, frozen, ready-to-bake；已核对数据类型、生熟、可食部分及原始摘要。冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2705709/nutrients",
+          "note": "切达奶酪：Cheese, Cheddar；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+          "note": "培根：Pork, cured, bacon, unprepared；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 155,
+        "protein_g": 12.58,
+        "carbohydrate_g": 1.12,
+        "fat_g": 10.61
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 155
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.58
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 1.12
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 10.61
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173424,
+        "description": "Egg, whole, cooked, hard-boiled",
+        "data_type": "SR Legacy",
+        "publication_date": "4/1/2019",
+        "retrieved_at": "2026-10-27T14:55:46.933Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+        "version": "SR Legacy / 4/1/2019 / cb07dd820bb3464b",
+        "raw_sha256": "cb07dd820bb3464b15bbfdf6df88cae708ad1b8bacf90c909bc1d7bdc2e3c3c7",
+        "transport": "api"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 551,
+        "protein_g": 7.3,
+        "carbohydrate_g": 45.1,
+        "fat_g": 38.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 551
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 7.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 45.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 38.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172790,
+        "description": "Puff pastry, frozen, ready-to-bake",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:59:58.776Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172790/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f63947ba44a74e39",
+        "raw_sha256": "f63947ba44a74e39336b8497fa5f3210b68f54491d1c6add1c941a55ef3c4d89",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 409,
+        "protein_g": 23.3,
+        "carbohydrate_g": 2.44,
+        "fat_g": 34
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 409
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 23.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.44
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 34
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2705709,
+        "description": "Cheese, Cheddar",
+        "data_type": "Survey (FNDDS)",
+        "publication_date": "2024-10-31",
+        "retrieved_at": "2026-10-28T03:06:47.508Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2705709/nutrients",
+        "version": "Survey (FNDDS) / 2024-10-31 / 60b00d13d8f99c76",
+        "raw_sha256": "60b00d13d8f99c760699a2b2ec9820a92e69052b2ab4b37dfeed783938829aa0",
+        "transport": "api_search_snapshot",
+        "query_sha256": "221214ea1aec4414297bb1c25f31e53e5cb0ed3072a916e04a0b41cf120acd77"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 393,
+        "protein_g": 13.7,
+        "carbohydrate_g": 0,
+        "fat_g": 37.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 393
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 13.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 37.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168277,
+        "description": "Pork, cured, bacon, unprepared",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:06:41.812Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168277/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 30b09321de3d5ee0",
+        "raw_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7bae0cd307a94e3f9a9d6e57633eba4914a6e037b3236a9cb4222fa91a3e84cb"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "去壳全熟鸡蛋",
+        "food": {
+          "fdc_id": 173424,
+          "description": "Egg, whole, cooked, hard-boiled",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "cb07dd820bb3464b15bbfdf6df88cae708ad1b8bacf90c909bc1d7bdc2e3c3c7"
+        },
+        "source_state": "cooked",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "cooked",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 155,
+          "protein_g": 12.58,
+          "carbohydrate_g": 1.12,
+          "fat_g": 10.61
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "起酥饼皮",
+        "food": {
+          "fdc_id": 172790,
+          "description": "Puff pastry, frozen, ready-to-bake",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f63947ba44a74e39336b8497fa5f3210b68f54491d1c6add1c941a55ef3c4d89"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 160,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。",
+        "per_100g": {
+          "energy_kcal": 551,
+          "protein_g": 7.3,
+          "carbohydrate_g": 45.1,
+          "fat_g": 38.1
+        },
+        "edible_g": 160
+      },
+      {
+        "name": "切达奶酪",
+        "food": {
+          "fdc_id": 2705709,
+          "description": "Cheese, Cheddar",
+          "data_type": "Survey (FNDDS)",
+          "snapshot_sha256": "60b00d13d8f99c760699a2b2ec9820a92e69052b2ab4b37dfeed783938829aa0"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 409,
+          "protein_g": 23.3,
+          "carbohydrate_g": 2.44,
+          "fat_g": 34
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "培根",
+        "food": {
+          "fdc_id": 168277,
+          "description": "Pork, cured, bacon, unprepared",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "30b09321de3d5ee052e89e45efc774acf1edb23162c81df40fcb0c1dac5de30b"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 70,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 393,
+          "protein_g": 13.7,
+          "carbohydrate_g": 0,
+          "fat_g": 37.1
+        },
+        "edible_g": 70
+      }
+    ],
+    "total": {
+      "energy_kcal": 1630.3,
+      "protein_g": 55.75,
+      "carbohydrate_g": 75.376,
+      "fat_g": 121.75
+    },
+    "final_edible_g": 500,
+    "per_100g": {
+      "energy_kcal": 326.06,
+      "protein_g": 11.15,
+      "carbohydrate_g": 15.0752,
+      "fat_g": 24.35
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 324.0508,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

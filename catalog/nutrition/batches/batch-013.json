@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-9a222b1883ca",
+      "queries": [
+        "Rice flour white unenriched",
+        "Water tap drinking",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Egg whole raw fresh",
+        "Cabbage chinese pak choi raw",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-392047faad04",
+      "queries": [
+        "Spaghetti cooked enriched without added salt",
+        "Beef brisket whole separable lean fat raw",
+        "Catsup",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a994a8dc42ec",
+      "queries": [
+        {
+          "query": "\"INSTANT NOODLES\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-581d80efc12c",
+      "queries": [
+        "Rice noodles cooked",
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Cucumber with peel raw",
+        "Egg whole raw fresh",
+        "Garlic raw",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking",
+        "Cornstarch",
+        "Salt table",
+        "Spices cumin seed"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-50b2a23c6648",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Leavening agents yeast baker active dry",
+        "Water tap drinking",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Spices cumin seed",
+        "Onions spring scallions tops bulb raw",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d916492c172d",
+      "queries": [
+        "Pork fresh ground raw",
+        "Noodles chinese cooked",
+        {
+          "query": "SWEET BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Garlic raw",
+        "Cucumber with peel raw",
+        "Cabbage raw",
+        "Radishes oriental raw",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f5276d1d6821",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Water tap drinking",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-44c3bb871eba",
+      "queries": [
+        "Wheat flour white all purpose unenriched",
+        "Leavening agents yeast baker active dry",
+        "Sugars granulated",
+        "Oil soybean salad cooking",
+        "Water tap drinking",
+        "Salt table",
+        "Seeds sesame whole dried",
+        "Spices cumin seed"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d97323116a82",
+      "queries": [
+        "Noodles chinese cooked",
+        "Seeds sesame butter tahini roasted toasted kernels",
+        "Soy sauce shoyu",
+        "Oil sesame salad cooking",
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Garlic raw",
+        "Water tap drinking",
+        "Pork fresh ground raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-73a12a8bea38",
+      "queries": [
+        "Chicken broilers fryers thigh meat only raw",
+        "Rice white short grain cooked unenriched",
+        "Broccoli raw",
+        "Carrots raw",
+        "Soy sauce shoyu",
+        "Honey",
+        "Garlic raw",
+        "Ginger root raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-103a45a25456",
+      "queries": [
+        {
+          "query": "\"INSTANT NOODLES\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Egg whole raw fresh",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-40e20d1b3575",
+      "queries": [
+        "Rice white short grain cooked unenriched",
+        "Lard",
+        "Soy sauce shoyu",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9e09ccc87f3f",
+      "queries": [
+        "Rice white short grain cooked unenriched",
+        "Fish salmon Atlantic farmed raw",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Ginger root raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0492c4583aa9",
+      "queries": [
+        "Chicken broilers fryers thigh meat only raw",
+        "Egg whole raw fresh",
+        "Crackers saltines includes oyster soda soup",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Vinegar cider",
+        "Rice white short grain cooked unenriched"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-65d4c06a5b48",
+      "queries": [
+        "Rice white short grain cooked unenriched"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-874ab7d67d2e",
+      "queries": [
+        "Beans kidney red mature seeds cooked boiled without salt",
+        "Rice white short grain cooked unenriched",
+        "Onions raw",
+        "Tomatoes red ripe raw year round average",
+        "Ginger root raw",
+        "Garlic raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Spices turmeric ground",
+        "Spices cumin seed",
+        "Coriander cilantro leaves raw",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-00350cbfad20",
+      "queries": [
+        "Rice noodles cooked",
+        "Pork fresh loin tenderloin separable lean only raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Garlic raw",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Vinegar cider",
+        "Oil soybean salad cooking",
+        "Cornstarch",
+        "Spices pepper red cayenne",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-617957ecce2f",
+      "queries": [
+        "Noodles chinese cooked",
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Soy sauce shoyu"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-580927b6ab1e",
+      "queries": [
+        "Pork fresh loin tenderloin separable lean only raw",
+        "Egg whole raw fresh",
+        "Rice white short grain cooked unenriched",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Onions spring scallions tops bulb raw",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e9ddad293a47",
+      "queries": [
+        "Rice flour white unenriched",
+        "Wheat flour white all purpose unenriched",
+        "Egg whole raw fresh",
+        "Pork cured bacon unprepared",
+        "Eggplant raw",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6aa1fa07f6c9",
+      "queries": [
+        "Noodles chinese cooked",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-06a218a8627c",
+      "queries": [
+        "Noodles chinese cooked",
+        "Pork fresh belly raw",
+        "Celery raw",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d36c1927c74c",
+      "queries": [
+        "Egg whole raw fresh",
+        "Onions raw",
+        "Carrots raw",
+        "Corn sweet yellow cooked boiled drained without salt",
+        "Chicken broilers fryers breast meat only raw",
+        "Rice white short grain cooked unenriched",
+        "Catsup",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0e9866e5643e",
+      "queries": [
+        "Rice white short grain cooked unenriched",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Onions spring scallions tops bulb raw"
+      ]
+    }
+  ]
+}

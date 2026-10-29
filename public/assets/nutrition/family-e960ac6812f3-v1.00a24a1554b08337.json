@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "id": "family-e960ac6812f3-v1",
+  "recipe_id": "howtocook-e960ac6812f3",
+  "recipe_blob_sha": "5e5b0e0ed181326576dd3f1af9ff192b8f52d68a",
+  "version": "1",
+  "data_version": "c27405c91472f58a",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 520,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品520g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：起酥饼皮200g、净全鸡蛋液100g、3.25%全脂牛奶150g、稀奶油80g、白砂糖40g；整份约520g。普通酥皮蛋挞家庭代理配方，不代表任意市售蛋挞皮蛋挞液标签；所有材料为实际用进成品量，无剩余挞液，烤后520g是假设。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-e960ac6812f3",
+    "state": "ready_to_eat",
+    "cooking_method": "bake",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-e960ac6812f3-v1",
+    "standard_ingredients": [
+      {
+        "key": "puff_pastry",
+        "grams": 200
+      },
+      {
+        "key": "egg",
+        "grams": 100
+      },
+      {
+        "key": "milk",
+        "grams": 150
+      },
+      {
+        "key": "cream",
+        "grams": 80
+      },
+      {
+        "key": "sugar",
+        "grams": 40
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 339.096154,
+    "protein_g": 6.576346,
+    "carbohydrate_g": 26.992692,
+    "fat_g": 22.979808
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/172790/nutrients",
+    "version": "c27405c91472f58a",
+    "fdc_ids": [
+      172790,
+      171287,
+      172217,
+      170859,
+      169655
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "5e5b0e0ed181326576dd3f1af9ff192b8f52d68a"
+  },
+  "profile": {
+    "id": "family-e960ac6812f3-v1",
+    "version": "1",
+    "recipe_id": "howtocook-e960ac6812f3",
+    "recipe_blob_sha": "5e5b0e0ed181326576dd3f1af9ff192b8f52d68a",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": false,
+    "scope": "2–3人家庭标准配方估算：起酥饼皮200g、净全鸡蛋液100g、3.25%全脂牛奶150g、稀奶油80g、白砂糖40g；整份约520g。普通酥皮蛋挞家庭代理配方，不代表任意市售蛋挞皮蛋挞液标签；所有材料为实际用进成品量，无剩余挞液，烤后520g是假设。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-e960ac6812f3",
+      "state": "ready_to_eat",
+      "cooking_method": "bake",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-e960ac6812f3-v1",
+      "standard_ingredients": [
+        {
+          "key": "puff_pastry",
+          "grams": 200
+        },
+        {
+          "key": "egg",
+          "grams": 100
+        },
+        {
+          "key": "milk",
+          "grams": 150
+        },
+        {
+          "key": "cream",
+          "grams": 80
+        },
+        {
+          "key": "sugar",
+          "grams": 40
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：起酥饼皮200g、净全鸡蛋液100g、3.25%全脂牛奶150g、稀奶油80g、白砂糖40g。克数是项目标准，不是原文ml/个数换算。",
+      "普通酥皮蛋挞家庭代理配方，不代表任意市售蛋挞皮蛋挞液标签；所有材料为实际用进成品量，无剩余挞液，烤后520g是假设",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+      "冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "起酥饼皮",
+        "food": {
+          "fdc_id": 172790,
+          "description": "Puff pastry, frozen, ready-to-bake",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f63947ba44a74e39336b8497fa5f3210b68f54491d1c6add1c941a55ef3c4d89"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。"
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "稀奶油",
+        "food": {
+          "fdc_id": 170859,
+          "description": "Cream, fluid, heavy whipping",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "92f010d709db95392b61ce6448496677443e5b692b6a3a3b28bd93e96d55b10a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 520,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品520g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "bake",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T07:00:41.484Z",
+      "checks": {
+        "recipe_version": "5e5b0e0ed181326576dd3f1af9ff192b8f52d68a",
+        "food_identity": "Puff pastry, frozen, ready-to-bake; Egg, whole, raw, fresh; Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D; Cream, fluid, heavy whipping; Sugars, granulated",
+        "state_and_cooking": "逐项按raw/raw/ready_to_eat/ready_to_eat/ready_to_eat输入；成品bake。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "普通酥皮蛋挞家庭代理配方，不代表任意市售蛋挞皮蛋挞液标签；所有材料为实际用进成品量，无剩余挞液，烤后520g是假设"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E.md",
+          "blob_sha": "5e5b0e0ed181326576dd3f1af9ff192b8f52d68a",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172790/nutrients",
+          "note": "起酥饼皮：Puff pastry, frozen, ready-to-bake；已核对数据类型、生熟、可食部分及原始摘要。冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "净全鸡蛋液：Egg, whole, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+          "note": "3.25%全脂牛奶：Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients",
+          "note": "稀奶油：Cream, fluid, heavy whipping；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 551,
+        "protein_g": 7.3,
+        "carbohydrate_g": 45.1,
+        "fat_g": 38.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 551
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 7.3
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 45.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 38.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172790,
+        "description": "Puff pastry, frozen, ready-to-bake",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:59:58.776Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172790/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f63947ba44a74e39",
+        "raw_sha256": "f63947ba44a74e39336b8497fa5f3210b68f54491d1c6add1c941a55ef3c4d89",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 61,
+        "protein_g": 3.15,
+        "carbohydrate_g": 4.78,
+        "fat_g": 3.27
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 61
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 3.15
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 4.78
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.27
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 172217,
+        "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:25.785Z",
+        "url": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 815f14b67231b3f2",
+        "raw_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fc598dbff21afe1348a1b23e5977c2974d48369f7891c90cfcf7751bed6cae07"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 340,
+        "protein_g": 2.84,
+        "carbohydrate_g": 2.84,
+        "fat_g": 36.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 340
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.84
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.84
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 36.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170859,
+        "description": "Cream, fluid, heavy whipping",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:52.217Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 92f010d709db9539",
+        "raw_sha256": "92f010d709db95392b61ce6448496677443e5b692b6a3a3b28bd93e96d55b10a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "b448a3e90caa266ec62f5667f6c1bbce3e6c0a595ede6849d37a15597ae7c102"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "起酥饼皮",
+        "food": {
+          "fdc_id": 172790,
+          "description": "Puff pastry, frozen, ready-to-bake",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f63947ba44a74e39336b8497fa5f3210b68f54491d1c6add1c941a55ef3c4d89"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "冷冻生起酥饼皮通用代理，仅用于明确改为通用起酥皮的版本，不等于任意蛋挞皮或手抓饼标签。",
+        "per_100g": {
+          "energy_kcal": 551,
+          "protein_g": 7.3,
+          "carbohydrate_g": 45.1,
+          "fat_g": 38.1
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "3.25%全脂牛奶",
+        "food": {
+          "fdc_id": 172217,
+          "description": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "815f14b67231b3f25cb49a2517d554d4dd14348ba47f98c2d411222d497e505f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 61,
+          "protein_g": 3.15,
+          "carbohydrate_g": 4.78,
+          "fat_g": 3.27
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "稀奶油",
+        "food": {
+          "fdc_id": 170859,
+          "description": "Cream, fluid, heavy whipping",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "92f010d709db95392b61ce6448496677443e5b692b6a3a3b28bd93e96d55b10a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 80,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 340,
+          "protein_g": 2.84,
+          "carbohydrate_g": 2.84,
+          "fat_g": 36.1
+        },
+        "edible_g": 80
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 40
+      }
+    ],
+    "total": {
+      "energy_kcal": 1763.3,
+      "protein_g": 34.197,
+      "carbohydrate_g": 140.362,
+      "fat_g": 119.495
+    },
+    "final_edible_g": 520,
+    "per_100g": {
+      "energy_kcal": 339.096154,
+      "protein_g": 6.576346,
+      "carbohydrate_g": 26.992692,
+      "fat_g": 22.979808
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 341.094424,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

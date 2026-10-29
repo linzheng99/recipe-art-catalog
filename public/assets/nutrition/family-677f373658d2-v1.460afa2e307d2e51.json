@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "id": "family-677f373658d2-v1",
+  "recipe_id": "howtocook-677f373658d2",
+  "recipe_blob_sha": "276a30e5ecd6f65720c5fac329f8f97653fede63",
+  "version": "1",
+  "data_version": "f266d18f5bce5dbb",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：椰子水350g、椰奶100g、白砂糖40g、饮用水60g；整份约550g。无酒精版，不含商业品牌糖浆，冰计入水重。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-677f373658d2",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-677f373658d2-v1",
+    "standard_ingredients": [
+      {
+        "key": "coconut_water",
+        "grams": 350
+      },
+      {
+        "key": "coconut_milk",
+        "grams": 100
+      },
+      {
+        "key": "sugar",
+        "grams": 40
+      },
+      {
+        "key": "water",
+        "grams": 60
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 82.054545,
+    "protein_g": 0.874545,
+    "carbohydrate_g": 10.640909,
+    "fat_g": 4.454545
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/170174/nutrients",
+    "version": "f266d18f5bce5dbb",
+    "fdc_ids": [
+      170174,
+      170172,
+      169655,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E7%A0%82%E7%B3%96%E6%A4%B0%E5%AD%90%E5%86%B0%E6%B2%99/%E7%A0%82%E7%B3%96%E6%A4%B0%E5%AD%90%E5%86%B0%E6%B2%99.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "276a30e5ecd6f65720c5fac329f8f97653fede63"
+  },
+  "profile": {
+    "id": "family-677f373658d2-v1",
+    "version": "1",
+    "recipe_id": "howtocook-677f373658d2",
+    "recipe_blob_sha": "276a30e5ecd6f65720c5fac329f8f97653fede63",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：椰子水350g、椰奶100g、白砂糖40g、饮用水60g；整份约550g。无酒精版，不含商业品牌糖浆，冰计入水重。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-677f373658d2",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-677f373658d2-v1",
+      "standard_ingredients": [
+        {
+          "key": "coconut_water",
+          "grams": 350
+        },
+        {
+          "key": "coconut_milk",
+          "grams": 100
+        },
+        {
+          "key": "sugar",
+          "grams": 40
+        },
+        {
+          "key": "water",
+          "grams": 60
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：椰子水350g、椰奶100g、白砂糖40g、饮用水60g。克数是项目标准，不是原文ml/个数换算。",
+      "无酒精版，不含商业品牌糖浆，冰计入水重",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "椰子水",
+        "food": {
+          "fdc_id": 170174,
+          "description": "Nuts, coconut water (liquid from coconuts)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "aebae4cfc385cb1b286463c8e9eb7d03dd5e98f2f8ed4b609de7404df3eee634"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 350,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+      },
+      {
+        "name": "椰奶",
+        "food": {
+          "fdc_id": 170172,
+          "description": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "114034c3167e189abe2b4c9005b6b286f001ca240db33ec94d402d5494bf8a4a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 60,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 550,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:09:54.756Z",
+      "checks": {
+        "recipe_version": "276a30e5ecd6f65720c5fac329f8f97653fede63",
+        "food_identity": "Nuts, coconut water (liquid from coconuts); Nuts, coconut milk, raw (liquid expressed from grated meat and water); Sugars, granulated; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "无酒精版，不含商业品牌糖浆，冰计入水重"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E7%A0%82%E7%B3%96%E6%A4%B0%E5%AD%90%E5%86%B0%E6%B2%99/%E7%A0%82%E7%B3%96%E6%A4%B0%E5%AD%90%E5%86%B0%E6%B2%99.md",
+          "blob_sha": "276a30e5ecd6f65720c5fac329f8f97653fede63",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170174/nutrients",
+          "note": "椰子水：Nuts, coconut water (liquid from coconuts)；已核对数据类型、生熟、可食部分及原始摘要。核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170172/nutrients",
+          "note": "椰奶：Nuts, coconut milk, raw (liquid expressed from grated meat and water)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 19,
+        "protein_g": 0.72,
+        "carbohydrate_g": 3.71,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 19
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.71
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170174,
+        "description": "Nuts, coconut water (liquid from coconuts)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:07:34.079Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170174/nutrients",
+        "version": "SR Legacy / 2019-04-01 / aebae4cfc385cb1b",
+        "raw_sha256": "aebae4cfc385cb1b286463c8e9eb7d03dd5e98f2f8ed4b609de7404df3eee634",
+        "transport": "api_search_snapshot",
+        "query_sha256": "3e1d57a778e243c0fad5318a24ec6a9bf18ac27847ff8c0f4ef67e752df78d41"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 230,
+        "protein_g": 2.29,
+        "carbohydrate_g": 5.54,
+        "fat_g": 23.8
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 230
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 2.29
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 5.54
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 23.8
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170172,
+        "description": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:54.495Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170172/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 114034c3167e189a",
+        "raw_sha256": "114034c3167e189abe2b4c9005b6b286f001ca240db33ec94d402d5494bf8a4a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "f4e8b24e8d7a5388260105a0c1b2b8b1e3c17f6e1275e2e9a1b5518e198fae9e"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 387,
+        "protein_g": 0,
+        "carbohydrate_g": 100,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 387
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 100
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169655,
+        "description": "Sugars, granulated",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:03.575Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 2be356829c925592",
+        "raw_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "椰子水",
+        "food": {
+          "fdc_id": 170174,
+          "description": "Nuts, coconut water (liquid from coconuts)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "aebae4cfc385cb1b286463c8e9eb7d03dd5e98f2f8ed4b609de7404df3eee634"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 350,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。",
+        "per_100g": {
+          "energy_kcal": 19,
+          "protein_g": 0.72,
+          "carbohydrate_g": 3.71,
+          "fat_g": 0.2
+        },
+        "edible_g": 350
+      },
+      {
+        "name": "椰奶",
+        "food": {
+          "fdc_id": 170172,
+          "description": "Nuts, coconut milk, raw (liquid expressed from grated meat and water)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "114034c3167e189abe2b4c9005b6b286f001ca240db33ec94d402d5494bf8a4a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 230,
+          "protein_g": 2.29,
+          "carbohydrate_g": 5.54,
+          "fat_g": 23.8
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "白砂糖",
+        "food": {
+          "fdc_id": 169655,
+          "description": "Sugars, granulated",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 40,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 387,
+          "protein_g": 0,
+          "carbohydrate_g": 100,
+          "fat_g": 0
+        },
+        "edible_g": 40
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 60,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 60
+      }
+    ],
+    "total": {
+      "energy_kcal": 451.3,
+      "protein_g": 4.81,
+      "carbohydrate_g": 58.525,
+      "fat_g": 24.5
+    },
+    "final_edible_g": 550,
+    "per_100g": {
+      "energy_kcal": 82.054545,
+      "protein_g": 0.874545,
+      "carbohydrate_g": 10.640909,
+      "fat_g": 4.454545
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 86.15272100000001,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

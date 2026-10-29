@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "id": "family-f3b656b5a03f-v1",
+  "recipe_id": "howtocook-f3b656b5a03f",
+  "recipe_blob_sha": "4c79ceaa1726683c13ebf8acdf0f60656ce8a510",
+  "version": "1",
+  "data_version": "b226152dcfe0450e",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 450,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品450g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：水浸罐装金枪鱼130g、白吐司250g、普通蛋黄酱50g；整份约450g。水浸金枪鱼沥干净量，明确无酸黄瓜汁和其他可选配料的标准变体。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-f3b656b5a03f",
+    "state": "ready_to_eat",
+    "cooking_method": "bake",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-f3b656b5a03f-v1",
+    "standard_ingredients": [
+      {
+        "key": "tuna_can",
+        "grams": 130
+      },
+      {
+        "key": "bread",
+        "grams": 250
+      },
+      {
+        "key": "mayonnaise",
+        "grams": 50
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 256.844444,
+    "protein_g": 12.39,
+    "carbohydrate_g": 27.507778,
+    "fat_g": 10.398
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/171986/nutrients",
+    "version": "b226152dcfe0450e",
+    "fdc_ids": [
+      171986,
+      174924,
+      171009
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E9%87%91%E6%9E%AA%E9%B1%BC%E9%85%B1%E4%B8%89%E6%98%8E%E6%B2%BB.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "4c79ceaa1726683c13ebf8acdf0f60656ce8a510"
+  },
+  "profile": {
+    "id": "family-f3b656b5a03f-v1",
+    "version": "1",
+    "recipe_id": "howtocook-f3b656b5a03f",
+    "recipe_blob_sha": "4c79ceaa1726683c13ebf8acdf0f60656ce8a510",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：水浸罐装金枪鱼130g、白吐司250g、普通蛋黄酱50g；整份约450g。水浸金枪鱼沥干净量，明确无酸黄瓜汁和其他可选配料的标准变体。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-f3b656b5a03f",
+      "state": "ready_to_eat",
+      "cooking_method": "bake",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-f3b656b5a03f-v1",
+      "standard_ingredients": [
+        {
+          "key": "tuna_can",
+          "grams": 130
+        },
+        {
+          "key": "bread",
+          "grams": 250
+        },
+        {
+          "key": "mayonnaise",
+          "grams": 50
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：水浸罐装金枪鱼130g、白吐司250g、普通蛋黄酱50g。克数是项目标准，不是原文ml/个数换算。",
+      "水浸金枪鱼沥干净量，明确无酸黄瓜汁和其他可选配料的标准变体",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "水浸罐装金枪鱼",
+        "food": {
+          "fdc_id": 171986,
+          "description": "Fish, tuna, light, canned in water, without salt, drained solids",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "397ada49bff0c9370361f75ec0f4d2d13b73a41e69572f336e0becc149811d15"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 130,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "普通蛋黄酱",
+        "food": {
+          "fdc_id": 171009,
+          "description": "Salad dressing, mayonnaise, regular",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fd7a393ee21c7f0970f008de2333c1cea19afbdb14a3e02c71a95be871ac0879"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+      }
+    ],
+    "final_weight": {
+      "grams": 450,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品450g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "bake",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T03:24:47.419Z",
+      "checks": {
+        "recipe_version": "4c79ceaa1726683c13ebf8acdf0f60656ce8a510",
+        "food_identity": "Fish, tuna, light, canned in water, without salt, drained solids; Bread, white, commercially prepared (includes soft bread crumbs); Salad dressing, mayonnaise, regular",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat输入；成品bake。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "水浸金枪鱼沥干净量，明确无酸黄瓜汁和其他可选配料的标准变体"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E9%87%91%E6%9E%AA%E9%B1%BC%E9%85%B1%E4%B8%89%E6%98%8E%E6%B2%BB.md",
+          "blob_sha": "4c79ceaa1726683c13ebf8acdf0f60656ce8a510",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171986/nutrients",
+          "note": "水浸罐装金枪鱼：Fish, tuna, light, canned in water, without salt, drained solids；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+          "note": "白吐司：Bread, white, commercially prepared (includes soft bread crumbs)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171009/nutrients",
+          "note": "普通蛋黄酱：Salad dressing, mayonnaise, regular；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 116,
+        "protein_g": 25.5,
+        "carbohydrate_g": 0,
+        "fat_g": 0.82
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 116
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 25.5
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.82
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171986,
+        "description": "Fish, tuna, light, canned in water, without salt, drained solids",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:06:36.419Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171986/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 397ada49bff0c937",
+        "raw_sha256": "397ada49bff0c9370361f75ec0f4d2d13b73a41e69572f336e0becc149811d15",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d7fa9626de1ba1e939dc30fbd0fdb271649a23707577d085441b3345b605330e"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 266,
+        "protein_g": 8.85,
+        "carbohydrate_g": 49.4,
+        "fat_g": 3.33
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 266
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.85
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 49.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.33
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174924,
+        "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:29.094Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f9628b59b6c86dd1",
+        "raw_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d9f54e13a381e5bc847cfa372356ec7400acf0fceb0864e10fbfeaf4642397ea"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 680,
+        "protein_g": 0.96,
+        "carbohydrate_g": 0.57,
+        "fat_g": 74.8
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 680
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.96
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.57
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 74.8
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171009,
+        "description": "Salad dressing, mayonnaise, regular",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:18:14.191Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171009/nutrients",
+        "version": "SR Legacy / 2019-04-01 / fd7a393ee21c7f09",
+        "raw_sha256": "fd7a393ee21c7f0970f008de2333c1cea19afbdb14a3e02c71a95be871ac0879",
+        "transport": "api_search_snapshot",
+        "query_sha256": "7bc72807150ce99b2a5ff019df4dd25593bca382d175fce243770feb83ea74c1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "水浸罐装金枪鱼",
+        "food": {
+          "fdc_id": 171986,
+          "description": "Fish, tuna, light, canned in water, without salt, drained solids",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "397ada49bff0c9370361f75ec0f4d2d13b73a41e69572f336e0becc149811d15"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 130,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 116,
+          "protein_g": 25.5,
+          "carbohydrate_g": 0,
+          "fat_g": 0.82
+        },
+        "edible_g": 130
+      },
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 266,
+          "protein_g": 8.85,
+          "carbohydrate_g": 49.4,
+          "fat_g": 3.33
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "普通蛋黄酱",
+        "food": {
+          "fdc_id": 171009,
+          "description": "Salad dressing, mayonnaise, regular",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fd7a393ee21c7f0970f008de2333c1cea19afbdb14a3e02c71a95be871ac0879"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。",
+        "per_100g": {
+          "energy_kcal": 680,
+          "protein_g": 0.96,
+          "carbohydrate_g": 0.57,
+          "fat_g": 74.8
+        },
+        "edible_g": 50
+      }
+    ],
+    "total": {
+      "energy_kcal": 1155.8,
+      "protein_g": 55.755,
+      "carbohydrate_g": 123.785,
+      "fat_g": 46.791
+    },
+    "final_edible_g": 450,
+    "per_100g": {
+      "energy_kcal": 256.844444,
+      "protein_g": 12.39,
+      "carbohydrate_g": 27.507778,
+      "fat_g": 10.398
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 253.173112,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

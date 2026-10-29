@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "completed_at": "2026-10-29T00:17:30.899321+00:00",
+  "rules_version": "nutrition-1.6.0",
+  "recipes_added": 21,
+  "status": "complete",
+  "source_policy": "cached_official_data_with_disclosed_food_group_proxies",
+  "prior_recipes_unchanged": 351,
+  "exact_source_backlog": "catalog/nutrition/reviews/exact-source-backlog.json",
+  "note": "全部16个后续批次复用已缓存原始响应；代理审核不等于原物种或品牌精确匹配。"
+}

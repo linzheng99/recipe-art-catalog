@@ -2,7 +2,10 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
-import { createRuntimeCatalog } from "../scripts/runtime-catalog.mjs";
+import {
+  createRuntimeCatalog,
+  nutritionSummary,
+} from "../scripts/runtime-catalog.mjs";
 
 const publicRoot = new URL("../public/", import.meta.url);
 
@@ -17,8 +20,21 @@ test("轻量目录保持全部图片与来源标识，正文可按摘要还原�
   assert.deepEqual(lite.recipes, full.recipes);
   for (const [index, item] of lite.artworks.entries()) {
     const original = full.artworks[index];
-    const { generation, reference_recipes, ...fields } = original;
-    const { recipe_details, search_terms, difficulty, ...summary } = item;
+    const {
+      generation,
+      reference_recipes,
+      nutrition,
+      nutrition_profiles,
+      ...fields
+    } = original;
+    const {
+      recipe_details,
+      search_terms,
+      difficulty,
+      nutrition: compactNutrition,
+      nutrition_profiles: compactProfiles,
+      ...summary
+    } = item;
     assert.ok(
       search_terms.includes(
         item.name.normalize("NFKC").replace(/\s+/g, "").toLowerCase(),
@@ -38,6 +54,28 @@ test("轻量目录保持全部图片与来源标识，正文可按摘要还原�
         ({ details, ...source }) => source,
       ),
     });
+    for (const key of [
+      "status",
+      "basis",
+      "per_100g",
+      "source",
+      "method",
+      "review_status",
+      "profile_id",
+    ])
+      assert.deepEqual(compactNutrition[key], nutrition[key]);
+    assert.deepEqual(
+      (compactProfiles ?? []).map((profile) => profile.id),
+      (nutrition_profiles ?? [])
+        .filter((profile) => profile.id !== nutrition.profile_id)
+        .map((profile) => profile.id),
+    );
+    for (const profile of compactProfiles ?? []) {
+      const source = nutrition_profiles.find((item) => item.id === profile.id);
+      assert.deepEqual(profile.per_100g, source.per_100g);
+      assert.equal(profile.recipe_id, source.recipe_id);
+      assert.equal(profile.scope, nutritionSummary(source).scope);
+    }
     assert.equal(
       recipe_details.path,
       `assets/recipe-details/${item.key}.${recipe_details.sha256.slice(0, 16)}.json`,
@@ -53,6 +91,8 @@ test("轻量目录保持全部图片与来源标识，正文可按摘要还原�
       schema_version: 1,
       key: item.key,
       reference_recipes,
+      nutrition,
+      ...(nutrition_profiles ? { nutrition_profiles } : {}),
     });
   }
 });

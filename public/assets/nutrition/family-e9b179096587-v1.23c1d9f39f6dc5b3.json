@@ -1,0 +1,1261 @@
+{
+  "schema_version": 1,
+  "id": "family-e9b179096587-v1",
+  "recipe_id": "howtocook-e9b179096587",
+  "recipe_blob_sha": "09b0314278878e71b8d2226bad882202f54b04b4",
+  "version": "1",
+  "data_version": "67951424c157d43e",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "recipe_basis": "standardized_assumptions",
+  "estimate_confidence": "low",
+  "final_weight": {
+    "grams": 1050,
+    "method": "household_recipe_assumption",
+    "basis": "standard_recipe_assumption",
+    "is_measured": false,
+    "servings": {
+      "min": 2,
+      "max": 3
+    },
+    "evidence": "项目按2–3人家庭份明确设定成品1050g，非实测或USDA出成率；原料与成品重分别保存。"
+  },
+  "retention_correction": "not_applied",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "2–3人家庭标准配方估算：生意式猪肉香肠250g、红熟番茄400g、去皮大蒜15g、洋葱150g、红甜椒150g、净全鸡蛋液200g、大豆食用油15g、白吐司120g、食盐2g、甜椒粉3g、饮用水50g；整份约1050g。限定温和意式生猪肉香肠；鲜番茄蒜洋葱甜椒制家常番茄酱替代Barilla拿坡里成品酱，不加可选奶酪欧芹；包含面包120g及全部锅汁香肠油脂。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "food_identity": "howtocook-e9b179096587",
+    "state": "ready_to_eat",
+    "cooking_method": "simmer",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": true,
+    "sugar_added": false,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-e9b179096587-v1",
+    "standard_ingredients": [
+      {
+        "key": "italian_sausage",
+        "grams": 250
+      },
+      {
+        "key": "tomato",
+        "grams": 400
+      },
+      {
+        "key": "garlic",
+        "grams": 15
+      },
+      {
+        "key": "onion",
+        "grams": 150
+      },
+      {
+        "key": "pepper_red",
+        "grams": 150
+      },
+      {
+        "key": "egg",
+        "grams": 200
+      },
+      {
+        "key": "oil",
+        "grams": 15
+      },
+      {
+        "key": "bread",
+        "grams": 120
+      },
+      {
+        "key": "salt",
+        "grams": 2
+      },
+      {
+        "key": "paprika",
+        "grams": 3
+      },
+      {
+        "key": "water",
+        "grams": 50
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 158.534286,
+    "protein_g": 7.485905,
+    "carbohydrate_g": 10.794762,
+    "fat_g": 9.583619
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/171631/nutrients",
+    "version": "67951424c157d43e",
+    "fdc_ids": [
+      171631,
+      170457,
+      169230,
+      170000,
+      170108,
+      171287,
+      171411,
+      174924,
+      173468,
+      171329,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E6%84%8F%E5%BC%8F%E9%A6%99%E8%82%A0%E5%8C%97%E9%9D%9E%E8%9B%8B.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "09b0314278878e71b8d2226bad882202f54b04b4"
+  },
+  "profile": {
+    "id": "family-e9b179096587-v1",
+    "version": "1",
+    "recipe_id": "howtocook-e9b179096587",
+    "recipe_blob_sha": "09b0314278878e71b8d2226bad882202f54b04b4",
+    "method": "usda_recipe_estimate",
+    "default_for_artwork": true,
+    "scope": "2–3人家庭标准配方估算：生意式猪肉香肠250g、红熟番茄400g、去皮大蒜15g、洋葱150g、红甜椒150g、净全鸡蛋液200g、大豆食用油15g、白吐司120g、食盐2g、甜椒粉3g、饮用水50g；整份约1050g。限定温和意式生猪肉香肠；鲜番茄蒜洋葱甜椒制家常番茄酱替代Barilla拿坡里成品酱，不加可选奶酪欧芹；包含面包120g及全部锅汁香肠油脂。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "food_identity": "howtocook-e9b179096587",
+      "state": "ready_to_eat",
+      "cooking_method": "simmer",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": true,
+      "sugar_added": false,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-e9b179096587-v1",
+      "standard_ingredients": [
+        {
+          "key": "italian_sausage",
+          "grams": 250
+        },
+        {
+          "key": "tomato",
+          "grams": 400
+        },
+        {
+          "key": "garlic",
+          "grams": 15
+        },
+        {
+          "key": "onion",
+          "grams": 150
+        },
+        {
+          "key": "pepper_red",
+          "grams": 150
+        },
+        {
+          "key": "egg",
+          "grams": 200
+        },
+        {
+          "key": "oil",
+          "grams": 15
+        },
+        {
+          "key": "bread",
+          "grams": 120
+        },
+        {
+          "key": "salt",
+          "grams": 2
+        },
+        {
+          "key": "paprika",
+          "grams": 3
+        },
+        {
+          "key": "water",
+          "grams": 50
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：生意式猪肉香肠250g、红熟番茄400g、去皮大蒜15g、洋葱150g、红甜椒150g、净全鸡蛋液200g、大豆食用油15g、白吐司120g、食盐2g、甜椒粉3g、饮用水50g。克数是项目标准，不是原文ml/个数换算。",
+      "限定温和意式生猪肉香肠；鲜番茄蒜洋葱甜椒制家常番茄酱替代Barilla拿坡里成品酱，不加可选奶酪欧芹；包含面包120g及全部锅汁香肠油脂",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "食材品种、品牌、含水量和实际用量可能与USDA通用资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "生意式猪肉香肠",
+        "food": {
+          "fdc_id": 171631,
+          "description": "Sausage, Italian, pork, mild, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8e090cfdc1cd6670472a0de62b1ef3314b2f57d6806f0e61439896e09848b184"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "未烹饪温和型意式猪肉香肠，不用于西班牙Chorizo、中式腊肠或午餐肉；按去肠衣馅料净重计算。"
+      },
+      {
+        "name": "红熟番茄",
+        "food": {
+          "fdc_id": 170457,
+          "description": "Tomatoes, red, ripe, raw, year round average",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7a6f6fda4ed26d644a4028cec1e4deb52bcd7fb31f563559468b93b55a02cf71"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 400,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "红甜椒",
+        "food": {
+          "fdc_id": 170108,
+          "description": "Peppers, sweet, red, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b4c9d0afec4f4e0a6e3f8d4426b216af38a376fe48e88e90eec73b52d0fd26bb"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 120,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "甜椒粉",
+        "food": {
+          "fdc_id": 171329,
+          "description": "Spices, paprika",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "56a51a94ed59bb6e41c2987be20882567e165cfcf79ddeb41d99deb060dfffaa"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "红甜椒干粉通用参考，非复合烧烤料。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 1050,
+      "method": "household_recipe_assumption",
+      "basis": "standard_recipe_assumption",
+      "is_measured": false,
+      "servings": {
+        "min": 2,
+        "max": 3
+      },
+      "evidence": "项目按2–3人家庭份明确设定成品1050g，非实测或USDA出成率；原料与成品重分别保存。"
+    },
+    "process": {
+      "method": "simmer",
+      "retention_correction": "not_applied",
+      "macronutrient_retention": "assumed_full",
+      "no_nutrient_bearing_liquid_discarded": true,
+      "all_added_fat_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex explicit standardized recipe review; no human sign-off claimed",
+      "reviewed_at": "2026-10-28T06:14:28.217Z",
+      "checks": {
+        "recipe_version": "09b0314278878e71b8d2226bad882202f54b04b4",
+        "food_identity": "Sausage, Italian, pork, mild, raw; Tomatoes, red, ripe, raw, year round average; Garlic, raw; Onions, raw; Peppers, sweet, red, raw; Egg, whole, raw, fresh; Oil, soybean, salad or cooking; Bread, white, commercially prepared (includes soft bread crumbs); Salt, table; Spices, paprika; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按raw/raw/raw/raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "限定温和意式生猪肉香肠；鲜番茄蒜洋葱甜椒制家常番茄酱替代Barilla拿坡里成品酱，不加可选奶酪欧芹；包含面包120g及全部锅汁香肠油脂"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/breakfast/%E6%84%8F%E5%BC%8F%E9%A6%99%E8%82%A0%E5%8C%97%E9%9D%9E%E8%9B%8B.md",
+          "blob_sha": "09b0314278878e71b8d2226bad882202f54b04b4",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171631/nutrients",
+          "note": "生意式猪肉香肠：Sausage, Italian, pork, mild, raw；已核对数据类型、生熟、可食部分及原始摘要。未烹饪温和型意式猪肉香肠，不用于西班牙Chorizo、中式腊肠或午餐肉；按去肠衣馅料净重计算。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170457/nutrients",
+          "note": "红熟番茄：Tomatoes, red, ripe, raw, year round average；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+          "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "洋葱：Onions, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/170108/nutrients",
+          "note": "红甜椒：Peppers, sweet, red, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "note": "净全鸡蛋液：Egg, whole, raw, fresh；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+          "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+          "note": "白吐司：Bread, white, commercially prepared (includes soft bread crumbs)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+          "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/171329/nutrients",
+          "note": "甜椒粉：Spices, paprika；已核对数据类型、生熟、可食部分及原始摘要。红甜椒干粉通用参考，非复合烧烤料。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 290,
+        "protein_g": 13.9,
+        "carbohydrate_g": 2.97,
+        "fat_g": 24.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 290
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 13.9
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 2.97
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 24.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171631,
+        "description": "Sausage, Italian, pork, mild, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T06:12:29.009Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171631/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 8e090cfdc1cd6670",
+        "raw_sha256": "8e090cfdc1cd6670472a0de62b1ef3314b2f57d6806f0e61439896e09848b184",
+        "transport": "api_search_snapshot",
+        "query_sha256": "932e1902d22b4fe8eb88519ed35711ad75c8e5bfa8199c2bf6caea57dfb6b6dc"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 18,
+        "protein_g": 0.88,
+        "carbohydrate_g": 3.89,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 18
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.88
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 3.89
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170457,
+        "description": "Tomatoes, red, ripe, raw, year round average",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:53:58.142Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170457/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 7a6f6fda4ed26d64",
+        "raw_sha256": "7a6f6fda4ed26d644a4028cec1e4deb52bcd7fb31f563559468b93b55a02cf71",
+        "transport": "api_search_snapshot",
+        "query_sha256": "630c1cbe9efc5ed4e5344b8a4cb4cc66a1f2dd7739ca0227140e6cec551a4148"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 149,
+        "protein_g": 6.36,
+        "carbohydrate_g": 33.1,
+        "fat_g": 0.5
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 149
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 6.36
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 33.1
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.5
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169230,
+        "description": "Garlic, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:05:07.095Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 7ad29963a8d95feb",
+        "raw_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 40,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.34,
+        "fat_g": 0.1
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 40
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.34
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.1
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170000,
+        "description": "Onions, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:22.135Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+        "version": "SR Legacy / 2019-04-01 / fe11efa3ee637efd",
+        "raw_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9",
+        "transport": "api_search_snapshot",
+        "query_sha256": "9e6bc240d3f56b6d8354fad391941b71f47fb49307a0a36c0aaa1ef78922bf41"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 26,
+        "protein_g": 0.99,
+        "carbohydrate_g": 6.03,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 26
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.99
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.03
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 170108,
+        "description": "Peppers, sweet, red, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:59:53.493Z",
+        "url": "https://fdc.nal.usda.gov/food-details/170108/nutrients",
+        "version": "SR Legacy / 2019-04-01 / b4c9d0afec4f4e0a",
+        "raw_sha256": "b4c9d0afec4f4e0a6e3f8d4426b216af38a376fe48e88e90eec73b52d0fd26bb",
+        "transport": "api_search_snapshot",
+        "query_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 143,
+        "protein_g": 12.6,
+        "carbohydrate_g": 0.72,
+        "fat_g": 9.51
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 143
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 12.6
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0.72
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 9.51
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171287,
+        "description": "Egg, whole, raw, fresh",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-27T14:54:16.908Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f778a47f0b7d8141",
+        "raw_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251",
+        "transport": "api_search_snapshot",
+        "query_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 884,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 100
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 884
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 100
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171411,
+        "description": "Oil, soybean, salad or cooking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T02:58:38.318Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 423fa32257e06f85",
+        "raw_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a",
+        "transport": "api_search_snapshot",
+        "query_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 266,
+        "protein_g": 8.85,
+        "carbohydrate_g": 49.4,
+        "fat_g": 3.33
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 266
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 8.85
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 49.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 3.33
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174924,
+        "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:29.094Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174924/nutrients",
+        "version": "SR Legacy / 2019-04-01 / f9628b59b6c86dd1",
+        "raw_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d9f54e13a381e5bc847cfa372356ec7400acf0fceb0864e10fbfeaf4642397ea"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173468,
+        "description": "Salt, table",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:06:29.343Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ac568d3b3b1111f4",
+        "raw_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc",
+        "transport": "api_search_snapshot",
+        "query_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 282,
+        "protein_g": 14.1,
+        "carbohydrate_g": 54,
+        "fat_g": 12.9
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 282
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 14.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 54
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 12.9
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 171329,
+        "description": "Spices, paprika",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:55:57.277Z",
+        "url": "https://fdc.nal.usda.gov/food-details/171329/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 56a51a94ed59bb6e",
+        "raw_sha256": "56a51a94ed59bb6e41c2987be20882567e165cfcf79ddeb41d99deb060dfffaa",
+        "transport": "api_search_snapshot",
+        "query_sha256": "4bd013e64c7478b649cde38156bec6510648d8ccd9d89082fa9379c02997bf79"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "生意式猪肉香肠",
+        "food": {
+          "fdc_id": 171631,
+          "description": "Sausage, Italian, pork, mild, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "8e090cfdc1cd6670472a0de62b1ef3314b2f57d6806f0e61439896e09848b184"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 250,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "未烹饪温和型意式猪肉香肠，不用于西班牙Chorizo、中式腊肠或午餐肉；按去肠衣馅料净重计算。",
+        "per_100g": {
+          "energy_kcal": 290,
+          "protein_g": 13.9,
+          "carbohydrate_g": 2.97,
+          "fat_g": 24.3
+        },
+        "edible_g": 250
+      },
+      {
+        "name": "红熟番茄",
+        "food": {
+          "fdc_id": 170457,
+          "description": "Tomatoes, red, ripe, raw, year round average",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7a6f6fda4ed26d644a4028cec1e4deb52bcd7fb31f563559468b93b55a02cf71"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 400,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 18,
+          "protein_g": 0.88,
+          "carbohydrate_g": 3.89,
+          "fat_g": 0.2
+        },
+        "edible_g": 400
+      },
+      {
+        "name": "去皮大蒜",
+        "food": {
+          "fdc_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 149,
+          "protein_g": 6.36,
+          "carbohydrate_g": 33.1,
+          "fat_g": 0.5
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "洋葱",
+        "food": {
+          "fdc_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "fe11efa3ee637efd359b276359909d4c0a03ac9258b645d5f12a37bb4e6998f9"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 40,
+          "protein_g": 1.1,
+          "carbohydrate_g": 9.34,
+          "fat_g": 0.1
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "红甜椒",
+        "food": {
+          "fdc_id": 170108,
+          "description": "Peppers, sweet, red, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "b4c9d0afec4f4e0a6e3f8d4426b216af38a376fe48e88e90eec73b52d0fd26bb"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 150,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 26,
+          "protein_g": 0.99,
+          "carbohydrate_g": 6.03,
+          "fat_g": 0.3
+        },
+        "edible_g": 150
+      },
+      {
+        "name": "净全鸡蛋液",
+        "food": {
+          "fdc_id": 171287,
+          "description": "Egg, whole, raw, fresh",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f778a47f0b7d8141722f13a081115104573512342cd09521168eed671c2db251"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 200,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 143,
+          "protein_g": 12.6,
+          "carbohydrate_g": 0.72,
+          "fat_g": 9.51
+        },
+        "edible_g": 200
+      },
+      {
+        "name": "大豆食用油",
+        "food": {
+          "fdc_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 15,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 884,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 100
+        },
+        "edible_g": 15
+      },
+      {
+        "name": "白吐司",
+        "food": {
+          "fdc_id": 174924,
+          "description": "Bread, white, commercially prepared (includes soft bread crumbs)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "f9628b59b6c86dd1587ef67222a3c7a65ff20a0705f9068a7181569dea54d14f"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 120,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 266,
+          "protein_g": 8.85,
+          "carbohydrate_g": 49.4,
+          "fat_g": 3.33
+        },
+        "edible_g": 120
+      },
+      {
+        "name": "食盐",
+        "food": {
+          "fdc_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 2,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 2
+      },
+      {
+        "name": "甜椒粉",
+        "food": {
+          "fdc_id": 171329,
+          "description": "Spices, paprika",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "56a51a94ed59bb6e41c2987be20882567e165cfcf79ddeb41d99deb060dfffaa"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 3,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "红甜椒干粉通用参考，非复合烧烤料。",
+        "per_100g": {
+          "energy_kcal": 282,
+          "protein_g": 14.1,
+          "carbohydrate_g": 54,
+          "fat_g": 12.9
+        },
+        "edible_g": 3
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 50,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 50
+      }
+    ],
+    "total": {
+      "energy_kcal": 1664.61,
+      "protein_g": 78.602,
+      "carbohydrate_g": 113.345,
+      "fat_g": 100.628
+    },
+    "final_edible_g": 1050,
+    "per_100g": {
+      "energy_kcal": 158.534286,
+      "protein_g": 7.485905,
+      "carbohydrate_g": 10.794762,
+      "fat_g": 9.583619
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 159.37523900000002,
+    "warnings": []
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

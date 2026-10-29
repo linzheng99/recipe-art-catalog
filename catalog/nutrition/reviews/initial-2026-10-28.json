@@ -1,0 +1,3819 @@
+{
+  "schema_version": 1,
+  "review_version": "remaining-review-1",
+  "reviewed_at": "2026-10-28T06:22:51.908Z",
+  "reviewer": "Codex source and process review; not a human or USDA sign-off",
+  "policy": "家庭份净用量和成品重量可自主设定；食物身份、复配配料及重大加工损失不能由重量假设代替。no_match仅指本轮所核验候选无合理对应，不代表证明整个USDA没有数据。",
+  "recipes": [
+    {
+      "recipe_id": "howtocook-b69537e9b0c4",
+      "recipe_blob_sha": "cc1fcc072033aa4b6920919b47ac9b68ed254775",
+      "name": "咖喱炒蟹",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文青蟹或肉蟹，与已核验的USDA蓝蟹种类不同；不可把蓝蟹净肉参考套给含蟹黄整蟹。",
+      "next_action": "补青蟹可食肉及蟹黄来源，分别设净克数；咖喱块已有品牌方案可复用。",
+      "ingredient_keys": [
+        "crab"
+      ],
+      "checked_queries": [
+        {
+          "key": "crab",
+          "query": "Crustaceans crab blue raw",
+          "status": "complete",
+          "raw_sha256": "8823c02587e64f0dffd26a8b75a82263965536ad716a5dfbdd6d36c66b751aae"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b9a1d9770073",
+      "recipe_blob_sha": "acca9edb60bdc81d8ff73aaaeb33e992c9d9ff9e",
+      "name": "响油鳝丝",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "黄鳝是swamp eel；本轮候选是鳗鱼eel，不能因中文近似而替代。",
+      "next_action": "取得明确黄鳝净肉来源后按葱姜油酱标准份计算。",
+      "ingredient_keys": [
+        "swamp_eel",
+        "eel"
+      ],
+      "checked_queries": [
+        {
+          "key": "swamp_eel",
+          "query": "Swamp eel Monopterus albus raw",
+          "status": "complete",
+          "raw_sha256": "a04c4de5b97137824d4b1c58042121d3b304f8301f010e495f6637f7992daf87"
+        },
+        {
+          "key": "eel",
+          "query": "Fish eel mixed species raw",
+          "status": "complete",
+          "raw_sha256": "3f975406bea2dba691cc474d6f8edaec440760faf810bfc0063f16c582b50241"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e2a148eb6cf1",
+      "recipe_blob_sha": "b982dde225c7be380acf80601cf8b2bb4f637b65",
+      "name": "小龙虾",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "已有养殖或野生小龙虾净肉候选；原文带头壳啤酒炖煮，头内可食物和弃汤油酒的比例没有可靠模型。",
+      "next_action": "固定净虾尾肉版本及啤酒烹饪保留规则，或取得合适成品参考。",
+      "ingredient_keys": [
+        "crayfish"
+      ],
+      "checked_queries": [
+        {
+          "key": "crayfish",
+          "query": "Crustaceans crayfish mixed species wild raw",
+          "status": "complete",
+          "raw_sha256": "82382e40ff332fc3ae7499fd3335e1ee134a2b280f8507cd04139ed3c638232c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6417780c575c",
+      "recipe_blob_sha": "ea32ad88303e36677d940640c73334d148046828",
+      "name": "干煎阿根廷红虾",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "当前已核验的是通用虾肉，尚未核对阿根廷红虾及带头烹制后弃壳的适用性；不静默等同。",
+      "next_action": "补对应品种可食净肉来源，另固定酒和实际保留油量。",
+      "ingredient_keys": [
+        "argentine_shrimp"
+      ],
+      "checked_queries": [
+        {
+          "key": "argentine_shrimp",
+          "query": "Argentine red shrimp raw",
+          "status": "complete",
+          "raw_sha256": "dc5018c7c0c4c3fb5a948db24b320bb168f6791ff38c044e2940f7701d33acd8"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-eb849be42cbb",
+      "recipe_blob_sha": "497b3c521b0d0a9db7e09962f49198a000632028",
+      "name": "水煮鱼",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文巴沙鱼与已核验鲤鱼鲈鱼不同，且藤椒油含配方差异；图片相近不能合用营养。",
+      "next_action": "补巴沙鱼净肉来源和藤椒油标签，按鱼菜与汤汁是否全食分别建方案。",
+      "ingredient_keys": [
+        "carp",
+        "bass"
+      ],
+      "checked_queries": [
+        {
+          "key": "carp",
+          "query": "Fish carp raw",
+          "status": "complete",
+          "raw_sha256": "4dc11d75244a602c8f27974093408582c8d5e182beaa955e215cd7de079dc40a"
+        },
+        {
+          "key": "bass",
+          "query": "Fish bass fresh water mixed species raw",
+          "status": "complete",
+          "raw_sha256": "bbf60fac03e86276a806a933f42bd74e284092f697c0743905996235be5d1086"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4dbabae17621",
+      "recipe_blob_sha": "feae7a30d591fdfeb063e9ea917ea6fc1e7cca9a",
+      "name": "油焖大虾",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文黑虎虾或明虾带头焖制、料油与收汁过滤；虾头物质及过滤后油汁保留没有核验依据。",
+      "next_action": "固定去头壳净肉版本，补滤后油汁或合适成品数据，避免整锅料油全算入口。",
+      "ingredient_keys": [
+        "shrimp"
+      ],
+      "checked_queries": [
+        {
+          "key": "shrimp",
+          "query": "Crustaceans shrimp mixed species raw",
+          "status": "complete",
+          "raw_sha256": "15b760c04c772182491497236b4f9f0d8589ccd0f8852456a9a8a42497807631"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-711ab5d8b4ee",
+      "recipe_blob_sha": "081f96f48684be161f6619214b97675040085228",
+      "name": "烤鱼",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "草鱼、千张、火锅底料是关键组成，现有鲤鱼和普通豆腐不能直接代替；底料标签也未固定。",
+      "next_action": "补草鱼、千张及指定底料来源，固定配菜与鱼骨排除范围。",
+      "ingredient_keys": [
+        "grass_carp",
+        "tofu"
+      ],
+      "checked_queries": [
+        {
+          "key": "grass_carp",
+          "query": "Grass carp raw",
+          "status": "complete",
+          "raw_sha256": "1dc9629cf5ec44d5a888743d218e026874185e69441070238b4060de77567a6f"
+        },
+        {
+          "key": "tofu",
+          "query": "Tofu soft calcium sulfate magnesium chloride",
+          "status": "complete",
+          "raw_sha256": "94ac5fc8f0b2a67b870b749a589877440b01cc2b7d30aa3c369fba6f68f0e67c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-95caf6ad1a8c",
+      "recipe_blob_sha": "970692aea22cacc5b50b2afc69a7717783e93c50",
+      "name": "糖醋鲤鱼",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-961ae3ea5f72",
+      "recipe_blob_sha": "41bddee09473ee7fc5fcc413b619b7d766c12dea",
+      "name": "红烧鱼头",
+      "status": "no_match",
+      "blocker_code": "edible_part",
+      "reason": "原文鲢鱼头含多种组织；当前鲤鱼净肉参考不能代表鱼头可食部分。",
+      "next_action": "补鲢鱼头去骨可食组织的来源及范围，不用整鱼肉值套算。",
+      "ingredient_keys": [
+        "fish_head",
+        "carp"
+      ],
+      "checked_queries": [
+        {
+          "key": "fish_head",
+          "query": "Bighead silver carp head raw",
+          "status": "complete",
+          "raw_sha256": "a7176c9b2a9aed3eba4e24e8b18639d78cee5bade1e48d71f6b6979f06a374f5"
+        },
+        {
+          "key": "carp",
+          "query": "Fish carp raw",
+          "status": "complete",
+          "raw_sha256": "4dc11d75244a602c8f27974093408582c8d5e182beaa955e215cd7de079dc40a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2e80c786dc11",
+      "recipe_blob_sha": "ae5e8a11932634ab220578da150d98119d10a313",
+      "name": "红烧鲤鱼",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0ed628aba05a",
+      "recipe_blob_sha": "f4993130f386becec7f8ec948c11b676a3c6bff9",
+      "name": "肉蟹煲",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文蟹需先油炸后炖，种类在青蟹梭子蟹河蟹间变化，还包含年糕啤酒；不能由家庭份重量解决种类与吸油问题。",
+      "next_action": "固定蟹种净肉蟹黄、年糕标签及油炸保留规则，再计全部食材。",
+      "ingredient_keys": [
+        "crab",
+        "rice_cake_exact"
+      ],
+      "checked_queries": [
+        {
+          "key": "crab",
+          "query": "Crustaceans crab blue raw",
+          "status": "complete",
+          "raw_sha256": "8823c02587e64f0dffd26a8b75a82263965536ad716a5dfbdd6d36c66b751aae"
+        },
+        {
+          "key": "rice_cake_exact",
+          "query": {
+            "query": "\"RICE CAKE\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "95a727b3407d841dfb4138bb744283fd74c9e05aa4a9f071a2d9d0f4fa818966"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-93eb7c244089",
+      "recipe_blob_sha": "a60fad3b50b4e244a5fe98c07a3c9a503aafbfe5",
+      "name": "芥末黄油罗氏虾",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文罗氏虾含头壳，已有通用虾肉未核验是否适用；青芥末品牌配方也未固定。",
+      "next_action": "补罗氏虾净可食部分与芥末酱标签，固定黄油和食用酱汁。",
+      "ingredient_keys": [
+        "giant_prawn",
+        "shrimp"
+      ],
+      "checked_queries": [
+        {
+          "key": "giant_prawn",
+          "query": "Giant freshwater prawn raw",
+          "status": "complete",
+          "raw_sha256": "32f2497f3afa2e9c59723afee6915020643f59c77a728a280ee607ad91048921"
+        },
+        {
+          "key": "shrimp",
+          "query": "Crustaceans shrimp mixed species raw",
+          "status": "complete",
+          "raw_sha256": "15b760c04c772182491497236b4f9f0d8589ccd0f8852456a9a8a42497807631"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d22fb95d6bed",
+      "recipe_blob_sha": "d03888c339528c5ac27680cdc74be221dff8400a",
+      "name": "葱油桂鱼",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "桂鱼即鳜鱼，本轮检索返回海鲈或其他perch；未核验Siniperca类来源，不能借用鲈鱼图片匹配。",
+      "next_action": "补明确鳜鱼净肉营养来源，再套独立蒸鱼配方；保持当前值null。",
+      "ingredient_keys": [
+        "mandarin_fish",
+        "bass"
+      ],
+      "checked_queries": [
+        {
+          "key": "mandarin_fish",
+          "query": "Mandarin fish Chinese perch raw",
+          "status": "complete",
+          "raw_sha256": "012b56751bcfdcda014f201fb9763ad610b7c2e385246d7618af3745d4466344"
+        },
+        {
+          "key": "bass",
+          "query": "Fish bass fresh water mixed species raw",
+          "status": "complete",
+          "raw_sha256": "bbf60fac03e86276a806a933f42bd74e284092f697c0743905996235be5d1086"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2ce6f52e5526",
+      "recipe_blob_sha": "493e05d1985936bc6ce7c07f585a360f125027aa",
+      "name": "葱烧海参",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "检索命中Alaska Native海参条目，但未说明是否与本菜泡发海参品种、加工和含水状态相符。",
+      "next_action": "补品种、泡发状态明确的可食海参数据，不把干海参或其他物种当泡发成品。",
+      "ingredient_keys": [
+        "sea_cucumber"
+      ],
+      "checked_queries": [
+        {
+          "key": "sea_cucumber",
+          "query": "Sea cucumber cooked",
+          "status": "complete",
+          "raw_sha256": "374bb5ca2822b5d216fdf28cd6813f9172fca1b4e0e7d02a37b3b95d9ac0fd48"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9c598d5ae097",
+      "recipe_blob_sha": "8a005dc7dbbf22b554a205107842da8033b6e26f",
+      "name": "蛏抱蛋",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文蛏子煮后去壳；候选只有混合蛤蜊，尚未确认蛏子种类和熟沥水基准。",
+      "next_action": "补蛏子净熟肉来源后与蛋油酱汇总，不直接使用混合蛤蜊。",
+      "ingredient_keys": [
+        "razor_clam",
+        "clams"
+      ],
+      "checked_queries": [
+        {
+          "key": "razor_clam",
+          "query": "Razor clam raw",
+          "status": "complete",
+          "raw_sha256": "7422b053ed5de2f4abe334442d2f45d54e2bc4e40725fd7831db24c4b4de3ede"
+        },
+        {
+          "key": "clams",
+          "query": "Mollusks clam mixed species raw",
+          "status": "complete",
+          "raw_sha256": "6b3bfc51322fc9c4a0098a135fda0b88269402d88faae963dea1f38de70df88a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d3570dbb127b",
+      "recipe_blob_sha": "fcfeea858b88f271b4afbda5a394238477db5794",
+      "name": "酱炖蟹",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文河蟹或梭子蟹与USDA蓝蟹不同，且含蟹黄；现有净蓝蟹肉不适用全部可食组织。",
+      "next_action": "固定蟹种及肉黄净重来源，确定品牌豆瓣酱；不只凭名称相似通过。",
+      "ingredient_keys": [
+        "crab"
+      ],
+      "checked_queries": [
+        {
+          "key": "crab",
+          "query": "Crustaceans crab blue raw",
+          "status": "complete",
+          "raw_sha256": "8823c02587e64f0dffd26a8b75a82263965536ad716a5dfbdd6d36c66b751aae"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-bd0928f82e92",
+      "recipe_blob_sha": "3f20a5ccb4e913d9cb831e9485afaa7bed6458a3",
+      "name": "阳朔啤酒鱼",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "保留鱼鳞的整鱼配方含啤酒与桂林辣椒酱；鱼种、鳞可食部分、酱标签及酒精加热保留尚未固定。",
+      "next_action": "补对应可食组织和辣椒酱来源，或有依据的成品参考及酒精保留规则。",
+      "ingredient_keys": [
+        "carp"
+      ],
+      "checked_queries": [
+        {
+          "key": "carp",
+          "query": "Fish carp raw",
+          "status": "complete",
+          "raw_sha256": "4dc11d75244a602c8f27974093408582c8d5e182beaa955e215cd7de079dc40a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c9b72f0464b3",
+      "recipe_blob_sha": "6495c2bd9e2795aa3fecb372a17af1e635eb9a3e",
+      "name": "香煎翘嘴鱼",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "翘嘴鱼需腌晒1–2天再煎，当前生鲤鱼或通用鱼肉不代表其物种及失水状态。",
+      "next_action": "补翘嘴鱼来源和腌晒出成依据；不把标准家庭成品重当腌晒测定结果。",
+      "ingredient_keys": [
+        "carp"
+      ],
+      "checked_queries": [
+        {
+          "key": "carp",
+          "query": "Fish carp raw",
+          "status": "complete",
+          "raw_sha256": "4dc11d75244a602c8f27974093408582c8d5e182beaa955e215cd7de079dc40a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4211c36ff61d",
+      "recipe_blob_sha": "26c7bced59a7a9d25492a62657d3627e63ec9ad4",
+      "name": "鳊鱼炖豆腐",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "本轮freshwater bream检索未取得明确鳊鱼条目，命中drum或其他鱼；不能替换物种。",
+      "next_action": "取得鳊鱼净肉的可溯源来源，再独立汇总豆腐及酱汁。",
+      "ingredient_keys": [
+        "bream"
+      ],
+      "checked_queries": [
+        {
+          "key": "bream",
+          "query": "Freshwater bream raw",
+          "status": "complete",
+          "raw_sha256": "8b6b1a573231d78fe2da09012343d85c284e49bee42da00c7ee400e3e9f4369e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-aef1ffb7e9d0",
+      "recipe_blob_sha": "bda1753358769c4e7d388d0c42ddcf402f894bae",
+      "name": "苏格兰蛋",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本项目原文使用手抓饼皮、培根和芝士包蛋，市售饼皮成分与通用起酥皮不一致。",
+      "next_action": "固定手抓饼皮与奶酪标签、实际包入净量，并选空气炸锅而非深炸分支。",
+      "ingredient_keys": [
+        "puff_pastry",
+        "bacon",
+        "cheese"
+      ],
+      "checked_queries": [
+        {
+          "key": "puff_pastry",
+          "query": "Puff pastry frozen ready to bake",
+          "status": "complete",
+          "raw_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+        },
+        {
+          "key": "bacon",
+          "query": "Pork cured bacon unprepared",
+          "status": "complete",
+          "raw_sha256": "7bae0cd307a94e3f9a9d6e57633eba4914a6e037b3236a9cb4222fa91a3e84cb"
+        },
+        {
+          "key": "cheese",
+          "query": "Cheese cheddar",
+          "status": "complete",
+          "raw_sha256": "221214ea1aec4414297bb1c25f31e53e5cb0ed3072a916e04a0b41cf120acd77"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c75ae014f76e",
+      "recipe_blob_sha": "3ef3fee2daa833948ae954e268d11d02099500dc",
+      "name": "茶叶蛋",
+      "status": "missing_evidence",
+      "blocker_code": "marinade",
+      "reason": "卤水或腌汁大部分不入口，吸附糖酱量未知；不能把整锅卤汁都加给每个蛋，味淋还涉及酒精。",
+      "next_action": "取得合适成品参考或明确经核验的成品附着汁模型；熟鸡蛋本身来源可复用。",
+      "ingredient_keys": [
+        "egg_boiled"
+      ],
+      "checked_queries": [
+        {
+          "key": "egg_boiled",
+          "query": "Egg whole cooked hard boiled",
+          "status": "complete",
+          "raw_sha256": "56e224a025bd3ae4d71f426085877c633af172f3319a65c146713c439e13ed36"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-fb61ba750320",
+      "recipe_blob_sha": "1cb7c8d77fb1567ea6fa3ec5aedc440abd2ca668",
+      "name": "韩国麻药鸡蛋",
+      "status": "missing_evidence",
+      "blocker_code": "marinade",
+      "reason": "卤水或腌汁大部分不入口，吸附糖酱量未知；不能把整锅卤汁都加给每个蛋，味淋还涉及酒精。",
+      "next_action": "取得合适成品参考或明确经核验的成品附着汁模型；熟鸡蛋本身来源可复用。",
+      "ingredient_keys": [
+        "egg_boiled"
+      ],
+      "checked_queries": [
+        {
+          "key": "egg_boiled",
+          "query": "Egg whole cooked hard boiled",
+          "status": "complete",
+          "raw_sha256": "56e224a025bd3ae4d71f426085877c633af172f3319a65c146713c439e13ed36"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-12863092d2c6",
+      "recipe_blob_sha": "4fc4e544c373c6638089c1702cae04cb8ae47b52",
+      "name": "炸串酱料",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文十三香、麻辣鲜和花椒油属于复配配料，缺相应配方或标签；未把它们当纯辣椒和普通油。",
+      "next_action": "固定复配香料及花椒油品牌标签，并明确实际吃下的沉淀和油比例。",
+      "ingredient_keys": [
+        "sichuan_exact",
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "sichuan_exact",
+          "query": {
+            "query": "\"SZECHUAN PEPPER\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "14bc3c1eb8c647cd4da3a154520fbea7b8a9bd264d1a1892a82dc4fdfda78f4c"
+        },
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e53cc385a1a0",
+      "recipe_blob_sha": "2b9d156e2e95c5a45d58f2389ec2cd16e3616360",
+      "name": "反沙芋头",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-85c01e8fd94f",
+      "recipe_blob_sha": "c8145c2badd38cce414f5e96001d7ed861ac9d68",
+      "name": "炸鲜奶",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1282bbd3a9c9",
+      "recipe_blob_sha": "c9932de9ad366a6a0727c20b68f15d957d8824c7",
+      "name": "魔芋蛋糕",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "魔芋粉、赤藓糖醇和塔塔粉未取得适用的已核验来源；魔芋粉不能用魔芋面含水成品代替。",
+      "next_action": "补相应纯度及可消化能量规则明确的来源，避免用糖或淀粉替代数字。",
+      "ingredient_keys": [
+        "flour"
+      ],
+      "checked_queries": [
+        {
+          "key": "flour",
+          "query": "Wheat flour white all purpose unenriched",
+          "status": "complete",
+          "raw_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-43027c68c000",
+      "recipe_blob_sha": "84796622216fee32caac48ec4d0bfbf5a7fc8ff3",
+      "name": "龟苓膏",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "龟苓膏粉是品牌复配制品，并不等于纯淀粉或明胶；缺其标签及冲调基准。",
+      "next_action": "提供对应粉料标签和干粉投入净量，再按糖水家庭份计算。",
+      "ingredient_keys": [
+        "gelatin"
+      ],
+      "checked_queries": [
+        {
+          "key": "gelatin",
+          "query": "Gelatins dry powder unsweetened",
+          "status": "complete",
+          "raw_sha256": "8f4fafe191ac23fcb8c976ccc043705c32f39b9f8c41cdd1642d82f9ad2b91f9"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-989ccdcae7af",
+      "recipe_blob_sha": "2bf0c8a7dd0f43f1d8dcb20b34e21d05c743a38b",
+      "name": "B52轰炸机",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "甘露咖啡酒和百利甜酒含糖奶酒，不能按无糖蒸馏酒处理；点燃后还有酒精损失。",
+      "next_action": "补两款甜酒的品牌营养来源并固定不点燃分支或可靠燃烧保留规则。",
+      "ingredient_keys": [
+        "vodka"
+      ],
+      "checked_queries": [
+        {
+          "key": "vodka",
+          "query": "Alcoholic beverage distilled vodka 80 proof",
+          "status": "complete",
+          "raw_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-678acb8ed4c0",
+      "recipe_blob_sha": "7ca7c5ee649d4cd4b1e1808891ac092f926f0aef",
+      "name": "冬瓜茶",
+      "status": "missing_evidence",
+      "blocker_code": "extraction",
+      "reason": "原文熬煮后滤掉冬瓜或药材果渣，只有液体入口；整果营养之和不等于滤液营养。",
+      "next_action": "取得适用成品饮品或可核验浸出数据，保留糖与滤液重量基准。",
+      "ingredient_keys": [
+        "winter_melon",
+        "sugar"
+      ],
+      "checked_queries": [
+        {
+          "key": "winter_melon",
+          "query": "Waxgourd chinese preserving melon raw",
+          "status": "complete",
+          "raw_sha256": "0f35685a8e98d27263503110e42c9aca15a5a5f481a8f7b5d55bb079a7072d4d"
+        },
+        {
+          "key": "sugar",
+          "query": "Sugars granulated",
+          "status": "complete",
+          "raw_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-460b515020de",
+      "recipe_blob_sha": "7efba74e04eab4bdf67c5c6d6f761c769f17958e",
+      "name": "冰粉",
+      "status": "missing_evidence",
+      "blocker_code": "extraction",
+      "reason": "冰粉籽搓洗后滤渣凝胶，籽的整份营养不等于凝胶；薄荷汁或粉也未固定。",
+      "next_action": "补冰粉凝胶成品来源或可核验提取率，明确糖浆等实际加入量。",
+      "ingredient_keys": [
+        "water"
+      ],
+      "checked_queries": [
+        {
+          "key": "water",
+          "query": "Water tap drinking",
+          "status": "complete",
+          "raw_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b261aa97c4ab",
+      "recipe_blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+      "name": "海边落日",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "蓝橙或橙味力娇酒、红石榴糖浆或龙舌兰酒的酒度含糖量未核验，不能替成等量无糖朗姆酒。",
+      "next_action": "固定各酒与糖浆的品牌来源；所有液体称克或使用有来源密度，再按冷调质量守恒计算。",
+      "ingredient_keys": [
+        "rum",
+        "gin",
+        "maple"
+      ],
+      "checked_queries": [
+        {
+          "key": "rum",
+          "query": "Alcoholic beverage distilled rum 80 proof",
+          "status": "complete",
+          "raw_sha256": "af3439df725651266741fdc4476c2d813b7b686403b5544b0d55a19ab2d75026"
+        },
+        {
+          "key": "gin",
+          "query": "Alcoholic beverage distilled gin 80 proof",
+          "status": "complete",
+          "raw_sha256": "ec23d9fc87b4de69ef629d96c4f6017898b93fc034e9714599355c2cdb1be317"
+        },
+        {
+          "key": "maple",
+          "query": "Syrups maple",
+          "status": "complete",
+          "raw_sha256": "ef80e5eb35d7c9c7e580b5e53ff9ddb6e2fed100bf63bbb3e38d789d897d7f5c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-11368a20c31b",
+      "recipe_blob_sha": "453d9b06d5e1437da6156202dfef842682e1aba3",
+      "name": "耙耙柑茶",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "耙耙柑或原文替换柑种未取得明确可食果肉来源，现有橙汁不代表柑橘果肉和过滤茶。",
+      "next_action": "固定原文一种允许柑种的净果肉来源及是否滤渣，不以橙汁冒充。",
+      "ingredient_keys": [
+        "orange",
+        "tea"
+      ],
+      "checked_queries": [
+        {
+          "key": "orange",
+          "query": "Oranges raw all commercial varieties",
+          "status": "complete",
+          "raw_sha256": "56befb1009b650677df8d560b99c8eaa9196fa8306c8bcd5501c42a4b6b012ed"
+        },
+        {
+          "key": "tea",
+          "query": "Beverages tea black brewed prepared tap water",
+          "status": "complete",
+          "raw_sha256": "73d9b17fc3d987168e656834098f584e05a5c9915da261b583d5d2a48221d20a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4633664c062d",
+      "recipe_blob_sha": "b5004dc0c6456218c861128fffe56513b271b8a2",
+      "name": "酒酿醪糟",
+      "status": "missing_evidence",
+      "blocker_code": "fermentation",
+      "reason": "糯米发酵会消耗碳水并生成酒精；生米或熟糯米营养不能原样视为酒酿，汤圆填料亦未固定。",
+      "next_action": "取得醪糟成品参考或发酵后糖酒实测及指定汤圆来源，不能单靠家庭份量推导。",
+      "ingredient_keys": [
+        "glutinous_raw",
+        "glutinous_rice"
+      ],
+      "checked_queries": [
+        {
+          "key": "glutinous_raw",
+          "query": "Rice white glutinous cooked",
+          "status": "complete",
+          "raw_sha256": "8f6f24c2c0ff0d3faf67f7fcd24ee973a2946e83df1e820e1d2dc9f46ce2a616"
+        },
+        {
+          "key": "glutinous_rice",
+          "query": "Rice white glutinous cooked",
+          "status": "complete",
+          "raw_sha256": "8f6f24c2c0ff0d3faf67f7fcd24ee973a2946e83df1e820e1d2dc9f46ce2a616"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d20888ebc3bf",
+      "recipe_blob_sha": "b01ca5e4b3da1847a0eb3deb43907900b6a2ceaf",
+      "name": "酸梅汤",
+      "status": "missing_evidence",
+      "blocker_code": "extraction",
+      "reason": "原文熬煮后滤掉冬瓜或药材果渣，只有液体入口；整果营养之和不等于滤液营养。",
+      "next_action": "取得适用成品饮品或可核验浸出数据，保留糖与滤液重量基准。",
+      "ingredient_keys": [
+        "winter_melon",
+        "sugar"
+      ],
+      "checked_queries": [
+        {
+          "key": "winter_melon",
+          "query": "Waxgourd chinese preserving melon raw",
+          "status": "complete",
+          "raw_sha256": "0f35685a8e98d27263503110e42c9aca15a5a5f481a8f7b5d55bb079a7072d4d"
+        },
+        {
+          "key": "sugar",
+          "query": "Sugars granulated",
+          "status": "complete",
+          "raw_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-342d514cbf79",
+      "recipe_blob_sha": "34d067f92941a8682667b3e13ed499a9c28e9830",
+      "name": "酸梅汤（半成品加工）",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文酸梅晶是配方不明的固体饮料，还加入二锅头；不能用白糖代替整包粉。",
+      "next_action": "补酸梅晶标签及白酒酒度来源，固定加酒或无酒分支。",
+      "ingredient_keys": [
+        "sugar"
+      ],
+      "checked_queries": [
+        {
+          "key": "sugar",
+          "query": "Sugars granulated",
+          "status": "complete",
+          "raw_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-45ad36b6133c",
+      "recipe_blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+      "name": "长岛冰茶",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "蓝橙或橙味力娇酒、红石榴糖浆或龙舌兰酒的酒度含糖量未核验，不能替成等量无糖朗姆酒。",
+      "next_action": "固定各酒与糖浆的品牌来源；所有液体称克或使用有来源密度，再按冷调质量守恒计算。",
+      "ingredient_keys": [
+        "rum",
+        "gin",
+        "maple"
+      ],
+      "checked_queries": [
+        {
+          "key": "rum",
+          "query": "Alcoholic beverage distilled rum 80 proof",
+          "status": "complete",
+          "raw_sha256": "af3439df725651266741fdc4476c2d813b7b686403b5544b0d55a19ab2d75026"
+        },
+        {
+          "key": "gin",
+          "query": "Alcoholic beverage distilled gin 80 proof",
+          "status": "complete",
+          "raw_sha256": "ec23d9fc87b4de69ef629d96c4f6017898b93fc034e9714599355c2cdb1be317"
+        },
+        {
+          "key": "maple",
+          "query": "Syrups maple",
+          "status": "complete",
+          "raw_sha256": "ef80e5eb35d7c9c7e580b5e53ff9ddb6e2fed100bf63bbb3e38d789d897d7f5c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e2015e2e0cc1",
+      "recipe_blob_sha": "307b87f105f8e3f1fb1db3952cfbd25cc569944f",
+      "name": "乡村啤酒鸭",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文啤酒是主要烹煮液，另有焯水或弃料；蒸发酒精的能量保留不能由成品总重单独推定。",
+      "next_action": "固定食用汤汁范围及可靠酒精保留规则，或明确非酒精替代版本后逐项审核。",
+      "ingredient_keys": [
+        "duck",
+        "chicken_thigh"
+      ],
+      "checked_queries": [
+        {
+          "key": "duck",
+          "query": "Duck domesticated meat skin raw",
+          "status": "complete",
+          "raw_sha256": "324a94312e601b60b2c36fc05038322812b0ede1f27e6cae018687c0518a1a34"
+        },
+        {
+          "key": "chicken_thigh",
+          "query": "Chicken broilers fryers thigh meat only raw",
+          "status": "complete",
+          "raw_sha256": "ff641405b96de286b422740c57aba46caeb133a395770afc84a42ef0b1728585"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-75dec5080931",
+      "recipe_blob_sha": "a1587d1cb65d60013ff98ac92cf69fa47666b115",
+      "name": "冬瓜桑拿鸡",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文虫草花是实际食用主配料，尚无核验来源；不当成香菇或可忽略调味。",
+      "next_action": "补虫草花适用干湿状态的来源，鸡肉与冬瓜可复用现有食材数据。",
+      "ingredient_keys": [
+        "shiitake",
+        "winter_melon"
+      ],
+      "checked_queries": [
+        {
+          "key": "shiitake",
+          "query": "Mushrooms shiitake raw",
+          "status": "complete",
+          "raw_sha256": "620cf192299e4261cb89e915e0c531fb62779e23ac1cc258ed72424ecc43dee9"
+        },
+        {
+          "key": "winter_melon",
+          "query": "Waxgourd chinese preserving melon raw",
+          "status": "complete",
+          "raw_sha256": "0f35685a8e98d27263503110e42c9aca15a5a5f481a8f7b5d55bb079a7072d4d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ad28ce802c92",
+      "recipe_blob_sha": "0633372c29632cc4dbc906719e74e6ce605e313d",
+      "name": "卤菜",
+      "status": "missing_evidence",
+      "blocker_code": "marinade",
+      "reason": "卤料包或黄豆酱未固定，且卤液大部不食用，生牛肉全量加整锅卤料会高估；牛腱与牛胸腩不等同。",
+      "next_action": "补牛腱熟肉参考或出成/附着卤汁模型，并固定黄豆酱卤料来源。",
+      "ingredient_keys": [
+        "beef_brisket",
+        "soy_paste"
+      ],
+      "checked_queries": [
+        {
+          "key": "beef_brisket",
+          "query": "Beef brisket whole separable lean fat raw",
+          "status": "complete",
+          "raw_sha256": "99ae471e000ea54fe107b4f9ed984cf51f8c4d6e566d00b6c93d78016d1eb035"
+        },
+        {
+          "key": "soy_paste",
+          "query": "Miso",
+          "status": "complete",
+          "raw_sha256": "aec0734e73aeaabb96ae4bbdae7c27d2dedde0cd65e5a62ad6a03a80a86bcf23"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-288b3f0b016a",
+      "recipe_blob_sha": "31645d38c76e42a7e62977294d6111a7dec32562",
+      "name": "咕噜肉",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f82a5ad59d69",
+      "recipe_blob_sha": "6527e1533b6dcd99c4eb312a4a8ab26c0f5e3838",
+      "name": "商芝肉",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "商芝是特定蕨类紫萁，未有明确来源，且五花肉过油后浸泡；不能以菠菜或其他蕨粉代替。",
+      "next_action": "取得商芝对应加工状态数据与肉的炸制保留依据。",
+      "ingredient_keys": [
+        "pork_belly"
+      ],
+      "checked_queries": [
+        {
+          "key": "pork_belly",
+          "query": "Pork fresh belly raw",
+          "status": "complete",
+          "raw_sha256": "d52cb49c5e249ec8cf514ff5d1bc70df1479af9dc925a5c882c8f745adae314d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-fce469feac21",
+      "recipe_blob_sha": "206268175aacc8561fc4174720e7fbeb16cef73b",
+      "name": "啤酒鸭",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文啤酒是主要烹煮液，另有焯水或弃料；蒸发酒精的能量保留不能由成品总重单独推定。",
+      "next_action": "固定食用汤汁范围及可靠酒精保留规则，或明确非酒精替代版本后逐项审核。",
+      "ingredient_keys": [
+        "duck",
+        "chicken_thigh"
+      ],
+      "checked_queries": [
+        {
+          "key": "duck",
+          "query": "Duck domesticated meat skin raw",
+          "status": "complete",
+          "raw_sha256": "324a94312e601b60b2c36fc05038322812b0ede1f27e6cae018687c0518a1a34"
+        },
+        {
+          "key": "chicken_thigh",
+          "query": "Chicken broilers fryers thigh meat only raw",
+          "status": "complete",
+          "raw_sha256": "ff641405b96de286b422740c57aba46caeb133a395770afc84a42ef0b1728585"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-dacc0e7e690a",
+      "recipe_blob_sha": "90414f1f719a9278a85e188d8668497ca4c5ea5d",
+      "name": "回锅肉",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "蒜苗是原文配料，现有大蒜鳞茎或韭葱数据不是其叶茎；回锅肉还涉及煮肉弃汤及豆豉。",
+      "next_action": "补蒜苗可食叶茎来源，并核对熟肉或熟肝基准；不静默以蒜瓣替代主配料。",
+      "ingredient_keys": [
+        "garlic_shoot_exact",
+        "garlic_shoot"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot_exact",
+          "query": {
+            "query": "\"GARLIC SHOOTS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "3b3dcd0b6644841b0b3dac6ac5213ac53961ed37b03c880175ca82931470ee9f"
+        },
+        {
+          "key": "garlic_shoot",
+          "query": "Garlic scapes raw",
+          "status": "complete",
+          "raw_sha256": "738f22884a3a0685fbd6d8c9b7d87294b0b106454f17eb024095533d10e34f33"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1f6cfac235de",
+      "recipe_blob_sha": "131eff2c44c8a6a2202540aadfaeb525f0454aaf",
+      "name": "奥尔良风味烤鸡腿",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文指定奥尔良腌粉或盐焗鸡粉，缺对应标签与腌料保留依据；未当成纯盐。",
+      "next_action": "固定实际腌料品牌和食用克数，再与净肉汇总。",
+      "ingredient_keys": [
+        "paprika",
+        "salt"
+      ],
+      "checked_queries": [
+        {
+          "key": "paprika",
+          "query": "Spices paprika",
+          "status": "complete",
+          "raw_sha256": "2556ab5c63f499f1afe6a291a8ecb8513db47d9fbe8ce77e49a6bce2f5def1a0"
+        },
+        {
+          "key": "salt",
+          "query": "Salt table",
+          "status": "complete",
+          "raw_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0a5faf76b239",
+      "recipe_blob_sha": "109797654c3fb06b9607fc0167561c9b532b79a6",
+      "name": "姜炒鸡",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文啤酒是主要烹煮液，另有焯水或弃料；蒸发酒精的能量保留不能由成品总重单独推定。",
+      "next_action": "固定食用汤汁范围及可靠酒精保留规则，或明确非酒精替代版本后逐项审核。",
+      "ingredient_keys": [
+        "duck",
+        "chicken_thigh"
+      ],
+      "checked_queries": [
+        {
+          "key": "duck",
+          "query": "Duck domesticated meat skin raw",
+          "status": "complete",
+          "raw_sha256": "324a94312e601b60b2c36fc05038322812b0ede1f27e6cae018687c0518a1a34"
+        },
+        {
+          "key": "chicken_thigh",
+          "query": "Chicken broilers fryers thigh meat only raw",
+          "status": "complete",
+          "raw_sha256": "ff641405b96de286b422740c57aba46caeb133a395770afc84a42ef0b1728585"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-95eb9c00a57f",
+      "recipe_blob_sha": "d7ef718ab3a59f0903a3396b1fde109a4b8cbacb",
+      "name": "姜葱捞鸡",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文指定奥尔良腌粉或盐焗鸡粉，缺对应标签与腌料保留依据；未当成纯盐。",
+      "next_action": "固定实际腌料品牌和食用克数，再与净肉汇总。",
+      "ingredient_keys": [
+        "paprika",
+        "salt"
+      ],
+      "checked_queries": [
+        {
+          "key": "paprika",
+          "query": "Spices paprika",
+          "status": "complete",
+          "raw_sha256": "2556ab5c63f499f1afe6a291a8ecb8513db47d9fbe8ce77e49a6bce2f5def1a0"
+        },
+        {
+          "key": "salt",
+          "query": "Salt table",
+          "status": "complete",
+          "raw_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-3eaf0a451185",
+      "recipe_blob_sha": "e1775ca60d4422edbeee1e006153380c0c332d23",
+      "name": "小炒鸡肝",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "蒜苗是原文配料，现有大蒜鳞茎或韭葱数据不是其叶茎；回锅肉还涉及煮肉弃汤及豆豉。",
+      "next_action": "补蒜苗可食叶茎来源，并核对熟肉或熟肝基准；不静默以蒜瓣替代主配料。",
+      "ingredient_keys": [
+        "garlic_shoot_exact",
+        "garlic_shoot"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot_exact",
+          "query": {
+            "query": "\"GARLIC SHOOTS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "3b3dcd0b6644841b0b3dac6ac5213ac53961ed37b03c880175ca82931470ee9f"
+        },
+        {
+          "key": "garlic_shoot",
+          "query": "Garlic scapes raw",
+          "status": "complete",
+          "raw_sha256": "738f22884a3a0685fbd6d8c9b7d87294b0b106454f17eb024095533d10e34f33"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-824114aa00bd",
+      "recipe_blob_sha": "f059412462b2ca52b276cee79d19e76f19742436",
+      "name": "小炒黄牛肉",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文野山椒是腌制辣椒，与生小米椒不同，缺标签或沥液状态；牛肉部位可用已有里脊。",
+      "next_action": "固定野山椒产品标签及沥液净量，不以鲜椒静默替代。",
+      "ingredient_keys": [
+        "beef_tenderloin",
+        "chili"
+      ],
+      "checked_queries": [
+        {
+          "key": "beef_tenderloin",
+          "query": "Beef tenderloin separable lean only raw",
+          "status": "complete",
+          "raw_sha256": "2643afd77cc640fafa7a5c617c703d06db67a26420203d04d69856e74184b127"
+        },
+        {
+          "key": "chili",
+          "query": "Peppers hot chili red raw",
+          "status": "complete",
+          "raw_sha256": "e2a9d0b841a624e2f6c79040efa094f3109bb51088453d50623a9b913b103bb0"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2ed6cf0478f1",
+      "recipe_blob_sha": "756ba83e15fde38c56f7742a30b25123a91a2a2e",
+      "name": "小酥肉",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-801600c707bb",
+      "recipe_blob_sha": "043a00ebb61ee648dcccb5e5eab5487425ee4bd8",
+      "name": "尖叫牛蛙",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "USDA有通用蛙腿候选，但原文是带骨牛蛙并用泡姜泡椒啤酒；物种、可食组织及腌椒来源未核验。",
+      "next_action": "补牛蛙净肉身份和泡椒泡姜标签，确定酒精烹饪规则。",
+      "ingredient_keys": [
+        "frog"
+      ],
+      "checked_queries": [
+        {
+          "key": "frog",
+          "query": "Frog legs raw",
+          "status": "complete",
+          "raw_sha256": "55fc89f63d51c34f7a6264614ffb166ce8c1407831035b0091e4763e8f12eab0"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-16663c525e6b",
+      "recipe_blob_sha": "2876c606d7cc697ae40bfc20649863492ba3e69d",
+      "name": "山西过油肉",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "本轮蒜苔检索仅命中蒜瓣、蒜味制品等，未找到已核验的花茎来源；不把蒜瓣值套给蒜苔。",
+      "next_action": "补明确蒜苔或garlic scapes的可食花茎数据；过油肉还须核对滑油保留。",
+      "ingredient_keys": [
+        "garlic_shoot",
+        "garlic_scapes_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot",
+          "query": "Garlic scapes raw",
+          "status": "complete",
+          "raw_sha256": "738f22884a3a0685fbd6d8c9b7d87294b0b106454f17eb024095533d10e34f33"
+        },
+        {
+          "key": "garlic_scapes_branded",
+          "query": {
+            "query": "GARLIC SCAPES",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "71229bbb3c5dd81196ac261481acd02a323d3a864f2a903621e0df2271cdb9bf"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2bde2d31169c",
+      "recipe_blob_sha": "5bc88f1945b1b00e243f17696e7edcbefe3815bc",
+      "name": "带把肘子",
+      "status": "missing_evidence",
+      "blocker_code": "edible_part",
+      "reason": "鲜带皮猪肘未有核验数据，搜索中的腌猪肘和火腿肘不能当鲜肉；虎皮版还有炸制失油。",
+      "next_action": "补鲜猪肘净皮肉来源，分离骨重；虎皮版另补吸油依据。",
+      "ingredient_keys": [
+        "pork_hock"
+      ],
+      "checked_queries": [
+        {
+          "key": "pork_hock",
+          "query": "Pork hock skin raw",
+          "status": "complete",
+          "raw_sha256": "d6d00b29e68b55ef62930b7f24bdae653ddd73beeaf9573357d5da302322cfa4"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ec5179fc88ee",
+      "recipe_blob_sha": "5f118516fefc80906f7ea75ce5ac7490ae9a5789",
+      "name": "干煸仔鸡",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文鸡肉土豆先过油后沥出，郫县红油豆瓣和花椒另需核对；没有核验吸油模型。",
+      "next_action": "取得适用成品参考或明确吸油及流失依据，不直接计油锅投油量。",
+      "ingredient_keys": [
+        "chicken_thigh",
+        "potato",
+        "douban_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "chicken_thigh",
+          "query": "Chicken broilers fryers thigh meat only raw",
+          "status": "complete",
+          "raw_sha256": "ff641405b96de286b422740c57aba46caeb133a395770afc84a42ef0b1728585"
+        },
+        {
+          "key": "potato",
+          "query": "Potatoes flesh skin raw",
+          "status": "complete",
+          "raw_sha256": "948ce799300fabd5223bc48d5564016f96314aa9f75c3d6645c3bb068f16f756"
+        },
+        {
+          "key": "douban_branded",
+          "query": {
+            "query": "LEE KUM KEE CHILI BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-96dd22806c80",
+      "recipe_blob_sha": "19c9f5e6bcdf69b72ef619d0c160dc42c113c89d",
+      "name": "新疆大盘鸡",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文啤酒是主要烹煮液，另有焯水或弃料；蒸发酒精的能量保留不能由成品总重单独推定。",
+      "next_action": "固定食用汤汁范围及可靠酒精保留规则，或明确非酒精替代版本后逐项审核。",
+      "ingredient_keys": [
+        "duck",
+        "chicken_thigh"
+      ],
+      "checked_queries": [
+        {
+          "key": "duck",
+          "query": "Duck domesticated meat skin raw",
+          "status": "complete",
+          "raw_sha256": "324a94312e601b60b2c36fc05038322812b0ede1f27e6cae018687c0518a1a34"
+        },
+        {
+          "key": "chicken_thigh",
+          "query": "Chicken broilers fryers thigh meat only raw",
+          "status": "complete",
+          "raw_sha256": "ff641405b96de286b422740c57aba46caeb133a395770afc84a42ef0b1728585"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c5fddf9813b2",
+      "recipe_blob_sha": "70020b8cde06c6f4e3fb0b516816da3998e6ebd6",
+      "name": "杀猪菜",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "血肠及东北酸白菜未有匹配来源；德式酸菜、韩式泡菜、普通猪肉不能代表这些配料。",
+      "next_action": "固定血肠与酸白菜标签或成分来源，再核对整锅可食范围。",
+      "ingredient_keys": [
+        "sauerkraut"
+      ],
+      "checked_queries": [
+        {
+          "key": "sauerkraut",
+          "query": {
+            "query": "PICKLED CHINESE CABBAGE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "542e011d8e5e7ccf168c8dcdb925a5d4551cd69681199a33fa70bd260c3965ac"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-abbf66d7a0c1",
+      "recipe_blob_sha": "823fa6fac2e83331c80bb3b8621184fad9c4496b",
+      "name": "枝竹羊腩煲",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "羊腩、腐竹/枝竹与已核验羊腿、普通豆腐不同，柱侯酱虽已找到品牌来源仍不能补齐主料。",
+      "next_action": "补羊腩净肉及泡发枝竹来源，干湿用量分别说明。",
+      "ingredient_keys": [
+        "lamb",
+        "tofu",
+        "chu_hou_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "lamb",
+          "query": "Lamb domestic leg separable lean fat raw",
+          "status": "complete",
+          "raw_sha256": "9ebfbc2b0afe079f4ca89f05baa24ed71a78e876a65a63149f03e6782092c46b"
+        },
+        {
+          "key": "tofu",
+          "query": "Tofu soft calcium sulfate magnesium chloride",
+          "status": "complete",
+          "raw_sha256": "94ac5fc8f0b2a67b870b749a589877440b01cc2b7d30aa3c369fba6f68f0e67c"
+        },
+        {
+          "key": "chu_hou_branded",
+          "query": {
+            "query": "CHU HOU PASTE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "e27f6344f238e2ef5e36dea24c67c40440c409eaff8b04d557e1a9a95f9bdf9d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4217ebd7f1e5",
+      "recipe_blob_sha": "16872a22917d4608246000169c9c9617bd624510",
+      "name": "梅菜扣肉",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "梅干菜非普通白菜，缺其脱水腌制基准；猪肉过油后浸泡同样有损失。",
+      "next_action": "补梅干菜干湿数据及过油猪肉保留依据，不用鲜白菜营养套入。",
+      "ingredient_keys": [
+        "napa",
+        "pork_belly"
+      ],
+      "checked_queries": [
+        {
+          "key": "napa",
+          "query": "Cabbage chinese pe tsai raw",
+          "status": "complete",
+          "raw_sha256": "f2385cedcf8dc300fa76836871835a3b554f4939dcb2a9310ac9ef040559cf25"
+        },
+        {
+          "key": "pork_belly",
+          "query": "Pork fresh belly raw",
+          "status": "complete",
+          "raw_sha256": "d52cb49c5e249ec8cf514ff5d1bc70df1479af9dc925a5c882c8f745adae314d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f43c7cdf6c27",
+      "recipe_blob_sha": "a628a83fd8ed966168e06636973e8449ae884f73",
+      "name": "椒盐排条",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b898ff51880d",
+      "recipe_blob_sha": "4f44dab7a37ec809d87280caee13b4d7c9c3f923",
+      "name": "水煮肉片",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文蒜苗、凤尾菜、红泡椒、花椒及豆瓣均需独立确认；现有蒜瓣、鲜椒或生菜不足以完整对应。",
+      "next_action": "补关键叶茎和泡椒来源，固定肉菜与汤油食用范围。",
+      "ingredient_keys": [
+        "garlic_shoot_exact",
+        "lettuce",
+        "douban_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot_exact",
+          "query": {
+            "query": "\"GARLIC SHOOTS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "3b3dcd0b6644841b0b3dac6ac5213ac53961ed37b03c880175ca82931470ee9f"
+        },
+        {
+          "key": "lettuce",
+          "query": "Lettuce green leaf raw",
+          "status": "complete",
+          "raw_sha256": "3190fdee0360fd2a4f9b885c95d471bd10e3283128b572b087f1fdc606b1749f"
+        },
+        {
+          "key": "douban_branded",
+          "query": {
+            "query": "LEE KUM KEE CHILI BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-abe023d49637",
+      "recipe_blob_sha": "e99fbd5938927aa5821b2c1a67d1c67ac5e523e2",
+      "name": "淄博烧烤",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "炭烤五花肉有明显析油且油不全食用，不能用生五花肉全脂营养配假设成品重；面饼也未固定。",
+      "next_action": "取得适用熟烤五花肉参考或脂肪出成依据，另固定薄饼净量配方。",
+      "ingredient_keys": [
+        "pork_belly",
+        "sweet_paste_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "pork_belly",
+          "query": "Pork fresh belly raw",
+          "status": "complete",
+          "raw_sha256": "d52cb49c5e249ec8cf514ff5d1bc70df1479af9dc925a5c882c8f745adae314d"
+        },
+        {
+          "key": "sweet_paste_branded",
+          "query": {
+            "query": "SWEET BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "91daefdefaf87e4cf1bfc0c8cefae01a24bba7b25d919e1691dbe72b29e102e0"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-575da7e2ff66",
+      "recipe_blob_sha": "f9f2300e698bba342b8ad926152d20b16065ecb7",
+      "name": "清蒸鳜鱼",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "桂鱼即鳜鱼，本轮检索返回海鲈或其他perch；未核验Siniperca类来源，不能借用鲈鱼图片匹配。",
+      "next_action": "补明确鳜鱼净肉营养来源，再套独立蒸鱼配方；保持当前值null。",
+      "ingredient_keys": [
+        "mandarin_fish",
+        "bass"
+      ],
+      "checked_queries": [
+        {
+          "key": "mandarin_fish",
+          "query": "Mandarin fish Chinese perch raw",
+          "status": "complete",
+          "raw_sha256": "012b56751bcfdcda014f201fb9763ad610b7c2e385246d7618af3745d4466344"
+        },
+        {
+          "key": "bass",
+          "query": "Fish bass fresh water mixed species raw",
+          "status": "complete",
+          "raw_sha256": "bbf60fac03e86276a806a933f42bd74e284092f697c0743905996235be5d1086"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6a4a7145b136",
+      "recipe_blob_sha": "21dbacc0a6dba51c0285a63cbde0efcbb821ea80",
+      "name": "湘祁米夫鸭",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "糯米粉已找到来源，但原文蒸肉粉是复配粉，尚无成分比例或品牌标签；不能当纯普通米粉。",
+      "next_action": "补蒸肉粉配方标签及鸭肉净皮肉默认比例，再按蒸制家庭份汇总。",
+      "ingredient_keys": [
+        "glutinous_rice_flour",
+        "rice_flour",
+        "duck"
+      ],
+      "checked_queries": [
+        {
+          "key": "glutinous_rice_flour",
+          "query": "Glutinous rice flour",
+          "status": "complete",
+          "raw_sha256": "4a9f86f2036be5a7a98d22b0ef4406c31dc1884f39ebf9a3416dde76bec326d9"
+        },
+        {
+          "key": "rice_flour",
+          "query": "Rice flour white unenriched",
+          "status": "complete",
+          "raw_sha256": "1af9d0d082c718ae28fec255c152e3bbc411c3a66d8b9ed896d293e5270f450e"
+        },
+        {
+          "key": "duck",
+          "query": "Duck domesticated meat skin raw",
+          "status": "complete",
+          "raw_sha256": "324a94312e601b60b2c36fc05038322812b0ede1f27e6cae018687c0518a1a34"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-91b68386ebf3",
+      "recipe_blob_sha": "4acbe8b2c4684610af7f984fa703ad9f376313eb",
+      "name": "煎烤羊排",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文羊排先焯煮沥出再煎，存在煮液弃脂，生羊排全脂加成品重量会偏高；烧烤料亦未固定。",
+      "next_action": "取得匹配部位熟沥水羊排来源及调料标签或可靠脂肪保留模型。",
+      "ingredient_keys": [
+        "lamb_ribs"
+      ],
+      "checked_queries": [
+        {
+          "key": "lamb_ribs",
+          "query": "Lamb ribs separable lean fat raw",
+          "status": "complete",
+          "raw_sha256": "f23beb39a861b37baa82138ab5ecd678ee62b7db554460746959b0a5ee413d40"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ddc763f709d2",
+      "recipe_blob_sha": "18383cb0ac58d7a829be2c3e44314d86887e3a66",
+      "name": "猪皮冻",
+      "status": "missing_evidence",
+      "blocker_code": "edible_part",
+      "reason": "当前只有带皮五花肉候选，没有纯鲜猪皮来源；反复煮洗刮脂也改变配方。",
+      "next_action": "补刮脂处理后净猪皮的适用营养与水量范围，不能用猪蹄或五花肉替代。",
+      "ingredient_keys": [
+        "pork_skin",
+        "pork_feet"
+      ],
+      "checked_queries": [
+        {
+          "key": "pork_skin",
+          "query": "Pork skin raw",
+          "status": "complete",
+          "raw_sha256": "942f6c1c965caa65597ceb85917ab5b8b8c118147950dd5a0eed1df110793e66"
+        },
+        {
+          "key": "pork_feet",
+          "query": "Pork fresh feet raw",
+          "status": "complete",
+          "raw_sha256": "0dc92308475ba062e2b024c0316c416a98414b30c5c804a40226d0976410eece"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b43bc0d5b054",
+      "recipe_blob_sha": "fb84de53221ef01417bf0f65c91c45bb495a848e",
+      "name": "猪肉烩酸菜",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "东北酸白菜的发酵脱盐状态未核验，候选韩式泡菜等配方不同。",
+      "next_action": "补适用酸白菜来源及是否冲洗，猪肉部位可选已有五花肉。",
+      "ingredient_keys": [
+        "sauerkraut",
+        "pork_belly"
+      ],
+      "checked_queries": [
+        {
+          "key": "sauerkraut",
+          "query": {
+            "query": "PICKLED CHINESE CABBAGE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "542e011d8e5e7ccf168c8dcdb925a5d4551cd69681199a33fa70bd260c3965ac"
+        },
+        {
+          "key": "pork_belly",
+          "query": "Pork fresh belly raw",
+          "status": "complete",
+          "raw_sha256": "d52cb49c5e249ec8cf514ff5d1bc70df1479af9dc925a5c882c8f745adae314d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-dccabcb0d4a4",
+      "recipe_blob_sha": "09a9c321e7d7c6a74732cc2efb2566023c363394",
+      "name": "田螺酿",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文田螺净肉、紫苏、薄荷及三花酒配比需要核验；不能用海螺或蛤蜊代替田螺。",
+      "next_action": "补明确田螺熟可食净肉来源，固定香草与加酒分支。",
+      "ingredient_keys": [
+        "clams",
+        "mint"
+      ],
+      "checked_queries": [
+        {
+          "key": "clams",
+          "query": "Mollusks clam mixed species raw",
+          "status": "complete",
+          "raw_sha256": "6b3bfc51322fc9c4a0098a135fda0b88269402d88faae963dea1f38de70df88a"
+        },
+        {
+          "key": "mint",
+          "query": "Spearmint fresh",
+          "status": "complete",
+          "raw_sha256": "7662dfd5abd6101304cf9690f31508c446a31be36dc353b79eeca6cf9b8d4ccc"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6e1381b6647e",
+      "recipe_blob_sha": "ec1224a448a9d0749efdaaf21b5621045e627321",
+      "name": "瘦肉土豆片",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "蒜苗是原文配料，现有大蒜鳞茎或韭葱数据不是其叶茎；回锅肉还涉及煮肉弃汤及豆豉。",
+      "next_action": "补蒜苗可食叶茎来源，并核对熟肉或熟肝基准；不静默以蒜瓣替代主配料。",
+      "ingredient_keys": [
+        "garlic_shoot_exact",
+        "garlic_shoot"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot_exact",
+          "query": {
+            "query": "\"GARLIC SHOOTS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "3b3dcd0b6644841b0b3dac6ac5213ac53961ed37b03c880175ca82931470ee9f"
+        },
+        {
+          "key": "garlic_shoot",
+          "query": "Garlic scapes raw",
+          "status": "complete",
+          "raw_sha256": "738f22884a3a0685fbd6d8c9b7d87294b0b106454f17eb024095533d10e34f33"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-39425dec3866",
+      "recipe_blob_sha": "9d059bfbcaf6c17427a5e65f7eed8f3a125d69ad",
+      "name": "糖醋排骨",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-788feaed2146",
+      "recipe_blob_sha": "977766f9fa27a6e49da515e77825e0c54ef338c7",
+      "name": "糖醋里脊",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c40321c42378",
+      "recipe_blob_sha": "58c95b10b1306b9cc5ec885ac130148e5e75857a",
+      "name": "老式锅包肉",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c61aa113077b",
+      "recipe_blob_sha": "6e501f80e7db1f86c2cfdc15b41f2fc447eaf875",
+      "name": "芥末罗氏虾",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文罗氏虾含头壳，已有通用虾肉未核验是否适用；青芥末品牌配方也未固定。",
+      "next_action": "补罗氏虾净可食部分与芥末酱标签，固定黄油和食用酱汁。",
+      "ingredient_keys": [
+        "giant_prawn",
+        "shrimp"
+      ],
+      "checked_queries": [
+        {
+          "key": "giant_prawn",
+          "query": "Giant freshwater prawn raw",
+          "status": "complete",
+          "raw_sha256": "32f2497f3afa2e9c59723afee6915020643f59c77a728a280ee607ad91048921"
+        },
+        {
+          "key": "shrimp",
+          "query": "Crustaceans shrimp mixed species raw",
+          "status": "complete",
+          "raw_sha256": "15b760c04c772182491497236b4f9f0d8589ccd0f8852456a9a8a42497807631"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-77632e4f909d",
+      "recipe_blob_sha": "4b28fc45d5f9e064b65ae8f803daa55e400dae3f",
+      "name": "茭白炒肉",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "茭白是膨大茎，不是wild rice谷粒或arrowhead块茎；本轮无核验对应。",
+      "next_action": "补Zizania latifolia可食茎来源，避免按同属谷物营养混配。",
+      "ingredient_keys": [
+        "wildrice_stem"
+      ],
+      "checked_queries": [
+        {
+          "key": "wildrice_stem",
+          "query": "Zizania latifolia stem raw",
+          "status": "complete",
+          "raw_sha256": "4156a8cfb39492beb7d813098cd09ae56a94e0f2365f14a97298f5c7f2130b53"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1157639fe340",
+      "recipe_blob_sha": "38d9e3f096de22b9620c063a2f42c7b158222a89",
+      "name": "荔枝肉",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c76a2b7f954a",
+      "recipe_blob_sha": "b1ccf0ffe4f2c98f8df20d276ed2ac848b8f5fc1",
+      "name": "蒜苔炒肉末",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "本轮蒜苔检索仅命中蒜瓣、蒜味制品等，未找到已核验的花茎来源；不把蒜瓣值套给蒜苔。",
+      "next_action": "补明确蒜苔或garlic scapes的可食花茎数据；过油肉还须核对滑油保留。",
+      "ingredient_keys": [
+        "garlic_shoot",
+        "garlic_scapes_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot",
+          "query": "Garlic scapes raw",
+          "status": "complete",
+          "raw_sha256": "738f22884a3a0685fbd6d8c9b7d87294b0b106454f17eb024095533d10e34f33"
+        },
+        {
+          "key": "garlic_scapes_branded",
+          "query": {
+            "query": "GARLIC SCAPES",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "71229bbb3c5dd81196ac261481acd02a323d3a864f2a903621e0df2271cdb9bf"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4541e6c817a9",
+      "recipe_blob_sha": "05b6e55438ffd1d7be42bbe84df3706917fba228",
+      "name": "虎皮肘子",
+      "status": "missing_evidence",
+      "blocker_code": "edible_part",
+      "reason": "鲜带皮猪肘未有核验数据，搜索中的腌猪肘和火腿肘不能当鲜肉；虎皮版还有炸制失油。",
+      "next_action": "补鲜猪肘净皮肉来源，分离骨重；虎皮版另补吸油依据。",
+      "ingredient_keys": [
+        "pork_hock"
+      ],
+      "checked_queries": [
+        {
+          "key": "pork_hock",
+          "query": "Pork hock skin raw",
+          "status": "complete",
+          "raw_sha256": "d6d00b29e68b55ef62930b7f24bdae653ddd73beeaf9573357d5da302322cfa4"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-fba50d40b080",
+      "recipe_blob_sha": "84735336b91371df608b18d6ca7fcc0f62ee976f",
+      "name": "蚂蚁上树",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文红薯粉丝与现有绿豆粉丝淀粉及配方不同，未取得适用红薯粉条来源。",
+      "next_action": "补指定红薯粉丝标签，按干净重计算；豆瓣可用已注明品牌的限定变体。",
+      "ingredient_keys": [
+        "sweet_potato_starch",
+        "mung_noodles",
+        "douban_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "sweet_potato_starch",
+          "query": "Sweet potato starch",
+          "status": "complete",
+          "raw_sha256": "fbc33011dac0a1b09e42e01b0618ecaa5ad0a877102f2d7732530c164d64b809"
+        },
+        {
+          "key": "mung_noodles",
+          "query": "Noodles chinese cellophane dehydrated",
+          "status": "complete",
+          "raw_sha256": "783a49008061d93f1d821b58d8e29e01539ade6a859b740f92728871696602ff"
+        },
+        {
+          "key": "douban_branded",
+          "query": {
+            "query": "LEE KUM KEE CHILI BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a7f8fdd45ba3",
+      "recipe_blob_sha": "d461f8bda6d69cc1032ddffc4b73c237c794641e",
+      "name": "血浆鸭",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "鸭血不是鸭肉，鲜血加醋后的营养基准未核验；不能用鸭肉来源替代。",
+      "next_action": "补鸭血可食液体来源和酒精处理规则，分别记录鸭肉和血克数。",
+      "ingredient_keys": [
+        "duck"
+      ],
+      "checked_queries": [
+        {
+          "key": "duck",
+          "query": "Duck domesticated meat skin raw",
+          "status": "complete",
+          "raw_sha256": "324a94312e601b60b2c36fc05038322812b0ede1f27e6cae018687c0518a1a34"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6f41690d80c8",
+      "recipe_blob_sha": "cc11a3fd3e799826844d348cccd2472b1b40f6fc",
+      "name": "豆豉鲮鱼油麦菜",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "甘竹豆豉鲮鱼罐头为鱼油豆豉复配，缺标签；油麦菜与已选冰山生菜不同。",
+      "next_action": "补指定罐头含油/沥油基准与油麦菜来源，不用普通鱼肉加油凑数。",
+      "ingredient_keys": [
+        "lettuce"
+      ],
+      "checked_queries": [
+        {
+          "key": "lettuce",
+          "query": "Lettuce green leaf raw",
+          "status": "complete",
+          "raw_sha256": "3190fdee0360fd2a4f9b885c95d471bd10e3283128b572b087f1fdc606b1749f"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ba3ce0d2e767",
+      "recipe_blob_sha": "e3bd4a0557d282d3bb313ceadab3f92f15868764",
+      "name": "豉汁排骨",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "豆豉检索没有取得适用干豆豉来源，黑豆沙和黑豆酱不是干豆豉；白鳝还需核对鳗鱼种类。",
+      "next_action": "补阳江等豆豉标签净量，白鳝版本另核对鱼种，蒸汁保留范围明确。",
+      "ingredient_keys": [
+        "douchi_exact",
+        "black_bean_fermented",
+        "eel"
+      ],
+      "checked_queries": [
+        {
+          "key": "douchi_exact",
+          "query": {
+            "query": "\"DOUCHI\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "59d5cb00fd1a8a9c2cee7c57abdfd399850745c16e30124454d47ce124c9a71a"
+        },
+        {
+          "key": "black_bean_fermented",
+          "query": "Fermented black beans",
+          "status": "complete",
+          "raw_sha256": "9c3d04b9c610b22178d72fba506bb141c1f25c073bd0a8172fe3c4d51ba605cf"
+        },
+        {
+          "key": "eel",
+          "query": "Fish eel mixed species raw",
+          "status": "complete",
+          "raw_sha256": "3f975406bea2dba691cc474d6f8edaec440760faf810bfc0063f16c582b50241"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-945e60912113",
+      "recipe_blob_sha": "67393161044689424c621720ec99d619dca56acb",
+      "name": "豉汁蒸白鱔",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "豆豉检索没有取得适用干豆豉来源，黑豆沙和黑豆酱不是干豆豉；白鳝还需核对鳗鱼种类。",
+      "next_action": "补阳江等豆豉标签净量，白鳝版本另核对鱼种，蒸汁保留范围明确。",
+      "ingredient_keys": [
+        "douchi_exact",
+        "black_bean_fermented",
+        "eel"
+      ],
+      "checked_queries": [
+        {
+          "key": "douchi_exact",
+          "query": {
+            "query": "\"DOUCHI\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "59d5cb00fd1a8a9c2cee7c57abdfd399850745c16e30124454d47ce124c9a71a"
+        },
+        {
+          "key": "black_bean_fermented",
+          "query": "Fermented black beans",
+          "status": "complete",
+          "raw_sha256": "9c3d04b9c610b22178d72fba506bb141c1f25c073bd0a8172fe3c4d51ba605cf"
+        },
+        {
+          "key": "eel",
+          "query": "Fish eel mixed species raw",
+          "status": "complete",
+          "raw_sha256": "3f975406bea2dba691cc474d6f8edaec440760faf810bfc0063f16c582b50241"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-280e1f88f772",
+      "recipe_blob_sha": "0b2d1552dd52c2c6600aafc1d8c6105280bcca13",
+      "name": "贵州辣子鸡",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "糍粑辣椒、酒糟、蒜苗等不是普通辣椒粉/熟米，含发酵和啤酒过程；尚无完整来源链。",
+      "next_action": "补酒糟与糍粑辣椒配方及蒜苗来源，固定酒精和油保留规则。",
+      "ingredient_keys": [
+        "garlic_shoot_exact",
+        "glutinous_rice"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot_exact",
+          "query": {
+            "query": "\"GARLIC SHOOTS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "3b3dcd0b6644841b0b3dac6ac5213ac53961ed37b03c880175ca82931470ee9f"
+        },
+        {
+          "key": "glutinous_rice",
+          "query": "Rice white glutinous cooked",
+          "status": "complete",
+          "raw_sha256": "8f6f24c2c0ff0d3faf67f7fcd24ee973a2946e83df1e820e1d2dc9f46ce2a616"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-aaa0f1f21191",
+      "recipe_blob_sha": "9466d3092cf5f5dd256b0f819d93ddbd7b108775",
+      "name": "酱牛肉",
+      "status": "missing_evidence",
+      "blocker_code": "marinade",
+      "reason": "卤料包或黄豆酱未固定，且卤液大部不食用，生牛肉全量加整锅卤料会高估；牛腱与牛胸腩不等同。",
+      "next_action": "补牛腱熟肉参考或出成/附着卤汁模型，并固定黄豆酱卤料来源。",
+      "ingredient_keys": [
+        "beef_brisket",
+        "soy_paste"
+      ],
+      "checked_queries": [
+        {
+          "key": "beef_brisket",
+          "query": "Beef brisket whole separable lean fat raw",
+          "status": "complete",
+          "raw_sha256": "99ae471e000ea54fe107b4f9ed984cf51f8c4d6e566d00b6c93d78016d1eb035"
+        },
+        {
+          "key": "soy_paste",
+          "query": "Miso",
+          "status": "complete",
+          "raw_sha256": "aec0734e73aeaabb96ae4bbdae7c27d2dedde0cd65e5a62ad6a03a80a86bcf23"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-249efab791e1",
+      "recipe_blob_sha": "cc65c2283c72be26252eee8a44a8586cc596d5d5",
+      "name": "醉排骨",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-683225505a87",
+      "recipe_blob_sha": "c773822d5820a6fcd87cc6efb01047a8f407864d",
+      "name": "香煎五花肉",
+      "status": "missing_evidence",
+      "blocker_code": "processing",
+      "reason": "原文会逼出大量猪油且非全部入口，生五花肉全脂不对应煎后肉；料酒豆瓣也未统一。",
+      "next_action": "取得相同部位熟煎肉参考或弃油克数依据，配生菜与酱另算。",
+      "ingredient_keys": [
+        "pork_belly"
+      ],
+      "checked_queries": [
+        {
+          "key": "pork_belly",
+          "query": "Pork fresh belly raw",
+          "status": "complete",
+          "raw_sha256": "d52cb49c5e249ec8cf514ff5d1bc70df1479af9dc925a5c882c8f745adae314d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c68aaa42a6ac",
+      "recipe_blob_sha": "202fdaa3ebccf73b0d420d32c5440aed26e19e02",
+      "name": "麻婆豆腐",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本仓库实际配方含咸鸭蛋和广乐香辣酱，不能套常见豆瓣肉末版；皮蛋、生鸭蛋均不是咸鸭蛋。",
+      "next_action": "补咸鸭蛋可食部位来源及指定辣酱标签，保持本篇独立配方。",
+      "ingredient_keys": [
+        "duck_preserved",
+        "tofu",
+        "douban_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "duck_preserved",
+          "query": "Egg duck preserved",
+          "status": "complete",
+          "raw_sha256": "6f36ba2dd4f61107fa662f9e3c9a46968aaaab5e0b5d17d57f7825879a0c98d3"
+        },
+        {
+          "key": "tofu",
+          "query": "Tofu soft calcium sulfate magnesium chloride",
+          "status": "complete",
+          "raw_sha256": "94ac5fc8f0b2a67b870b749a589877440b01cc2b7d30aa3c369fba6f68f0e67c"
+        },
+        {
+          "key": "douban_branded",
+          "query": {
+            "query": "LEE KUM KEE CHILI BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1a8b110f53c6",
+      "recipe_blob_sha": "c8227d12d16329bd3bede20222b717401cf04a78",
+      "name": "麻辣香锅",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文鱼丸火腿肠干豆腐和方便面可选，调料包未固定；普通肉或豆腐不能代表复配制品。",
+      "next_action": "固定一个实际食材组合并补鱼丸/豆干/调料来源后再估算，不自动把可选项全加或全删。",
+      "ingredient_keys": [
+        "tofu",
+        "instant_noodle_exact"
+      ],
+      "checked_queries": [
+        {
+          "key": "tofu",
+          "query": "Tofu soft calcium sulfate magnesium chloride",
+          "status": "complete",
+          "raw_sha256": "94ac5fc8f0b2a67b870b749a589877440b01cc2b7d30aa3c369fba6f68f0e67c"
+        },
+        {
+          "key": "instant_noodle_exact",
+          "query": {
+            "query": "\"INSTANT NOODLES\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "8222e7c7cbe96ad9beeed23ae41a16f3f44464e822a18cf7c7650723af1f4e88"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-617f7ae9488e",
+      "recipe_blob_sha": "62974b1c331c086d13524cadb6384c8a8f251749",
+      "name": "凉皮",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "凉皮和面筋缺适用含水状态及配比来源，不能以普通小麦面代替洗面淀粉皮。",
+      "next_action": "补凉皮面筋标签或完整洗面提取规则，油酱配料可复用。",
+      "ingredient_keys": [
+        "flour",
+        "noodles_somen"
+      ],
+      "checked_queries": [
+        {
+          "key": "flour",
+          "query": "Wheat flour white all purpose unenriched",
+          "status": "complete",
+          "raw_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+        },
+        {
+          "key": "noodles_somen",
+          "query": "Noodles chinese cooked",
+          "status": "complete",
+          "raw_sha256": "1b93561273b7e3df2adac2cace040806dda206658dcb202a44c1dcc0a005bc56"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-72605b6e5df1",
+      "recipe_blob_sha": "3e96e465f03c75269acd676aa000f7cb3f29d10c",
+      "name": "半成品意面",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本篇为品牌或馅料不固定的半成品加工说明，包装干湿/预炸/含酱差异决定营养；未选任意标签冒充全部品牌。",
+      "next_action": "固定具体产品GTIN和营养标签，确认是否含油酱馅料及按包装重还是熟重计算。",
+      "ingredient_keys": [
+        "dumpling_exact",
+        "puff_pastry",
+        "pasta"
+      ],
+      "checked_queries": [
+        {
+          "key": "dumpling_exact",
+          "query": {
+            "query": "\"PORK DUMPLINGS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "53e4be1fa15a9397d42e671cf76b86d08d12df1542291b2f7cd9de844b714c32"
+        },
+        {
+          "key": "puff_pastry",
+          "query": "Puff pastry frozen ready to bake",
+          "status": "complete",
+          "raw_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+        },
+        {
+          "key": "pasta",
+          "query": "Spaghetti cooked enriched without added salt",
+          "status": "complete",
+          "raw_sha256": "1852c7dc233b6d8cce339f99e8bfb2f151f4cccb5d36130c7f1a130dc474d27e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e960ac6812f3",
+      "recipe_blob_sha": "5e5b0e0ed181326576dd3f1af9ff192b8f52d68a",
+      "name": "懒人蛋挞",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本篇为品牌或馅料不固定的半成品加工说明，包装干湿/预炸/含酱差异决定营养；未选任意标签冒充全部品牌。",
+      "next_action": "固定具体产品GTIN和营养标签，确认是否含油酱馅料及按包装重还是熟重计算。",
+      "ingredient_keys": [
+        "dumpling_exact",
+        "puff_pastry",
+        "pasta"
+      ],
+      "checked_queries": [
+        {
+          "key": "dumpling_exact",
+          "query": {
+            "query": "\"PORK DUMPLINGS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "53e4be1fa15a9397d42e671cf76b86d08d12df1542291b2f7cd9de844b714c32"
+        },
+        {
+          "key": "puff_pastry",
+          "query": "Puff pastry frozen ready to bake",
+          "status": "complete",
+          "raw_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+        },
+        {
+          "key": "pasta",
+          "query": "Spaghetti cooked enriched without added salt",
+          "status": "complete",
+          "raw_sha256": "1852c7dc233b6d8cce339f99e8bfb2f151f4cccb5d36130c7f1a130dc474d27e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f3e472bcc3e6",
+      "recipe_blob_sha": "011f4544179c1aa755c8a9fb474912f2cf49b18c",
+      "name": "炸薯条",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本篇为品牌或馅料不固定的半成品加工说明，包装干湿/预炸/含酱差异决定营养；未选任意标签冒充全部品牌。",
+      "next_action": "固定具体产品GTIN和营养标签，确认是否含油酱馅料及按包装重还是熟重计算。",
+      "ingredient_keys": [
+        "dumpling_exact",
+        "puff_pastry",
+        "pasta"
+      ],
+      "checked_queries": [
+        {
+          "key": "dumpling_exact",
+          "query": {
+            "query": "\"PORK DUMPLINGS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "53e4be1fa15a9397d42e671cf76b86d08d12df1542291b2f7cd9de844b714c32"
+        },
+        {
+          "key": "puff_pastry",
+          "query": "Puff pastry frozen ready to bake",
+          "status": "complete",
+          "raw_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+        },
+        {
+          "key": "pasta",
+          "query": "Spaghetti cooked enriched without added salt",
+          "status": "complete",
+          "raw_sha256": "1852c7dc233b6d8cce339f99e8bfb2f151f4cccb5d36130c7f1a130dc474d27e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1bc98124aec5",
+      "recipe_blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
+      "name": "牛油火锅底料",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "大量牛油、豆母子、郫县豆瓣、糍粑辣椒和麦芽粉配方不全，且底料全锅不等于每人食用量。",
+      "next_action": "补所有复配配料和过滤出油依据，明确底料成品参考与稀释后汤锅分别计算。",
+      "ingredient_keys": [
+        "douban_branded",
+        "lard"
+      ],
+      "checked_queries": [
+        {
+          "key": "douban_branded",
+          "query": {
+            "query": "LEE KUM KEE CHILI BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+        },
+        {
+          "key": "lard",
+          "query": "Lard",
+          "status": "complete",
+          "raw_sha256": "b707b5fcd44cc94aea08ee13cd6e66772d568b95e807c842a843e4cf9977bfb0"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6c8fa75dcb07",
+      "recipe_blob_sha": "cfc879d69e8e4d44f6592bc3e62583130a1d3942",
+      "name": "速冻水饺",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本篇为品牌或馅料不固定的半成品加工说明，包装干湿/预炸/含酱差异决定营养；未选任意标签冒充全部品牌。",
+      "next_action": "固定具体产品GTIN和营养标签，确认是否含油酱馅料及按包装重还是熟重计算。",
+      "ingredient_keys": [
+        "dumpling_exact",
+        "puff_pastry",
+        "pasta"
+      ],
+      "checked_queries": [
+        {
+          "key": "dumpling_exact",
+          "query": {
+            "query": "\"PORK DUMPLINGS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "53e4be1fa15a9397d42e671cf76b86d08d12df1542291b2f7cd9de844b714c32"
+        },
+        {
+          "key": "puff_pastry",
+          "query": "Puff pastry frozen ready to bake",
+          "status": "complete",
+          "raw_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+        },
+        {
+          "key": "pasta",
+          "query": "Spaghetti cooked enriched without added salt",
+          "status": "complete",
+          "raw_sha256": "1852c7dc233b6d8cce339f99e8bfb2f151f4cccb5d36130c7f1a130dc474d27e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-68ca6633c10d",
+      "recipe_blob_sha": "0f694eeba7654a95e02c2cfe0d1a1327099d737c",
+      "name": "速冻汤圆",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本篇为品牌或馅料不固定的半成品加工说明，包装干湿/预炸/含酱差异决定营养；未选任意标签冒充全部品牌。",
+      "next_action": "固定具体产品GTIN和营养标签，确认是否含油酱馅料及按包装重还是熟重计算。",
+      "ingredient_keys": [
+        "dumpling_exact",
+        "puff_pastry",
+        "pasta"
+      ],
+      "checked_queries": [
+        {
+          "key": "dumpling_exact",
+          "query": {
+            "query": "\"PORK DUMPLINGS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "53e4be1fa15a9397d42e671cf76b86d08d12df1542291b2f7cd9de844b714c32"
+        },
+        {
+          "key": "puff_pastry",
+          "query": "Puff pastry frozen ready to bake",
+          "status": "complete",
+          "raw_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+        },
+        {
+          "key": "pasta",
+          "query": "Spaghetti cooked enriched without added salt",
+          "status": "complete",
+          "raw_sha256": "1852c7dc233b6d8cce339f99e8bfb2f151f4cccb5d36130c7f1a130dc474d27e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2e33e0141c78",
+      "recipe_blob_sha": "619bd27cfb9d3c0f716678717004bb04cefdafd4",
+      "name": "速冻馄饨",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "本篇为品牌或馅料不固定的半成品加工说明，包装干湿/预炸/含酱差异决定营养；未选任意标签冒充全部品牌。",
+      "next_action": "固定具体产品GTIN和营养标签，确认是否含油酱馅料及按包装重还是熟重计算。",
+      "ingredient_keys": [
+        "dumpling_exact",
+        "puff_pastry",
+        "pasta"
+      ],
+      "checked_queries": [
+        {
+          "key": "dumpling_exact",
+          "query": {
+            "query": "\"PORK DUMPLINGS\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "53e4be1fa15a9397d42e671cf76b86d08d12df1542291b2f7cd9de844b714c32"
+        },
+        {
+          "key": "puff_pastry",
+          "query": "Puff pastry frozen ready to bake",
+          "status": "complete",
+          "raw_sha256": "3eed4a89602bf9342f53083d847aee5bf3b4c3286cca9d106e2f51812d6515f1"
+        },
+        {
+          "key": "pasta",
+          "query": "Spaghetti cooked enriched without added salt",
+          "status": "complete",
+          "raw_sha256": "1852c7dc233b6d8cce339f99e8bfb2f151f4cccb5d36130c7f1a130dc474d27e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4c944fb35c21",
+      "recipe_blob_sha": "87fbd6fb79eb5644b00fbb103d40359fff02559c",
+      "name": "山药南瓜炖鸡汤",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "未核验中国山药/铁棍山药来源；generic yam、甘薯或含山药饮料不可代替；还应排除骨和玉米芯。",
+      "next_action": "补对应山药可食净重来源，再沿家庭份假设生成清楚的汤肉标准。",
+      "ingredient_keys": [
+        "yam",
+        "yam_exact"
+      ],
+      "checked_queries": [
+        {
+          "key": "yam",
+          "query": "Yam raw",
+          "status": "complete",
+          "raw_sha256": "6778a8606a02d443941499c071b69a9f9a200ed88f18a35dc5d1b0c6bef4de7d"
+        },
+        {
+          "key": "yam_exact",
+          "query": {
+            "query": "\"CHINESE YAM\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "e9a23c7a201a6acec7787bc4ea4c97ee588296e88d0f19d978d9601d5c51f1f4"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1afcd350dd6d",
+      "recipe_blob_sha": "7c7283231a31a2fd7d68463c53df056b382f4234",
+      "name": "排骨山药玉米汤",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "未核验中国山药/铁棍山药来源；generic yam、甘薯或含山药饮料不可代替；还应排除骨和玉米芯。",
+      "next_action": "补对应山药可食净重来源，再沿家庭份假设生成清楚的汤肉标准。",
+      "ingredient_keys": [
+        "yam",
+        "yam_exact"
+      ],
+      "checked_queries": [
+        {
+          "key": "yam",
+          "query": "Yam raw",
+          "status": "complete",
+          "raw_sha256": "6778a8606a02d443941499c071b69a9f9a200ed88f18a35dc5d1b0c6bef4de7d"
+        },
+        {
+          "key": "yam_exact",
+          "query": {
+            "query": "\"CHINESE YAM\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "e9a23c7a201a6acec7787bc4ea4c97ee588296e88d0f19d978d9601d5c51f1f4"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-558559ec84a0",
+      "recipe_blob_sha": "d05287238a0835abaf5610b603743a5c76c8b923",
+      "name": "排骨苦瓜汤",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文虾皮为薄壳小虾干，已找到的dried shrimp未核验是否为虾皮；排骨焯水还涉及弃液。",
+      "next_action": "补虾皮来源或明确可接受的干虾仁变体，选净可食排骨并处理焯水损失。",
+      "ingredient_keys": [
+        "shrimp_dried",
+        "pork_ribs",
+        "bitter_melon"
+      ],
+      "checked_queries": [
+        {
+          "key": "shrimp_dried",
+          "query": "Shrimp dried",
+          "status": "complete",
+          "raw_sha256": "6803fbcc2b31e60d45e361d3f8456f48c3b3af5b88ee969fff7a103343faab08"
+        },
+        {
+          "key": "pork_ribs",
+          "query": "Pork fresh spareribs separable lean fat raw",
+          "status": "complete",
+          "raw_sha256": "be18bf42ede2d8a4558b9f097d1eacf583741113cf78d4a50baf3af8b3540f27"
+        },
+        {
+          "key": "bitter_melon",
+          "query": "Balsam pear bitter gourd pods raw",
+          "status": "complete",
+          "raw_sha256": "08bf3272b8eabb5597216899436535f37de3c945835b54a711a6b276021abcba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e511d3a4430a",
+      "recipe_blob_sha": "6db1be8816aaa576d3785d67c2e498f9d983bdcf",
+      "name": "昂刺鱼豆腐汤",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文昂刺鱼或沙光鱼不是现有鲤鱼鲈鱼；物种和带骨净食比例未核验。",
+      "next_action": "补对应鱼种净肉来源，豆腐姜葱与油可复用，骨不计可食重量。",
+      "ingredient_keys": [
+        "carp",
+        "bass",
+        "tofu"
+      ],
+      "checked_queries": [
+        {
+          "key": "carp",
+          "query": "Fish carp raw",
+          "status": "complete",
+          "raw_sha256": "4dc11d75244a602c8f27974093408582c8d5e182beaa955e215cd7de079dc40a"
+        },
+        {
+          "key": "bass",
+          "query": "Fish bass fresh water mixed species raw",
+          "status": "complete",
+          "raw_sha256": "bbf60fac03e86276a806a933f42bd74e284092f697c0743905996235be5d1086"
+        },
+        {
+          "key": "tofu",
+          "query": "Tofu soft calcium sulfate magnesium chloride",
+          "status": "complete",
+          "raw_sha256": "94ac5fc8f0b2a67b870b749a589877440b01cc2b7d30aa3c369fba6f68f0e67c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-38acd3af9efb",
+      "recipe_blob_sha": "f2a17610c8fb76c74dd9f2625c08e6e04c97b3be",
+      "name": "银耳莲子粥",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "银耳检索命中蛋清、蘑菇茶或复合蛋白粉，没有核验干银耳食物本体。",
+      "next_action": "补明确Tremella银耳干态来源，不能用木耳或茶粉标签替代。",
+      "ingredient_keys": [
+        "silver_ear",
+        "tremella_exact",
+        "lotus_seed"
+      ],
+      "checked_queries": [
+        {
+          "key": "silver_ear",
+          "query": "White fungus dried",
+          "status": "complete",
+          "raw_sha256": "ac1da3514674e12272c809c3286a4d81a0b42e74fc91d2df476881f5924e254b"
+        },
+        {
+          "key": "tremella_exact",
+          "query": {
+            "query": "\"TREMELLA\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "74de5d1b623e258f18473047fe036db67fea1bf4e3367d32d4ba93cbcee12e35"
+        },
+        {
+          "key": "lotus_seed",
+          "query": "Seeds lotus seeds dried",
+          "status": "complete",
+          "raw_sha256": "ffe05b6a63eba7fa226a1dfbf9a202f455752ae8f0d07846a1eb10e612646de2"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-814045db7352",
+      "recipe_blob_sha": "c8a92c1ecfd0dabadf634bcf7403807de6f83d92",
+      "name": "陈皮排骨汤",
+      "status": "missing_evidence",
+      "blocker_code": "extraction",
+      "reason": "陈皮西洋参石斛玉竹麦冬为炖汤药材，缺适用来源及弃渣后浸出数据；不能将整份干药材全计进汤。",
+      "next_action": "补适用成品汤或药材实际食用/浸出依据，分别定义肉和汤份。",
+      "ingredient_keys": [
+        "pork_ribs"
+      ],
+      "checked_queries": [
+        {
+          "key": "pork_ribs",
+          "query": "Pork fresh spareribs separable lean fat raw",
+          "status": "complete",
+          "raw_sha256": "be18bf42ede2d8a4558b9f097d1eacf583741113cf78d4a50baf3af8b3540f27"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-83c2759e7cb2",
+      "recipe_blob_sha": "bf33beb11fca547ace97492247459f772ebd9cea",
+      "name": "凉粉",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文豌豆淀粉或成品凉粉缺适用来源；检索返回含豌豆淀粉的粉丝零食，不是纯淀粉。",
+      "next_action": "补纯豌豆淀粉标签及家庭凝胶配方，炒凉粉还需独立列油酱。",
+      "ingredient_keys": [
+        "pea_starch"
+      ],
+      "checked_queries": [
+        {
+          "key": "pea_starch",
+          "query": {
+            "query": "\"PEA STARCH\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "1dbe9d2dbb2cb63b7c1ca0f7b8039814e2f58723dc1bc40978d5256d5fa59e54"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-22a66ee1b189",
+      "recipe_blob_sha": "19c097b89606e4574d3dca4061a140285b107287",
+      "name": "咸肉菜饭",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "中式咸肉/腊肉不是已核验的去骨腌火腿或培根，脂肪盐糖与干燥程度不同。",
+      "next_action": "补咸肉腊肉对应部位与熟/干状态来源；不能只因都是腌猪肉就互换。",
+      "ingredient_keys": [
+        "ham",
+        "bacon"
+      ],
+      "checked_queries": [
+        {
+          "key": "ham",
+          "query": "Pork cured ham boneless regular extra lean and regular unheated",
+          "status": "complete",
+          "raw_sha256": "b70ed2e30deceb742330ad8726446a3ebf80f08bad6596d0fe3251afad06c608"
+        },
+        {
+          "key": "bacon",
+          "query": "Pork cured bacon unprepared",
+          "status": "complete",
+          "raw_sha256": "7bae0cd307a94e3f9a9d6e57633eba4914a6e037b3236a9cb4222fa91a3e84cb"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c52f0bf257da",
+      "recipe_blob_sha": "a939d6eaa92221ee70e3492c0ae431bb7263c26d",
+      "name": "手工水饺",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "韭菜为Chinese/garlic chives；本轮仅核验了普通chives候选，NIRA命中含韭菜饺子成品，非韭菜本体。",
+      "next_action": "补明确中国韭菜生净重来源，不用普通细香葱、韭葱或饺子标签代替。",
+      "ingredient_keys": [
+        "chinese_chive",
+        "chinese_chive_branded",
+        "nira_exact"
+      ],
+      "checked_queries": [
+        {
+          "key": "chinese_chive",
+          "query": "Chinese chives raw",
+          "status": "complete",
+          "raw_sha256": "5676bba9eb730af27645d78fe38e42efefcfff060ed3aec0972f49de6c503020"
+        },
+        {
+          "key": "chinese_chive_branded",
+          "query": {
+            "query": "GARLIC CHIVES",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "5ba4171a2906c3a1e9c2de9941d3516bae9b20cdd3eddddea35518a095bb1d30"
+        },
+        {
+          "key": "nira_exact",
+          "query": {
+            "query": "\"NIRA\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "cfca40252f5eeef8bc368e80425ee2e0355d348dad94043c0576e5262f9dcb9e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b80fc917b705",
+      "recipe_blob_sha": "44d59fad8f232c0f273930badb92197e5ba06ee6",
+      "name": "扬州炒饭",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文午餐肉罐头不是普通火腿；虾青豆先煮沥水也要采用相应熟重基准。",
+      "next_action": "固定午餐肉标签与熟沥水虾菜份量，米饭蛋油可复用。",
+      "ingredient_keys": [
+        "ham",
+        "shrimp_cooked",
+        "peas"
+      ],
+      "checked_queries": [
+        {
+          "key": "ham",
+          "query": "Pork cured ham boneless regular extra lean and regular unheated",
+          "status": "complete",
+          "raw_sha256": "b70ed2e30deceb742330ad8726446a3ebf80f08bad6596d0fe3251afad06c608"
+        },
+        {
+          "key": "shrimp_cooked",
+          "query": "Crustaceans shrimp mixed species raw",
+          "status": "complete",
+          "raw_sha256": "15b760c04c772182491497236b4f9f0d8589ccd0f8852456a9a8a42497807631"
+        },
+        {
+          "key": "peas",
+          "query": "Peas green raw",
+          "status": "complete",
+          "raw_sha256": "f64c486746b5d4814c4272283227a765e299455463da24d63e30cdd9ba7fddb3"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-f64edf0ff466",
+      "recipe_blob_sha": "fe3364390fbb87e442a3b946e1f56c17a9eed18a",
+      "name": "河南蒸面条",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "本轮蒜苔检索仅命中蒜瓣、蒜味制品等，未找到已核验的花茎来源；不把蒜瓣值套给蒜苔。",
+      "next_action": "补明确蒜苔或garlic scapes的可食花茎数据；过油肉还须核对滑油保留。",
+      "ingredient_keys": [
+        "garlic_shoot",
+        "garlic_scapes_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "garlic_shoot",
+          "query": "Garlic scapes raw",
+          "status": "complete",
+          "raw_sha256": "738f22884a3a0685fbd6d8c9b7d87294b0b106454f17eb024095533d10e34f33"
+        },
+        {
+          "key": "garlic_scapes_branded",
+          "query": {
+            "query": "GARLIC SCAPES",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "71229bbb3c5dd81196ac261481acd02a323d3a864f2a903621e0df2271cdb9bf"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1d22844abab0",
+      "recipe_blob_sha": "5906ce27c2a662a8cd36f4296073aff2807bf630",
+      "name": "滕州菜煎饼",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "市售山东白面煎饼与面包/起酥皮不同，原文粉条品种和干湿也未固定。",
+      "next_action": "补煎饼标签或自制明确配方，选粉条来源并明确不加可选韭菜火腿肠的标准。",
+      "ingredient_keys": [
+        "flour",
+        "mung_noodles"
+      ],
+      "checked_queries": [
+        {
+          "key": "flour",
+          "query": "Wheat flour white all purpose unenriched",
+          "status": "complete",
+          "raw_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+        },
+        {
+          "key": "mung_noodles",
+          "query": "Noodles chinese cellophane dehydrated",
+          "status": "complete",
+          "raw_sha256": "783a49008061d93f1d821b58d8e29e01539ade6a859b740f92728871696602ff"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-414dff648871",
+      "recipe_blob_sha": "b8f5e506e9be130130f5449cd91e4744820bb72e",
+      "name": "炒凉粉",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文豌豆淀粉或成品凉粉缺适用来源；检索返回含豌豆淀粉的粉丝零食，不是纯淀粉。",
+      "next_action": "补纯豌豆淀粉标签及家庭凝胶配方，炒凉粉还需独立列油酱。",
+      "ingredient_keys": [
+        "pea_starch"
+      ],
+      "checked_queries": [
+        {
+          "key": "pea_starch",
+          "query": {
+            "query": "\"PEA STARCH\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "1dbe9d2dbb2cb63b7c1ca0f7b8039814e2f58723dc1bc40978d5256d5fa59e54"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-50b2a23c6648",
+      "recipe_blob_sha": "84d4b88ab404a940ebca3aac3aec865a3791c88b",
+      "name": "炒馍",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "馒头是蒸制发酵小麦面食，现有西式面包的油糖和含水量不同。",
+      "next_action": "补无馅无糖馒头成品来源或审核完整面团发酵蒸制配方，不以吐司直接代理。",
+      "ingredient_keys": [
+        "bread",
+        "flour"
+      ],
+      "checked_queries": [
+        {
+          "key": "bread",
+          "query": "Bread white commercially prepared",
+          "status": "complete",
+          "raw_sha256": "d9f54e13a381e5bc847cfa372356ec7400acf0fceb0864e10fbfeaf4642397ea"
+        },
+        {
+          "key": "flour",
+          "query": "Wheat flour white all purpose unenriched",
+          "status": "complete",
+          "raw_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d97323116a82",
+      "recipe_blob_sha": "314e73018a8323d162d4435dbe1fd81ec22117f2",
+      "name": "热干面",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "碱水面、酸豆角和萝卜干为关键配料，现有普通熟素面、鲜豆角和萝卜不适用。",
+      "next_action": "补碱水面及腌菜标签，固定辣油和肉汤汁，按熟净面重量计算。",
+      "ingredient_keys": [
+        "noodles_somen",
+        "green_beans",
+        "radish"
+      ],
+      "checked_queries": [
+        {
+          "key": "noodles_somen",
+          "query": "Noodles chinese cooked",
+          "status": "complete",
+          "raw_sha256": "1b93561273b7e3df2adac2cace040806dda206658dcb202a44c1dcc0a005bc56"
+        },
+        {
+          "key": "green_beans",
+          "query": "Beans snap green raw",
+          "status": "complete",
+          "raw_sha256": "ff7d3c10406b55abce70fcd27a3fbd4520eccf5d8497f24cdde270237f60f7aa"
+        },
+        {
+          "key": "radish",
+          "query": "Radishes oriental raw",
+          "status": "complete",
+          "raw_sha256": "bacebfeb65545d595b80338e87e59a4cf88b8355dbcf10d790aa6c51414cac3a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-00350cbfad20",
+      "recipe_blob_sha": "04541cb0ba7e967f16601d58cd53d8978d5c6a3b",
+      "name": "老友猪肉粉",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "酸笋、豆豉和剁椒是原文关键发酵配料，现有鲜笋或辣椒不能静默替代。",
+      "next_action": "补对应配料标签及沥水基准，米粉猪肉已有可复用来源。",
+      "ingredient_keys": [
+        "douchi_exact",
+        "rice_noodles"
+      ],
+      "checked_queries": [
+        {
+          "key": "douchi_exact",
+          "query": {
+            "query": "\"DOUCHI\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "59d5cb00fd1a8a9c2cee7c57abdfd399850745c16e30124454d47ce124c9a71a"
+        },
+        {
+          "key": "rice_noodles",
+          "query": "Rice noodles cooked",
+          "status": "complete",
+          "raw_sha256": "13d5ff9a17c662abf2785ddcbd4c514b5112ad3ce7ab999284ff32783ea4461c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-617957ecce2f",
+      "recipe_blob_sha": "83c5a7d48d7d4844286f7e997f0bababca46cdeb",
+      "name": "老干妈拌面",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "未获得明确老干妈产品及口味标签，品牌同名不同油豆比例不能互用。",
+      "next_action": "补具体口味GTIN及每100g标签，面条分别用白小麦熟面和荞麦熟面方案。",
+      "ingredient_keys": [
+        "laoganma",
+        "soba"
+      ],
+      "checked_queries": [
+        {
+          "key": "laoganma",
+          "query": {
+            "query": "\"LAO GAN MA\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "7c4ec1daa5ccceca9e2a247b3d62b91a3ace245f2c03988f9b2cd147f05adfd2"
+        },
+        {
+          "key": "soba",
+          "query": "Noodles japanese soba cooked",
+          "status": "complete",
+          "raw_sha256": "96f8c4aa7af0d54de48836bbb53c59f0313702ac1e0e9297a983cd28cc162c8a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e9ddad293a47",
+      "recipe_blob_sha": "d80c08ef9de8243fe88c0de9e545e32a86e4faa0",
+      "name": "茄子肉煎饼",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "中式咸肉/腊肉不是已核验的去骨腌火腿或培根，脂肪盐糖与干燥程度不同。",
+      "next_action": "补咸肉腊肉对应部位与熟/干状态来源；不能只因都是腌猪肉就互换。",
+      "ingredient_keys": [
+        "ham",
+        "bacon"
+      ],
+      "checked_queries": [
+        {
+          "key": "ham",
+          "query": "Pork cured ham boneless regular extra lean and regular unheated",
+          "status": "complete",
+          "raw_sha256": "b70ed2e30deceb742330ad8726446a3ebf80f08bad6596d0fe3251afad06c608"
+        },
+        {
+          "key": "bacon",
+          "query": "Pork cured bacon unprepared",
+          "status": "complete",
+          "raw_sha256": "7bae0cd307a94e3f9a9d6e57633eba4914a6e037b3236a9cb4222fa91a3e84cb"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-031354976c67",
+      "recipe_blob_sha": "c3d67a8907994d2c984858fbc19a63a7cddf07d0",
+      "name": "螺蛳粉",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文袋装螺蛳粉含多种料包，品牌和弃油/加包比例不固定；不能把纯米粉值当整碗。",
+      "next_action": "固定产品每包面和各料包标签与实际加入克数，汤汁份量另定义。",
+      "ingredient_keys": [
+        "rice_noodles"
+      ],
+      "checked_queries": [
+        {
+          "key": "rice_noodles",
+          "query": "Rice noodles cooked",
+          "status": "complete",
+          "raw_sha256": "13d5ff9a17c662abf2785ddcbd4c514b5112ad3ce7ab999284ff32783ea4461c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c638d9f85df8",
+      "recipe_blob_sha": "26221a137d0384889dcc9b08bbface8761d78dd6",
+      "name": "酱拌荞麦面",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "未获得明确老干妈产品及口味标签，品牌同名不同油豆比例不能互用。",
+      "next_action": "补具体口味GTIN及每100g标签，面条分别用白小麦熟面和荞麦熟面方案。",
+      "ingredient_keys": [
+        "laoganma",
+        "soba"
+      ],
+      "checked_queries": [
+        {
+          "key": "laoganma",
+          "query": {
+            "query": "\"LAO GAN MA\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "7c4ec1daa5ccceca9e2a247b3d62b91a3ace245f2c03988f9b2cd147f05adfd2"
+        },
+        {
+          "key": "soba",
+          "query": "Noodles japanese soba cooked",
+          "status": "complete",
+          "raw_sha256": "96f8c4aa7af0d54de48836bbb53c59f0313702ac1e0e9297a983cd28cc162c8a"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-ecbf1bf555cf",
+      "recipe_blob_sha": "fbeaeb525d6eed1196b385c7e8eb12a6dbb83979",
+      "name": "酸辣蕨根粉",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "蕨根粉是蕨根淀粉配方制品，不是绿豆粉丝或普通米粉；未有核验来源。",
+      "next_action": "补指定蕨根粉标签及熟重基准，辣油酱醋按实际标准量计入。",
+      "ingredient_keys": [
+        "mung_noodles",
+        "rice_noodles"
+      ],
+      "checked_queries": [
+        {
+          "key": "mung_noodles",
+          "query": "Noodles chinese cellophane dehydrated",
+          "status": "complete",
+          "raw_sha256": "783a49008061d93f1d821b58d8e29e01539ade6a859b740f92728871696602ff"
+        },
+        {
+          "key": "rice_noodles",
+          "query": "Rice noodles cooked",
+          "status": "complete",
+          "raw_sha256": "13d5ff9a17c662abf2785ddcbd4c514b5112ad3ce7ab999284ff32783ea4461c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4de3928e6efa",
+      "recipe_blob_sha": "1ad0403f9abf4ab83cb6b87be04545bdd9abe82d",
+      "name": "醪糟小汤圆",
+      "status": "missing_evidence",
+      "blocker_code": "fermentation",
+      "reason": "糯米发酵会消耗碳水并生成酒精；生米或熟糯米营养不能原样视为酒酿，汤圆填料亦未固定。",
+      "next_action": "取得醪糟成品参考或发酵后糖酒实测及指定汤圆来源，不能单靠家庭份量推导。",
+      "ingredient_keys": [
+        "glutinous_raw",
+        "glutinous_rice"
+      ],
+      "checked_queries": [
+        {
+          "key": "glutinous_raw",
+          "query": "Rice white glutinous cooked",
+          "status": "complete",
+          "raw_sha256": "8f6f24c2c0ff0d3faf67f7fcd24ee973a2946e83df1e820e1d2dc9f46ce2a616"
+        },
+        {
+          "key": "glutinous_rice",
+          "query": "Rice white glutinous cooked",
+          "status": "complete",
+          "raw_sha256": "8f6f24c2c0ff0d3faf67f7fcd24ee973a2946e83df1e820e1d2dc9f46ce2a616"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c5e2191c72cc",
+      "recipe_blob_sha": "97fbfe69ad884ec4ad599f5dc8379c6f1d47437f",
+      "name": "韩式拌饭",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "韩式辣酱含发酵谷豆糖，未有匹配标签；豆芽和牛肉卷加工状态还需固定。",
+      "next_action": "补辣酱产品与豆芽来源，固定原切肥牛部位及含糖/无糖汽水分支。",
+      "ingredient_keys": [
+        "douban_branded",
+        "bean_sprout"
+      ],
+      "checked_queries": [
+        {
+          "key": "douban_branded",
+          "query": {
+            "query": "LEE KUM KEE CHILI BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69"
+        },
+        {
+          "key": "bean_sprout",
+          "query": {
+            "query": "MUNG BEAN SPROUTS",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "c2c5c8dbebf8ac1d167f0d221c4fdd9c7a2635bf9a68234a9f94128e43551f91"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b8edc500b99e",
+      "recipe_blob_sha": "67e65ec69c58dffc8da4675aebbc7f5b840db414",
+      "name": "韭菜盒子",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "韭菜为Chinese/garlic chives；本轮仅核验了普通chives候选，NIRA命中含韭菜饺子成品，非韭菜本体。",
+      "next_action": "补明确中国韭菜生净重来源，不用普通细香葱、韭葱或饺子标签代替。",
+      "ingredient_keys": [
+        "chinese_chive",
+        "chinese_chive_branded",
+        "nira_exact"
+      ],
+      "checked_queries": [
+        {
+          "key": "chinese_chive",
+          "query": "Chinese chives raw",
+          "status": "complete",
+          "raw_sha256": "5676bba9eb730af27645d78fe38e42efefcfff060ed3aec0972f49de6c503020"
+        },
+        {
+          "key": "chinese_chive_branded",
+          "query": {
+            "query": "GARLIC CHIVES",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "5ba4171a2906c3a1e9c2de9941d3516bae9b20cdd3eddddea35518a095bb1d30"
+        },
+        {
+          "key": "nira_exact",
+          "query": {
+            "query": "\"NIRA\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "cfca40252f5eeef8bc368e80425ee2e0355d348dad94043c0576e5262f9dcb9e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c3250cf8bae4",
+      "recipe_blob_sha": "8275ffad6a3ca0d002df5948d501393f7a8062fb",
+      "name": "鲣鱼海苔玉米饭",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文鲣鱼海苔碎为拌饭复配料，100%紫菜不能代表含鱼芝麻糖盐的料包。",
+      "next_action": "补具体鲣鱼海苔碎标签，米饭和甜玉米可复用已核验来源。",
+      "ingredient_keys": [
+        "nori_plain",
+        "corn_cooked"
+      ],
+      "checked_queries": [
+        {
+          "key": "nori_plain",
+          "query": {
+            "query": "\"NORI\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "f9846ede6a51f30ea34ca6c35da4aeba70a9870230bb82f1e92283221b399c77"
+        },
+        {
+          "key": "corn_cooked",
+          "query": "Corn sweet yellow cooked boiled drained without salt",
+          "status": "complete",
+          "raw_sha256": "9a7fa9c068f2b659e0f04002a18985649eb4aa14af5d8c15b6ca29c33316a106"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-343910aaf767",
+      "recipe_blob_sha": "69ea7d3d7d38aff27f0b7f251dffd5d474a5a95e",
+      "name": "鹰嘴豆炸饼",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文含深油炸饼或挤水后炸丸子、纸吸油，油吸收和弃水固形物无法由成品重直接推定。",
+      "next_action": "补合适成品参考或可靠炸制/挤水保留依据，主食材已缓存不等于炸物已审核。",
+      "ingredient_keys": [
+        "chickpea",
+        "bottle_gourd",
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "chickpea",
+          "query": "Chickpeas mature seeds raw",
+          "status": "complete",
+          "raw_sha256": "f6dcd07606efb973386eaf655e0eb89765b373f51d547098497ff0b61d2f6c28"
+        },
+        {
+          "key": "bottle_gourd",
+          "query": "Gourd white flowered calabash raw",
+          "status": "complete",
+          "raw_sha256": "836fdcfc360c7e5c01e0a48f6c28620d5939136c369365a77495c6b81fef2974"
+        },
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-163edd1cb5ff",
+      "recipe_blob_sha": "ed1c4e6665209554c82a878b4ce326de9373e988",
+      "name": "麻辣减脂荞麦面",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "小龙坎底料、花生酱、花椒油及半干荞麦面都有特定品牌和浓度，不能用熟荞麦面或纯油代替全部制品。",
+      "next_action": "补指定产品标签，确认半干面输入基准与整锅汤是否全部饮用。",
+      "ingredient_keys": [
+        "soba",
+        "sichuan_pepper_branded"
+      ],
+      "checked_queries": [
+        {
+          "key": "soba",
+          "query": "Noodles japanese soba cooked",
+          "status": "complete",
+          "raw_sha256": "96f8c4aa7af0d54de48836bbb53c59f0313702ac1e0e9297a983cd28cc162c8a"
+        },
+        {
+          "key": "sichuan_pepper_branded",
+          "query": {
+            "query": "SICHUAN PEPPERCORN",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "86f6493d8a987400f7e89487591efc452fd7a72d0b8921a017365ed7107b495e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9fa6e6906317",
+      "recipe_blob_sha": "0bc4b13c341a9eb6b8ddaa21528ea868401041b0",
+      "name": "凉拌油麦菜",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "现有已核验生菜为冰山型，油麦菜是不同叶菜品种；未把二者默认视为同样营养。",
+      "next_action": "补油麦菜或明确允许品种的可食叶来源，再与芝麻酱蒜醋标准汇总。",
+      "ingredient_keys": [
+        "lettuce"
+      ],
+      "checked_queries": [
+        {
+          "key": "lettuce",
+          "query": "Lettuce green leaf raw",
+          "status": "complete",
+          "raw_sha256": "3190fdee0360fd2a4f9b885c95d471bd10e3283128b572b087f1fdc606b1749f"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-1e38411f7136",
+      "recipe_blob_sha": "b86a63a57a274c74689700b910fc1408da0c884c",
+      "name": "印度葫芦丸子",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文含深油炸饼或挤水后炸丸子、纸吸油，油吸收和弃水固形物无法由成品重直接推定。",
+      "next_action": "补合适成品参考或可靠炸制/挤水保留依据，主食材已缓存不等于炸物已审核。",
+      "ingredient_keys": [
+        "chickpea",
+        "bottle_gourd",
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "chickpea",
+          "query": "Chickpeas mature seeds raw",
+          "status": "complete",
+          "raw_sha256": "f6dcd07606efb973386eaf655e0eb89765b373f51d547098497ff0b61d2f6c28"
+        },
+        {
+          "key": "bottle_gourd",
+          "query": "Gourd white flowered calabash raw",
+          "status": "complete",
+          "raw_sha256": "836fdcfc360c7e5c01e0a48f6c28620d5939136c369365a77495c6b81fef2974"
+        },
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-5097e0e1af4e",
+      "recipe_blob_sha": "4d1d4ff394448c7177c46d20dbd745f85616aad4",
+      "name": "家常日本豆腐",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "日本豆腐/玉子豆腐主要含鸡蛋，与豆制豆腐不同；精确EGG TOFU检索尚无合理候选。",
+      "next_action": "补对应蛋豆腐标签或审核其实际蛋水配方，不能用软豆腐营养冒充。",
+      "ingredient_keys": [
+        "egg_tofu_exact",
+        "egg_tofu_branded",
+        "tofu"
+      ],
+      "checked_queries": [
+        {
+          "key": "egg_tofu_exact",
+          "query": {
+            "query": "\"EGG TOFU\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "b8aac2e25208f8d1ed69a811a09976871d93f3b691dcb4e9828cf18f9028fd13"
+        },
+        {
+          "key": "egg_tofu_branded",
+          "query": {
+            "query": "EGG TOFU",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "11f4eae335cba489cc7ad7482dbd94c2cab0031c3fb172601fbfa53f3438ed59"
+        },
+        {
+          "key": "tofu",
+          "query": "Tofu soft calcium sulfate magnesium chloride",
+          "status": "complete",
+          "raw_sha256": "94ac5fc8f0b2a67b870b749a589877440b01cc2b7d30aa3c369fba6f68f0e67c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4378c05c5f7b",
+      "recipe_blob_sha": "259eb2a3851886beb9b66672ed6a2f6b8b532242",
+      "name": "拔丝土豆",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-902ce562e226",
+      "recipe_blob_sha": "755c794d6642e71073643eaf7642b4c04fa9cefe",
+      "name": "榄菜肉末四季豆",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "橄榄菜是油渍芥菜等复配腌菜，非橄榄果或鲜青菜，缺对应标签。",
+      "next_action": "补橄榄菜产品含油基准与净量，肉和豆角数据可复用。",
+      "ingredient_keys": [
+        "green_beans",
+        "pork_belly"
+      ],
+      "checked_queries": [
+        {
+          "key": "green_beans",
+          "query": "Beans snap green raw",
+          "status": "complete",
+          "raw_sha256": "ff7d3c10406b55abce70fcd27a3fbd4520eccf5d8497f24cdde270237f60f7aa"
+        },
+        {
+          "key": "pork_belly",
+          "query": "Pork fresh belly raw",
+          "status": "complete",
+          "raw_sha256": "d52cb49c5e249ec8cf514ff5d1bc70df1479af9dc925a5c882c8f745adae314d"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-822fa695f8af",
+      "recipe_blob_sha": "9d5bd6b59b3506ee37819b04879d9e0b37ccbf5c",
+      "name": "炒土豆和胡萝卜蒸菜",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文李大厨炒菜料及肉香味为复配配料，计算/步骤还含裹粉用量；没有标签不能当纯盐忽略。",
+      "next_action": "固定裹粉家庭量，并补这两种复配调味或明确另审普通盐香型版本。",
+      "ingredient_keys": [
+        "potato",
+        "carrot",
+        "flour"
+      ],
+      "checked_queries": [
+        {
+          "key": "potato",
+          "query": "Potatoes flesh skin raw",
+          "status": "complete",
+          "raw_sha256": "948ce799300fabd5223bc48d5564016f96314aa9f75c3d6645c3bb068f16f756"
+        },
+        {
+          "key": "carrot",
+          "query": "Carrots raw",
+          "status": "complete",
+          "raw_sha256": "7081f1901d0911da91690d10c6388dc7b1f403c9f0ac1473725a075db13dddbd"
+        },
+        {
+          "key": "flour",
+          "query": "Wheat flour white all purpose unenriched",
+          "status": "complete",
+          "raw_sha256": "584f44e58bba84cc2fe4255b026f59a5b940636c3725b5ed2c101a93c3a67df9"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4feef09f05b2",
+      "recipe_blob_sha": "f218a7c015de3ecbf3e849a4b210ebf23bd654d0",
+      "name": "炸洋葱花",
+      "status": "missing_evidence",
+      "blocker_code": "frying",
+      "reason": "原文涉及过量油煎炸后捞出控油；油锅投油量不是食物吸油量，家庭成品重量不能替代吸油和流失依据。",
+      "next_action": "补可靠成品参考或可核验吸油/裹粉保留假设；未把整锅炸油当作加入菜品的油。",
+      "ingredient_keys": [
+        "oil"
+      ],
+      "checked_queries": [
+        {
+          "key": "oil",
+          "query": "Oil soybean salad cooking",
+          "status": "complete",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-c8756846df80",
+      "recipe_blob_sha": "c45e61ea554cfb8e4b520a58fa722b435166d056",
+      "name": "白灼菜心",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "菜心是开花茎叶蔬菜，候选pak-choi小白菜不能直接视为相同；原文还焯水沥出。",
+      "next_action": "补明确菜心及相应熟沥水来源，再分别加食用的油酱。",
+      "ingredient_keys": [
+        "choy_sum",
+        "bok_choy"
+      ],
+      "checked_queries": [
+        {
+          "key": "choy_sum",
+          "query": "Choy sum flowering Chinese cabbage raw",
+          "status": "complete",
+          "raw_sha256": "29cbdf90667b7a5805eb8a097fe5e078a77b08d9ac356b85a53060ba57eac2d4"
+        },
+        {
+          "key": "bok_choy",
+          "query": "Cabbage chinese pak choi raw",
+          "status": "complete",
+          "raw_sha256": "8a95c2044c368c47d0c8d84904f25512d559fb7caf144097e55a3a662a016a4e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-47b0d27fb06b",
+      "recipe_blob_sha": "7fdb3a6c3de0f3940cc9052f53e227ea543c60a3",
+      "name": "芹菜拌茶树菇",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "本轮茶树菇检索命中普通蘑菇、鸡油菌、金针菇，没有核验茶树菇；指定闽星制品还可能有油盐。",
+      "next_action": "补相应茶树菇或品牌制品标签和干湿净重，不以蘑菇任意替代。",
+      "ingredient_keys": [
+        "tea_mushroom"
+      ],
+      "checked_queries": [
+        {
+          "key": "tea_mushroom",
+          "query": "Agrocybe aegerita mushroom raw",
+          "status": "complete",
+          "raw_sha256": "e2a48c54b23f7bb79dc0e71edc5f5b1d329e0b0919a55695eb891b3c8567de63"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a294a849e9a5",
+      "recipe_blob_sha": "7b079c1c2678fc66c9ff9a2bce169f21001db614",
+      "name": "莴笋叶煎饼",
+      "status": "no_match",
+      "blocker_code": "edible_part",
+      "reason": "Celtuce茎数据不能直接代表莴笋叶；检索到其他植物叶同样不合适。",
+      "next_action": "补莴笋叶净重营养，不与凉拌莴笋茎方案合并。",
+      "ingredient_keys": [
+        "celtuce_leaves",
+        "celtuce"
+      ],
+      "checked_queries": [
+        {
+          "key": "celtuce_leaves",
+          "query": "Celtuce leaves raw",
+          "status": "complete",
+          "raw_sha256": "0aeca53c353deb7c7435491549d229a370bc8212effca257c272686ec3a92ca9"
+        },
+        {
+          "key": "celtuce",
+          "query": "Celtuce raw",
+          "status": "complete",
+          "raw_sha256": "53ad80d0bc83e922422f238d89da0bc1fdbe641040ca9e8f5bd4ec0b2fa17d54"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a4b59bbb9852",
+      "recipe_blob_sha": "32b874f770c9b93a1af18dc68a6380662073255e",
+      "name": "蚝油三鲜菇",
+      "status": "missing_evidence",
+      "blocker_code": "food_identity",
+      "reason": "原文蟹味菇白玉菇未取得明确来源，普通白蘑菇或金针菇不是同一食物；焯水还需熟沥水基准。",
+      "next_action": "补蟹味/白玉菇来源或审定明确允许的三菇替代组合，油酱全部列入。",
+      "ingredient_keys": [
+        "shimeji",
+        "shiitake"
+      ],
+      "checked_queries": [
+        {
+          "key": "shimeji",
+          "query": "Hypsizygus marmoreus mushroom raw",
+          "status": "complete",
+          "raw_sha256": "ad664cea807e1e75d39efab38e4debc5ca217ce00c741dfe52966cc2d5fa97f8"
+        },
+        {
+          "key": "shiitake",
+          "query": "Mushrooms shiitake raw",
+          "status": "complete",
+          "raw_sha256": "620cf192299e4261cb89e915e0c531fb62779e23ac1cc258ed72424ecc43dee9"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d50d59c1ca77",
+      "recipe_blob_sha": "d5af011210667cac3ed2107c5e6e5432ce3b901c",
+      "name": "话梅煮毛豆",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "话梅含糖盐加工配方未固定，煮液多被丢弃；不能按鲜梅或整包话梅全营养计到毛豆。",
+      "next_action": "补话梅标签和实际食用/浸出范围，毛豆要按去荚可食净量。",
+      "ingredient_keys": [
+        "edamame"
+      ],
+      "checked_queries": [
+        {
+          "key": "edamame",
+          "query": "Edamame frozen unprepared",
+          "status": "complete",
+          "raw_sha256": "ccdf2a11d79985e3378d8bd5c6be96cd7188cbf27594244e54ead3b418d23e34"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2e8d27218fc6",
+      "recipe_blob_sha": "cf295e24fd331c312b618e455bee1099a16d2571",
+      "name": "金针菇日本豆腐煲",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "日本豆腐/玉子豆腐主要含鸡蛋，与豆制豆腐不同；精确EGG TOFU检索尚无合理候选。",
+      "next_action": "补对应蛋豆腐标签或审核其实际蛋水配方，不能用软豆腐营养冒充。",
+      "ingredient_keys": [
+        "egg_tofu_exact",
+        "egg_tofu_branded",
+        "tofu"
+      ],
+      "checked_queries": [
+        {
+          "key": "egg_tofu_exact",
+          "query": {
+            "query": "\"EGG TOFU\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "b8aac2e25208f8d1ed69a811a09976871d93f3b691dcb4e9828cf18f9028fd13"
+        },
+        {
+          "key": "egg_tofu_branded",
+          "query": {
+            "query": "EGG TOFU",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "11f4eae335cba489cc7ad7482dbd94c2cab0031c3fb172601fbfa53f3438ed59"
+        },
+        {
+          "key": "tofu",
+          "query": "Tofu soft calcium sulfate magnesium chloride",
+          "status": "complete",
+          "raw_sha256": "94ac5fc8f0b2a67b870b749a589877440b01cc2b7d30aa3c369fba6f68f0e67c"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-cf76d9b00d1d",
+      "recipe_blob_sha": "841c8e104317f48a7deb5daacc87841099f1c710",
+      "name": "韭菜炒蛋",
+      "status": "no_match",
+      "blocker_code": "food_identity",
+      "reason": "韭菜为Chinese/garlic chives；本轮仅核验了普通chives候选，NIRA命中含韭菜饺子成品，非韭菜本体。",
+      "next_action": "补明确中国韭菜生净重来源，不用普通细香葱、韭葱或饺子标签代替。",
+      "ingredient_keys": [
+        "chinese_chive",
+        "chinese_chive_branded",
+        "nira_exact"
+      ],
+      "checked_queries": [
+        {
+          "key": "chinese_chive",
+          "query": "Chinese chives raw",
+          "status": "complete",
+          "raw_sha256": "5676bba9eb730af27645d78fe38e42efefcfff060ed3aec0972f49de6c503020"
+        },
+        {
+          "key": "chinese_chive_branded",
+          "query": {
+            "query": "GARLIC CHIVES",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "5ba4171a2906c3a1e9c2de9941d3516bae9b20cdd3eddddea35518a095bb1d30"
+        },
+        {
+          "key": "nira_exact",
+          "query": {
+            "query": "\"NIRA\"",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "status": "complete",
+          "raw_sha256": "cfca40252f5eeef8bc368e80425ee2e0355d348dad94043c0576e5262f9dcb9e"
+        }
+      ]
+    },
+    {
+      "recipe_id": "howtocook-708eac43f729",
+      "recipe_blob_sha": "222a05cdb18ee8939ad9fdd9cb193982a25502f5",
+      "name": "鸡蛋火腿炒黄瓜",
+      "status": "missing_evidence",
+      "blocker_code": "brand_label",
+      "reason": "原文火腿肠是复配淀粉肉肠，不是去骨熟火腿；缺实际产品标签。",
+      "next_action": "补火腿肠品牌GTIN和每100g数据，蛋黄瓜及用油可复用。",
+      "ingredient_keys": [
+        "ham",
+        "cucumber",
+        "egg"
+      ],
+      "checked_queries": [
+        {
+          "key": "ham",
+          "query": "Pork cured ham boneless regular extra lean and regular unheated",
+          "status": "complete",
+          "raw_sha256": "b70ed2e30deceb742330ad8726446a3ebf80f08bad6596d0fe3251afad06c608"
+        },
+        {
+          "key": "cucumber",
+          "query": "Cucumber with peel raw",
+          "status": "complete",
+          "raw_sha256": "ff61b34129b9b3955f69129cb234252f6a4d49a7005ceede7c49e7edf0fd3bfd"
+        },
+        {
+          "key": "egg",
+          "query": "Egg whole raw fresh",
+          "status": "complete",
+          "raw_sha256": "45e139b08768476234a8f8d1ac5b6a999fd6ed62a2def6a1bad5cb454ba4359a"
+        }
+      ]
+    }
+  ]
+}

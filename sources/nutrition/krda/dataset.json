@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "provider": "krda",
+  "name": "韩国 RDA 国家标准食物成分 DB",
+  "release": "국가표준식품성분 Database 10.4",
+  "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/downloadImg.do",
+  "landing_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+  "dataset_path": "sources/nutrition/krda/datasets/composition-10.4.xlsx",
+  "license": {
+    "name": "KOGL Type 1 (attribution)",
+    "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+    "attribution": "출처: 농촌진흥청 국가표준식품성분 DB 10.4. 本项目提取并计算，非韩国官方产品。"
+  },
+  "download_form": {
+    "gubun": "EXCEL",
+    "usepurps": "704009",
+    "occpgrupp": "704022",
+    "occpgruppEtc": "AI assistant for public nutrition catalog development"
+  },
+  "dataset_sha256": "271cc431f2991b3c0c049ec6e05fb59a040319e984ab71468184530de61dec50"
+}

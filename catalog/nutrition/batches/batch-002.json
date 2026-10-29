@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "description": "逐篇读取固定摘要原文并建立食材候选任务；只生成候选，不自动审核或发布营养。",
+  "jobs": [
+    {
+      "recipe_id": "howtocook-b69537e9b0c4",
+      "queries": [
+        "Crustaceans crab blue raw",
+        {
+          "query": "S&B GOLDEN CURRY",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Onions raw",
+        "Nuts coconut milk raw liquid expressed grated meat water",
+        "Egg whole raw fresh",
+        "Cornstarch",
+        "Garlic raw",
+        "Oil soybean salad cooking",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-b9a1d9770073",
+      "queries": [
+        "Garlic raw",
+        "Ginger root raw",
+        "Alcoholic beverage rice sake",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Salt table",
+        "Sugars granulated",
+        "Spices pepper red cayenne",
+        "Cornstarch",
+        "Water tap drinking",
+        "Onions spring scallions tops bulb raw",
+        "Lard",
+        "Oil sesame salad cooking",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-e2a148eb6cf1",
+      "queries": [
+        "Crustaceans crayfish mixed species wild raw",
+        "Alcoholic beverage beer regular all",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        {
+          "query": "SWEET BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Soy sauce shoyu",
+        "Garlic raw",
+        "Ginger root raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-6417780c575c",
+      "queries": [
+        "Crustaceans shrimp mixed species raw",
+        "Oil soybean salad cooking",
+        "Onions raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Coriander cilantro leaves raw",
+        "Soy sauce shoyu",
+        "Lemon juice raw",
+        "Spices pepper red cayenne",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-cc2c4f786f63",
+      "queries": [
+        "Fish sablefish raw",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Soy sauce shoyu",
+        "Oil sesame salad cooking",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-eb849be42cbb",
+      "queries": [
+        "Fish bass fresh water mixed species raw",
+        "Cauliflower raw",
+        "Lettuce green leaf raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Oil soybean salad cooking",
+        "Garlic raw",
+        "Salt table",
+        "Sugars granulated",
+        "Spices pepper red cayenne",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4dbabae17621",
+      "queries": [
+        "Crustaceans shrimp mixed species raw",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Sugars granulated",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-711ab5d8b4ee",
+      "queries": [
+        "Fish carp raw",
+        "Tofu firm calcium sulfate",
+        "Mung beans mature seeds sprouted raw",
+        "Onions raw",
+        "Celery raw",
+        "Peanuts all types dry roasted without salt",
+        "Seeds sesame whole dried",
+        "Garlic raw",
+        "Ginger root raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        {
+          "query": "\"LAOGANMA\"",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-651c621bb138",
+      "queries": [
+        "Mollusks oyster eastern wild raw",
+        "Garlic raw",
+        "Ginger root raw",
+        "Soy sauce shoyu",
+        "Onions spring scallions tops bulb raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-547705f2774c",
+      "queries": [
+        "Fish bass fresh water mixed species raw",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-61ffbcb05ceb",
+      "queries": [
+        "Crustaceans shrimp mixed species raw"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-95caf6ad1a8c",
+      "queries": [
+        "Fish carp raw",
+        "Wheat flour white all purpose unenriched",
+        "Cornstarch",
+        "Egg whole raw fresh",
+        "Oil soybean salad cooking",
+        "Sugars granulated",
+        "Catsup",
+        "Vinegar cider",
+        "Garlic raw",
+        "Ginger root raw",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-a5ad40355b76",
+      "queries": [
+        "Fish carp raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Spices pepper red cayenne",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Vinegar cider",
+        "Sugars granulated",
+        "Salt table",
+        "Onions spring scallions tops bulb raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-961ae3ea5f72",
+      "queries": [
+        "Fish carp raw",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Coriander cilantro leaves raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Alcoholic beverage rice sake",
+        "Salt table",
+        "Spices pepper red cayenne",
+        "Vinegar cider",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2e80c786dc11",
+      "queries": [
+        "Fish carp raw",
+        "Pork fresh belly raw",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Vinegar cider",
+        "Sauce oyster ready to serve",
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Garlic raw",
+        "Spices pepper red cayenne",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-0ed628aba05a",
+      "queries": [
+        "Crustaceans crab blue raw",
+        "Crustaceans shrimp mixed species raw",
+        "Potatoes flesh skin raw",
+        "Rice flour white unenriched",
+        "Onions raw",
+        "Garlic raw",
+        "Ginger root raw",
+        "Peppers sweet green raw",
+        "Peppers sweet red raw",
+        "Sauce oyster ready to serve",
+        "Soy sauce shoyu",
+        "Catsup",
+        "Cornstarch",
+        "Oil soybean salad cooking",
+        "Sugars granulated",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-93eb7c244089",
+      "queries": [
+        "Crustaceans shrimp mixed species raw",
+        "Butter without salt",
+        "Mustard prepared yellow",
+        "Sugars granulated",
+        "Soy sauce shoyu",
+        "Sauce oyster ready to serve",
+        "Garlic raw",
+        "Coriander cilantro leaves raw",
+        "Oil soybean salad cooking",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d22fb95d6bed",
+      "queries": [
+        "Onions spring scallions tops bulb raw",
+        "Ginger root raw",
+        "Peppers hot chili red raw",
+        "Oil soybean salad cooking",
+        "Soy sauce shoyu",
+        "Water tap drinking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-2ce6f52e5526",
+      "queries": [
+        "Onions spring scallions tops bulb raw",
+        "Oil soybean salad cooking",
+        "Sauce oyster ready to serve",
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Cornstarch",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-4a879c3b12a8",
+      "queries": [
+        "Crustaceans shrimp mixed species raw",
+        "Garlic raw",
+        "Onions spring scallions tops bulb raw",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-65787a402898",
+      "queries": [
+        "Crustaceans shrimp mixed species raw",
+        "Butter without salt",
+        "Garlic raw",
+        "Onions spring scallions tops bulb raw",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-9c598d5ae097",
+      "queries": [
+        "Mollusks clam mixed species raw",
+        "Egg whole raw fresh",
+        "Onions raw",
+        "Cornstarch",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking",
+        "Salt table"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-d3570dbb127b",
+      "queries": [
+        "Crustaceans crab blue raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Sugars granulated",
+        "Soy sauce shoyu",
+        "Oil soybean salad cooking",
+        "Catsup",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        "Water tap drinking"
+      ]
+    },
+    {
+      "recipe_id": "howtocook-bd0928f82e92",
+      "queries": [
+        "Fish carp raw",
+        "Alcoholic beverage beer regular all",
+        "Tomatoes red ripe raw year round average",
+        "Peppers sweet green raw",
+        "Peppers sweet red raw",
+        "Garlic raw",
+        "Ginger root raw",
+        "Onions spring scallions tops bulb raw",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        },
+        "Soy sauce shoyu",
+        "Sugars granulated",
+        "Oil soybean salad cooking",
+        "Salt table",
+        "Water tap drinking"
+      ]
+    }
+  ]
+}

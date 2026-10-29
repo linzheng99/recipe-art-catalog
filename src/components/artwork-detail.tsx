@@ -1,4 +1,4 @@
-import { Copy, Download, ExternalLink, Link2 } from "lucide-react";
+import { Copy, Download, Link2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -9,10 +9,13 @@ import {
 } from "@/components/ui/dialog";
 import { ArtworkImage } from "@/components/artwork-image";
 import { DeferredRecipeDetails } from "@/components/deferred-recipe-details";
-import { categories, imageURL, safeExternalURL } from "@/lib/catalog";
+import { NutritionPanel } from "@/components/nutrition-panel";
+import { categories, imageURL } from "@/lib/catalog";
 import { copyAddress, copyText } from "@/lib/clipboard";
 import { getDishURL } from "@/lib/dish-link";
 import type { Artwork } from "@/lib/catalog";
+import { useCatalogStore } from "@/stores/catalog-store";
+import { recipeDetailsCacheKey } from "@/lib/recipe-details";
 
 export function ArtworkDetail({
   item,
@@ -21,13 +24,18 @@ export function ArtworkDetail({
   item: Artwork;
   restoreFocus: () => void;
 }) {
-  const nutrition = item.nutrition;
-  const energy = nutrition.per_100g.energy_kcal;
-  const known =
-    nutrition.status === "reference" &&
-    nutrition.basis === "per_100g" &&
-    energy !== null;
-  const nutritionURL = safeExternalURL(nutrition.source?.url);
+  const details = useCatalogStore(
+    (state) => state.recipeDetails[recipeDetailsCacheKey(item)],
+  );
+  const nutritionItem =
+    details?.status === "ready"
+      ? {
+          ...item,
+          nutrition: details.nutrition ?? item.nutrition,
+          nutrition_profiles:
+            details.nutrition_profiles ?? item.nutrition_profiles,
+        }
+      : item;
   return (
     <DialogContent
       className="artwork-dialog flex flex-col overflow-hidden w-[calc(100%-2rem)] sm:max-w-[900px] p-5 sm:p-7"
@@ -61,12 +69,8 @@ export function ArtworkDetail({
                 <dt>图片规格</dt>
                 <dd>256 / 512 px · 透明 WebP</dd>
               </div>
-              <div>
-                <dt>营养参考</dt>
-                <dd>{known ? `${energy} kcal / 100 g` : "暂缺可靠数据"}</dd>
-              </div>
             </dl>
-            {known && <p className="detail-scope">{nutrition.scope}</p>}
+            <NutritionPanel item={nutritionItem} />
             <div className="detail-downloads">
               {(["256", "512"] as const).map((size) => (
                 <Button
@@ -106,18 +110,6 @@ export function ArtworkDetail({
                 <Copy aria-hidden="true" />
                 复制图片地址
               </Button>
-            </div>
-            <div className="detail-sources">
-              {known && nutritionURL && (
-                <a
-                  href={nutritionURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  营养参考来源
-                  <ExternalLink aria-hidden="true" />
-                </a>
-              )}
             </div>
           </div>
         </div>
