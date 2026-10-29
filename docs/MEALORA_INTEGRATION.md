@@ -107,6 +107,8 @@ if (found.status === 'needs_match_confirmation') {
 
 ## 未知、部分已知与USDA回退
 
+Actions每次发布还提供 `nutrition/changes.json`，包含本次push对应的from_version、to_version和前后方案，用于解释变化。Mealora应以索引version决定更新；只有from_version与本地缓存版本一致时才能将该摘要视作完整的相邻版本差异。版本不连续时重新读取整份索引，不能只应用最新一次差异。部署后会自动核对线上入口、全部菜谱投影与典型详情摘要。
+
 - `nutrition.status=unknown`、候选待核验、范围不符或请求失败：保持null，回退USDA或其他合适来源。
 - 某项为null时，只回退查询该项，其他已知项仍可计算；不把null替换为0。
 - `calculateNutrition`返回partial时，`missing_nutrients`列出缺项；来源明确的真实0仍为0。

@@ -1,5 +1,15 @@
 # 营养参考：分批生成与接入
 
+## 发布与线上验收
+
+GitHub Actions在构建检查通过后，以本次push的before提交（PR用base提交，手动运行默认HEAD^）对比生成营养变化摘要，并写入作业摘要和部署文件 `nutrition/changes.json`。记录from_version、to_version、commit、增改删数量及逐篇前后方案，包含数值、来源和适用范围变化；普通页面修改不会冒充营养数据更新。初次发布没有旧营养文件时记录全部新增。
+
+本地可运行 `npm run nutrition:changes -- --base-ref HEAD --out .cache/nutrition/changes.json`，或把HEAD替换为明确提交SHA。该命令仅读取Git与构建数据，不修改营养源资料。不要将不可信文本拼接为shell命令。
+
+部署成功后，Actions自动检查线上manifest版本、轻量入口摘要、完整入口及全部菜谱投影，并抽检直接参考、USDA配方、代理配方、MEXT、KRDA、同图不同配方的详情SHA-256。github.io站点同时验证公开JSON跨域响应。传播延迟按2/4/8/16秒有界重试，失败使工作流失败；已部署产物不会被校验脚本自动回滚或覆盖。
+
+本地验收：`npm run nutrition:verify -- https://linzheng99.github.io/recipe-art-catalog/ --changes`。它核对线上是否与当前本地版本相同；未部署的本地修改会明确失败，不能把本地测试通过当作线上已更新。相关GitHub接口依据：[Pages部署Action](https://github.com/actions/deploy-pages)、[作业摘要](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-commands#adding-a-job-summary)。
+
 原始任务和分批范围限定保存在 [任务原文](prompts/NUTRITION_TASK.md)；Key申请、验证和通用USDA数据处理工具见 [USDA_CLIENT.md](USDA_CLIENT.md)。
 
 全部372篇均有可读取方案：7篇直接参考、365篇配方估算，其中21篇明确标记为同类食物代理粗估。待核验候选、缺少可用方案、请求失败和未评估均为0；这不表示每篇都找到了原食材或品牌的精确数据。原21项来源缺口保存在 `catalog/nutrition/reviews/exact-source-backlog.json`，继续用于提高精度。首批8篇保留原有方案，随后364篇分为batch-002至batch-017，每批24篇（最后4篇）。这些任务复用食材原始缓存，未重复请求每道菜共享的食材。

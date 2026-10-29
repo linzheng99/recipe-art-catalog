@@ -20,6 +20,8 @@
     "nutrition:apply": "node scripts/nutrition-plans.mjs",
     "nutrition:review": "node scripts/nutrition-review.mjs",
     "nutrition:compress": "node scripts/nutrition-compress.mjs",
+    "nutrition:changes": "node scripts/nutrition-changes.mjs",
+    "nutrition:verify": "node scripts/verify-nutrition.mjs",
     "usda": "node --env-file-if-exists=.env.local scripts/usda.mjs",
     "dev": "node scripts/build.mjs && vite",
     "preview": "node scripts/serve.mjs --dist"
