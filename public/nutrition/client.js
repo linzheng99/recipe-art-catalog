@@ -9,10 +9,35 @@ async function getJSON(url, fetchImpl, timeoutMs) {
   return response.json();
 }
 
+async function getLiteJSON(url, descriptor, fetchImpl, timeoutMs) {
+  const response = await fetchImpl(url, {
+    signal: AbortSignal.timeout(timeoutMs),
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  const bytes = await response.arrayBuffer();
+  const digest = Array.from(
+    new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)),
+    (b) => b.toString(16).padStart(2, "0"),
+  ).join("");
+  if (bytes.byteLength !== descriptor.bytes || digest !== descriptor.sha256)
+    throw new Error("lite_integrity_failed");
+  const lite = JSON.parse(new TextDecoder().decode(bytes));
+  if (lite.format !== "nutrition-lite" || !Array.isArray(lite.recipes))
+    throw new Error("invalid_lite_format");
+  // 网络只传一份方案；在内存中还原旧客户端接口，不合并同图的不同菜谱。
+  return {
+    ...lite,
+    profiles: lite.recipes.flatMap((row) => [
+      ...(row.nutrition?.status === "reference" ? [row.nutrition] : []),
+      ...(row.nutrition_profiles ?? []),
+    ]),
+  };
+}
+
 // 仅读取公开JSON，无USDA凭据；未部署、旧目录和请求失败都有显式回退状态。
 export async function loadNutritionIndex(
   manifestURL,
-  { fetchImpl = fetch, timeoutMs = 15000 } = {},
+  { fetchImpl = fetch, timeoutMs = 15000, format = "lite" } = {},
 ) {
   try {
     const manifest = await getJSON(manifestURL, fetchImpl, timeoutMs);
@@ -23,11 +48,23 @@ export async function loadNutritionIndex(
       descriptor.path !== "nutrition/index.json"
     )
       return fallback("unsupported_catalog");
-    const index = await getJSON(
-      new URL(descriptor.path, manifestURL),
-      fetchImpl,
-      timeoutMs,
-    );
+    let index;
+    if (format === "lite" && descriptor.lite) {
+      if (descriptor.lite.path !== "nutrition/index-lite.json")
+        return fallback("unsupported_catalog");
+      index = await getLiteJSON(
+        new URL(descriptor.lite.path, manifestURL),
+        descriptor.lite,
+        fetchImpl,
+        timeoutMs,
+      );
+    } else {
+      index = await getJSON(
+        new URL(descriptor.path, manifestURL),
+        fetchImpl,
+        timeoutMs,
+      );
+    }
     if (
       index.schema_version !== 1 ||
       index.version !== descriptor.version ||

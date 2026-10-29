@@ -7,6 +7,7 @@ import { loadGenerationPrompts } from "./generation-prompts.mjs";
 import { loadRecipeContents } from "./recipe-content.mjs";
 import { createRuntimeCatalog } from "./runtime-catalog.mjs";
 import { loadNutritionCatalog } from "./nutrition-catalog.mjs";
+import { createNutritionLite } from "./nutrition-lite.mjs";
 
 export const root = fileURLToPath(new URL("../", import.meta.url));
 const readJSON = async (filename) =>
@@ -135,6 +136,7 @@ export function assemble(
             path: "nutrition/index.json",
             version: nutritionCatalog.index.version,
             coverage: nutritionCatalog.index.coverage,
+            lite: createNutritionLite(nutritionCatalog.index).descriptor,
           },
         }
       : {}),
@@ -260,6 +262,10 @@ export async function build({ check = false } = {}) {
   const runtime = createRuntimeCatalog(manifest);
   // 先写内容寻址的正文，再更新入口；旧摘要文件保留，已打开的页面仍能读取旧版本。
   const runtimeFiles = [
+    [
+      "nutrition/index-lite.json",
+      createNutritionLite(nutritionCatalog.index).text,
+    ],
     ...nutritionCatalog.files.map(({ path, text }) => [path, text]),
     [
       "nutrition/index.json",

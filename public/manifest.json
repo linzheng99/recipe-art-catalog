@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "0cb015648ba184da",
+  "version": "725d3910f2950bdf",
   "source": {
     "name": "Anduin2017/HowToCook",
     "commit": "0e106eea348c734fe1586f781202994439cf98a5",
@@ -22,6 +22,11 @@
       "no_match": 0,
       "request_failed": 0,
       "not_assessed": 0
+    },
+    "lite": {
+      "path": "nutrition/index-lite.json",
+      "bytes": 1033119,
+      "sha256": "7717fa04acfe46a004fed10af3dbc1a3cb3c80b6c8c6b6de54dbddbd34f2dd31"
     }
   },
   "reuse": {

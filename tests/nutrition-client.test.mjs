@@ -105,6 +105,7 @@ test("目录未发布、网络失败、版本混合、候选未审核都明确�
               ? fixture
               : { ...index, version: "wrong" },
           ),
+        format: "full",
       })
     ).reason,
     "invalid_or_mixed_version",
@@ -120,6 +121,7 @@ test("目录未发布、网络失败、版本混合、候选未审核都明确�
             Response.json(
               String(url).endsWith("manifest-lite.json") ? fixture : bad,
             ),
+          format: "full",
         })
       ).reason,
       "invalid_or_mixed_version",

@@ -21,6 +21,7 @@ test("仓库子路径下首页、脚本、样式、JSON、图片和许可证可�
       ["licenses/PROJECT-REUSE.txt", "text/plain"],
       ["licenses/FRONTEND-DEPENDENCIES.txt", "text/plain"],
       ["nutrition/index.json", "application/json"],
+      ["nutrition/index-lite.json", "application/json"],
     ]) {
       const response = await fetch(new URL(file, base));
       assert.equal(response.status, 200, file);

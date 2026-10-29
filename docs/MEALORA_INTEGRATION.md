@@ -2,9 +2,13 @@
 
 Mealora读取本项目**按菜谱汇总、计算后的JSON**。不读取 `sources/nutrition/usda/`，也不在前端放USDA Key。
 
-本地新增内容尚未部署：2026-10-28检查时，线上 `manifest-lite.json` 返回200且允许跨域（Access-Control-Allow-Origin为`*`），`nutrition/index.json`仍返回404。维护者部署本次构建后，新营养入口及下列字段才会上线。当前代码已在仓库子目录的本地构建中验证。
+营养数据由GitHub Actions随站点构建发布。请以实际部署的版本为准；未部署的新入口返回404时使用已有完整入口或其他来源，不将本地构建状态当作线上状态。
 
 ## 直接读取一个汇总JSON
+
+新接入推荐 `https://linzheng99.github.io/recipe-art-catalog/nutrition/index-lite.json`，字段仍是 `recipes[].nutrition.per_100g`。轻量文件只存一份运行时方案，保留scope、match、来源版本、重量假设、代理精度和详情摘要，省略候选、处理历史和重复的profiles数组。多方案时nutrition为unknown，需从该行nutrition_profiles中独立选择，不以插画合并。完整入口继续兼容。
+
+`loadNutritionIndex` 默认从manifest的 `nutrition_catalog.lite` 获取轻量地址并验证字节数与SHA-256，然后在内存恢复原有profiles接口。旧manifest没有lite描述时读取完整入口；可传 `{ format: "full" }` 显式获取评估记录。轻量请求失败、摘要或版本不一致时返回fallback，不静默接受损坏数据。直接读取JSON的应用也应保存version并检查schema_version。
 
 部署后的入口：
 

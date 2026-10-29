@@ -63,6 +63,8 @@ npm run clean:generated -- --apply
 
 Mealora等应用直接读取汇总后的 `nutrition/index.json`，按 `recipe_id` 查找后取 `recipes[].nutrition.per_100g`；不需要读取或拼接USDA原始缓存。详见 [Mealora接入示例](docs/MEALORA_INTEGRATION.md)和[营养生成与审核说明](docs/NUTRITION.md)。
 
+推荐新接入使用 `nutrition/index-lite.json`：同样按 `recipes[].nutrition.per_100g` 读取，保留完整适用条件、代理标记、来源版本和详情摘要，省去重复方案及评估处理记录。多方案菜谱的默认值仍为unknown，备选位于 `nutrition_profiles`。客户端默认读取轻量入口，旧清单自动兼容完整入口。
+
 ## 来源
 
 菜谱目录与引用文字来自 [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)，遵循上游 Unlicense。插画由 AI 独立生成，没有使用上游照片。

@@ -40,10 +40,10 @@ export interface NutritionRecipe {
   status: string;
   review_status:
     "reference_available" | "reviewed_without_reference" | "not_reviewed";
-  blocker_code: string | null;
-  next_action: string | null;
-  reasons: string[];
-  evaluated_at: string | null;
+  blocker_code?: string | null;
+  next_action?: string | null;
+  reasons?: string[];
+  evaluated_at?: string | null;
   profile_ids: string[];
   nutrition: NutritionProfile | { status: "unknown"; per_100g: NutrientValues };
 }
@@ -68,6 +68,7 @@ export interface LoadedNutrition {
 export interface FetchOptions {
   fetchImpl?: typeof fetch;
   timeoutMs?: number;
+  format?: "lite" | "full";
 }
 export function loadNutritionIndex(
   manifestURL: string | URL,
