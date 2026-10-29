@@ -65,6 +65,8 @@ Mealora等应用直接读取汇总后的 `nutrition/index.json`，按 `recipe_id
 
 推荐新接入使用 `nutrition/index-lite.json`：同样按 `recipes[].nutrition.per_100g` 读取，保留完整适用条件、代理标记、来源版本和详情摘要，省去重复方案及评估处理记录。多方案菜谱的默认值仍为unknown，备选位于 `nutrition_profiles`。客户端默认读取轻量入口，旧清单自动兼容完整入口。
 
+USDA搜索响应和食品快照使用无损 `.json.gz` 缓存，原有逻辑 `.json` 路径仍能由工具读取。`npm run nutrition:compress` 预览，追加 `-- --apply` 压缩并生成原始字节与压缩文件的摘要清单；原始内容、获取日期与来源不变。
+
 ## 来源
 
 菜谱目录与引用文字来自 [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)，遵循上游 Unlicense。插画由 AI 独立生成，没有使用上游照片。

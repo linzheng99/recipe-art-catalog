@@ -53,9 +53,9 @@ const [
 const snapshots = new Map(
   await Promise.all(
     (await readdir(path.join(nutritionRoot, "sources/nutrition/usda")))
-      .filter((name) => /^\d+\.json$/.test(name))
+      .filter((name) => /^\d+\.json(?:\.gz)?$/.test(name))
       .map(async (name) => [
-        Number(name.replace(".json", "")),
+        Number(name.replace(/\.json(?:\.gz)?$/, "")),
         await load(`sources/nutrition/usda/${name}`),
       ]),
   ),
@@ -615,9 +615,8 @@ test("API处理429重试与缓存复用，私人凭据只在请求头，不写�
     await client.food(169999);
     assert.equal(calls, 2);
     assert.ok(sleeps.includes(1000));
-    const text = await readFile(
-      path.join(root, "sources/nutrition/usda/169999.json"),
-      "utf8",
+    const text = JSON.stringify(
+      await readJSON(path.join(root, "sources/nutrition/usda/169999.json")),
     );
     assert.ok(!text.includes(secret));
     assert.ok(!text.includes("api_key"));
@@ -645,9 +644,8 @@ test("API处理429重试与缓存复用，私人凭据只在请求头，不写�
     );
     assert.equal(failed, 4);
     assert.equal(
-      await readFile(
-        path.join(root, "sources/nutrition/usda/169999.json"),
-        "utf8",
+      JSON.stringify(
+        await readJSON(path.join(root, "sources/nutrition/usda/169999.json")),
       ),
       text,
     );
@@ -745,19 +743,15 @@ test("官方批量导入无需Key，保留原始摘要，重跑不重复或覆�
       "imported_pending_review",
     );
     const before = await readFile(
-      path.join(root, "sources/nutrition/usda/169999.json"),
-      "utf8",
+      path.join(root, "sources/nutrition/usda/169999.json.gz"),
     );
     assert.ok(
       (await importBulk(options)).every(
         (item) => item.status === "cached_unchanged",
       ),
     );
-    assert.equal(
-      await readFile(
-        path.join(root, "sources/nutrition/usda/169999.json"),
-        "utf8",
-      ),
+    assert.deepEqual(
+      await readFile(path.join(root, "sources/nutrition/usda/169999.json.gz")),
       before,
     );
     assert.equal(

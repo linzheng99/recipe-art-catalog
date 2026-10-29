@@ -1,17 +1,52 @@
-import { readFile, writeFile, mkdir, rename, readdir } from "node:fs/promises";
+import {
+  readFile,
+  writeFile,
+  mkdir,
+  rename,
+  readdir,
+  access,
+} from "node:fs/promises";
 import { createHash } from "node:crypto";
+import { gzipSync, gunzipSync } from "node:zlib";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const nutritionRoot = fileURLToPath(new URL("../", import.meta.url));
 export const sha256 = (value) =>
   createHash("sha256").update(value).digest("hex");
-export const readJSON = async (filename) =>
-  JSON.parse(await readFile(filename, "utf8"));
+export async function readJSON(filename) {
+  let bytes;
+  try {
+    bytes = await readFile(filename);
+  } catch (error) {
+    if (error.code !== "ENOENT" || filename.endsWith(".gz")) throw error;
+    bytes = await readFile(`${filename}.gz`);
+    return JSON.parse(gunzipSync(bytes).toString("utf8"));
+  }
+  return JSON.parse(
+    (filename.endsWith(".gz") ? gunzipSync(bytes) : bytes).toString("utf8"),
+  );
+}
 export async function atomicJSON(filename, value) {
+  let target = filename;
+  // 来源缓存默认无损压缩；旧逻辑路径与既有明文缓存仍兼容，公开JSON不受影响。
+  if (
+    /[/\\]sources[/\\]nutrition[/\\](queries|usda)[/\\].+\.json$/.test(filename)
+  ) {
+    try {
+      await access(filename);
+    } catch (error) {
+      if (error.code !== "ENOENT") throw error;
+      target = `${filename}.gz`;
+    }
+  }
   await mkdir(path.dirname(filename), { recursive: true });
-  await writeFile(`${filename}.tmp`, JSON.stringify(value, null, 2) + "\n");
-  await rename(`${filename}.tmp`, filename);
+  const text = JSON.stringify(value, null, 2) + "\n";
+  await writeFile(
+    `${target}.tmp`,
+    target.endsWith(".gz") ? gzipSync(text, { level: 9 }) : text,
+  );
+  await rename(`${target}.tmp`, target);
 }
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -26,7 +61,7 @@ export async function importSearchFood(id, root = nutritionRoot) {
   }
   const directory = path.join(root, "sources/nutrition/queries");
   for (const name of (await readdir(directory)).sort()) {
-    if (!/^[a-f0-9]{64}\.json$/.test(name)) continue;
+    if (!/^[a-f0-9]{64}\.json(?:\.gz)?$/.test(name)) continue;
     const query = await readJSON(path.join(directory, name));
     if (query.raw_sha256 !== sha256(JSON.stringify(query.response)))
       throw new Error("USDA 搜索缓存摘要不一致");

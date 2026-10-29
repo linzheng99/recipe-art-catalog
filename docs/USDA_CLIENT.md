@@ -1,5 +1,7 @@
 # USDA Key 与通用调用工具
 
+搜索响应与食品快照默认保存为无损 `.json.gz`，工具兼容原 `.json` 路径和旧明文缓存。直接调用 `readJSON` 或 `normalize sources/nutrition/usda/171287.json` 即可，无需自行解压。`npm run nutrition:compress` 预览存量压缩；加 `-- --apply` 后，逐字节回读校验成功才移除明文副本，并写入 `sources/nutrition/cache-archive.json`，记录两种文件的SHA-256和大小。更新缓存后可重跑更新归档清单，已有压缩记录不会重复生成。原始响应、日期、FDC ID、数值和响应摘要均不变，Git历史不重写。
+
 此工具供本地脚本或服务端调用 USDA；不依赖菜谱、插画、React 或数据库。只使用 Node.js 内置库，最低版本与项目一致（22.14）。原始资料按 FDC ID 或查询摘要缓存，沿用超时、限流、重试和本地请求预算。
 
 ## 申请、配置与验证 Key

@@ -125,7 +125,7 @@ test("通用命令可搜索和离线处理，输出独立JSON，不修改原缓�
   temporary(async (root) => {
     const filename = path.join(root, "sources/nutrition/usda/173424.json");
     await atomicJSON(filename, egg);
-    const original = await readFile(filename, "utf8");
+    const original = await readFile(`${filename}.gz`);
     const client = {
       search: async (query) => ({
         retrieved_at: "2026-10-28",
@@ -156,7 +156,7 @@ test("通用命令可搜索和离线处理，输出独立JSON，不修改原缓�
     assert.deepEqual(await readJSON(output), result);
     const offline = await runUSDA(["normalize", filename], { root });
     assert.equal(offline.fdc_id, 173424);
-    assert.equal(await readFile(filename, "utf8"), original);
+    assert.deepEqual(await readFile(`${filename}.gz`), original);
     await assert.rejects(
       () =>
         runUSDA(
