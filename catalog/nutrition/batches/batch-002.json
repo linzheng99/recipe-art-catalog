@@ -95,7 +95,12 @@
     {
       "recipe_id": "howtocook-eb849be42cbb",
       "queries": [
-        "Fish bass fresh water mixed species raw",
+        {
+          "query": "085239019023",
+          "data_types": [
+            "Branded"
+          ]
+        },
         "Cauliflower raw",
         "Lettuce green leaf raw",
         {
@@ -216,7 +221,6 @@
     {
       "recipe_id": "howtocook-961ae3ea5f72",
       "queries": [
-        "Fish carp raw",
         "Onions spring scallions tops bulb raw",
         "Ginger root raw",
         "Garlic raw",

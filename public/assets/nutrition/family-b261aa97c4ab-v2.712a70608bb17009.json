@@ -1,0 +1,885 @@
+{
+  "schema_version": 1,
+  "id": "family-b261aa97c4ab-v2",
+  "recipe_id": "howtocook-b261aa97c4ab",
+  "recipe_blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+  "version": "2",
+  "supersedes": "family-b261aa97c4ab-v1",
+  "data_version": "d2c59189c9268aa7",
+  "status": "reference",
+  "review_status": "approved",
+  "method": "usda_recipe_estimate",
+  "estimation_level": "food_group_proxy",
+  "recipe_basis": "standardized_assumptions",
+  "basis": "per_100g",
+  "completeness": "complete",
+  "scope": "同类食物代理粗估；2–3人家庭标准配方估算：朗姆酒40%酒精60g、通用橙味利口酒参考组30g、橙汁100g、通用红石榴糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g；整份约600g。两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+  "match": {
+    "identity_precision": "food_group_proxy",
+    "food_proxies": [
+      {
+        "target": "蓝橙力娇酒",
+        "reference_name": "通用橙味利口酒参考组",
+        "food": {
+          "fdc_id": 2710623,
+          "description": "Liqueur",
+          "data_type": "Survey (FNDDS)",
+          "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+        },
+        "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
+      }
+    ],
+    "food_identity": "howtocook-b261aa97c4ab",
+    "state": "ready_to_eat",
+    "cooking_method": "cold_mix",
+    "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+    "oil_added": false,
+    "sugar_added": true,
+    "sauce_added": false,
+    "brand": null,
+    "variant": "family-b261aa97c4ab-v2",
+    "standard_ingredients": [
+      {
+        "key": "rum",
+        "grams": 60
+      },
+      {
+        "key": "liqueur_curacao_group",
+        "grams": 30
+      },
+      {
+        "key": "orange_juice",
+        "grams": 100
+      },
+      {
+        "key": "grenadine",
+        "grams": 30
+      },
+      {
+        "key": "lemon_juice",
+        "grams": 30
+      },
+      {
+        "key": "lemon",
+        "grams": 10
+      },
+      {
+        "key": "water",
+        "grams": 340
+      }
+    ],
+    "excludes": [
+      "不同主料、品种、品牌、用量、含水量或额外配料",
+      "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+      "将家庭份成品重量假设当作实测或USDA出成率"
+    ]
+  },
+  "per_100g": {
+    "energy_kcal": 59.533333,
+    "protein_g": 0.1525,
+    "carbohydrate_g": 7.238667,
+    "fat_g": 0.055833
+  },
+  "source": {
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+    "version": "d2c59189c9268aa7",
+    "fdc_ids": [
+      174817,
+      2710623,
+      169098,
+      168088,
+      167747,
+      167746,
+      173647
+    ]
+  },
+  "rules_version": "nutrition-1.6.0",
+  "is_estimate": true,
+  "requires_independent_match": true,
+  "recipe_source": {
+    "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5.md",
+    "source_commit": "0e106eea348c734fe1586f781202994439cf98a5",
+    "blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1"
+  },
+  "profile": {
+    "id": "family-b261aa97c4ab-v2",
+    "version": "2",
+    "supersedes": "family-b261aa97c4ab-v1",
+    "recipe_id": "howtocook-b261aa97c4ab",
+    "recipe_blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+    "method": "usda_recipe_estimate",
+    "estimation_level": "food_group_proxy",
+    "default_for_artwork": false,
+    "scope": "同类食物代理粗估；2–3人家庭标准配方估算：朗姆酒40%酒精60g、通用橙味利口酒参考组30g、橙汁100g、通用红石榴糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g；整份约600g。两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+    "match": {
+      "identity_precision": "food_group_proxy",
+      "food_proxies": [
+        {
+          "target": "蓝橙力娇酒",
+          "reference_name": "通用橙味利口酒参考组",
+          "food": {
+            "fdc_id": 2710623,
+            "description": "Liqueur",
+            "data_type": "Survey (FNDDS)",
+            "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+          },
+          "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
+        }
+      ],
+      "food_identity": "howtocook-b261aa97c4ab",
+      "state": "ready_to_eat",
+      "cooking_method": "cold_mix",
+      "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+      "oil_added": false,
+      "sugar_added": true,
+      "sauce_added": false,
+      "brand": null,
+      "variant": "family-b261aa97c4ab-v2",
+      "standard_ingredients": [
+        {
+          "key": "rum",
+          "grams": 60
+        },
+        {
+          "key": "liqueur_curacao_group",
+          "grams": 30
+        },
+        {
+          "key": "orange_juice",
+          "grams": 100
+        },
+        {
+          "key": "grenadine",
+          "grams": 30
+        },
+        {
+          "key": "lemon_juice",
+          "grams": 30
+        },
+        {
+          "key": "lemon",
+          "grams": 10
+        },
+        {
+          "key": "water",
+          "grams": 340
+        }
+      ],
+      "excludes": [
+        "不同主料、品种、品牌、用量、含水量或额外配料",
+        "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+        "将家庭份成品重量假设当作实测或USDA出成率"
+      ]
+    },
+    "assumptions": [
+      "配方固定为：朗姆酒40%酒精60g、通用橙味利口酒参考组30g、橙汁100g、通用红石榴糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g。克数是项目标准，不是原文ml/个数换算。",
+      "两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。",
+      "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+      "全部成分称重后不再加热或丢弃，全部汁液食用。",
+      "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+    ],
+    "uncertainty": [
+      "蓝橙力娇酒采用通用橙味利口酒参考组代理：USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理。这不是原食材或品牌的实测数据，实际差异可能很大。",
+      "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+      "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+    ],
+    "recipe_basis": "standardized_assumptions",
+    "estimate_confidence": "low",
+    "ingredients": [
+      {
+        "name": "朗姆酒40%酒精",
+        "food": {
+          "fdc_id": 174817,
+          "description": "Alcoholic beverage, distilled, rum, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 60,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+      },
+      {
+        "name": "通用橙味利口酒参考组",
+        "food": {
+          "fdc_id": 2710623,
+          "description": "Liqueur",
+          "data_type": "Survey (FNDDS)",
+          "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。"
+      },
+      {
+        "name": "橙汁",
+        "food": {
+          "fdc_id": 169098,
+          "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+      },
+      {
+        "name": "通用红石榴糖浆",
+        "food": {
+          "fdc_id": 168088,
+          "description": "Syrups, grenadine",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9f5e3e9fdc3212c136322bc400c85f2f0e05c4d2d8d9f179e7aa11f9baef0765"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "SR Legacy明确描述Syrups, grenadine，替换不同品类的枫糖浆；无品牌指定，含糖量按该通用标准。"
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "去皮柠檬",
+        "food": {
+          "fdc_id": 167746,
+          "description": "Lemons, raw, without peel",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 340,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+      }
+    ],
+    "final_weight": {
+      "grams": 600,
+      "method": "cold_mix_mass_balance",
+      "basis": "standard_recipe_assumption",
+      "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+    },
+    "process": {
+      "retention_correction": "not_applied",
+      "no_heating_after_weighing": true,
+      "all_edible_material_retained": true
+    },
+    "review": {
+      "status": "approved",
+      "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+      "reviewed_at": "2026-10-29T01:34:56.322Z",
+      "checks": {
+        "recipe_version": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+        "food_identity": "Alcoholic beverage, distilled, rum, 80 proof; Liqueur; Orange juice, raw (Includes foods for USDA's Food Distribution Program); Syrups, grenadine; Lemon juice, raw; Lemons, raw, without peel; Beverages, water, tap, drinking",
+        "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+        "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+        "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+        "brand": "通用食材代理；不是任意品牌标签值。",
+        "standard_variant": "两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。",
+        "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+        "supersession": "橙味甜酒由咖啡甜酒改为官方包含curacao的通用组；红石榴糖浆改为同名USDA条目。"
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5.md",
+          "blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+          "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+          "note": "朗姆酒40%酒精：Alcoholic beverage, distilled, rum, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/2710623/nutrients",
+          "note": "通用橙味利口酒参考组：Liqueur；已核对数据类型、生熟、可食部分及原始摘要。FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/169098/nutrients",
+          "note": "橙汁：Orange juice, raw (Includes foods for USDA's Food Distribution Program)；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/168088/nutrients",
+          "note": "通用红石榴糖浆：Syrups, grenadine；已核对数据类型、生熟、可食部分及原始摘要。SR Legacy明确描述Syrups, grenadine，替换不同品类的枫糖浆；无品牌指定，含糖量按该通用标准。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+          "note": "柠檬汁：Lemon juice, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/167746/nutrients",
+          "note": "去皮柠檬：Lemons, raw, without peel；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+          "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5.md",
+          "note": "方案升级：family-b261aa97c4ab-v1 → family-b261aa97c4ab-v2。橙味甜酒由咖啡甜酒改为官方包含curacao的通用组；红石榴糖浆改为同名USDA条目。"
+        }
+      ]
+    }
+  },
+  "source_records": [
+    {
+      "per_100g": {
+        "energy_kcal": 231,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 231
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 174817,
+        "description": "Alcoholic beverage, distilled, rum, 80 proof",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T05:56:26.871Z",
+        "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 3fc952171940a75e",
+        "raw_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882",
+        "transport": "api_search_snapshot",
+        "query_sha256": "0ac2c8193f1e791ac7d9a15b8fdfdb41ff65591e5bc13e4caf0abfd66c487b5c"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 279,
+        "protein_g": 0,
+        "carbohydrate_g": 33.2,
+        "fat_g": 0.11
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 279
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 33.2
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.11
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 2710623,
+        "description": "Liqueur",
+        "data_type": "Survey (FNDDS)",
+        "publication_date": "10/31/2024",
+        "retrieved_at": "2026-10-29T01:24:02.696Z",
+        "url": "https://fdc.nal.usda.gov/food-details/2710623/nutrients",
+        "version": "Survey (FNDDS) / 10/31/2024 / 4cbeb1b7b85d8163",
+        "raw_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141",
+        "transport": "api"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 45,
+        "protein_g": 0.7,
+        "carbohydrate_g": 10.4,
+        "fat_g": 0.2
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 45
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.7
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 10.4
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.2
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 169098,
+        "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:23.040Z",
+        "url": "https://fdc.nal.usda.gov/food-details/169098/nutrients",
+        "version": "SR Legacy / 2019-04-01 / e9fe7649359064ac",
+        "raw_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 268,
+        "protein_g": 0,
+        "carbohydrate_g": 66.9,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 268
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 66.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 168088,
+        "description": "Syrups, grenadine",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-29T01:21:10.896Z",
+        "url": "https://fdc.nal.usda.gov/food-details/168088/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9f5e3e9fdc3212c1",
+        "raw_sha256": "9f5e3e9fdc3212c136322bc400c85f2f0e05c4d2d8d9f179e7aa11f9baef0765",
+        "transport": "api_search_snapshot",
+        "query_sha256": "412e5f25724ddde47ee94aea66f9b6e2827e60694d1ae789cc1e5fc11a946657"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 22,
+        "protein_g": 0.35,
+        "carbohydrate_g": 6.9,
+        "fat_g": 0.24
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 22
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0.35
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 6.9
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.24
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167747,
+        "description": "Lemon juice, raw",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:02:23.040Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 313ada983b5ac2cc",
+        "raw_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8",
+        "transport": "api_search_snapshot",
+        "query_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 29,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.32,
+        "fat_g": 0.3
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 29
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 1.1
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 9.32
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0.3
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 167746,
+        "description": "Lemons, raw, without peel",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T03:01:57.655Z",
+        "url": "https://fdc.nal.usda.gov/food-details/167746/nutrients",
+        "version": "SR Legacy / 2019-04-01 / ad77b7fd374d509a",
+        "raw_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb",
+        "transport": "api_search_snapshot",
+        "query_sha256": "e17df5f4a062fac3d58aa9d316a73d63e696c6548d7780e66c8271a72344d442"
+      }
+    },
+    {
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      },
+      "nutrient_evidence": {
+        "energy_kcal": {
+          "nutrient_id": 1008,
+          "unit": "kcal",
+          "amount_per_100g": 0
+        },
+        "protein_g": {
+          "nutrient_id": 1003,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "carbohydrate_g": {
+          "nutrient_id": 1005,
+          "unit": "g",
+          "amount_per_100g": 0
+        },
+        "fat_g": {
+          "nutrient_id": 1004,
+          "unit": "g",
+          "amount_per_100g": 0
+        }
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "fdc_id": 173647,
+        "description": "Beverages, water, tap, drinking",
+        "data_type": "SR Legacy",
+        "publication_date": "2019-04-01",
+        "retrieved_at": "2026-10-28T01:44:44.623Z",
+        "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+        "version": "SR Legacy / 2019-04-01 / 9b571683e1495690",
+        "raw_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607",
+        "transport": "api_search_snapshot",
+        "query_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1"
+      }
+    }
+  ],
+  "calculation": {
+    "ingredients": [
+      {
+        "name": "朗姆酒40%酒精",
+        "food": {
+          "fdc_id": 174817,
+          "description": "Alcoholic beverage, distilled, rum, 80 proof",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 60,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。",
+        "per_100g": {
+          "energy_kcal": 231,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 60
+      },
+      {
+        "name": "通用橙味利口酒参考组",
+        "food": {
+          "fdc_id": 2710623,
+          "description": "Liqueur",
+          "data_type": "Survey (FNDDS)",
+          "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。",
+        "per_100g": {
+          "energy_kcal": 279,
+          "protein_g": 0,
+          "carbohydrate_g": 33.2,
+          "fat_g": 0.11
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "橙汁",
+        "food": {
+          "fdc_id": 169098,
+          "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 100,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。",
+        "per_100g": {
+          "energy_kcal": 45,
+          "protein_g": 0.7,
+          "carbohydrate_g": 10.4,
+          "fat_g": 0.2
+        },
+        "edible_g": 100
+      },
+      {
+        "name": "通用红石榴糖浆",
+        "food": {
+          "fdc_id": 168088,
+          "description": "Syrups, grenadine",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9f5e3e9fdc3212c136322bc400c85f2f0e05c4d2d8d9f179e7aa11f9baef0765"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "SR Legacy明确描述Syrups, grenadine，替换不同品类的枫糖浆；无品牌指定，含糖量按该通用标准。",
+        "per_100g": {
+          "energy_kcal": 268,
+          "protein_g": 0,
+          "carbohydrate_g": 66.9,
+          "fat_g": 0
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "柠檬汁",
+        "food": {
+          "fdc_id": 167747,
+          "description": "Lemon juice, raw",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 30,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 22,
+          "protein_g": 0.35,
+          "carbohydrate_g": 6.9,
+          "fat_g": 0.24
+        },
+        "edible_g": 30
+      },
+      {
+        "name": "去皮柠檬",
+        "food": {
+          "fdc_id": 167746,
+          "description": "Lemons, raw, without peel",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb"
+        },
+        "source_state": "raw",
+        "quantity": {
+          "value": 10,
+          "unit": "g",
+          "edible": true,
+          "state": "raw",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 29,
+          "protein_g": 1.1,
+          "carbohydrate_g": 9.32,
+          "fat_g": 0.3
+        },
+        "edible_g": 10
+      },
+      {
+        "name": "饮用水",
+        "food": {
+          "fdc_id": 173647,
+          "description": "Beverages, water, tap, drinking",
+          "data_type": "SR Legacy",
+          "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+        },
+        "source_state": "ready_to_eat",
+        "quantity": {
+          "value": 340,
+          "unit": "g",
+          "edible": true,
+          "state": "ready_to_eat",
+          "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+        },
+        "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。",
+        "per_100g": {
+          "energy_kcal": 0,
+          "protein_g": 0,
+          "carbohydrate_g": 0,
+          "fat_g": 0
+        },
+        "edible_g": 340
+      }
+    ],
+    "total": {
+      "energy_kcal": 357.2,
+      "protein_g": 0.915,
+      "carbohydrate_g": 43.432,
+      "fat_g": 0.335
+    },
+    "final_edible_g": 600,
+    "per_100g": {
+      "energy_kcal": 59.533333,
+      "protein_g": 0.1525,
+      "carbohydrate_g": 7.238667,
+      "fat_g": 0.055833
+    }
+  },
+  "quality_checks": {
+    "energy_from_macros_kcal": 30.067165000000003,
+    "warnings": [
+      "4/4/9粗略折算与来源热量差异较大，保留来源热量，请复核"
+    ]
+  },
+  "disclaimer": "仅供营养参考或配方估算，不代表用户实际摄入。图片匹配不能代替营养匹配。"
+}

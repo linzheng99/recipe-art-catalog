@@ -13,6 +13,28 @@ import {
   ensure,
 } from "./nutrition-model.mjs";
 
+export function validateSupersessions(profiles) {
+  for (const retired of profiles.filter(
+    (p) => p.review.status === "withdrawn",
+  )) {
+    const visited = new Set();
+    let current = retired;
+    while (current.review.status === "withdrawn") {
+      ensure(!visited.has(current.id), "营养方案替代关系存在循环");
+      visited.add(current.id);
+      const next = profiles.find((p) => p.id === current.review.superseded_by);
+      ensure(
+        next &&
+          next.recipe_id === retired.recipe_id &&
+          next.supersedes === current.id,
+        "撤回方案没有可追溯的同配方替代方案",
+      );
+      current = next;
+    }
+    ensure(current.review.status === "approved", "替代链没有可用的已审核方案");
+  }
+}
+
 export async function loadNutritionCatalog(root, source, config, legacy) {
   const document = await readJSON(
     path.join(root, "catalog/nutrition/profiles.json"),
@@ -110,6 +132,7 @@ export function compileNutrition({
     defaults = {},
     files = [],
     summaries = [];
+  validateSupersessions(profiles);
   for (const entry of assessments) {
     const recipe = recipes.get(entry.recipe_id);
     ensure(
@@ -231,6 +254,7 @@ export function compileNutrition({
       recipe_id: profile.recipe_id,
       recipe_blob_sha: profile.recipe_blob_sha,
       version: profile.version,
+      ...(profile.supersedes ? { supersedes: profile.supersedes } : {}),
       data_version: sourceVersion,
       status: "reference",
       review_status: "approved",

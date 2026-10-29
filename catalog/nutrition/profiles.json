@@ -100430,7 +100430,7 @@
         "all_added_fat_retained": true
       },
       "review": {
-        "status": "approved",
+        "status": "withdrawn",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "reviewed_at": "2026-10-29T00:12:21.192Z",
         "checks": {
@@ -100505,7 +100505,10 @@
             "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
             "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
           }
-        ]
+        ],
+        "withdrawn_at": "2026-10-29T01:34:56.322Z",
+        "superseded_by": "family-961ae3ea5f72-v2",
+        "withdrawal_reason": "用官方白鲢同种生鱼肉替换鲤鱼；鱼头其他组织仍明确排除。"
       }
     },
     {
@@ -104017,7 +104020,7 @@
         "all_added_fat_retained": true
       },
       "review": {
-        "status": "approved",
+        "status": "withdrawn",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "reviewed_at": "2026-10-29T00:12:21.192Z",
         "checks": {
@@ -104084,7 +104087,10 @@
             "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
             "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
           }
-        ]
+        ],
+        "withdrawn_at": "2026-10-29T01:34:56.322Z",
+        "superseded_by": "family-280e1f88f772-v2",
+        "withdrawal_reason": "蒜苗改为同种蒜叶茎，酒糟由甜饮改为酒粕，并显式纳入原文豆瓣酱。"
       }
     },
     {
@@ -104519,7 +104525,7 @@
         "all_added_fat_retained": true
       },
       "review": {
-        "status": "approved",
+        "status": "withdrawn",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "reviewed_at": "2026-10-29T00:12:21.192Z",
         "checks": {
@@ -104594,7 +104600,10 @@
             "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
             "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
           }
-        ]
+        ],
+        "withdrawn_at": "2026-10-29T01:34:56.322Z",
+        "superseded_by": "family-1bc98124aec5-v2",
+        "withdrawal_reason": "原方案实际包含豆瓣与豆豉酱，修正sauce_added标记为true；食材、用量、成品重及四项营养计算保持不变。"
       }
     },
     {
@@ -104847,7 +104856,7 @@
         "all_edible_material_retained": true
       },
       "review": {
-        "status": "approved",
+        "status": "withdrawn",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "reviewed_at": "2026-10-29T00:12:21.192Z",
         "checks": {
@@ -104898,7 +104907,10 @@
             "url": "https://fdc.nal.usda.gov/food-details/170106/nutrients",
             "note": "鲜辣椒：Peppers, hot chili, red, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
           }
-        ]
+        ],
+        "withdrawn_at": "2026-10-29T01:34:56.322Z",
+        "superseded_by": "family-c8756846df80-v2",
+        "withdrawal_reason": "以熟花蕾和茎替换小白菜叶，细化部位及熟态，但仍保留栽培群代理限制。"
       }
     },
     {
@@ -105136,7 +105148,7 @@
         "all_edible_material_retained": true
       },
       "review": {
-        "status": "approved",
+        "status": "withdrawn",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "reviewed_at": "2026-10-29T00:13:41.285Z",
         "checks": {
@@ -105183,7 +105195,10 @@
             "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
             "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
           }
-        ]
+        ],
+        "withdrawn_at": "2026-10-29T01:34:56.322Z",
+        "superseded_by": "family-b261aa97c4ab-v2",
+        "withdrawal_reason": "橙味甜酒由咖啡甜酒改为官方包含curacao的通用组；红石榴糖浆改为同名USDA条目。"
       }
     },
     {
@@ -105488,7 +105503,7 @@
         "all_edible_material_retained": true
       },
       "review": {
-        "status": "approved",
+        "status": "withdrawn",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "reviewed_at": "2026-10-29T00:13:41.285Z",
         "checks": {
@@ -105547,7 +105562,10 @@
             "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
             "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
           }
-        ]
+        ],
+        "withdrawn_at": "2026-10-29T01:34:56.322Z",
+        "superseded_by": "family-45ad36b6133c-v2",
+        "withdrawal_reason": "根据官方Additional Description将橙味酒改为包含橙味酒的通用组，保留原文枫糖浆与龙舌兰代理披露。"
       }
     },
     {
@@ -105878,7 +105896,7 @@
         "all_added_fat_retained": true
       },
       "review": {
-        "status": "approved",
+        "status": "withdrawn",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "reviewed_at": "2026-10-29T00:16:23.452Z",
         "checks": {
@@ -105937,7 +105955,10 @@
             "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
             "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
           }
-        ]
+        ],
+        "withdrawn_at": "2026-10-29T01:34:56.322Z",
+        "superseded_by": "family-eb849be42cbb-v2",
+        "withdrawal_reason": "用核对UPC、单一成分、物种和生熟的巴沙鱼片替换通用鲈鱼；其他油酱代理继续披露。"
       }
     },
     {
@@ -107054,6 +107075,2863 @@
           {
             "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
             "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-eb849be42cbb-v2",
+      "version": "2",
+      "supersedes": "family-eb849be42cbb-v1",
+      "recipe_id": "howtocook-eb849be42cbb",
+      "recipe_blob_sha": "497b3c521b0d0a9db7e09962f49198a000632028",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "default_for_artwork": false,
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：Good & Gather巴沙鱼生鱼片350g、花菜200g、绿叶生菜100g、李锦记SPICY BEAN SAUCE辣豆酱30g、大豆食用油28g、去皮大蒜12g、食盐4g、白砂糖2g、黑胡椒粉2g、饮用水300g；整份约950g。巴沙鱼部分固定为Good & Gather无调味养殖巴沙鱼生鱼片净350g，UPC085239019023，物种Pangasianodon hypophthalmus；不含包装冰衣。藤椒油及菜籽油合计以普通植物油28g代理，红油豆瓣仍用已核验李锦记辣豆酱30g代理。花菜200g、生菜100g，省略可选豆豉；鱼菜与全部汤汁同食，成品950g为家庭假设。。限定品牌：Good & Gather巴沙鱼生鱼片=GOOD & GATHER GTIN 085239019023；李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "巴沙鱼净肉",
+            "reference_name": "Good & Gather巴沙鱼生鱼片",
+            "food": {
+              "fdc_id": 2677915,
+              "description": "SWAI FILLETS",
+              "data_type": "Branded",
+              "snapshot_sha256": "144eb9eec41f54e936fdf27824ec5d20fedd4e512f745af29278dcebb4fd12ee",
+              "brand_owner": "Target Stores",
+              "brand_name": "GOOD & GATHER",
+              "gtin_upc": "085239019023"
+            },
+            "reason": "固定已核对UPC和原料物种的巴沙鱼生片，品牌及养殖含水量仍有差异"
+          },
+          {
+            "target": "藤椒油与菜籽油",
+            "reference_name": "大豆食用油",
+            "food": {
+              "fdc_id": 171411,
+              "description": "Oil, soybean, salad or cooking",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+            },
+            "reason": "无糖调味植物油按通用植物油宏量近似"
+          },
+          {
+            "target": "红油豆瓣酱",
+            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+            "food": {
+              "fdc_id": 2028275,
+              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895610000"
+            },
+            "reason": "固定通用辣豆酱替代，非原品牌标签"
+          }
+        ],
+        "food_identity": "howtocook-eb849be42cbb",
+        "state": "ready_to_eat",
+        "cooking_method": "simmer",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": true,
+        "sauce_added": true,
+        "brand": "Good & Gather巴沙鱼生鱼片=GOOD & GATHER GTIN 085239019023；李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+        "variant": "family-eb849be42cbb-v2",
+        "standard_ingredients": [
+          {
+            "key": "swai_branded",
+            "grams": 350
+          },
+          {
+            "key": "cauliflower",
+            "grams": 200
+          },
+          {
+            "key": "lettuce",
+            "grams": 100
+          },
+          {
+            "key": "douban_branded",
+            "grams": 30
+          },
+          {
+            "key": "oil",
+            "grams": 28
+          },
+          {
+            "key": "garlic",
+            "grams": 12
+          },
+          {
+            "key": "salt",
+            "grams": 4
+          },
+          {
+            "key": "sugar",
+            "grams": 2
+          },
+          {
+            "key": "black_pepper",
+            "grams": 2
+          },
+          {
+            "key": "water",
+            "grams": 300
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "assumptions": [
+        "配方固定为：Good & Gather巴沙鱼生鱼片350g、花菜200g、绿叶生菜100g、李锦记SPICY BEAN SAUCE辣豆酱30g、大豆食用油28g、去皮大蒜12g、食盐4g、白砂糖2g、黑胡椒粉2g、饮用水300g。克数是项目标准，不是原文ml/个数换算。",
+        "巴沙鱼部分固定为Good & Gather无调味养殖巴沙鱼生鱼片净350g，UPC085239019023，物种Pangasianodon hypophthalmus；不含包装冰衣。藤椒油及菜籽油合计以普通植物油28g代理，红油豆瓣仍用已核验李锦记辣豆酱30g代理。花菜200g、生菜100g，省略可选豆豉；鱼菜与全部汤汁同食，成品950g为家庭假设。",
+        "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+        "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+        "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+      ],
+      "uncertainty": [
+        "巴沙鱼净肉采用Good & Gather巴沙鱼生鱼片代理：固定已核对UPC和原料物种的巴沙鱼生片，品牌及养殖含水量仍有差异。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "藤椒油与菜籽油采用大豆食用油代理：无糖调味植物油按通用植物油宏量近似。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "红油豆瓣酱采用李锦记SPICY BEAN SAUCE辣豆酱代理：固定通用辣豆酱替代，非原品牌标签。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+        "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+      ],
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "ingredients": [
+        {
+          "name": "Good & Gather巴沙鱼生鱼片",
+          "food": {
+            "fdc_id": 2677915,
+            "description": "SWAI FILLETS",
+            "data_type": "Branded",
+            "snapshot_sha256": "144eb9eec41f54e936fdf27824ec5d20fedd4e512f745af29278dcebb4fd12ee",
+            "brand_owner": "Target Stores",
+            "brand_name": "GOOD & GATHER",
+            "gtin_upc": "085239019023"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 350,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "核对USDA GOOD & GATHER、Target Stores、UPC085239019023；Target官方同UPC标明冷冻、预处理Raw，成分仅Pangasianodon hypophthalmus，未使用不同UPC的SIMPLY BALANCED记录。仅适用于此无调味鱼片标准，非任意巴沙鱼品牌。"
+        },
+        {
+          "name": "花菜",
+          "food": {
+            "fdc_id": 169986,
+            "description": "Cauliflower, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "f77eb527be9914893ca3697cb7973ca0e10b0d30a689926d8359275c6614cf3e"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 200,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "绿叶生菜",
+          "food": {
+            "fdc_id": 169249,
+            "description": "Lettuce, green leaf, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "f43b29f47af06d2143a4f97c320cdeb20e42abfdaeed6536e8582c0897c00484"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 100,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "李锦记SPICY BEAN SAUCE辣豆酱",
+          "food": {
+            "fdc_id": 2028275,
+            "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+            "data_type": "Branded",
+            "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+            "brand_owner": "Lee Kum Kee Co. Ltd.",
+            "brand_name": "LEE KUM KEE",
+            "gtin_upc": "078895610000"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+        },
+        {
+          "name": "大豆食用油",
+          "food": {
+            "fdc_id": 171411,
+            "description": "Oil, soybean, salad or cooking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 28,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "去皮大蒜",
+          "food": {
+            "fdc_id": 169230,
+            "description": "Garlic, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 12,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "食盐",
+          "food": {
+            "fdc_id": 173468,
+            "description": "Salt, table",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 4,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "白砂糖",
+          "food": {
+            "fdc_id": 169655,
+            "description": "Sugars, granulated",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 2,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "黑胡椒粉",
+          "food": {
+            "fdc_id": 170931,
+            "description": "Spices, pepper, black",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 2,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        },
+        {
+          "name": "饮用水",
+          "food": {
+            "fdc_id": 173647,
+            "description": "Beverages, water, tap, drinking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 300,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ],
+      "final_weight": {
+        "grams": 950,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品950g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "process": {
+        "method": "simmer",
+        "retention_correction": "not_applied",
+        "macronutrient_retention": "assumed_full",
+        "no_nutrient_bearing_liquid_discarded": true,
+        "all_added_fat_retained": true
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:34:56.322Z",
+        "checks": {
+          "recipe_version": "497b3c521b0d0a9db7e09962f49198a000632028",
+          "food_identity": "SWAI FILLETS; Cauliflower, raw; Lettuce, green leaf, raw; LEE KUM KEE, SPICY BEAN SAUCE; Oil, soybean, salad or cooking; Garlic, raw; Salt, table; Sugars, granulated; Spices, pepper, black; Beverages, water, tap, drinking",
+          "state_and_cooking": "逐项按raw/raw/raw/ready_to_eat/ready_to_eat/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品simmer。未把生料每100g当作成品值。",
+          "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+          "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+          "brand": "Good & Gather巴沙鱼生鱼片=GOOD & GATHER GTIN 085239019023；李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+          "standard_variant": "巴沙鱼部分固定为Good & Gather无调味养殖巴沙鱼生鱼片净350g，UPC085239019023，物种Pangasianodon hypophthalmus；不含包装冰衣。藤椒油及菜籽油合计以普通植物油28g代理，红油豆瓣仍用已核验李锦记辣豆酱30g代理。花菜200g、生菜100g，省略可选豆豉；鱼菜与全部汤汁同食，成品950g为家庭假设。",
+          "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+          "supersession": "用核对UPC、单一成分、物种和生熟的巴沙鱼片替换通用鲈鱼；其他油酱代理继续披露。"
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E6%B0%B4%E7%85%AE%E9%B1%BC.md",
+            "blob_sha": "497b3c521b0d0a9db7e09962f49198a000632028",
+            "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/2677915/nutrients",
+            "note": "Good & Gather巴沙鱼生鱼片：SWAI FILLETS；已核对数据类型、生熟、可食部分及原始摘要。核对USDA GOOD & GATHER、Target Stores、UPC085239019023；Target官方同UPC标明冷冻、预处理Raw，成分仅Pangasianodon hypophthalmus，未使用不同UPC的SIMPLY BALANCED记录。仅适用于此无调味鱼片标准，非任意巴沙鱼品牌。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169986/nutrients",
+            "note": "花菜：Cauliflower, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169249/nutrients",
+            "note": "绿叶生菜：Lettuce, green leaf, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/2028275/nutrients",
+            "note": "李锦记SPICY BEAN SAUCE辣豆酱：LEE KUM KEE, SPICY BEAN SAUCE；已核对数据类型、生熟、可食部分及原始摘要。李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+            "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+            "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+            "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+            "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+            "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+            "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://www.target.com/p/-/A-14673085",
+            "note": "核对UPC085239019023、GOOD & GATHER品牌、单一鱼肉成分与预处理Raw；营养数字仅取USDA缓存，不从商店网页搬入。"
+          },
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E6%B0%B4%E7%85%AE%E9%B1%BC.md",
+            "note": "方案升级：family-eb849be42cbb-v1 → family-eb849be42cbb-v2。用核对UPC、单一成分、物种和生熟的巴沙鱼片替换通用鲈鱼；其他油酱代理继续披露。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-961ae3ea5f72-v2",
+      "version": "2",
+      "supersedes": "family-961ae3ea5f72-v1",
+      "recipe_id": "howtocook-961ae3ea5f72",
+      "recipe_blob_sha": "41bddee09473ee7fc5fcc413b619b7d766c12dea",
+      "method": "recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "default_for_artwork": false,
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：白鲢净鱼肉参考350g、小葱100g、姜30g、去皮大蒜15g、香菜叶10g、鲜辣椒5g、大豆食用油27g、通用酱油（shoyu近似）18g、普通米酒烹调酒15g、食盐5g、黑胡椒粉2g、白醋5g、干辣椒3g、饮用水350g；整份约700g。限定白鲢鱼头及附带鱼身的去骨可食肌肉350g，以同种白鲢的生鱼肉参考代理；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不把带骨鱼头毛重当肉量，不适用于花鲢或其他鱼种。油27g为最终食用量，所有列出调味及食用汤汁保留，成品700g为家庭假设；酒精损失未校正。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "鲢鱼头可食鱼肉",
+            "reference_name": "白鲢净鱼肉参考",
+            "food": {
+              "provider": "krda",
+              "food_id": "K0840000000a",
+              "description": "백연, 생것",
+              "data_type": "KRDA Standard Food Composition DB",
+              "snapshot_sha256": "f6478276b2cde6c00e84a90b69cb08fd4d606d01ae464061500dbff72ad4c57a"
+            },
+            "reason": "同种白鲢体部生肉代理鱼头肌肉，头部其他组织不计"
+          }
+        ],
+        "food_identity": "howtocook-961ae3ea5f72",
+        "state": "ready_to_eat",
+        "cooking_method": "braise",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": false,
+        "sauce_added": true,
+        "brand": null,
+        "variant": "family-961ae3ea5f72-v2",
+        "standard_ingredients": [
+          {
+            "key": "krda_silver_carp",
+            "grams": 350
+          },
+          {
+            "key": "scallion",
+            "grams": 100
+          },
+          {
+            "key": "ginger",
+            "grams": 30
+          },
+          {
+            "key": "garlic",
+            "grams": 15
+          },
+          {
+            "key": "coriander",
+            "grams": 10
+          },
+          {
+            "key": "chili",
+            "grams": 5
+          },
+          {
+            "key": "oil",
+            "grams": 27
+          },
+          {
+            "key": "soy",
+            "grams": 18
+          },
+          {
+            "key": "cooking_wine",
+            "grams": 15
+          },
+          {
+            "key": "salt",
+            "grams": 5
+          },
+          {
+            "key": "black_pepper",
+            "grams": 2
+          },
+          {
+            "key": "vinegar",
+            "grams": 5
+          },
+          {
+            "key": "chili_dry",
+            "grams": 3
+          },
+          {
+            "key": "water",
+            "grams": 350
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "assumptions": [
+        "配方固定为：白鲢净鱼肉参考350g、小葱100g、姜30g、去皮大蒜15g、香菜叶10g、鲜辣椒5g、大豆食用油27g、通用酱油（shoyu近似）18g、普通米酒烹调酒15g、食盐5g、黑胡椒粉2g、白醋5g、干辣椒3g、饮用水350g。克数是项目标准，不是原文ml/个数换算。",
+        "限定白鲢鱼头及附带鱼身的去骨可食肌肉350g，以同种白鲢的生鱼肉参考代理；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不把带骨鱼头毛重当肉量，不适用于花鲢或其他鱼种。油27g为最终食用量，所有列出调味及食用汤汁保留，成品700g为家庭假设；酒精损失未校正。",
+        "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+        "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+        "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+      ],
+      "uncertainty": [
+        "鲢鱼头可食鱼肉采用白鲢净鱼肉参考代理：同种白鲢体部生肉代理鱼头肌肉，头部其他组织不计。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+        "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+        "官方DB10.4身份表为Silver Carp，学名Hypophthalmichthys molitrix，每100g可食部生鱼肉；同种体部鱼肉代理鱼头肌肉，不能代表鱼脑、脂肪皮或骨髓。",
+        "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      ],
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "ingredients": [
+        {
+          "name": "白鲢净鱼肉参考",
+          "food": {
+            "provider": "krda",
+            "food_id": "K0840000000a",
+            "description": "백연, 생것",
+            "data_type": "KRDA Standard Food Composition DB",
+            "snapshot_sha256": "f6478276b2cde6c00e84a90b69cb08fd4d606d01ae464061500dbff72ad4c57a"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 350,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "官方DB10.4身份表为Silver Carp，学名Hypophthalmichthys molitrix，每100g可食部生鱼肉；同种体部鱼肉代理鱼头肌肉，不能代表鱼脑、脂肪皮或骨髓。"
+        },
+        {
+          "name": "小葱",
+          "food": {
+            "fdc_id": 170005,
+            "description": "Onions, spring or scallions (includes tops and bulb), raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "03035a02e7636a80da619657602670994ed5477e94280ab8e19c2c733ebc6dec"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 100,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "姜",
+          "food": {
+            "fdc_id": 169231,
+            "description": "Ginger root, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "去皮大蒜",
+          "food": {
+            "fdc_id": 169230,
+            "description": "Garlic, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 15,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "香菜叶",
+          "food": {
+            "fdc_id": 169997,
+            "description": "Coriander (cilantro) leaves, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "71f7e26c46f4cbee54db0bdf93faaaac6d739c8f83d88af4a604ca46963969de"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 10,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "name": "鲜辣椒",
+          "food": {
+            "fdc_id": 170106,
+            "description": "Peppers, hot chili, red, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 5,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "大豆食用油",
+          "food": {
+            "fdc_id": 171411,
+            "description": "Oil, soybean, salad or cooking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 27,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "通用酱油（shoyu近似）",
+          "food": {
+            "fdc_id": 174277,
+            "description": "Soy sauce made from soy and wheat (shoyu)",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 18,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "name": "普通米酒烹调酒",
+          "food": {
+            "fdc_id": 167723,
+            "description": "Alcoholic beverage, rice (sake)",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "b1454355eb43e6e028800cec49ae76b4344fddc6e802047bf03f1a7159db869f"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 15,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "日本清酒营养参考，非所有中国料酒；只用于明确清酒替代且披露酒精能量未校正的情景。"
+        },
+        {
+          "name": "食盐",
+          "food": {
+            "fdc_id": 173468,
+            "description": "Salt, table",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 5,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "黑胡椒粉",
+          "food": {
+            "fdc_id": 170931,
+            "description": "Spices, pepper, black",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 2,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        },
+        {
+          "name": "白醋",
+          "food": {
+            "fdc_id": 172237,
+            "description": "Vinegar, distilled",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "0af051d2e90836282f6b2b53e24830595706ebd304570d9690124fddeb679b4d"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 5,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "name": "干辣椒",
+          "food": {
+            "fdc_id": 170932,
+            "description": "Spices, pepper, red or cayenne",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 3,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "饮用水",
+          "food": {
+            "fdc_id": 173647,
+            "description": "Beverages, water, tap, drinking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 350,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ],
+      "final_weight": {
+        "grams": 700,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品700g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "process": {
+        "method": "braise",
+        "retention_correction": "not_applied",
+        "macronutrient_retention": "assumed_full",
+        "no_nutrient_bearing_liquid_discarded": true,
+        "all_added_fat_retained": true
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:34:56.322Z",
+        "checks": {
+          "recipe_version": "41bddee09473ee7fc5fcc413b619b7d766c12dea",
+          "food_identity": "백연, 생것; Onions, spring or scallions (includes tops and bulb), raw; Ginger root, raw; Garlic, raw; Coriander (cilantro) leaves, raw; Peppers, hot chili, red, raw; Oil, soybean, salad or cooking; Soy sauce made from soy and wheat (shoyu); Alcoholic beverage, rice (sake); Salt, table; Spices, pepper, black; Vinegar, distilled; Spices, pepper, red or cayenne; Beverages, water, tap, drinking",
+          "state_and_cooking": "逐项按raw/raw/raw/raw/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品braise。未把生料每100g当作成品值。",
+          "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+          "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+          "brand": "通用食材代理；不是任意品牌标签值。",
+          "standard_variant": "限定白鲢鱼头及附带鱼身的去骨可食肌肉350g，以同种白鲢的生鱼肉参考代理；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不把带骨鱼头毛重当肉量，不适用于花鲢或其他鱼种。油27g为最终食用量，所有列出调味及食用汤汁保留，成品700g为家庭假设；酒精损失未校正。",
+          "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+          "supersession": "用官方白鲢同种生鱼肉替换鲤鱼；鱼头其他组织仍明确排除。"
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E7%BA%A2%E7%83%A7%E9%B1%BC%E5%A4%B4.md",
+            "blob_sha": "41bddee09473ee7fc5fcc413b619b7d766c12dea",
+            "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+          },
+          {
+            "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "note": "白鲢净鱼肉参考：백연, 생것；已核对数据类型、生熟、可食部分及原始摘要。官方DB10.4身份表为Silver Carp，学名Hypophthalmichthys molitrix，每100g可食部生鱼肉；同种体部鱼肉代理鱼头肌肉，不能代表鱼脑、脂肪皮或骨髓。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170005/nutrients",
+            "note": "小葱：Onions, spring or scallions (includes tops and bulb), raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+            "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+            "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169997/nutrients",
+            "note": "香菜叶：Coriander (cilantro) leaves, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170106/nutrients",
+            "note": "鲜辣椒：Peppers, hot chili, red, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+            "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+            "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/167723/nutrients",
+            "note": "普通米酒烹调酒：Alcoholic beverage, rice (sake)；已核对数据类型、生熟、可食部分及原始摘要。日本清酒营养参考，非所有中国料酒；只用于明确清酒替代且披露酒精能量未校正的情景。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+            "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+            "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/172237/nutrients",
+            "note": "白醋：Vinegar, distilled；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+            "note": "干辣椒：Spices, pepper, red or cayenne；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+            "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "note": "官方DB10.4身份表为Silver Carp，学名Hypophthalmichthys molitrix，每100g可食部生鱼肉；同种体部鱼肉代理鱼头肌肉，不能代表鱼脑、脂肪皮或骨髓。"
+          },
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/aquatic/%E7%BA%A2%E7%83%A7%E9%B1%BC%E5%A4%B4.md",
+            "note": "方案升级：family-961ae3ea5f72-v1 → family-961ae3ea5f72-v2。用官方白鲢同种生鱼肉替换鲤鱼；鱼头其他组织仍明确排除。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-b261aa97c4ab-v2",
+      "version": "2",
+      "supersedes": "family-b261aa97c4ab-v1",
+      "recipe_id": "howtocook-b261aa97c4ab",
+      "recipe_blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "default_for_artwork": false,
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：朗姆酒40%酒精60g、通用橙味利口酒参考组30g、橙汁100g、通用红石榴糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g；整份约600g。两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "蓝橙力娇酒",
+            "reference_name": "通用橙味利口酒参考组",
+            "food": {
+              "fdc_id": 2710623,
+              "description": "Liqueur",
+              "data_type": "Survey (FNDDS)",
+              "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+            },
+            "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
+          }
+        ],
+        "food_identity": "howtocook-b261aa97c4ab",
+        "state": "ready_to_eat",
+        "cooking_method": "cold_mix",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": false,
+        "sugar_added": true,
+        "sauce_added": false,
+        "brand": null,
+        "variant": "family-b261aa97c4ab-v2",
+        "standard_ingredients": [
+          {
+            "key": "rum",
+            "grams": 60
+          },
+          {
+            "key": "liqueur_curacao_group",
+            "grams": 30
+          },
+          {
+            "key": "orange_juice",
+            "grams": 100
+          },
+          {
+            "key": "grenadine",
+            "grams": 30
+          },
+          {
+            "key": "lemon_juice",
+            "grams": 30
+          },
+          {
+            "key": "lemon",
+            "grams": 10
+          },
+          {
+            "key": "water",
+            "grams": 340
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "assumptions": [
+        "配方固定为：朗姆酒40%酒精60g、通用橙味利口酒参考组30g、橙汁100g、通用红石榴糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g。克数是项目标准，不是原文ml/个数换算。",
+        "两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。",
+        "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+        "全部成分称重后不再加热或丢弃，全部汁液食用。",
+        "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+      ],
+      "uncertainty": [
+        "蓝橙力娇酒采用通用橙味利口酒参考组代理：USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+        "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+      ],
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "ingredients": [
+        {
+          "name": "朗姆酒40%酒精",
+          "food": {
+            "fdc_id": 174817,
+            "description": "Alcoholic beverage, distilled, rum, 80 proof",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 60,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+        },
+        {
+          "name": "通用橙味利口酒参考组",
+          "food": {
+            "fdc_id": 2710623,
+            "description": "Liqueur",
+            "data_type": "Survey (FNDDS)",
+            "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。"
+        },
+        {
+          "name": "橙汁",
+          "food": {
+            "fdc_id": 169098,
+            "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "e9fe7649359064ac8bfaf2a23761dd4938d1f39852067ea2261b2749630ad0c2"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 100,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "name": "通用红石榴糖浆",
+          "food": {
+            "fdc_id": 168088,
+            "description": "Syrups, grenadine",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9f5e3e9fdc3212c136322bc400c85f2f0e05c4d2d8d9f179e7aa11f9baef0765"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "SR Legacy明确描述Syrups, grenadine，替换不同品类的枫糖浆；无品牌指定，含糖量按该通用标准。"
+        },
+        {
+          "name": "柠檬汁",
+          "food": {
+            "fdc_id": 167747,
+            "description": "Lemon juice, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "去皮柠檬",
+          "food": {
+            "fdc_id": 167746,
+            "description": "Lemons, raw, without peel",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 10,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "饮用水",
+          "food": {
+            "fdc_id": 173647,
+            "description": "Beverages, water, tap, drinking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 340,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ],
+      "final_weight": {
+        "grams": 600,
+        "method": "cold_mix_mass_balance",
+        "basis": "standard_recipe_assumption",
+        "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+      },
+      "process": {
+        "retention_correction": "not_applied",
+        "no_heating_after_weighing": true,
+        "all_edible_material_retained": true
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:34:56.322Z",
+        "checks": {
+          "recipe_version": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+          "food_identity": "Alcoholic beverage, distilled, rum, 80 proof; Liqueur; Orange juice, raw (Includes foods for USDA's Food Distribution Program); Syrups, grenadine; Lemon juice, raw; Lemons, raw, without peel; Beverages, water, tap, drinking",
+          "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+          "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+          "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+          "brand": "通用食材代理；不是任意品牌标签值。",
+          "standard_variant": "两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。",
+          "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+          "supersession": "橙味甜酒由咖啡甜酒改为官方包含curacao的通用组；红石榴糖浆改为同名USDA条目。"
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5.md",
+            "blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+            "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+            "note": "朗姆酒40%酒精：Alcoholic beverage, distilled, rum, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/2710623/nutrients",
+            "note": "通用橙味利口酒参考组：Liqueur；已核对数据类型、生熟、可食部分及原始摘要。FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169098/nutrients",
+            "note": "橙汁：Orange juice, raw (Includes foods for USDA's Food Distribution Program)；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/168088/nutrients",
+            "note": "通用红石榴糖浆：Syrups, grenadine；已核对数据类型、生熟、可食部分及原始摘要。SR Legacy明确描述Syrups, grenadine，替换不同品类的枫糖浆；无品牌指定，含糖量按该通用标准。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+            "note": "柠檬汁：Lemon juice, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/167746/nutrients",
+            "note": "去皮柠檬：Lemons, raw, without peel；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+            "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5.md",
+            "note": "方案升级：family-b261aa97c4ab-v1 → family-b261aa97c4ab-v2。橙味甜酒由咖啡甜酒改为官方包含curacao的通用组；红石榴糖浆改为同名USDA条目。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-45ad36b6133c-v2",
+      "version": "2",
+      "supersedes": "family-45ad36b6133c-v1",
+      "recipe_id": "howtocook-45ad36b6133c",
+      "recipe_blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "default_for_artwork": false,
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用橙味利口酒参考组30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g；整份约610g。两到三杯冷调标准版，原料直接按克设定。橙味甜酒30g采用FNDDS明确包含curacao、cointreau、triple sec的通用利口酒组，不再用咖啡甜酒；龙舌兰30g仍用40%vol无糖蒸馏酒代理。原文枫糖浆保留40g，不误改成红石榴糖浆；冰块按水200g、柠檬果肉10g，整份610g全部饮用，不冒充原品牌酒度糖分。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "龙舌兰酒",
+            "reference_name": "通用40%vol无糖蒸馏酒",
+            "food": {
+              "fdc_id": 174818,
+              "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+            },
+            "reason": "通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测"
+          },
+          {
+            "target": "橙味甜酒",
+            "reference_name": "通用橙味利口酒参考组",
+            "food": {
+              "fdc_id": 2710623,
+              "description": "Liqueur",
+              "data_type": "Survey (FNDDS)",
+              "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+            },
+            "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
+          }
+        ],
+        "food_identity": "howtocook-45ad36b6133c",
+        "state": "ready_to_eat",
+        "cooking_method": "cold_mix",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": false,
+        "sugar_added": true,
+        "sauce_added": false,
+        "brand": null,
+        "variant": "family-45ad36b6133c-v2",
+        "standard_ingredients": [
+          {
+            "key": "gin",
+            "grams": 30
+          },
+          {
+            "key": "generic_spirit",
+            "grams": 30
+          },
+          {
+            "key": "vodka",
+            "grams": 30
+          },
+          {
+            "key": "rum",
+            "grams": 30
+          },
+          {
+            "key": "liqueur_curacao_group",
+            "grams": 30
+          },
+          {
+            "key": "lemon_juice",
+            "grams": 60
+          },
+          {
+            "key": "maple",
+            "grams": 40
+          },
+          {
+            "key": "cola",
+            "grams": 150
+          },
+          {
+            "key": "lemon",
+            "grams": 10
+          },
+          {
+            "key": "water",
+            "grams": 200
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "assumptions": [
+        "配方固定为：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用橙味利口酒参考组30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g。克数是项目标准，不是原文ml/个数换算。",
+        "两到三杯冷调标准版，原料直接按克设定。橙味甜酒30g采用FNDDS明确包含curacao、cointreau、triple sec的通用利口酒组，不再用咖啡甜酒；龙舌兰30g仍用40%vol无糖蒸馏酒代理。原文枫糖浆保留40g，不误改成红石榴糖浆；冰块按水200g、柠檬果肉10g，整份610g全部饮用，不冒充原品牌酒度糖分。",
+        "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+        "全部成分称重后不再加热或丢弃，全部汁液食用。",
+        "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+      ],
+      "uncertainty": [
+        "龙舌兰酒采用通用40%vol无糖蒸馏酒代理：通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "橙味甜酒采用通用橙味利口酒参考组代理：USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+        "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+        "使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
+      ],
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "ingredients": [
+        {
+          "name": "金酒40%酒精",
+          "food": {
+            "fdc_id": 174815,
+            "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "c3d45071dd6a986e7ec9546fc0c546afc2eb067ec9fd33f29eea90dabf875909"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。"
+        },
+        {
+          "name": "通用40%vol无糖蒸馏酒",
+          "food": {
+            "fdc_id": 174818,
+            "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
+        },
+        {
+          "name": "伏特加40%酒精",
+          "food": {
+            "fdc_id": 174818,
+            "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。"
+        },
+        {
+          "name": "朗姆酒40%酒精",
+          "food": {
+            "fdc_id": 174817,
+            "description": "Alcoholic beverage, distilled, rum, 80 proof",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "3fc952171940a75ee950e64a79340f0e4181210ed695a6ff190c792c37893882"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+        },
+        {
+          "name": "通用橙味利口酒参考组",
+          "food": {
+            "fdc_id": 2710623,
+            "description": "Liqueur",
+            "data_type": "Survey (FNDDS)",
+            "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。"
+        },
+        {
+          "name": "柠檬汁",
+          "food": {
+            "fdc_id": 167747,
+            "description": "Lemon juice, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "313ada983b5ac2cc0a551c3d5c470568aa7402cb3194c894a1ea6bc148908bf8"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 60,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "枫糖浆",
+          "food": {
+            "fdc_id": 169661,
+            "description": "Syrups, maple",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "a93b5547351e0ad5df031ffa320d1720c88d78f3614edf5ade23e1e5feb78d19"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 40,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "纯枫糖浆参考，非仅含少量枫糖的混合餐桌糖浆。"
+        },
+        {
+          "name": "含糖可乐通用饮料",
+          "food": {
+            "fdc_id": 174852,
+            "description": "Beverages, carbonated, cola, regular",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "2f530e7e02b87c29356c8f0804ea86f8f7731bac046488ba49e2d9c4a9b1d37f"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 150,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "限定含糖含咖啡因普通可乐；不适用于无糖或减糖配方，不承诺可口可乐品牌标签相同。"
+        },
+        {
+          "name": "去皮柠檬",
+          "food": {
+            "fdc_id": 167746,
+            "description": "Lemons, raw, without peel",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ad77b7fd374d509a07824326ee5475609a63868902a54187b4d2db25cb5228eb"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 10,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "饮用水",
+          "food": {
+            "fdc_id": 173647,
+            "description": "Beverages, water, tap, drinking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 200,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ],
+      "final_weight": {
+        "grams": 610,
+        "method": "cold_mix_mass_balance",
+        "basis": "standard_recipe_assumption",
+        "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+      },
+      "process": {
+        "retention_correction": "not_applied",
+        "no_heating_after_weighing": true,
+        "all_edible_material_retained": true
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:34:56.322Z",
+        "checks": {
+          "recipe_version": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+          "food_identity": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof; Alcoholic beverage, distilled, vodka, 80 proof; Alcoholic beverage, distilled, vodka, 80 proof; Alcoholic beverage, distilled, rum, 80 proof; Liqueur; Lemon juice, raw; Syrups, maple; Beverages, carbonated, cola, regular; Lemons, raw, without peel; Beverages, water, tap, drinking",
+          "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/ready_to_eat输入；成品cold_mix。未把生料每100g当作成品值。",
+          "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+          "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+          "brand": "通用食材代理；不是任意品牌标签值。",
+          "standard_variant": "两到三杯冷调标准版，原料直接按克设定。橙味甜酒30g采用FNDDS明确包含curacao、cointreau、triple sec的通用利口酒组，不再用咖啡甜酒；龙舌兰30g仍用40%vol无糖蒸馏酒代理。原文枫糖浆保留40g，不误改成红石榴糖浆；冰块按水200g、柠檬果肉10g，整份610g全部饮用，不冒充原品牌酒度糖分。",
+          "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+          "supersession": "根据官方Additional Description将橙味酒改为包含橙味酒的通用组，保留原文枫糖浆与龙舌兰代理披露。"
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%95%BF%E5%B2%9B%E5%86%B0%E8%8C%B6.md",
+            "blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+            "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+            "note": "金酒40%酒精：Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof；已核对数据类型、生熟、可食部分及原始摘要。通用80proof即40%vol蒸馏酒参考包括gin；只用于无糖无额外配料的40%vol金酒，不用于甜酒或不同酒度。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+            "note": "通用40%vol无糖蒸馏酒：Alcoholic beverage, distilled, vodka, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+            "note": "伏特加40%酒精：Alcoholic beverage, distilled, vodka, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol无糖伏特加，非调味伏特加或其他酒度。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+            "note": "朗姆酒40%酒精：Alcoholic beverage, distilled, rum, 80 proof；已核对数据类型、生熟、可食部分及原始摘要。80proof即40%vol朗姆酒通用参考，不含糖浆或香味添加，不用于甜朗姆酒及不同酒度。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/2710623/nutrients",
+            "note": "通用橙味利口酒参考组：Liqueur；已核对数据类型、生熟、可食部分及原始摘要。FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+            "note": "柠檬汁：Lemon juice, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169661/nutrients",
+            "note": "枫糖浆：Syrups, maple；已核对数据类型、生熟、可食部分及原始摘要。纯枫糖浆参考，非仅含少量枫糖的混合餐桌糖浆。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients",
+            "note": "含糖可乐通用饮料：Beverages, carbonated, cola, regular；已核对数据类型、生熟、可食部分及原始摘要。限定含糖含咖啡因普通可乐；不适用于无糖或减糖配方，不承诺可口可乐品牌标签相同。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/167746/nutrients",
+            "note": "去皮柠檬：Lemons, raw, without peel；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+            "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/drink/%E9%95%BF%E5%B2%9B%E5%86%B0%E8%8C%B6.md",
+            "note": "方案升级：family-45ad36b6133c-v1 → family-45ad36b6133c-v2。根据官方Additional Description将橙味酒改为包含橙味酒的通用组，保留原文枫糖浆与龙舌兰代理披露。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-280e1f88f772-v2",
+      "version": "2",
+      "supersedes": "family-280e1f88f772-v1",
+      "recipe_id": "howtocook-280e1f88f772",
+      "recipe_blob_sha": "0b2d1552dd52c2c6600aafc1d8c6105280bcca13",
+      "method": "recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "default_for_artwork": false,
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：鸡腿肉（去骨去皮）600g、土豆净可食量（USDA带皮宏量代理）300g、干辣椒30g、生蒜苗叶茎40g、日本清酒酒粕参考30g、普通啤酒150g、姜30g、去皮大蒜30g、通用酱油（shoyu近似）20g、大豆食用油45g、食盐6g、饮用水100g、李锦记SPICY BEAN SAUCE辣豆酱20g；整份约1150g。家庭标准净去骨去皮鸡腿肉600g、土豆300g，干辣椒30g加所列水作为糍粑辣椒模型。蒜苗40g采用官方Allium sativum生叶茎，不再用韭菜；酒糟30g采用清酒酒粕固形物代理，不用米麴甜饮；补入原文豆瓣酱，以李锦记辣豆酱20g固定代理。油45g仅为最终保留食用油，原炸锅两斤油不计；啤酒150g及全部酱汁计入，酒精和烹饪损失未校正。省略香料包，成品1150g非实测。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "整鸡可食部分",
+            "reference_name": "鸡腿肉（去骨去皮）",
+            "food": {
+              "fdc_id": 173627,
+              "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b"
+            },
+            "reason": "普通去骨鸡腿肉代理，原鸡皮及各部位比例不同"
+          },
+          {
+            "target": "糍粑辣椒",
+            "reference_name": "干辣椒",
+            "food": {
+              "fdc_id": 170932,
+              "description": "Spices, pepper, red or cayenne",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+            },
+            "reason": "明确干辣椒加水模型代理湿辣椒糊，非原配方测定"
+          },
+          {
+            "target": "酒糟",
+            "reference_name": "日本清酒酒粕参考",
+            "food": {
+              "provider": "mext",
+              "food_id": "17053",
+              "description": "＜調味料類＞　（その他）　酒かす",
+              "data_type": "MEXT Standard Tables",
+              "snapshot_sha256": "434ac51c0f526d09c802b7bd6750f8e5f4d58e5f423edd3318b20732246a52c6"
+            },
+            "reason": "谷物发酵酒粕固形物代理酒糟，非原发酵方式及含酒精量"
+          },
+          {
+            "target": "原文豆瓣酱",
+            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+            "food": {
+              "fdc_id": 2028275,
+              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895610000"
+            },
+            "reason": "固定已核验李锦记辣豆酱代理，不能冒充贵州原品牌配方"
+          }
+        ],
+        "food_identity": "howtocook-280e1f88f772",
+        "state": "ready_to_eat",
+        "cooking_method": "pan_fry",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": false,
+        "sauce_added": true,
+        "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+        "variant": "family-280e1f88f772-v2",
+        "standard_ingredients": [
+          {
+            "key": "chicken_thigh",
+            "grams": 600
+          },
+          {
+            "key": "potato",
+            "grams": 300
+          },
+          {
+            "key": "chili_dry",
+            "grams": 30
+          },
+          {
+            "key": "krda_green_garlic",
+            "grams": 40
+          },
+          {
+            "key": "mext_sake_lees",
+            "grams": 30
+          },
+          {
+            "key": "beer",
+            "grams": 150
+          },
+          {
+            "key": "ginger",
+            "grams": 30
+          },
+          {
+            "key": "garlic",
+            "grams": 30
+          },
+          {
+            "key": "soy",
+            "grams": 20
+          },
+          {
+            "key": "oil",
+            "grams": 45
+          },
+          {
+            "key": "salt",
+            "grams": 6
+          },
+          {
+            "key": "water",
+            "grams": 100
+          },
+          {
+            "key": "douban_branded",
+            "grams": 20
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "assumptions": [
+        "配方固定为：鸡腿肉（去骨去皮）600g、土豆净可食量（USDA带皮宏量代理）300g、干辣椒30g、生蒜苗叶茎40g、日本清酒酒粕参考30g、普通啤酒150g、姜30g、去皮大蒜30g、通用酱油（shoyu近似）20g、大豆食用油45g、食盐6g、饮用水100g、李锦记SPICY BEAN SAUCE辣豆酱20g。克数是项目标准，不是原文ml/个数换算。",
+        "家庭标准净去骨去皮鸡腿肉600g、土豆300g，干辣椒30g加所列水作为糍粑辣椒模型。蒜苗40g采用官方Allium sativum生叶茎，不再用韭菜；酒糟30g采用清酒酒粕固形物代理，不用米麴甜饮；补入原文豆瓣酱，以李锦记辣豆酱20g固定代理。油45g仅为最终保留食用油，原炸锅两斤油不计；啤酒150g及全部酱汁计入，酒精和烹饪损失未校正。省略香料包，成品1150g非实测。",
+        "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+        "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+        "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+      ],
+      "uncertainty": [
+        "整鸡可食部分采用鸡腿肉（去骨去皮）代理：普通去骨鸡腿肉代理，原鸡皮及各部位比例不同。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "糍粑辣椒采用干辣椒代理：明确干辣椒加水模型代理湿辣椒糊，非原配方测定。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "酒糟采用日本清酒酒粕参考代理：谷物发酵酒粕固形物代理酒糟，非原发酵方式及含酒精量。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "原文豆瓣酱采用李锦记SPICY BEAN SAUCE辣豆酱代理：固定已核验李锦记辣豆酱代理，不能冒充贵州原品牌配方。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+        "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+        "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。",
+        "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      ],
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "ingredients": [
+        {
+          "name": "鸡腿肉（去骨去皮）",
+          "food": {
+            "fdc_id": 173627,
+            "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 600,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "name": "土豆净可食量（USDA带皮宏量代理）",
+          "food": {
+            "fdc_id": 170026,
+            "description": "Potatoes, flesh and skin, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "3154c915df83c6912ed093f4b0f5006d5091d36204ab66d9a9ffad322a9baca0"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 300,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。"
+        },
+        {
+          "name": "干辣椒",
+          "food": {
+            "fdc_id": 170932,
+            "description": "Spices, pepper, red or cayenne",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "生蒜苗叶茎",
+          "food": {
+            "provider": "krda",
+            "food_id": "F054000B150a",
+            "description": "풋마늘, 잎줄기, 생것",
+            "data_type": "KRDA Standard Food Composition DB",
+            "snapshot_sha256": "110ced6fc88dc18b8955d38b8aad588363d425f7616e0297f019673ef68895fe"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 40,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "官方描述Green garlic, Shoot, Raw，Allium sativum L.叶茎，匹配蒜苗；不同于韭菜，也不是大蒜花茎/蒜薹。"
+        },
+        {
+          "name": "日本清酒酒粕参考",
+          "food": {
+            "provider": "mext",
+            "food_id": "17053",
+            "description": "＜調味料類＞　（その他）　酒かす",
+            "data_type": "MEXT Standard Tables",
+            "snapshot_sha256": "434ac51c0f526d09c802b7bd6750f8e5f4d58e5f423edd3318b20732246a52c6"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "官方酒かす/Sakekasu是清酒酒粕，比甘酒甜饮更接近酒糟固形物；仍非贵州原酒糟。酒精和固形物按该条目，未校正烹饪酒精损失。"
+        },
+        {
+          "name": "普通啤酒",
+          "food": {
+            "fdc_id": 168746,
+            "description": "Alcoholic beverage, beer, regular, all",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "97c34e31224db6d2661a6944ab6edbb66b9e2558833ececf6912a1be86e4df49"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 150,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "普通啤酒通用参考；用于已注明酒精能量未扣除的家庭炖菜情景，非实际挥发后的精确值。"
+        },
+        {
+          "name": "姜",
+          "food": {
+            "fdc_id": 169231,
+            "description": "Ginger root, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "去皮大蒜",
+          "food": {
+            "fdc_id": 169230,
+            "description": "Garlic, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 30,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "通用酱油（shoyu近似）",
+          "food": {
+            "fdc_id": 174277,
+            "description": "Soy sauce made from soy and wheat (shoyu)",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 20,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "name": "大豆食用油",
+          "food": {
+            "fdc_id": 171411,
+            "description": "Oil, soybean, salad or cooking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 45,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "食盐",
+          "food": {
+            "fdc_id": 173468,
+            "description": "Salt, table",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 6,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "饮用水",
+          "food": {
+            "fdc_id": 173647,
+            "description": "Beverages, water, tap, drinking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 100,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "李锦记SPICY BEAN SAUCE辣豆酱",
+          "food": {
+            "fdc_id": 2028275,
+            "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+            "data_type": "Branded",
+            "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+            "brand_owner": "Lee Kum Kee Co. Ltd.",
+            "brand_name": "LEE KUM KEE",
+            "gtin_upc": "078895610000"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 20,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+        }
+      ],
+      "final_weight": {
+        "grams": 1150,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品1150g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "process": {
+        "method": "pan_fry",
+        "retention_correction": "not_applied",
+        "macronutrient_retention": "assumed_full",
+        "no_nutrient_bearing_liquid_discarded": true,
+        "all_added_fat_retained": true
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:34:56.322Z",
+        "checks": {
+          "recipe_version": "0b2d1552dd52c2c6600aafc1d8c6105280bcca13",
+          "food_identity": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw; Potatoes, flesh and skin, raw; Spices, pepper, red or cayenne; 풋마늘, 잎줄기, 생것; ＜調味料類＞　（その他）　酒かす; Alcoholic beverage, beer, regular, all; Ginger root, raw; Garlic, raw; Soy sauce made from soy and wheat (shoyu); Oil, soybean, salad or cooking; Salt, table; Beverages, water, tap, drinking; LEE KUM KEE, SPICY BEAN SAUCE",
+          "state_and_cooking": "逐项按raw/raw/ready_to_eat/raw/ready_to_eat/ready_to_eat/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品pan_fry。未把生料每100g当作成品值。",
+          "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+          "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+          "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+          "standard_variant": "家庭标准净去骨去皮鸡腿肉600g、土豆300g，干辣椒30g加所列水作为糍粑辣椒模型。蒜苗40g采用官方Allium sativum生叶茎，不再用韭菜；酒糟30g采用清酒酒粕固形物代理，不用米麴甜饮；补入原文豆瓣酱，以李锦记辣豆酱20g固定代理。油45g仅为最终保留食用油，原炸锅两斤油不计；啤酒150g及全部酱汁计入，酒精和烹饪损失未校正。省略香料包，成品1150g非实测。",
+          "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+          "supersession": "蒜苗改为同种蒜叶茎，酒糟由甜饮改为酒粕，并显式纳入原文豆瓣酱。"
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1.md",
+            "blob_sha": "0b2d1552dd52c2c6600aafc1d8c6105280bcca13",
+            "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173627/nutrients",
+            "note": "鸡腿肉（去骨去皮）：Chicken, broilers or fryers, dark meat, thigh, meat only, raw；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170026/nutrients",
+            "note": "土豆净可食量（USDA带皮宏量代理）：Potatoes, flesh and skin, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 此USDA条目为flesh and skin；去皮土豆仅作明确宏量近似，未校正皮占比，不能声称精确相同。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+            "note": "干辣椒：Spices, pepper, red or cayenne；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "note": "生蒜苗叶茎：풋마늘, 잎줄기, 생것；已核对数据类型、生熟、可食部分及原始摘要。官方描述Green garlic, Shoot, Raw，Allium sativum L.叶茎，匹配蒜苗；不同于韭菜，也不是大蒜花茎/蒜薹。"
+          },
+          {
+            "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17053_7",
+            "note": "日本清酒酒粕参考：＜調味料類＞　（その他）　酒かす；已核对数据类型、生熟、可食部分及原始摘要。官方酒かす/Sakekasu是清酒酒粕，比甘酒甜饮更接近酒糟固形物；仍非贵州原酒糟。酒精和固形物按该条目，未校正烹饪酒精损失。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/168746/nutrients",
+            "note": "普通啤酒：Alcoholic beverage, beer, regular, all；已核对数据类型、生熟、可食部分及原始摘要。普通啤酒通用参考；用于已注明酒精能量未扣除的家庭炖菜情景，非实际挥发后的精确值。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+            "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+            "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+            "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+            "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+            "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+            "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/2028275/nutrients",
+            "note": "李锦记SPICY BEAN SAUCE辣豆酱：LEE KUM KEE, SPICY BEAN SAUCE；已核对数据类型、生熟、可食部分及原始摘要。李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+          },
+          {
+            "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "note": "官方描述Green garlic, Shoot, Raw，Allium sativum L.叶茎，匹配蒜苗；不同于韭菜，也不是大蒜花茎/蒜薹。"
+          },
+          {
+            "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17053_7",
+            "note": "官方酒かす/Sakekasu是清酒酒粕，比甘酒甜饮更接近酒糟固形物；仍非贵州原酒糟。酒精和固形物按该条目，未校正烹饪酒精损失。"
+          },
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/meat_dish/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1.md",
+            "note": "方案升级：family-280e1f88f772-v1 → family-280e1f88f772-v2。蒜苗改为同种蒜叶茎，酒糟由甜饮改为酒粕，并显式纳入原文豆瓣酱。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-1bc98124aec5-v2",
+      "version": "2",
+      "supersedes": "family-1bc98124aec5-v1",
+      "recipe_id": "howtocook-1bc98124aec5",
+      "recipe_blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "default_for_artwork": false,
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：食用牛油（牛脂）150g、大豆食用油35g、猪油20g、李锦记SPICY BEAN SAUCE辣豆酱40g、干辣椒15g、腐乳5g、李锦记辣豆豉酱5g、姜8g、去皮大蒜8g、孜然籽2g、肉桂粉1g、黑胡椒粉1g、食盐3g、饮用水80g；整份约300g。这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "豆母子发酵豆制品",
+            "reference_name": "腐乳",
+            "food": {
+              "fdc_id": 174305,
+              "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
+            },
+            "reason": "同类发酵豆制品代理，非原产品组成"
+          },
+          {
+            "target": "豆豉和豆母子调味",
+            "reference_name": "李锦记辣豆豉酱",
+            "food": {
+              "fdc_id": 2505417,
+              "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895135480"
+            },
+            "reason": "固定通用发酵豆酱代理"
+          },
+          {
+            "target": "郫县豆瓣",
+            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+            "food": {
+              "fdc_id": 2028275,
+              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895610000"
+            },
+            "reason": "固定黄豆辣酱近似蚕豆豆瓣"
+          },
+          {
+            "target": "糍粑辣椒",
+            "reference_name": "干辣椒",
+            "food": {
+              "fdc_id": 170932,
+              "description": "Spices, pepper, red or cayenne",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+            },
+            "reason": "干辣椒加水模型，不声称原湿糊测定"
+          }
+        ],
+        "food_identity": "howtocook-1bc98124aec5",
+        "state": "ready_to_eat",
+        "cooking_method": "braise",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": false,
+        "sauce_added": true,
+        "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
+        "variant": "family-1bc98124aec5-v2",
+        "standard_ingredients": [
+          {
+            "key": "beef_tallow",
+            "grams": 150
+          },
+          {
+            "key": "oil",
+            "grams": 35
+          },
+          {
+            "key": "lard",
+            "grams": 20
+          },
+          {
+            "key": "douban_branded",
+            "grams": 40
+          },
+          {
+            "key": "chili_dry",
+            "grams": 15
+          },
+          {
+            "key": "tofu_salted",
+            "grams": 5
+          },
+          {
+            "key": "black_bean_sauce",
+            "grams": 5
+          },
+          {
+            "key": "ginger",
+            "grams": 8
+          },
+          {
+            "key": "garlic",
+            "grams": 8
+          },
+          {
+            "key": "cumin",
+            "grams": 2
+          },
+          {
+            "key": "cinnamon",
+            "grams": 1
+          },
+          {
+            "key": "black_pepper",
+            "grams": 1
+          },
+          {
+            "key": "salt",
+            "grams": 3
+          },
+          {
+            "key": "water",
+            "grams": 80
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "assumptions": [
+        "配方固定为：食用牛油（牛脂）150g、大豆食用油35g、猪油20g、李锦记SPICY BEAN SAUCE辣豆酱40g、干辣椒15g、腐乳5g、李锦记辣豆豉酱5g、姜8g、去皮大蒜8g、孜然籽2g、肉桂粉1g、黑胡椒粉1g、食盐3g、饮用水80g。克数是项目标准，不是原文ml/个数换算。",
+        "这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。",
+        "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+        "成品重量按家庭份情景独立设定；宏量营养暂按完整保留近似，未使用或伪造烹饪保留率。",
+        "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+      ],
+      "uncertainty": [
+        "豆母子发酵豆制品采用腐乳代理：同类发酵豆制品代理，非原产品组成。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "豆豉和豆母子调味采用李锦记辣豆豉酱代理：固定通用发酵豆酱代理。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "郫县豆瓣采用李锦记SPICY BEAN SAUCE辣豆酱代理：固定黄豆辣酱近似蚕豆豆瓣。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "糍粑辣椒采用干辣椒代理：干辣椒加水模型，不声称原湿糊测定。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+        "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。"
+      ],
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "ingredients": [
+        {
+          "name": "食用牛油（牛脂）",
+          "food": {
+            "fdc_id": 171400,
+            "description": "Fat, beef tallow",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9fa0ac9e3471509c217fa8598d6cec4326de2ea3d15fb6e6c293d54becdec78f"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 150,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "USDA Fat, beef tallow，动物牛脂而非乳制黄油或起酥油。"
+        },
+        {
+          "name": "大豆食用油",
+          "food": {
+            "fdc_id": 171411,
+            "description": "Oil, soybean, salad or cooking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 35,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "猪油",
+          "food": {
+            "fdc_id": 171401,
+            "description": "Lard",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "8ef60b0af4cf820bbe7debed97c60d189b1ce87ea5a69600c8ed9edd021a8b3a"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 20,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+        },
+        {
+          "name": "李锦记SPICY BEAN SAUCE辣豆酱",
+          "food": {
+            "fdc_id": 2028275,
+            "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+            "data_type": "Branded",
+            "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+            "brand_owner": "Lee Kum Kee Co. Ltd.",
+            "brand_name": "LEE KUM KEE",
+            "gtin_upc": "078895610000"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 40,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+        },
+        {
+          "name": "干辣椒",
+          "food": {
+            "fdc_id": 170932,
+            "description": "Spices, pepper, red or cayenne",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 15,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "腐乳",
+          "food": {
+            "fdc_id": 174305,
+            "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 5,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "盐渍发酵腐乳通用宏量参考，非红曲玫瑰腐乳品牌标签；仅作明确通用腐乳变体，不用于其他豆酱。"
+        },
+        {
+          "name": "李锦记辣豆豉酱",
+          "food": {
+            "fdc_id": 2505417,
+            "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+            "data_type": "Branded",
+            "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+            "brand_owner": "Lee Kum Kee Co. Ltd.",
+            "brand_name": "LEE KUM KEE",
+            "gtin_upc": "078895135480"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 5,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。"
+        },
+        {
+          "name": "姜",
+          "food": {
+            "fdc_id": 169231,
+            "description": "Ginger root, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "f8c5161cfeef99a8d4c84d13680d5758a3a6bddebbe993dbc39b45364c5ae677"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 8,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "去皮大蒜",
+          "food": {
+            "fdc_id": 169230,
+            "description": "Garlic, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 8,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "孜然籽",
+          "food": {
+            "fdc_id": 170923,
+            "description": "Spices, cumin seed",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "6547255bf1215d1fcd23761e65196917deba938e9146f06b3d720ce06a33b5ac"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 2,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+        },
+        {
+          "name": "肉桂粉",
+          "food": {
+            "fdc_id": 171320,
+            "description": "Spices, cinnamon, ground",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "433c4ef2179c1b4761116a2c335056d0b8dc7c1682c4ce05715401e29e55c88c"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 1,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+        },
+        {
+          "name": "黑胡椒粉",
+          "food": {
+            "fdc_id": 170931,
+            "description": "Spices, pepper, black",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "60b7f134c776a0c130cffdf74fc1ff3fd7ccea46b80406f05d74ba1e16f500a3"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 1,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+        },
+        {
+          "name": "食盐",
+          "food": {
+            "fdc_id": 173468,
+            "description": "Salt, table",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 3,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "饮用水",
+          "food": {
+            "fdc_id": 173647,
+            "description": "Beverages, water, tap, drinking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "9b571683e1495690bcc931a053a2dc7424f6b8e9b726749447d774513100e607"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 80,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ],
+      "final_weight": {
+        "grams": 300,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品300g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "process": {
+        "method": "braise",
+        "retention_correction": "not_applied",
+        "macronutrient_retention": "assumed_full",
+        "no_nutrient_bearing_liquid_discarded": true,
+        "all_added_fat_retained": true
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
+        "reviewed_at": "2026-10-29T01:34:56.322Z",
+        "checks": {
+          "recipe_version": "e18171098915e0f103750b5e3aa6257ff620da78",
+          "food_identity": "Fat, beef tallow; Oil, soybean, salad or cooking; Lard; LEE KUM KEE, SPICY BEAN SAUCE; Spices, pepper, red or cayenne; Tofu, salted and fermented (fuyu), prepared with calcium sulfate; LEE KUM KEE, CHILI BLACK BEAN SAUCE; Ginger root, raw; Garlic, raw; Spices, cumin seed; Spices, cinnamon, ground; Spices, pepper, black; Salt, table; Beverages, water, tap, drinking",
+          "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/raw/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat输入；成品braise。未把生料每100g当作成品值。",
+          "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+          "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+          "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
+          "standard_variant": "这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。",
+          "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+          "supersession": "原方案实际包含豆瓣与豆豉酱，修正sauce_added标记为true；食材、用量、成品重及四项营养计算保持不变。"
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E7%89%9B%E6%B2%B9%E7%81%AB%E9%94%85%E5%BA%95%E6%96%99.md",
+            "blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
+            "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171400/nutrients",
+            "note": "食用牛油（牛脂）：Fat, beef tallow；已核对数据类型、生熟、可食部分及原始摘要。USDA Fat, beef tallow，动物牛脂而非乳制黄油或起酥油。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+            "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171401/nutrients",
+            "note": "猪油：Lard；已核对数据类型、生熟、可食部分及原始摘要。显式核对食物、部位、生熟、可食部分与原始来源；仅适用于指定的通用食材，非搜索首项自动映射。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/2028275/nutrients",
+            "note": "李锦记SPICY BEAN SAUCE辣豆酱：LEE KUM KEE, SPICY BEAN SAUCE；已核对数据类型、生熟、可食部分及原始摘要。李锦记黄豆辣酱作明确品牌替代郫县蚕豆豆瓣酱，非原酱实测；GTIN锁定配方，不能用于其他品牌豆瓣。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+            "note": "干辣椒：Spices, pepper, red or cayenne；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174305/nutrients",
+            "note": "腐乳：Tofu, salted and fermented (fuyu), prepared with calcium sulfate；已核对数据类型、生熟、可食部分及原始摘要。盐渍发酵腐乳通用宏量参考，非红曲玫瑰腐乳品牌标签；仅作明确通用腐乳变体，不用于其他豆酱。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/2505417/nutrients",
+            "note": "李锦记辣豆豉酱：LEE KUM KEE, CHILI BLACK BEAN SAUCE；已核对数据类型、生熟、可食部分及原始摘要。限定李锦记辣豆豉复配酱及GTIN，代替原文干豆豉的标准变体；不把酱当纯豆豉，也不忽略已有油糖。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
+            "note": "姜：Ginger root, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+            "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170923/nutrients",
+            "note": "孜然籽：Spices, cumin seed；已核对数据类型、生熟、可食部分及原始摘要。显式核对原料种类、可食部位、肥瘦及生熟，按去骨净重使用；不混用搜索中其他肉种或熟食。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171320/nutrients",
+            "note": "肉桂粉：Spices, cinnamon, ground；已核对数据类型、生熟、可食部分及原始摘要。核对净可食食材、原料状态和来源；完整果肉不替代果汁，反之亦然。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170931/nutrients",
+            "note": "黑胡椒粉：Spices, pepper, black；已核对数据类型、生熟、可食部分及原始摘要。明确选择黑胡椒原始记录，不等同于品牌黑椒腌料。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+            "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+            "note": "饮用水：Beverages, water, tap, drinking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/semi-finished/%E7%89%9B%E6%B2%B9%E7%81%AB%E9%94%85%E5%BA%95%E6%96%99.md",
+            "note": "方案升级：family-1bc98124aec5-v1 → family-1bc98124aec5-v2。原方案实际包含豆瓣与豆豉酱，修正sauce_added标记为true；食材、用量、成品重及四项营养计算保持不变。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-c8756846df80-v2",
+      "version": "2",
+      "supersedes": "family-c8756846df80-v1",
+      "recipe_id": "howtocook-c8756846df80",
+      "recipe_blob_sha": "c45e61ea554cfb8e4b520a58fa722b435166d056",
+      "method": "recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "default_for_artwork": false,
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：焯熟油菜花蕾茎参考250g、大豆食用油10g、通用酱油（shoyu近似）5g、通用蚝油5g、白砂糖3g、食盐2g、去皮大蒜12g、鲜辣椒3g；整份约290g。固定偏茎蕾的熟菜心模型，以MEXT焯熟油菜花蕾及茎作同类代理；同属Brassica rapa但不是同一栽培群，不宣称菜心实测，不适用于以大叶为主的不同配方。熟沥水菜净量250g独立设定，不从生重推算出成率；加油10g、生抽蚝油各5g、糖3g、盐2g、蒜12g、辣椒3g，全部拌匀后290g，无后续加热弃料。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "焯熟菜心",
+            "reference_name": "焯熟油菜花蕾茎参考",
+            "food": {
+              "provider": "mext",
+              "food_id": "06202",
+              "description": "（なばな類）　和種なばな　花らい・茎　ゆで",
+              "data_type": "MEXT Standard Tables",
+              "snapshot_sha256": "6e074bd8729e7941004ec667068573d0f5f4c667b3d8c18931d941f00ba9d89d"
+            },
+            "reason": "熟花蕾与茎同类代理，栽培群不同，不视为菜心实测"
+          }
+        ],
+        "food_identity": "howtocook-c8756846df80",
+        "state": "ready_to_eat",
+        "cooking_method": "cold_mix",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": true,
+        "sauce_added": true,
+        "brand": null,
+        "variant": "family-c8756846df80-v2",
+        "standard_ingredients": [
+          {
+            "key": "mext_flowering_greens_boiled",
+            "grams": 250
+          },
+          {
+            "key": "oil",
+            "grams": 10
+          },
+          {
+            "key": "soy",
+            "grams": 5
+          },
+          {
+            "key": "oyster",
+            "grams": 5
+          },
+          {
+            "key": "sugar",
+            "grams": 3
+          },
+          {
+            "key": "salt",
+            "grams": 2
+          },
+          {
+            "key": "garlic",
+            "grams": 12
+          },
+          {
+            "key": "chili",
+            "grams": 3
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "assumptions": [
+        "配方固定为：焯熟油菜花蕾茎参考250g、大豆食用油10g、通用酱油（shoyu近似）5g、通用蚝油5g、白砂糖3g、食盐2g、去皮大蒜12g、鲜辣椒3g。克数是项目标准，不是原文ml/个数换算。",
+        "固定偏茎蕾的熟菜心模型，以MEXT焯熟油菜花蕾及茎作同类代理；同属Brassica rapa但不是同一栽培群，不宣称菜心实测，不适用于以大叶为主的不同配方。熟沥水菜净量250g独立设定，不从生重推算出成率；加油10g、生抽蚝油各5g、糖3g、盐2g、蒜12g、辣椒3g，全部拌匀后290g，无后续加热弃料。",
+        "仅包含列出的默认配料，省略或替换原文配料的情况在标准说明中列出；不自动代表所有同名菜谱。",
+        "全部成分称重后不再加热或丢弃，全部汁液食用。",
+        "营养匹配独立于插画，使用方必须确认此标准配方及其品种、状态和配料。"
+      ],
+      "uncertainty": [
+        "焯熟菜心采用焯熟油菜花蕾茎参考代理：熟花蕾与茎同类代理，栽培群不同，不视为菜心实测。这不是原食材或品牌的实测数据，实际差异可能很大。",
+        "食材品种、品牌、含水量和实际用量可能与引用的食物成分资料不同。",
+        "家庭成品重量未实测；热加工蒸发、凝结、碗壁残留和营养损失未校正，实际重量变化须重算。",
+        "官方为Brassica rapa Oleifera Group花蕾及茎、ゆで/boiled；采用熟茎蕾代理菜心茎蕾，部位与熟态较小白菜叶贴近，栽培群不同，仍保留代理标记。",
+        "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。",
+        "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+      ],
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "ingredients": [
+        {
+          "name": "焯熟油菜花蕾茎参考",
+          "food": {
+            "provider": "mext",
+            "food_id": "06202",
+            "description": "（なばな類）　和種なばな　花らい・茎　ゆで",
+            "data_type": "MEXT Standard Tables",
+            "snapshot_sha256": "6e074bd8729e7941004ec667068573d0f5f4c667b3d8c18931d941f00ba9d89d"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 250,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "官方为Brassica rapa Oleifera Group花蕾及茎、ゆで/boiled；采用熟茎蕾代理菜心茎蕾，部位与熟态较小白菜叶贴近，栽培群不同，仍保留代理标记。"
+        },
+        {
+          "name": "大豆食用油",
+          "food": {
+            "fdc_id": 171411,
+            "description": "Oil, soybean, salad or cooking",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 10,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "通用酱油（shoyu近似）",
+          "food": {
+            "fdc_id": 174277,
+            "description": "Soy sauce made from soy and wheat (shoyu)",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "2f447d1325755a7883dd9a808c5132acf0ac9af30eae0c9a9ff38ca179a10330"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 5,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "name": "通用蚝油",
+          "food": {
+            "fdc_id": 174529,
+            "description": "Sauce, oyster, ready-to-serve",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "1652b798ee6cb7e3a0ec61f6630d7895fe972a542460d71054f52f1d2bc499e7"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 5,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+        },
+        {
+          "name": "白砂糖",
+          "food": {
+            "fdc_id": 169655,
+            "description": "Sugars, granulated",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "2be356829c925592a894d5ba45bd573eb5d8739be5ce9ad67ec5887e71e201cf"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 3,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "食盐",
+          "food": {
+            "fdc_id": 173468,
+            "description": "Salt, table",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "ac568d3b3b1111f4007f91e7e0267643ca7e9275149fbf066cc88e0ad813eadc"
+          },
+          "source_state": "ready_to_eat",
+          "quantity": {
+            "value": 2,
+            "unit": "g",
+            "edible": true,
+            "state": "ready_to_eat",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "去皮大蒜",
+          "food": {
+            "fdc_id": 169230,
+            "description": "Garlic, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "7ad29963a8d95feb5fd761577cabf9eab47fad6040084b28d0865865918c4eb2"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 12,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        },
+        {
+          "name": "鲜辣椒",
+          "food": {
+            "fdc_id": 170106,
+            "description": "Peppers, hot chili, red, raw",
+            "data_type": "SR Legacy",
+            "snapshot_sha256": "0672f914f68339516090b9cb39134059b6a2c99bb2730caef461211b6ea256c4"
+          },
+          "source_state": "raw",
+          "quantity": {
+            "value": 3,
+            "unit": "g",
+            "edible": true,
+            "state": "raw",
+            "evidence": "项目明确的家庭标准净可食克数，不从个数或ml静默换算。"
+          },
+          "mapping_note": "显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+        }
+      ],
+      "final_weight": {
+        "grams": 290,
+        "method": "cold_mix_mass_balance",
+        "basis": "standard_recipe_assumption",
+        "evidence": "所列成分称重后无加热、无弃料，全部可食克数之和。"
+      },
+      "process": {
+        "retention_correction": "not_applied",
+        "no_heating_after_weighing": true,
+        "all_edible_material_retained": true
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:34:56.322Z",
+        "checks": {
+          "recipe_version": "c45e61ea554cfb8e4b520a58fa722b435166d056",
+          "food_identity": "（なばな類）　和種なばな　花らい・茎　ゆで; Oil, soybean, salad or cooking; Soy sauce made from soy and wheat (shoyu); Sauce, oyster, ready-to-serve; Sugars, granulated; Salt, table; Garlic, raw; Peppers, hot chili, red, raw",
+          "state_and_cooking": "逐项按ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/ready_to_eat/raw/raw输入；成品cold_mix。未把生料每100g当作成品值。",
+          "edible_part": "所有g均为明确可食净量，排除骨、壳及清理弃料。",
+          "additions": "逐项核对油、糖、酱料；具体克数见standard_ingredients及ingredients。",
+          "brand": "通用食材代理；不是任意品牌标签值。",
+          "standard_variant": "固定偏茎蕾的熟菜心模型，以MEXT焯熟油菜花蕾及茎作同类代理；同属Brassica rapa但不是同一栽培群，不宣称菜心实测，不适用于以大叶为主的不同配方。熟沥水菜净量250g独立设定，不从生重推算出成率；加油10g、生抽蚝油各5g、糖3g、盐2g、蒜12g、辣椒3g，全部拌匀后290g，无后续加热弃料。",
+          "proxy_policy": "维护者授权使用同类通用食物估算；仅核验代理的真实来源、用量、计算和披露，不声称原食材身份匹配或准确测定。",
+          "supersession": "以熟花蕾和茎替换小白菜叶，细化部位及熟态，但仍保留栽培群代理限制。"
+        },
+        "evidence": [
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/vegetable_dish/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83.md",
+            "blob_sha": "c45e61ea554cfb8e4b520a58fa722b435166d056",
+            "note": "固定原文作为独立家庭标准配方的参考；项目设定净可食克数、默认分支及成品重量，不声称原文实测。"
+          },
+          {
+            "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06202_7",
+            "note": "焯熟油菜花蕾茎参考：（なばな類）　和種なばな　花らい・茎　ゆで；已核对数据类型、生熟、可食部分及原始摘要。官方为Brassica rapa Oleifera Group花蕾及茎、ゆで/boiled；采用熟茎蕾代理菜心茎蕾，部位与熟态较小白菜叶贴近，栽培群不同，仍保留代理标记。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+            "note": "大豆食用油：Oil, soybean, salad or cooking；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174277/nutrients",
+            "note": "通用酱油（shoyu近似）：Soy sauce made from soy and wheat (shoyu)；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/174529/nutrients",
+            "note": "通用蚝油：Sauce, oyster, ready-to-serve；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。 通用代理的品牌、工艺或干炒差异必须在配方适用范围中说明。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+            "note": "白砂糖：Sugars, granulated；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+            "note": "食盐：Salt, table；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+            "note": "去皮大蒜：Garlic, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fdc.nal.usda.gov/food-details/170106/nutrients",
+            "note": "鲜辣椒：Peppers, hot chili, red, raw；已核对数据类型、生熟、可食部分及原始摘要。显式选择并核对食物种类、生熟、部位与可食部分；非采用搜索第一项。"
+          },
+          {
+            "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06202_7",
+            "note": "官方为Brassica rapa Oleifera Group花蕾及茎、ゆで/boiled；采用熟茎蕾代理菜心茎蕾，部位与熟态较小白菜叶贴近，栽培群不同，仍保留代理标记。"
+          },
+          {
+            "url": "https://github.com/Anduin2017/HowToCook/blob/0e106eea348c734fe1586f781202994439cf98a5/dishes/vegetable_dish/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83.md",
+            "note": "方案升级：family-c8756846df80-v1 → family-c8756846df80-v2。以熟花蕾和茎替换小白菜叶，细化部位及熟态，但仍保留栽培群代理限制。"
           }
         ]
       }

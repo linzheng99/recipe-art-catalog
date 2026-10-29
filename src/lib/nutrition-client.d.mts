@@ -6,6 +6,8 @@ export interface NutrientValues {
 }
 export interface NutritionProfile {
   id: string;
+  supersedes?: string;
+  version?: string;
   recipe_id: string;
   recipe_blob_sha: string;
   status: "reference";
@@ -35,6 +37,7 @@ export interface NutritionProfile {
   details: { path: string; bytes: number; sha256: string };
 }
 export interface NutritionRecipe {
+  nutrition_profiles?: NutritionProfile[];
   recipe_id: string;
   name: string;
   status: string;

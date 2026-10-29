@@ -358,7 +358,13 @@
         "Soy sauce shoyu",
         "Oil soybean salad cooking",
         "Salt table",
-        "Water tap drinking"
+        "Water tap drinking",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        }
       ]
     },
     {

@@ -204,7 +204,7 @@
       "batch": "batch-002",
       "original_ingredients": "- 巴沙鱼\n- 蔬菜（比如土豆片/豆芽/花菜/生菜/……）\n- 红油豆瓣酱\n- 藤椒油\n- 菜籽油\n- 白胡椒粉\n- 蒜瓣\n- 盐\n- 糖\n- 量杯\n- 厨房秤（可选）\n- 大不锈钢碗",
       "ingredient_candidates": [
-        "bass",
+        "swai_branded",
         "cauliflower",
         "lettuce",
         "douban_branded",
@@ -218,7 +218,12 @@
       "external_foods": [],
       "has_explicit_standard_plan": true,
       "queries": [
-        "Fish bass fresh water mixed species raw",
+        {
+          "query": "085239019023",
+          "data_types": [
+            "Branded"
+          ]
+        },
         "Cauliflower raw",
         "Lettuce green leaf raw",
         {
@@ -463,7 +468,7 @@
       "batch": "batch-002",
       "original_ingredients": "- 注：如果有可能，尽量另准备一把菜刀，超市或市场上均有廉价且刀片更厚的菜刀，刀片厚度在 5-7mm 为最佳。\n- 大葱、姜、大蒜、香菜、美人椒\n- 油、盐、鸡精、生抽、老抽、陈醋、黑胡椒粉、料酒\n- 八角、干辣椒\n- 鱼头一个\n- 注：市场直接贩卖的鱼头一般分为两种：白鲢、花鲢。前者价格便宜，后者价格略贵，但口感也更佳！",
       "ingredient_candidates": [
-        "carp",
+        "krda_silver_carp",
         "scallion",
         "ginger",
         "garlic",
@@ -478,10 +483,17 @@
         "chili_dry",
         "water"
       ],
-      "external_foods": [],
+      "external_foods": [
+        {
+          "provider": "krda",
+          "food_id": "K0840000000a",
+          "snapshot_sha256": "f6478276b2cde6c00e84a90b69cb08fd4d606d01ae464061500dbff72ad4c57a",
+          "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+          "mapping_review_status": "approved"
+        }
+      ],
       "has_explicit_standard_plan": true,
       "queries": [
-        "Fish carp raw",
         "Onions spring scallions tops bulb raw",
         "Ginger root raw",
         "Garlic raw",
@@ -2447,9 +2459,9 @@
       "original_ingredients": "原料\n\n- 红石榴糖浆\n- NFC 橙汁\n- 苏打水\n- 白朗姆\n- 蓝橙力娇酒\n- 柠檬汁\n- 冰块\n- 柠檬\n\n工具\n\n- 大号的玻璃杯\n- 搅拌棒\n- 量酒器\n- 调酒杯\n- 吸管\n- 水果刀",
       "ingredient_candidates": [
         "rum",
-        "coffee_liqueur",
+        "liqueur_curacao_group",
         "orange_juice",
-        "maple",
+        "grenadine",
         "lemon_juice",
         "lemon",
         "water"
@@ -2458,9 +2470,9 @@
       "has_explicit_standard_plan": true,
       "queries": [
         "Alcoholic beverage distilled rum 80 proof",
-        "Alcoholic beverage distilled vodka 80 proof",
+        "curacao",
         "Orange juice raw",
-        "Syrups maple",
+        "grenadine",
         "Lemon juice raw",
         "Lemons raw without peel",
         "Water tap drinking"
@@ -2711,7 +2723,7 @@
         "generic_spirit",
         "vodka",
         "rum",
-        "coffee_liqueur",
+        "liqueur_curacao_group",
         "lemon_juice",
         "maple",
         "cola",
@@ -2724,6 +2736,7 @@
         "Alcoholic beverage distilled gin 80 proof",
         "Alcoholic beverage distilled vodka 80 proof",
         "Alcoholic beverage distilled rum 80 proof",
+        "curacao",
         "Lemon juice raw",
         "Syrups maple",
         "Beverages carbonated cola regular",
@@ -5917,29 +5930,30 @@
         "chicken_thigh",
         "potato",
         "chili_dry",
-        "mext_chive",
-        "mext_amazake",
+        "krda_green_garlic",
+        "mext_sake_lees",
         "beer",
         "ginger",
         "garlic",
         "soy",
         "oil",
         "salt",
-        "water"
+        "water",
+        "douban_branded"
       ],
       "external_foods": [
         {
-          "provider": "mext",
-          "food_id": "06207",
-          "snapshot_sha256": "c362b7b834b1d85e2a794a7308511d9508c1f3741ba807fc2226553afa598c0b",
-          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06207_7",
+          "provider": "krda",
+          "food_id": "F054000B150a",
+          "snapshot_sha256": "110ced6fc88dc18b8955d38b8aad588363d425f7616e0297f019673ef68895fe",
+          "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
           "mapping_review_status": "approved"
         },
         {
           "provider": "mext",
-          "food_id": "16050",
-          "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30",
-          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16050_7",
+          "food_id": "17053",
+          "snapshot_sha256": "434ac51c0f526d09c802b7bd6750f8e5f4d58e5f423edd3318b20732246a52c6",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17053_7",
           "mapping_review_status": "approved"
         }
       ],
@@ -5954,7 +5968,13 @@
         "Soy sauce shoyu",
         "Oil soybean salad cooking",
         "Salt table",
-        "Water tap drinking"
+        "Water tap drinking",
+        {
+          "query": "LEE KUM KEE CHILI BEAN SAUCE",
+          "data_types": [
+            "Branded"
+          ]
+        }
       ]
     },
     {
@@ -10545,7 +10565,7 @@
       "batch": "batch-015",
       "original_ingredients": "- 新鲜菜心\n- 生抽、蚝油、盐\n- 大蒜、小米辣\n- 食用油",
       "ingredient_candidates": [
-        "krda_blanch_greens",
+        "mext_flowering_greens_boiled",
         "oil",
         "soy",
         "oyster",
@@ -10556,10 +10576,10 @@
       ],
       "external_foods": [
         {
-          "provider": "krda",
-          "food_id": "F1750000009c",
-          "snapshot_sha256": "28ccacf0e300aa6e78e86f4bd097d709b8e288410c04f1d40f03e254b13597b2",
-          "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+          "provider": "mext",
+          "food_id": "06202",
+          "snapshot_sha256": "6e074bd8729e7941004ec667068573d0f5f4c667b3d8c18931d941f00ba9d89d",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06202_7",
           "mapping_review_status": "approved"
         }
       ],

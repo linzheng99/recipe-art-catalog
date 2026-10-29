@@ -4434,6 +4434,160 @@
         "reviewed_at": "2026-10-29T00:11:38.032Z",
         "note": "使用USDA40%vol伏特加作为同酒度无糖蒸馏酒代理；不声称是龙舌兰或52度二锅头的真实数据。克数直接设定，不由毫升换算。"
       }
+    },
+    {
+      "key": "swai_branded",
+      "name": "Good & Gather巴沙鱼生鱼片",
+      "query": "085239019023",
+      "state": "raw",
+      "fdc_id": 2677915,
+      "description": "SWAI FILLETS",
+      "data_type": "Branded",
+      "snapshot_sha256": "144eb9eec41f54e936fdf27824ec5d20fedd4e512f745af29278dcebb4fd12ee",
+      "data_types": [
+        "Branded"
+      ],
+      "brand_owner": "Target Stores",
+      "brand_name": "GOOD & GATHER",
+      "gtin_upc": "085239019023",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:31:29.658Z",
+        "note": "核对USDA GOOD & GATHER、Target Stores、UPC085239019023；Target官方同UPC标明冷冻、预处理Raw，成分仅Pangasianodon hypophthalmus，未使用不同UPC的SIMPLY BALANCED记录。仅适用于此无调味鱼片标准，非任意巴沙鱼品牌。",
+        "evidence": [
+          {
+            "url": "https://www.target.com/p/-/A-14673085",
+            "note": "核对UPC085239019023、GOOD & GATHER品牌、单一鱼肉成分与预处理Raw；营养数字仅取USDA缓存，不从商店网页搬入。"
+          }
+        ]
+      }
+    },
+    {
+      "key": "grenadine",
+      "name": "通用红石榴糖浆",
+      "query": "grenadine",
+      "state": "ready_to_eat",
+      "fdc_id": 168088,
+      "description": "Syrups, grenadine",
+      "data_type": "SR Legacy",
+      "snapshot_sha256": "9f5e3e9fdc3212c136322bc400c85f2f0e05c4d2d8d9f179e7aa11f9baef0765",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:31:29.658Z",
+        "note": "SR Legacy明确描述Syrups, grenadine，替换不同品类的枫糖浆；无品牌指定，含糖量按该通用标准。",
+        "evidence": []
+      }
+    },
+    {
+      "key": "liqueur_curacao_group",
+      "name": "通用橙味利口酒参考组",
+      "query": "curacao",
+      "state": "ready_to_eat",
+      "fdc_id": 2710623,
+      "description": "Liqueur",
+      "data_type": "Survey (FNDDS)",
+      "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:31:29.658Z",
+        "note": "FNDDS foodCode93201000为Liqueur，Additional Description明确包括curacao、cointreau、triple sec。使用整条官方通用参考，不用咖啡甜酒，也不冒充具体橙酒品牌或酒度。",
+        "evidence": []
+      }
+    },
+    {
+      "key": "krda_silver_carp",
+      "name": "白鲢净鱼肉参考",
+      "provider": "krda",
+      "food_id": "K0840000000a",
+      "state": "raw",
+      "description": "백연, 생것",
+      "data_type": "KRDA Standard Food Composition DB",
+      "snapshot_sha256": "f6478276b2cde6c00e84a90b69cb08fd4d606d01ae464061500dbff72ad4c57a",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:31:29.658Z",
+        "note": "官方DB10.4身份表为Silver Carp，学名Hypophthalmichthys molitrix，每100g可食部生鱼肉；同种体部鱼肉代理鱼头肌肉，不能代表鱼脑、脂肪皮或骨髓。",
+        "evidence": [
+          {
+            "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "note": "官方DB10.4身份表为Silver Carp，学名Hypophthalmichthys molitrix，每100g可食部生鱼肉；同种体部鱼肉代理鱼头肌肉，不能代表鱼脑、脂肪皮或骨髓。"
+          }
+        ]
+      }
+    },
+    {
+      "key": "krda_green_garlic",
+      "name": "生蒜苗叶茎",
+      "provider": "krda",
+      "food_id": "F054000B150a",
+      "state": "raw",
+      "description": "풋마늘, 잎줄기, 생것",
+      "data_type": "KRDA Standard Food Composition DB",
+      "snapshot_sha256": "110ced6fc88dc18b8955d38b8aad588363d425f7616e0297f019673ef68895fe",
+      "source_url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:31:29.658Z",
+        "note": "官方描述Green garlic, Shoot, Raw，Allium sativum L.叶茎，匹配蒜苗；不同于韭菜，也不是大蒜花茎/蒜薹。",
+        "evidence": [
+          {
+            "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+            "note": "官方描述Green garlic, Shoot, Raw，Allium sativum L.叶茎，匹配蒜苗；不同于韭菜，也不是大蒜花茎/蒜薹。"
+          }
+        ]
+      }
+    },
+    {
+      "key": "mext_sake_lees",
+      "name": "日本清酒酒粕参考",
+      "provider": "mext",
+      "food_id": "17053",
+      "state": "ready_to_eat",
+      "description": "＜調味料類＞　（その他）　酒かす",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "434ac51c0f526d09c802b7bd6750f8e5f4d58e5f423edd3318b20732246a52c6",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17053_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:31:29.658Z",
+        "note": "官方酒かす/Sakekasu是清酒酒粕，比甘酒甜饮更接近酒糟固形物；仍非贵州原酒糟。酒精和固形物按该条目，未校正烹饪酒精损失。",
+        "evidence": [
+          {
+            "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17053_7",
+            "note": "官方酒かす/Sakekasu是清酒酒粕，比甘酒甜饮更接近酒糟固形物；仍非贵州原酒糟。酒精和固形物按该条目，未校正烹饪酒精损失。"
+          }
+        ]
+      }
+    },
+    {
+      "key": "mext_flowering_greens_boiled",
+      "name": "焯熟油菜花蕾茎参考",
+      "provider": "mext",
+      "food_id": "06202",
+      "state": "ready_to_eat",
+      "description": "（なばな類）　和種なばな　花らい・茎　ゆで",
+      "data_type": "MEXT Standard Tables",
+      "snapshot_sha256": "6e074bd8729e7941004ec667068573d0f5f4c667b3d8c18931d941f00ba9d89d",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06202_7",
+      "mapping_review": {
+        "status": "approved",
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "reviewed_at": "2026-10-29T01:31:29.658Z",
+        "note": "官方为Brassica rapa Oleifera Group花蕾及茎、ゆで/boiled；采用熟茎蕾代理菜心茎蕾，部位与熟态较小白菜叶贴近，栽培群不同，仍保留代理标记。",
+        "evidence": [
+          {
+            "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06202_7",
+            "note": "官方为Brassica rapa Oleifera Group花蕾及茎、ゆで/boiled；采用熟茎蕾代理菜心茎蕾，部位与熟态较小白菜叶贴近，栽培群不同，仍保留代理标记。"
+          }
+        ]
+      }
     }
   ]
 }

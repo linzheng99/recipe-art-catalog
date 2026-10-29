@@ -68,6 +68,7 @@ export async function applyNutritionPlans({
     planIDs.add(plan.recipe_id);
   }
   let added = 0;
+  let assessmentAdded = false;
   for (const plan of plans.recipes) {
     if (allowed && !allowed.has(plan.recipe_id)) continue;
     const recipe = source.recipes.find((item) => item.id === plan.recipe_id);
@@ -102,8 +103,10 @@ export async function applyNutritionPlans({
       evidence,
     };
     if (plan.review.status !== "approved" || unresolved.length) {
-      if (!assessment.recipes.some((item) => item.recipe_id === recipe.id))
+      if (!assessment.recipes.some((item) => item.recipe_id === recipe.id)) {
         assessment.recipes.push(entry);
+        assessmentAdded = true;
+      }
       continue;
     }
     const ingredients = await Promise.all(
@@ -150,7 +153,24 @@ export async function applyNutritionPlans({
       )
       .join("；");
     const oilKeys = ["oil", "butter", "lard", "sesame_oil", "ghee"],
-      sauceKeys = ["soy", "oyster", "ketchup", "tahini", "jam"];
+      sauceKeys = [
+        "soy",
+        "oyster",
+        "ketchup",
+        "tahini",
+        "jam",
+        "douban_branded",
+        "black_bean_sauce",
+      ],
+      sugarKeys = [
+        "sugar",
+        "honey",
+        "maple",
+        "grenadine",
+        "liqueur_curacao_group",
+        "coffee_liqueur",
+        "cola",
+      ];
     const portions = selected
       .map((item) => `${item.name}${item.grams}g`)
       .join("、");
@@ -195,9 +215,7 @@ export async function applyNutritionPlans({
       edible_part:
         "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
       oil_added: selected.some((item) => oilKeys.includes(item.key)),
-      sugar_added: selected.some(
-        (item) => item.key === "sugar" || item.key === "honey",
-      ),
+      sugar_added: selected.some((item) => sugarKeys.includes(item.key)),
       sauce_added: selected.some((item) => sauceKeys.includes(item.key)),
       brand: brandScope || null,
       variant: id,
@@ -211,6 +229,9 @@ export async function applyNutritionPlans({
     const profile = {
       id,
       version,
+      ...(plan.supersedes_profile_id
+        ? { supersedes: plan.supersedes_profile_id }
+        : {}),
       recipe_id: recipe.id,
       recipe_blob_sha: recipe.blob_sha,
       method: direct
@@ -316,6 +337,34 @@ export async function applyNutritionPlans({
         ],
       },
     };
+    if (plan.supersedes_profile_id) {
+      const previousProfile = document.profiles.find(
+        (item) => item.id === plan.supersedes_profile_id,
+      );
+      if (
+        !previousProfile ||
+        previousProfile.recipe_id !== recipe.id ||
+        previousProfile.id === id ||
+        previousProfile.review.status !== "approved" ||
+        !plan.change_reason?.trim()
+      )
+        throw new Error(
+          `升级须明确同一菜谱的有效旧方案及变更原因: ${plan.name}`,
+        );
+      // 旧方案的食材、数值依据和原审核记录继续保存，只更新可用状态及替代关系。
+      previousProfile.review = {
+        ...previousProfile.review,
+        status: "withdrawn",
+        withdrawn_at: now,
+        superseded_by: id,
+        withdrawal_reason: plan.change_reason,
+      };
+      profile.review.checks.supersession = plan.change_reason;
+      profile.review.evidence.push({
+        url: recipe.source_url,
+        note: `方案升级：${plan.supersedes_profile_id} → ${id}。${plan.change_reason}`,
+      });
+    }
     document.profiles.push(profile);
     const previous = assessment.recipes.find(
       (item) => item.recipe_id === recipe.id,
@@ -344,12 +393,13 @@ export async function applyNutritionPlans({
     });
     if (previous) {
       const history = previous.history ?? [];
-      if (previous.status !== "evaluated")
+      if (previous.status !== "evaluated" || plan.supersedes_profile_id)
         history.push({
           status: previous.status,
           reasons: previous.reasons,
           evaluated_at: previous.evaluated_at,
           change_reason:
+            plan.change_reason ??
             "采用明确的家庭份估算假设并复核食材来源，保留先前缺项记录。",
         });
       for (const key of Object.keys(previous)) delete previous[key];
@@ -357,6 +407,8 @@ export async function applyNutritionPlans({
     } else assessment.recipes.push(entry);
     added++;
   }
+  if (!added && !assessmentAdded)
+    return { added: 0, total_profiles: document.profiles.length };
   await atomicJSON(
     path.join(root, "catalog/nutrition/profiles.json"),
     document,

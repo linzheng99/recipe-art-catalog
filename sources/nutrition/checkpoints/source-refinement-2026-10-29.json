@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "reviewed_at": "2026-10-29T01:31:29.658Z",
+  "report": "catalog/nutrition/reviews/source-refinement-2026-10-29.json",
+  "queries": [
+    {
+      "query": "basa",
+      "raw_sha256": "cb5e58de79aa0404f56bfbb46fa96fec1c2ca51a5770a5605874645c2fea73b2",
+      "total_hits": 6,
+      "candidate_ids": [
+        2008069,
+        2182969,
+        2495582,
+        2495581,
+        2542808,
+        510622
+      ],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "pangasius",
+      "raw_sha256": "48b838e08ce7e3c24c6cd57c2a8ba57fb31b082d700f3e6562283d41d9e14ae2",
+      "total_hits": 24,
+      "candidate_ids": [
+        1804324,
+        2495582,
+        2495581,
+        2542808,
+        1457550,
+        2182969,
+        2637603,
+        1937129,
+        356587,
+        2099832,
+        1890254,
+        2508394,
+        1889021,
+        2072804,
+        2078205,
+        2061124,
+        1905383,
+        2443219,
+        1905274,
+        1578040
+      ],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "\"RAW PORK SKIN\"",
+      "raw_sha256": "60a7a218574c2a52baaaf76e661f6e181065e483f024f4705e80a51231bacb07",
+      "total_hits": 0,
+      "candidate_ids": [],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "grenadine",
+      "raw_sha256": "412e5f25724ddde47ee94aea66f9b6e2827e60694d1ae789cc1e5fc11a946657",
+      "total_hits": 2,
+      "candidate_ids": [
+        168088,
+        2710278
+      ],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "ganzhu",
+      "raw_sha256": "72843772ff51ea7fbca3db9612f194e854a694705c7483d79cdcdc353692d81b",
+      "total_hits": 0,
+      "candidate_ids": [],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "luosifen",
+      "raw_sha256": "cbf06a0f7f3580bbb5f5c66d20097da978cf588292d078bbf607064cbcaef662",
+      "total_hits": 0,
+      "candidate_ids": [],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "guilinggao",
+      "raw_sha256": "ff375ebe6e7aa0c7033a645bd8f5c98a85878e8ad2783c504ad5890b2594bf74",
+      "total_hits": 0,
+      "candidate_ids": [],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "sour plum drink",
+      "raw_sha256": "b4b89816fb610fc23d40141a2b10618f2d34807f9506603b6a056ae29c4e474b",
+      "total_hits": 34207,
+      "candidate_ids": [
+        2475609,
+        2475608,
+        2008057,
+        2166024,
+        2108010,
+        1878334,
+        2631195,
+        2664991,
+        2134710,
+        1137655,
+        2046061,
+        1030345,
+        2418349,
+        2281035,
+        2603751,
+        1852217,
+        2019661,
+        1894886,
+        2486074,
+        2390630
+      ],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "grass jelly",
+      "raw_sha256": "297c1caf4c77930a7cafc72fb44d6fb3ddd967a77168c63b66bd00d17489dda5",
+      "total_hits": 6628,
+      "candidate_ids": [
+        498708,
+        2085674,
+        2585556,
+        2288414,
+        2439866,
+        2288537,
+        2195310,
+        2654885,
+        2654761,
+        2131988,
+        539052,
+        2274615,
+        2451101,
+        2500047,
+        2142874,
+        2073278,
+        2009658,
+        2119123,
+        2440926,
+        2119127
+      ],
+      "decision": "仅作为本轮核对候选；使用情况见逐篇报告。"
+    },
+    {
+      "query": "curacao",
+      "raw_sha256": "c72da3dbd8347f410ca7c16308d9caeacc56f3dda58029aa8fc8eabf2fd8dd78",
+      "total_hits": 1,
+      "candidate_ids": [
+        2710623
+      ],
+      "decision": "已核验的橙酒分类或同UPC巴沙鱼候选，见逐篇报告。"
+    },
+    {
+      "query": "085239019023",
+      "raw_sha256": "edb8814851c75d112909c28112b723ff0b60b8c2c4e917cef838f5162f70a757",
+      "total_hits": 1,
+      "candidate_ids": [
+        2677915
+      ],
+      "decision": "已核验的橙酒分类或同UPC巴沙鱼候选，见逐篇报告。"
+    }
+  ],
+  "all_recipes_assessed": 21,
+  "reference_values_updated": 6,
+  "scope_metadata_corrected": 1,
+  "kept_existing_proxy": 14
+}

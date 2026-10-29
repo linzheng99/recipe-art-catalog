@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import path from "node:path";
+import { stat } from "node:fs/promises";
 import { readJSON, nutritionRoot } from "../scripts/nutrition-usda.mjs";
 import { validateProfile } from "../scripts/nutrition-model.mjs";
 import { applyNutritionPlans } from "../scripts/nutrition-plans.mjs";
@@ -60,9 +61,9 @@ test("剩余21篇逐篇有代理方案、原缺项档案及来源精化待办，
 test("代理营养仍按成品每100g计算，鱼肉不包含鱼骨，炸煎不计整锅油", () => {
   const fish = details.find((d) => d.recipe_id === "howtocook-eb849be42cbb");
   assert.equal(fish.profile.ingredients[0].quantity.value, 350);
-  assert.equal(fish.profile.ingredients[0].food.fdc_id, 174184);
+  assert.equal(fish.profile.ingredients[0].food.fdc_id, 2677915);
   assert.equal(fish.calculation.final_edible_g, 950);
-  assert.equal(fish.per_100g.energy_kcal, 82.764211);
+  assert.equal(fish.per_100g.energy_kcal, 70.237895);
   const head = details.find((d) => d.recipe_id === "howtocook-961ae3ea5f72");
   assert.match(head.scope, /鱼脑、鱼皮脂肪及骨髓不在/);
   const fried = details.find((d) => d.recipe_id === "howtocook-c9b72f0464b3");
@@ -144,6 +145,9 @@ test("未披露或没有实际食材来源的代理不能通过校验，不得�
 
 test("全部代理方案断点重跑不重复、不改写已发布的来源和审核记录", async () => {
   const before = await load("catalog/nutrition/profiles.json");
+  const file = path.join(nutritionRoot, "catalog/nutrition/profiles.json");
+  const modified = (await stat(file, { bigint: true })).mtimeNs;
   assert.equal((await applyNutritionPlans()).added, 0);
   assert.deepEqual(await load("catalog/nutrition/profiles.json"), before);
+  assert.equal((await stat(file, { bigint: true })).mtimeNs, modified);
 });

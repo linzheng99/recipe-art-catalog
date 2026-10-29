@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "batch": "batch-005",
-  "plan_sha256": "9b3684b335e05c835b6abbeb00590a799c78af415f3d1695fae29ed3ce30386e",
+  "plan_sha256": "e58f1a351e55556740f4fc858460e0482b593505a2e8e00a2809aa36904c8346",
   "jobs": {
     "efc8c9f761931859d1cc0ac6007224ed3868cf4a8b8ec26486cd35e221a38d2e": {
       "recipe_id": "howtocook-7047e23423f0",
@@ -11949,6 +11949,576 @@
               "fdc_id": 174970,
               "description": "Cookies, sugar wafer, with creme filling, sugar free",
               "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Water tap drinking",
+          "raw_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1",
+          "retrieved_at": "2026-10-28T01:44:44.623Z",
+          "candidates": [
+            {
+              "fdc_id": 173647,
+              "description": "Beverages, water, tap, drinking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710707,
+              "description": "Water, tap",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 175103,
+              "description": "Beverages, water, tap, municipal",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 175096,
+              "description": "Beverages, water, tap, well",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171890,
+              "description": "Beverages, coffee, brewed, prepared with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171889,
+              "description": "Beverages, coffee, brewed, prepared with tap water, decaffeinated",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173227,
+              "description": "Beverages, tea, black, brewed, prepared with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174871,
+              "description": "Beverages, tea, black, brewed, prepared with tap water, decaffeinated",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705541,
+              "description": "Infant formula, Enfamil Gentlease, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705535,
+              "description": "Infant formula, Enfamil Infant, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705566,
+              "description": "Infant formula, Enfamil ProSobee, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705523,
+              "description": "Infant formula, Similac Advance, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705527,
+              "description": "Infant formula, Similac Sensitive, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170015,
+              "description": "Peas, green, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168397,
+              "description": "Corn, sweet, yellow, canned, drained solids, rinsed with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705570,
+              "description": "Infant formula, Similac Isomil Soy, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 173797,
+              "description": "Beans, pinto, mature seeds, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705560,
+              "description": "Infant formula, store brand, advantage or tender, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 175243,
+              "description": "Beans, kidney, red, mature seeds, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173801,
+              "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained, rinsed in tap water",
+              "data_type": "SR Legacy"
+            }
+          ]
+        }
+      ]
+    },
+    "bee5aae1edcc5368d29d495a404adeb2cef216ca412a28dcad8b38b3406de536": {
+      "recipe_id": "howtocook-b261aa97c4ab",
+      "status": "complete",
+      "results": [
+        {
+          "query": "Alcoholic beverage distilled rum 80 proof",
+          "raw_sha256": "af3439df725651266741fdc4476c2d813b7b686403b5544b0d55a19ab2d75026",
+          "retrieved_at": "2026-10-28T05:56:21.380Z",
+          "candidates": [
+            {
+              "fdc_id": 174817,
+              "description": "Alcoholic beverage, distilled, rum, 80 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174818,
+              "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174815,
+              "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174819,
+              "description": "Alcoholic beverage, distilled, whiskey, 86 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173664,
+              "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 100 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171919,
+              "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 86 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171920,
+              "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 90 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173663,
+              "description": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 94 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 175097,
+              "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173665,
+              "description": "Alcoholic beverage, liqueur, coffee, 63 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173168,
+              "description": "Alcoholic beverage, creme de menthe, 72 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 175098,
+              "description": "Alcoholic beverage, liqueur, coffee with cream, 34 proof",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171906,
+              "description": "Alcoholic beverages, beer, higher alcohol",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710620,
+              "description": "Alcoholic malt beverage",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 174145,
+              "description": "Alcoholic beverage, beer, light, higher alcohol",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168749,
+              "description": "Alcoholic beverage, beer, light",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169573,
+              "description": "Alcoholic beverage, daiquiri, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167723,
+              "description": "Alcoholic beverage, rice (sake)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173662,
+              "description": "Alcoholic beverage, whiskey sour",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169070,
+              "description": "Alcoholic beverage, wine, cooking",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "curacao",
+          "raw_sha256": "c72da3dbd8347f410ca7c16308d9caeacc56f3dda58029aa8fc8eabf2fd8dd78",
+          "retrieved_at": "2026-10-29T01:22:41.426Z",
+          "candidates": [
+            {
+              "fdc_id": 2710623,
+              "description": "Liqueur",
+              "data_type": "Survey (FNDDS)"
+            }
+          ]
+        },
+        {
+          "query": "Orange juice raw",
+          "raw_sha256": "a4e39e135b137bdef33e459f82e439eb8f348074cc88322c4a1652fa7405912f",
+          "retrieved_at": "2026-10-28T03:02:23.040Z",
+          "candidates": [
+            {
+              "fdc_id": 2709171,
+              "description": "Orange, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169103,
+              "description": "Orange peel, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169918,
+              "description": "Oranges, raw, Florida",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 746771,
+              "description": "Oranges, raw, navels",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169919,
+              "description": "Oranges, raw, with peel",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170502,
+              "description": "Tomatoes, orange, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171687,
+              "description": "Acerola juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167747,
+              "description": "Lemon juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168156,
+              "description": "Lime juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169925,
+              "description": "Tangerine juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169098,
+              "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 175133,
+              "description": "Fish, roughy, orange, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169916,
+              "description": "Oranges, raw, California, valencias",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2258591,
+              "description": "Peppers, bell, orange, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169105,
+              "description": "Tangerines, (mandarin oranges), raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171354,
+              "description": "Babyfood, juice, orange",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167774,
+              "description": "Grapefruit juice, pink, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173039,
+              "description": "Grapefruit juice, white, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169097,
+              "description": "Oranges, raw, all commercial varieties",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171355,
+              "description": "Babyfood, juice, orange and apple",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "grenadine",
+          "raw_sha256": "412e5f25724ddde47ee94aea66f9b6e2827e60694d1ae789cc1e5fc11a946657",
+          "retrieved_at": "2026-10-29T01:21:10.896Z",
+          "candidates": [
+            {
+              "fdc_id": 168088,
+              "description": "Syrups, grenadine",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710278,
+              "description": "Simple syrup",
+              "data_type": "Survey (FNDDS)"
+            }
+          ]
+        },
+        {
+          "query": "Lemon juice raw",
+          "raw_sha256": "e4f19763b707b3d5f7d64efa50b901c0c91a0b2bcb249edfe667adadad966a24",
+          "retrieved_at": "2026-10-28T03:02:04.156Z",
+          "candidates": [
+            {
+              "fdc_id": 167747,
+              "description": "Lemon juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709168,
+              "description": "Lemon, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 167749,
+              "description": "Lemon peel, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171687,
+              "description": "Acerola juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168156,
+              "description": "Lime juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169925,
+              "description": "Tangerine juice, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168573,
+              "description": "Lemon grass (citronella), raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167746,
+              "description": "Lemons, raw, without peel",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167774,
+              "description": "Grapefruit juice, pink, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173039,
+              "description": "Grapefruit juice, white, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169109,
+              "description": "Passion-fruit juice, purple, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169110,
+              "description": "Passion-fruit juice, yellow, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167802,
+              "description": "Lemon juice from concentrate, bottled, REAL LEMON",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709182,
+              "description": "Lemon juice, 100%, canned or bottled",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 174959,
+              "description": "Cookies, ladyfingers, with lemon juice and rind",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709181,
+              "description": "Lemon juice, 100%, freshly squeezed",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709180,
+              "description": "Lemon juice, 100%, NS as to form",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 172821,
+              "description": "Cookies, ladyfingers, without lemon juice and rind",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167801,
+              "description": "Lemon juice from concentrate, bottled, CONCORD",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167748,
+              "description": "Lemon juice from concentrate, canned or bottled",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Lemons raw without peel",
+          "raw_sha256": "e17df5f4a062fac3d58aa9d316a73d63e696c6548d7780e66c8271a72344d442",
+          "retrieved_at": "2026-10-28T03:01:57.655Z",
+          "candidates": [
+            {
+              "fdc_id": 167746,
+              "description": "Lemons, raw, without peel",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167749,
+              "description": "Lemon peel, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171689,
+              "description": "Apples, raw, without skin",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169225,
+              "description": "Cucumber, peeled, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2346406,
+              "description": "Cucumber, with peel, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 168409,
+              "description": "Cucumber, with peel, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169103,
+              "description": "Orange peel, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169919,
+              "description": "Oranges, raw, with peel",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2727580,
+              "description": "Rutabaga, peeled, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2346403,
+              "description": "Potatoes, gold, without skin, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2346402,
+              "description": "Potatoes, red, without skin, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2346401,
+              "description": "Potatoes, russet, without skin, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709168,
+              "description": "Lemon, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710824,
+              "description": "Avocado, Hass, peeled, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710832,
+              "description": "Mandarin, seedless, peeled, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710834,
+              "description": "Mango, Ataulfo, peeled, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2727577,
+              "description": "Pawpaw, peeled, seeded, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 173928,
+              "description": "Apples, raw, without skin, cooked, boiled",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173929,
+              "description": "Apples, raw, without skin, cooked, microwave",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710831,
+              "description": "Kiwifruit (kiwi), green, peeled, raw",
+              "data_type": "Foundation"
             }
           ]
         },

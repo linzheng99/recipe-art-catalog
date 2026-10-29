@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "batch": "batch-002",
-  "plan_sha256": "464af3fe260ef2169a0bd512cfa70884cfcd6e423043b6437ac376ac05e3906f",
+  "plan_sha256": "ece775b795090f94f93df70003c90b86d3a4d806e8bd521c1b19b2a3cc1c9e2c",
   "jobs": {
     "8ca8738a8f3261ad7faa6d010769fe9c66e2fabb4675438b4d31041c87656c8f": {
       "recipe_id": "howtocook-b69537e9b0c4",
@@ -38690,6 +38690,2287 @@
               "fdc_id": 174806,
               "description": "Snacks, Pretzels, gluten- free made with cornstarch and potato flour",
               "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Water tap drinking",
+          "raw_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1",
+          "retrieved_at": "2026-10-28T01:44:44.623Z",
+          "candidates": [
+            {
+              "fdc_id": 173647,
+              "description": "Beverages, water, tap, drinking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710707,
+              "description": "Water, tap",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 175103,
+              "description": "Beverages, water, tap, municipal",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 175096,
+              "description": "Beverages, water, tap, well",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171890,
+              "description": "Beverages, coffee, brewed, prepared with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171889,
+              "description": "Beverages, coffee, brewed, prepared with tap water, decaffeinated",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173227,
+              "description": "Beverages, tea, black, brewed, prepared with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174871,
+              "description": "Beverages, tea, black, brewed, prepared with tap water, decaffeinated",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705541,
+              "description": "Infant formula, Enfamil Gentlease, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705535,
+              "description": "Infant formula, Enfamil Infant, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705566,
+              "description": "Infant formula, Enfamil ProSobee, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705523,
+              "description": "Infant formula, Similac Advance, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705527,
+              "description": "Infant formula, Similac Sensitive, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170015,
+              "description": "Peas, green, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168397,
+              "description": "Corn, sweet, yellow, canned, drained solids, rinsed with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705570,
+              "description": "Infant formula, Similac Isomil Soy, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 173797,
+              "description": "Beans, pinto, mature seeds, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705560,
+              "description": "Infant formula, store brand, advantage or tender, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 175243,
+              "description": "Beans, kidney, red, mature seeds, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173801,
+              "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained, rinsed in tap water",
+              "data_type": "SR Legacy"
+            }
+          ]
+        }
+      ]
+    },
+    "c324d4cfa6d0851ec8dd232db4741f14c4ed51a399adc6d4db6325b5114fd0dd": {
+      "recipe_id": "howtocook-eb849be42cbb",
+      "status": "complete",
+      "results": [
+        {
+          "query": {
+            "query": "085239019023",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "raw_sha256": "edb8814851c75d112909c28112b723ff0b60b8c2c4e917cef838f5162f70a757",
+          "retrieved_at": "2026-10-29T01:24:06.127Z",
+          "candidates": [
+            {
+              "fdc_id": 2677915,
+              "description": "SWAI FILLETS",
+              "data_type": "Branded"
+            }
+          ]
+        },
+        {
+          "query": "Cauliflower raw",
+          "raw_sha256": "8da9b8aa10c5d27f4d97875c96e4221b0fb6967017a8bd7cae6cd759caa6bfac",
+          "retrieved_at": "2026-10-28T02:58:57.696Z",
+          "candidates": [
+            {
+              "fdc_id": 2685573,
+              "description": "Cauliflower, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169986,
+              "description": "Cauliflower, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709777,
+              "description": "Cauliflower, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169389,
+              "description": "Cauliflower, green, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710042,
+              "description": "Fried cauliflower",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710074,
+              "description": "Cauliflower, pickled",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710801,
+              "description": "Cauliflower, cooked, as ingredient",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170398,
+              "description": "Cauliflower, frozen, unprepared",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709902,
+              "description": "Cauliflower, fresh, cooked with oil",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709904,
+              "description": "Cauliflower, frozen, cooked with oil",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169391,
+              "description": "Cauliflower, green, cooked, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709899,
+              "description": "Cauliflower, NS as to form, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709164,
+              "description": "Clementine, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 167782,
+              "description": "Abiyuch, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709215,
+              "description": "Apple, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709221,
+              "description": "Apricot, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171697,
+              "description": "Apricots, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169203,
+              "description": "Arrowhead, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168490,
+              "description": "Arrowroot, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169387,
+              "description": "Arugula, raw",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Lettuce green leaf raw",
+          "raw_sha256": "3190fdee0360fd2a4f9b885c95d471bd10e3283128b572b087f1fdc606b1749f",
+          "retrieved_at": "2026-10-28T02:59:10.233Z",
+          "candidates": [
+            {
+              "fdc_id": 169249,
+              "description": "Lettuce, green leaf, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2346391,
+              "description": "Lettuce, leaf, green, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2346390,
+              "description": "Lettuce, leaf, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 168431,
+              "description": "Lettuce, red leaf, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2346389,
+              "description": "Lettuce, romaine, green, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709789,
+              "description": "Lettuce, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709790,
+              "description": "Lettuce, Boston, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709590,
+              "description": "Romaine lettuce, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709791,
+              "description": "Lettuce, arugula, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2346388,
+              "description": "Lettuce, iceberg, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169247,
+              "description": "Lettuce, cos or romaine, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 746769,
+              "description": "Lettuce, cos or romaine, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710490,
+              "description": "Tea, hot, leaf, green",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2727583,
+              "description": "Cabbage, napa, leaf, destemmed, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710491,
+              "description": "Tea, hot, leaf, green, decaffeinated",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169246,
+              "description": "Leeks, (bulb and lower leaf-portion), raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169248,
+              "description": "Lettuce, iceberg (includes crisphead types), raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710823,
+              "description": "Asparagus, green, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709570,
+              "description": "Beet greens, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170375,
+              "description": "Beet greens, raw",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": {
+            "query": "LEE KUM KEE CHILI BEAN SAUCE",
+            "data_types": [
+              "Branded"
+            ]
+          },
+          "raw_sha256": "340eaa012a381696edd87b80d4b29966bc37a0ec03d74feffeb73c4049818c69",
+          "retrieved_at": "2026-10-28T06:01:07.858Z",
+          "candidates": [
+            {
+              "fdc_id": 1662091,
+              "description": "LEE KUM KEE, CHILI BEAN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2505417,
+              "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2084986,
+              "description": "LEE KUM KEE, SRIRACHA CHILI SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2028275,
+              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2032239,
+              "description": "LEE KUM KEE, GUILIN STYLE CHILI SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2032300,
+              "description": "LEE KUM KEE, GUILIN STYLE CHILI SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2012652,
+              "description": "LEE KUM KEE, HOISIN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2032223,
+              "description": "LEE KUM KEE, HOISIN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2028269,
+              "description": "LEE KUM KEE, HOISIN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2028284,
+              "description": "LEE KUM KEE, LEMONGRASS SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2028231,
+              "description": "LEE KUM KEE, SOYBEAN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2032217,
+              "description": "LEE KUM KEE, XO SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2033595,
+              "description": "LEE KUM KEE, SRIRACHA CHILI KETCHUP",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2028267,
+              "description": "LEE KUM KEE, BLACK BEAN GARLIC SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2029208,
+              "description": "LEE KUM KEE, SAUCE FOR BLACK BEAN CHICKEN",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2028229,
+              "description": "LEE KUM KEE, CHINESE BARBECUE SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2028286,
+              "description": "LEE KUM KEE, GARLIC HOISIN SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2032318,
+              "description": "LEE KUM KEE, KOREAN BARBECUE SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2024674,
+              "description": "LEE KUM KEE, OYSTER FLAVORED SAUCE",
+              "data_type": "Branded"
+            },
+            {
+              "fdc_id": 2032543,
+              "description": "LEE KUM KEE, SPARE RIB SAUCE",
+              "data_type": "Branded"
+            }
+          ]
+        },
+        {
+          "query": "Oil soybean salad cooking",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba",
+          "retrieved_at": "2026-10-28T02:58:38.318Z",
+          "candidates": [
+            {
+              "fdc_id": 171411,
+              "description": "Oil, soybean, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171012,
+              "description": "Oil, soybean, salad or cooking, (partially hydrogenated)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173565,
+              "description": "Oil, soybean, salad or cooking, (partially hydrogenated) and cottonseed",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 748366,
+              "description": "Oil, soybean",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710191,
+              "description": "Soybean oil",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2707388,
+              "description": "Soybeans, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171010,
+              "description": "Salad dressing, mayonnaise, soybean and safflower oil, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171418,
+              "description": "Salad dressing, mayonnaise, soybean oil, without salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171024,
+              "description": "Oil, cottonseed, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171413,
+              "description": "Oil, olive, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171410,
+              "description": "Oil, peanut, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171016,
+              "description": "Oil, sesame, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171426,
+              "description": "Oil, soybean lecithin",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 172370,
+              "description": "Oil, vegetable, soybean, refined",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171406,
+              "description": "Salad dressing, mayonnaise, imitation, soybean",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171433,
+              "description": "Oil, cooking and salad, ENOVA, 80% diglycerides",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171026,
+              "description": "Oil, safflower, salad or cooking, linoleic, (over 70%)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170530,
+              "description": "Soybeans, green, cooked, boiled, drained, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174271,
+              "description": "Soybeans, mature cooked, boiled, without salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174299,
+              "description": "Soybeans, mature seeds, cooked, boiled, with salt",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Garlic raw",
+          "raw_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f",
+          "retrieved_at": "2026-10-28T01:05:07.095Z",
+          "candidates": [
+            {
+              "fdc_id": 2709786,
+              "description": "Garlic, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 1104647,
+              "description": "Garlic, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169230,
+              "description": "Garlic, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167782,
+              "description": "Abiyuch, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709164,
+              "description": "Clementine, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709215,
+              "description": "Apple, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709221,
+              "description": "Apricot, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171697,
+              "description": "Apricots, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169203,
+              "description": "Arrowhead, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168490,
+              "description": "Arrowroot, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169387,
+              "description": "Arugula, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168389,
+              "description": "Asparagus, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709767,
+              "description": "Asparagus, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709223,
+              "description": "Avocado, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709224,
+              "description": "Banana, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 173944,
+              "description": "Bananas, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709780,
+              "description": "Basil, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2685576,
+              "description": "Beets, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709770,
+              "description": "Beets, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169145,
+              "description": "Beets, raw",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Salt table",
+          "raw_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d",
+          "retrieved_at": "2026-10-28T01:06:29.343Z",
+          "candidates": [
+            {
+              "fdc_id": 173468,
+              "description": "Salt, table",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 746775,
+              "description": "Salt, table, iodized",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710153,
+              "description": "Table fat, NFS",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710164,
+              "description": "Oil or table fat, NFS",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169578,
+              "description": "Syrups, table blends, pancake",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173185,
+              "description": "Alcoholic beverage, wine, table, all",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173190,
+              "description": "Alcoholic beverage, wine, table, red",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174837,
+              "description": "Alcoholic beverage, wine, table, white",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167584,
+              "description": "Syrups, table blends, pancake, with butter",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173191,
+              "description": "Alcoholic Beverage, wine, table, red, Barbera",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173208,
+              "description": "Alcoholic Beverage, wine, table, red, Burgundy",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174840,
+              "description": "Alcoholic Beverage, wine, table, red, Carignane",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173194,
+              "description": "Alcoholic Beverage, wine, table, red, Claret",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171872,
+              "description": "Alcoholic Beverage, wine, table, red, Gamay",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174838,
+              "description": "Alcoholic Beverage, wine, table, red, Lemberger",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171925,
+              "description": "Alcoholic Beverage, wine, table, red, Merlot",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174109,
+              "description": "Alcoholic Beverage, wine, table, red, Mouvedre",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174839,
+              "description": "Alcoholic Beverage, wine, table, red, Sangiovese",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174836,
+              "description": "Alcoholic Beverage, wine, table, red, Syrah",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173192,
+              "description": "Alcoholic Beverage, wine, table, red, Zinfandel",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Sugars granulated",
+          "raw_sha256": "8aee09fb612eda4162c0f1704253129675177d813d0711818bf592e685adf9de",
+          "retrieved_at": "2026-10-27T14:54:03.575Z",
+          "candidates": [
+            {
+              "fdc_id": 746784,
+              "description": "Sugars, granulated",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169655,
+              "description": "Sugars, granulated",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710258,
+              "description": "Sugar, white, granulated or lump",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170675,
+              "description": "Sweeteners, sugar substitute, granulated, brown",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170041,
+              "description": "Potatoes, mashed, dehydrated, granules with milk, dry form",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171613,
+              "description": "Soup, bouillon cubes and granules, low sodium, dry",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170039,
+              "description": "Potatoes, mashed, dehydrated, granules without milk, dry form",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710262,
+              "description": "Sugar substitute and sugar blend",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2707988,
+              "description": "Cookie, sugar or plain, sugar free",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2707989,
+              "description": "Cookie, sugar wafer, sugar free",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170042,
+              "description": "Potatoes, mashed, dehydrated, prepared from granules with milk, water and margarine added",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168554,
+              "description": "Potatoes, mashed, prepared from granules, without milk, whole milk and margarine",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710260,
+              "description": "Sugar, brown",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710261,
+              "description": "Sugar, cinnamon",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710257,
+              "description": "Sugar, NFS",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170674,
+              "description": "Sugar, turbinado",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168833,
+              "description": "Sugars, brown",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169658,
+              "description": "Sugars, maple",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169656,
+              "description": "Sugars, powdered",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174970,
+              "description": "Cookies, sugar wafer, with creme filling, sugar free",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Spices pepper red cayenne",
+          "raw_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b",
+          "retrieved_at": "2026-10-28T02:59:53.493Z",
+          "candidates": [
+            {
+              "fdc_id": 170932,
+              "description": "Spices, pepper, red or cayenne",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170931,
+              "description": "Spices, pepper, black",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170933,
+              "description": "Spices, pepper, white",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709977,
+              "description": "Peppers, red, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2258590,
+              "description": "Peppers, bell, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 170108,
+              "description": "Peppers, sweet, red, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709801,
+              "description": "Peppers, sweet, red, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 168550,
+              "description": "Peppers, sweet, red, sauteed",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710799,
+              "description": "Red pepper, cooked, as ingredient",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170106,
+              "description": "Peppers, hot chili, red, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169373,
+              "description": "Peppers, sweet, red, freeze-dried",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168546,
+              "description": "Peppers, sweet, red, canned, solids and liquids",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168547,
+              "description": "Peppers, sweet, red, frozen, chopped, unprepared",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169218,
+              "description": "Corn with red and green peppers, canned, solids and liquids",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170515,
+              "description": "Peppers, sweet, red, cooked, boiled, drained, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171604,
+              "description": "Sauce, peppers, hot, chili, mature red, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171332,
+              "description": "Spices, pumpkin pie spice",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170110,
+              "description": "Peppers, sweet, red, cooked, boiled, drained, without salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168549,
+              "description": "Peppers, sweet, red, frozen, chopped, boiled, drained, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170919,
+              "description": "Spices, cardamom",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Water tap drinking",
+          "raw_sha256": "d0226ae1cba70a38d6c16dd9c6d4a74a3da4008eb3971e9d0ae8ce010d0666f1",
+          "retrieved_at": "2026-10-28T01:44:44.623Z",
+          "candidates": [
+            {
+              "fdc_id": 173647,
+              "description": "Beverages, water, tap, drinking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710707,
+              "description": "Water, tap",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 175103,
+              "description": "Beverages, water, tap, municipal",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 175096,
+              "description": "Beverages, water, tap, well",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171890,
+              "description": "Beverages, coffee, brewed, prepared with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171889,
+              "description": "Beverages, coffee, brewed, prepared with tap water, decaffeinated",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173227,
+              "description": "Beverages, tea, black, brewed, prepared with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174871,
+              "description": "Beverages, tea, black, brewed, prepared with tap water, decaffeinated",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705541,
+              "description": "Infant formula, Enfamil Gentlease, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705535,
+              "description": "Infant formula, Enfamil Infant, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705566,
+              "description": "Infant formula, Enfamil ProSobee, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705523,
+              "description": "Infant formula, Similac Advance, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2705527,
+              "description": "Infant formula, Similac Sensitive, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170015,
+              "description": "Peas, green, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168397,
+              "description": "Corn, sweet, yellow, canned, drained solids, rinsed with tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705570,
+              "description": "Infant formula, Similac Isomil Soy, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 173797,
+              "description": "Beans, pinto, mature seeds, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705560,
+              "description": "Infant formula, store brand, advantage or tender, powder, made with tap water",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 175243,
+              "description": "Beans, kidney, red, mature seeds, canned, drained solids, rinsed in tap water",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173801,
+              "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained, rinsed in tap water",
+              "data_type": "SR Legacy"
+            }
+          ]
+        }
+      ]
+    },
+    "1360671dd644cb2dd709b9936e503f6ca3879f7c513f0454f7b893bfb3d9f5ac": {
+      "recipe_id": "howtocook-961ae3ea5f72",
+      "status": "complete",
+      "results": [
+        {
+          "query": "Onions spring scallions tops bulb raw",
+          "raw_sha256": "e8c0c63a38c9e1e895ef8951fa1ab84231b7a1f52f2395007dd8328140a85143",
+          "retrieved_at": "2026-10-28T03:00:01.881Z",
+          "candidates": [
+            {
+              "fdc_id": 170005,
+              "description": "Onions, spring or scallions (includes tops and bulb), raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2727585,
+              "description": "Green onion, (scallion), bulb and greens, root removed, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709779,
+              "description": "Fennel bulb, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2747655,
+              "description": "Fennel, bulb, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169385,
+              "description": "Fennel, bulb, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169246,
+              "description": "Leeks, (bulb and lower leaf-portion), raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2727584,
+              "description": "Leeks, bulb and greens, root removed, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2727586,
+              "description": "Shallots, bulb, peeled, root removed, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709795,
+              "description": "Onions, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709907,
+              "description": "Fennel bulb, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170000,
+              "description": "Onions, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709794,
+              "description": "Onions, green, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 790577,
+              "description": "Onions, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 170008,
+              "description": "Onions, sweet, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170007,
+              "description": "Onions, welsh, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 1104962,
+              "description": "Onions, white, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 790646,
+              "description": "Onions, yellow, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 174489,
+              "description": "Ostrich, top loin, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2727574,
+              "description": "Beef, top sirloin steak, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 170006,
+              "description": "Onions, young green, tops only",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Ginger root raw",
+          "raw_sha256": "3ed0beff1be476911c0e6250c641fa95241e2baad9a5169294d889fb94927fc0",
+          "retrieved_at": "2026-10-28T02:59:57.102Z",
+          "candidates": [
+            {
+              "fdc_id": 169231,
+              "description": "Ginger root, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710082,
+              "description": "Ginger root, pickled",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169974,
+              "description": "Burdock root, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169993,
+              "description": "Chicory roots, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169250,
+              "description": "Lotus root, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168583,
+              "description": "Wasabi, root, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167608,
+              "description": "Mashu roots, raw (Alaska Native)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169765,
+              "description": "Ginger root, pickled, canned, with artificial sweetener",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2727584,
+              "description": "Leeks, bulb and greens, root removed, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2727586,
+              "description": "Shallots, bulb, peeled, root removed, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2727585,
+              "description": "Green onion, (scallion), bulb and greens, root removed, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709936,
+              "description": "Lotus root, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171871,
+              "description": "Beverages, carbonated, root beer",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710557,
+              "description": "Soft drink, root beer",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 168017,
+              "description": "Mouse nuts, roots (Alaska Native)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710558,
+              "description": "Soft drink, root beer, diet",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710507,
+              "description": "Tea, ginger",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709164,
+              "description": "Clementine, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710659,
+              "description": "Whiskey and ginger ale",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 167782,
+              "description": "Abiyuch, raw",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Garlic raw",
+          "raw_sha256": "ebdbd8f51a93d4a85a5a518466fff186e7ff349410e9078b86e5eddfabf4474f",
+          "retrieved_at": "2026-10-28T01:05:07.095Z",
+          "candidates": [
+            {
+              "fdc_id": 2709786,
+              "description": "Garlic, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 1104647,
+              "description": "Garlic, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169230,
+              "description": "Garlic, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167782,
+              "description": "Abiyuch, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709164,
+              "description": "Clementine, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709215,
+              "description": "Apple, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709221,
+              "description": "Apricot, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171697,
+              "description": "Apricots, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169203,
+              "description": "Arrowhead, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168490,
+              "description": "Arrowroot, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169387,
+              "description": "Arugula, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168389,
+              "description": "Asparagus, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709767,
+              "description": "Asparagus, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709223,
+              "description": "Avocado, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709224,
+              "description": "Banana, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 173944,
+              "description": "Bananas, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709780,
+              "description": "Basil, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2685576,
+              "description": "Beets, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2709770,
+              "description": "Beets, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169145,
+              "description": "Beets, raw",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Coriander cilantro leaves raw",
+          "raw_sha256": "264a96ea127cc09f4e1debbfd42c19523f8d0ea8285edb896cb2aa26b7abedde",
+          "retrieved_at": "2026-10-28T03:12:03.383Z",
+          "candidates": [
+            {
+              "fdc_id": 169997,
+              "description": "Coriander (cilantro) leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709782,
+              "description": "Cilantro, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 168416,
+              "description": "Drumstick leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168385,
+              "description": "Amaranth leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169329,
+              "description": "Broccoli, leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168491,
+              "description": "Chrysanthemum leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169399,
+              "description": "Fireweed, leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168575,
+              "description": "Grape leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169272,
+              "description": "Pumpkin leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168487,
+              "description": "Taro leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169303,
+              "description": "Sweet potato leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170478,
+              "description": "Winged bean leaves, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168988,
+              "description": "Fireweed, young leaves, raw (Alaska Native)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170922,
+              "description": "Spices, coriander seed",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170921,
+              "description": "Spices, coriander leaf, dried",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169393,
+              "description": "Grape leaves, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709633,
+              "description": "Taro leaves, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 172242,
+              "description": "Seasoning mix, dry, sazon, coriander & annatto",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709064,
+              "description": "Grape leaves stuffed with rice",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 168022,
+              "description": "Rhubarb, wild, leaves (Alaska Native)",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Peppers hot chili red raw",
+          "raw_sha256": "e2a9d0b841a624e2f6c79040efa094f3109bb51088453d50623a9b913b103bb0",
+          "retrieved_at": "2026-10-28T02:59:50.260Z",
+          "candidates": [
+            {
+              "fdc_id": 170106,
+              "description": "Peppers, hot chili, red, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170497,
+              "description": "Peppers, hot chili, green, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709798,
+              "description": "Peppers, hot, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171604,
+              "description": "Sauce, peppers, hot, chili, mature red, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2258590,
+              "description": "Peppers, bell, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 170108,
+              "description": "Peppers, sweet, red, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709801,
+              "description": "Peppers, sweet, red, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170107,
+              "description": "Peppers, hot chili, red, canned, excluding seeds, solids and liquids",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171605,
+              "description": "Sauce, chili, peppers, hot, immature green, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709802,
+              "description": "Peppers, banana, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2346408,
+              "description": "Cabbage, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169977,
+              "description": "Cabbage, red, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709775,
+              "description": "Cabbage, red, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 790577,
+              "description": "Onions, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2747665,
+              "description": "Radishes, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 169394,
+              "description": "Pepper, banana, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168578,
+              "description": "Peppers, hungarian, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168576,
+              "description": "Peppers, jalapeno, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709799,
+              "description": "Peppers, raw, NFS",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169395,
+              "description": "Peppers, serrano, raw",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Oil soybean salad cooking",
+          "raw_sha256": "96c9e56e7b079c64bac9405209c4b4264e9d118e15026454759231ddc475aeba",
+          "retrieved_at": "2026-10-28T02:58:38.318Z",
+          "candidates": [
+            {
+              "fdc_id": 171411,
+              "description": "Oil, soybean, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171012,
+              "description": "Oil, soybean, salad or cooking, (partially hydrogenated)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173565,
+              "description": "Oil, soybean, salad or cooking, (partially hydrogenated) and cottonseed",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 748366,
+              "description": "Oil, soybean",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710191,
+              "description": "Soybean oil",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2707388,
+              "description": "Soybeans, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171010,
+              "description": "Salad dressing, mayonnaise, soybean and safflower oil, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171418,
+              "description": "Salad dressing, mayonnaise, soybean oil, without salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171024,
+              "description": "Oil, cottonseed, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171413,
+              "description": "Oil, olive, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171410,
+              "description": "Oil, peanut, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171016,
+              "description": "Oil, sesame, salad or cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171426,
+              "description": "Oil, soybean lecithin",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 172370,
+              "description": "Oil, vegetable, soybean, refined",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171406,
+              "description": "Salad dressing, mayonnaise, imitation, soybean",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171433,
+              "description": "Oil, cooking and salad, ENOVA, 80% diglycerides",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171026,
+              "description": "Oil, safflower, salad or cooking, linoleic, (over 70%)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170530,
+              "description": "Soybeans, green, cooked, boiled, drained, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174271,
+              "description": "Soybeans, mature cooked, boiled, without salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174299,
+              "description": "Soybeans, mature seeds, cooked, boiled, with salt",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Soy sauce shoyu",
+          "raw_sha256": "c3c53d6c22e3b94c55453de004da9da67f117c3128f034754e3135f8d2f4520a",
+          "retrieved_at": "2026-10-28T01:05:13.868Z",
+          "candidates": [
+            {
+              "fdc_id": 174277,
+              "description": "Soy sauce made from soy and wheat (shoyu)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 172473,
+              "description": "Soy sauce made from soy and wheat (shoyu), low sodium",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2707442,
+              "description": "Soy sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 174278,
+              "description": "Soy sauce made from soy (tamari)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2707443,
+              "description": "Soy sauce, reduced sodium",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2707148,
+              "description": "Gravy, made with soy sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706386,
+              "description": "Beef with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706488,
+              "description": "Beef and noodles with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706497,
+              "description": "Beef and rice with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706765,
+              "description": "Pork and onions with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706762,
+              "description": "Pork and watercress with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706408,
+              "description": "Pork or ham with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706557,
+              "description": "Shrimp and noodles with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710246,
+              "description": "Soy based sauce, for use with vegetables",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706536,
+              "description": "Chicken or turkey and noodles with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706542,
+              "description": "Chicken or turkey and rice with soy-based sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706751,
+              "description": "Stir fried beef and vegetables in soy sauce",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 172369,
+              "description": "Margarine, industrial, soy and partially hydrogenated soy oil, use for baking, sauces and candy",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174070,
+              "description": "Sauce, peanut, made from peanut butter, water, soy sauce",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709109,
+              "description": "Rice, brown, with soy-based sauce, fat added",
+              "data_type": "Survey (FNDDS)"
+            }
+          ]
+        },
+        {
+          "query": "Alcoholic beverage rice sake",
+          "raw_sha256": "c706d4b1c64f3960b087c5b638b3e3079678b073beb33980908fdc47dc55367e",
+          "retrieved_at": "2026-10-28T06:52:06.416Z",
+          "candidates": [
+            {
+              "fdc_id": 167723,
+              "description": "Alcoholic beverage, rice (sake)",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171906,
+              "description": "Alcoholic beverages, beer, higher alcohol",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710620,
+              "description": "Alcoholic malt beverage",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 174145,
+              "description": "Alcoholic beverage, beer, light, higher alcohol",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168749,
+              "description": "Alcoholic beverage, beer, light",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169573,
+              "description": "Alcoholic beverage, daiquiri, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173662,
+              "description": "Alcoholic beverage, whiskey sour",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169070,
+              "description": "Alcoholic beverage, wine, cooking",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169071,
+              "description": "Alcoholic beverage, wine, light",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171908,
+              "description": "Alcoholic beverages, wine, rose",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710619,
+              "description": "Alcoholic malt beverage, sweetened",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 174157,
+              "description": "Beverages, Wine, non-alcoholic",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168746,
+              "description": "Alcoholic beverage, beer, regular, all",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168747,
+              "description": "Alcoholic beverage, beer, regular, BUDWEISER",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168750,
+              "description": "Alcoholic beverage, pina colada, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168753,
+              "description": "Alcoholic beverage, tequila sunrise, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174810,
+              "description": "Alcoholic beverage, whiskey sour, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 175112,
+              "description": "Alcoholic beverage, wine, dessert, dry",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173176,
+              "description": "Alcoholic beverage, wine, dessert, sweet",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173185,
+              "description": "Alcoholic beverage, wine, table, all",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Salt table",
+          "raw_sha256": "8ec891215cf4085bf50721964945ea9f539f0d34945fa9a51920288f4bce172d",
+          "retrieved_at": "2026-10-28T01:06:29.343Z",
+          "candidates": [
+            {
+              "fdc_id": 173468,
+              "description": "Salt, table",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 746775,
+              "description": "Salt, table, iodized",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 2710153,
+              "description": "Table fat, NFS",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710164,
+              "description": "Oil or table fat, NFS",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 169578,
+              "description": "Syrups, table blends, pancake",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173185,
+              "description": "Alcoholic beverage, wine, table, all",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173190,
+              "description": "Alcoholic beverage, wine, table, red",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174837,
+              "description": "Alcoholic beverage, wine, table, white",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 167584,
+              "description": "Syrups, table blends, pancake, with butter",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173191,
+              "description": "Alcoholic Beverage, wine, table, red, Barbera",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173208,
+              "description": "Alcoholic Beverage, wine, table, red, Burgundy",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174840,
+              "description": "Alcoholic Beverage, wine, table, red, Carignane",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173194,
+              "description": "Alcoholic Beverage, wine, table, red, Claret",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171872,
+              "description": "Alcoholic Beverage, wine, table, red, Gamay",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174838,
+              "description": "Alcoholic Beverage, wine, table, red, Lemberger",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171925,
+              "description": "Alcoholic Beverage, wine, table, red, Merlot",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174109,
+              "description": "Alcoholic Beverage, wine, table, red, Mouvedre",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174839,
+              "description": "Alcoholic Beverage, wine, table, red, Sangiovese",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174836,
+              "description": "Alcoholic Beverage, wine, table, red, Syrah",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 173192,
+              "description": "Alcoholic Beverage, wine, table, red, Zinfandel",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Spices pepper red cayenne",
+          "raw_sha256": "fe45fa93933bb33f66d7f2133294743c43a2ce3f8e4f89cfab9e4e55df34502b",
+          "retrieved_at": "2026-10-28T02:59:53.493Z",
+          "candidates": [
+            {
+              "fdc_id": 170932,
+              "description": "Spices, pepper, red or cayenne",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170931,
+              "description": "Spices, pepper, black",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170933,
+              "description": "Spices, pepper, white",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709977,
+              "description": "Peppers, red, cooked",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2258590,
+              "description": "Peppers, bell, red, raw",
+              "data_type": "Foundation"
+            },
+            {
+              "fdc_id": 170108,
+              "description": "Peppers, sweet, red, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709801,
+              "description": "Peppers, sweet, red, raw",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 168550,
+              "description": "Peppers, sweet, red, sauteed",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710799,
+              "description": "Red pepper, cooked, as ingredient",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 170106,
+              "description": "Peppers, hot chili, red, raw",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169373,
+              "description": "Peppers, sweet, red, freeze-dried",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168546,
+              "description": "Peppers, sweet, red, canned, solids and liquids",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168547,
+              "description": "Peppers, sweet, red, frozen, chopped, unprepared",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 169218,
+              "description": "Corn with red and green peppers, canned, solids and liquids",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170515,
+              "description": "Peppers, sweet, red, cooked, boiled, drained, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171604,
+              "description": "Sauce, peppers, hot, chili, mature red, canned",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 171332,
+              "description": "Spices, pumpkin pie spice",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170110,
+              "description": "Peppers, sweet, red, cooked, boiled, drained, without salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 168549,
+              "description": "Peppers, sweet, red, frozen, chopped, boiled, drained, with salt",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 170919,
+              "description": "Spices, cardamom",
+              "data_type": "SR Legacy"
+            }
+          ]
+        },
+        {
+          "query": "Vinegar cider",
+          "raw_sha256": "9902e57ba3c67e16fb8d820a0fddefe4b9652a63b30338cfef7e79a76d2bafa3",
+          "retrieved_at": "2026-10-28T01:05:21.901Z",
+          "candidates": [
+            {
+              "fdc_id": 173469,
+              "description": "Vinegar, cider",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2709319,
+              "description": "Apple cider",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2710621,
+              "description": "Hard cider",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709351,
+              "description": "Vinegar",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 172241,
+              "description": "Vinegar, balsamic",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 172237,
+              "description": "Vinegar, distilled",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 174146,
+              "description": "Beverages, AMBER, hard cider",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 172240,
+              "description": "Vinegar, red wine",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2710203,
+              "description": "Italian dressing, made with vinegar and oil",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709821,
+              "description": "Cucumber salad made with cucumber and vinegar",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 171417,
+              "description": "Salad dressing, home recipe, vinegar and oil",
+              "data_type": "SR Legacy"
+            },
+            {
+              "fdc_id": 2705818,
+              "description": "Mozzarella cheese, tomato, and basil, with oil and vinegar dressing",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709756,
+              "description": "Tomato and cucumber salad made with tomato, cucumber, oil, and vinegar",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709818,
+              "description": "Cucumber and vegetable namasu",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706807,
+              "description": "Chicken or turkey salad, made with Italian dressing",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2707188,
+              "description": "Egg salad, made with Italian dressing",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709549,
+              "description": "Potato salad, made with Italian dressing",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2706834,
+              "description": "Tuna salad, made with Italian dressing",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709820,
+              "description": "Cucumber salad, made with Italian dressing",
+              "data_type": "Survey (FNDDS)"
+            },
+            {
+              "fdc_id": 2709538,
+              "description": "Potato salad with egg, made with Italian dressing",
+              "data_type": "Survey (FNDDS)"
             }
           ]
         },

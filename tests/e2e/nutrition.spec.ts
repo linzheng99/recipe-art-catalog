@@ -24,8 +24,8 @@ async function openEvidence(scope: Locator) {
 for (const sample of [
   {
     key: "dish-eb849be42cbb",
-    kcal: "82.8",
-    scope: "巴沙鱼净肉350g以通用淡水鲈鱼肉代理",
+    kcal: "70.2",
+    scope: "巴沙鱼部分固定为Good & Gather",
     file: "fish-proxy",
   },
   {
@@ -93,7 +93,7 @@ test("Mealora浏览器按原字段获取代理营养和精度标记，来源详�
     };
   });
   expect(result.status).toBe("available");
-  expect(result.kcal).toBeCloseTo(124.1463165, 6);
+  expect(result.kcal).toBeCloseTo(105.3568425, 6);
   expect(result.level).toBe("food_group_proxy");
   expect(result.detail).toBe("available");
   expect(result.quality).toEqual({

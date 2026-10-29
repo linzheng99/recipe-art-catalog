@@ -36295,157 +36295,6 @@
       }
     },
     {
-      "id": "family-961ae3ea5f72-v1",
-      "recipe_id": "howtocook-961ae3ea5f72",
-      "recipe_blob_sha": "41bddee09473ee7fc5fcc413b619b7d766c12dea",
-      "version": "1",
-      "data_version": "4da03e63fe150e6a",
-      "status": "reference",
-      "review_status": "approved",
-      "method": "usda_recipe_estimate",
-      "estimation_level": "food_group_proxy",
-      "recipe_basis": "standardized_assumptions",
-      "estimate_confidence": "low",
-      "final_weight": {
-        "grams": 700,
-        "method": "household_recipe_assumption",
-        "basis": "standard_recipe_assumption",
-        "is_measured": false,
-        "servings": {
-          "min": 2,
-          "max": 3
-        },
-        "evidence": "项目按2–3人家庭份明确设定成品700g，非实测或USDA出成率；原料与成品重分别保存。"
-      },
-      "retention_correction": "not_applied",
-      "basis": "per_100g",
-      "completeness": "complete",
-      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：鲤鱼可食鱼肉350g、小葱100g、姜30g、去皮大蒜15g、香菜叶10g、鲜辣椒5g、大豆食用油27g、通用酱油（shoyu近似）18g、普通米酒烹调酒15g、食盐5g、黑胡椒粉2g、白醋5g、干辣椒3g、饮用水350g；整份约700g。鱼头及附带鱼身中去骨可食鱼肉按350g标准量，采用鲤鱼净肉代理白鲢或花鲢鱼头肉；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不能把带骨整鱼头毛重当350g肉。只计食用葱姜蒜及酱汁，省略鸡精、八角等香料包；两种酱油合计18g按普通酱油，米酒15g能量暂按全保留。油27g为最终食用量，成品700g含食用汤汁，非实测。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
-      "match": {
-        "identity_precision": "food_group_proxy",
-        "food_proxies": [
-          {
-            "target": "鲢鱼头可食鱼肉",
-            "reference_name": "鲤鱼可食鱼肉",
-            "food": {
-              "fdc_id": 171952,
-              "description": "Fish, carp, raw",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "d6bebba69077bbfcedaa4d12bdaba6cd252ff24602d590ade6f7240d6a78b295"
-            },
-            "reason": "用普通淡水鱼肉估算可食肉部分，未覆盖头部各组织的实际营养"
-          }
-        ],
-        "food_identity": "howtocook-961ae3ea5f72",
-        "state": "ready_to_eat",
-        "cooking_method": "braise",
-        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
-        "oil_added": true,
-        "sugar_added": false,
-        "sauce_added": true,
-        "brand": null,
-        "variant": "family-961ae3ea5f72-v1",
-        "standard_ingredients": [
-          {
-            "key": "carp",
-            "grams": 350
-          },
-          {
-            "key": "scallion",
-            "grams": 100
-          },
-          {
-            "key": "ginger",
-            "grams": 30
-          },
-          {
-            "key": "garlic",
-            "grams": 15
-          },
-          {
-            "key": "coriander",
-            "grams": 10
-          },
-          {
-            "key": "chili",
-            "grams": 5
-          },
-          {
-            "key": "oil",
-            "grams": 27
-          },
-          {
-            "key": "soy",
-            "grams": 18
-          },
-          {
-            "key": "cooking_wine",
-            "grams": 15
-          },
-          {
-            "key": "salt",
-            "grams": 5
-          },
-          {
-            "key": "black_pepper",
-            "grams": 2
-          },
-          {
-            "key": "vinegar",
-            "grams": 5
-          },
-          {
-            "key": "chili_dry",
-            "grams": 3
-          },
-          {
-            "key": "water",
-            "grams": 350
-          }
-        ],
-        "excludes": [
-          "不同主料、品种、品牌、用量、含水量或额外配料",
-          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
-          "将家庭份成品重量假设当作实测或USDA出成率"
-        ]
-      },
-      "per_100g": {
-        "energy_kcal": 115.847143,
-        "protein_g": 9.720671,
-        "carbohydrate_g": 3.2957,
-        "fat_g": 6.835829
-      },
-      "source": {
-        "name": "USDA FoodData Central",
-        "url": "https://fdc.nal.usda.gov/food-details/171952/nutrients",
-        "version": "4da03e63fe150e6a",
-        "fdc_ids": [
-          171952,
-          170005,
-          169231,
-          169230,
-          169997,
-          170106,
-          171411,
-          174277,
-          167723,
-          173468,
-          170931,
-          172237,
-          170932,
-          173647
-        ]
-      },
-      "rules_version": "nutrition-1.6.0",
-      "is_estimate": true,
-      "requires_independent_match": true,
-      "details": {
-        "path": "assets/nutrition/family-961ae3ea5f72-v1.35f048e61ec21171.json",
-        "bytes": 58962,
-        "sha256": "35f048e61ec21171158a692f5716da4ea7d25197864f62438abe60c3754e9afe"
-      }
-    },
-    {
       "id": "family-c9b72f0464b3-v1",
       "recipe_id": "howtocook-c9b72f0464b3",
       "recipe_blob_sha": "6495c2bd9e2795aa3fecb372a17af1e635eb9a3e",
@@ -37794,902 +37643,6 @@
       }
     },
     {
-      "id": "family-280e1f88f772-v1",
-      "recipe_id": "howtocook-280e1f88f772",
-      "recipe_blob_sha": "0b2d1552dd52c2c6600aafc1d8c6105280bcca13",
-      "version": "1",
-      "data_version": "767b1be998c582da",
-      "status": "reference",
-      "review_status": "approved",
-      "method": "recipe_estimate",
-      "estimation_level": "food_group_proxy",
-      "recipe_basis": "standardized_assumptions",
-      "estimate_confidence": "low",
-      "final_weight": {
-        "grams": 1150,
-        "method": "household_recipe_assumption",
-        "basis": "standard_recipe_assumption",
-        "is_measured": false,
-        "servings": {
-          "min": 2,
-          "max": 3
-        },
-        "evidence": "项目按2–3人家庭份明确设定成品1150g，非实测或USDA出成率；原料与成品重分别保存。"
-      },
-      "retention_correction": "not_applied",
-      "basis": "per_100g",
-      "completeness": "complete",
-      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：鸡腿肉（去骨去皮）600g、土豆净可食量（USDA带皮宏量代理）300g、干辣椒30g、韭菜净叶40g、通用米发酵甜饮（甘酒）30g、普通啤酒150g、姜30g、去皮大蒜30g、通用酱油（shoyu近似）20g、大豆食用油45g、食盐6g、饮用水100g；整份约1150g。固定家庭鸡净腿肉600g（去骨去皮）、土豆300g；糍粑辣椒以干辣椒30g加配方水泡软捣碎的通用模型，蒜苗用韭菜净叶40g、酒糟用米发酵甜饮30g作食物组代理。浅煎后烧制，油45g仅指最终食用保留油，原炸锅两斤油不计；啤酒150g和全部酱汁计入、酒精损失未校正。省略香料包，成品1150g非实测，不冒充贵州原配料精确组成。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
-      "match": {
-        "identity_precision": "food_group_proxy",
-        "food_proxies": [
-          {
-            "target": "整鸡可食部分",
-            "reference_name": "鸡腿肉（去骨去皮）",
-            "food": {
-              "fdc_id": 173627,
-              "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b"
-            },
-            "reason": "普通去骨鸡腿肉代理，原鸡皮及各部位比例不同"
-          },
-          {
-            "target": "糍粑辣椒",
-            "reference_name": "干辣椒",
-            "food": {
-              "fdc_id": 170932,
-              "description": "Spices, pepper, red or cayenne",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
-            },
-            "reason": "明确干辣椒加水模型代理湿辣椒糊，非原配方测定"
-          },
-          {
-            "target": "蒜苗",
-            "reference_name": "韭菜净叶",
-            "food": {
-              "provider": "mext",
-              "food_id": "06207",
-              "description": "（にら類）　にら　葉　生",
-              "data_type": "MEXT Standard Tables",
-              "snapshot_sha256": "c362b7b834b1d85e2a794a7308511d9508c1f3741ba807fc2226553afa598c0b"
-            },
-            "reason": "同类葱蒜叶菜宏量近似"
-          },
-          {
-            "target": "酒糟",
-            "reference_name": "通用米发酵甜饮（甘酒）",
-            "food": {
-              "provider": "mext",
-              "food_id": "16050",
-              "description": "＜その他＞　甘酒",
-              "data_type": "MEXT Standard Tables",
-              "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
-            },
-            "reason": "同类谷物发酵食品代理，固形物和酒精可能不同"
-          }
-        ],
-        "food_identity": "howtocook-280e1f88f772",
-        "state": "ready_to_eat",
-        "cooking_method": "pan_fry",
-        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
-        "oil_added": true,
-        "sugar_added": false,
-        "sauce_added": true,
-        "brand": null,
-        "variant": "family-280e1f88f772-v1",
-        "standard_ingredients": [
-          {
-            "key": "chicken_thigh",
-            "grams": 600
-          },
-          {
-            "key": "potato",
-            "grams": 300
-          },
-          {
-            "key": "chili_dry",
-            "grams": 30
-          },
-          {
-            "key": "mext_chive",
-            "grams": 40
-          },
-          {
-            "key": "mext_amazake",
-            "grams": 30
-          },
-          {
-            "key": "beer",
-            "grams": 150
-          },
-          {
-            "key": "ginger",
-            "grams": 30
-          },
-          {
-            "key": "garlic",
-            "grams": 30
-          },
-          {
-            "key": "soy",
-            "grams": 20
-          },
-          {
-            "key": "oil",
-            "grams": 45
-          },
-          {
-            "key": "salt",
-            "grams": 6
-          },
-          {
-            "key": "water",
-            "grams": 100
-          }
-        ],
-        "excludes": [
-          "不同主料、品种、品牌、用量、含水量或额外配料",
-          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
-          "将家庭份成品重量假设当作实测或USDA出成率"
-        ]
-      },
-      "per_100g": {
-        "energy_kcal": 141.217391,
-        "protein_g": 11.644522,
-        "carbohydrate_g": 8.53487,
-        "fat_g": 6.592957
-      },
-      "source": {
-        "name": "USDA FoodData Central + MEXT 日本食品標準成分表",
-        "url": "https://fdc.nal.usda.gov/food-details/173627/nutrients",
-        "version": "767b1be998c582da",
-        "fdc_ids": [
-          173627,
-          170026,
-          170932,
-          168746,
-          169231,
-          169230,
-          174277,
-          171411,
-          173468,
-          173647
-        ],
-        "providers": [
-          "usda",
-          "mext"
-        ],
-        "food_ids": [
-          {
-            "provider": "mext",
-            "id": "06207"
-          },
-          {
-            "provider": "mext",
-            "id": "16050"
-          }
-        ]
-      },
-      "rules_version": "nutrition-1.6.0",
-      "is_estimate": true,
-      "requires_independent_match": true,
-      "details": {
-        "path": "assets/nutrition/family-280e1f88f772-v1.a3c2e99df50ab300.json",
-        "bytes": 60163,
-        "sha256": "a3c2e99df50ab300a689ec3a716b19c3c4de9d7c2422898b233579353a3d156a"
-      }
-    },
-    {
-      "id": "family-1bc98124aec5-v1",
-      "recipe_id": "howtocook-1bc98124aec5",
-      "recipe_blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
-      "version": "1",
-      "data_version": "f1233b4e514bb0c4",
-      "status": "reference",
-      "review_status": "approved",
-      "method": "usda_recipe_estimate",
-      "estimation_level": "food_group_proxy",
-      "recipe_basis": "standardized_assumptions",
-      "estimate_confidence": "low",
-      "final_weight": {
-        "grams": 300,
-        "method": "household_recipe_assumption",
-        "basis": "standard_recipe_assumption",
-        "is_measured": false,
-        "servings": {
-          "min": 2,
-          "max": 3
-        },
-        "evidence": "项目按2–3人家庭份明确设定成品300g，非实测或USDA出成率；原料与成品重分别保存。"
-      },
-      "retention_correction": "not_applied",
-      "basis": "per_100g",
-      "completeness": "complete",
-      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：食用牛油（牛脂）150g、大豆食用油35g、猪油20g、李锦记SPICY BEAN SAUCE辣豆酱40g、干辣椒15g、腐乳5g、李锦记辣豆豉酱5g、姜8g、去皮大蒜8g、孜然籽2g、肉桂粉1g、黑胡椒粉1g、食盐3g、饮用水80g；整份约300g。这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
-      "match": {
-        "identity_precision": "food_group_proxy",
-        "food_proxies": [
-          {
-            "target": "豆母子发酵豆制品",
-            "reference_name": "腐乳",
-            "food": {
-              "fdc_id": 174305,
-              "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
-            },
-            "reason": "同类发酵豆制品代理，非原产品组成"
-          },
-          {
-            "target": "豆豉和豆母子调味",
-            "reference_name": "李锦记辣豆豉酱",
-            "food": {
-              "fdc_id": 2505417,
-              "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
-              "data_type": "Branded",
-              "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
-              "brand_owner": "Lee Kum Kee Co. Ltd.",
-              "brand_name": "LEE KUM KEE",
-              "gtin_upc": "078895135480"
-            },
-            "reason": "固定通用发酵豆酱代理"
-          },
-          {
-            "target": "郫县豆瓣",
-            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
-            "food": {
-              "fdc_id": 2028275,
-              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
-              "data_type": "Branded",
-              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
-              "brand_owner": "Lee Kum Kee Co. Ltd.",
-              "brand_name": "LEE KUM KEE",
-              "gtin_upc": "078895610000"
-            },
-            "reason": "固定黄豆辣酱近似蚕豆豆瓣"
-          },
-          {
-            "target": "糍粑辣椒",
-            "reference_name": "干辣椒",
-            "food": {
-              "fdc_id": 170932,
-              "description": "Spices, pepper, red or cayenne",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
-            },
-            "reason": "干辣椒加水模型，不声称原湿糊测定"
-          }
-        ],
-        "food_identity": "howtocook-1bc98124aec5",
-        "state": "ready_to_eat",
-        "cooking_method": "braise",
-        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
-        "oil_added": true,
-        "sugar_added": false,
-        "sauce_added": false,
-        "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
-        "variant": "family-1bc98124aec5-v1",
-        "standard_ingredients": [
-          {
-            "key": "beef_tallow",
-            "grams": 150
-          },
-          {
-            "key": "oil",
-            "grams": 35
-          },
-          {
-            "key": "lard",
-            "grams": 20
-          },
-          {
-            "key": "douban_branded",
-            "grams": 40
-          },
-          {
-            "key": "chili_dry",
-            "grams": 15
-          },
-          {
-            "key": "tofu_salted",
-            "grams": 5
-          },
-          {
-            "key": "black_bean_sauce",
-            "grams": 5
-          },
-          {
-            "key": "ginger",
-            "grams": 8
-          },
-          {
-            "key": "garlic",
-            "grams": 8
-          },
-          {
-            "key": "cumin",
-            "grams": 2
-          },
-          {
-            "key": "cinnamon",
-            "grams": 1
-          },
-          {
-            "key": "black_pepper",
-            "grams": 1
-          },
-          {
-            "key": "salt",
-            "grams": 3
-          },
-          {
-            "key": "water",
-            "grams": 80
-          }
-        ],
-        "excludes": [
-          "不同主料、品种、品牌、用量、含水量或额外配料",
-          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
-          "将家庭份成品重量假设当作实测或USDA出成率"
-        ]
-      },
-      "per_100g": {
-        "energy_kcal": 667.916667,
-        "protein_g": 1.9046,
-        "carbohydrate_g": 7.634833,
-        "fat_g": 70.789333
-      },
-      "source": {
-        "name": "USDA FoodData Central",
-        "url": "https://fdc.nal.usda.gov/food-details/171400/nutrients",
-        "version": "f1233b4e514bb0c4",
-        "fdc_ids": [
-          171400,
-          171411,
-          171401,
-          2028275,
-          170932,
-          174305,
-          2505417,
-          169231,
-          169230,
-          170923,
-          171320,
-          170931,
-          173468,
-          173647
-        ]
-      },
-      "rules_version": "nutrition-1.6.0",
-      "is_estimate": true,
-      "requires_independent_match": true,
-      "details": {
-        "path": "assets/nutrition/family-1bc98124aec5-v1.944a8722393bad3a.json",
-        "bytes": 64298,
-        "sha256": "944a8722393bad3a6df8308db8bdecf1bc8195375f977419f3b9c6433811efd7"
-      }
-    },
-    {
-      "id": "family-c8756846df80-v1",
-      "recipe_id": "howtocook-c8756846df80",
-      "recipe_blob_sha": "c45e61ea554cfb8e4b520a58fa722b435166d056",
-      "version": "1",
-      "data_version": "d6f17d46aa5cd1f0",
-      "status": "reference",
-      "review_status": "approved",
-      "method": "recipe_estimate",
-      "estimation_level": "food_group_proxy",
-      "recipe_basis": "standardized_assumptions",
-      "basis": "per_100g",
-      "completeness": "complete",
-      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：焯熟小白菜250g、大豆食用油10g、通用酱油（shoyu近似）5g、通用蚝油5g、白砂糖3g、食盐2g、去皮大蒜12g、鲜辣椒3g；整份约290g。菜心采用已焯熟小白菜可食部代理；熟沥水菜净量250g单独称定，不从生菜重量推算出成率。油10g、生抽蚝油各5g、糖3g和盐2g，蒜12g辣椒3g，全部食用拌匀后理论总重290g。不同叶菜及焯水方式会有差异，不声称开花菜心实测。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
-      "match": {
-        "identity_precision": "food_group_proxy",
-        "food_proxies": [
-          {
-            "target": "焯熟菜心",
-            "reference_name": "焯熟小白菜",
-            "food": {
-              "provider": "krda",
-              "food_id": "F1750000009c",
-              "description": "청경채, 데친것",
-              "data_type": "KRDA Standard Food Composition DB",
-              "snapshot_sha256": "28ccacf0e300aa6e78e86f4bd097d709b8e288410c04f1d40f03e254b13597b2"
-            },
-            "reason": "同类熟叶菜代理，非菜心品种实测"
-          }
-        ],
-        "food_identity": "howtocook-c8756846df80",
-        "state": "ready_to_eat",
-        "cooking_method": "cold_mix",
-        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
-        "oil_added": true,
-        "sugar_added": true,
-        "sauce_added": true,
-        "brand": null,
-        "variant": "family-c8756846df80-v1",
-        "standard_ingredients": [
-          {
-            "key": "krda_blanch_greens",
-            "grams": 250
-          },
-          {
-            "key": "oil",
-            "grams": 10
-          },
-          {
-            "key": "soy",
-            "grams": 5
-          },
-          {
-            "key": "oyster",
-            "grams": 5
-          },
-          {
-            "key": "sugar",
-            "grams": 3
-          },
-          {
-            "key": "salt",
-            "grams": 2
-          },
-          {
-            "key": "garlic",
-            "grams": 12
-          },
-          {
-            "key": "chili",
-            "grams": 3
-          }
-        ],
-        "excludes": [
-          "不同主料、品种、品牌、用量、含水量或额外配料",
-          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
-          "将家庭份成品重量假设当作实测或USDA出成率"
-        ]
-      },
-      "per_100g": {
-        "energy_kcal": 52.341379,
-        "protein_g": 1.825448,
-        "carbohydrate_g": 4.328552,
-        "fat_g": 3.599724
-      },
-      "source": {
-        "name": "韩国 RDA 国家标准食物成分 DB + USDA FoodData Central",
-        "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
-        "version": "d6f17d46aa5cd1f0",
-        "fdc_ids": [
-          171411,
-          174277,
-          174529,
-          169655,
-          173468,
-          169230,
-          170106
-        ],
-        "providers": [
-          "krda",
-          "usda"
-        ],
-        "food_ids": [
-          {
-            "provider": "krda",
-            "id": "F1750000009c"
-          }
-        ]
-      },
-      "rules_version": "nutrition-1.6.0",
-      "is_estimate": true,
-      "requires_independent_match": true,
-      "details": {
-        "path": "assets/nutrition/family-c8756846df80-v1.6ad4ec96b7c4a627.json",
-        "bytes": 39328,
-        "sha256": "6ad4ec96b7c4a627e7a4ea2bcaf2b3caef893268457d7261837eb19ea14da575"
-      }
-    },
-    {
-      "id": "family-b261aa97c4ab-v1",
-      "recipe_id": "howtocook-b261aa97c4ab",
-      "recipe_blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
-      "version": "1",
-      "data_version": "7989c7274da5c317",
-      "status": "reference",
-      "review_status": "approved",
-      "method": "usda_recipe_estimate",
-      "estimation_level": "food_group_proxy",
-      "recipe_basis": "standardized_assumptions",
-      "basis": "per_100g",
-      "completeness": "complete",
-      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：朗姆酒40%酒精60g、通用咖啡甜酒（53 proof）30g、橙汁100g、枫糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g；整份约600g。两到三杯家庭标准冷调饮品，所有液体按克设定。蓝橙力娇酒用USDA通用53proof咖啡甜酒作甜酒宏量代理，红石榴糖浆用通用枫糖浆代理，口味不同；不是原品牌酒度糖分的真实数据。冰与苏打水合并为饮水340g并按全部融化质量，气体忽略；柠檬果肉10g，整份600g全部食用，未把ml按1比1换成g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
-      "match": {
-        "identity_precision": "food_group_proxy",
-        "food_proxies": [
-          {
-            "target": "蓝橙力娇酒",
-            "reference_name": "通用咖啡甜酒（53 proof）",
-            "food": {
-              "fdc_id": 175097,
-              "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
-            },
-            "reason": "通用含糖甜酒代理，原品牌酒度和含糖量可能不同"
-          },
-          {
-            "target": "红石榴糖浆",
-            "reference_name": "枫糖浆",
-            "food": {
-              "fdc_id": 169661,
-              "description": "Syrups, maple",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "a93b5547351e0ad5df031ffa320d1720c88d78f3614edf5ade23e1e5feb78d19"
-            },
-            "reason": "通用含糖糖浆宏量代理，非红石榴品牌配方"
-          }
-        ],
-        "food_identity": "howtocook-b261aa97c4ab",
-        "state": "ready_to_eat",
-        "cooking_method": "cold_mix",
-        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
-        "oil_added": false,
-        "sugar_added": false,
-        "sauce_added": false,
-        "brand": null,
-        "variant": "family-b261aa97c4ab-v1",
-        "standard_ingredients": [
-          {
-            "key": "rum",
-            "grams": 60
-          },
-          {
-            "key": "coffee_liqueur",
-            "grams": 30
-          },
-          {
-            "key": "orange_juice",
-            "grams": 100
-          },
-          {
-            "key": "maple",
-            "grams": 30
-          },
-          {
-            "key": "lemon_juice",
-            "grams": 30
-          },
-          {
-            "key": "lemon",
-            "grams": 10
-          },
-          {
-            "key": "water",
-            "grams": 340
-          }
-        ],
-        "excludes": [
-          "不同主料、品种、品牌、用量、含水量或额外配料",
-          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
-          "将家庭份成品重量假设当作实测或USDA出成率"
-        ]
-      },
-      "per_100g": {
-        "energy_kcal": 61.983333,
-        "protein_g": 0.1595,
-        "carbohydrate_g": 7.923667,
-        "fat_g": 0.068333
-      },
-      "source": {
-        "name": "USDA FoodData Central",
-        "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
-        "version": "7989c7274da5c317",
-        "fdc_ids": [
-          174817,
-          175097,
-          169098,
-          169661,
-          167747,
-          167746,
-          173647
-        ]
-      },
-      "rules_version": "nutrition-1.6.0",
-      "is_estimate": true,
-      "requires_independent_match": true,
-      "details": {
-        "path": "assets/nutrition/family-b261aa97c4ab-v1.7ef39b51ac0688d2.json",
-        "bytes": 34971,
-        "sha256": "7ef39b51ac0688d27567c7851496a6ab39371278ecc22a9c23f03bec0f5c9021"
-      }
-    },
-    {
-      "id": "family-45ad36b6133c-v1",
-      "recipe_id": "howtocook-45ad36b6133c",
-      "recipe_blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
-      "version": "1",
-      "data_version": "65469e5d8dd864eb",
-      "status": "reference",
-      "review_status": "approved",
-      "method": "usda_recipe_estimate",
-      "estimation_level": "food_group_proxy",
-      "recipe_basis": "standardized_assumptions",
-      "basis": "per_100g",
-      "completeness": "complete",
-      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用咖啡甜酒（53 proof）30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g；整份约610g。两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
-      "match": {
-        "identity_precision": "food_group_proxy",
-        "food_proxies": [
-          {
-            "target": "龙舌兰酒",
-            "reference_name": "通用40%vol无糖蒸馏酒",
-            "food": {
-              "fdc_id": 174818,
-              "description": "Alcoholic beverage, distilled, vodka, 80 proof",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
-            },
-            "reason": "通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测"
-          },
-          {
-            "target": "橙味甜酒",
-            "reference_name": "通用咖啡甜酒（53 proof）",
-            "food": {
-              "fdc_id": 175097,
-              "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
-            },
-            "reason": "通用含糖甜酒宏量代理，风味、酒度和含糖可能不同"
-          }
-        ],
-        "food_identity": "howtocook-45ad36b6133c",
-        "state": "ready_to_eat",
-        "cooking_method": "cold_mix",
-        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
-        "oil_added": false,
-        "sugar_added": false,
-        "sauce_added": false,
-        "brand": null,
-        "variant": "family-45ad36b6133c-v1",
-        "standard_ingredients": [
-          {
-            "key": "gin",
-            "grams": 30
-          },
-          {
-            "key": "generic_spirit",
-            "grams": 30
-          },
-          {
-            "key": "vodka",
-            "grams": 30
-          },
-          {
-            "key": "rum",
-            "grams": 30
-          },
-          {
-            "key": "coffee_liqueur",
-            "grams": 30
-          },
-          {
-            "key": "lemon_juice",
-            "grams": 60
-          },
-          {
-            "key": "maple",
-            "grams": 40
-          },
-          {
-            "key": "cola",
-            "grams": 150
-          },
-          {
-            "key": "lemon",
-            "grams": 10
-          },
-          {
-            "key": "water",
-            "grams": 200
-          }
-        ],
-        "excludes": [
-          "不同主料、品种、品牌、用量、含水量或额外配料",
-          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
-          "将家庭份成品重量假设当作实测或USDA出成率"
-        ]
-      },
-      "per_100g": {
-        "energy_kcal": 91.983607,
-        "protein_g": 0.06,
-        "carbohydrate_g": 10.083934,
-        "fat_g": 0.108689
-      },
-      "source": {
-        "name": "USDA FoodData Central",
-        "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
-        "version": "65469e5d8dd864eb",
-        "fdc_ids": [
-          174815,
-          174818,
-          174818,
-          174817,
-          175097,
-          167747,
-          169661,
-          174852,
-          167746,
-          173647
-        ]
-      },
-      "rules_version": "nutrition-1.6.0",
-      "is_estimate": true,
-      "requires_independent_match": true,
-      "details": {
-        "path": "assets/nutrition/family-45ad36b6133c-v1.ed716eaac9f89fd4.json",
-        "bytes": 45901,
-        "sha256": "ed716eaac9f89fd4e58ea0ae976656af1af8ce179ee0d62ab6a98d91cbfce031"
-      }
-    },
-    {
-      "id": "family-eb849be42cbb-v1",
-      "recipe_id": "howtocook-eb849be42cbb",
-      "recipe_blob_sha": "497b3c521b0d0a9db7e09962f49198a000632028",
-      "version": "1",
-      "data_version": "7daebfce7424934f",
-      "status": "reference",
-      "review_status": "approved",
-      "method": "usda_recipe_estimate",
-      "estimation_level": "food_group_proxy",
-      "recipe_basis": "standardized_assumptions",
-      "estimate_confidence": "low",
-      "final_weight": {
-        "grams": 950,
-        "method": "household_recipe_assumption",
-        "basis": "standard_recipe_assumption",
-        "is_measured": false,
-        "servings": {
-          "min": 2,
-          "max": 3
-        },
-        "evidence": "项目按2–3人家庭份明确设定成品950g，非实测或USDA出成率；原料与成品重分别保存。"
-      },
-      "retention_correction": "not_applied",
-      "basis": "per_100g",
-      "completeness": "complete",
-      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：通用淡水鱼净肉（鲈鱼参考）350g、花菜200g、绿叶生菜100g、李锦记SPICY BEAN SAUCE辣豆酱30g、大豆食用油28g、去皮大蒜12g、食盐4g、白砂糖2g、黑胡椒粉2g、饮用水300g；整份约950g。巴沙鱼净肉350g以通用淡水鲈鱼肉代理；普通酱豆瓣固定为已核验李锦记辣豆酱，非原红油豆瓣品牌；藤椒油及菜籽油合计按植物油28g的宏量代理，不重复计入豆瓣自身油。蔬菜固定花菜200g、绿叶生菜100g；省略可选豆豉，菜直接煮熟不先弃焯水。鱼菜与全部汤汁同食，成品950g为2–3人家庭假设。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
-      "match": {
-        "identity_precision": "food_group_proxy",
-        "food_proxies": [
-          {
-            "target": "巴沙鱼净肉",
-            "reference_name": "通用淡水鱼净肉（鲈鱼参考）",
-            "food": {
-              "fdc_id": 174184,
-              "description": "Fish, bass, fresh water, mixed species, raw",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "3a17f7cdc7e89ca6472616fae54bc103961c69fc79f2da1a2b1ca1127e9861bc"
-            },
-            "reason": "同类淡水鱼肉代理，鱼种脂肪含量可能不同"
-          },
-          {
-            "target": "藤椒油与菜籽油",
-            "reference_name": "大豆食用油",
-            "food": {
-              "fdc_id": 171411,
-              "description": "Oil, soybean, salad or cooking",
-              "data_type": "SR Legacy",
-              "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
-            },
-            "reason": "无糖调味植物油按通用植物油宏量近似"
-          },
-          {
-            "target": "红油豆瓣酱",
-            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
-            "food": {
-              "fdc_id": 2028275,
-              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
-              "data_type": "Branded",
-              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
-              "brand_owner": "Lee Kum Kee Co. Ltd.",
-              "brand_name": "LEE KUM KEE",
-              "gtin_upc": "078895610000"
-            },
-            "reason": "固定通用辣豆酱替代，非原品牌标签"
-          }
-        ],
-        "food_identity": "howtocook-eb849be42cbb",
-        "state": "ready_to_eat",
-        "cooking_method": "simmer",
-        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
-        "oil_added": true,
-        "sugar_added": true,
-        "sauce_added": false,
-        "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
-        "variant": "family-eb849be42cbb-v1",
-        "standard_ingredients": [
-          {
-            "key": "bass",
-            "grams": 350,
-            "name": "通用淡水鱼净肉（鲈鱼参考）"
-          },
-          {
-            "key": "cauliflower",
-            "grams": 200
-          },
-          {
-            "key": "lettuce",
-            "grams": 100
-          },
-          {
-            "key": "douban_branded",
-            "grams": 30
-          },
-          {
-            "key": "oil",
-            "grams": 28
-          },
-          {
-            "key": "garlic",
-            "grams": 12
-          },
-          {
-            "key": "salt",
-            "grams": 4
-          },
-          {
-            "key": "sugar",
-            "grams": 2
-          },
-          {
-            "key": "black_pepper",
-            "grams": 2
-          },
-          {
-            "key": "water",
-            "grams": 300
-          }
-        ],
-        "excludes": [
-          "不同主料、品种、品牌、用量、含水量或额外配料",
-          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
-          "将家庭份成品重量假设当作实测或USDA出成率"
-        ]
-      },
-      "per_100g": {
-        "energy_kcal": 82.764211,
-        "protein_g": 7.798442,
-        "carbohydrate_g": 2.667579,
-        "fat_g": 4.580442
-      },
-      "source": {
-        "name": "USDA FoodData Central",
-        "url": "https://fdc.nal.usda.gov/food-details/174184/nutrients",
-        "version": "7daebfce7424934f",
-        "fdc_ids": [
-          174184,
-          169986,
-          169249,
-          2028275,
-          171411,
-          169230,
-          173468,
-          169655,
-          170931,
-          173647
-        ]
-      },
-      "rules_version": "nutrition-1.6.0",
-      "is_estimate": true,
-      "requires_independent_match": true,
-      "details": {
-        "path": "assets/nutrition/family-eb849be42cbb-v1.a637bdbb58aaeef7.json",
-        "bytes": 48404,
-        "sha256": "a637bdbb58aaeef7b4b5c9964bf2cd1f1a4a3961bde1ed3063e8a3df84f863ac"
-      }
-    },
-    {
       "id": "family-c5fddf9813b2-v1",
       "recipe_id": "howtocook-c5fddf9813b2",
       "recipe_blob_sha": "70020b8cde06c6f4e3fb0b516816da3998e6ebd6",
@@ -39145,6 +38098,1069 @@
         "path": "assets/nutrition/family-4de3928e6efa-v1.b2a4f000160194c4.json",
         "bytes": 30628,
         "sha256": "b2a4f000160194c449817e3004a7c319312b6fc4fcb0c14e8426efe88df97a23"
+      }
+    },
+    {
+      "id": "family-eb849be42cbb-v2",
+      "recipe_id": "howtocook-eb849be42cbb",
+      "recipe_blob_sha": "497b3c521b0d0a9db7e09962f49198a000632028",
+      "version": "2",
+      "supersedes": "family-eb849be42cbb-v1",
+      "data_version": "5c4ce60d2cc1d959",
+      "status": "reference",
+      "review_status": "approved",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "final_weight": {
+        "grams": 950,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品950g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "retention_correction": "not_applied",
+      "basis": "per_100g",
+      "completeness": "complete",
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：Good & Gather巴沙鱼生鱼片350g、花菜200g、绿叶生菜100g、李锦记SPICY BEAN SAUCE辣豆酱30g、大豆食用油28g、去皮大蒜12g、食盐4g、白砂糖2g、黑胡椒粉2g、饮用水300g；整份约950g。巴沙鱼部分固定为Good & Gather无调味养殖巴沙鱼生鱼片净350g，UPC085239019023，物种Pangasianodon hypophthalmus；不含包装冰衣。藤椒油及菜籽油合计以普通植物油28g代理，红油豆瓣仍用已核验李锦记辣豆酱30g代理。花菜200g、生菜100g，省略可选豆豉；鱼菜与全部汤汁同食，成品950g为家庭假设。。限定品牌：Good & Gather巴沙鱼生鱼片=GOOD & GATHER GTIN 085239019023；李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "巴沙鱼净肉",
+            "reference_name": "Good & Gather巴沙鱼生鱼片",
+            "food": {
+              "fdc_id": 2677915,
+              "description": "SWAI FILLETS",
+              "data_type": "Branded",
+              "snapshot_sha256": "144eb9eec41f54e936fdf27824ec5d20fedd4e512f745af29278dcebb4fd12ee",
+              "brand_owner": "Target Stores",
+              "brand_name": "GOOD & GATHER",
+              "gtin_upc": "085239019023"
+            },
+            "reason": "固定已核对UPC和原料物种的巴沙鱼生片，品牌及养殖含水量仍有差异"
+          },
+          {
+            "target": "藤椒油与菜籽油",
+            "reference_name": "大豆食用油",
+            "food": {
+              "fdc_id": 171411,
+              "description": "Oil, soybean, salad or cooking",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "423fa32257e06f85f25e93fbd2364398d5af8e483e7a0310c2f16a6def05199a"
+            },
+            "reason": "无糖调味植物油按通用植物油宏量近似"
+          },
+          {
+            "target": "红油豆瓣酱",
+            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+            "food": {
+              "fdc_id": 2028275,
+              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895610000"
+            },
+            "reason": "固定通用辣豆酱替代，非原品牌标签"
+          }
+        ],
+        "food_identity": "howtocook-eb849be42cbb",
+        "state": "ready_to_eat",
+        "cooking_method": "simmer",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": true,
+        "sauce_added": true,
+        "brand": "Good & Gather巴沙鱼生鱼片=GOOD & GATHER GTIN 085239019023；李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+        "variant": "family-eb849be42cbb-v2",
+        "standard_ingredients": [
+          {
+            "key": "swai_branded",
+            "grams": 350
+          },
+          {
+            "key": "cauliflower",
+            "grams": 200
+          },
+          {
+            "key": "lettuce",
+            "grams": 100
+          },
+          {
+            "key": "douban_branded",
+            "grams": 30
+          },
+          {
+            "key": "oil",
+            "grams": 28
+          },
+          {
+            "key": "garlic",
+            "grams": 12
+          },
+          {
+            "key": "salt",
+            "grams": 4
+          },
+          {
+            "key": "sugar",
+            "grams": 2
+          },
+          {
+            "key": "black_pepper",
+            "grams": 2
+          },
+          {
+            "key": "water",
+            "grams": 300
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "per_100g": {
+        "energy_kcal": 70.237895,
+        "protein_g": 7.098442,
+        "carbohydrate_g": 2.667579,
+        "fat_g": 3.548863
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "url": "https://fdc.nal.usda.gov/food-details/2677915/nutrients",
+        "version": "5c4ce60d2cc1d959",
+        "fdc_ids": [
+          2677915,
+          169986,
+          169249,
+          2028275,
+          171411,
+          169230,
+          173468,
+          169655,
+          170931,
+          173647
+        ]
+      },
+      "rules_version": "nutrition-1.6.0",
+      "is_estimate": true,
+      "requires_independent_match": true,
+      "details": {
+        "path": "assets/nutrition/family-eb849be42cbb-v2.2951d99ab3bde1f2.json",
+        "bytes": 49716,
+        "sha256": "2951d99ab3bde1f25938e5e4a959d261934e920953a3b7d6c71b20b15019a4c1"
+      }
+    },
+    {
+      "id": "family-961ae3ea5f72-v2",
+      "recipe_id": "howtocook-961ae3ea5f72",
+      "recipe_blob_sha": "41bddee09473ee7fc5fcc413b619b7d766c12dea",
+      "version": "2",
+      "supersedes": "family-961ae3ea5f72-v1",
+      "data_version": "a93a31efa7597adb",
+      "status": "reference",
+      "review_status": "approved",
+      "method": "recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "final_weight": {
+        "grams": 700,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品700g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "retention_correction": "not_applied",
+      "basis": "per_100g",
+      "completeness": "complete",
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：白鲢净鱼肉参考350g、小葱100g、姜30g、去皮大蒜15g、香菜叶10g、鲜辣椒5g、大豆食用油27g、通用酱油（shoyu近似）18g、普通米酒烹调酒15g、食盐5g、黑胡椒粉2g、白醋5g、干辣椒3g、饮用水350g；整份约700g。限定白鲢鱼头及附带鱼身的去骨可食肌肉350g，以同种白鲢的生鱼肉参考代理；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不把带骨鱼头毛重当肉量，不适用于花鲢或其他鱼种。油27g为最终食用量，所有列出调味及食用汤汁保留，成品700g为家庭假设；酒精损失未校正。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "鲢鱼头可食鱼肉",
+            "reference_name": "白鲢净鱼肉参考",
+            "food": {
+              "provider": "krda",
+              "food_id": "K0840000000a",
+              "description": "백연, 생것",
+              "data_type": "KRDA Standard Food Composition DB",
+              "snapshot_sha256": "f6478276b2cde6c00e84a90b69cb08fd4d606d01ae464061500dbff72ad4c57a"
+            },
+            "reason": "同种白鲢体部生肉代理鱼头肌肉，头部其他组织不计"
+          }
+        ],
+        "food_identity": "howtocook-961ae3ea5f72",
+        "state": "ready_to_eat",
+        "cooking_method": "braise",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": false,
+        "sauce_added": true,
+        "brand": null,
+        "variant": "family-961ae3ea5f72-v2",
+        "standard_ingredients": [
+          {
+            "key": "krda_silver_carp",
+            "grams": 350
+          },
+          {
+            "key": "scallion",
+            "grams": 100
+          },
+          {
+            "key": "ginger",
+            "grams": 30
+          },
+          {
+            "key": "garlic",
+            "grams": 15
+          },
+          {
+            "key": "coriander",
+            "grams": 10
+          },
+          {
+            "key": "chili",
+            "grams": 5
+          },
+          {
+            "key": "oil",
+            "grams": 27
+          },
+          {
+            "key": "soy",
+            "grams": 18
+          },
+          {
+            "key": "cooking_wine",
+            "grams": 15
+          },
+          {
+            "key": "salt",
+            "grams": 5
+          },
+          {
+            "key": "black_pepper",
+            "grams": 2
+          },
+          {
+            "key": "vinegar",
+            "grams": 5
+          },
+          {
+            "key": "chili_dry",
+            "grams": 3
+          },
+          {
+            "key": "water",
+            "grams": 350
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "per_100g": {
+        "energy_kcal": 96.847143,
+        "protein_g": 10.320671,
+        "carbohydrate_g": 3.4457,
+        "fat_g": 4.435829
+      },
+      "source": {
+        "name": "韩国 RDA 国家标准食物成分 DB + USDA FoodData Central",
+        "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+        "version": "a93a31efa7597adb",
+        "fdc_ids": [
+          170005,
+          169231,
+          169230,
+          169997,
+          170106,
+          171411,
+          174277,
+          167723,
+          173468,
+          170931,
+          172237,
+          170932,
+          173647
+        ],
+        "providers": [
+          "krda",
+          "usda"
+        ],
+        "food_ids": [
+          {
+            "provider": "krda",
+            "id": "K0840000000a"
+          }
+        ]
+      },
+      "rules_version": "nutrition-1.6.0",
+      "is_estimate": true,
+      "requires_independent_match": true,
+      "details": {
+        "path": "assets/nutrition/family-961ae3ea5f72-v2.dad5398a5ce99393.json",
+        "bytes": 61803,
+        "sha256": "dad5398a5ce99393421db46221957e8364fbcd9e14d66931cd4c758b2d8b3df7"
+      }
+    },
+    {
+      "id": "family-b261aa97c4ab-v2",
+      "recipe_id": "howtocook-b261aa97c4ab",
+      "recipe_blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
+      "version": "2",
+      "supersedes": "family-b261aa97c4ab-v1",
+      "data_version": "d2c59189c9268aa7",
+      "status": "reference",
+      "review_status": "approved",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "recipe_basis": "standardized_assumptions",
+      "basis": "per_100g",
+      "completeness": "complete",
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：朗姆酒40%酒精60g、通用橙味利口酒参考组30g、橙汁100g、通用红石榴糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g；整份约600g。两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "蓝橙力娇酒",
+            "reference_name": "通用橙味利口酒参考组",
+            "food": {
+              "fdc_id": 2710623,
+              "description": "Liqueur",
+              "data_type": "Survey (FNDDS)",
+              "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+            },
+            "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
+          }
+        ],
+        "food_identity": "howtocook-b261aa97c4ab",
+        "state": "ready_to_eat",
+        "cooking_method": "cold_mix",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": false,
+        "sugar_added": true,
+        "sauce_added": false,
+        "brand": null,
+        "variant": "family-b261aa97c4ab-v2",
+        "standard_ingredients": [
+          {
+            "key": "rum",
+            "grams": 60
+          },
+          {
+            "key": "liqueur_curacao_group",
+            "grams": 30
+          },
+          {
+            "key": "orange_juice",
+            "grams": 100
+          },
+          {
+            "key": "grenadine",
+            "grams": 30
+          },
+          {
+            "key": "lemon_juice",
+            "grams": 30
+          },
+          {
+            "key": "lemon",
+            "grams": 10
+          },
+          {
+            "key": "water",
+            "grams": 340
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "per_100g": {
+        "energy_kcal": 59.533333,
+        "protein_g": 0.1525,
+        "carbohydrate_g": 7.238667,
+        "fat_g": 0.055833
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
+        "version": "d2c59189c9268aa7",
+        "fdc_ids": [
+          174817,
+          2710623,
+          169098,
+          168088,
+          167747,
+          167746,
+          173647
+        ]
+      },
+      "rules_version": "nutrition-1.6.0",
+      "is_estimate": true,
+      "requires_independent_match": true,
+      "details": {
+        "path": "assets/nutrition/family-b261aa97c4ab-v2.712a70608bb17009.json",
+        "bytes": 34679,
+        "sha256": "712a70608bb17009696655a14c7f8571e2f76983a2505b5cac58b8355e507263"
+      }
+    },
+    {
+      "id": "family-45ad36b6133c-v2",
+      "recipe_id": "howtocook-45ad36b6133c",
+      "recipe_blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
+      "version": "2",
+      "supersedes": "family-45ad36b6133c-v1",
+      "data_version": "4576087367212f56",
+      "status": "reference",
+      "review_status": "approved",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "recipe_basis": "standardized_assumptions",
+      "basis": "per_100g",
+      "completeness": "complete",
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用橙味利口酒参考组30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g；整份约610g。两到三杯冷调标准版，原料直接按克设定。橙味甜酒30g采用FNDDS明确包含curacao、cointreau、triple sec的通用利口酒组，不再用咖啡甜酒；龙舌兰30g仍用40%vol无糖蒸馏酒代理。原文枫糖浆保留40g，不误改成红石榴糖浆；冰块按水200g、柠檬果肉10g，整份610g全部饮用，不冒充原品牌酒度糖分。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "龙舌兰酒",
+            "reference_name": "通用40%vol无糖蒸馏酒",
+            "food": {
+              "fdc_id": 174818,
+              "description": "Alcoholic beverage, distilled, vodka, 80 proof",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "ad8d47a49ad51da275e9d5cb08700eda836f1912a9cc4572654ee2527774d743"
+            },
+            "reason": "通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测"
+          },
+          {
+            "target": "橙味甜酒",
+            "reference_name": "通用橙味利口酒参考组",
+            "food": {
+              "fdc_id": 2710623,
+              "description": "Liqueur",
+              "data_type": "Survey (FNDDS)",
+              "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
+            },
+            "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
+          }
+        ],
+        "food_identity": "howtocook-45ad36b6133c",
+        "state": "ready_to_eat",
+        "cooking_method": "cold_mix",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": false,
+        "sugar_added": true,
+        "sauce_added": false,
+        "brand": null,
+        "variant": "family-45ad36b6133c-v2",
+        "standard_ingredients": [
+          {
+            "key": "gin",
+            "grams": 30
+          },
+          {
+            "key": "generic_spirit",
+            "grams": 30
+          },
+          {
+            "key": "vodka",
+            "grams": 30
+          },
+          {
+            "key": "rum",
+            "grams": 30
+          },
+          {
+            "key": "liqueur_curacao_group",
+            "grams": 30
+          },
+          {
+            "key": "lemon_juice",
+            "grams": 60
+          },
+          {
+            "key": "maple",
+            "grams": 40
+          },
+          {
+            "key": "cola",
+            "grams": 150
+          },
+          {
+            "key": "lemon",
+            "grams": 10
+          },
+          {
+            "key": "water",
+            "grams": 200
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "per_100g": {
+        "energy_kcal": 89.180328,
+        "protein_g": 0.055082,
+        "carbohydrate_g": 9.415082,
+        "fat_g": 0.099344
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
+        "version": "4576087367212f56",
+        "fdc_ids": [
+          174815,
+          174818,
+          174818,
+          174817,
+          2710623,
+          167747,
+          169661,
+          174852,
+          167746,
+          173647
+        ]
+      },
+      "rules_version": "nutrition-1.6.0",
+      "is_estimate": true,
+      "requires_independent_match": true,
+      "details": {
+        "path": "assets/nutrition/family-45ad36b6133c-v2.80c5e65adf4c3824.json",
+        "bytes": 46654,
+        "sha256": "80c5e65adf4c382430599fa00389ea8f6748d55cde064ad0c4318932fc86bee8"
+      }
+    },
+    {
+      "id": "family-280e1f88f772-v2",
+      "recipe_id": "howtocook-280e1f88f772",
+      "recipe_blob_sha": "0b2d1552dd52c2c6600aafc1d8c6105280bcca13",
+      "version": "2",
+      "supersedes": "family-280e1f88f772-v1",
+      "data_version": "0d9334ed8295cd8f",
+      "status": "reference",
+      "review_status": "approved",
+      "method": "recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "final_weight": {
+        "grams": 1150,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品1150g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "retention_correction": "not_applied",
+      "basis": "per_100g",
+      "completeness": "complete",
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：鸡腿肉（去骨去皮）600g、土豆净可食量（USDA带皮宏量代理）300g、干辣椒30g、生蒜苗叶茎40g、日本清酒酒粕参考30g、普通啤酒150g、姜30g、去皮大蒜30g、通用酱油（shoyu近似）20g、大豆食用油45g、食盐6g、饮用水100g、李锦记SPICY BEAN SAUCE辣豆酱20g；整份约1150g。家庭标准净去骨去皮鸡腿肉600g、土豆300g，干辣椒30g加所列水作为糍粑辣椒模型。蒜苗40g采用官方Allium sativum生叶茎，不再用韭菜；酒糟30g采用清酒酒粕固形物代理，不用米麴甜饮；补入原文豆瓣酱，以李锦记辣豆酱20g固定代理。油45g仅为最终保留食用油，原炸锅两斤油不计；啤酒150g及全部酱汁计入，酒精和烹饪损失未校正。省略香料包，成品1150g非实测。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "整鸡可食部分",
+            "reference_name": "鸡腿肉（去骨去皮）",
+            "food": {
+              "fdc_id": 173627,
+              "description": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "bf6b88eb8435b5c310db1bbb16fd65a75907df9af14b75d8fe95a4bd400e411b"
+            },
+            "reason": "普通去骨鸡腿肉代理，原鸡皮及各部位比例不同"
+          },
+          {
+            "target": "糍粑辣椒",
+            "reference_name": "干辣椒",
+            "food": {
+              "fdc_id": 170932,
+              "description": "Spices, pepper, red or cayenne",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+            },
+            "reason": "明确干辣椒加水模型代理湿辣椒糊，非原配方测定"
+          },
+          {
+            "target": "酒糟",
+            "reference_name": "日本清酒酒粕参考",
+            "food": {
+              "provider": "mext",
+              "food_id": "17053",
+              "description": "＜調味料類＞　（その他）　酒かす",
+              "data_type": "MEXT Standard Tables",
+              "snapshot_sha256": "434ac51c0f526d09c802b7bd6750f8e5f4d58e5f423edd3318b20732246a52c6"
+            },
+            "reason": "谷物发酵酒粕固形物代理酒糟，非原发酵方式及含酒精量"
+          },
+          {
+            "target": "原文豆瓣酱",
+            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+            "food": {
+              "fdc_id": 2028275,
+              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895610000"
+            },
+            "reason": "固定已核验李锦记辣豆酱代理，不能冒充贵州原品牌配方"
+          }
+        ],
+        "food_identity": "howtocook-280e1f88f772",
+        "state": "ready_to_eat",
+        "cooking_method": "pan_fry",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": false,
+        "sauce_added": true,
+        "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+        "variant": "family-280e1f88f772-v2",
+        "standard_ingredients": [
+          {
+            "key": "chicken_thigh",
+            "grams": 600
+          },
+          {
+            "key": "potato",
+            "grams": 300
+          },
+          {
+            "key": "chili_dry",
+            "grams": 30
+          },
+          {
+            "key": "krda_green_garlic",
+            "grams": 40
+          },
+          {
+            "key": "mext_sake_lees",
+            "grams": 30
+          },
+          {
+            "key": "beer",
+            "grams": 150
+          },
+          {
+            "key": "ginger",
+            "grams": 30
+          },
+          {
+            "key": "garlic",
+            "grams": 30
+          },
+          {
+            "key": "soy",
+            "grams": 20
+          },
+          {
+            "key": "oil",
+            "grams": 45
+          },
+          {
+            "key": "salt",
+            "grams": 6
+          },
+          {
+            "key": "water",
+            "grams": 100
+          },
+          {
+            "key": "douban_branded",
+            "grams": 20
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "per_100g": {
+        "energy_kcal": 147.782609,
+        "protein_g": 12.098087,
+        "carbohydrate_g": 9.100261,
+        "fat_g": 6.727217
+      },
+      "source": {
+        "name": "USDA FoodData Central + 韩国 RDA 国家标准食物成分 DB + MEXT 日本食品標準成分表",
+        "url": "https://fdc.nal.usda.gov/food-details/173627/nutrients",
+        "version": "0d9334ed8295cd8f",
+        "fdc_ids": [
+          173627,
+          170026,
+          170932,
+          168746,
+          169231,
+          169230,
+          174277,
+          171411,
+          173468,
+          173647,
+          2028275
+        ],
+        "providers": [
+          "usda",
+          "krda",
+          "mext"
+        ],
+        "food_ids": [
+          {
+            "provider": "krda",
+            "id": "F054000B150a"
+          },
+          {
+            "provider": "mext",
+            "id": "17053"
+          }
+        ]
+      },
+      "rules_version": "nutrition-1.6.0",
+      "is_estimate": true,
+      "requires_independent_match": true,
+      "details": {
+        "path": "assets/nutrition/family-280e1f88f772-v2.99c0608558825585.json",
+        "bytes": 66896,
+        "sha256": "99c06085588255855dc0e0c47e3345c59c79254450ab5096cef1730ae8945ccc"
+      }
+    },
+    {
+      "id": "family-1bc98124aec5-v2",
+      "recipe_id": "howtocook-1bc98124aec5",
+      "recipe_blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
+      "version": "2",
+      "supersedes": "family-1bc98124aec5-v1",
+      "data_version": "6b428605f4620d32",
+      "status": "reference",
+      "review_status": "approved",
+      "method": "usda_recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "recipe_basis": "standardized_assumptions",
+      "estimate_confidence": "low",
+      "final_weight": {
+        "grams": 300,
+        "method": "household_recipe_assumption",
+        "basis": "standard_recipe_assumption",
+        "is_measured": false,
+        "servings": {
+          "min": 2,
+          "max": 3
+        },
+        "evidence": "项目按2–3人家庭份明确设定成品300g，非实测或USDA出成率；原料与成品重分别保存。"
+      },
+      "retention_correction": "not_applied",
+      "basis": "per_100g",
+      "completeness": "complete",
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：食用牛油（牛脂）150g、大豆食用油35g、猪油20g、李锦记SPICY BEAN SAUCE辣豆酱40g、干辣椒15g、腐乳5g、李锦记辣豆豉酱5g、姜8g、去皮大蒜8g、孜然籽2g、肉桂粉1g、黑胡椒粉1g、食盐3g、饮用水80g；整份约300g。这是浓缩底料每100g的通用家庭版本，不是稀释火锅汤或整锅食用量。牛油150g、植物油35g和猪油20g全部计入；豆母子以腐乳5g和通用豆豉酱5g代理，糍粑辣椒按干辣椒15g及所列水建模，豆瓣采用固定李锦记辣豆酱。省略麦芽粉、白酒及未列出的香料包，非原方7.5kg老油的过滤出油率。成品浓缩底料300g为假设；应用应按实际使用底料克数再算，不把整份作为每人摄入。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "豆母子发酵豆制品",
+            "reference_name": "腐乳",
+            "food": {
+              "fdc_id": 174305,
+              "description": "Tofu, salted and fermented (fuyu), prepared with calcium sulfate",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "1d8a40c61458a5a9f5c6a627dac01779f8243ad9ad61da9a563b6173bb34a06f"
+            },
+            "reason": "同类发酵豆制品代理，非原产品组成"
+          },
+          {
+            "target": "豆豉和豆母子调味",
+            "reference_name": "李锦记辣豆豉酱",
+            "food": {
+              "fdc_id": 2505417,
+              "description": "LEE KUM KEE, CHILI BLACK BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "ddb6d0dc12b55430637d4a4063da3d120b9035274a94ed33659a83eee8a6876f",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895135480"
+            },
+            "reason": "固定通用发酵豆酱代理"
+          },
+          {
+            "target": "郫县豆瓣",
+            "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
+            "food": {
+              "fdc_id": 2028275,
+              "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+              "data_type": "Branded",
+              "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+              "brand_owner": "Lee Kum Kee Co. Ltd.",
+              "brand_name": "LEE KUM KEE",
+              "gtin_upc": "078895610000"
+            },
+            "reason": "固定黄豆辣酱近似蚕豆豆瓣"
+          },
+          {
+            "target": "糍粑辣椒",
+            "reference_name": "干辣椒",
+            "food": {
+              "fdc_id": 170932,
+              "description": "Spices, pepper, red or cayenne",
+              "data_type": "SR Legacy",
+              "snapshot_sha256": "571f1aae4c88b5c9dfc5c54ef9153eafdace080b540146f2ea859b252e1e0dc2"
+            },
+            "reason": "干辣椒加水模型，不声称原湿糊测定"
+          }
+        ],
+        "food_identity": "howtocook-1bc98124aec5",
+        "state": "ready_to_eat",
+        "cooking_method": "braise",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": false,
+        "sauce_added": true,
+        "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
+        "variant": "family-1bc98124aec5-v2",
+        "standard_ingredients": [
+          {
+            "key": "beef_tallow",
+            "grams": 150
+          },
+          {
+            "key": "oil",
+            "grams": 35
+          },
+          {
+            "key": "lard",
+            "grams": 20
+          },
+          {
+            "key": "douban_branded",
+            "grams": 40
+          },
+          {
+            "key": "chili_dry",
+            "grams": 15
+          },
+          {
+            "key": "tofu_salted",
+            "grams": 5
+          },
+          {
+            "key": "black_bean_sauce",
+            "grams": 5
+          },
+          {
+            "key": "ginger",
+            "grams": 8
+          },
+          {
+            "key": "garlic",
+            "grams": 8
+          },
+          {
+            "key": "cumin",
+            "grams": 2
+          },
+          {
+            "key": "cinnamon",
+            "grams": 1
+          },
+          {
+            "key": "black_pepper",
+            "grams": 1
+          },
+          {
+            "key": "salt",
+            "grams": 3
+          },
+          {
+            "key": "water",
+            "grams": 80
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "per_100g": {
+        "energy_kcal": 667.916667,
+        "protein_g": 1.9046,
+        "carbohydrate_g": 7.634833,
+        "fat_g": 70.789333
+      },
+      "source": {
+        "name": "USDA FoodData Central",
+        "url": "https://fdc.nal.usda.gov/food-details/171400/nutrients",
+        "version": "6b428605f4620d32",
+        "fdc_ids": [
+          171400,
+          171411,
+          171401,
+          2028275,
+          170932,
+          174305,
+          2505417,
+          169231,
+          169230,
+          170923,
+          171320,
+          170931,
+          173468,
+          173647
+        ]
+      },
+      "rules_version": "nutrition-1.6.0",
+      "is_estimate": true,
+      "requires_independent_match": true,
+      "details": {
+        "path": "assets/nutrition/family-1bc98124aec5-v2.3541e90b14e1341b.json",
+        "bytes": 64980,
+        "sha256": "3541e90b14e1341b1051ba070380350d5c6603d254fd0e47ee31c5f44e06386b"
+      }
+    },
+    {
+      "id": "family-c8756846df80-v2",
+      "recipe_id": "howtocook-c8756846df80",
+      "recipe_blob_sha": "c45e61ea554cfb8e4b520a58fa722b435166d056",
+      "version": "2",
+      "supersedes": "family-c8756846df80-v1",
+      "data_version": "1f3008d506e40f4e",
+      "status": "reference",
+      "review_status": "approved",
+      "method": "recipe_estimate",
+      "estimation_level": "food_group_proxy",
+      "recipe_basis": "standardized_assumptions",
+      "basis": "per_100g",
+      "completeness": "complete",
+      "scope": "同类食物代理粗估；2–3人家庭标准配方估算：焯熟油菜花蕾茎参考250g、大豆食用油10g、通用酱油（shoyu近似）5g、通用蚝油5g、白砂糖3g、食盐2g、去皮大蒜12g、鲜辣椒3g；整份约290g。固定偏茎蕾的熟菜心模型，以MEXT焯熟油菜花蕾及茎作同类代理；同属Brassica rapa但不是同一栽培群，不宣称菜心实测，不适用于以大叶为主的不同配方。熟沥水菜净量250g独立设定，不从生重推算出成率；加油10g、生抽蚝油各5g、糖3g、盐2g、蒜12g、辣椒3g，全部拌匀后290g，无后续加热弃料。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+      "match": {
+        "identity_precision": "food_group_proxy",
+        "food_proxies": [
+          {
+            "target": "焯熟菜心",
+            "reference_name": "焯熟油菜花蕾茎参考",
+            "food": {
+              "provider": "mext",
+              "food_id": "06202",
+              "description": "（なばな類）　和種なばな　花らい・茎　ゆで",
+              "data_type": "MEXT Standard Tables",
+              "snapshot_sha256": "6e074bd8729e7941004ec667068573d0f5f4c667b3d8c18931d941f00ba9d89d"
+            },
+            "reason": "熟花蕾与茎同类代理，栽培群不同，不视为菜心实测"
+          }
+        ],
+        "food_identity": "howtocook-c8756846df80",
+        "state": "ready_to_eat",
+        "cooking_method": "cold_mix",
+        "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
+        "oil_added": true,
+        "sugar_added": true,
+        "sauce_added": true,
+        "brand": null,
+        "variant": "family-c8756846df80-v2",
+        "standard_ingredients": [
+          {
+            "key": "mext_flowering_greens_boiled",
+            "grams": 250
+          },
+          {
+            "key": "oil",
+            "grams": 10
+          },
+          {
+            "key": "soy",
+            "grams": 5
+          },
+          {
+            "key": "oyster",
+            "grams": 5
+          },
+          {
+            "key": "sugar",
+            "grams": 3
+          },
+          {
+            "key": "salt",
+            "grams": 2
+          },
+          {
+            "key": "garlic",
+            "grams": 12
+          },
+          {
+            "key": "chili",
+            "grams": 3
+          }
+        ],
+        "excludes": [
+          "不同主料、品种、品牌、用量、含水量或额外配料",
+          "带骨带壳毛重、丢弃汤汁或锅中残油的实际摄入计算",
+          "将家庭份成品重量假设当作实测或USDA出成率"
+        ]
+      },
+      "per_100g": {
+        "energy_kcal": 66.996552,
+        "protein_g": 4.497862,
+        "carbohydrate_g": 6.475103,
+        "fat_g": 3.573862
+      },
+      "source": {
+        "name": "MEXT 日本食品標準成分表 + USDA FoodData Central",
+        "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06202_7",
+        "version": "1f3008d506e40f4e",
+        "fdc_ids": [
+          171411,
+          174277,
+          174529,
+          169655,
+          173468,
+          169230,
+          170106
+        ],
+        "providers": [
+          "mext",
+          "usda"
+        ],
+        "food_ids": [
+          {
+            "provider": "mext",
+            "id": "06202"
+          }
+        ]
+      },
+      "rules_version": "nutrition-1.6.0",
+      "is_estimate": true,
+      "requires_independent_match": true,
+      "details": {
+        "path": "assets/nutrition/family-c8756846df80-v2.6d650b613c021759.json",
+        "bytes": 41040,
+        "sha256": "6d650b613c021759b5d5dcb4c3f1e8194576c9bcf6e91c350591161d202db03b"
       }
     }
   ],
@@ -42752,16 +42768,17 @@
       "review_status": "reference_available",
       "blocker_code": null,
       "next_action": null,
-      "evaluated_at": "2026-10-29T00:16:23.452Z",
+      "evaluated_at": "2026-10-29T01:34:56.322Z",
       "profile_ids": [
-        "family-eb849be42cbb-v1"
+        "family-eb849be42cbb-v2"
       ],
       "nutrition": {
-        "id": "family-eb849be42cbb-v1",
+        "id": "family-eb849be42cbb-v2",
         "recipe_id": "howtocook-eb849be42cbb",
         "recipe_blob_sha": "497b3c521b0d0a9db7e09962f49198a000632028",
-        "version": "1",
-        "data_version": "7daebfce7424934f",
+        "version": "2",
+        "supersedes": "family-eb849be42cbb-v1",
+        "data_version": "5c4ce60d2cc1d959",
         "status": "reference",
         "review_status": "approved",
         "method": "usda_recipe_estimate",
@@ -42782,20 +42799,23 @@
         "retention_correction": "not_applied",
         "basis": "per_100g",
         "completeness": "complete",
-        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：通用淡水鱼净肉（鲈鱼参考）350g、花菜200g、绿叶生菜100g、李锦记SPICY BEAN SAUCE辣豆酱30g、大豆食用油28g、去皮大蒜12g、食盐4g、白砂糖2g、黑胡椒粉2g、饮用水300g；整份约950g。巴沙鱼净肉350g以通用淡水鲈鱼肉代理；普通酱豆瓣固定为已核验李锦记辣豆酱，非原红油豆瓣品牌；藤椒油及菜籽油合计按植物油28g的宏量代理，不重复计入豆瓣自身油。蔬菜固定花菜200g、绿叶生菜100g；省略可选豆豉，菜直接煮熟不先弃焯水。鱼菜与全部汤汁同食，成品950g为2–3人家庭假设。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：Good & Gather巴沙鱼生鱼片350g、花菜200g、绿叶生菜100g、李锦记SPICY BEAN SAUCE辣豆酱30g、大豆食用油28g、去皮大蒜12g、食盐4g、白砂糖2g、黑胡椒粉2g、饮用水300g；整份约950g。巴沙鱼部分固定为Good & Gather无调味养殖巴沙鱼生鱼片净350g，UPC085239019023，物种Pangasianodon hypophthalmus；不含包装冰衣。藤椒油及菜籽油合计以普通植物油28g代理，红油豆瓣仍用已核验李锦记辣豆酱30g代理。花菜200g、生菜100g，省略可选豆豉；鱼菜与全部汤汁同食，成品950g为家庭假设。。限定品牌：Good & Gather巴沙鱼生鱼片=GOOD & GATHER GTIN 085239019023；李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
         "match": {
           "identity_precision": "food_group_proxy",
           "food_proxies": [
             {
               "target": "巴沙鱼净肉",
-              "reference_name": "通用淡水鱼净肉（鲈鱼参考）",
+              "reference_name": "Good & Gather巴沙鱼生鱼片",
               "food": {
-                "fdc_id": 174184,
-                "description": "Fish, bass, fresh water, mixed species, raw",
-                "data_type": "SR Legacy",
-                "snapshot_sha256": "3a17f7cdc7e89ca6472616fae54bc103961c69fc79f2da1a2b1ca1127e9861bc"
+                "fdc_id": 2677915,
+                "description": "SWAI FILLETS",
+                "data_type": "Branded",
+                "snapshot_sha256": "144eb9eec41f54e936fdf27824ec5d20fedd4e512f745af29278dcebb4fd12ee",
+                "brand_owner": "Target Stores",
+                "brand_name": "GOOD & GATHER",
+                "gtin_upc": "085239019023"
               },
-              "reason": "同类淡水鱼肉代理，鱼种脂肪含量可能不同"
+              "reason": "固定已核对UPC和原料物种的巴沙鱼生片，品牌及养殖含水量仍有差异"
             },
             {
               "target": "藤椒油与菜籽油",
@@ -42829,14 +42849,13 @@
           "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
           "oil_added": true,
           "sugar_added": true,
-          "sauce_added": false,
-          "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
-          "variant": "family-eb849be42cbb-v1",
+          "sauce_added": true,
+          "brand": "Good & Gather巴沙鱼生鱼片=GOOD & GATHER GTIN 085239019023；李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+          "variant": "family-eb849be42cbb-v2",
           "standard_ingredients": [
             {
-              "key": "bass",
-              "grams": 350,
-              "name": "通用淡水鱼净肉（鲈鱼参考）"
+              "key": "swai_branded",
+              "grams": 350
             },
             {
               "key": "cauliflower",
@@ -42882,17 +42901,17 @@
           ]
         },
         "per_100g": {
-          "energy_kcal": 82.764211,
-          "protein_g": 7.798442,
+          "energy_kcal": 70.237895,
+          "protein_g": 7.098442,
           "carbohydrate_g": 2.667579,
-          "fat_g": 4.580442
+          "fat_g": 3.548863
         },
         "source": {
           "name": "USDA FoodData Central",
-          "url": "https://fdc.nal.usda.gov/food-details/174184/nutrients",
-          "version": "7daebfce7424934f",
+          "url": "https://fdc.nal.usda.gov/food-details/2677915/nutrients",
+          "version": "5c4ce60d2cc1d959",
           "fdc_ids": [
-            174184,
+            2677915,
             169986,
             169249,
             2028275,
@@ -42908,18 +42927,18 @@
         "is_estimate": true,
         "requires_independent_match": true,
         "details": {
-          "path": "assets/nutrition/family-eb849be42cbb-v1.a637bdbb58aaeef7.json",
-          "bytes": 48404,
-          "sha256": "a637bdbb58aaeef7b4b5c9964bf2cd1f1a4a3961bde1ed3063e8a3df84f863ac"
+          "path": "assets/nutrition/family-eb849be42cbb-v2.2951d99ab3bde1f2.json",
+          "bytes": 49716,
+          "sha256": "2951d99ab3bde1f25938e5e4a959d261934e920953a3b7d6c71b20b15019a4c1"
         },
-        "profile_id": "family-eb849be42cbb-v1"
+        "profile_id": "family-eb849be42cbb-v2"
       },
       "reasons": [
         "已生成明确的2–3人标准配方估算，整份950g。",
-        "巴沙鱼净肉350g以通用淡水鲈鱼肉代理；普通酱豆瓣固定为已核验李锦记辣豆酱，非原红油豆瓣品牌；藤椒油及菜籽油合计按植物油28g的宏量代理，不重复计入豆瓣自身油。蔬菜固定花菜200g、绿叶生菜100g；省略可选豆豉，菜直接煮熟不先弃焯水。鱼菜与全部汤汁同食，成品950g为2–3人家庭假设。"
+        "巴沙鱼部分固定为Good & Gather无调味养殖巴沙鱼生鱼片净350g，UPC085239019023，物种Pangasianodon hypophthalmus；不含包装冰衣。藤椒油及菜籽油合计以普通植物油28g代理，红油豆瓣仍用已核验李锦记辣豆酱30g代理。花菜200g、生菜100g，省略可选豆豉；鱼菜与全部汤汁同食，成品950g为家庭假设。"
       ],
       "candidate_fdc_ids": [
-        174184,
+        2677915,
         169986,
         169249,
         2028275,
@@ -43754,19 +43773,20 @@
       "review_status": "reference_available",
       "blocker_code": null,
       "next_action": null,
-      "evaluated_at": "2026-10-29T00:12:21.192Z",
+      "evaluated_at": "2026-10-29T01:34:56.322Z",
       "profile_ids": [
-        "family-961ae3ea5f72-v1"
+        "family-961ae3ea5f72-v2"
       ],
       "nutrition": {
-        "id": "family-961ae3ea5f72-v1",
+        "id": "family-961ae3ea5f72-v2",
         "recipe_id": "howtocook-961ae3ea5f72",
         "recipe_blob_sha": "41bddee09473ee7fc5fcc413b619b7d766c12dea",
-        "version": "1",
-        "data_version": "4da03e63fe150e6a",
+        "version": "2",
+        "supersedes": "family-961ae3ea5f72-v1",
+        "data_version": "a93a31efa7597adb",
         "status": "reference",
         "review_status": "approved",
-        "method": "usda_recipe_estimate",
+        "method": "recipe_estimate",
         "estimation_level": "food_group_proxy",
         "recipe_basis": "standardized_assumptions",
         "estimate_confidence": "low",
@@ -43784,20 +43804,21 @@
         "retention_correction": "not_applied",
         "basis": "per_100g",
         "completeness": "complete",
-        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：鲤鱼可食鱼肉350g、小葱100g、姜30g、去皮大蒜15g、香菜叶10g、鲜辣椒5g、大豆食用油27g、通用酱油（shoyu近似）18g、普通米酒烹调酒15g、食盐5g、黑胡椒粉2g、白醋5g、干辣椒3g、饮用水350g；整份约700g。鱼头及附带鱼身中去骨可食鱼肉按350g标准量，采用鲤鱼净肉代理白鲢或花鲢鱼头肉；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不能把带骨整鱼头毛重当350g肉。只计食用葱姜蒜及酱汁，省略鸡精、八角等香料包；两种酱油合计18g按普通酱油，米酒15g能量暂按全保留。油27g为最终食用量，成品700g含食用汤汁，非实测。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：白鲢净鱼肉参考350g、小葱100g、姜30g、去皮大蒜15g、香菜叶10g、鲜辣椒5g、大豆食用油27g、通用酱油（shoyu近似）18g、普通米酒烹调酒15g、食盐5g、黑胡椒粉2g、白醋5g、干辣椒3g、饮用水350g；整份约700g。限定白鲢鱼头及附带鱼身的去骨可食肌肉350g，以同种白鲢的生鱼肉参考代理；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不把带骨鱼头毛重当肉量，不适用于花鲢或其他鱼种。油27g为最终食用量，所有列出调味及食用汤汁保留，成品700g为家庭假设；酒精损失未校正。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
         "match": {
           "identity_precision": "food_group_proxy",
           "food_proxies": [
             {
               "target": "鲢鱼头可食鱼肉",
-              "reference_name": "鲤鱼可食鱼肉",
+              "reference_name": "白鲢净鱼肉参考",
               "food": {
-                "fdc_id": 171952,
-                "description": "Fish, carp, raw",
-                "data_type": "SR Legacy",
-                "snapshot_sha256": "d6bebba69077bbfcedaa4d12bdaba6cd252ff24602d590ade6f7240d6a78b295"
+                "provider": "krda",
+                "food_id": "K0840000000a",
+                "description": "백연, 생것",
+                "data_type": "KRDA Standard Food Composition DB",
+                "snapshot_sha256": "f6478276b2cde6c00e84a90b69cb08fd4d606d01ae464061500dbff72ad4c57a"
               },
-              "reason": "用普通淡水鱼肉估算可食肉部分，未覆盖头部各组织的实际营养"
+              "reason": "同种白鲢体部生肉代理鱼头肌肉，头部其他组织不计"
             }
           ],
           "food_identity": "howtocook-961ae3ea5f72",
@@ -43808,10 +43829,10 @@
           "sugar_added": false,
           "sauce_added": true,
           "brand": null,
-          "variant": "family-961ae3ea5f72-v1",
+          "variant": "family-961ae3ea5f72-v2",
           "standard_ingredients": [
             {
-              "key": "carp",
+              "key": "krda_silver_carp",
               "grams": 350
             },
             {
@@ -43874,17 +43895,16 @@
           ]
         },
         "per_100g": {
-          "energy_kcal": 115.847143,
-          "protein_g": 9.720671,
-          "carbohydrate_g": 3.2957,
-          "fat_g": 6.835829
+          "energy_kcal": 96.847143,
+          "protein_g": 10.320671,
+          "carbohydrate_g": 3.4457,
+          "fat_g": 4.435829
         },
         "source": {
-          "name": "USDA FoodData Central",
-          "url": "https://fdc.nal.usda.gov/food-details/171952/nutrients",
-          "version": "4da03e63fe150e6a",
+          "name": "韩国 RDA 国家标准食物成分 DB + USDA FoodData Central",
+          "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
+          "version": "a93a31efa7597adb",
           "fdc_ids": [
-            171952,
             170005,
             169231,
             169230,
@@ -43898,24 +43918,33 @@
             172237,
             170932,
             173647
+          ],
+          "providers": [
+            "krda",
+            "usda"
+          ],
+          "food_ids": [
+            {
+              "provider": "krda",
+              "id": "K0840000000a"
+            }
           ]
         },
         "rules_version": "nutrition-1.6.0",
         "is_estimate": true,
         "requires_independent_match": true,
         "details": {
-          "path": "assets/nutrition/family-961ae3ea5f72-v1.35f048e61ec21171.json",
-          "bytes": 58962,
-          "sha256": "35f048e61ec21171158a692f5716da4ea7d25197864f62438abe60c3754e9afe"
+          "path": "assets/nutrition/family-961ae3ea5f72-v2.dad5398a5ce99393.json",
+          "bytes": 61803,
+          "sha256": "dad5398a5ce99393421db46221957e8364fbcd9e14d66931cd4c758b2d8b3df7"
         },
-        "profile_id": "family-961ae3ea5f72-v1"
+        "profile_id": "family-961ae3ea5f72-v2"
       },
       "reasons": [
         "已生成明确的2–3人标准配方估算，整份700g。",
-        "鱼头及附带鱼身中去骨可食鱼肉按350g标准量，采用鲤鱼净肉代理白鲢或花鲢鱼头肉；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不能把带骨整鱼头毛重当350g肉。只计食用葱姜蒜及酱汁，省略鸡精、八角等香料包；两种酱油合计18g按普通酱油，米酒15g能量暂按全保留。油27g为最终食用量，成品700g含食用汤汁，非实测。"
+        "限定白鲢鱼头及附带鱼身的去骨可食肌肉350g，以同种白鲢的生鱼肉参考代理；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不把带骨鱼头毛重当肉量，不适用于花鲢或其他鱼种。油27g为最终食用量，所有列出调味及食用汤汁保留，成品700g为家庭假设；酒精损失未校正。"
       ],
       "candidate_fdc_ids": [
-        171952,
         170005,
         169231,
         169230,
@@ -52908,16 +52937,17 @@
       "review_status": "reference_available",
       "blocker_code": null,
       "next_action": null,
-      "evaluated_at": "2026-10-29T00:13:41.285Z",
+      "evaluated_at": "2026-10-29T01:34:56.322Z",
       "profile_ids": [
-        "family-b261aa97c4ab-v1"
+        "family-b261aa97c4ab-v2"
       ],
       "nutrition": {
-        "id": "family-b261aa97c4ab-v1",
+        "id": "family-b261aa97c4ab-v2",
         "recipe_id": "howtocook-b261aa97c4ab",
         "recipe_blob_sha": "34e6c307372fa7136e4794ffe4125215fd5d3be1",
-        "version": "1",
-        "data_version": "7989c7274da5c317",
+        "version": "2",
+        "supersedes": "family-b261aa97c4ab-v1",
+        "data_version": "d2c59189c9268aa7",
         "status": "reference",
         "review_status": "approved",
         "method": "usda_recipe_estimate",
@@ -52925,31 +52955,20 @@
         "recipe_basis": "standardized_assumptions",
         "basis": "per_100g",
         "completeness": "complete",
-        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：朗姆酒40%酒精60g、通用咖啡甜酒（53 proof）30g、橙汁100g、枫糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g；整份约600g。两到三杯家庭标准冷调饮品，所有液体按克设定。蓝橙力娇酒用USDA通用53proof咖啡甜酒作甜酒宏量代理，红石榴糖浆用通用枫糖浆代理，口味不同；不是原品牌酒度糖分的真实数据。冰与苏打水合并为饮水340g并按全部融化质量，气体忽略；柠檬果肉10g，整份600g全部食用，未把ml按1比1换成g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：朗姆酒40%酒精60g、通用橙味利口酒参考组30g、橙汁100g、通用红石榴糖浆30g、柠檬汁30g、去皮柠檬10g、饮用水340g；整份约600g。两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
         "match": {
           "identity_precision": "food_group_proxy",
           "food_proxies": [
             {
               "target": "蓝橙力娇酒",
-              "reference_name": "通用咖啡甜酒（53 proof）",
+              "reference_name": "通用橙味利口酒参考组",
               "food": {
-                "fdc_id": 175097,
-                "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
-                "data_type": "SR Legacy",
-                "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+                "fdc_id": 2710623,
+                "description": "Liqueur",
+                "data_type": "Survey (FNDDS)",
+                "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
               },
-              "reason": "通用含糖甜酒代理，原品牌酒度和含糖量可能不同"
-            },
-            {
-              "target": "红石榴糖浆",
-              "reference_name": "枫糖浆",
-              "food": {
-                "fdc_id": 169661,
-                "description": "Syrups, maple",
-                "data_type": "SR Legacy",
-                "snapshot_sha256": "a93b5547351e0ad5df031ffa320d1720c88d78f3614edf5ade23e1e5feb78d19"
-              },
-              "reason": "通用含糖糖浆宏量代理，非红石榴品牌配方"
+              "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
             }
           ],
           "food_identity": "howtocook-b261aa97c4ab",
@@ -52957,17 +52976,17 @@
           "cooking_method": "cold_mix",
           "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
           "oil_added": false,
-          "sugar_added": false,
+          "sugar_added": true,
           "sauce_added": false,
           "brand": null,
-          "variant": "family-b261aa97c4ab-v1",
+          "variant": "family-b261aa97c4ab-v2",
           "standard_ingredients": [
             {
               "key": "rum",
               "grams": 60
             },
             {
-              "key": "coffee_liqueur",
+              "key": "liqueur_curacao_group",
               "grams": 30
             },
             {
@@ -52975,7 +52994,7 @@
               "grams": 100
             },
             {
-              "key": "maple",
+              "key": "grenadine",
               "grams": 30
             },
             {
@@ -52998,20 +53017,20 @@
           ]
         },
         "per_100g": {
-          "energy_kcal": 61.983333,
-          "protein_g": 0.1595,
-          "carbohydrate_g": 7.923667,
-          "fat_g": 0.068333
+          "energy_kcal": 59.533333,
+          "protein_g": 0.1525,
+          "carbohydrate_g": 7.238667,
+          "fat_g": 0.055833
         },
         "source": {
           "name": "USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/174817/nutrients",
-          "version": "7989c7274da5c317",
+          "version": "d2c59189c9268aa7",
           "fdc_ids": [
             174817,
-            175097,
+            2710623,
             169098,
-            169661,
+            168088,
             167747,
             167746,
             173647
@@ -53021,21 +53040,21 @@
         "is_estimate": true,
         "requires_independent_match": true,
         "details": {
-          "path": "assets/nutrition/family-b261aa97c4ab-v1.7ef39b51ac0688d2.json",
-          "bytes": 34971,
-          "sha256": "7ef39b51ac0688d27567c7851496a6ab39371278ecc22a9c23f03bec0f5c9021"
+          "path": "assets/nutrition/family-b261aa97c4ab-v2.712a70608bb17009.json",
+          "bytes": 34679,
+          "sha256": "712a70608bb17009696655a14c7f8571e2f76983a2505b5cac58b8355e507263"
         },
-        "profile_id": "family-b261aa97c4ab-v1"
+        "profile_id": "family-b261aa97c4ab-v2"
       },
       "reasons": [
         "已生成明确的2–3人标准配方估算，整份600g。",
-        "两到三杯家庭标准冷调饮品，所有液体按克设定。蓝橙力娇酒用USDA通用53proof咖啡甜酒作甜酒宏量代理，红石榴糖浆用通用枫糖浆代理，口味不同；不是原品牌酒度糖分的真实数据。冰与苏打水合并为饮水340g并按全部融化质量，气体忽略；柠檬果肉10g，整份600g全部食用，未把ml按1比1换成g。"
+        "两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。"
       ],
       "candidate_fdc_ids": [
         174817,
-        175097,
+        2710623,
         169098,
-        169661,
+        168088,
         167747,
         167746,
         173647
@@ -54081,16 +54100,17 @@
       "review_status": "reference_available",
       "blocker_code": null,
       "next_action": null,
-      "evaluated_at": "2026-10-29T00:13:41.285Z",
+      "evaluated_at": "2026-10-29T01:34:56.322Z",
       "profile_ids": [
-        "family-45ad36b6133c-v1"
+        "family-45ad36b6133c-v2"
       ],
       "nutrition": {
-        "id": "family-45ad36b6133c-v1",
+        "id": "family-45ad36b6133c-v2",
         "recipe_id": "howtocook-45ad36b6133c",
         "recipe_blob_sha": "b6abab2ac73d9bec9e6e3b4d652a2faabf8b705c",
-        "version": "1",
-        "data_version": "65469e5d8dd864eb",
+        "version": "2",
+        "supersedes": "family-45ad36b6133c-v1",
+        "data_version": "4576087367212f56",
         "status": "reference",
         "review_status": "approved",
         "method": "usda_recipe_estimate",
@@ -54098,7 +54118,7 @@
         "recipe_basis": "standardized_assumptions",
         "basis": "per_100g",
         "completeness": "complete",
-        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用咖啡甜酒（53 proof）30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g；整份约610g。两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：金酒40%酒精30g、通用40%vol无糖蒸馏酒30g、伏特加40%酒精30g、朗姆酒40%酒精30g、通用橙味利口酒参考组30g、柠檬汁60g、枫糖浆40g、含糖可乐通用饮料150g、去皮柠檬10g、饮用水200g；整份约610g。两到三杯冷调标准版，原料直接按克设定。橙味甜酒30g采用FNDDS明确包含curacao、cointreau、triple sec的通用利口酒组，不再用咖啡甜酒；龙舌兰30g仍用40%vol无糖蒸馏酒代理。原文枫糖浆保留40g，不误改成红石榴糖浆；冰块按水200g、柠檬果肉10g，整份610g全部饮用，不冒充原品牌酒度糖分。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
         "match": {
           "identity_precision": "food_group_proxy",
           "food_proxies": [
@@ -54115,14 +54135,14 @@
             },
             {
               "target": "橙味甜酒",
-              "reference_name": "通用咖啡甜酒（53 proof）",
+              "reference_name": "通用橙味利口酒参考组",
               "food": {
-                "fdc_id": 175097,
-                "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
-                "data_type": "SR Legacy",
-                "snapshot_sha256": "d0ab776d15db3f1138bf2410133b03328b6b7d4028ea1735ba9460710fff246c"
+                "fdc_id": 2710623,
+                "description": "Liqueur",
+                "data_type": "Survey (FNDDS)",
+                "snapshot_sha256": "4cbeb1b7b85d816340f46f024ad3fae3e14eb7cdc95866e016c5a90d857b4141"
               },
-              "reason": "通用含糖甜酒宏量代理，风味、酒度和含糖可能不同"
+              "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
             }
           ],
           "food_identity": "howtocook-45ad36b6133c",
@@ -54130,10 +54150,10 @@
           "cooking_method": "cold_mix",
           "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
           "oil_added": false,
-          "sugar_added": false,
+          "sugar_added": true,
           "sauce_added": false,
           "brand": null,
-          "variant": "family-45ad36b6133c-v1",
+          "variant": "family-45ad36b6133c-v2",
           "standard_ingredients": [
             {
               "key": "gin",
@@ -54152,7 +54172,7 @@
               "grams": 30
             },
             {
-              "key": "coffee_liqueur",
+              "key": "liqueur_curacao_group",
               "grams": 30
             },
             {
@@ -54183,21 +54203,21 @@
           ]
         },
         "per_100g": {
-          "energy_kcal": 91.983607,
-          "protein_g": 0.06,
-          "carbohydrate_g": 10.083934,
-          "fat_g": 0.108689
+          "energy_kcal": 89.180328,
+          "protein_g": 0.055082,
+          "carbohydrate_g": 9.415082,
+          "fat_g": 0.099344
         },
         "source": {
           "name": "USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/174815/nutrients",
-          "version": "65469e5d8dd864eb",
+          "version": "4576087367212f56",
           "fdc_ids": [
             174815,
             174818,
             174818,
             174817,
-            175097,
+            2710623,
             167747,
             169661,
             174852,
@@ -54209,21 +54229,21 @@
         "is_estimate": true,
         "requires_independent_match": true,
         "details": {
-          "path": "assets/nutrition/family-45ad36b6133c-v1.ed716eaac9f89fd4.json",
-          "bytes": 45901,
-          "sha256": "ed716eaac9f89fd4e58ea0ae976656af1af8ce179ee0d62ab6a98d91cbfce031"
+          "path": "assets/nutrition/family-45ad36b6133c-v2.80c5e65adf4c3824.json",
+          "bytes": 46654,
+          "sha256": "80c5e65adf4c382430599fa00389ea8f6748d55cde064ad0c4318932fc86bee8"
         },
-        "profile_id": "family-45ad36b6133c-v1"
+        "profile_id": "family-45ad36b6133c-v2"
       },
       "reasons": [
         "已生成明确的2–3人标准配方估算，整份610g。",
-        "两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。"
+        "两到三杯冷调标准版，原料直接按克设定。橙味甜酒30g采用FNDDS明确包含curacao、cointreau、triple sec的通用利口酒组，不再用咖啡甜酒；龙舌兰30g仍用40%vol无糖蒸馏酒代理。原文枫糖浆保留40g，不误改成红石榴糖浆；冰块按水200g、柠檬果肉10g，整份610g全部饮用，不冒充原品牌酒度糖分。"
       ],
       "candidate_fdc_ids": [
         174815,
         174818,
         174817,
-        175097,
+        2710623,
         167747,
         169661,
         174852,
@@ -66353,16 +66373,17 @@
       "review_status": "reference_available",
       "blocker_code": null,
       "next_action": null,
-      "evaluated_at": "2026-10-29T00:12:21.192Z",
+      "evaluated_at": "2026-10-29T01:34:56.322Z",
       "profile_ids": [
-        "family-280e1f88f772-v1"
+        "family-280e1f88f772-v2"
       ],
       "nutrition": {
-        "id": "family-280e1f88f772-v1",
+        "id": "family-280e1f88f772-v2",
         "recipe_id": "howtocook-280e1f88f772",
         "recipe_blob_sha": "0b2d1552dd52c2c6600aafc1d8c6105280bcca13",
-        "version": "1",
-        "data_version": "767b1be998c582da",
+        "version": "2",
+        "supersedes": "family-280e1f88f772-v1",
+        "data_version": "0d9334ed8295cd8f",
         "status": "reference",
         "review_status": "approved",
         "method": "recipe_estimate",
@@ -66383,7 +66404,7 @@
         "retention_correction": "not_applied",
         "basis": "per_100g",
         "completeness": "complete",
-        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：鸡腿肉（去骨去皮）600g、土豆净可食量（USDA带皮宏量代理）300g、干辣椒30g、韭菜净叶40g、通用米发酵甜饮（甘酒）30g、普通啤酒150g、姜30g、去皮大蒜30g、通用酱油（shoyu近似）20g、大豆食用油45g、食盐6g、饮用水100g；整份约1150g。固定家庭鸡净腿肉600g（去骨去皮）、土豆300g；糍粑辣椒以干辣椒30g加配方水泡软捣碎的通用模型，蒜苗用韭菜净叶40g、酒糟用米发酵甜饮30g作食物组代理。浅煎后烧制，油45g仅指最终食用保留油，原炸锅两斤油不计；啤酒150g和全部酱汁计入、酒精损失未校正。省略香料包，成品1150g非实测，不冒充贵州原配料精确组成。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：鸡腿肉（去骨去皮）600g、土豆净可食量（USDA带皮宏量代理）300g、干辣椒30g、生蒜苗叶茎40g、日本清酒酒粕参考30g、普通啤酒150g、姜30g、去皮大蒜30g、通用酱油（shoyu近似）20g、大豆食用油45g、食盐6g、饮用水100g、李锦记SPICY BEAN SAUCE辣豆酱20g；整份约1150g。家庭标准净去骨去皮鸡腿肉600g、土豆300g，干辣椒30g加所列水作为糍粑辣椒模型。蒜苗40g采用官方Allium sativum生叶茎，不再用韭菜；酒糟30g采用清酒酒粕固形物代理，不用米麴甜饮；补入原文豆瓣酱，以李锦记辣豆酱20g固定代理。油45g仅为最终保留食用油，原炸锅两斤油不计；啤酒150g及全部酱汁计入，酒精和烹饪损失未校正。省略香料包，成品1150g非实测。。限定品牌：李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
         "match": {
           "identity_precision": "food_group_proxy",
           "food_proxies": [
@@ -66410,28 +66431,30 @@
               "reason": "明确干辣椒加水模型代理湿辣椒糊，非原配方测定"
             },
             {
-              "target": "蒜苗",
-              "reference_name": "韭菜净叶",
+              "target": "酒糟",
+              "reference_name": "日本清酒酒粕参考",
               "food": {
                 "provider": "mext",
-                "food_id": "06207",
-                "description": "（にら類）　にら　葉　生",
+                "food_id": "17053",
+                "description": "＜調味料類＞　（その他）　酒かす",
                 "data_type": "MEXT Standard Tables",
-                "snapshot_sha256": "c362b7b834b1d85e2a794a7308511d9508c1f3741ba807fc2226553afa598c0b"
+                "snapshot_sha256": "434ac51c0f526d09c802b7bd6750f8e5f4d58e5f423edd3318b20732246a52c6"
               },
-              "reason": "同类葱蒜叶菜宏量近似"
+              "reason": "谷物发酵酒粕固形物代理酒糟，非原发酵方式及含酒精量"
             },
             {
-              "target": "酒糟",
-              "reference_name": "通用米发酵甜饮（甘酒）",
+              "target": "原文豆瓣酱",
+              "reference_name": "李锦记SPICY BEAN SAUCE辣豆酱",
               "food": {
-                "provider": "mext",
-                "food_id": "16050",
-                "description": "＜その他＞　甘酒",
-                "data_type": "MEXT Standard Tables",
-                "snapshot_sha256": "742bed7b5e17db39a454769ca974fa494965401af9d411a7f8ed10a2c5c6ce30"
+                "fdc_id": 2028275,
+                "description": "LEE KUM KEE, SPICY BEAN SAUCE",
+                "data_type": "Branded",
+                "snapshot_sha256": "068cdd612c225e8dda6ce7cb04a358166ea68bf154999ecc9a7b8f9bf5cc812a",
+                "brand_owner": "Lee Kum Kee Co. Ltd.",
+                "brand_name": "LEE KUM KEE",
+                "gtin_upc": "078895610000"
               },
-              "reason": "同类谷物发酵食品代理，固形物和酒精可能不同"
+              "reason": "固定已核验李锦记辣豆酱代理，不能冒充贵州原品牌配方"
             }
           ],
           "food_identity": "howtocook-280e1f88f772",
@@ -66441,8 +66464,8 @@
           "oil_added": true,
           "sugar_added": false,
           "sauce_added": true,
-          "brand": null,
-          "variant": "family-280e1f88f772-v1",
+          "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000",
+          "variant": "family-280e1f88f772-v2",
           "standard_ingredients": [
             {
               "key": "chicken_thigh",
@@ -66457,11 +66480,11 @@
               "grams": 30
             },
             {
-              "key": "mext_chive",
+              "key": "krda_green_garlic",
               "grams": 40
             },
             {
-              "key": "mext_amazake",
+              "key": "mext_sake_lees",
               "grams": 30
             },
             {
@@ -66491,6 +66514,10 @@
             {
               "key": "water",
               "grams": 100
+            },
+            {
+              "key": "douban_branded",
+              "grams": 20
             }
           ],
           "excludes": [
@@ -66500,15 +66527,15 @@
           ]
         },
         "per_100g": {
-          "energy_kcal": 141.217391,
-          "protein_g": 11.644522,
-          "carbohydrate_g": 8.53487,
-          "fat_g": 6.592957
+          "energy_kcal": 147.782609,
+          "protein_g": 12.098087,
+          "carbohydrate_g": 9.100261,
+          "fat_g": 6.727217
         },
         "source": {
-          "name": "USDA FoodData Central + MEXT 日本食品標準成分表",
+          "name": "USDA FoodData Central + 韩国 RDA 国家标准食物成分 DB + MEXT 日本食品標準成分表",
           "url": "https://fdc.nal.usda.gov/food-details/173627/nutrients",
-          "version": "767b1be998c582da",
+          "version": "0d9334ed8295cd8f",
           "fdc_ids": [
             173627,
             170026,
@@ -66519,20 +66546,22 @@
             174277,
             171411,
             173468,
-            173647
+            173647,
+            2028275
           ],
           "providers": [
             "usda",
+            "krda",
             "mext"
           ],
           "food_ids": [
             {
-              "provider": "mext",
-              "id": "06207"
+              "provider": "krda",
+              "id": "F054000B150a"
             },
             {
               "provider": "mext",
-              "id": "16050"
+              "id": "17053"
             }
           ]
         },
@@ -66540,15 +66569,15 @@
         "is_estimate": true,
         "requires_independent_match": true,
         "details": {
-          "path": "assets/nutrition/family-280e1f88f772-v1.a3c2e99df50ab300.json",
-          "bytes": 60163,
-          "sha256": "a3c2e99df50ab300a689ec3a716b19c3c4de9d7c2422898b233579353a3d156a"
+          "path": "assets/nutrition/family-280e1f88f772-v2.99c0608558825585.json",
+          "bytes": 66896,
+          "sha256": "99c06085588255855dc0e0c47e3345c59c79254450ab5096cef1730ae8945ccc"
         },
-        "profile_id": "family-280e1f88f772-v1"
+        "profile_id": "family-280e1f88f772-v2"
       },
       "reasons": [
         "已生成明确的2–3人标准配方估算，整份1150g。",
-        "固定家庭鸡净腿肉600g（去骨去皮）、土豆300g；糍粑辣椒以干辣椒30g加配方水泡软捣碎的通用模型，蒜苗用韭菜净叶40g、酒糟用米发酵甜饮30g作食物组代理。浅煎后烧制，油45g仅指最终食用保留油，原炸锅两斤油不计；啤酒150g和全部酱汁计入、酒精损失未校正。省略香料包，成品1150g非实测，不冒充贵州原配料精确组成。"
+        "家庭标准净去骨去皮鸡腿肉600g、土豆300g，干辣椒30g加所列水作为糍粑辣椒模型。蒜苗40g采用官方Allium sativum生叶茎，不再用韭菜；酒糟30g采用清酒酒粕固形物代理，不用米麴甜饮；补入原文豆瓣酱，以李锦记辣豆酱20g固定代理。油45g仅为最终保留食用油，原炸锅两斤油不计；啤酒150g及全部酱汁计入，酒精和烹饪损失未校正。省略香料包，成品1150g非实测。"
       ],
       "candidate_fdc_ids": [
         173627,
@@ -66560,7 +66589,8 @@
         174277,
         171411,
         173468,
-        173647
+        173647,
+        2028275
       ]
     },
     {
@@ -69539,16 +69569,17 @@
       "review_status": "reference_available",
       "blocker_code": null,
       "next_action": null,
-      "evaluated_at": "2026-10-29T00:12:21.192Z",
+      "evaluated_at": "2026-10-29T01:34:56.322Z",
       "profile_ids": [
-        "family-1bc98124aec5-v1"
+        "family-1bc98124aec5-v2"
       ],
       "nutrition": {
-        "id": "family-1bc98124aec5-v1",
+        "id": "family-1bc98124aec5-v2",
         "recipe_id": "howtocook-1bc98124aec5",
         "recipe_blob_sha": "e18171098915e0f103750b5e3aa6257ff620da78",
-        "version": "1",
-        "data_version": "f1233b4e514bb0c4",
+        "version": "2",
+        "supersedes": "family-1bc98124aec5-v1",
+        "data_version": "6b428605f4620d32",
         "status": "reference",
         "review_status": "approved",
         "method": "usda_recipe_estimate",
@@ -69630,9 +69661,9 @@
           "edible_part": "explicit_net_edible_ingredients_without_bones_shells_or_discarded_parts",
           "oil_added": true,
           "sugar_added": false,
-          "sauce_added": false,
+          "sauce_added": true,
           "brand": "李锦记SPICY BEAN SAUCE辣豆酱=LEE KUM KEE GTIN 078895610000；李锦记辣豆豉酱=LEE KUM KEE GTIN 078895135480",
-          "variant": "family-1bc98124aec5-v1",
+          "variant": "family-1bc98124aec5-v2",
           "standard_ingredients": [
             {
               "key": "beef_tallow",
@@ -69706,7 +69737,7 @@
         "source": {
           "name": "USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/171400/nutrients",
-          "version": "f1233b4e514bb0c4",
+          "version": "6b428605f4620d32",
           "fdc_ids": [
             171400,
             171411,
@@ -69728,11 +69759,11 @@
         "is_estimate": true,
         "requires_independent_match": true,
         "details": {
-          "path": "assets/nutrition/family-1bc98124aec5-v1.944a8722393bad3a.json",
-          "bytes": 64298,
-          "sha256": "944a8722393bad3a6df8308db8bdecf1bc8195375f977419f3b9c6433811efd7"
+          "path": "assets/nutrition/family-1bc98124aec5-v2.3541e90b14e1341b.json",
+          "bytes": 64980,
+          "sha256": "3541e90b14e1341b1051ba070380350d5c6603d254fd0e47ee31c5f44e06386b"
         },
-        "profile_id": "family-1bc98124aec5-v1"
+        "profile_id": "family-1bc98124aec5-v2"
       },
       "reasons": [
         "已生成明确的2–3人标准配方估算，整份300g。",
@@ -85073,16 +85104,17 @@
       "review_status": "reference_available",
       "blocker_code": null,
       "next_action": null,
-      "evaluated_at": "2026-10-29T00:12:21.192Z",
+      "evaluated_at": "2026-10-29T01:34:56.322Z",
       "profile_ids": [
-        "family-c8756846df80-v1"
+        "family-c8756846df80-v2"
       ],
       "nutrition": {
-        "id": "family-c8756846df80-v1",
+        "id": "family-c8756846df80-v2",
         "recipe_id": "howtocook-c8756846df80",
         "recipe_blob_sha": "c45e61ea554cfb8e4b520a58fa722b435166d056",
-        "version": "1",
-        "data_version": "d6f17d46aa5cd1f0",
+        "version": "2",
+        "supersedes": "family-c8756846df80-v1",
+        "data_version": "1f3008d506e40f4e",
         "status": "reference",
         "review_status": "approved",
         "method": "recipe_estimate",
@@ -85090,21 +85122,21 @@
         "recipe_basis": "standardized_assumptions",
         "basis": "per_100g",
         "completeness": "complete",
-        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：焯熟小白菜250g、大豆食用油10g、通用酱油（shoyu近似）5g、通用蚝油5g、白砂糖3g、食盐2g、去皮大蒜12g、鲜辣椒3g；整份约290g。菜心采用已焯熟小白菜可食部代理；熟沥水菜净量250g单独称定，不从生菜重量推算出成率。油10g、生抽蚝油各5g、糖3g和盐2g，蒜12g辣椒3g，全部食用拌匀后理论总重290g。不同叶菜及焯水方式会有差异，不声称开花菜心实测。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
+        "scope": "同类食物代理粗估；2–3人家庭标准配方估算：焯熟油菜花蕾茎参考250g、大豆食用油10g、通用酱油（shoyu近似）5g、通用蚝油5g、白砂糖3g、食盐2g、去皮大蒜12g、鲜辣椒3g；整份约290g。固定偏茎蕾的熟菜心模型，以MEXT焯熟油菜花蕾及茎作同类代理；同属Brassica rapa但不是同一栽培群，不宣称菜心实测，不适用于以大叶为主的不同配方。熟沥水菜净量250g独立设定，不从生重推算出成率；加油10g、生抽蚝油各5g、糖3g、盐2g、蒜12g、辣椒3g，全部拌匀后290g，无后续加热弃料。。净量及成品重为明确标准假设，非实测；未做烹饪损失校正，所有列入的油糖酱均计入。",
         "match": {
           "identity_precision": "food_group_proxy",
           "food_proxies": [
             {
               "target": "焯熟菜心",
-              "reference_name": "焯熟小白菜",
+              "reference_name": "焯熟油菜花蕾茎参考",
               "food": {
-                "provider": "krda",
-                "food_id": "F1750000009c",
-                "description": "청경채, 데친것",
-                "data_type": "KRDA Standard Food Composition DB",
-                "snapshot_sha256": "28ccacf0e300aa6e78e86f4bd097d709b8e288410c04f1d40f03e254b13597b2"
+                "provider": "mext",
+                "food_id": "06202",
+                "description": "（なばな類）　和種なばな　花らい・茎　ゆで",
+                "data_type": "MEXT Standard Tables",
+                "snapshot_sha256": "6e074bd8729e7941004ec667068573d0f5f4c667b3d8c18931d941f00ba9d89d"
               },
-              "reason": "同类熟叶菜代理，非菜心品种实测"
+              "reason": "熟花蕾与茎同类代理，栽培群不同，不视为菜心实测"
             }
           ],
           "food_identity": "howtocook-c8756846df80",
@@ -85115,10 +85147,10 @@
           "sugar_added": true,
           "sauce_added": true,
           "brand": null,
-          "variant": "family-c8756846df80-v1",
+          "variant": "family-c8756846df80-v2",
           "standard_ingredients": [
             {
-              "key": "krda_blanch_greens",
+              "key": "mext_flowering_greens_boiled",
               "grams": 250
             },
             {
@@ -85157,15 +85189,15 @@
           ]
         },
         "per_100g": {
-          "energy_kcal": 52.341379,
-          "protein_g": 1.825448,
-          "carbohydrate_g": 4.328552,
-          "fat_g": 3.599724
+          "energy_kcal": 66.996552,
+          "protein_g": 4.497862,
+          "carbohydrate_g": 6.475103,
+          "fat_g": 3.573862
         },
         "source": {
-          "name": "韩国 RDA 国家标准食物成分 DB + USDA FoodData Central",
-          "url": "https://www.nics.go.kr/food/kfi/fct/fctIntro/list",
-          "version": "d6f17d46aa5cd1f0",
+          "name": "MEXT 日本食品標準成分表 + USDA FoodData Central",
+          "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=6_06202_7",
+          "version": "1f3008d506e40f4e",
           "fdc_ids": [
             171411,
             174277,
@@ -85176,13 +85208,13 @@
             170106
           ],
           "providers": [
-            "krda",
+            "mext",
             "usda"
           ],
           "food_ids": [
             {
-              "provider": "krda",
-              "id": "F1750000009c"
+              "provider": "mext",
+              "id": "06202"
             }
           ]
         },
@@ -85190,15 +85222,15 @@
         "is_estimate": true,
         "requires_independent_match": true,
         "details": {
-          "path": "assets/nutrition/family-c8756846df80-v1.6ad4ec96b7c4a627.json",
-          "bytes": 39328,
-          "sha256": "6ad4ec96b7c4a627e7a4ea2bcaf2b3caef893268457d7261837eb19ea14da575"
+          "path": "assets/nutrition/family-c8756846df80-v2.6d650b613c021759.json",
+          "bytes": 41040,
+          "sha256": "6d650b613c021759b5d5dcb4c3f1e8194576c9bcf6e91c350591161d202db03b"
         },
-        "profile_id": "family-c8756846df80-v1"
+        "profile_id": "family-c8756846df80-v2"
       },
       "reasons": [
         "已生成明确的2–3人标准配方估算，整份290g。",
-        "菜心采用已焯熟小白菜可食部代理；熟沥水菜净量250g单独称定，不从生菜重量推算出成率。油10g、生抽蚝油各5g、糖3g和盐2g，蒜12g辣椒3g，全部食用拌匀后理论总重290g。不同叶菜及焯水方式会有差异，不声称开花菜心实测。"
+        "固定偏茎蕾的熟菜心模型，以MEXT焯熟油菜花蕾及茎作同类代理；同属Brassica rapa但不是同一栽培群，不宣称菜心实测，不适用于以大叶为主的不同配方。熟沥水菜净量250g独立设定，不从生重推算出成率；加油10g、生抽蚝油各5g、糖3g、盐2g、蒜12g、辣椒3g，全部拌匀后290g，无后续加热弃料。"
       ],
       "candidate_fdc_ids": [
         171411,
@@ -88956,5 +88988,5 @@
     }
   ],
   "usage": "按recipe_id、配方版本和match条件独立核对；food_group_proxy是同类食物粗估，不代表原食材实测；候选与未知不可用于计算，不匹配时查询其他来源。",
-  "version": "407d1fdc07e559f2"
+  "version": "0a3cd2881d3fc190"
 }

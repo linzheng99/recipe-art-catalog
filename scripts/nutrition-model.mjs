@@ -357,9 +357,17 @@ export function validateProfile(profile, recipe) {
   ensure(
     ["usda_direct", "usda_recipe_estimate", "recipe_estimate"].includes(
       profile.method,
-    ) && ["approved", "pending"].includes(profile.review?.status),
+    ) && ["approved", "pending", "withdrawn"].includes(profile.review?.status),
     "营养方法或审核状态错误",
   );
+  if (profile.review.status === "withdrawn")
+    ensure(
+      /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(profile.review.superseded_by ?? "") &&
+        profile.review.superseded_by !== profile.id &&
+        nonempty(profile.review.withdrawal_reason) &&
+        Number.isFinite(Date.parse(profile.review.withdrawn_at)),
+      "撤回旧方案须注明替代方案、原因和日期",
+    );
   ensure(
     nonempty(profile.scope) &&
       Array.isArray(profile.assumptions) &&

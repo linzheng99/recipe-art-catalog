@@ -1,0 +1,876 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-29T01:31:29.658Z",
+  "reviewer": "Codex source and scope refinement; no human or provider approval claimed",
+  "baseline_commit": "c869b0f7c5dd09ebb9c6b9dc0437616df2caf63e",
+  "from_version": "407d1fdc07e559f2",
+  "to_version": "0a3cd2881d3fc190",
+  "counts": {
+    "assessed": 21,
+    "source_refined": 6,
+    "scope_corrected": 1,
+    "kept_proxy": 14,
+    "exact_identity_claimed": 0
+  },
+  "evidence": {
+    "datasets": [
+      "sources/nutrition/mext/dataset.json",
+      "sources/nutrition/krda/dataset.json"
+    ],
+    "selected_usda": [
+      2677915,
+      168088,
+      2710623
+    ],
+    "selected_mext": [
+      "06202",
+      "17053"
+    ],
+    "selected_krda": [
+      "K0840000000a",
+      "F054000B150a"
+    ],
+    "branded_identity": {
+      "fdc_id": 2677915,
+      "gtin": "085239019023",
+      "url": "https://www.target.com/p/-/A-14673085",
+      "checked": [
+        "GOOD & GATHER",
+        "Target Stores",
+        "raw frozen fillets",
+        "single species Pangasianodon hypophthalmus"
+      ]
+    },
+    "liqueur_identity": {
+      "fdc_id": 2710623,
+      "food_code": "93201000",
+      "additional_descriptions": [
+        "curacao",
+        "cointreau",
+        "triple sec"
+      ]
+    },
+    "reviewed_not_selected": [
+      {
+        "provider": "mext",
+        "food_id": "16028",
+        "reason": "Curacao品类更窄，但蛋白质和脂肪为Tr，必须保留null；本轮采用USDA明确包括curacao的整条通用参考，未拼接各源数值。"
+      },
+      {
+        "provider": "usda",
+        "fdc_id": 2099832,
+        "reason": "SIMPLY BALANCED UPC085239073568与核对的GOOD & GATHER UPC085239019023不同，不混用。"
+      },
+      {
+        "provider": "usda",
+        "fdc_id": 2182969,
+        "reason": "Y&Y候选未完成独立品牌与同UPC原标签核对，本轮不替代。"
+      },
+      {
+        "provider": "usda",
+        "fdc_id": 2637603,
+        "reason": "Meijer候选未取得品牌官方同UPC核对，本轮不使用第三方评价网站代替审核。"
+      }
+    ]
+  },
+  "recipes": [
+    {
+      "recipe_id": "howtocook-eb849be42cbb",
+      "name": "水煮鱼",
+      "status": "source_refined",
+      "profile_id": "family-eb849be42cbb-v2",
+      "previous_profile_id": "family-eb849be42cbb-v1",
+      "previous": {
+        "data_version": "7daebfce7424934f",
+        "per_100g": {
+          "energy_kcal": 82.764211,
+          "protein_g": 7.798442,
+          "carbohydrate_g": 2.667579,
+          "fat_g": 4.580442
+        },
+        "details": {
+          "path": "assets/nutrition/family-eb849be42cbb-v1.a637bdbb58aaeef7.json",
+          "bytes": 48404,
+          "sha256": "a637bdbb58aaeef7b4b5c9964bf2cd1f1a4a3961bde1ed3063e8a3df84f863ac"
+        }
+      },
+      "current": {
+        "data_version": "5c4ce60d2cc1d959",
+        "per_100g": {
+          "energy_kcal": 70.237895,
+          "protein_g": 7.098442,
+          "carbohydrate_g": 2.667579,
+          "fat_g": 3.548863
+        },
+        "details": {
+          "path": "assets/nutrition/family-eb849be42cbb-v2.2951d99ab3bde1f2.json",
+          "bytes": 49716,
+          "sha256": "2951d99ab3bde1f25938e5e4a959d261934e920953a3b7d6c71b20b15019a4c1"
+        }
+      },
+      "change_reason": "用核对UPC、单一成分、物种和生熟的巴沙鱼片替换通用鲈鱼；其他油酱代理继续披露。",
+      "remaining": "已固定同UPC、物种和生熟的巴沙鱼片；藤椒油、豆瓣品牌与实际成品重量仍可继续精化。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-961ae3ea5f72",
+      "name": "红烧鱼头",
+      "status": "source_refined",
+      "profile_id": "family-961ae3ea5f72-v2",
+      "previous_profile_id": "family-961ae3ea5f72-v1",
+      "previous": {
+        "data_version": "4da03e63fe150e6a",
+        "per_100g": {
+          "energy_kcal": 115.847143,
+          "protein_g": 9.720671,
+          "carbohydrate_g": 3.2957,
+          "fat_g": 6.835829
+        },
+        "details": {
+          "path": "assets/nutrition/family-961ae3ea5f72-v1.35f048e61ec21171.json",
+          "bytes": 58962,
+          "sha256": "35f048e61ec21171158a692f5716da4ea7d25197864f62438abe60c3754e9afe"
+        }
+      },
+      "current": {
+        "data_version": "a93a31efa7597adb",
+        "per_100g": {
+          "energy_kcal": 96.847143,
+          "protein_g": 10.320671,
+          "carbohydrate_g": 3.4457,
+          "fat_g": 4.435829
+        },
+        "details": {
+          "path": "assets/nutrition/family-961ae3ea5f72-v2.dad5398a5ce99393.json",
+          "bytes": 61803,
+          "sha256": "dad5398a5ce99393421db46221957e8364fbcd9e14d66931cd4c758b2d8b3df7"
+        }
+      },
+      "change_reason": "用官方白鲢同种生鱼肉替换鲤鱼；鱼头其他组织仍明确排除。",
+      "remaining": "已使用同种白鲢鱼肉；仍缺鱼头肌肉、鱼脑和皮脂等组织比例资料，当前只算注明的去骨肌肉。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-2ce6f52e5526",
+      "name": "葱烧海参",
+      "status": "kept_proxy",
+      "profile_id": "family-2ce6f52e5526-v1",
+      "previous_profile_id": "family-2ce6f52e5526-v1",
+      "previous": {
+        "data_version": "a7fa5038070f9c97",
+        "per_100g": {
+          "energy_kcal": 64.588,
+          "protein_g": 2.73064,
+          "carbohydrate_g": 3.2542,
+          "fat_g": 4.692
+        },
+        "details": {
+          "path": "assets/nutrition/family-2ce6f52e5526-v1.df9731355de013eb.json",
+          "bytes": 40576,
+          "sha256": "df9731355de013eb8e444bf03e900934e9901738a30dc9c48ca626c2b644efcf"
+        }
+      },
+      "current": {
+        "data_version": "a7fa5038070f9c97",
+        "per_100g": {
+          "energy_kcal": 64.588,
+          "protein_g": 2.73064,
+          "carbohydrate_g": 3.2542,
+          "fat_g": 4.692
+        },
+        "details": {
+          "path": "assets/nutrition/family-2ce6f52e5526-v1.df9731355de013eb.json",
+          "bytes": 40576,
+          "sha256": "df9731355de013eb8e444bf03e900934e9901738a30dc9c48ca626c2b644efcf"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "原表可核验的是鲜刺参，不是泡发北极参；物种、泡发后含水量和部位仍未对应，保持当前家庭代理。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-c9b72f0464b3",
+      "name": "香煎翘嘴鱼",
+      "status": "kept_proxy",
+      "profile_id": "family-c9b72f0464b3-v1",
+      "previous_profile_id": "family-c9b72f0464b3-v1",
+      "previous": {
+        "data_version": "58961f8c2e7d1ed1",
+        "per_100g": {
+          "energy_kcal": 175.113846,
+          "protein_g": 14.626769,
+          "carbohydrate_g": 5.472,
+          "fat_g": 10.049077
+        },
+        "details": {
+          "path": "assets/nutrition/family-c9b72f0464b3-v1.99a7d286d74c3ea8.json",
+          "bytes": 61332,
+          "sha256": "99a7d286d74c3ea8b1bd8fe4e703dd143ca52359372b2ddbc5eac7a7c072ea04"
+        }
+      },
+      "current": {
+        "data_version": "58961f8c2e7d1ed1",
+        "per_100g": {
+          "energy_kcal": 175.113846,
+          "protein_g": 14.626769,
+          "carbohydrate_g": 5.472,
+          "fat_g": 10.049077
+        },
+        "details": {
+          "path": "assets/nutrition/family-c9b72f0464b3-v1.99a7d286d74c3ea8.json",
+          "bytes": 61332,
+          "sha256": "99a7d286d74c3ea8b1bd8fe4e703dd143ca52359372b2ddbc5eac7a7c072ea04"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "未找到翘嘴鱼物种且腌晒后状态相符的成分条目；继续按注明的鱼肉和失水情景估算。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-4211c36ff61d",
+      "name": "鳊鱼炖豆腐",
+      "status": "kept_proxy",
+      "profile_id": "family-4211c36ff61d-v1",
+      "previous_profile_id": "family-4211c36ff61d-v1",
+      "previous": {
+        "data_version": "c3925a15a18c40ea",
+        "per_100g": {
+          "energy_kcal": 111.540952,
+          "protein_g": 12.024667,
+          "carbohydrate_g": 3.668667,
+          "fat_g": 5.958429
+        },
+        "details": {
+          "path": "assets/nutrition/family-4211c36ff61d-v1.35e545204029e7f5.json",
+          "bytes": 51355,
+          "sha256": "35e545204029e7f5d5bfabb4593a44224f203993d0113fb2393afa5803d211f5"
+        }
+      },
+      "current": {
+        "data_version": "c3925a15a18c40ea",
+        "per_100g": {
+          "energy_kcal": 111.540952,
+          "protein_g": 12.024667,
+          "carbohydrate_g": 3.668667,
+          "fat_g": 5.958429
+        },
+        "details": {
+          "path": "assets/nutrition/family-4211c36ff61d-v1.35e545204029e7f5.json",
+          "bytes": 51355,
+          "sha256": "35e545204029e7f5d5bfabb4593a44224f203993d0113fb2393afa5803d211f5"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "本轮官方原表未核验到原文鳊鱼物种；已选鲤鱼属于明示代理，不因近名的海鲷或drum换源。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-43027c68c000",
+      "name": "龟苓膏",
+      "status": "kept_proxy",
+      "profile_id": "family-43027c68c000-v1",
+      "previous_profile_id": "family-43027c68c000-v1",
+      "previous": {
+        "data_version": "ea20eab1a91aa046",
+        "per_100g": {
+          "energy_kcal": 66.666667,
+          "protein_g": 0.033819,
+          "carbohydrate_g": 17.015694,
+          "fat_g": 0.002778
+        },
+        "details": {
+          "path": "assets/nutrition/family-43027c68c000-v1.96e9e8035a518100.json",
+          "bytes": 24126,
+          "sha256": "96e9e8035a51810033767c89a5a481162afa057d625effb9dac310d436a2b4c1"
+        }
+      },
+      "current": {
+        "data_version": "ea20eab1a91aa046",
+        "per_100g": {
+          "energy_kcal": 66.666667,
+          "protein_g": 0.033819,
+          "carbohydrate_g": 17.015694,
+          "fat_g": 0.002778
+        },
+        "details": {
+          "path": "assets/nutrition/family-43027c68c000-v1.96e9e8035a518100.json",
+          "bytes": 24126,
+          "sha256": "96e9e8035a51810033767c89a5a481162afa057d625effb9dac310d436a2b4c1"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "guilinggao品牌检索无命中；grass jelly命中仙草、加糖饮品及复配甜品，不代表龟苓膏粉，仍缺粉的明确品牌配方。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-460b515020de",
+      "name": "冰粉",
+      "status": "kept_proxy",
+      "profile_id": "family-460b515020de-v1",
+      "previous_profile_id": "family-460b515020de-v1",
+      "previous": {
+        "data_version": "54d9600ea0e44415",
+        "per_100g": {
+          "energy_kcal": 1.408889,
+          "protein_g": 0.031256,
+          "carbohydrate_g": 0.3689,
+          "fat_g": 0.002144
+        },
+        "details": {
+          "path": "assets/nutrition/family-460b515020de-v1.6836ea90676106a0.json",
+          "bytes": 20653,
+          "sha256": "6836ea90676106a032df1437d5980172fb00dd272730b7277b82a93d30a98bfd"
+        }
+      },
+      "current": {
+        "data_version": "54d9600ea0e44415",
+        "per_100g": {
+          "energy_kcal": 1.408889,
+          "protein_g": 0.031256,
+          "carbohydrate_g": 0.3689,
+          "fat_g": 0.002144
+        },
+        "details": {
+          "path": "assets/nutrition/family-460b515020de-v1.6836ea90676106a0.json",
+          "bytes": 20653,
+          "sha256": "6836ea90676106a032df1437d5980172fb00dd272730b7277b82a93d30a98bfd"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "grass jelly的Mesona仙草和加糖饮料不是冰粉籽过滤凝胶；未取得该滤液成分或固定品牌，保留无糖凝胶代理。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-b261aa97c4ab",
+      "name": "海边落日",
+      "status": "source_refined",
+      "profile_id": "family-b261aa97c4ab-v2",
+      "previous_profile_id": "family-b261aa97c4ab-v1",
+      "previous": {
+        "data_version": "7989c7274da5c317",
+        "per_100g": {
+          "energy_kcal": 61.983333,
+          "protein_g": 0.1595,
+          "carbohydrate_g": 7.923667,
+          "fat_g": 0.068333
+        },
+        "details": {
+          "path": "assets/nutrition/family-b261aa97c4ab-v1.7ef39b51ac0688d2.json",
+          "bytes": 34971,
+          "sha256": "7ef39b51ac0688d27567c7851496a6ab39371278ecc22a9c23f03bec0f5c9021"
+        }
+      },
+      "current": {
+        "data_version": "d2c59189c9268aa7",
+        "per_100g": {
+          "energy_kcal": 59.533333,
+          "protein_g": 0.1525,
+          "carbohydrate_g": 7.238667,
+          "fat_g": 0.055833
+        },
+        "details": {
+          "path": "assets/nutrition/family-b261aa97c4ab-v2.712a70608bb17009.json",
+          "bytes": 34679,
+          "sha256": "712a70608bb17009696655a14c7f8571e2f76983a2505b5cac58b8355e507263"
+        }
+      },
+      "change_reason": "橙味甜酒由咖啡甜酒改为官方包含curacao的通用组；红石榴糖浆改为同名USDA条目。",
+      "remaining": "红石榴糖浆已换为同名USDA条目；橙酒采用官方包括curacao的通用组，仍需具体品牌酒度及含糖量。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-4633664c062d",
+      "name": "酒酿醪糟",
+      "status": "kept_proxy",
+      "profile_id": "family-4633664c062d-v1",
+      "previous_profile_id": "family-4633664c062d-v1",
+      "previous": {
+        "data_version": "d4427973e90a6671",
+        "per_100g": {
+          "energy_kcal": 76,
+          "protein_g": 1.7,
+          "carbohydrate_g": 18.3,
+          "fat_g": 0.1
+        },
+        "details": {
+          "path": "assets/nutrition/family-4633664c062d-v1.cff601a7efd3b568.json",
+          "bytes": 14509,
+          "sha256": "cff601a7efd3b56833a85491051de5e3b114893a665dd1e54359da8d61cb6980"
+        }
+      },
+      "current": {
+        "data_version": "d4427973e90a6671",
+        "per_100g": {
+          "energy_kcal": 76,
+          "protein_g": 1.7,
+          "carbohydrate_g": 18.3,
+          "fat_g": 0.1
+        },
+        "details": {
+          "path": "assets/nutrition/family-4633664c062d-v1.cff601a7efd3b568.json",
+          "bytes": 14509,
+          "sha256": "cff601a7efd3b56833a85491051de5e3b114893a665dd1e54359da8d61cb6980"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "日本甘酒、压榨清酒酒粕和韩国米酒的固形物、含米粒比例与中国甜酒曲醪糟不同，当前甜饮代理继续披露。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-d20888ebc3bf",
+      "name": "酸梅汤",
+      "status": "kept_proxy",
+      "profile_id": "family-d20888ebc3bf-v1",
+      "previous_profile_id": "family-d20888ebc3bf-v1",
+      "previous": {
+        "data_version": "3c30352b6ea0aadc",
+        "per_100g": {
+          "energy_kcal": 25.190476,
+          "protein_g": 0.058095,
+          "carbohydrate_g": 6.419048,
+          "fat_g": 0.002857
+        },
+        "details": {
+          "path": "assets/nutrition/family-d20888ebc3bf-v1.ab0835d774348139.json",
+          "bytes": 19409,
+          "sha256": "ab0835d7743481391b15e570639a502c9221395e4fe7483e8a927242a7dc2402"
+        }
+      },
+      "current": {
+        "data_version": "3c30352b6ea0aadc",
+        "per_100g": {
+          "energy_kcal": 25.190476,
+          "protein_g": 0.058095,
+          "carbohydrate_g": 6.419048,
+          "fat_g": 0.002857
+        },
+        "details": {
+          "path": "assets/nutrition/family-d20888ebc3bf-v1.ab0835d774348139.json",
+          "bytes": 19409,
+          "sha256": "ab0835d7743481391b15e570639a502c9221395e4fe7483e8a927242a7dc2402"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "sour plum drink的本次前20候选主要为能量饮料、糖果或梅醋，并非原配方熬煮滤液；保留已注明的果味糖水模型。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-342d514cbf79",
+      "name": "酸梅汤（半成品加工）",
+      "status": "kept_proxy",
+      "profile_id": "family-342d514cbf79-v1",
+      "previous_profile_id": "family-342d514cbf79-v1",
+      "previous": {
+        "data_version": "7c3e300b3cdd3cd5",
+        "per_100g": {
+          "energy_kcal": 43.885496,
+          "protein_g": 0.037252,
+          "carbohydrate_g": 9.459542,
+          "fat_g": 0.001832
+        },
+        "details": {
+          "path": "assets/nutrition/family-342d514cbf79-v1.0134852af992f724.json",
+          "bytes": 25616,
+          "sha256": "0134852af992f7240770a962f582ce766598185cacfff90b47b2467af3a2a4e4"
+        }
+      },
+      "current": {
+        "data_version": "7c3e300b3cdd3cd5",
+        "per_100g": {
+          "energy_kcal": 43.885496,
+          "protein_g": 0.037252,
+          "carbohydrate_g": 9.459542,
+          "fat_g": 0.001832
+        },
+        "details": {
+          "path": "assets/nutrition/family-342d514cbf79-v1.0134852af992f724.json",
+          "bytes": 25616,
+          "sha256": "0134852af992f7240770a962f582ce766598185cacfff90b47b2467af3a2a4e4"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "原文酸梅晶品牌及粉的营养标签未固定；即使找到梅味饮品，也无法据此还原该粉与二锅头配方。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-45ad36b6133c",
+      "name": "长岛冰茶",
+      "status": "source_refined",
+      "profile_id": "family-45ad36b6133c-v2",
+      "previous_profile_id": "family-45ad36b6133c-v1",
+      "previous": {
+        "data_version": "65469e5d8dd864eb",
+        "per_100g": {
+          "energy_kcal": 91.983607,
+          "protein_g": 0.06,
+          "carbohydrate_g": 10.083934,
+          "fat_g": 0.108689
+        },
+        "details": {
+          "path": "assets/nutrition/family-45ad36b6133c-v1.ed716eaac9f89fd4.json",
+          "bytes": 45901,
+          "sha256": "ed716eaac9f89fd4e58ea0ae976656af1af8ce179ee0d62ab6a98d91cbfce031"
+        }
+      },
+      "current": {
+        "data_version": "4576087367212f56",
+        "per_100g": {
+          "energy_kcal": 89.180328,
+          "protein_g": 0.055082,
+          "carbohydrate_g": 9.415082,
+          "fat_g": 0.099344
+        },
+        "details": {
+          "path": "assets/nutrition/family-45ad36b6133c-v2.80c5e65adf4c3824.json",
+          "bytes": 46654,
+          "sha256": "80c5e65adf4c382430599fa00389ea8f6748d55cde064ad0c4318932fc86bee8"
+        }
+      },
+      "change_reason": "根据官方Additional Description将橙味酒改为包含橙味酒的通用组，保留原文枫糖浆与龙舌兰代理披露。",
+      "remaining": "橙酒改为包含curacao/cointreau/triple sec的通用组；原文枫糖浆保留，具体酒度和龙舌兰品牌仍为代理。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-c5fddf9813b2",
+      "name": "杀猪菜",
+      "status": "kept_proxy",
+      "profile_id": "family-c5fddf9813b2-v1",
+      "previous_profile_id": "family-c5fddf9813b2-v1",
+      "previous": {
+        "data_version": "f31ba8914c2fbcbc",
+        "per_100g": {
+          "energy_kcal": 84.279375,
+          "protein_g": 4.06575,
+          "carbohydrate_g": 3.650875,
+          "fat_g": 6.047125
+        },
+        "details": {
+          "path": "assets/nutrition/family-c5fddf9813b2-v1.d593838a80c3c0fe.json",
+          "bytes": 55561,
+          "sha256": "d593838a80c3c0fe7ee4a58e31fb22a4122a928030b91faec22437f60aa3189b"
+        }
+      },
+      "current": {
+        "data_version": "f31ba8914c2fbcbc",
+        "per_100g": {
+          "energy_kcal": 84.279375,
+          "protein_g": 4.06575,
+          "carbohydrate_g": 3.650875,
+          "fat_g": 6.047125
+        },
+        "details": {
+          "path": "assets/nutrition/family-c5fddf9813b2-v1.d593838a80c3c0fe.json",
+          "bytes": 55561,
+          "sha256": "d593838a80c3c0fe7ee4a58e31fb22a4122a928030b91faec22437f60aa3189b"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "韩国高血含量血肠来源可用，但仍非原文血肠的血、谷物及肥肉比例，保持既有来源和模型。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-ddc763f709d2",
+      "name": "猪皮冻",
+      "status": "kept_proxy",
+      "profile_id": "family-ddc763f709d2-v1",
+      "previous_profile_id": "family-ddc763f709d2-v1",
+      "previous": {
+        "data_version": "fba5abccdafc8954",
+        "per_100g": {
+          "energy_kcal": 66.31,
+          "protein_g": 7.2407,
+          "carbohydrate_g": 0.3993,
+          "fat_g": 3.8065
+        },
+        "details": {
+          "path": "assets/nutrition/family-ddc763f709d2-v1.9dfd9444cb4a6e82.json",
+          "bytes": 31283,
+          "sha256": "9dfd9444cb4a6e8214326db6de6a913b35084f3cf5531fb8e1842dd245fb5249"
+        }
+      },
+      "current": {
+        "data_version": "fba5abccdafc8954",
+        "per_100g": {
+          "energy_kcal": 66.31,
+          "protein_g": 7.2407,
+          "carbohydrate_g": 0.3993,
+          "fat_g": 3.8065
+        },
+        "details": {
+          "path": "assets/nutrition/family-ddc763f709d2-v1.9dfd9444cb4a6e82.json",
+          "bytes": 31283,
+          "sha256": "9dfd9444cb4a6e8214326db6de6a913b35084f3cf5531fb8e1842dd245fb5249"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "RAW PORK SKIN品牌检索无命中；既有结果为熟炸猪皮、腌猪皮或带皮五花肉，不能当纯刮脂鲜猪皮。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-a7f8fdd45ba3",
+      "name": "血浆鸭",
+      "status": "kept_proxy",
+      "profile_id": "family-a7f8fdd45ba3-v1",
+      "previous_profile_id": "family-a7f8fdd45ba3-v1",
+      "previous": {
+        "data_version": "c522c8d701d29885",
+        "per_100g": {
+          "energy_kcal": 233.180952,
+          "protein_g": 7.051381,
+          "carbohydrate_g": 3.172905,
+          "fat_g": 20.701333
+        },
+        "details": {
+          "path": "assets/nutrition/family-a7f8fdd45ba3-v1.c8faf10c0ca0f639.json",
+          "bytes": 57501,
+          "sha256": "c8faf10c0ca0f639b4d4e31dea9324be8582e8aad205080b1a60ed7d5b3c06e2"
+        }
+      },
+      "current": {
+        "data_version": "c522c8d701d29885",
+        "per_100g": {
+          "energy_kcal": 233.180952,
+          "protein_g": 7.051381,
+          "carbohydrate_g": 3.172905,
+          "fat_g": 20.701333
+        },
+        "details": {
+          "path": "assets/nutrition/family-a7f8fdd45ba3-v1.c8faf10c0ca0f639.json",
+          "bytes": 57501,
+          "sha256": "c8faf10c0ca0f639b4d4e31dea9324be8582e8aad205080b1a60ed7d5b3c06e2"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "现有可核验原表是生牛血，不是鸭血；不拿鸭肉值替代血液，继续披露牛血代理及烹饪损失假设。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-6f41690d80c8",
+      "name": "豆豉鲮鱼油麦菜",
+      "status": "kept_proxy",
+      "profile_id": "family-6f41690d80c8-v1",
+      "previous_profile_id": "family-6f41690d80c8-v1",
+      "previous": {
+        "data_version": "4e05713528d934c4",
+        "per_100g": {
+          "energy_kcal": 110.401667,
+          "protein_g": 7.297667,
+          "carbohydrate_g": 4.667167,
+          "fat_g": 6.9395
+        },
+        "details": {
+          "path": "assets/nutrition/family-6f41690d80c8-v1.52f3f7c52516bd3e.json",
+          "bytes": 41112,
+          "sha256": "52f3f7c52516bd3e20144db5d4d37c63d54c0db06ee5a4b2bf607281416c3264"
+        }
+      },
+      "current": {
+        "data_version": "4e05713528d934c4",
+        "per_100g": {
+          "energy_kcal": 110.401667,
+          "protein_g": 7.297667,
+          "carbohydrate_g": 4.667167,
+          "fat_g": 6.9395
+        },
+        "details": {
+          "path": "assets/nutrition/family-6f41690d80c8-v1.52f3f7c52516bd3e.json",
+          "bytes": 41112,
+          "sha256": "52f3f7c52516bd3e20144db5d4d37c63d54c0db06ee5a4b2bf607281416c3264"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "ganzhu品牌检索无命中；沙丁鱼和豆豉酱只能作为已注明家庭配方，不能当甘竹豆豉鲮鱼罐头标签。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-280e1f88f772",
+      "name": "贵州辣子鸡",
+      "status": "source_refined",
+      "profile_id": "family-280e1f88f772-v2",
+      "previous_profile_id": "family-280e1f88f772-v1",
+      "previous": {
+        "data_version": "767b1be998c582da",
+        "per_100g": {
+          "energy_kcal": 141.217391,
+          "protein_g": 11.644522,
+          "carbohydrate_g": 8.53487,
+          "fat_g": 6.592957
+        },
+        "details": {
+          "path": "assets/nutrition/family-280e1f88f772-v1.a3c2e99df50ab300.json",
+          "bytes": 60163,
+          "sha256": "a3c2e99df50ab300a689ec3a716b19c3c4de9d7c2422898b233579353a3d156a"
+        }
+      },
+      "current": {
+        "data_version": "0d9334ed8295cd8f",
+        "per_100g": {
+          "energy_kcal": 147.782609,
+          "protein_g": 12.098087,
+          "carbohydrate_g": 9.100261,
+          "fat_g": 6.727217
+        },
+        "details": {
+          "path": "assets/nutrition/family-280e1f88f772-v2.99c0608558825585.json",
+          "bytes": 66896,
+          "sha256": "99c06085588255855dc0e0c47e3345c59c79254450ab5096cef1730ae8945ccc"
+        }
+      },
+      "change_reason": "蒜苗改为同种蒜叶茎，酒糟由甜饮改为酒粕，并显式纳入原文豆瓣酱。",
+      "remaining": "蒜苗已换同种生叶茎，酒糟已由甜饮改酒粕，已补豆瓣酱；仍需贵州酒糟及糍粑辣椒组成和实测吸油量来进一步精化。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-1bc98124aec5",
+      "name": "牛油火锅底料",
+      "status": "scope_corrected",
+      "profile_id": "family-1bc98124aec5-v2",
+      "previous_profile_id": "family-1bc98124aec5-v1",
+      "previous": {
+        "data_version": "f1233b4e514bb0c4",
+        "per_100g": {
+          "energy_kcal": 667.916667,
+          "protein_g": 1.9046,
+          "carbohydrate_g": 7.634833,
+          "fat_g": 70.789333
+        },
+        "details": {
+          "path": "assets/nutrition/family-1bc98124aec5-v1.944a8722393bad3a.json",
+          "bytes": 64298,
+          "sha256": "944a8722393bad3a6df8308db8bdecf1bc8195375f977419f3b9c6433811efd7"
+        }
+      },
+      "current": {
+        "data_version": "6b428605f4620d32",
+        "per_100g": {
+          "energy_kcal": 667.916667,
+          "protein_g": 1.9046,
+          "carbohydrate_g": 7.634833,
+          "fat_g": 70.789333
+        },
+        "details": {
+          "path": "assets/nutrition/family-1bc98124aec5-v2.3541e90b14e1341b.json",
+          "bytes": 64980,
+          "sha256": "3541e90b14e1341b1051ba070380350d5c6603d254fd0e47ee31c5f44e06386b"
+        }
+      },
+      "change_reason": "原方案实际包含豆瓣与豆豉酱，修正sauce_added标记为true；食材、用量、成品重及四项营养计算保持不变。",
+      "remaining": "修正豆瓣及豆豉酱的sauce_added标记；豆母子、地方辣椒糊和底料实际配比仍是代理，数值不变，仅针对浓缩底料。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-031354976c67",
+      "name": "螺蛳粉",
+      "status": "kept_proxy",
+      "profile_id": "family-031354976c67-v1",
+      "previous_profile_id": "family-031354976c67-v1",
+      "previous": {
+        "data_version": "4b74923859065546",
+        "per_100g": {
+          "energy_kcal": 80.428966,
+          "protein_g": 2.853379,
+          "carbohydrate_g": 8.711379,
+          "fat_g": 3.724276
+        },
+        "details": {
+          "path": "assets/nutrition/family-031354976c67-v1.b3c5cd95f9442cde.json",
+          "bytes": 57132,
+          "sha256": "b3c5cd95f9442cdeeabfee126d3190dfdded03f96bed92828046f142aa01a5c9"
+        }
+      },
+      "current": {
+        "data_version": "4b74923859065546",
+        "per_100g": {
+          "energy_kcal": 80.428966,
+          "protein_g": 2.853379,
+          "carbohydrate_g": 8.711379,
+          "fat_g": 3.724276
+        },
+        "details": {
+          "path": "assets/nutrition/family-031354976c67-v1.b3c5cd95f9442cde.json",
+          "bytes": 57132,
+          "sha256": "b3c5cd95f9442cdeeabfee126d3190dfdded03f96bed92828046f142aa01a5c9"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "luosifen品牌检索无命中；原文袋装品牌及料包比例未知，当前自制家庭汤粉模型继续可用，不代表包装标签。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-4de3928e6efa",
+      "name": "醪糟小汤圆",
+      "status": "kept_proxy",
+      "profile_id": "family-4de3928e6efa-v1",
+      "previous_profile_id": "family-4de3928e6efa-v1",
+      "previous": {
+        "data_version": "cc49a4d1955a98d0",
+        "per_100g": {
+          "energy_kcal": 52.257,
+          "protein_g": 0.867,
+          "carbohydrate_g": 12.1919,
+          "fat_g": 0.12015
+        },
+        "details": {
+          "path": "assets/nutrition/family-4de3928e6efa-v1.b2a4f000160194c4.json",
+          "bytes": 30628,
+          "sha256": "b2a4f000160194c449817e3004a7c319312b6fc4fcb0c14e8426efe88df97a23"
+        }
+      },
+      "current": {
+        "data_version": "cc49a4d1955a98d0",
+        "per_100g": {
+          "energy_kcal": 52.257,
+          "protein_g": 0.867,
+          "carbohydrate_g": 12.1919,
+          "fat_g": 0.12015
+        },
+        "details": {
+          "path": "assets/nutrition/family-4de3928e6efa-v1.b2a4f000160194c4.json",
+          "bytes": 30628,
+          "sha256": "b2a4f000160194c449817e3004a7c319312b6fc4fcb0c14e8426efe88df97a23"
+        }
+      },
+      "change_reason": "本轮未取得足以改善身份及状态匹配的对应来源，保留已有可用估算。",
+      "remaining": "醪糟仍缺中国甜酒曲成品中米粒、液体、残糖和酒精比例；无馅糯米粉汤圆家庭模型与甘酒代理继续披露。",
+      "still_food_group_proxy": true
+    },
+    {
+      "recipe_id": "howtocook-c8756846df80",
+      "name": "白灼菜心",
+      "status": "source_refined",
+      "profile_id": "family-c8756846df80-v2",
+      "previous_profile_id": "family-c8756846df80-v1",
+      "previous": {
+        "data_version": "d6f17d46aa5cd1f0",
+        "per_100g": {
+          "energy_kcal": 52.341379,
+          "protein_g": 1.825448,
+          "carbohydrate_g": 4.328552,
+          "fat_g": 3.599724
+        },
+        "details": {
+          "path": "assets/nutrition/family-c8756846df80-v1.6ad4ec96b7c4a627.json",
+          "bytes": 39328,
+          "sha256": "6ad4ec96b7c4a627e7a4ea2bcaf2b3caef893268457d7261837eb19ea14da575"
+        }
+      },
+      "current": {
+        "data_version": "1f3008d506e40f4e",
+        "per_100g": {
+          "energy_kcal": 66.996552,
+          "protein_g": 4.497862,
+          "carbohydrate_g": 6.475103,
+          "fat_g": 3.573862
+        },
+        "details": {
+          "path": "assets/nutrition/family-c8756846df80-v2.6d650b613c021759.json",
+          "bytes": 41040,
+          "sha256": "6d650b613c021759b5d5dcb4c3f1e8194576c9bcf6e91c350591161d202db03b"
+        }
+      },
+      "change_reason": "以熟花蕾和茎替换小白菜叶，细化部位及熟态，但仍保留栽培群代理限制。",
+      "remaining": "已细化为熟茎蕾代理，MEXT Oleifera Group仍非中国菜心栽培群；熟重和加料明确，不能称为菜心实测。",
+      "still_food_group_proxy": true
+    }
+  ]
+}

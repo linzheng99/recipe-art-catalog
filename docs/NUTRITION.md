@@ -1,5 +1,9 @@
 # 营养参考：分批生成与接入
 
+最近一次精化逐篇核对21篇代理，6篇换源、1篇修正条件，保留所有旧方案和摘要地址，详见 [2026-10-29精化说明](NUTRITION_REFINEMENT.md)。来源更贴合不等于用户实际配方更准确；家庭用量和成品重量仍为明示假设。
+
+方案升级须增加计划version，并填写supersedes_profile_id及change_reason。apply仅在新食材来源核对完成后撤回旧方案，保存替代关系与原审核证据；构建检查替代链最终指向同一菜谱的已审核方案，不允许循环或撤回后无可用方案。计算公式保持nutrition-1.6.0，本轮以方案和data_version区分来源变化。
+
 ## 发布与线上验收
 
 GitHub Actions在构建检查通过后，以本次push的before提交（PR用base提交，手动运行默认HEAD^）对比生成营养变化摘要，并写入作业摘要和部署文件 `nutrition/changes.json`。记录from_version、to_version、commit、增改删数量及逐篇前后方案，包含数值、来源和适用范围变化；普通页面修改不会冒充营养数据更新。初次发布没有旧营养文件时记录全部新增。

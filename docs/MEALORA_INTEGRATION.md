@@ -166,7 +166,7 @@ Actions每次发布还提供 `nutrition/changes.json`，包含本次push对应�
 
 读取地址和字段不变：`nutrition/index.json` → 按recipe_id选择 `recipes[].nutrition.per_100g`。若 `estimation_level === "food_group_proxy"`，显示“同类食物估算”；`match.food_proxies`记录代用了什么，不应显示成对应品牌或原物种的测定值。新版客户端会把该字段原样带到克数换算结果中，不新增确认参数，沿用标准配方和成品重量假设的选项。
 
-水煮鱼 `howtocook-eb849be42cbb` 的真实代理方案：通用淡水鱼肉350g代表巴沙鱼，合计成品950g。每100g为82.764211kcal、蛋白质7.798442g、碳水2.667579g、脂肪4.580442g；150g约124.1463165kcal。肉量排除骨头，全部列入的油糖酱和汤汁计入。这是选定家庭模型的粗估，不是USDA对巴沙鱼水煮鱼的直接测定。
+水煮鱼 `howtocook-eb849be42cbb` 的真实代理方案：v2固定Good & Gather巴沙鱼生片350g（UPC085239019023），合计成品950g。每100g为70.237895kcal、蛋白质7.098442g、碳水2.667579g、脂肪3.548863g；150g约105.3568425kcal。肉量排除骨头，全部列入的油糖酱和汤汁计入。这是选定家庭模型的粗估，不是USDA对巴沙鱼水煮鱼的直接测定。
 
 ```js
 const selected = index.recipes.find(r => r.recipe_id === 'howtocook-eb849be42cbb');

@@ -16079,9 +16079,8 @@
       "final_g": 950,
       "ingredients": [
         {
-          "key": "bass",
-          "grams": 350,
-          "name": "通用淡水鱼净肉（鲈鱼参考）"
+          "key": "swai_branded",
+          "grams": 350
         },
         {
           "key": "cauliflower",
@@ -16122,9 +16121,9 @@
       ],
       "food_proxies": [
         {
-          "ingredient_key": "bass",
+          "ingredient_key": "swai_branded",
           "target": "巴沙鱼净肉",
-          "reason": "同类淡水鱼肉代理，鱼种脂肪含量可能不同"
+          "reason": "固定已核对UPC和原料物种的巴沙鱼生片，品牌及养殖含水量仍有差异"
         },
         {
           "ingredient_key": "oil",
@@ -16138,12 +16137,16 @@
         }
       ],
       "default_for_artwork": false,
-      "note": "巴沙鱼净肉350g以通用淡水鲈鱼肉代理；普通酱豆瓣固定为已核验李锦记辣豆酱，非原红油豆瓣品牌；藤椒油及菜籽油合计按植物油28g的宏量代理，不重复计入豆瓣自身油。蔬菜固定花菜200g、绿叶生菜100g；省略可选豆豉，菜直接煮熟不先弃焯水。鱼菜与全部汤汁同食，成品950g为2–3人家庭假设。",
+      "note": "巴沙鱼部分固定为Good & Gather无调味养殖巴沙鱼生鱼片净350g，UPC085239019023，物种Pangasianodon hypophthalmus；不含包装冰衣。藤椒油及菜籽油合计以普通植物油28g代理，红油豆瓣仍用已核验李锦记辣豆酱30g代理。花菜200g、生菜100g，省略可选豆豉；鱼菜与全部汤汁同食，成品950g为家庭假设。",
       "review": {
         "status": "approved",
-        "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
-        "source_checked": true
-      }
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "source_checked": true,
+        "reviewed_at": "2026-10-29T01:31:29.658Z"
+      },
+      "version": "2",
+      "supersedes_profile_id": "family-eb849be42cbb-v1",
+      "change_reason": "用核对UPC、单一成分、物种和生熟的巴沙鱼片替换通用鲈鱼；其他油酱代理继续披露。"
     },
     {
       "recipe_id": "howtocook-961ae3ea5f72",
@@ -16153,7 +16156,7 @@
       "final_g": 700,
       "ingredients": [
         {
-          "key": "carp",
+          "key": "krda_silver_carp",
           "grams": 350
         },
         {
@@ -16211,18 +16214,22 @@
       ],
       "food_proxies": [
         {
-          "ingredient_key": "carp",
+          "ingredient_key": "krda_silver_carp",
           "target": "鲢鱼头可食鱼肉",
-          "reason": "用普通淡水鱼肉估算可食肉部分，未覆盖头部各组织的实际营养"
+          "reason": "同种白鲢体部生肉代理鱼头肌肉，头部其他组织不计"
         }
       ],
       "default_for_artwork": false,
-      "note": "鱼头及附带鱼身中去骨可食鱼肉按350g标准量，采用鲤鱼净肉代理白鲢或花鲢鱼头肉；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不能把带骨整鱼头毛重当350g肉。只计食用葱姜蒜及酱汁，省略鸡精、八角等香料包；两种酱油合计18g按普通酱油，米酒15g能量暂按全保留。油27g为最终食用量，成品700g含食用汤汁，非实测。",
+      "note": "限定白鲢鱼头及附带鱼身的去骨可食肌肉350g，以同种白鲢的生鱼肉参考代理；鱼脑、鱼皮脂肪及骨髓不在本近似范围，不把带骨鱼头毛重当肉量，不适用于花鲢或其他鱼种。油27g为最终食用量，所有列出调味及食用汤汁保留，成品700g为家庭假设；酒精损失未校正。",
       "review": {
         "status": "approved",
-        "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
-        "source_checked": true
-      }
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "source_checked": true,
+        "reviewed_at": "2026-10-29T01:31:29.658Z"
+      },
+      "version": "2",
+      "supersedes_profile_id": "family-961ae3ea5f72-v1",
+      "change_reason": "用官方白鲢同种生鱼肉替换鲤鱼；鱼头其他组织仍明确排除。"
     },
     {
       "recipe_id": "howtocook-c9b72f0464b3",
@@ -16530,7 +16537,7 @@
           "grams": 60
         },
         {
-          "key": "coffee_liqueur",
+          "key": "liqueur_curacao_group",
           "grams": 30
         },
         {
@@ -16538,7 +16545,7 @@
           "grams": 100
         },
         {
-          "key": "maple",
+          "key": "grenadine",
           "grams": 30
         },
         {
@@ -16556,23 +16563,22 @@
       ],
       "food_proxies": [
         {
-          "ingredient_key": "coffee_liqueur",
+          "ingredient_key": "liqueur_curacao_group",
           "target": "蓝橙力娇酒",
-          "reason": "通用含糖甜酒代理，原品牌酒度和含糖量可能不同"
-        },
-        {
-          "ingredient_key": "maple",
-          "target": "红石榴糖浆",
-          "reason": "通用含糖糖浆宏量代理，非红石榴品牌配方"
+          "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
         }
       ],
       "default_for_artwork": false,
-      "note": "两到三杯家庭标准冷调饮品，所有液体按克设定。蓝橙力娇酒用USDA通用53proof咖啡甜酒作甜酒宏量代理，红石榴糖浆用通用枫糖浆代理，口味不同；不是原品牌酒度糖分的真实数据。冰与苏打水合并为饮水340g并按全部融化质量，气体忽略；柠檬果肉10g，整份600g全部食用，未把ml按1比1换成g。",
+      "note": "两到三杯家庭标准冷调饮品，所有原料直接按克设定。蓝橙力娇酒采用USDA FNDDS含curacao/triple sec的通用利口酒参考组，仍非原品牌及酒度；红石榴糖浆采用USDA同名grenadine参考，不再使用枫糖浆。冰及苏打水按水340g、柠檬果肉10g，整份600g全部饮用；未将ml按1比1换为g。",
       "review": {
         "status": "approved",
-        "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
-        "source_checked": true
-      }
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "source_checked": true,
+        "reviewed_at": "2026-10-29T01:31:29.658Z"
+      },
+      "version": "2",
+      "supersedes_profile_id": "family-b261aa97c4ab-v1",
+      "change_reason": "橙味甜酒由咖啡甜酒改为官方包含curacao的通用组；红石榴糖浆改为同名USDA条目。"
     },
     {
       "recipe_id": "howtocook-45ad36b6133c",
@@ -16598,7 +16604,7 @@
           "grams": 30
         },
         {
-          "key": "coffee_liqueur",
+          "key": "liqueur_curacao_group",
           "grams": 30
         },
         {
@@ -16629,18 +16635,22 @@
           "reason": "通用40%vol无糖蒸馏酒代理，非龙舌兰产品实测"
         },
         {
-          "ingredient_key": "coffee_liqueur",
+          "ingredient_key": "liqueur_curacao_group",
           "target": "橙味甜酒",
-          "reason": "通用含糖甜酒宏量代理，风味、酒度和含糖可能不同"
+          "reason": "USDA官方通用组明确包含curacao、cointreau和triple sec；具体酒度与糖分仍为代理"
         }
       ],
       "default_for_artwork": false,
-      "note": "两到三杯冷调标准版，各原料直接按克设定；龙舌兰30g以40%vol无糖蒸馏酒代理，橙味甜酒30g以通用咖啡甜酒代理，其他金酒朗姆伏特加使用各自USDA来源。不冒充指定品牌或原酒度糖分；冰块按水200g并按全部融化质量，柠檬果肉10g，整份610g，全部饮用。",
+      "note": "两到三杯冷调标准版，原料直接按克设定。橙味甜酒30g采用FNDDS明确包含curacao、cointreau、triple sec的通用利口酒组，不再用咖啡甜酒；龙舌兰30g仍用40%vol无糖蒸馏酒代理。原文枫糖浆保留40g，不误改成红石榴糖浆；冰块按水200g、柠檬果肉10g，整份610g全部饮用，不冒充原品牌酒度糖分。",
       "review": {
         "status": "approved",
-        "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
-        "source_checked": true
-      }
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "source_checked": true,
+        "reviewed_at": "2026-10-29T01:31:29.658Z"
+      },
+      "version": "2",
+      "supersedes_profile_id": "family-45ad36b6133c-v1",
+      "change_reason": "根据官方Additional Description将橙味酒改为包含橙味酒的通用组，保留原文枫糖浆与龙舌兰代理披露。"
     },
     {
       "recipe_id": "howtocook-4633664c062d",
@@ -17033,11 +17043,11 @@
           "grams": 30
         },
         {
-          "key": "mext_chive",
+          "key": "krda_green_garlic",
           "grams": 40
         },
         {
-          "key": "mext_amazake",
+          "key": "mext_sake_lees",
           "grams": 30
         },
         {
@@ -17067,6 +17077,10 @@
         {
           "key": "water",
           "grams": 100
+        },
+        {
+          "key": "douban_branded",
+          "grams": 20
         }
       ],
       "food_proxies": [
@@ -17081,23 +17095,27 @@
           "reason": "明确干辣椒加水模型代理湿辣椒糊，非原配方测定"
         },
         {
-          "ingredient_key": "mext_chive",
-          "target": "蒜苗",
-          "reason": "同类葱蒜叶菜宏量近似"
+          "ingredient_key": "mext_sake_lees",
+          "target": "酒糟",
+          "reason": "谷物发酵酒粕固形物代理酒糟，非原发酵方式及含酒精量"
         },
         {
-          "ingredient_key": "mext_amazake",
-          "target": "酒糟",
-          "reason": "同类谷物发酵食品代理，固形物和酒精可能不同"
+          "ingredient_key": "douban_branded",
+          "target": "原文豆瓣酱",
+          "reason": "固定已核验李锦记辣豆酱代理，不能冒充贵州原品牌配方"
         }
       ],
       "default_for_artwork": false,
-      "note": "固定家庭鸡净腿肉600g（去骨去皮）、土豆300g；糍粑辣椒以干辣椒30g加配方水泡软捣碎的通用模型，蒜苗用韭菜净叶40g、酒糟用米发酵甜饮30g作食物组代理。浅煎后烧制，油45g仅指最终食用保留油，原炸锅两斤油不计；啤酒150g和全部酱汁计入、酒精损失未校正。省略香料包，成品1150g非实测，不冒充贵州原配料精确组成。",
+      "note": "家庭标准净去骨去皮鸡腿肉600g、土豆300g，干辣椒30g加所列水作为糍粑辣椒模型。蒜苗40g采用官方Allium sativum生叶茎，不再用韭菜；酒糟30g采用清酒酒粕固形物代理，不用米麴甜饮；补入原文豆瓣酱，以李锦记辣豆酱20g固定代理。油45g仅为最终保留食用油，原炸锅两斤油不计；啤酒150g及全部酱汁计入，酒精和烹饪损失未校正。省略香料包，成品1150g非实测。",
       "review": {
         "status": "approved",
-        "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
-        "source_checked": true
-      }
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "source_checked": true,
+        "reviewed_at": "2026-10-29T01:31:29.658Z"
+      },
+      "version": "2",
+      "supersedes_profile_id": "family-280e1f88f772-v1",
+      "change_reason": "蒜苗改为同种蒜叶茎，酒糟由甜饮改为酒粕，并显式纳入原文豆瓣酱。"
     },
     {
       "recipe_id": "howtocook-1bc98124aec5",
@@ -17191,7 +17209,10 @@
         "status": "approved",
         "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
         "source_checked": true
-      }
+      },
+      "version": "2",
+      "supersedes_profile_id": "family-1bc98124aec5-v1",
+      "change_reason": "原方案实际包含豆瓣与豆豉酱，修正sauce_added标记为true；食材、用量、成品重及四项营养计算保持不变。"
     },
     {
       "recipe_id": "howtocook-031354976c67",
@@ -17332,7 +17353,7 @@
       "final_g": 290,
       "ingredients": [
         {
-          "key": "krda_blanch_greens",
+          "key": "mext_flowering_greens_boiled",
           "grams": 250
         },
         {
@@ -17366,18 +17387,22 @@
       ],
       "food_proxies": [
         {
-          "ingredient_key": "krda_blanch_greens",
+          "ingredient_key": "mext_flowering_greens_boiled",
           "target": "焯熟菜心",
-          "reason": "同类熟叶菜代理，非菜心品种实测"
+          "reason": "熟花蕾与茎同类代理，栽培群不同，不视为菜心实测"
         }
       ],
       "default_for_artwork": false,
-      "note": "菜心采用已焯熟小白菜可食部代理；熟沥水菜净量250g单独称定，不从生菜重量推算出成率。油10g、生抽蚝油各5g、糖3g和盐2g，蒜12g辣椒3g，全部食用拌匀后理论总重290g。不同叶菜及焯水方式会有差异，不声称开花菜心实测。",
+      "note": "固定偏茎蕾的熟菜心模型，以MEXT焯熟油菜花蕾及茎作同类代理；同属Brassica rapa但不是同一栽培群，不宣称菜心实测，不适用于以大叶为主的不同配方。熟沥水菜净量250g独立设定，不从生重推算出成率；加油10g、生抽蚝油各5g、糖3g、盐2g、蒜12g、辣椒3g，全部拌匀后290g，无后续加热弃料。",
       "review": {
         "status": "approved",
-        "reviewer": "Codex generic food proxy and standardized quantity review; no human or provider sign-off claimed",
-        "source_checked": true
-      }
+        "reviewer": "Codex source and scope refinement; not human or provider sign-off",
+        "source_checked": true,
+        "reviewed_at": "2026-10-29T01:31:29.658Z"
+      },
+      "version": "2",
+      "supersedes_profile_id": "family-c8756846df80-v1",
+      "change_reason": "以熟花蕾和茎替换小白菜叶，细化部位及熟态，但仍保留栽培群代理限制。"
     }
   ]
 }

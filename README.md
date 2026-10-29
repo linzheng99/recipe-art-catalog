@@ -70,6 +70,8 @@ USDA搜索响应和食品快照使用无损 `.json.gz` 缓存，原有逻辑 `.j
 
 发布流程生成 `nutrition/changes.json` 和Actions作业摘要，记录本次营养方案变化；部署后自动核对线上JSON版本、覆盖和典型详情摘要。命令与更新策略见 [营养生成与审核说明](docs/NUTRITION.md)。
 
+2026-10-29复核全部21篇代理：6篇升级食材来源，1篇修正适用标记，其余保留可用估算和具体精化待办。新旧方案及来源见 [本轮精化说明](docs/NUTRITION_REFINEMENT.md)。
+
 ## 来源
 
 菜谱目录与引用文字来自 [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)，遵循上游 Unlicense。插画由 AI 独立生成，没有使用上游照片。
