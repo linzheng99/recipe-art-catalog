@@ -70,7 +70,7 @@ export function ArtworkDetail({
                 <dd>256 / 512 px · 透明 WebP</dd>
               </div>
             </dl>
-            <NutritionPanel item={nutritionItem} />
+            <NutritionPanel key={item.key} item={nutritionItem} />
             <div className="detail-downloads">
               {(["256", "512"] as const).map((size) => (
                 <Button

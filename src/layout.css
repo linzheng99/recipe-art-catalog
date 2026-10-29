@@ -530,6 +530,102 @@
   .nutrition-heading {
     font-weight: 500;
   }
+  .nutrition-amount {
+    display: grid;
+    grid-template-columns: auto 90px 1fr;
+    gap: 8px;
+    align-items: center;
+    margin-block: 12px 18px;
+  }
+  .nutrition-amount-input {
+    position: relative;
+  }
+  .nutrition-amount-input input {
+    padding-right: 22px;
+  }
+  .nutrition-amount-input span {
+    position: absolute;
+    right: 9px;
+    top: 6px;
+    color: var(--muted-foreground);
+    pointer-events: none;
+  }
+  .nutrition-presets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+  .nutrition-presets button {
+    padding-inline: 8px;
+  }
+  .nutrition-amount-help {
+    grid-column: 1 / -1;
+    font-size: 12px;
+    color: var(--muted-foreground);
+  }
+  .nutrition-amount-help[role="alert"] {
+    color: var(--destructive);
+  }
+  .nutrition-limits {
+    margin-top: 14px;
+    font-size: 12px;
+    color: var(--muted-foreground);
+    overflow-wrap: anywhere;
+  }
+  .nutrition-limits p + p {
+    margin-top: 5px;
+  }
+  .nutrition-explanation {
+    margin-top: 14px;
+    font-size: 12px;
+  }
+  .nutrition-explanation summary {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    padding-block: 4px;
+  }
+  .nutrition-explanation summary:focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 4px;
+    border-radius: 4px;
+  }
+  .nutrition-explanation summary svg {
+    width: 14px;
+    height: 14px;
+    transition: transform 150ms;
+  }
+  .nutrition-explanation[open] summary svg {
+    transform: rotate(180deg);
+  }
+  .nutrition-version {
+    margin-top: 8px;
+    color: var(--muted-foreground);
+    overflow-wrap: anywhere;
+  }
+  .nutrition-explanation .nutrition-source {
+    margin-right: 14px;
+  }
+  .nutrition-portion {
+    margin-top: 14px;
+    padding-block: 12px;
+    border-block: 1px solid var(--border);
+  }
+  .nutrition-portion > p {
+    font-weight: 500;
+  }
+  .nutrition-portion dl {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 18px;
+    margin-top: 8px;
+  }
+  .nutrition-portion dt {
+    color: var(--muted-foreground);
+    font-size: 12px;
+  }
   .nutrition-basis,
   .nutrition-notice,
   .nutrition-empty > p:first-child {

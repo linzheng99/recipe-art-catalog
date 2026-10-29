@@ -32,6 +32,12 @@ export interface ReferenceRecipe {
 }
 
 export interface NutritionReference {
+  final_weight?: { grams: number; is_measured?: boolean };
+  match?: {
+    brand?: string | null;
+    food_proxies?: { target: string; reference_name: string }[];
+  };
+  details?: { path: string; bytes: number; sha256: string };
   estimation_level?: "food_group_proxy";
   status: "unknown" | "reference";
   method?: "usda_direct" | "usda_recipe_estimate" | "recipe_estimate";
@@ -217,6 +223,32 @@ export function parseRecipeDescriptor(
 }
 
 export function parseNutrition(nutrition: unknown): NutritionReference {
+  if (record(nutrition)) {
+    if (
+      nutrition.final_weight !== undefined &&
+      (!record(nutrition.final_weight) ||
+        typeof nutrition.final_weight.grams !== "number" ||
+        !Number.isFinite(nutrition.final_weight.grams) ||
+        nutrition.final_weight.grams <= 0)
+    )
+      throw new Error("Invalid nutrition final weight");
+    if (
+      nutrition.match !== undefined &&
+      (!record(nutrition.match) ||
+        (nutrition.match.brand !== undefined &&
+          nutrition.match.brand !== null &&
+          typeof nutrition.match.brand !== "string") ||
+        (nutrition.match.food_proxies !== undefined &&
+          (!Array.isArray(nutrition.match.food_proxies) ||
+            !nutrition.match.food_proxies.every(
+              (p) =>
+                record(p) &&
+                typeof p.target === "string" &&
+                typeof p.reference_name === "string",
+            ))))
+    )
+      throw new Error("Invalid nutrition match");
+  }
   if (
     record(nutrition) &&
     nutrition.method !== undefined &&

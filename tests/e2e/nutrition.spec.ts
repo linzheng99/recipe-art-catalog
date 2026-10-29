@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Locator } from "@playwright/test";
 import { readFileSync } from "node:fs";
 
 const fixture = JSON.parse(
@@ -7,6 +7,19 @@ const fixture = JSON.parse(
     "utf8",
   ),
 );
+
+async function openEvidence(scope: Locator) {
+  const summaries = scope.locator("details.nutrition-explanation > summary");
+  await expect(summaries.first()).toBeVisible();
+  for (const summary of await summaries.all()) {
+    if (
+      !(await summary.evaluate(
+        (el) => (el.parentElement as HTMLDetailsElement).open,
+      ))
+    )
+      await summary.click();
+  }
+}
 
 for (const sample of [
   {
@@ -32,6 +45,7 @@ for (const sample of [
     const panel = page
       .getByRole("dialog")
       .getByRole("region", { name: "营养参考（同类食物估算）" });
+    await openEvidence(panel);
     await expect(
       panel.getByText(`约 ${sample.kcal} kcal / 100 g`, { exact: true }),
     ).toBeVisible();
@@ -96,6 +110,7 @@ test("韩国黄鳝来源的营养估算在详情中展示并保留家庭份范�
   const panel = page
     .getByRole("dialog")
     .getByRole("region", { name: "营养参考（配方估算）" });
+  await openEvidence(panel);
   await expect(
     panel.getByText("约 154.8 kcal / 100 g", { exact: true }),
   ).toBeVisible();
@@ -125,6 +140,7 @@ test("官方韭菜数据与USDA混合估算可展示，Mealora按原字段读取
   const panel = page
     .getByRole("dialog")
     .getByRole("region", { name: "营养参考（配方估算）" });
+  await openEvidence(panel);
   await expect(
     panel.getByText("约 138.6 kcal / 100 g", { exact: true }),
   ).toBeVisible();
@@ -178,7 +194,9 @@ test("糖醋里脊显示家庭份估算和成品保留油，维持每100g基准"
 }, testInfo) => {
   await page.goto("./?dish=sweet-sour-pork#catalog");
   const dialog = page.getByRole("dialog");
+  await openEvidence(dialog);
   const panel = dialog.getByRole("region", { name: "营养参考（配方估算）" });
+  await openEvidence(panel);
   await expect(
     panel.getByText("约 179.2 kcal / 100 g", { exact: true }),
   ).toBeVisible();
@@ -238,6 +256,7 @@ test("同图蒸蛋按不同家庭份方案显示，保留每100g基准和非实�
 }, testInfo) => {
   await page.goto("./?dish=steamed-egg#catalog");
   const dialog = page.getByRole("dialog");
+  await openEvidence(dialog);
   const panels = dialog.getByRole("region", { name: "营养参考（配方估算）" });
   await expect(panels).toHaveCount(2);
   for (const [recipe, grams, energy] of [
@@ -247,6 +266,7 @@ test("同图蒸蛋按不同家庭份方案显示，保留每100g基准和非实�
     const panel = panels.filter({
       has: page.getByText(`每100g可食部分 · ${recipe}`, { exact: true }),
     });
+    await openEvidence(panel);
     await expect(panel.getByText(energy, { exact: true })).toBeVisible();
     await expect(
       panel.getByText(
@@ -282,10 +302,12 @@ test("标准黄瓜及熟重燕麦展示完整营养和关键用量假设，米�
   ] as const) {
     await page.goto(`./?dish=${key}#catalog`);
     const dialog = page.getByRole("dialog");
+    await openEvidence(dialog);
     await expect(
       dialog.getByRole("heading", { name: title, exact: true, level: 2 }),
     ).toBeVisible();
     const panel = dialog.getByRole("region", { name: "营养参考（配方估算）" });
+    await openEvidence(panel);
     await expect(panel.getByText(energy, { exact: true })).toBeVisible();
     await expect(panel.getByText(scope)).toBeVisible();
     for (const label of ["蛋白质", "碳水化合物", "脂肪"])
@@ -302,6 +324,7 @@ test("标准黄瓜及熟重燕麦展示完整营养和关键用量假设，米�
   }
   await page.goto("./?dish=dish-cf3dabc066de#catalog");
   const dialog = page.getByRole("dialog");
+  await openEvidence(dialog);
   await expect(
     dialog.getByText("130 kcal / 100 g", { exact: true }),
   ).toBeVisible();
@@ -315,6 +338,7 @@ test("标准配方的营养显示约数、默认用量和估算标记，来源�
 }, testInfo) => {
   await page.goto("./?dish=dish-d051be3bc11e#catalog");
   const dialog = page.getByRole("dialog");
+  await openEvidence(dialog);
   await expect(
     dialog.getByRole("heading", { name: "糖拌西红柿", exact: true, level: 2 }),
   ).toBeVisible();
@@ -347,6 +371,7 @@ test("标准配方的营养显示约数、默认用量和估算标记，来源�
     ),
   ).toBe(true);
   const panel = dialog.getByRole("region", { name: "营养参考（配方估算）" });
+  await openEvidence(panel);
   await panel.scrollIntoViewIfNeeded();
   await panel.screenshot({
     path: testInfo.outputPath("tomato-sugar-estimate.png"),
@@ -358,6 +383,7 @@ test("限定方案明确做法，部分已知不会被缺失热量隐藏，零�
 }) => {
   await page.goto("./?dish=dish-7a681fba9fd0#catalog");
   const dialog = page.getByRole("dialog");
+  await openEvidence(dialog);
   await expect(
     dialog.getByText("暂无通用默认参考，以下数据仅适用于注明的做法。", {
       exact: true,
@@ -400,14 +426,18 @@ test("品牌配方打开详情后还原完整范围，保留未知默认与独�
   );
   await page.goto(`./?dish=${item.key}#catalog`);
   const dialog = page.getByRole("dialog");
+  await openEvidence(dialog);
   await expect(
     dialog.getByText("暂无通用默认参考，以下数据仅适用于注明的做法。", {
       exact: true,
     }),
   ).toBeVisible();
   const panel = dialog.getByRole("region", { name: "营养参考（配方估算）" });
+  await openEvidence(panel);
   await expect(
-    panel.getByText(/限定品牌：.*WEI-CHUAN GTIN 072869351029/),
+    panel
+      .locator(".detail-scope")
+      .filter({ hasText: /限定品牌：.*WEI-CHUAN GTIN 072869351029/ }),
   ).toBeVisible();
   await expect(panel.getByText(/味全皮蛋净可食部分150g/)).toBeVisible();
   await expect(
@@ -422,4 +452,86 @@ test("品牌配方打开详情后还原完整范围，保留未知默认与独�
       () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
   ).toBe(true);
+});
+
+test("食用克数换算保留每100g基准，支持自定义、小数、错误恢复与键盘展开依据", async ({
+  page,
+}, testInfo) => {
+  await page.emulateMedia({
+    colorScheme: testInfo.project.name === "mobile" ? "dark" : "light",
+  });
+  await page.goto("./?dish=tomato-egg#catalog");
+  const dialog = page.getByRole("dialog");
+  const panel = dialog.getByRole("region", { name: "营养参考（配方估算）" });
+  await expect(
+    panel.getByText("约 82.0 kcal / 100 g", { exact: true }),
+  ).toBeVisible();
+  const evidence = panel.locator("details");
+  await expect(evidence).not.toHaveAttribute("open", "");
+  await dialog.getByRole("button", { name: "150g", exact: true }).click();
+  const portion = panel.getByLabel("150g营养参考", { exact: true });
+  await expect(
+    portion.getByText("约 123.0 kcal", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    panel.getByText("约 82.0 kcal / 100 g", { exact: true }),
+  ).toBeVisible();
+  const amount = dialog.getByRole("spinbutton", { name: "食用量" });
+  await amount.fill("62.5");
+  await expect(
+    panel
+      .getByLabel("62.5g营养参考")
+      .getByText("约 51.2 kcal", { exact: true }),
+  ).toBeVisible();
+  for (const bad of ["", "0", "-5"]) {
+    await amount.fill(bad);
+    await expect(amount).toHaveAttribute("aria-invalid", "true");
+    await expect(dialog.getByRole("alert")).toContainText("有效克数");
+    await expect(panel.locator(".nutrition-portion")).toHaveCount(0);
+  }
+  await dialog.getByRole("button", { name: "200g", exact: true }).click();
+  await expect(amount).toHaveValue("200");
+  await expect(amount).toHaveAttribute("aria-invalid", "false");
+  await expect(
+    panel
+      .getByLabel("200g营养参考")
+      .getByText("约 164.0 kcal", { exact: true }),
+  ).toBeVisible();
+  const summary = evidence.locator("summary");
+  await summary.focus();
+  await page.keyboard.press("Enter");
+  await expect(evidence).toHaveJSProperty("open", true);
+  await expect(panel.getByText(/红熟番茄400g/)).toBeVisible();
+  await expect(
+    panel.getByRole("link", { name: "完整营养依据（JSON）" }),
+  ).toHaveAttribute("href", /^assets\/nutrition\//);
+  await page.keyboard.press("Space");
+  await expect(evidence).toHaveJSProperty("open", false);
+  await expect(panel.getByText(/成品约500g（假设）/)).toBeVisible();
+  await dialog.locator(".nutrition-amount").scrollIntoViewIfNeeded();
+  await dialog.screenshot({
+    path: testInfo.outputPath("nutrition-portion.png"),
+  });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
+
+test("同图两篇配方分别换算，切换菜品不沿用上一道的克数", async ({ page }) => {
+  await page.goto("./?dish=steamed-egg#catalog");
+  const dialog = page.getByRole("dialog");
+  await expect(
+    dialog.getByText("每100g可食部分 · 蒸水蛋", { exact: true }),
+  ).toBeVisible();
+  await dialog.getByRole("button", { name: "200g", exact: true }).click();
+  const portions = dialog.getByLabel("200g营养参考", { exact: true });
+  await expect(portions).toHaveCount(2);
+  await expect(portions.nth(0)).toContainText("119.2 kcal");
+  await expect(portions.nth(1)).toContainText("140.5 kcal");
+  await page.goto("./?dish=tomato-egg#catalog");
+  await expect(page.getByRole("spinbutton", { name: "食用量" })).toHaveValue(
+    "100",
+  );
 });
